@@ -12,3 +12,10 @@ Fetching from http://116.196.64.187:8081/api/
 Feed error: text/html; charset=UTF-8 is not an XML media type
 append_entries: 0
 error when rendering xml, skip docs/dapeng-test
+------------------------------------------------------
+Started: 2024-04-22 14:09:31.982689
+Existing_entries: 0
+Fetching from http://116.196.64.187:8081/api/
+Feed error: text/html; charset=UTF-8 is not an XML media type
+append_entries: 0
+error when rendering xml, skip docs/dapeng-test
