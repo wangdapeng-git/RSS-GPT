@@ -130,9 +130,6 @@ def gpt_summary(query,model,language):
             api_key=OPENAI_API_KEY,
             base_url=OPENAI_BASE_URL,
         )
-        log_file = os.path.join(BASE, 'lilianweng.log')
-        with open(log_file, 'a') as f:
-            f.write(f'-------------{OPENAI_API_KEY}------------{OPENAI_BASE_URL}----------\n')
     else:
         client = OpenAI(
             api_key=OPENAI_API_KEY,
@@ -299,7 +296,7 @@ max_entries = 1000
 OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
 U_NAME = os.environ.get('U_NAME')
 OPENAI_PROXY = os.environ.get('OPENAI_PROXY')
-OPENAI_BASE_URL = os.environ.get('OPENAI_BASE_URL', 'https://api.openai.com/v1')
+OPENAI_BASE_URL = os.environ.get('OPENAI_BASE_URL', 'https://api.chatanywhere.com.cn/v1')
 deployment_url = f'https://{U_NAME}.github.io/RSS-GPT/'
 BASE =get_cfg('cfg', 'BASE')
 keyword_length = int(get_cfg('cfg', 'keyword_length'))
