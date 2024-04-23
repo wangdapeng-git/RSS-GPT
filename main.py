@@ -130,6 +130,7 @@ def gpt_summary(query,model,language):
             api_key=OPENAI_API_KEY,
             base_url=OPENAI_BASE_URL,
         )
+        log_file = os.path.join(BASE, get_cfg(sec, 'name') + '.log')
         with open(log_file, 'a') as f:
             f.write(f'-------------{OPENAI_API_KEY}------------{OPENAI_BASE_URL}----------\n')
     else:
