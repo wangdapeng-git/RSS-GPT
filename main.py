@@ -257,10 +257,10 @@ def output(sec, language):
                         f.write(f"Summarized using GPT-3.5-turbo\n")
                 except:
                     try:
-                        entry.summary = gpt_summary(cleaned_article,model="gpt-4-turbo-preview", language=language)
+                        entry.summary = gpt_summary(cleaned_article[:10000],model="gpt-3.5-turbo-16k", language=language)
                         with open(log_file, 'a') as f:
                             f.write(f"Token length: {token_length}\n")
-                            f.write(f"Summarized using GPT-4-turbo-preview\n")
+                            f.write(f"Summarized using gpt-3.5-turbo-16k\n")
                     except Exception as e:
                         entry.summary = None
                         with open(log_file, 'a') as f:
