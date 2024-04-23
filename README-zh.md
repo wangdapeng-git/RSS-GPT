@@ -53,4 +53,4 @@
 
 <a href="https://www.buymeacoffee.com/yinan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-- http://116.196.64.187:8081/i/?a=rss&user=erebus&token=erebus_rss&hours=168 -> https://wangdapeng-git.github.io/RSS-GPT/dapeng-test.xml
+- https://lilianweng.github.io/index.xml -> https://wangdapeng-git.github.io/RSS-GPT/lilianweng.xml

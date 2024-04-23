@@ -54,4 +54,4 @@ These feeds on hosted in the [`docs/` subdirectory](https://github.com/yinan-c/R
 
 I will consider hosting more feeds in the future. Email me or submit an issue if there are any questions using the script or any suggestions.
 
-- http://116.196.64.187:8081/i/?a=rss&user=erebus&token=erebus_rss&hours=168 -> https://wangdapeng-git.github.io/RSS-GPT/dapeng-test.xml
+- https://lilianweng.github.io/index.xml -> https://wangdapeng-git.github.io/RSS-GPT/lilianweng.xml
