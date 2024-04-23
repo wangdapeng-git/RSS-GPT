@@ -4,6 +4,184 @@
 <title>首页 | FreshRSS</title>
 <link>http://116.196.64.187:8081</link>
 
+<item>
+<title>生成扩散模型漫谈（二十三）：信噪比与大图生成（下）</title>
+<link>https://kexue.fm/archives/10055</link>
+<guid>https://kexue.fm/archives/10055</guid>
+<content:encoded><![CDATA[
+
+<p>上一篇文章<a href="https://kexue.fm/archives/10047" target="_blank">《生成扩散模型漫谈（二十二）：信噪比与大图生成（上）》</a>中，我们介绍了通过对齐低分辨率的信噪比来改进noise schedule，从而改善直接在像素空间训练的高分辨率图像生成（大图生成）的扩散模型效果。而这篇文章的主角同样是信噪比和大图生成，但做到了更加让人惊叹的事情——直接将训练好低分辨率图像的扩散模型用于高分辨率图像生成，不用额外的训练，并且效果和推理成本都媲美直接训练的大图模型！</p><p>这个工作出自最近的论文<a href="https://arxiv.org/abs/2404.01709" target="_blank">《Upsample Guidance: Scale Up Diffusion Models without Training》</a>，它巧妙地将低分辨率模型上采样作为引导信号，并结合了CNN对纹理细节的平移不变性，成功实现了免训练高分辨率图像生成。</p><h2>思想探讨</h2><p>我们知道，扩散模型的训练目标是去噪（Denoise，也是DDPM的第一个D）。按我们的直觉，去噪这个任务应该是分辨率无关的，换句话说，理想情况下低分辨率图像训练的去噪模型应该也能用于高分辨率图像去噪，从而低分辨率的扩散模型应该也能直接用于高分辨率图像生成。</p><p><a href="https://kexue.fm/archives/10055" title="生成扩散模型漫谈（二十三）：信噪比与大图生成（下）">[...]</a></p>
+]]></content:encoded>
+<pubDate>Wed, 17 Apr 2024 16:59:00 +0800</pubDate>
+<pubDate>Wed, 17 Apr 2024 16:59:00 +0800</pubDate>
+</item>
+<item>
+<title>生成扩散模型漫谈（二十二）：信噪比与大图生成（上）</title>
+<link>https://kexue.fm/archives/10047</link>
+<guid>https://kexue.fm/archives/10047</guid>
+<content:encoded><![CDATA[
+
+<p>盘点主流的图像扩散模型作品，我们会发现一个特点：当前多数做高分辨率图像生成（下面简称“大图生成”）的工作，都是先通过Encoder变换到Latent空间进行的（即LDM，<a href="https://arxiv.org/abs/2112.10752" target="_blank">Latent Diffusion Model</a>），直接在原始Pixel空间训练的扩散模型，大多数分辨率都不超过64*64，而恰好，LDM通过AutoEncoder变换后的Latent，大小通常也不超过64*64。这就自然引出了一系列问题：扩散模型是不是对于高分辨率生成存在固有困难？能否在Pixel空间直接生成高分辨率图像？</p><p>论文<a href="https://arxiv.org/abs/2301.11093" target="_blank">《Simple diffusion: End-to-end diffusion for high resolution images》</a>尝试回答了这个问题，它通过“信噪比”分析了大图生成的困难，并以此来优化noise schdule，同时提出只需在最低分辨率feature上对架构进行scale up、多尺度Loss等技巧来保证训练效率和效果，这些改动使得原论文成功在Pixel空间上训练了分辨率高达1024*1024的图像扩散模型。</p><p><a href="https://kexue.fm/archives/10047" title="生成扩散模型漫谈（二十二）：信噪比与大图生成（上）">[...]</a></p>
+]]></content:encoded>
+<pubDate>Mon, 08 Apr 2024 16:01:00 +0800</pubDate>
+<pubDate>Mon, 08 Apr 2024 16:01:00 +0800</pubDate>
+</item>
+<item>
+<title>Transformer升级之路：17、多模态编码位置的简单思考</title>
+<link>https://kexue.fm/archives/10040</link>
+<guid>https://kexue.fm/archives/10040</guid>
+<content:encoded><![CDATA[
+
+<p>在这个系列的第二篇文章<a href="https://kexue.fm/archives/8265" target="_blank">《Transformer升级之路：2、博采众长的旋转式位置编码》</a>中，笔者提出了旋转位置编码（RoPE）——通过绝对位置的形式实现相对位置编码的方案。一开始RoPE是针对一维序列如文本、音频等设计的（RoPE-1D），后来在<a href="https://kexue.fm/archives/8397" target="_blank">《Transformer升级之路：4、二维位置的旋转式位置编码》</a>中我们将它推广到了二维序列（RoPE-2D），这适用于图像的ViT。然而，不管是RoPE-1D还是RoPE-2D，它们的共同特点都是单一模态，即纯文本或者纯图像输入场景，那么对于多模态如图文混合输入场景，RoPE该做如何调整呢？</p><p>笔者搜了一下，发现鲜有工作讨论这个问题，主流的做法似乎都是直接展平所有输入，然后当作一维输入来应用RoPE-1D，因此连RoPE-2D都很少见。且不说这种做法会不会成为图像分辨率进一步提高时的效果瓶颈，它终究是显得不够优雅。所以，接下来我们试图探寻两者的一个自然结合。</p><h2>旋转位置</h2><p>RoPE名称中的“旋转”一词，来源于旋转矩阵$\boldsymbol{\mathcal{R}}_n=\begin{pmatrix}\cos n\theta &amp; -\sin n\theta\\ \sin n\theta &amp; \cos n\theta\end{pmatrix}$，它满足<br />
+\begin{equation}\boldsymbol{\mathcal{R}}_m^{\top}\boldsymbol{\mathcal{R}}_n=\boldsymbol{\mathcal{R}}_{n-m}\end{equation}</p><p><a href="https://kexue.fm/archives/10040" title="Transformer升级之路：17、多模态编码位置的简单思考">[...]</a></p>
+]]></content:encoded>
+<pubDate>Fri, 29 Mar 2024 20:04:00 +0800</pubDate>
+<pubDate>Fri, 29 Mar 2024 20:04:00 +0800</pubDate>
+</item>
+<item>
+<title>时空之章：将Attention视为平方复杂度的RNN</title>
+<link>https://kexue.fm/archives/10017</link>
+<guid>https://kexue.fm/archives/10017</guid>
+<content:encoded><![CDATA[
+
+<p>近年来，RNN由于其线性的训练和推理效率，重新吸引了不少研究人员和用户的兴趣，隐约有“文艺复兴”之势，其代表作有<a href="https://arxiv.org/abs/2305.13048" target="_blank">RWKV</a>、<a href="https://arxiv.org/abs/2307.08621" target="_blank">RetNet</a>、<a href="https://arxiv.org/abs/2312.00752" target="_blank">Mamba</a>等。当将RNN用于语言模型时，其典型特点就是每步生成都是常数的空间复杂度和时间复杂度，从整个序列看来就是常数的空间复杂度和线性的时间复杂度。当然，任何事情都有两面性，相比于Attention动态增长的KV Cache，RNN的常数空间复杂度通常也让人怀疑记忆容量有限，在Long Context上的效果很难比得上Attention。</p><p>在这篇文章中，我们表明Causal Attention可以重写成RNN的形式，并且它的每一步生成理论上也能够以$\mathscr{O}(1)$的空间复杂度进行（代价是时间复杂度非常高，远超平方级）。这表明Attention的优势（如果有的话）是靠计算堆出来的，而不是直觉上的堆内存，它跟RNN一样本质上都是常数量级的记忆容量（记忆瓶颈）。</p><p><a href="https://kexue.fm/archives/10017" title="时空之章：将Attention视为平方复杂度的RNN">[...]</a></p>
+]]></content:encoded>
+<pubDate>Mon, 18 Mar 2024 14:52:00 +0800</pubDate>
+<pubDate>Mon, 18 Mar 2024 14:52:00 +0800</pubDate>
+</item>
+<item>
+<title>用傅立叶级数拟合一维概率密度函数</title>
+<link>https://kexue.fm/archives/10007</link>
+<guid>https://kexue.fm/archives/10007</guid>
+<content:encoded><![CDATA[
+
+<p>在<a href="https://kexue.fm/archives/9984" target="_blank">《“闭门造车”之多模态模型方案浅谈》</a>中我们曾提到，图像生成的本质困难是没有一个连续型概率密度的万能拟合器。当然，也不能说完全没有，比如高斯混合模型（GMM）理论上就是可以拟合任意概率密度，就连GAN本质上也可以理解为混合了无限个高斯模型的GMM。然而，GMM尽管理论上的能力是足够的，但它的最大似然估计会很困难，尤其是通常不适用基于梯度的优化器，这限制了它的使用场景。</p><p>近日，Google的一篇新论文<a href="https://arxiv.org/abs/2402.15345" target="_blank">《Fourier Basis Density Model》</a>针对一维情形，提出了一个新的解决方案——用傅立叶级数来拟合。论文的分析过程颇为有趣，构造形式也很是巧妙，值得学习一番。</p><h2>问题简述</h2><p>可能有读者质疑：只研究一维情形有什么价值？确实，如果只考虑图像生成场景，那可能真的价值有限，但一维概率密度估计本身有它的应用价值，如数据的有损压缩，所以它依然是一个值得研究的主题。再者，即便我们需要研究多维的概率密度，也可以通过自回归的方式转化为多个一维的条件概率密度来估计。最后，这个分析和构造过程本身就很值得回味，所以哪怕是仅仅作为一道数学分析题来练习也是相当有益的。</p><p><a href="https://kexue.fm/archives/10007" title="用傅立叶级数拟合一维概率密度函数">[...]</a></p>
+]]></content:encoded>
+<pubDate>Thu, 07 Mar 2024 12:02:00 +0800</pubDate>
+<pubDate>Thu, 07 Mar 2024 12:02:00 +0800</pubDate>
+</item>
+<item>
+<title>配置不同的学习率，LoRA还能再涨一点？</title>
+<link>https://kexue.fm/archives/10001</link>
+<guid>https://kexue.fm/archives/10001</guid>
+<content:encoded><![CDATA[
+
+<p>LoRA（Low-Rank Adaptation）是当前LLM的参数高效微调手段之一，此前我们在<a href="https://kexue.fm/archives/9590" target="_blank">《梯度视角下的LoRA：简介、分析、猜测及推广》</a>也有过简单讨论。这篇文章我们来学习LoRA的一个新结论：</p><strong>给LoRA的两个矩阵分配不同的学习率，LoRA的效果还能进一步提升。</strong><p>该结论出自最近的论文<a href="https://arxiv.org/abs/2402.12354" target="_blank">《LoRA+: Efficient Low Rank Adaptation of Large Models》</a>（下称“LoRA+”）。咋看之下，该结论似乎没有什么特别的，因为配置不同的学习率相当于引入了新的超参数，通常来说只要引入并精调超参数都会有提升。“LoRA+”的特别之处在于，它从理论角度肯定了这个必要性，并且断定最优解必然是右矩阵的学习率大于左矩阵的学习率。简而言之，“LoRA+”称得上是理论指导训练并且在实践中确实有效的经典例子，值得仔细学习一番。</p><h2>结论简析</h2><p>假设预训练参数为$W_0 \in \mathbb{R}^{n\times m}$，如果使用全量参数微调，那么增量也是一个$n\times m$矩阵。为了降低参数量，LoRA将更新量约束为低秩矩阵，即设$W=W_0 + AB$，其中$A\in\mathbb{R}^{n\times r},B\in\mathbb{R}^{r\times m},r\ll \min(n,m)$，用新的$W$替换模型原有参数，然后固定$W_0$不变，训练的时候只更新$A,B$，如下图所示：<br />
+$$\style{display: inline-block; width: 24ex; padding: 10ex 0; border: 1px solid #6C8EBF; background-color: #DAE8FC}{W_0\in\mathbb{R}^{n\times m}} \quad + \quad \style{display: inline-block; width: 8ex; padding: 10ex 0; border: 1px solid #D79B00; background-color: #FFE6CC}{A\in\mathbb{R}^{n\times r}}\quad\times\quad \style{display: inline-block; width: 24ex; padding: 3ex 0; border: 1px solid #D79B00; background-color: #FFE6CC}{B\in\mathbb{R}^{r\times m}}$$</p><p><a href="https://kexue.fm/archives/10001" title="配置不同的学习率，LoRA还能再涨一点？">[...]</a></p>
+]]></content:encoded>
+<pubDate>Tue, 27 Feb 2024 16:46:00 +0800</pubDate>
+<pubDate>Tue, 27 Feb 2024 16:46:00 +0800</pubDate>
+</item>
+<item>
+<title>“闭门造车”之多模态模型方案浅谈</title>
+<link>https://kexue.fm/archives/9984</link>
+<guid>https://kexue.fm/archives/9984</guid>
+<content:encoded><![CDATA[
+
+<p>这篇文章分享一下笔者关于多模态模型架构的一些闭门造车的想法，或者说一些猜测。</p><p>最近Google的<a href="https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/" target="_blank">Gemini 1.5</a>和OpenAI的<a href="https://openai.com/sora" target="_blank">Sora</a>再次点燃了不少人对多模态的热情，只言片语的技术报告也引起了大家对其背后模型架构的热烈猜测。不过，本文并非是为了凑这个热闹才发出来的，事实上其中的一些思考由来已久，最近才勉强捋顺了一下，遂想写出来跟大家交流一波，刚好碰上了两者的发布。</p><p>事先声明，“闭门造车”一词并非自谦，笔者的大模型实践本就“乏善可陈”，而多模态实践更是几乎“一片空白”，本文确实只是根据以往文本生成和图像生成的一些经验所做的“主观臆测”。</p><h2>问题背景</h2><p>首先简化一下问题，本文所讨论的多模态，主要指图文混合的双模态，即输入和输出都可以是图文。可能有不少读者的第一感觉是：多模态模型难道不也是烧钱堆显卡，Transformer“一把梭”，最终“大力出奇迹”吗？</p><p><a href="https://kexue.fm/archives/9984" title="“闭门造车”之多模态模型方案浅谈">[...]</a></p>
+]]></content:encoded>
+<pubDate>Wed, 21 Feb 2024 16:15:00 +0800</pubDate>
+<pubDate>Wed, 21 Feb 2024 16:15:00 +0800</pubDate>
+</item>
+<item>
+<title>更便捷的Cool Papers打开方式：Chrome重定向扩展</title>
+<link>https://kexue.fm/archives/9978</link>
+<guid>https://kexue.fm/archives/9978</guid>
+<content:encoded><![CDATA[
+
+<h2>一些铺垫</h2><p>自Cool Papers上线以来，很多用户就建议笔者加入搜索功能，后面也确实在前端用JS简单做了个页面内搜索，解决了部分用户的需求，但仍有读者希望引入更完整的全局搜索。诚然，笔者理解这个需求确实是存在，但Cool Papers的数据是逐天累积的，目前才上线一个月，论文数并不多，建立一个大而全的搜索引擎意义不大，其次做搜索也不是笔者的强项，以及并没有很好的利用LLM优化搜索的思路，等等。总而言之，暂时没有条件实现一个全面而又有特色的搜索，所以不如不做（也欢迎大家在评论区集思广益）。</p><p>后来，经过和同事讨论，想出了一个“借花献佛”的思路——写一个Chrome的重定向扩展，可以从任意页面重定向到Cool Papers。这样我们可以用任意方式（如Google搜索或者直接Arxiv官方搜索）找到Arxiv上的论文，然后右击一下就转到Cool Papers了。前两周这个扩展已经在Chrome应用商店上线，上周服务器配合做了一些调整，如今大家可以尝试使用了。</p><strong>扩展地址：<a href="https://chromewebstore.google.com/detail/cool-papers-redirector/goopbgbhhhionbpfdkkblnbeopfmlihm" target="_blank">Cool Papers Redirector</a></strong><p></p><p><a href="https://kexue.fm/archives/9978" title="更便捷的Cool Papers打开方式：Chrome重定向扩展">[...]</a></p>
+]]></content:encoded>
+<pubDate>Fri, 02 Feb 2024 10:06:00 +0800</pubDate>
+<pubDate>Fri, 02 Feb 2024 10:06:00 +0800</pubDate>
+</item>
+<item>
+<title>幂等生成网络IGN：试图将判别和生成合二为一的GAN</title>
+<link>https://kexue.fm/archives/9969</link>
+<guid>https://kexue.fm/archives/9969</guid>
+<content:encoded><![CDATA[
+
+<p>前段时间，一个名为“<a href="https://arxiv.org/abs/2311.01462" target="_blank">幂等生成网络（Idempotent Generative Network，IGN）</a>”的生成模型引起了一定的关注。它自称是一种独立于已有的VAE、GAN、flow、Diffusion之外的新型生成模型，并且具有单步采样的特点。也许是大家苦于当前主流的扩散模型的多步采样生成过程久矣，因此任何声称可以实现单步采样的“风吹草动”都很容易吸引人们的关注。此外，IGN名称中的“幂等”一词也增加了它的神秘感，进一步扩大了人们的期待，也成功引起了笔者的兴趣，只不过之前一直有别的事情要忙，所以没来得及认真阅读模型细节。</p><p>最近闲了一点，想起来还有个IGN没读，于是重新把论文翻了出来，但阅读之后却颇感困惑：这哪里是个新模型，不就是个GAN的变种吗？跟常规GAN不同的是，它将生成器和判别器合二为一了。那这个“合二为一”是不是有什么特别的好处，比如训练更稳定？个人又感觉没有。下面将分享笔者从GAN角度理解IGN的过程和疑问。</p><h2>生成对抗</h2><p>关于GAN（Generative Adversarial Network，生成对抗网络），笔者前几年系统地学习过一段时间（查看<a href="https://kexue.fm/tag/GAN/" target="_blank">GAN</a>标签可以查看到相关文章），但近几年没有持续地关注了，因此这里先对GAN做个简单的回顾，也方便后续章节中我们对比GAN与IGN之间的异同。</p><p><a href="https://kexue.fm/archives/9969" title="幂等生成网络IGN：试图将判别和生成合二为一的GAN">[...]</a></p>
+]]></content:encoded>
+<pubDate>Wed, 31 Jan 2024 17:36:00 +0800</pubDate>
+<pubDate>Wed, 31 Jan 2024 17:36:00 +0800</pubDate>
+</item>
+<item>
+<title>Transformer升级之路：16、“复盘”长度外推技术</title>
+<link>https://kexue.fm/archives/9948</link>
+<guid>https://kexue.fm/archives/9948</guid>
+<content:encoded><![CDATA[
+
+<p>回过头来看，才发现从第7篇<a href="https://kexue.fm/archives/9431" target="_blank">《Transformer升级之路：7、长度外推性与局部注意力》</a>开始，“<a href="https://kexue.fm/search/Transformer%E5%8D%87%E7%BA%A7%E4%B9%8B%E8%B7%AF/" target="_blank">Transformer升级之路</a>”这个系列就跟长度外推“杠”上了，接连9篇文章（不算本文）都是围绕长度外推展开的。如今，距离第7篇文章刚好是一年多一点，在这一年间，开源社区关于长度外推的研究有了显著进展，笔者也逐渐有了一些自己的理解，比如其实这个问题远不像一开始想象那么简单，以往很多基于局部注意力的工作也不总是有效，这暗示着很多旧的分析工作并没触及问题的核心。</p><p>在这篇文章中，笔者尝试结合自己的发现和认识，去“复盘”一下主流的长度外推结果，并试图从中发现免训练长度外推的关键之处。</p><h2>问题定义</h2><p>顾名思义，免训练长度外推，就是不需要用长序列数据进行额外的训练，只用短序列语料对模型进行训练，就可以得到一个能够处理和预测长序列的模型，即“Train Short, Test Long”。那么如何判断一个模型能否用于长序列呢？最基本的指标就是模型的长序列Loss或者PPL不会爆炸，更加符合实践的评测则是输入足够长的Context，让模型去预测答案，然后跟真实答案做对比，算BLEU、ROUGE等，<a href="https://arxiv.org/abs/2308.14508" target="_blank">LongBench</a>就是就属于这类榜单。</p><p><a href="https://kexue.fm/archives/9948" title="Transformer升级之路：16、“复盘”长度外推技术">[...]</a></p>
+]]></content:encoded>
+<pubDate>Fri, 26 Jan 2024 16:09:00 +0800</pubDate>
+<pubDate>Fri, 26 Jan 2024 16:09:00 +0800</pubDate>
+</item>
+<item>
+<title>铁路的卖票是不是在贩卖焦虑?</title>
+<link>https://www.v2ex.com/t/1034733</link>
+<guid>https://www.v2ex.com/t/1034733</guid>
+<content:encoded><![CDATA[
+
+TNOK: 遇到过的情况：<br />1.同一趟列车，长途票卖，短途票不卖，必须等到快发车几天才放短途票<br />2.发售日就不放票<br /><br />对于第一种，是不是过于功利了？早想着买票的还可能会买不到<br />对于第二种，你不放票你告诉 XX 日 xx 时开始放票干啥？<br /><br />对于出行都比较有计划的人来说很不友好，候补也不一定能候补到<br />而且如果真的所有空位都卖光，那么一定会有人没买到票
+]]></content:encoded>
+<pubDate>Mon, 22 Apr 2024 19:26:00 +0800</pubDate>
+<pubDate>Mon, 22 Apr 2024 19:26:00 +0800</pubDate>
+</item>
+<item>
+<title>一个好的简约博客大概是什么样的呢？</title>
+<link>https://www.v2ex.com/t/1034691</link>
+<guid>https://www.v2ex.com/t/1034691</guid>
+<content:encoded><![CDATA[
+
+xiaopanglian: <p>我看网上很多博客设计，都不是很好看，前几天看到 V 站一个大佬开源的产品，然后看到他的个人博客，感觉挺好看的，<a href="https://xblog.io/" rel="nofollow">https://xblog.io/</a>，这种简约博客我感觉就非常喜欢，有没有其他的类似的博客页面可以参考下呢？</p>
+]]></content:encoded>
+<pubDate>Mon, 22 Apr 2024 17:15:00 +0800</pubDate>
+<pubDate>Mon, 22 Apr 2024 17:15:00 +0800</pubDate>
+</item>
+<item>
+<title>什么工作越老越吃香</title>
+<link>https://www.v2ex.com/t/1034614</link>
+<guid>https://www.v2ex.com/t/1034614</guid>
+<content:encoded><![CDATA[
+
+198plus: <p>现在的情况程序员感觉跟卖肉的差不多，都是吃青春饭。</p>
+<p>那么什么工作不会随年龄增长而薪水不会缩水或被淘汰的呢？</p>
+<p>（或者说工作经验越丰富而越受尊重？）</p>
+<p>现状 IT 就是 35 岁左右滚蛋的多！</p>
+]]></content:encoded>
+<pubDate>Mon, 22 Apr 2024 14:26:00 +0800</pubDate>
+<pubDate>Mon, 22 Apr 2024 14:26:00 +0800</pubDate>
+</item>
+<item>
+<title>Redis 几乎每小时都出现大量超时，求助</title>
+<link>https://www.v2ex.com/t/1034586</link>
+<guid>https://www.v2ex.com/t/1034586</guid>
+<content:encoded><![CDATA[
+
+drymonfidelia: <p>报错信息是 <code>Timeout awaiting response (outbound=1KiB, inbound=0KiB, 5728ms elapsed, timeout is 5000ms), command=SET, next: EVAL, inst: 0, qu: 0, qs: 15, aw: False, bw: SpinningDown, rs: ReadAsync, ws: Idle, in: 76, in-pipe: 0, out-pipe: 0, serverEndpoint: 127.0.0.1:6379, mc: 1/1/0, mgr: 10 of 10 available, clientName: AppProductionEnvServer1(SE.Redis- v2.5.43.42402), IOCP: (Busy=0,Free=10000,Min=9000,Max=10000), WORKER: (Busy=236,Free=32531,Min=10000,Max=32767), POOL: (Threads=236,Queueditems=50,Completeditems=8751117254), v: 2.5.43.42402 (Please take a look at this article for some common client-side issues that can cause timeouts: <a href="https://stackexchange.github.io/StackExchange.Redis/Timeouts" rel="nofollow">https://stackexchange.github.io/StackExchange.Redis/Timeouts</a>)</code></p>
+<p>出错的时候看了下也就三百多并发，比较怀疑是下面这段代码引起的：</p>
+<pre><code>   while (!await redis.GetDatabase().LockTakeAsync($"PlaceOrder:{user.UserId}", "1", TimeSpan.FromSeconds(180)))
+        {
+            await Task.Delay(1);
+        }
+</code></pre>
+<p>作用是确保同一用户只有一个订单未写入数据库（系统下单逻辑涉及几十个函数，全是一些莫名奇妙的判断逻辑，混淆后可读性大幅提升的那种（当然是开玩笑的）），屎山作者已经跑路了，没人能看懂他代码，一个用户下多个订单数据会混乱。更牛逼的这套系统除了性能极差，运行 3 年没出错一次。一次调用 API 只能下一单，客户端随硬件交付，已经写死了，不能更新，然后客户端一次多少个订单就多少并发调用 API 提交，没有队列功能。目前要求 500 订单 10 秒内全部下单完成返回订单号（单独提交的话每个订单 0.01 秒左右能写入完数据拿到订单号）。</p>
+<p>预分配订单号行不通，不运行一遍这部分屎山代码不能确定这个订单能不能提交，返回订单号就代表这个订单提交成功了，不能取消。目前打算改造成 Sub/Pub ，不知道能不能提升性能，或者 V 友有没有更好的改造方案？只要能让这屎山跑起来就行，代码多脏都没关系，改动需要尽可能小，不能把系统改炸。目前加硬件到 256GB 内存都没解决。</p>
+]]></content:encoded>
+<pubDate>Mon, 22 Apr 2024 13:35:00 +0800</pubDate>
+<pubDate>Mon, 22 Apr 2024 13:35:00 +0800</pubDate>
+</item>
+<item>
+<title>窗户隔音方案讨论。</title>
+<link>https://www.v2ex.com/t/1034505</link>
+<guid>https://www.v2ex.com/t/1034505</guid>
+<content:encoded><![CDATA[
+
+brokensword2018: <p>目前租的房子，窗户隔音不好。 早上车声，人声啥的太吵了，影响睡觉。有什么隔音方案推荐吗，隔音窗户不考虑，成本太高，主要是租的房子。隔音窗帘不靠谱。目前想了飘窗上塞满海绵  和  在屋子里弄一个隔音舱的方案。</p>
+]]></content:encoded>
+<pubDate>Mon, 22 Apr 2024 10:15:00 +0800</pubDate>
+<pubDate>Mon, 22 Apr 2024 10:15:00 +0800</pubDate>
+</item>
 
 <item>
 <title>你们最长 gap 多久？</title>

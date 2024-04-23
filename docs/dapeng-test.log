@@ -97,3 +97,28 @@ Existing_entries: 21
 Fetching from http://116.196.64.187:8081/i/?a=rss&user=erebus&token=erebus_rss&hours=168
 append_entries: 0
 Finish: 2024-04-23 02:55:52.390629
+------------------------------------------------------
+Started: 2024-04-23 03:19:55.444271
+Existing_entries: 21
+Fetching from http://116.196.64.187:8081/i/?a=rss&user=erebus&token=erebus_rss&hours=168
+Summarization failed, append the original article
+error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-CNue4***************************************yFTH. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Append: [生成扩散模型漫谈（二十三）：信噪比与大图生成（下）](https://kexue.fm/archives/10055)
+Summarization failed, append the original article
+error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-CNue4***************************************yFTH. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Append: [生成扩散模型漫谈（二十二）：信噪比与大图生成（上）](https://kexue.fm/archives/10047)
+Append: [Transformer升级之路：17、多模态编码位置的简单思考](https://kexue.fm/archives/10040)
+Append: [时空之章：将Attention视为平方复杂度的RNN](https://kexue.fm/archives/10017)
+Append: [用傅立叶级数拟合一维概率密度函数](https://kexue.fm/archives/10007)
+Append: [配置不同的学习率，LoRA还能再涨一点？](https://kexue.fm/archives/10001)
+Append: [“闭门造车”之多模态模型方案浅谈](https://kexue.fm/archives/9984)
+Append: [更便捷的Cool Papers打开方式：Chrome重定向扩展](https://kexue.fm/archives/9978)
+Append: [幂等生成网络IGN：试图将判别和生成合二为一的GAN](https://kexue.fm/archives/9969)
+Append: [Transformer升级之路：16、“复盘”长度外推技术](https://kexue.fm/archives/9948)
+Append: [铁路的卖票是不是在贩卖焦虑?](https://www.v2ex.com/t/1034733)
+Append: [一个好的简约博客大概是什么样的呢？](https://www.v2ex.com/t/1034691)
+Append: [什么工作越老越吃香](https://www.v2ex.com/t/1034614)
+Append: [Redis 几乎每小时都出现大量超时，求助](https://www.v2ex.com/t/1034586)
+Append: [窗户隔音方案讨论。](https://www.v2ex.com/t/1034505)
+append_entries: 15
+Finish: 2024-04-23 03:19:57.763442
