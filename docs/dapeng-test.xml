@@ -4,15 +4,14 @@
 <title>首页 | FreshRSS</title>
 <link>http://116.196.64.187:8081</link>
 
+
 <item>
 <title>你们最长 gap 多久？</title>
 <link>https://www.v2ex.com/t/1034672</link>
 <guid>https://www.v2ex.com/t/1034672</guid>
 <content:encoded><![CDATA[
-
 comsweetcs: <p>楼主 gap 有点久了，对找工作都有点没信心了。想了解下你们 gap 过多久。</p>
 ]]></content:encoded>
-<pubDate>Mon, 22 Apr 2024 16:34:00 +0800</pubDate>
 <pubDate>Mon, 22 Apr 2024 16:34:00 +0800</pubDate>
 </item>
 <item>
@@ -20,7 +19,6 @@ comsweetcs: <p>楼主 gap 有点久了，对找工作都有点没信心了。想
 <link>https://www.v2ex.com/t/1034660</link>
 <guid>https://www.v2ex.com/t/1034660</guid>
 <content:encoded><![CDATA[
-
 xhatt510: <h4>最近做项目，他搞了用户登陆和状态保持。</h4>
 <h5>当时存的时候他跑过来问我密码要不要用 base64 加密存。</h5>
 <h5>我说这和明文没啥区别把，区别就是比明文多浪费<code>1/3</code>空间。不如直接加盐然后存 md5 。</h5>
@@ -45,18 +43,15 @@ xhatt510: <h4>最近做项目，他搞了用户登陆和状态保持。</h4>
 </code></pre>
 ]]></content:encoded>
 <pubDate>Mon, 22 Apr 2024 16:03:00 +0800</pubDate>
-<pubDate>Mon, 22 Apr 2024 16:03:00 +0800</pubDate>
 </item>
 <item>
 <title>有过有一天墙倒了，会发生什么事情</title>
 <link>https://www.v2ex.com/t/1034619</link>
 <guid>https://www.v2ex.com/t/1034619</guid>
 <content:encoded><![CDATA[
-
 soundlife: <p>会有什么影响，会产生怎样的冲击</p>
 <p>不知道这种话题能不能讨论，大家点到为止</p>
 ]]></content:encoded>
-<pubDate>Mon, 22 Apr 2024 14:37:00 +0800</pubDate>
 <pubDate>Mon, 22 Apr 2024 14:37:00 +0800</pubDate>
 </item>
 <item>
@@ -64,7 +59,6 @@ soundlife: <p>会有什么影响，会产生怎样的冲击</p>
 <link>https://www.v2ex.com/t/1034545</link>
 <guid>https://www.v2ex.com/t/1034545</guid>
 <content:encoded><![CDATA[
-
 hotMan: <p>年初手上有点闲钱，想着提前还点房贷 40 个，本来挺高兴的事，老婆把这件事和她妈说了，她妈说他辛苦了，给了她 2w 。老婆把这件事给我说了，让我也和我父母说下，意思很明确，让我父母也拿点。</p>
 <p>我和她说了，我爸妈去年给我小弟结婚买房，没钱了，我妈也和我说过，因为给我小弟买房的事，手上没钱了，</p>
 <p>我老婆非要让我去要，然后就吵架了。关键这不是吵一次，每次她有点不高兴，就会拿这个事情来说，说我家里怎么怎么不好，我父母对她不好。</p>
@@ -72,14 +66,12 @@ hotMan: <p>年初手上有点闲钱，想着提前还点房贷 40 个，本来�
 <p>本来很高兴的事...现在几个月下来，一地鸡毛</p>
 ]]></content:encoded>
 <pubDate>Mon, 22 Apr 2024 11:19:00 +0800</pubDate>
-<pubDate>Mon, 22 Apr 2024 11:19:00 +0800</pubDate>
 </item>
 <item>
 <title>传统爬虫 还是 AI 辅助爬虫？该怎么选？</title>
 <link>https://www.v2ex.com/t/1034501</link>
 <guid>https://www.v2ex.com/t/1034501</guid>
 <content:encoded><![CDATA[
-
 coderhxl: <h2>前言</h2>
 <p>在数据抓取领域，传统爬虫与 AI 辅助爬虫各有千秋。传统爬虫基于规则进行数据抓取，适用于结构稳定、规则明确的网站。然而，随着网站结构的频繁变动和复杂化，传统爬虫逐渐暴露出其局限性。相比之下，AI 辅助爬虫借助人工智能技术，能够智能解析网页、自适应变化，展现出更高的灵活性和准确性。那么，面对不同的抓取需求，我们该如何选择呢？本文将深入探讨传统爬虫与 AI 辅助爬虫的特点与优劣，为您提供决策参考。</p>
 <h2>传统爬虫 和 AI 辅助爬虫 分别是什么</h2>
@@ -396,14 +388,12 @@ for (const item of pendingTask) {
 <p><strong>x-crawl 文档: <a href="https://coder-hxl.github.io/x-crawl/cn/" rel="nofollow">https://coder-hxl.github.io/x-crawl/cn/</a></strong></p>
 ]]></content:encoded>
 <pubDate>Mon, 22 Apr 2024 10:07:00 +0800</pubDate>
-<pubDate>Mon, 22 Apr 2024 10:07:00 +0800</pubDate>
 </item>
 <item>
 <title>五一马上到了，几个我去过的人少景美的地方可以参考</title>
 <link>https://www.v2ex.com/t/1034493</link>
 <guid>https://www.v2ex.com/t/1034493</guid>
 <content:encoded><![CDATA[
-
 37Y37: <p>最近三年的五一自驾路线，给大伙做个参考：</p>
 <ol>
 <li><a href="https://blog.ops-coffee.cn/s/lJawB7Yb5O11qczx9aeqRQ.html" rel="nofollow">环千岛湖自驾</a>，节假日去千岛湖的很多，但很少有去环湖自驾的，所以人不是特别多，风景也不错</li>
@@ -417,14 +407,12 @@ for (const item of pendingTask) {
 <p>最后想问问喜欢自驾的大伙五一准备去哪？发一下，我做个参考，毕竟到现在，我还没确定五一去哪呢，不过确定的是一定会出去，继续自驾</p>
 ]]></content:encoded>
 <pubDate>Mon, 22 Apr 2024 09:49:00 +0800</pubDate>
-<pubDate>Mon, 22 Apr 2024 09:49:00 +0800</pubDate>
 </item>
 <item>
 <title>日常作为口粮的茶、咖啡等饮品终究还是会坠入口味越来越重的漩涡里？各位对于饮品的选择到哪一个阶段了呢？</title>
 <link>https://www.v2ex.com/t/1034483</link>
 <guid>https://www.v2ex.com/t/1034483</guid>
 <content:encoded><![CDATA[
-
 mijazz: <p>两年之前在社区发了个帖子，请教各位 v2er 们日常都喝什么冻干咖啡。</p>
 <p><a href="https://v2ex.com/t/873897#reply74" rel="nofollow">/t/873897 - 各位有什么速溶或冻干黑咖啡推荐，作为工位口粮</a></p>
 <p>托各位的分享，我的口味已经从刚毕业时的 立顿茶包/雀巢咖啡 =&gt; 龙井茶/冻干黑咖啡 =&gt; 咖啡店的美式或者奶咖 =&gt; 浓普洱茶/澳白(FlatWhite +1 shot) 了。</p>
@@ -433,19 +421,16 @@ mijazz: <p>两年之前在社区发了个帖子，请教各位 v2er 们日常都
 <p><a href="https://i.imgur.com/yBIXM7n.jpeg" rel="nofollow">https://i.imgur.com/yBIXM7n.jpeg</a></p>
 ]]></content:encoded>
 <pubDate>Mon, 22 Apr 2024 09:26:00 +0800</pubDate>
-<pubDate>Mon, 22 Apr 2024 09:26:00 +0800</pubDate>
 </item>
 <item>
 <title>有没有二阳/三阳/多阳的 V 友交流下症状啊</title>
 <link>https://www.v2ex.com/t/1034481</link>
 <guid>https://www.v2ex.com/t/1034481</guid>
 <content:encoded><![CDATA[
-
 lambdaX999: <p>RT
 上周五、周六的时候浑身肌肉酸痛，腰酸，浑身无力，躺了两天基本上好了，然后昨天晚上开始头部剧痛，一度以为是要脑溢血了，晚上吃了必理痛稍微好点，但是一晚上基本上没睡好，早上起来还是微微痛。</p>
 <p>在一些兄弟群交流了，也有跟我这个症状一样的，就是不知道是不是阳了，这种情况要不要去医院查下，要查的话这玩儿算啥科啊</p>
 ]]></content:encoded>
-<pubDate>Mon, 22 Apr 2024 09:22:00 +0800</pubDate>
 <pubDate>Mon, 22 Apr 2024 09:22:00 +0800</pubDate>
 </item>
 <item>
@@ -453,10 +438,8 @@ lambdaX999: <p>RT
 <link>https://www.v2ex.com/t/1034478</link>
 <guid>https://www.v2ex.com/t/1034478</guid>
 <content:encoded><![CDATA[
-
 hhhsuan: <p>要能够防水，防滑，轻便，休闲，之前在 tb 买了一双号称防水的运动鞋，结果根本没用，雨稍微大点鞋里一样湿</p>
 ]]></content:encoded>
-<pubDate>Mon, 22 Apr 2024 09:14:00 +0800</pubDate>
 <pubDate>Mon, 22 Apr 2024 09:14:00 +0800</pubDate>
 </item>
 <item>
@@ -464,10 +447,8 @@ hhhsuan: <p>要能够防水，防滑，轻便，休闲，之前在 tb 买了一�
 <link>https://www.v2ex.com/t/1034465</link>
 <guid>https://www.v2ex.com/t/1034465</guid>
 <content:encoded><![CDATA[
-
 haha922: 经常看到吐槽日系车的帖子，现在日系也很便宜了，为啥还在吐槽？马云早就不是首富了，那些吐槽马云的也没看登上富豪榜啊？<br />那些吹爆国产的都买过几辆国产？买过几辆日系才有必要吐槽日系？不会连驾照都没有吧？<br />我开过日系三大妈，同价位来说太棒了。作为国产车主，以后会换日系。
 ]]></content:encoded>
-<pubDate>Mon, 22 Apr 2024 07:53:00 +0800</pubDate>
 <pubDate>Mon, 22 Apr 2024 07:53:00 +0800</pubDate>
 </item>
 <item>
@@ -475,12 +456,10 @@ haha922: 经常看到吐槽日系车的帖子，现在日系也很便宜了，�
 <link>https://www.v2ex.com/t/1034413</link>
 <guid>https://www.v2ex.com/t/1034413</guid>
 <content:encoded><![CDATA[
-
 Liftman: <p>这两年生活和物质极度稳定，也没有结婚之类的负能量需求。基本上休闲的时间基本上就是。养鱼，玩玩块根，最近开始入门盆景了。</p>
 <p>而且感觉现在植物越买越多。最近半年买了一连排的植物。都已经开始考虑租个地了。正经的当成爱好培养了。毕竟写字楼里面的环境真不合适。</p>
 <p>但是植物和养鱼大部分时间是不需要参与的。所以还有什么适合年龄大的“室内”爱好吗。</p>
 ]]></content:encoded>
-<pubDate>Sun, 21 Apr 2024 20:33:00 +0800</pubDate>
 <pubDate>Sun, 21 Apr 2024 20:33:00 +0800</pubDate>
 </item>
 <item>
@@ -488,7 +467,6 @@ Liftman: <p>这两年生活和物质极度稳定，也没有结婚之类的负�
 <link>https://github.com/FreshRSS/FreshRSS/releases/tag/1.23.1</link>
 <guid>https://github.com/FreshRSS/FreshRSS/releases/tag/1.23.1</guid>
 <content:encoded><![CDATA[
-
 <ul>
 <li><a href="https://github.com/FreshRSS/FreshRSS/milestones/1.23.1">Milestone</a></li>
 </ul>
@@ -520,14 +498,12 @@ Liftman: <p>这两年生活和物质极度稳定，也没有结婚之类的负�
 </ul>
 ]]></content:encoded>
 <pubDate>Sun, 31 Dec 2023 21:32:00 +0800</pubDate>
-<pubDate>Sun, 31 Dec 2023 21:32:00 +0800</pubDate>
 </item>
 <item>
 <title>FreshRSS 1.23.0</title>
 <link>https://github.com/FreshRSS/FreshRSS/releases/tag/1.23.0</link>
 <guid>https://github.com/FreshRSS/FreshRSS/releases/tag/1.23.0</guid>
 <content:encoded><![CDATA[
-
 <ul>
 <li><a href="https://github.com/FreshRSS/FreshRSS/milestones/1.23.0">Milestone</a></li>
 <li><a href="https://github.com/FreshRSS/FreshRSS/discussions/5963">Discussion</a> 🎄</li>
@@ -647,14 +623,12 @@ Liftman: <p>这两年生活和物质极度稳定，也没有结婚之类的负�
 </ul>
 ]]></content:encoded>
 <pubDate>Sun, 31 Dec 2023 21:32:00 +0800</pubDate>
-<pubDate>Sun, 31 Dec 2023 21:32:00 +0800</pubDate>
 </item>
 <item>
 <title>FreshRSS 1.22.1</title>
 <link>https://github.com/FreshRSS/FreshRSS/releases/tag/1.22.1</link>
 <guid>https://github.com/FreshRSS/FreshRSS/releases/tag/1.22.1</guid>
 <content:encoded><![CDATA[
-
 <ul>
 <li><a href="https://github.com/FreshRSS/FreshRSS/milestones/1.22.1">Milestone</a></li>
 </ul>
@@ -713,14 +687,12 @@ This version 1.22.x is also the last to support PHP 7.2 before requiring PHP 7.4
 </ul>
 ]]></content:encoded>
 <pubDate>Tue, 31 Oct 2023 02:54:00 +0800</pubDate>
-<pubDate>Tue, 31 Oct 2023 02:54:00 +0800</pubDate>
 </item>
 <item>
 <title>FreshRSS 1.22.0</title>
 <link>https://github.com/FreshRSS/FreshRSS/releases/tag/1.22.0</link>
 <guid>https://github.com/FreshRSS/FreshRSS/releases/tag/1.22.0</guid>
 <content:encoded><![CDATA[
-
 <ul>
 <li><a href="https://github.com/FreshRSS/FreshRSS/milestones/1.22.0">Milestone</a></li>
 </ul>
@@ -924,14 +896,12 @@ This version 1.22.x is also the last to support PHP 7.2 before requiring PHP 7.4
 </ul>
 ]]></content:encoded>
 <pubDate>Sat, 28 Oct 2023 05:32:00 +0800</pubDate>
-<pubDate>Sat, 28 Oct 2023 05:32:00 +0800</pubDate>
 </item>
 <item>
 <title>FreshRSS 1.21.0</title>
 <link>https://github.com/FreshRSS/FreshRSS/releases/tag/1.21.0</link>
 <guid>https://github.com/FreshRSS/FreshRSS/releases/tag/1.21.0</guid>
 <content:encoded><![CDATA[
-
 <ul>
 <li><a href="https://github.com/FreshRSS/FreshRSS/milestones/1.21.0">Milestone</a></li>
 </ul>
@@ -1069,14 +1039,12 @@ This version 1.22.x is also the last to support PHP 7.2 before requiring PHP 7.4
 </ul>
 ]]></content:encoded>
 <pubDate>Wed, 08 Mar 2023 22:31:00 +0800</pubDate>
-<pubDate>Wed, 08 Mar 2023 22:31:00 +0800</pubDate>
 </item>
 <item>
 <title>FreshRSS 1.20.2</title>
 <link>https://github.com/FreshRSS/FreshRSS/releases/tag/1.20.2</link>
 <guid>https://github.com/FreshRSS/FreshRSS/releases/tag/1.20.2</guid>
 <content:encoded><![CDATA[
-
 <ul>
 <li><a href="https://github.com/FreshRSS/FreshRSS/milestones/1.20.2">Milestone</a></li>
 </ul>
@@ -1093,14 +1061,12 @@ This version 1.22.x is also the last to support PHP 7.2 before requiring PHP 7.4
 </ul>
 ]]></content:encoded>
 <pubDate>Sat, 10 Dec 2022 06:05:00 +0800</pubDate>
-<pubDate>Sat, 10 Dec 2022 06:05:00 +0800</pubDate>
 </item>
 <item>
 <title>FreshRSS 1.20.1</title>
 <link>https://github.com/FreshRSS/FreshRSS/releases/tag/1.20.1</link>
 <guid>https://github.com/FreshRSS/FreshRSS/releases/tag/1.20.1</guid>
 <content:encoded><![CDATA[
-
 <ul>
 <li><a href="https://github.com/FreshRSS/FreshRSS/milestones/1.20.1">Milestone</a></li>
 <li><a href="https://github.com/FreshRSS/FreshRSS/discussions/4837">Discussion</a></li>
@@ -1221,14 +1187,12 @@ Swage <a href="https://github.com/FreshRSS/FreshRSS/pull/4799">#4799</a>, <a hre
 </ul>
 ]]></content:encoded>
 <pubDate>Mon, 14 Nov 2022 21:26:00 +0800</pubDate>
-<pubDate>Mon, 14 Nov 2022 21:26:00 +0800</pubDate>
 </item>
 <item>
 <title>FreshRSS 1.20.0</title>
 <link>https://github.com/FreshRSS/FreshRSS/releases/tag/1.20.0</link>
 <guid>https://github.com/FreshRSS/FreshRSS/releases/tag/1.20.0</guid>
 <content:encoded><![CDATA[
-
 <ul>
 <li><a href="https://github.com/FreshRSS/FreshRSS/milestones/1.20.0">Milestone</a></li>
 <li><a href="https://github.com/FreshRSS/FreshRSS/discussions/4517">Discussion</a></li>
@@ -1445,14 +1409,12 @@ Swage <a href="https://github.com/FreshRSS/FreshRSS/pull/4799">#4799</a>, <a hre
 </ul>
 ]]></content:encoded>
 <pubDate>Sat, 10 Sep 2022 23:02:00 +0800</pubDate>
-<pubDate>Sat, 10 Sep 2022 23:02:00 +0800</pubDate>
 </item>
 <item>
 <title>FreshRSS 1.19.2</title>
 <link>https://github.com/FreshRSS/FreshRSS/releases/tag/1.19.2</link>
 <guid>https://github.com/FreshRSS/FreshRSS/releases/tag/1.19.2</guid>
 <content:encoded><![CDATA[
-
 <ul>
 <li><a href="https://github.com/FreshRSS/FreshRSS/milestones/1.19.2">Milestone</a></li>
 <li><a href="https://github.com/FreshRSS/FreshRSS/issues/4179">Discussion</a></li>
@@ -1513,14 +1475,12 @@ Swage <a href="https://github.com/FreshRSS/FreshRSS/pull/4799">#4799</a>, <a hre
 </ul>
 ]]></content:encoded>
 <pubDate>Fri, 04 Feb 2022 22:27:00 +0800</pubDate>
-<pubDate>Fri, 04 Feb 2022 22:27:00 +0800</pubDate>
 </item>
 <item>
 <title>FreshRSS 1.19.1</title>
 <link>https://github.com/FreshRSS/FreshRSS/releases/tag/1.19.1</link>
 <guid>https://github.com/FreshRSS/FreshRSS/releases/tag/1.19.1</guid>
 <content:encoded><![CDATA[
-
 <ul>
 <li><a href="https://github.com/FreshRSS/FreshRSS/milestones/1.19.1">Milestone</a></li>
 <li><a href="https://github.com/FreshRSS/FreshRSS/pull/4116">Discussion</a></li>
@@ -1564,8 +1524,6 @@ Swage <a href="https://github.com/FreshRSS/FreshRSS/pull/4799">#4799</a>, <a hre
 </ul>
 ]]></content:encoded>
 <pubDate>Mon, 03 Jan 2022 02:24:00 +0800</pubDate>
-<pubDate>Mon, 03 Jan 2022 02:24:00 +0800</pubDate>
 </item>
-
 </channel>
 </rss>
