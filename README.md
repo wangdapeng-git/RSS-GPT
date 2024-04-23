@@ -55,3 +55,6 @@ These feeds on hosted in the [`docs/` subdirectory](https://github.com/yinan-c/R
 I will consider hosting more feeds in the future. Email me or submit an issue if there are any questions using the script or any suggestions.
 
 - https://lilianweng.github.io/index.xml -> https://wangdapeng-git.github.io/RSS-GPT/lilianweng.xml
+- https://stephanango.com/feed.xml -> https://wangdapeng-git.github.io/RSS-GPT/steph-ango.xml
+- https://rsshub.app/paulgraham/articles -> https://wangdapeng-git.github.io/RSS-GPT/paul-graham.xml
+- https://nesslabs.com/feed -> https://wangdapeng-git.github.io/RSS-GPT/ness-labs.xml

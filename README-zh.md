@@ -54,3 +54,6 @@
 <a href="https://www.buymeacoffee.com/yinan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 - https://lilianweng.github.io/index.xml -> https://wangdapeng-git.github.io/RSS-GPT/lilianweng.xml
+- https://stephanango.com/feed.xml -> https://wangdapeng-git.github.io/RSS-GPT/steph-ango.xml
+- https://rsshub.app/paulgraham/articles -> https://wangdapeng-git.github.io/RSS-GPT/paul-graham.xml
+- https://nesslabs.com/feed -> https://wangdapeng-git.github.io/RSS-GPT/ness-labs.xml
