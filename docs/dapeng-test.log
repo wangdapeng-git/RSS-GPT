@@ -54,3 +54,34 @@ Fetching from http://116.196.64.187:8081/api/
 Feed error: text/html; charset=UTF-8 is not an XML media type
 append_entries: 0
 error when rendering xml, skip docs/dapeng-test
+------------------------------------------------------
+Started: 2024-04-23 02:07:51.897148
+Existing_entries: 0
+Fetching from http://116.196.64.187:8081/i/?a=rss&user=erebus&token=erebus_rss&hours=168
+Summarization failed, append the original article
+error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-CNue4***************************************yFTH. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Append: [你们最长 gap 多久？](https://www.v2ex.com/t/1034672)
+Summarization failed, append the original article
+error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-CNue4***************************************yFTH. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Append: [逆天！干了 3 年的同事用 base64 编码做 token 并且把密码也放了进去](https://www.v2ex.com/t/1034660)
+Append: [有过有一天墙倒了，会发生什么事情](https://www.v2ex.com/t/1034619)
+Append: [提前还房贷，引发的家庭矛盾.](https://www.v2ex.com/t/1034545)
+Append: [传统爬虫 还是 AI 辅助爬虫？该怎么选？](https://www.v2ex.com/t/1034501)
+Append: [五一马上到了，几个我去过的人少景美的地方可以参考](https://www.v2ex.com/t/1034493)
+Append: [日常作为口粮的茶、咖啡等饮品终究还是会坠入口味越来越重的漩涡里？各位对于饮品的选择到哪一个阶段了呢？](https://www.v2ex.com/t/1034483)
+Append: [有没有二阳/三阳/多阳的 V 友交流下症状啊](https://www.v2ex.com/t/1034481)
+Append: [求推荐适合下雨天穿的鞋](https://www.v2ex.com/t/1034478)
+Append: [为什么那么多人吐槽日系车？我吐槽的只是日系车主开的慢](https://www.v2ex.com/t/1034465)
+Append: [有什么室内养老爱好可以推荐的吗？](https://www.v2ex.com/t/1034413)
+Append: [FreshRSS 1.23.1](https://github.com/FreshRSS/FreshRSS/releases/tag/1.23.1)
+Append: [FreshRSS 1.23.0](https://github.com/FreshRSS/FreshRSS/releases/tag/1.23.0)
+Append: [FreshRSS 1.22.1](https://github.com/FreshRSS/FreshRSS/releases/tag/1.22.1)
+Append: [FreshRSS 1.22.0](https://github.com/FreshRSS/FreshRSS/releases/tag/1.22.0)
+Append: [FreshRSS 1.21.0](https://github.com/FreshRSS/FreshRSS/releases/tag/1.21.0)
+Append: [FreshRSS 1.20.2](https://github.com/FreshRSS/FreshRSS/releases/tag/1.20.2)
+Append: [FreshRSS 1.20.1](https://github.com/FreshRSS/FreshRSS/releases/tag/1.20.1)
+Append: [FreshRSS 1.20.0](https://github.com/FreshRSS/FreshRSS/releases/tag/1.20.0)
+Append: [FreshRSS 1.19.2](https://github.com/FreshRSS/FreshRSS/releases/tag/1.19.2)
+Append: [FreshRSS 1.19.1](https://github.com/FreshRSS/FreshRSS/releases/tag/1.19.1)
+append_entries: 21
+Finish: 2024-04-23 02:07:54.017092
