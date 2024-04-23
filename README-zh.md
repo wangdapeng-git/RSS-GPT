@@ -57,3 +57,4 @@
 - https://stephanango.com/feed.xml -> https://wangdapeng-git.github.io/RSS-GPT/steph-ango.xml
 - https://rsshub.app/paulgraham/articles -> https://wangdapeng-git.github.io/RSS-GPT/paul-graham.xml
 - https://nesslabs.com/feed -> https://wangdapeng-git.github.io/RSS-GPT/ness-labs.xml
+- http://116.196.64.187:4000/feeds/MP_WXS_3207765945.rss -> https://wangdapeng-git.github.io/RSS-GPT/夕小瑶科技说.xml
