@@ -164,3 +164,9 @@ Append: [苹果一次性开源了8个大模型！ 包含模型权重、训练日
 Append: [微软发布！提示工程进化为位置工程，有效提升RAG与上下文学习](https://mp.weixin.qq.com/s/hP7C22F7AhJ0HFRPmGk2gA)
 append_entries: 3
 Finish: 2024-04-25 10:10:12.974469
+------------------------------------------------------
+Started: 2024-04-25 12:14:56.406552
+Existing_entries: 16
+Fetching from http://116.196.64.187:4000/feeds/MP_WXS_3207765945.rss
+append_entries: 0
+Finish: 2024-04-25 12:14:56.927958
