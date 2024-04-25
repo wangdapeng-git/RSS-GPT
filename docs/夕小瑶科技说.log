@@ -155,3 +155,12 @@ Existing_entries: 13
 Fetching from http://116.196.64.187:4000/feeds/MP_WXS_3207765945.rss
 append_entries: 0
 Finish: 2024-04-25 08:12:44.225167
+------------------------------------------------------
+Started: 2024-04-25 10:10:12.426724
+Existing_entries: 13
+Fetching from http://116.196.64.187:4000/feeds/MP_WXS_3207765945.rss
+Append: [Open-Sora 全面开源升级：支持单镜头16s视频生成和720p分辨率](https://mp.weixin.qq.com/s/kpPioTcBx3ec1WfcSTmTjA)
+Append: [苹果一次性开源了8个大模型！ 包含模型权重、训练日志和设置，OpenELM全面开源](https://mp.weixin.qq.com/s/M6TZL7j-BPUdpW5l2qZ52Q)
+Append: [微软发布！提示工程进化为位置工程，有效提升RAG与上下文学习](https://mp.weixin.qq.com/s/hP7C22F7AhJ0HFRPmGk2gA)
+append_entries: 3
+Finish: 2024-04-25 10:10:12.974469
