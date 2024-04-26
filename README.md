@@ -60,3 +60,5 @@ I will consider hosting more feeds in the future. Email me or submit an issue if
 - https://nesslabs.com/feed -> https://wangdapeng-git.github.io/RSS-GPT/ness-labs.xml
 - http://rssfeeds.webmd.com/rss/rss.aspx -> https://wangdapeng-git.github.io/RSS-GPT/WebMD 健康.xml
 - https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1 -> https://wangdapeng-git.github.io/RSS-GPT/吾爱破解.xml
+- https://rsshub.app/deepmind/blog -> https://wangdapeng-git.github.io/RSS-GPT/deepmind.xml
+- https://rsshub.app/openai/blog -> https://wangdapeng-git.github.io/RSS-GPT/openai.xml
