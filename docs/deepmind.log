@@ -124,3 +124,9 @@ Append: [Red Teaming Language Models with Language Models](https://deepmind.goog
 Append: [DeepMind: The Podcast returns for Season 2](https://deepmind.google/discover/blog/deepmind-the-podcast-returns-for-season-2/)
 append_entries: 100
 Finish: 2024-04-26 12:20:13.097224
+------------------------------------------------------
+Started: 2024-04-26 14:09:10.700097
+Existing_entries: 100
+Fetching from https://rsshub.app/deepmind/blog
+append_entries: 0
+Finish: 2024-04-26 14:09:10.798783
