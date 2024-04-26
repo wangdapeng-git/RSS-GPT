@@ -4,10 +4,11 @@ import os
 import httpx
 from openai import OpenAI
 from jinja2 import Template
-from bs4 import BeautifulSoup
 import re
 import datetime
 #from dateutil.parser import parse
+
+from utils import convert_to_int,clean_html
 
 def generate_untitled(entry):
     try: return entry.title
@@ -19,41 +20,6 @@ def get_cfg(sec, name, default=None):
     value=config.get(sec, name, fallback=default)
     if value:
         return value.strip('"')
-
-def clean_html(html_content):
-    """
-    This function is used to clean the HTML content.
-    It will remove all the <script>, <style>, <img>, <a>, <video>, <audio>, <iframe>, <input> tags.
-    Returns:
-        Cleaned text for summarization
-    """
-    soup = BeautifulSoup(html_content, "html.parser")
-
-    for script in soup.find_all("script"):
-        script.decompose()
-
-    for style in soup.find_all("style"):
-        style.decompose()
-
-    for img in soup.find_all("img"):
-        img.decompose()
-
-    for a in soup.find_all("a"):
-        a.decompose()
-
-    for video in soup.find_all("video"):
-        video.decompose()
-
-    for audio in soup.find_all("audio"):
-        audio.decompose()
-    
-    for iframe in soup.find_all("iframe"):
-        iframe.decompose()
-    
-    for input in soup.find_all("input"):
-        input.decompose()
-
-    return soup.get_text()
 
 def filter_entry(entry, filter_apply, filter_type, filter_rule):
     """
@@ -88,6 +54,8 @@ def filter_entry(entry, filter_apply, filter_type, filter_rule):
         return re.search(filter_rule, text)
     elif filter_type == 'regex not match':
         return not re.search(filter_rule, text)
+    elif filter_type == 'text_min_size':
+        return len(text)>convert_to_int(filter_rule)
     elif not filter_type:
         return True
     else:
