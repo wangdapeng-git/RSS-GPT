@@ -133,3 +133,9 @@ Summarized using GPT-3.5-turbo
 Append: [Pre-Ozempic Obesity Drugs: Effective and Budget-Friendly](https://www.webmd.com/obesity/news/20240426/pre-ozempic-obesity-drugs-effective-and-less-costly?src=RSS_PUBLIC)
 append_entries: 1
 Finish: 2024-04-26 18:12:02.402970
+------------------------------------------------------
+Started: 2024-04-26 20:11:06.569451
+Existing_entries: 51
+Fetching from http://rssfeeds.webmd.com/rss/rss.aspx
+append_entries: 0
+Finish: 2024-04-26 20:11:06.758059
