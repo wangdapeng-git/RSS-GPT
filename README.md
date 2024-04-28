@@ -62,3 +62,4 @@ I will consider hosting more feeds in the future. Email me or submit an issue if
 - https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1 -> https://wangdapeng-git.github.io/RSS-GPT/吾爱破解.xml
 - https://rsshub.app/deepmind/blog -> https://wangdapeng-git.github.io/RSS-GPT/deepmind.xml
 - https://rsshub.app/openai/blog -> https://wangdapeng-git.github.io/RSS-GPT/openai.xml
+- https://rsshub.app/deeplearning/thebatch -> https://wangdapeng-git.github.io/RSS-GPT/deeplearning.ai.xml
