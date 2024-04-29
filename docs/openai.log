@@ -266,3 +266,12 @@ Existing_entries: 20
 Fetching from https://rsshub.app/openai/blog
 append_entries: 0
 Finish: 2024-04-29 14:10:29.033978
+------------------------------------------------------
+Started: 2024-04-29 16:12:12.775239
+Existing_entries: 20
+Fetching from https://rsshub.app/openai/blog
+Token length: 3000
+Summarized using GPT-3.5-turbo
+Append: [We’re bringing the Financial Times’ world-class journalism to ChatGPT](https://openai.com/blog/content-partnership-with-financial-times)
+append_entries: 1
+Finish: 2024-04-29 16:12:19.521694
