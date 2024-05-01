@@ -505,3 +505,12 @@ Existing_entries: 53
 Fetching from http://rssfeeds.webmd.com/rss/rss.aspx
 append_entries: 0
 Finish: 2024-05-01 20:12:10.865704
+------------------------------------------------------
+Started: 2024-05-01 22:09:44.881880
+Existing_entries: 53
+Fetching from http://rssfeeds.webmd.com/rss/rss.aspx
+Token length: 168
+Summarized using GPT-3.5-turbo
+Append: [Easing Marijuana Laws Doesn’t Mean the Drug Is Safer, Experts Say](https://www.webmd.com/mental-health/addiction/news/20240501/reclassification-of-marijuana-doesnt-mean-its-safer?src=RSS_PUBLIC)
+append_entries: 1
+Finish: 2024-05-01 22:09:50.974163
