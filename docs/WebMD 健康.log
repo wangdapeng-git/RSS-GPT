@@ -514,3 +514,12 @@ Summarized using GPT-3.5-turbo
 Append: [Easing Marijuana Laws Doesn’t Mean the Drug Is Safer, Experts Say](https://www.webmd.com/mental-health/addiction/news/20240501/reclassification-of-marijuana-doesnt-mean-its-safer?src=RSS_PUBLIC)
 append_entries: 1
 Finish: 2024-05-01 22:09:50.974163
+------------------------------------------------------
+Started: 2024-05-02 00:43:12.278042
+Existing_entries: 54
+Fetching from http://rssfeeds.webmd.com/rss/rss.aspx
+Token length: 263
+Summarized using GPT-3.5-turbo
+Append: [Asthma Attack: Allergies, Rising Costs Impacting Patients](https://www.webmd.com/asthma/news/20240417/asthma-attack-allergies-rising-costs-impacting-patients?src=RSS_PUBLIC)
+append_entries: 1
+Finish: 2024-05-02 00:43:17.621948

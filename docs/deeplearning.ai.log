@@ -313,3 +313,9 @@ Summarized using GPT-3.5-turbo
 Append: [Apple's Tiny LLMs, Amazon Rethinks Cashier-Free Stores, Predicting Scientific Discoveries](https://www.deeplearning.ai/the-batch/issue-247)
 append_entries: 1
 Finish: 2024-05-01 22:09:59.873669
+------------------------------------------------------
+Started: 2024-05-02 00:43:20.987509
+Existing_entries: 17
+Fetching from https://rsshub.app/deeplearning/thebatch
+append_entries: 0
+Finish: 2024-05-02 00:43:21.403193
