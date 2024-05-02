@@ -571,3 +571,15 @@ Existing_entries: 55
 Fetching from http://rssfeeds.webmd.com/rss/rss.aspx
 append_entries: 0
 Finish: 2024-05-02 16:11:48.569490
+------------------------------------------------------
+Started: 2024-05-02 18:12:27.964608
+Existing_entries: 55
+Fetching from http://rssfeeds.webmd.com/rss/rss.aspx
+Token length: 52
+Summarized using GPT-3.5-turbo
+Append: [When Does Old Age Start? It Depends on Who You Ask](https://www.webmd.com/healthy-aging/news/20240502/when-does-old-age-start-many-disagree?src=RSS_PUBLIC)
+Token length: 241
+Summarized using GPT-3.5-turbo
+Append: [Prospects for Crohn's Relief Brighten With New Advancements](https://www.webmd.com/ibd-crohns-disease/crohns-disease/news/20240502/prospects-crohns-relief-brighten-with-new-advancements?src=RSS_PUBLIC)
+append_entries: 2
+Finish: 2024-05-02 18:12:35.038700
