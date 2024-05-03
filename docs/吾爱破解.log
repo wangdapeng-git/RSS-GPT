@@ -1250,3 +1250,21 @@ Filter: [网络检测工具InternetTest v8.2.1.2404 单文件版，支持WIFI密
 Filter: [360清理Pro 独立提取版 v1.0.0.1081](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1915935)
 append_entries: 0
 Finish: 2024-05-03 16:13:02.137710
+------------------------------------------------------
+Started: 2024-05-03 18:12:24.806664
+Existing_entries: 118
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Append: [一键定时自动化任务神器 zTasker v1.88.1，支持语音报时+定时计划执行（打工人必备）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1920144)
+Filter: [硬盘检测工具 CrystalDiskInfo v9.3.0 单文件版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1919884)
+Append: [Windows软件管理软件 WingetUI  3.0.2](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1919793)
+Append: [实现安卓微信一号多登--以微信v8.0.32为例](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1919600)
+Filter: [JetBrains 全家桶系列 2024 破解思路....](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1919098)
+Filter: [Tkping 网络检测工具](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1918566)
+Filter: [【安卓/iOS】首都图书馆 v3.4.4 免费看书查资料听音乐等〈更新〉](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1918402)
+Filter: [图片转Excel像素画工具V1.0](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1916367)
+Filter: [文件搜索神器 Everything v1.5.0.1372a中文便携版【修复版】](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1916359)
+Filter: [快查v6.9.9-同花顺旗下查企业APP](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1916357)
+Filter: [百度文库下载器爬虫源码](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1916310)
+Filter: [网络检测工具InternetTest v8.2.1.2404 单文件版，支持WIFI密码备份、Ping测试等](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1915945)
+append_entries: 3
+Finish: 2024-05-03 18:12:27.218959
