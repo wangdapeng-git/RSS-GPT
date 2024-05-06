@@ -97,3 +97,9 @@ Summarized using GPT-3.5-turbo
 Append: [NYU professors who defended vaping didn't disclose ties to Juul](https://www.statnews.com/2024/05/06/juul-vaping-advocates-nyu-professors-non-disclosed-conflict-interest/)
 append_entries: 2
 Finish: 2024-05-06 18:15:11.521962
+------------------------------------------------------
+Started: 2024-05-06 20:10:14.775935
+Existing_entries: 25
+Fetching from https://hnrss.org/newest?points=250&comments=25
+append_entries: 0
+Finish: 2024-05-06 20:10:15.383010

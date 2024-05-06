@@ -880,3 +880,9 @@ Summarized using GPT-3.5-turbo
 Append: [Postpartum PTSD: Right Diagnosis Can Help Mothers and Babies](https://www.webmd.com/mental-health/news/20240506/postpartum-ptsd-right-diagnosis-can-help-mothers-and-babies?src=RSS_PUBLIC)
 append_entries: 1
 Finish: 2024-05-06 18:14:54.029076
+------------------------------------------------------
+Started: 2024-05-06 20:10:10.763478
+Existing_entries: 60
+Fetching from http://rssfeeds.webmd.com/rss/rss.aspx
+append_entries: 0
+Finish: 2024-05-06 20:10:10.984772
