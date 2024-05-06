@@ -73,3 +73,15 @@ Summarized using GPT-3.5-turbo
 Append: [Simplicity is an advantage but sadly complexity sells better (2022)](https://eugeneyan.com/writing/simplicity/)
 append_entries: 1
 Finish: 2024-05-06 14:10:29.626136
+------------------------------------------------------
+Started: 2024-05-06 16:12:34.914016
+Existing_entries: 21
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 55
+Summarized using GPT-3.5-turbo
+Append: [Remnants of a legendary typeface have been rescued from the Thames](https://news.artnet.com/art-world/doves-typeface-2454807)
+Token length: 1832
+Summarized using GPT-3.5-turbo
+Append: [Flying planes in Microsoft Flight Simulator with a JavaScript autopilot (2023)](https://pomax.github.io/are-we-flying/)
+append_entries: 2
+Finish: 2024-05-06 16:12:49.180513
