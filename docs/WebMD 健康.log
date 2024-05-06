@@ -847,3 +847,9 @@ Existing_entries: 59
 Fetching from http://rssfeeds.webmd.com/rss/rss.aspx
 append_entries: 0
 Finish: 2024-05-06 08:13:20.384261
+------------------------------------------------------
+Started: 2024-05-06 10:10:40.274648
+Existing_entries: 59
+Fetching from http://rssfeeds.webmd.com/rss/rss.aspx
+append_entries: 0
+Finish: 2024-05-06 10:10:40.767267
