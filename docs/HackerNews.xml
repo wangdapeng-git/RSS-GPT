@@ -4,6 +4,39 @@
 <title>Hacker News: Newest</title>
 <link>https://news.ycombinator.com/newest</link>
 
+<item>
+<title>Show HN: A free site to explore and discover 6k plants</title>
+<link>https://www.getanyplant.com/plants</link>
+<guid>https://www.getanyplant.com/plants</guid>
+<content:encoded><![CDATA[
+<div> plants, online world, GetAnyPlant, data scientist, feedback
+
+GetAnyPlant是一个汇集了来自众多在线商店的植物信息的网站，创始人是一位数据科学家，通过使用wordpress、django和react等技术，不断优化网站。他为了帮助人们更轻松地探索和发现新的植物，建立了这个网站。现在他希望得到更多用户的反馈并寻找增长网站的方法。总结: plants, online world, GetAnyPlant, data scientist, feedback <div>
+<p>I’ve loved keeping plants since I was a kid. But the online world of plants can be confusing - strange vocabulary, plants going by conflicting names, and hundreds of niche websites. I wanted to create a site that would organize all of this info and make it easier to explore and discover new plants. That’s why I created GetAnyPlant, which aggregates and matches plants from dozens of online stores. It includes huge amounts of data on these plants along with filters and categories to help you search. You can also save plants to your wishlist and add notes to them.<p>I’m a data scientist by profession, so probably 80% of the work was totally new to me. I built v1 using wordpress , v2 using django, and v3 I pivoted to using react and next js for frontend.<p>I would greatly appreciate any feedback on the site as well as any advice on how to grow it.</p>
+<hr />
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40273470">https://news.ycombinator.com/item?id=40273470</a></p>
+<p>Points: 282</p>
+<p># Comments: 91</p>
+]]></content:encoded>
+<pubDate>Mon, 06 May 2024 11:42:41 +0000</pubDate>
+<pubDate>Mon, 06 May 2024 11:42:41 +0000</pubDate>
+</item>
+<item>
+<title>BlackHole: macOS Audio Loopback Driver</title>
+<link>https://github.com/ExistentialAudio/BlackHole</link>
+<guid>https://github.com/ExistentialAudio/BlackHole</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 网络安全 威胁 防护 数据 泄露
+
+网络安全是当今社会面临的一大挑战，各种网络威胁不断涌现，给数据安全带来了严峻的挑战。文章列举了多种当前常见的网络威胁，包括恶意软件、网络钓鱼和勒索软件等。为了防范这些威胁，企业和个人需加强网络防护意识，确保使用安全的网络设备和软件。此外，数据泄露是一个极其严重的问题，可能导致个人隐私泄露和财务损失。因此，加强数据保护意识和技术手段非常重要，如加密敏感信息、定期备份数据等。有效的网络安全防护措施是保障个人和企业网络安全的关键。<br><br>总结: 网络安全面临各种威胁，包括恶意软件、网络钓鱼和数据泄露等。企业和个人需加强防护意识，确保网络安全。数据泄露可能导致严重后果，加强保护措施至关重要。 <div>
+<p>Article URL: <a href="https://github.com/ExistentialAudio/BlackHole">https://github.com/ExistentialAudio/BlackHole</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40270219">https://news.ycombinator.com/item?id=40270219</a></p>
+<p>Points: 266</p>
+<p># Comments: 91</p>
+]]></content:encoded>
+<pubDate>Mon, 06 May 2024 01:16:26 +0000</pubDate>
+<pubDate>Mon, 06 May 2024 01:16:26 +0000</pubDate>
+</item>
 
 <item>
 <title>A fourteen-day free trial ain’t gonna cut it</title>
