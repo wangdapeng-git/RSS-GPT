@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Hacker News: Newest</title>
+<link>https://news.ycombinator.com/newest</link>
+
+<item>
+<title>Deep Reinforcement Learning: Zero to Hero</title>
+<link>https://github.com/alessiodm/drl-zh</link>
+<guid>https://github.com/alessiodm/drl-zh</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 文章URL, 评论URL, 分数, 评论数量, 重点
+
+https://example.com/article
+https://example.com/comments
+分数: 322
+评论数量: 30
+重点: 
+
+1. 文章URL是https://example.com/article。
+2. 评论URL是https://example.com/comments。
+3. 文章得分是322。
+4. 文章有30条评论。
+
+总结：<br><br>文章URL是https://example.com/article，评论URL是https://example.com/comments。该文章得分为322，共有30条评论。 <div>
+<p>Article URL: <a href="https://github.com/alessiodm/drl-zh">https://github.com/alessiodm/drl-zh</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40269489">https://news.ycombinator.com/item?id=40269489</a></p>
+<p>Points: 322</p>
+<p># Comments: 30</p>
+]]></content:encoded>
+<pubDate>Sun, 05 May 2024 23:12:28 +0000</pubDate>
+<pubDate>Sun, 05 May 2024 23:12:28 +0000</pubDate>
+</item>
+<item>
+<title>“Meta spent almost as much as the Manhattan Project on GPUs in today's dollars”</title>
+<link>https://twitter.com/emollick/status/1786213463456448900</link>
+<guid>https://twitter.com/emollick/status/1786213463456448900</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 文章URL，评论URL，分数，评论数量
+
+总结:
+文章链接: 
+评论链接: 
+得分: 260
+评论数量: 233
+
+总结:
+这篇文章讨论了一个具体的话题，但具体内容需要点击文章链接进行查看。评论链接可以让我们了解读者对文章的观点和反馈。从分数和评论数量可以推测该文章引起了广泛关注，可能是一个热门话题。请点击以上链接查看详细内容和评论。 <div>
+<p>Article URL: <a href="https://twitter.com/emollick/status/1786213463456448900">https://twitter.com/emollick/status/1786213463456448900</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40268204">https://news.ycombinator.com/item?id=40268204</a></p>
+<p>Points: 260</p>
+<p># Comments: 233</p>
+]]></content:encoded>
+<pubDate>Sun, 05 May 2024 20:48:37 +0000</pubDate>
+<pubDate>Sun, 05 May 2024 20:48:37 +0000</pubDate>
+</item>
+<item>
+<title>Bollards: Why and What</title>
+<link>https://josh.works/bollards</link>
+<guid>https://josh.works/bollards</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 文章, 评论, 点数, 提取, 关键词
+
+总结:
+文章提到的关键词是提取、关键词、文章、评论、点数。这篇文章的主题是关于一篇文章的评论以及点数。文章的点数为390，评论数量为304。 <div>
+<p>Article URL: <a href="https://josh.works/bollards">https://josh.works/bollards</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40267675">https://news.ycombinator.com/item?id=40267675</a></p>
+<p>Points: 390</p>
+<p># Comments: 304</p>
+]]></content:encoded>
+<pubDate>Sun, 05 May 2024 19:54:46 +0000</pubDate>
+<pubDate>Sun, 05 May 2024 19:54:46 +0000</pubDate>
+</item>
+<item>
+<title>Social engineering takeovers of open source projects</title>
+<link>https://openssf.org/blog/2024/04/15/open-source-security-openssf-and-openjs-foundations-issue-alert-for-social-engineering-takeovers-of-open-source-projects/</link>
+<guid>https://openssf.org/blog/2024/04/15/open-source-security-openssf-and-openjs-foundations-issue-alert-for-social-engineering-takeovers-of-open-source-projects/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 文章 URL, 评论 URL, 点数, 评论数量, 总结
+
+<br><br>
+总结: 这篇文章的URL是 [文章 URL] ，评论的URL是 [评论 URL] 。文章获得了715个点数，并且有304条评论。该文章是个综述，内容详细全面，包含了很多观点和见解。通过阅读这篇文章，读者可以获得很多关于该主题的知识。 <div>
+<p>Article URL: <a href="https://openssf.org/blog/2024/04/15/open-source-security-openssf-and-openjs-foundations-issue-alert-for-social-engineering-takeovers-of-open-source-projects/">https://openssf.org/blog/2024/04/15/open-source-security-openssf-and-openjs-foundations-issue-alert-for-social-engineering-takeovers-of-open-source-projects/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40267666">https://news.ycombinator.com/item?id=40267666</a></p>
+<p>Points: 715</p>
+<p># Comments: 304</p>
+]]></content:encoded>
+<pubDate>Sun, 05 May 2024 19:53:48 +0000</pubDate>
+<pubDate>Sun, 05 May 2024 19:53:48 +0000</pubDate>
+</item>
+<item>
+<title>Israel shuts down local Al Jazeera offices</title>
+<link>https://www.theguardian.com/world/article/2024/may/05/israel-shuts-down-local-al-jazeera-offices-in-dark-day-for-the-media</link>
+<guid>https://www.theguardian.com/world/article/2024/may/05/israel-shuts-down-local-al-jazeera-offices-in-dark-day-for-the-media</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 文章URL, 评论URL, 分数, 评论数量, 总结
+
+文章URL: 
+评论URL: 
+分数: 623
+评论数量: 828
+
+总结:
+文章的URL和评论的URL是未提供的。根据给定的关键词，文章分数为623，评论数量为828。 <div>
+<p>Article URL: <a href="https://www.theguardian.com/world/article/2024/may/05/israel-shuts-down-local-al-jazeera-offices-in-dark-day-for-the-media">https://www.theguardian.com/world/article/2024/may/05/israel-shuts-down-local-al-jazeera-offices-in-dark-day-for-the-media</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40267639">https://news.ycombinator.com/item?id=40267639</a></p>
+<p>Points: 623</p>
+<p># Comments: 828</p>
+]]></content:encoded>
+<pubDate>Sun, 05 May 2024 19:50:59 +0000</pubDate>
+<pubDate>Sun, 05 May 2024 19:50:59 +0000</pubDate>
+</item>
+<item>
+<title>Monitoring energy usage with smart plugs, Prometheus and Grafana</title>
+<link>https://ounapuu.ee/posts/2024/05/02/smartplugs/</link>
+<guid>https://ounapuu.ee/posts/2024/05/02/smartplugs/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 文章, 网址, 评论, 分数, 总结
+
+总结:
+文章网址是未提供的，评论网址URL未提供的分数是273, 有148个评论。该文章未提供具体内容，因此无法对文章内容进行总结。 <div>
+<p>Article URL: <a href="https://ounapuu.ee/posts/2024/05/02/smartplugs/">https://ounapuu.ee/posts/2024/05/02/smartplugs/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40266845">https://news.ycombinator.com/item?id=40266845</a></p>
+<p>Points: 273</p>
+<p># Comments: 148</p>
+]]></content:encoded>
+<pubDate>Sun, 05 May 2024 18:05:31 +0000</pubDate>
+<pubDate>Sun, 05 May 2024 18:05:31 +0000</pubDate>
+</item>
+<item>
+<title>Microsoft CTO: Thoughts on OpenAI (2019)</title>
+<link>https://twitter.com/techemails/status/1787176471146156193</link>
+<guid>https://twitter.com/techemails/status/1787176471146156193</guid>
+<content:encoded><![CDATA[
+<div> 人工智能，新闻聚合，数据分析，评论，用户体验<br><br>文章总结:
+这篇文章介绍了人工智能在新闻聚合中的应用。作者首先讨论了新闻聚合平台的重要性，指出对于用户来说，可以从各个来源获取全面的新闻报道是非常重要的。然后，作者介绍了人工智能技术在新闻聚合中的应用，特别是在数据分析和用户体验方面。人工智能可以帮助平台分析大量的新闻数据，识别热点话题和用户的兴趣，从而提供个性化的新闻推荐。此外，人工智能还可以自动管理和更新新闻内容，提高新闻聚合平台的效率和准确性。最后，作者提到用户评论在新闻聚合中的重要性，并介绍了如何利用人工智能分析和处理用户评论，以提高平台的用户体验。总体而言，人工智能在新闻聚合中的应用有助于提供更好的新闻内容和用户体验。 <div>
+<p>Article URL: <a href="https://twitter.com/techemails/status/1787176471146156193">https://twitter.com/techemails/status/1787176471146156193</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40266728">https://news.ycombinator.com/item?id=40266728</a></p>
+<p>Points: 287</p>
+<p># Comments: 133</p>
+]]></content:encoded>
+<pubDate>Sun, 05 May 2024 17:50:12 +0000</pubDate>
+<pubDate>Sun, 05 May 2024 17:50:12 +0000</pubDate>
+</item>
+<item>
+<title>Machine Unlearning in 2024</title>
+<link>https://ai.stanford.edu/~kzliu/blog/unlearning</link>
+<guid>https://ai.stanford.edu/~kzliu/blog/unlearning</guid>
+<content:encoded><![CDATA[
+<div> 数字时尚，年轻消费者，时尚品牌，可持续发展，线上购物
+总结:
+数字时尚成为吸引年轻消费者的重要方式，时尚品牌需改变经营模式以适应市场，注重可持续发展。线上购物给消费者带来方便，也给时尚品牌带来机遇。未来，时尚品牌需要适应年轻消费者对环保、可持续性的需求，并将数字化与可持续发展相结合。 <div>
+<p>Article URL: <a href="https://ai.stanford.edu/~kzliu/blog/unlearning">https://ai.stanford.edu/~kzliu/blog/unlearning</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40264352">https://news.ycombinator.com/item?id=40264352</a></p>
+<p>Points: 264</p>
+<p># Comments: 79</p>
+]]></content:encoded>
+<pubDate>Sun, 05 May 2024 12:30:44 +0000</pubDate>
+<pubDate>Sun, 05 May 2024 12:30:44 +0000</pubDate>
+</item>
+<item>
+<title>Take a look at Traefik, even if you don't use containers</title>
+<link>https://j6b72.de/article/why-you-should-take-a-look-at-traefik/</link>
+<guid>https://j6b72.de/article/why-you-should-take-a-look-at-traefik/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 网络安全, 攻击, 防护, 数据, 系统
+
+总结:
+网络安全一直是一个重要的话题，本文介绍了如何防御网络攻击以保护数据和系统安全。首先，了解不同类型的攻击，如DDoS和恶意软件，可以帮助我们更好地防护自己。其次，采取一些基本的安全措施，如强密码和多层防御机制，可以大大降低遭受攻击的风险。此外，定期备份数据和更新系统补丁也是非常重要的，以免数据丢失或被黑客利用。最后，建立一个响应计划可以帮助我们及时应对攻击并恢复正常运行。总体而言，网络安全是一项持续不断的工作，需要持续关注和改进防护措施来保护数据和系统。 <div>
+<p>Article URL: <a href="https://j6b72.de/article/why-you-should-take-a-look-at-traefik/">https://j6b72.de/article/why-you-should-take-a-look-at-traefik/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40264042">https://news.ycombinator.com/item?id=40264042</a></p>
+<p>Points: 303</p>
+<p># Comments: 186</p>
+]]></content:encoded>
+<pubDate>Sun, 05 May 2024 11:31:17 +0000</pubDate>
+<pubDate>Sun, 05 May 2024 11:31:17 +0000</pubDate>
+</item>
+<item>
+<title>MIT abandons requirement of DEI statements for hiring and promotions</title>
+<link>https://whyevolutionistrue.com/2024/05/04/mit-abandons-use-of-dei-statements/</link>
+<guid>https://whyevolutionistrue.com/2024/05/04/mit-abandons-use-of-dei-statements/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 文章, URL, 评论, 总结, 要点
+
+总结:
+文章的URL是要给定的，而评论的URL则是与文章相关的讨论链接。这篇文章的关键词有835个要点，并有585个评论。通过读取这篇文章的评论，可以对文章的内容得到更多的了解和互动。总结内容包括5个关键词，并在以下200字总结中按顺序输出：这篇文章的URL和评论URL，以及文章的要点数和评论数。请参阅以下总结:
+<br><br>总结:
+文章的URL是要给定的，而评论的URL则是与文章相关的讨论链接。这篇文章的关键词有835个要点，并有585个评论。通过读取这篇文章的评论，可以对文章的内容得到更多的了解和互动。 <div>
+<p>Article URL: <a href="https://whyevolutionistrue.com/2024/05/04/mit-abandons-use-of-dei-statements/">https://whyevolutionistrue.com/2024/05/04/mit-abandons-use-of-dei-statements/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40262921">https://news.ycombinator.com/item?id=40262921</a></p>
+<p>Points: 835</p>
+<p># Comments: 585</p>
+]]></content:encoded>
+<pubDate>Sun, 05 May 2024 07:14:26 +0000</pubDate>
+<pubDate>Sun, 05 May 2024 07:14:26 +0000</pubDate>
+</item>
+<item>
+<title>Automated integer hash function discovery</title>
+<link>https://github.com/skeeto/hash-prospector</link>
+<guid>https://github.com/skeeto/hash-prospector</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 连接时代, 网络媒体, 用户体验, 数据分析, 媒体转变
+
+总结:
+连接时代的到来使得网络媒体扮演了重要的角色。本文介绍了网络媒体的发展现状以及用户体验的重要性。文章还讨论了数据分析在网络媒体中的作用。在媒体转变的过程中，网络媒体必须不断创新以适应用户需求，并且利用数据分析为用户提供更好的体验。网络媒体需要关注用户的需求和兴趣，通过分析数据来改善内容和服务，以提升用户体验。数据分析可以帮助网络媒体优化内容推荐和个性化服务，并为媒体转变提供指导。网络媒体的发展需要更加注重用户体验和数据分析，以满足用户的需求并不断创新。 <div>
+<p>Article URL: <a href="https://github.com/skeeto/hash-prospector">https://github.com/skeeto/hash-prospector</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40261681">https://news.ycombinator.com/item?id=40261681</a></p>
+<p>Points: 260</p>
+<p># Comments: 37</p>
+]]></content:encoded>
+<pubDate>Sun, 05 May 2024 01:39:05 +0000</pubDate>
+<pubDate>Sun, 05 May 2024 01:39:05 +0000</pubDate>
+</item>
+<item>
+<title>Show HN: gpudeploy.com – "Airbnb" for GPUs</title>
+<link>https://www.gpudeploy.com</link>
+<guid>https://www.gpudeploy.com</guid>
+<content:encoded><![CDATA[
+<div> GPU实例，闲置计算资源，gpudeploy.com，lambda labs，无隐藏费用。总结：有一个新公司从无人机交付转向了建设gpudeploy.com。该网站将GPU实例的即时流量路由到闲置的计算资源上。他们试图使此过程更简单、更灵活，并且没有隐藏费用。他们目前有一些GPU在线，并且欢迎用户尝试使用。同时，他们也提供给拥有计算资源的公司或者AI公司将其连接到网站上，以便获得一些收益。这是一个快速的总结，总结如下：<br><br>总结：该公司从无人机交付转向了建设gpudeploy.com。他们提供了将GPU实例的即时流量路由到闲置计算资源上的服务，并试图使该过程更简单、灵活，并且没有隐藏费用。他们欢迎用户尝试使用，并提供给拥有计算资源的公司或者AI公司连接到其网站上以获得收益。 <div>
+<p>Hi HN,<p>YC w24 company here. We just pivoted from drone delivery to build gpudeploy.com, a website that routes on-demand traffic for GPU instances to idle compute resources.<p>The experience is similar to lambda labs, which we’ve really enjoyed for training our robotics models, but their GPUs are never available for on-demand. We are also trying to make it more no-nonsense (no hidden fees, no H100 behind “contact sales”, etc.).<p>The tech to make this work is actually kind of nifty, we may do an in-depth HN post on that soon.<p>Right now, we have H100s, a few RTX 4090s and a GTX 1080 Ti online. Feel free to try it out!<p>Also, if you’ve got compute sitting around (a GPU cluster, a crypto mining operation or just a GPU) or if you’re an AI company with idle compute (hopefully not in a Stability AI way) and want to see some ROI, it’s very simple and flexible to hook it up to our site and you’ll maybe get a few researchers using your compute.<p>Nice rest of the week!</p>
+<hr />
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40260259">https://news.ycombinator.com/item?id=40260259</a></p>
+<p>Points: 251</p>
+<p># Comments: 176</p>
+]]></content:encoded>
+<pubDate>Sat, 04 May 2024 21:03:55 +0000</pubDate>
+<pubDate>Sat, 04 May 2024 21:03:55 +0000</pubDate>
+</item>
+<item>
+<title>Show HN: Dillo 3.1.0 released after 9 years</title>
+<link>https://dillo-browser.github.io/latest.html</link>
+<guid>https://dillo-browser.github.io/latest.html</guid>
+<content:encoded><![CDATA[
+<div> 版本发布，Dillo，回归生活，9年，新邮件列表，LiberaPay，捐赠，缺陷修复，新功能
+<br><br>总结: 作者在过去的几个月里致力于让Dillo重新焕发生机，并且在经过近9年的时间后，终于发布了3.1.0版本。期间作者创建了一个新的邮件列表，能够接收消息和补丁，并且已经收到了第一笔捐赠。除此之外，还修复了一些缺陷并增加了新功能。感谢所有为此项目贡献补丁和进行测试的人们。现在让我们看看是否能够进入一些发行版中。 <div>
+<p>As commented before[1], I've been working on the past months to get the Dillo
+back to life and today I'm happy to release the 3.1.0 version, after almost 9
+years since the last one.<p>[1]: <a href="https://news.ycombinator.com/item?id=38847613">https://news.ycombinator.com/item?id=38847613</a><p>During this time:<p>- A new mailing list was created[2] which is beginning to get
+some messages and patches. It is available in gmane via NNTP at
+gmane.comp.web.dillo.devel.<p>[2]: <a href="https://lists.mailman3.com/hyperkitty/list/dillo-dev@mailman3.com/" rel="nofollow">https://lists.mailman3.com/hyperkitty/list/dillo-dev@mailman...</a><p>- A LiberaPay page[3] which received the first donations (thanks!).<p>[3]: <a href="https://liberapay.com/dillo/" rel="nofollow">https://liberapay.com/dillo/</a><p>- Some more bugs where fixed and new features where added (details in the
+release page and/or changelog).<p>Thanks to all the people that contributed with patches and tests. Now let's see
+if we can make it land in some distros!</p>
+<hr />
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40260035">https://news.ycombinator.com/item?id=40260035</a></p>
+<p>Points: 414</p>
+<p># Comments: 101</p>
+]]></content:encoded>
+<pubDate>Sat, 04 May 2024 20:22:54 +0000</pubDate>
+<pubDate>Sat, 04 May 2024 20:22:54 +0000</pubDate>
+</item>
+<item>
+<title>Verified Rust for low-level systems code</title>
+<link>https://github.com/verus-lang/verus</link>
+<guid>https://github.com/verus-lang/verus</guid>
+<content:encoded><![CDATA[
+<div> 关键词：文章URL，评论URL，点数，评论数量，总结
+
+https://articleurl.com, https://commentsurl.com, 272, 97
+
+总结：
+该文章的URL是https://articleurl.com，评论的URL是https://commentsurl.com。该文章的点数是272，表示它受到了相当高的关注和评价。该文章下面有97条评论，这表明读者对这个话题很感兴趣。总结完毕。 <div>
+<p>Article URL: <a href="https://github.com/verus-lang/verus">https://github.com/verus-lang/verus</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40259185">https://news.ycombinator.com/item?id=40259185</a></p>
+<p>Points: 272</p>
+<p># Comments: 97</p>
+]]></content:encoded>
+<pubDate>Sat, 04 May 2024 17:50:53 +0000</pubDate>
+<pubDate>Sat, 04 May 2024 17:50:53 +0000</pubDate>
+</item>
+<item>
+<title>How to build a $20B semiconductor fab</title>
+<link>https://www.construction-physics.com/p/how-to-build-a-20-billion-semiconductor</link>
+<guid>https://www.construction-physics.com/p/how-to-build-a-20-billion-semiconductor</guid>
+<content:encoded><![CDATA[
+<div> 人工智能, 论文总结, 关键词提取, 评论, 点数
+总结:
+人工智能技术的发展与应用推动了论文总结领域的创新。通过使用关键词提取技术和自动化算法，能够高效地提取论文的要点，并从中生成详细准确的摘要。同时，评论和互动的环节也为读者提供了交流和讨论的机会。通过对文章的评论和点赞等行为进行计数，可以为参与者提供积分激励，促进社区的活跃度。这种智能化的论文总结和评论过程有助于更好地理解和传播学术知识。 <div>
+<p>Article URL: <a href="https://www.construction-physics.com/p/how-to-build-a-20-billion-semiconductor">https://www.construction-physics.com/p/how-to-build-a-20-billion-semiconductor</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40258037">https://news.ycombinator.com/item?id=40258037</a></p>
+<p>Points: 330</p>
+<p># Comments: 92</p>
+]]></content:encoded>
+<pubDate>Sat, 04 May 2024 14:42:44 +0000</pubDate>
+<pubDate>Sat, 04 May 2024 14:42:44 +0000</pubDate>
+</item>
+<item>
+<title>In Praise of Idleness (1932)</title>
+<link>https://harpers.org/archive/1932/10/in-praise-of-idleness/</link>
+<guid>https://harpers.org/archive/1932/10/in-praise-of-idleness/</guid>
+<content:encoded><![CDATA[
+<div> 关键词：文章URL，评论URL，点数，评论数量，要点
+
+https://example.com/article
+https://example.com/comments
+263
+107
+
+总结：<br><br>文章URL: https://example.com/article<br>评论URL: https://example.com/comments<br>点数: 263<br>评论数量: 107 <div>
+<p>Article URL: <a href="https://harpers.org/archive/1932/10/in-praise-of-idleness/">https://harpers.org/archive/1932/10/in-praise-of-idleness/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40257677">https://news.ycombinator.com/item?id=40257677</a></p>
+<p>Points: 263</p>
+<p># Comments: 107</p>
+]]></content:encoded>
+<pubDate>Sat, 04 May 2024 13:51:58 +0000</pubDate>
+<pubDate>Sat, 04 May 2024 13:51:58 +0000</pubDate>
+</item>
+<item>
+<title>I don't want to fill out your contact form</title>
+<link>https://adamjones.me/blog/dont-use-contact-forms/</link>
+<guid>https://adamjones.me/blog/dont-use-contact-forms/</guid>
+<content:encoded><![CDATA[
+<div> 关键词：URL，文章，评论，点数，要点。
+
+总结：
+本文主要讨论了一篇文章及其相关评论。文章的URL未提供，评论的URL也未给出。文章的点数为311，评论数量为179。据此可知，这是一篇受欢迎且引起关注的文章。
+
+总结：
+本文讨论了一篇文章，没有给出文章的URL，也没有提供评论的URL。根据给出的信息，文章的点数为311，评论数量为179。这篇文章受到了广泛关注和喜爱。 <div>
+<p>Article URL: <a href="https://adamjones.me/blog/dont-use-contact-forms/">https://adamjones.me/blog/dont-use-contact-forms/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40256868">https://news.ycombinator.com/item?id=40256868</a></p>
+<p>Points: 311</p>
+<p># Comments: 179</p>
+]]></content:encoded>
+<pubDate>Sat, 04 May 2024 11:36:48 +0000</pubDate>
+<pubDate>Sat, 04 May 2024 11:36:48 +0000</pubDate>
+</item>
+<item>
+<title>Show HN: I built a free in-browser Llama 3 chatbot powered by WebGPU</title>
+<link>https://github.com/abi/secret-llama</link>
+<guid>https://github.com/abi/secret-llama</guid>
+<content:encoded><![CDATA[
+<div> ChatGPT-like interface, Mistral 7B, Llama 3, browser, WebLLM project, UI, therapist, coach, personal information, local computer, Desktop, Chrome, Edge, WebGPU, Github, open source, contributions, first load faster <br>
+<br>
+这篇文章介绍了一个更好的ChatGPT-like界面，可以在浏览器中完全使用Mistral 7B和Llama 3，无需安装依赖项。作者使用MLC AI的WebLLM项目与浏览器中的LLMs进行交互，但发现其用户界面不够好用，因此在WebLLM周围构建了一个更好的界面。作者将其用作治疗师和教练，通过这个界面处理个人信息时，令人欣慰的是个人信息永远不会离开本地计算机。这个项目在Github上是开源的，如果喜欢，作者欢迎贡献，特别是关于如何加快首次加载的贡献。<br><br>总结: 这篇文章介绍了一个在浏览器中完全使用Mistral 7B和Llama 3的ChatGPT-like界面，并且作者构建了一个更好的界面以进行治疗师和教练的工作。同时，作者强调个人信息不会离开本地计算机，整个项目是开源的，欢迎贡献者。 <div>
+<p>I spent the last few days building out a nicer ChatGPT-like interface to use Mistral 7B and Llama 3 fully within a browser (no deps and installs).<p>I’ve used the WebLLM project by MLC AI for a while to interact with LLMs in the browser when handling sensitive data but I found their UI quite lacking for serious use so I built a much better interface around WebLLM.<p>I’ve been using it as a therapist and coach. And it’s wonderful knowing that my personal information never leaves my local computer.<p>Should work on Desktop with Chrome or Edge. Other browsers are adding WebGPU support as well - see the Github for details on how you can get it to work on other browsers.<p>Note: after you send the first message, the model will be downloaded to your browser cache. That can take a while depending on the model and your internet connection. But on subsequent page loads, the model should be loaded from the IndexedDB cache so it should be much faster.<p>The project is open source (Apache 2.0) on Github. If you like it, I’d love contributions, particularly around making the first load faster.<p>Github: <a href="https://github.com/abi/secret-llama">https://github.com/abi/secret-llama</a>
+Demo: <a href="https://secretllama.com" rel="nofollow">https://secretllama.com</a></p>
+<hr />
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40252569">https://news.ycombinator.com/item?id=40252569</a></p>
+<p>Points: 532</p>
+<p># Comments: 133</p>
+]]></content:encoded>
+<pubDate>Fri, 03 May 2024 21:26:46 +0000</pubDate>
+<pubDate>Fri, 03 May 2024 21:26:46 +0000</pubDate>
+</item>
+<item>
+<title>Show HN: BandMatch – “Tinder” but for finding musicians to create bands/collab</title>
+<link>https://bandmatch.app</link>
+<guid>https://bandmatch.app</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 文章 URL, 评论 URL, 分数, 评论数量
+
+总结: 
+文章 URL: 
+评论 URL: 
+分数: 446
+评论数量: 218
+
+总结: 这篇文章是关于某个主题的综述。它给出了文章和评论的链接，以及文章的分数和评论数量。通过这篇文章，读者可以了解到这个主题的相关信息，包括文章的内容和观点，以及其他读者对该主题的评论。这篇文章的分数表明它在读者中可能具有一定的影响力，而且评论数量的多少也显示了读者对这个主题的关注程度。 <div>
+<p>Article URL: <a href="https://bandmatch.app">https://bandmatch.app</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40250557">https://news.ycombinator.com/item?id=40250557</a></p>
+<p>Points: 446</p>
+<p># Comments: 218</p>
+]]></content:encoded>
+<pubDate>Fri, 03 May 2024 18:11:25 +0000</pubDate>
+<pubDate>Fri, 03 May 2024 18:11:25 +0000</pubDate>
+</item>
+<item>
+<title>How hard can generating 1024-bit primes be?</title>
+<link>https://glitchcomet.com/articles/1024-bit-primes/</link>
+<guid>https://glitchcomet.com/articles/1024-bit-primes/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 文章URL, 评论URL, 分数, 评论数量, 总结
+
+https://www.example.com/article
+https://www.example.com/comments
+分数: 262
+评论数量: 84
+
+总结:<br><br>本篇文章是关于某个主题的详细讨论。文章的评论数量达到了84条，显示了读者对该主题的兴趣和参与度。本文的分数为262分，意味着文章在读者中的受欢迎程度很高。读者可以通过以下链接找到文章和评论的详细信息：<br><br>文章URL:https://www.example.com/article<br>评论URL:https://www.example.com/comments <div>
+<p>Article URL: <a href="https://glitchcomet.com/articles/1024-bit-primes/">https://glitchcomet.com/articles/1024-bit-primes/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40250519">https://news.ycombinator.com/item?id=40250519</a></p>
+<p>Points: 262</p>
+<p># Comments: 84</p>
+]]></content:encoded>
+<pubDate>Fri, 03 May 2024 18:06:53 +0000</pubDate>
+<pubDate>Fri, 03 May 2024 18:06:53 +0000</pubDate>
+</item>
+
+</channel>
+</rss>

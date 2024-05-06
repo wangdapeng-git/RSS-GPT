@@ -62,3 +62,4 @@
 - https://rsshub.app/deepmind/blog -> https://wangdapeng-git.github.io/RSS-GPT/deepmind.xml
 - https://rsshub.app/openai/blog -> https://wangdapeng-git.github.io/RSS-GPT/openai.xml
 - https://rsshub.app/deeplearning/thebatch -> https://wangdapeng-git.github.io/RSS-GPT/deeplearning.ai.xml
+- https://hnrss.org/newest?points=250&comments=25 -> https://wangdapeng-git.github.io/RSS-GPT/HackerNews.xml
