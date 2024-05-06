@@ -64,3 +64,12 @@ Summarized using GPT-3.5-turbo
 Append: [How hard can generating 1024-bit primes be?](https://glitchcomet.com/articles/1024-bit-primes/)
 append_entries: 20
 Finish: 2024-05-06 12:19:14.417512
+------------------------------------------------------
+Started: 2024-05-06 14:10:21.841036
+Existing_entries: 20
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [Simplicity is an advantage but sadly complexity sells better (2022)](https://eugeneyan.com/writing/simplicity/)
+append_entries: 1
+Finish: 2024-05-06 14:10:29.626136

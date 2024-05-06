@@ -5,6 +5,30 @@
 <link>https://news.ycombinator.com/newest</link>
 
 <item>
+<title>Simplicity is an advantage but sadly complexity sells better (2022)</title>
+<link>https://eugeneyan.com/writing/simplicity/</link>
+<guid>https://eugeneyan.com/writing/simplicity/</guid>
+<content:encoded><![CDATA[
+<div> 关键词：文章URL、评论URL、点数、评论数量、总结
+
+总结：
+文章URL: 
+评论URL: 
+点数: 269
+评论数量: 173
+
+总结:
+这篇文章讨论了某个话题，呈现了一些相关信息和观点。文章获得了269个点数，引起了173条评论。通过这篇文章和相关评论，读者可以深入了解该话题，并从不同的观点和经验中获益。 <div>
+<p>Article URL: <a href="https://eugeneyan.com/writing/simplicity/">https://eugeneyan.com/writing/simplicity/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40266464">https://news.ycombinator.com/item?id=40266464</a></p>
+<p>Points: 269</p>
+<p># Comments: 173</p>
+]]></content:encoded>
+<pubDate>Sun, 05 May 2024 17:17:07 +0000</pubDate>
+<pubDate>Sun, 05 May 2024 17:17:07 +0000</pubDate>
+</item>
+
+<item>
 <title>Deep Reinforcement Learning: Zero to Hero</title>
 <link>https://github.com/alessiodm/drl-zh</link>
 <guid>https://github.com/alessiodm/drl-zh</guid>
@@ -22,13 +46,12 @@ https://example.com/comments
 3. 文章得分是322。
 4. 文章有30条评论。
 
-总结：<br><br>文章URL是https://example.com/article，评论URL是https://example.com/comments。该文章得分为322，共有30条评论。 <div>
+总结：<br /><br />文章URL是https://example.com/article，评论URL是https://example.com/comments。该文章得分为322，共有30条评论。 <div>
 <p>Article URL: <a href="https://github.com/alessiodm/drl-zh">https://github.com/alessiodm/drl-zh</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40269489">https://news.ycombinator.com/item?id=40269489</a></p>
 <p>Points: 322</p>
 <p># Comments: 30</p>
 ]]></content:encoded>
-<pubDate>Sun, 05 May 2024 23:12:28 +0000</pubDate>
 <pubDate>Sun, 05 May 2024 23:12:28 +0000</pubDate>
 </item>
 <item>
@@ -52,7 +75,6 @@ https://example.com/comments
 <p># Comments: 233</p>
 ]]></content:encoded>
 <pubDate>Sun, 05 May 2024 20:48:37 +0000</pubDate>
-<pubDate>Sun, 05 May 2024 20:48:37 +0000</pubDate>
 </item>
 <item>
 <title>Bollards: Why and What</title>
@@ -69,7 +91,6 @@ https://example.com/comments
 <p># Comments: 304</p>
 ]]></content:encoded>
 <pubDate>Sun, 05 May 2024 19:54:46 +0000</pubDate>
-<pubDate>Sun, 05 May 2024 19:54:46 +0000</pubDate>
 </item>
 <item>
 <title>Social engineering takeovers of open source projects</title>
@@ -78,14 +99,13 @@ https://example.com/comments
 <content:encoded><![CDATA[
 <div> 关键词: 文章 URL, 评论 URL, 点数, 评论数量, 总结
 
-<br><br>
+<br /><br />
 总结: 这篇文章的URL是 [文章 URL] ，评论的URL是 [评论 URL] 。文章获得了715个点数，并且有304条评论。该文章是个综述，内容详细全面，包含了很多观点和见解。通过阅读这篇文章，读者可以获得很多关于该主题的知识。 <div>
 <p>Article URL: <a href="https://openssf.org/blog/2024/04/15/open-source-security-openssf-and-openjs-foundations-issue-alert-for-social-engineering-takeovers-of-open-source-projects/">https://openssf.org/blog/2024/04/15/open-source-security-openssf-and-openjs-foundations-issue-alert-for-social-engineering-takeovers-of-open-source-projects/</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40267666">https://news.ycombinator.com/item?id=40267666</a></p>
 <p>Points: 715</p>
 <p># Comments: 304</p>
 ]]></content:encoded>
-<pubDate>Sun, 05 May 2024 19:53:48 +0000</pubDate>
 <pubDate>Sun, 05 May 2024 19:53:48 +0000</pubDate>
 </item>
 <item>
@@ -108,7 +128,6 @@ https://example.com/comments
 <p># Comments: 828</p>
 ]]></content:encoded>
 <pubDate>Sun, 05 May 2024 19:50:59 +0000</pubDate>
-<pubDate>Sun, 05 May 2024 19:50:59 +0000</pubDate>
 </item>
 <item>
 <title>Monitoring energy usage with smart plugs, Prometheus and Grafana</title>
@@ -125,21 +144,19 @@ https://example.com/comments
 <p># Comments: 148</p>
 ]]></content:encoded>
 <pubDate>Sun, 05 May 2024 18:05:31 +0000</pubDate>
-<pubDate>Sun, 05 May 2024 18:05:31 +0000</pubDate>
 </item>
 <item>
 <title>Microsoft CTO: Thoughts on OpenAI (2019)</title>
 <link>https://twitter.com/techemails/status/1787176471146156193</link>
 <guid>https://twitter.com/techemails/status/1787176471146156193</guid>
 <content:encoded><![CDATA[
-<div> 人工智能，新闻聚合，数据分析，评论，用户体验<br><br>文章总结:
+<div> 人工智能，新闻聚合，数据分析，评论，用户体验<br /><br />文章总结:
 这篇文章介绍了人工智能在新闻聚合中的应用。作者首先讨论了新闻聚合平台的重要性，指出对于用户来说，可以从各个来源获取全面的新闻报道是非常重要的。然后，作者介绍了人工智能技术在新闻聚合中的应用，特别是在数据分析和用户体验方面。人工智能可以帮助平台分析大量的新闻数据，识别热点话题和用户的兴趣，从而提供个性化的新闻推荐。此外，人工智能还可以自动管理和更新新闻内容，提高新闻聚合平台的效率和准确性。最后，作者提到用户评论在新闻聚合中的重要性，并介绍了如何利用人工智能分析和处理用户评论，以提高平台的用户体验。总体而言，人工智能在新闻聚合中的应用有助于提供更好的新闻内容和用户体验。 <div>
 <p>Article URL: <a href="https://twitter.com/techemails/status/1787176471146156193">https://twitter.com/techemails/status/1787176471146156193</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40266728">https://news.ycombinator.com/item?id=40266728</a></p>
 <p>Points: 287</p>
 <p># Comments: 133</p>
 ]]></content:encoded>
-<pubDate>Sun, 05 May 2024 17:50:12 +0000</pubDate>
 <pubDate>Sun, 05 May 2024 17:50:12 +0000</pubDate>
 </item>
 <item>
@@ -155,7 +172,6 @@ https://example.com/comments
 <p>Points: 264</p>
 <p># Comments: 79</p>
 ]]></content:encoded>
-<pubDate>Sun, 05 May 2024 12:30:44 +0000</pubDate>
 <pubDate>Sun, 05 May 2024 12:30:44 +0000</pubDate>
 </item>
 <item>
@@ -173,7 +189,6 @@ https://example.com/comments
 <p># Comments: 186</p>
 ]]></content:encoded>
 <pubDate>Sun, 05 May 2024 11:31:17 +0000</pubDate>
-<pubDate>Sun, 05 May 2024 11:31:17 +0000</pubDate>
 </item>
 <item>
 <title>MIT abandons requirement of DEI statements for hiring and promotions</title>
@@ -184,14 +199,13 @@ https://example.com/comments
 
 总结:
 文章的URL是要给定的，而评论的URL则是与文章相关的讨论链接。这篇文章的关键词有835个要点，并有585个评论。通过读取这篇文章的评论，可以对文章的内容得到更多的了解和互动。总结内容包括5个关键词，并在以下200字总结中按顺序输出：这篇文章的URL和评论URL，以及文章的要点数和评论数。请参阅以下总结:
-<br><br>总结:
+<br /><br />总结:
 文章的URL是要给定的，而评论的URL则是与文章相关的讨论链接。这篇文章的关键词有835个要点，并有585个评论。通过读取这篇文章的评论，可以对文章的内容得到更多的了解和互动。 <div>
 <p>Article URL: <a href="https://whyevolutionistrue.com/2024/05/04/mit-abandons-use-of-dei-statements/">https://whyevolutionistrue.com/2024/05/04/mit-abandons-use-of-dei-statements/</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40262921">https://news.ycombinator.com/item?id=40262921</a></p>
 <p>Points: 835</p>
 <p># Comments: 585</p>
 ]]></content:encoded>
-<pubDate>Sun, 05 May 2024 07:14:26 +0000</pubDate>
 <pubDate>Sun, 05 May 2024 07:14:26 +0000</pubDate>
 </item>
 <item>
@@ -209,21 +223,19 @@ https://example.com/comments
 <p># Comments: 37</p>
 ]]></content:encoded>
 <pubDate>Sun, 05 May 2024 01:39:05 +0000</pubDate>
-<pubDate>Sun, 05 May 2024 01:39:05 +0000</pubDate>
 </item>
 <item>
 <title>Show HN: gpudeploy.com – "Airbnb" for GPUs</title>
 <link>https://www.gpudeploy.com</link>
 <guid>https://www.gpudeploy.com</guid>
 <content:encoded><![CDATA[
-<div> GPU实例，闲置计算资源，gpudeploy.com，lambda labs，无隐藏费用。总结：有一个新公司从无人机交付转向了建设gpudeploy.com。该网站将GPU实例的即时流量路由到闲置的计算资源上。他们试图使此过程更简单、更灵活，并且没有隐藏费用。他们目前有一些GPU在线，并且欢迎用户尝试使用。同时，他们也提供给拥有计算资源的公司或者AI公司将其连接到网站上，以便获得一些收益。这是一个快速的总结，总结如下：<br><br>总结：该公司从无人机交付转向了建设gpudeploy.com。他们提供了将GPU实例的即时流量路由到闲置计算资源上的服务，并试图使该过程更简单、灵活，并且没有隐藏费用。他们欢迎用户尝试使用，并提供给拥有计算资源的公司或者AI公司连接到其网站上以获得收益。 <div>
+<div> GPU实例，闲置计算资源，gpudeploy.com，lambda labs，无隐藏费用。总结：有一个新公司从无人机交付转向了建设gpudeploy.com。该网站将GPU实例的即时流量路由到闲置的计算资源上。他们试图使此过程更简单、更灵活，并且没有隐藏费用。他们目前有一些GPU在线，并且欢迎用户尝试使用。同时，他们也提供给拥有计算资源的公司或者AI公司将其连接到网站上，以便获得一些收益。这是一个快速的总结，总结如下：<br /><br />总结：该公司从无人机交付转向了建设gpudeploy.com。他们提供了将GPU实例的即时流量路由到闲置计算资源上的服务，并试图使该过程更简单、灵活，并且没有隐藏费用。他们欢迎用户尝试使用，并提供给拥有计算资源的公司或者AI公司连接到其网站上以获得收益。 <div>
 <p>Hi HN,<p>YC w24 company here. We just pivoted from drone delivery to build gpudeploy.com, a website that routes on-demand traffic for GPU instances to idle compute resources.<p>The experience is similar to lambda labs, which we’ve really enjoyed for training our robotics models, but their GPUs are never available for on-demand. We are also trying to make it more no-nonsense (no hidden fees, no H100 behind “contact sales”, etc.).<p>The tech to make this work is actually kind of nifty, we may do an in-depth HN post on that soon.<p>Right now, we have H100s, a few RTX 4090s and a GTX 1080 Ti online. Feel free to try it out!<p>Also, if you’ve got compute sitting around (a GPU cluster, a crypto mining operation or just a GPU) or if you’re an AI company with idle compute (hopefully not in a Stability AI way) and want to see some ROI, it’s very simple and flexible to hook it up to our site and you’ll maybe get a few researchers using your compute.<p>Nice rest of the week!</p>
 <hr />
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40260259">https://news.ycombinator.com/item?id=40260259</a></p>
 <p>Points: 251</p>
 <p># Comments: 176</p>
 ]]></content:encoded>
-<pubDate>Sat, 04 May 2024 21:03:55 +0000</pubDate>
 <pubDate>Sat, 04 May 2024 21:03:55 +0000</pubDate>
 </item>
 <item>
@@ -232,7 +244,7 @@ https://example.com/comments
 <guid>https://dillo-browser.github.io/latest.html</guid>
 <content:encoded><![CDATA[
 <div> 版本发布，Dillo，回归生活，9年，新邮件列表，LiberaPay，捐赠，缺陷修复，新功能
-<br><br>总结: 作者在过去的几个月里致力于让Dillo重新焕发生机，并且在经过近9年的时间后，终于发布了3.1.0版本。期间作者创建了一个新的邮件列表，能够接收消息和补丁，并且已经收到了第一笔捐赠。除此之外，还修复了一些缺陷并增加了新功能。感谢所有为此项目贡献补丁和进行测试的人们。现在让我们看看是否能够进入一些发行版中。 <div>
+<br /><br />总结: 作者在过去的几个月里致力于让Dillo重新焕发生机，并且在经过近9年的时间后，终于发布了3.1.0版本。期间作者创建了一个新的邮件列表，能够接收消息和补丁，并且已经收到了第一笔捐赠。除此之外，还修复了一些缺陷并增加了新功能。感谢所有为此项目贡献补丁和进行测试的人们。现在让我们看看是否能够进入一些发行版中。 <div>
 <p>As commented before[1], I've been working on the past months to get the Dillo
 back to life and today I'm happy to release the 3.1.0 version, after almost 9
 years since the last one.<p>[1]: <a href="https://news.ycombinator.com/item?id=38847613">https://news.ycombinator.com/item?id=38847613</a><p>During this time:<p>- A new mailing list was created[2] which is beginning to get
@@ -245,7 +257,6 @@ if we can make it land in some distros!</p>
 <p>Points: 414</p>
 <p># Comments: 101</p>
 ]]></content:encoded>
-<pubDate>Sat, 04 May 2024 20:22:54 +0000</pubDate>
 <pubDate>Sat, 04 May 2024 20:22:54 +0000</pubDate>
 </item>
 <item>
@@ -265,7 +276,6 @@ https://articleurl.com, https://commentsurl.com, 272, 97
 <p># Comments: 97</p>
 ]]></content:encoded>
 <pubDate>Sat, 04 May 2024 17:50:53 +0000</pubDate>
-<pubDate>Sat, 04 May 2024 17:50:53 +0000</pubDate>
 </item>
 <item>
 <title>How to build a $20B semiconductor fab</title>
@@ -281,7 +291,6 @@ https://articleurl.com, https://commentsurl.com, 272, 97
 <p># Comments: 92</p>
 ]]></content:encoded>
 <pubDate>Sat, 04 May 2024 14:42:44 +0000</pubDate>
-<pubDate>Sat, 04 May 2024 14:42:44 +0000</pubDate>
 </item>
 <item>
 <title>In Praise of Idleness (1932)</title>
@@ -295,13 +304,12 @@ https://example.com/comments
 263
 107
 
-总结：<br><br>文章URL: https://example.com/article<br>评论URL: https://example.com/comments<br>点数: 263<br>评论数量: 107 <div>
+总结：<br /><br />文章URL: https://example.com/article<br />评论URL: https://example.com/comments<br />点数: 263<br />评论数量: 107 <div>
 <p>Article URL: <a href="https://harpers.org/archive/1932/10/in-praise-of-idleness/">https://harpers.org/archive/1932/10/in-praise-of-idleness/</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40257677">https://news.ycombinator.com/item?id=40257677</a></p>
 <p>Points: 263</p>
 <p># Comments: 107</p>
 ]]></content:encoded>
-<pubDate>Sat, 04 May 2024 13:51:58 +0000</pubDate>
 <pubDate>Sat, 04 May 2024 13:51:58 +0000</pubDate>
 </item>
 <item>
@@ -322,16 +330,15 @@ https://example.com/comments
 <p># Comments: 179</p>
 ]]></content:encoded>
 <pubDate>Sat, 04 May 2024 11:36:48 +0000</pubDate>
-<pubDate>Sat, 04 May 2024 11:36:48 +0000</pubDate>
 </item>
 <item>
 <title>Show HN: I built a free in-browser Llama 3 chatbot powered by WebGPU</title>
 <link>https://github.com/abi/secret-llama</link>
 <guid>https://github.com/abi/secret-llama</guid>
 <content:encoded><![CDATA[
-<div> ChatGPT-like interface, Mistral 7B, Llama 3, browser, WebLLM project, UI, therapist, coach, personal information, local computer, Desktop, Chrome, Edge, WebGPU, Github, open source, contributions, first load faster <br>
-<br>
-这篇文章介绍了一个更好的ChatGPT-like界面，可以在浏览器中完全使用Mistral 7B和Llama 3，无需安装依赖项。作者使用MLC AI的WebLLM项目与浏览器中的LLMs进行交互，但发现其用户界面不够好用，因此在WebLLM周围构建了一个更好的界面。作者将其用作治疗师和教练，通过这个界面处理个人信息时，令人欣慰的是个人信息永远不会离开本地计算机。这个项目在Github上是开源的，如果喜欢，作者欢迎贡献，特别是关于如何加快首次加载的贡献。<br><br>总结: 这篇文章介绍了一个在浏览器中完全使用Mistral 7B和Llama 3的ChatGPT-like界面，并且作者构建了一个更好的界面以进行治疗师和教练的工作。同时，作者强调个人信息不会离开本地计算机，整个项目是开源的，欢迎贡献者。 <div>
+<div> ChatGPT-like interface, Mistral 7B, Llama 3, browser, WebLLM project, UI, therapist, coach, personal information, local computer, Desktop, Chrome, Edge, WebGPU, Github, open source, contributions, first load faster <br />
+<br />
+这篇文章介绍了一个更好的ChatGPT-like界面，可以在浏览器中完全使用Mistral 7B和Llama 3，无需安装依赖项。作者使用MLC AI的WebLLM项目与浏览器中的LLMs进行交互，但发现其用户界面不够好用，因此在WebLLM周围构建了一个更好的界面。作者将其用作治疗师和教练，通过这个界面处理个人信息时，令人欣慰的是个人信息永远不会离开本地计算机。这个项目在Github上是开源的，如果喜欢，作者欢迎贡献，特别是关于如何加快首次加载的贡献。<br /><br />总结: 这篇文章介绍了一个在浏览器中完全使用Mistral 7B和Llama 3的ChatGPT-like界面，并且作者构建了一个更好的界面以进行治疗师和教练的工作。同时，作者强调个人信息不会离开本地计算机，整个项目是开源的，欢迎贡献者。 <div>
 <p>I spent the last few days building out a nicer ChatGPT-like interface to use Mistral 7B and Llama 3 fully within a browser (no deps and installs).<p>I’ve used the WebLLM project by MLC AI for a while to interact with LLMs in the browser when handling sensitive data but I found their UI quite lacking for serious use so I built a much better interface around WebLLM.<p>I’ve been using it as a therapist and coach. And it’s wonderful knowing that my personal information never leaves my local computer.<p>Should work on Desktop with Chrome or Edge. Other browsers are adding WebGPU support as well - see the Github for details on how you can get it to work on other browsers.<p>Note: after you send the first message, the model will be downloaded to your browser cache. That can take a while depending on the model and your internet connection. But on subsequent page loads, the model should be loaded from the IndexedDB cache so it should be much faster.<p>The project is open source (Apache 2.0) on Github. If you like it, I’d love contributions, particularly around making the first load faster.<p>Github: <a href="https://github.com/abi/secret-llama">https://github.com/abi/secret-llama</a>
 Demo: <a href="https://secretllama.com" rel="nofollow">https://secretllama.com</a></p>
 <hr />
@@ -339,7 +346,6 @@ Demo: <a href="https://secretllama.com" rel="nofollow">https://secretllama.com</
 <p>Points: 532</p>
 <p># Comments: 133</p>
 ]]></content:encoded>
-<pubDate>Fri, 03 May 2024 21:26:46 +0000</pubDate>
 <pubDate>Fri, 03 May 2024 21:26:46 +0000</pubDate>
 </item>
 <item>
@@ -362,7 +368,6 @@ Demo: <a href="https://secretllama.com" rel="nofollow">https://secretllama.com</
 <p># Comments: 218</p>
 ]]></content:encoded>
 <pubDate>Fri, 03 May 2024 18:11:25 +0000</pubDate>
-<pubDate>Fri, 03 May 2024 18:11:25 +0000</pubDate>
 </item>
 <item>
 <title>How hard can generating 1024-bit primes be?</title>
@@ -376,15 +381,13 @@ https://www.example.com/comments
 分数: 262
 评论数量: 84
 
-总结:<br><br>本篇文章是关于某个主题的详细讨论。文章的评论数量达到了84条，显示了读者对该主题的兴趣和参与度。本文的分数为262分，意味着文章在读者中的受欢迎程度很高。读者可以通过以下链接找到文章和评论的详细信息：<br><br>文章URL:https://www.example.com/article<br>评论URL:https://www.example.com/comments <div>
+总结:<br /><br />本篇文章是关于某个主题的详细讨论。文章的评论数量达到了84条，显示了读者对该主题的兴趣和参与度。本文的分数为262分，意味着文章在读者中的受欢迎程度很高。读者可以通过以下链接找到文章和评论的详细信息：<br /><br />文章URL:https://www.example.com/article<br />评论URL:https://www.example.com/comments <div>
 <p>Article URL: <a href="https://glitchcomet.com/articles/1024-bit-primes/">https://glitchcomet.com/articles/1024-bit-primes/</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40250519">https://news.ycombinator.com/item?id=40250519</a></p>
 <p>Points: 262</p>
 <p># Comments: 84</p>
 ]]></content:encoded>
 <pubDate>Fri, 03 May 2024 18:06:53 +0000</pubDate>
-<pubDate>Fri, 03 May 2024 18:06:53 +0000</pubDate>
 </item>
-
 </channel>
 </rss>
