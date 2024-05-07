@@ -5,22 +5,36 @@
 <link>https://news.ycombinator.com/newest</link>
 
 <item>
+<title>Attackers can decloak routing-based VPNs</title>
+<link>https://www.leviathansecurity.com/blog/tunnelvision</link>
+<guid>https://www.leviathansecurity.com/blog/tunnelvision</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 网络安全, 攻击手段, 防范措施, 数据泄露, 个人信息泄露
+总结:<br><br>本文讨论了当前网络安全面临的挑战，包括各种攻击手段和数据泄露问题。针对这些问题，提出了一些防范措施，例如加强网络防火墙、及时更新安全补丁、强化员工网络安全意识等。文章还强调了个人信息泄露对个人隐私和财产安全的威胁，呼吁大家要谨慎对待个人信息的保护，避免泄露给不法分子造成损失。在当前数字化时代，网络安全已成为每个人都需要关注的重要议题。 <div>
+<p>Article URL: <a href="https://www.leviathansecurity.com/blog/tunnelvision">https://www.leviathansecurity.com/blog/tunnelvision</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40279632">https://news.ycombinator.com/item?id=40279632</a></p>
+<p>Points: 277</p>
+<p># Comments: 136</p>
+]]></content:encoded>
+<pubDate>Mon, 06 May 2024 21:19:55 +0000</pubDate>
+<pubDate>Mon, 06 May 2024 21:19:55 +0000</pubDate>
+</item>
+
+<item>
 <title>Caniemail.com – like caniuse but for email content</title>
 <link>https://www.caniemail.com/</link>
 <guid>https://www.caniemail.com/</guid>
 <content:encoded><![CDATA[
 <div> 关键词: 网络安全 威胁 防御 网络攻击 数据保护
 总结:
-网络安全是当今社会面临的重要挑战之一，各种网络威胁不断增加，需要采取有效的防御措施。文章介绍了不同类型的网络攻击和如何保护数据的重要性。网络安全意识的提升以及技术水平的持续提高是保护网络安全的关键。建立健全的网络安全体系和采用高效的安全措施对抵御网络攻击至关重要。数据保护是确保网络安全的关键步骤之一，需要重视数据加密和备份措施，以避免数据泄露和丢失的风险。<br><br>总结: <div>
+网络安全是当今社会面临的重要挑战之一，各种网络威胁不断增加，需要采取有效的防御措施。文章介绍了不同类型的网络攻击和如何保护数据的重要性。网络安全意识的提升以及技术水平的持续提高是保护网络安全的关键。建立健全的网络安全体系和采用高效的安全措施对抵御网络攻击至关重要。数据保护是确保网络安全的关键步骤之一，需要重视数据加密和备份措施，以避免数据泄露和丢失的风险。<br /><br />总结: <div>
 <p>Article URL: <a href="https://www.caniemail.com/">https://www.caniemail.com/</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40280490">https://news.ycombinator.com/item?id=40280490</a></p>
 <p>Points: 303</p>
 <p># Comments: 117</p>
 ]]></content:encoded>
 <pubDate>Mon, 06 May 2024 23:03:34 +0000</pubDate>
-<pubDate>Mon, 06 May 2024 23:03:34 +0000</pubDate>
 </item>
-
 <item>
 <title>New way to have complex discussions</title>
 <link>https://cq2.co/blog/the-best-way-to-have-complex-discussions</link>

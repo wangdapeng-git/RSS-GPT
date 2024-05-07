@@ -145,3 +145,12 @@ Summarized using GPT-3.5-turbo
 Append: [Caniemail.com – like caniuse but for email content](https://www.caniemail.com/)
 append_entries: 1
 Finish: 2024-05-07 06:13:59.994208
+------------------------------------------------------
+Started: 2024-05-07 08:12:45.174767
+Existing_entries: 29
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [Attackers can decloak routing-based VPNs](https://www.leviathansecurity.com/blog/tunnelvision)
+append_entries: 1
+Finish: 2024-05-07 08:12:52.263734
