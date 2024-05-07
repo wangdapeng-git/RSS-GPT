@@ -190,3 +190,9 @@ Summarized using GPT-3.5-turbo
 Append: [Design docs at Google (2020)](https://www.industrialempathy.com/posts/design-docs-at-google/)
 append_entries: 2
 Finish: 2024-05-07 16:11:41.419961
+------------------------------------------------------
+Started: 2024-05-07 18:12:58.323248
+Existing_entries: 34
+Fetching from https://hnrss.org/newest?points=250&comments=25
+append_entries: 0
+Finish: 2024-05-07 18:12:58.758769
