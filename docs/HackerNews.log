@@ -172,3 +172,9 @@ Summarized using GPT-3.5-turbo
 Append: [Alternative clouds are booming as companies seek cheaper access to GPUs](https://techcrunch.com/2024/05/05/coreweaves-1-1b-raise-shows-the-market-for-alternative-clouds-is-booming/)
 append_entries: 2
 Finish: 2024-05-07 12:27:49.690290
+------------------------------------------------------
+Started: 2024-05-07 14:09:43.517566
+Existing_entries: 32
+Fetching from https://hnrss.org/newest?points=250&comments=25
+append_entries: 0
+Finish: 2024-05-07 14:09:44.008928
