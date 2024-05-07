@@ -115,3 +115,12 @@ Summarized using GPT-3.5-turbo
 Append: [BlackHole: macOS Audio Loopback Driver](https://github.com/ExistentialAudio/BlackHole)
 append_entries: 2
 Finish: 2024-05-06 22:10:25.156824
+------------------------------------------------------
+Started: 2024-05-07 00:44:01.225004
+Existing_entries: 27
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [New way to have complex discussions](https://cq2.co/blog/the-best-way-to-have-complex-discussions)
+append_entries: 1
+Finish: 2024-05-07 00:44:08.004732
