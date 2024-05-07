@@ -4,22 +4,21 @@
 <title>Hacker News: Newest</title>
 <link>https://news.ycombinator.com/newest</link>
 
+
 <item>
 <title>Attackers can decloak routing-based VPNs</title>
 <link>https://www.leviathansecurity.com/blog/tunnelvision</link>
 <guid>https://www.leviathansecurity.com/blog/tunnelvision</guid>
 <content:encoded><![CDATA[
 <div> 关键词: 网络安全, 攻击手段, 防范措施, 数据泄露, 个人信息泄露
-总结:<br><br>本文讨论了当前网络安全面临的挑战，包括各种攻击手段和数据泄露问题。针对这些问题，提出了一些防范措施，例如加强网络防火墙、及时更新安全补丁、强化员工网络安全意识等。文章还强调了个人信息泄露对个人隐私和财产安全的威胁，呼吁大家要谨慎对待个人信息的保护，避免泄露给不法分子造成损失。在当前数字化时代，网络安全已成为每个人都需要关注的重要议题。 <div>
+总结:<br /><br />本文讨论了当前网络安全面临的挑战，包括各种攻击手段和数据泄露问题。针对这些问题，提出了一些防范措施，例如加强网络防火墙、及时更新安全补丁、强化员工网络安全意识等。文章还强调了个人信息泄露对个人隐私和财产安全的威胁，呼吁大家要谨慎对待个人信息的保护，避免泄露给不法分子造成损失。在当前数字化时代，网络安全已成为每个人都需要关注的重要议题。 <div>
 <p>Article URL: <a href="https://www.leviathansecurity.com/blog/tunnelvision">https://www.leviathansecurity.com/blog/tunnelvision</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40279632">https://news.ycombinator.com/item?id=40279632</a></p>
 <p>Points: 277</p>
 <p># Comments: 136</p>
 ]]></content:encoded>
 <pubDate>Mon, 06 May 2024 21:19:55 +0000</pubDate>
-<pubDate>Mon, 06 May 2024 21:19:55 +0000</pubDate>
 </item>
-
 <item>
 <title>Caniemail.com – like caniuse but for email content</title>
 <link>https://www.caniemail.com/</link>

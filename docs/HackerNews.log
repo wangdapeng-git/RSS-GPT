@@ -154,3 +154,9 @@ Summarized using GPT-3.5-turbo
 Append: [Attackers can decloak routing-based VPNs](https://www.leviathansecurity.com/blog/tunnelvision)
 append_entries: 1
 Finish: 2024-05-07 08:12:52.263734
+------------------------------------------------------
+Started: 2024-05-07 10:11:18.447133
+Existing_entries: 30
+Fetching from https://hnrss.org/newest?points=250&comments=25
+append_entries: 0
+Finish: 2024-05-07 10:11:19.040550
