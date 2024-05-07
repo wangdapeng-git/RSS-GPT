@@ -833,3 +833,10 @@ Existing_entries: 21
 Fetching from https://rsshub.app/openai/blog
 append_entries: 0
 Finish: 2024-05-07 10:11:17.962149
+------------------------------------------------------
+Started: 2024-05-07 12:17:27.314760
+Existing_entries: 21
+Fetching from https://rsshub.app/openai/blog
+Feed error: 403
+append_entries: 0
+error when rendering xml, skip docs/openai

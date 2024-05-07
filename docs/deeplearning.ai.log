@@ -709,3 +709,10 @@ Existing_entries: 17
 Fetching from https://rsshub.app/deeplearning/thebatch
 append_entries: 0
 Finish: 2024-05-07 10:11:18.423098
+------------------------------------------------------
+Started: 2024-05-07 12:17:27.560409
+Existing_entries: 17
+Fetching from https://rsshub.app/deeplearning/thebatch
+Feed error: 403
+append_entries: 0
+error when rendering xml, skip docs/deeplearning.ai
