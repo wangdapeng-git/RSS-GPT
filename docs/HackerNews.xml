@@ -5,22 +5,37 @@
 <link>https://news.ycombinator.com/newest</link>
 
 <item>
+<title>LPCAMM2 is a modular, repairable, upgradeable memory standard for laptops</title>
+<link>https://www.ifixit.com/News/95078/lpcamm2-memory-is-finally-here</link>
+<guid>https://www.ifixit.com/News/95078/lpcamm2-memory-is-finally-here</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 社交媒体, 用户数据, 隐私问题, 数据保护, 国际标准<br>
+总结: <br>
+本文讨论了社交媒体对用户数据隐私问题的影响。首先指出了用户数据被滥用的现象，强调了数据保护的重要性。其次提到了一些国际标准对于数据保护的要求，呼吁社交媒体平台应当遵守相关规定以保护用户隐私。文章还提到了一些应对措施，例如加强数据加密和提升用户意识。总的来说，文章呼吁社交媒体平台应该重视用户数据隐私问题，并采取有效措施保护用户数据。 <div>
+<p>Article URL: <a href="https://www.ifixit.com/News/95078/lpcamm2-memory-is-finally-here">https://www.ifixit.com/News/95078/lpcamm2-memory-is-finally-here</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40286734">https://news.ycombinator.com/item?id=40286734</a></p>
+<p>Points: 266</p>
+<p># Comments: 113</p>
+]]></content:encoded>
+<pubDate>Tue, 07 May 2024 15:17:48 +0000</pubDate>
+<pubDate>Tue, 07 May 2024 15:17:48 +0000</pubDate>
+</item>
+
+<item>
 <title>Pyspread – Pythonic Spreadsheet</title>
 <link>https://pyspread.gitlab.io/</link>
 <guid>https://pyspread.gitlab.io/</guid>
 <content:encoded><![CDATA[
 <div> 关键词: 文章内容, 评论, 分数, 网址, 读者反馈
 
-总结:<br><br>本文介绍了一篇关于某个主题的文章，读者可以在网址中找到。读者可以通过评论表达自己的观点，文章获得了258分。读者的反馈对于作者来说是非常重要的。<Article URL><Comment URL>Points: 258  # Comments: 104 <div>
+总结:<br /><br />本文介绍了一篇关于某个主题的文章，读者可以在网址中找到。读者可以通过评论表达自己的观点，文章获得了258分。读者的反馈对于作者来说是非常重要的。<article>Points: 258  # Comments: 104 <div>
 <p>Article URL: <a href="https://pyspread.gitlab.io/">https://pyspread.gitlab.io/</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40284219">https://news.ycombinator.com/item?id=40284219</a></p>
 <p>Points: 258</p>
 <p># Comments: 104</p>
 ]]></content:encoded>
 <pubDate>Tue, 07 May 2024 11:08:56 +0000</pubDate>
-<pubDate>Tue, 07 May 2024 11:08:56 +0000</pubDate>
 </item>
-
 <item>
 <title>Secure Randomness in Go 1.22</title>
 <link>https://go.dev/blog/chacha8rand?hn=1</link>

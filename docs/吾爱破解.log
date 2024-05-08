@@ -1881,3 +1881,15 @@ Filter: [【安卓/iOS】首都图书馆 v3.4.4 免费看书查资料听音乐�
 Filter: [google chrome 124 企业版。珍藏了好久，现在贡献出来。](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1917231)
 append_entries: 0
 Finish: 2024-05-08 02:11:17.958261
+------------------------------------------------------
+Started: 2024-05-08 04:10:50.444477
+Existing_entries: 147
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [硬盘检测工具 CrystalDiskInfo v9.3.0 单文件版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1919884)
+Filter: [高德地图 V11.11.60.3563华为P70U内置提取版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1919625)
+Append: [小椒学算术3.0](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1918663)
+Filter: [Tkping 网络检测工具](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1918566)
+Filter: [【安卓/iOS】首都图书馆 v3.4.4 免费看书查资料听音乐等〈更新〉](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1918402)
+Filter: [google chrome 124 企业版。珍藏了好久，现在贡献出来。](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1917231)
+append_entries: 1
+Finish: 2024-05-08 04:10:56.932093
