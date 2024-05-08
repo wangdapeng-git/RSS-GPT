@@ -4,6 +4,7 @@
 <title>Hacker News: Newest</title>
 <link>https://news.ycombinator.com/newest</link>
 
+
 <item>
 <title>Secure Randomness in Go 1.22</title>
 <link>https://go.dev/blog/chacha8rand?hn=1</link>
@@ -11,16 +12,14 @@
 <content:encoded><![CDATA[
 <div> 关键词: 文章 URL, 评论 URL, 分数, 评论数, 详情
 
-总结:<br><br>这是一篇介绍文章的内容的文章，主要包括文章链接、评论链接、分数和评论数。文章链接指向原始文章的网页地址，评论链接指向评论的网页地址，分数为251分，评论数为85条。该文章内容详实，信息丰富，是一篇很有价值的阅读材料。 <div>
+总结:<br /><br />这是一篇介绍文章的内容的文章，主要包括文章链接、评论链接、分数和评论数。文章链接指向原始文章的网页地址，评论链接指向评论的网页地址，分数为251分，评论数为85条。该文章内容详实，信息丰富，是一篇很有价值的阅读材料。 <div>
 <p>Article URL: <a href="https://go.dev/blog/chacha8rand?hn=1">https://go.dev/blog/chacha8rand?hn=1</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40273968">https://news.ycombinator.com/item?id=40273968</a></p>
 <p>Points: 251</p>
 <p># Comments: 85</p>
 ]]></content:encoded>
 <pubDate>Mon, 06 May 2024 12:43:42 +0000</pubDate>
-<pubDate>Mon, 06 May 2024 12:43:42 +0000</pubDate>
 </item>
-
 <item>
 <title>Road resurfacing during the daytime without stopping traffic [video]</title>
 <link>https://www.youtube.com/watch?v=ymyIEGRw4-U</link>
