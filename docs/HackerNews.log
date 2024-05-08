@@ -250,3 +250,9 @@ Summarized using GPT-3.5-turbo
 Append: [Can turning office towers into apartments save downtowns?](https://www.newyorker.com/magazine/2024/05/06/can-turning-office-towers-into-apartments-save-downtowns)
 append_entries: 1
 Finish: 2024-05-08 06:12:00.578097
+------------------------------------------------------
+Started: 2024-05-08 08:11:11.648521
+Existing_entries: 40
+Fetching from https://hnrss.org/newest?points=250&comments=25
+append_entries: 0
+Finish: 2024-05-08 08:11:12.329928
