@@ -277,3 +277,15 @@ Summarized using GPT-3.5-turbo
 Append: [Hackers discover how to reprogram NES Tetris from within the game](https://arstechnica.com/gaming/2024/05/hackers-discover-how-to-reprogram-nes-tetris-from-within-the-game/)
 append_entries: 2
 Finish: 2024-05-08 12:18:39.329676
+------------------------------------------------------
+Started: 2024-05-08 14:09:08.485645
+Existing_entries: 43
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 55
+Summarized using GPT-3.5-turbo
+Append: [Decker: A reincarnation of HyperCard with 1-bit graphics](https://www.beyondloom.com/decker/index.html)
+Token length: 55
+Summarized using GPT-3.5-turbo
+Append: [How Python asyncio works: recreating it from scratch](https://jacobpadilla.com/articles/recreating-asyncio)
+append_entries: 2
+Finish: 2024-05-08 14:09:26.450024
