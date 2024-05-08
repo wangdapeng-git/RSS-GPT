@@ -4,6 +4,22 @@
 <title>Hacker News: Newest</title>
 <link>https://news.ycombinator.com/newest</link>
 
+<item>
+<title>Pyspread – Pythonic Spreadsheet</title>
+<link>https://pyspread.gitlab.io/</link>
+<guid>https://pyspread.gitlab.io/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 文章内容, 评论, 分数, 网址, 读者反馈
+
+总结:<br><br>本文介绍了一篇关于某个主题的文章，读者可以在网址中找到。读者可以通过评论表达自己的观点，文章获得了258分。读者的反馈对于作者来说是非常重要的。<Article URL><Comment URL>Points: 258  # Comments: 104 <div>
+<p>Article URL: <a href="https://pyspread.gitlab.io/">https://pyspread.gitlab.io/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40284219">https://news.ycombinator.com/item?id=40284219</a></p>
+<p>Points: 258</p>
+<p># Comments: 104</p>
+]]></content:encoded>
+<pubDate>Tue, 07 May 2024 11:08:56 +0000</pubDate>
+<pubDate>Tue, 07 May 2024 11:08:56 +0000</pubDate>
+</item>
 
 <item>
 <title>Secure Randomness in Go 1.22</title>
