@@ -256,3 +256,12 @@ Existing_entries: 40
 Fetching from https://hnrss.org/newest?points=250&comments=25
 append_entries: 0
 Finish: 2024-05-08 08:11:12.329928
+------------------------------------------------------
+Started: 2024-05-08 10:11:19.473948
+Existing_entries: 40
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 529
+Summarized using GPT-3.5-turbo
+Append: [Ask HN: Interesting TUIs (text user interfaces), maybe forgotten ones?](https://news.ycombinator.com/item?id=40273177)
+append_entries: 1
+Finish: 2024-05-08 10:11:28.360792

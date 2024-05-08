@@ -4,6 +4,25 @@
 <title>Hacker News: Newest</title>
 <link>https://news.ycombinator.com/newest</link>
 
+<item>
+<title>Ask HN: Interesting TUIs (text user interfaces), maybe forgotten ones?</title>
+<link>https://news.ycombinator.com/item?id=40273177</link>
+<guid>https://news.ycombinator.com/item?id=40273177</guid>
+<content:encoded><![CDATA[
+<div> TUI, Emacs, Magit, SLIME inspector, dired
+
+TUI在Emacs中的运用是一种优秀的用户体验设计，值得借鉴和模仿。通过了解一些现代TUI程序如Magit、SLIME inspector、dired以及Linux工具perf的终端TUI，可以发现TUI在提供方便的用户流程方面发挥着重要作用。在过去GUI之前，一些被遗弃的程序也曾对TUI进行了高水准的优化，为今天的设计提供了借鉴。Emacs中的TUI设计可以为用户提供良好的操作体验，值得关注和学习。
+
+<br><br>总结: TUI在Emacs中的运用是一种优秀的用户体验设计，值得借鉴和模仿。现代TUI程序如Magit、SLIME inspector、dired以及Linux工具perf的终端TUI为提供方便的用户流程发挥着重要作用。被遗弃的过去程序也为TUI设计提供了值得借鉴的优化方法。Emacs中的TUI设计能够为用户提供良好的操作体验，值得关注学习。 <div>
+<p>I use relatively few TUI's, and don't know much about them—about what  good, convenient UX flows in TUI's can look like. I want to write some in Emacs. Do you have particularly nice examples of TUI's that deserve to be known and imitated? I know there's a lot of abandoned programs from the pre-GUI era that refined TUI's to a high level.<p>(I'm only familiar with a handful of modern ones in Emacs—Magit, the SLIME inspector, dired, as well as the terminal TUI from the Linux tool perf).</p>
+<hr />
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40273177">https://news.ycombinator.com/item?id=40273177</a></p>
+<p>Points: 252</p>
+<p># Comments: 244</p>
+]]></content:encoded>
+<pubDate>Mon, 06 May 2024 10:50:19 +0000</pubDate>
+<pubDate>Mon, 06 May 2024 10:50:19 +0000</pubDate>
+</item>
 
 <item>
 <title>Can turning office towers into apartments save downtowns?</title>
