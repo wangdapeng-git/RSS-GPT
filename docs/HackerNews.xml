@@ -5,12 +5,29 @@
 <link>https://news.ycombinator.com/newest</link>
 
 <item>
+<title>Can turning office towers into apartments save downtowns?</title>
+<link>https://www.newyorker.com/magazine/2024/05/06/can-turning-office-towers-into-apartments-save-downtowns</link>
+<guid>https://www.newyorker.com/magazine/2024/05/06/can-turning-office-towers-into-apartments-save-downtowns</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 社交媒体, 心理健康, 研究, 影响, 青少年
+
+心理健康是大家关注的热点话题，尤其是关于社交媒体对青少年心理健康的影响。研究发现，长时间使用社交媒体会导致青少年出现焦虑、抑郁等心理问题。有些研究还表明，社交媒体上的虚拟世界与现实生活的差距会给青少年带来困扰。因此，家长和教育机构应该更加关注青少年在社交媒体上的行为，提供正确的引导和支持，以保护他们的心理健康。<br><br>总结: 在社交媒体时代，青少年的心理健康受到影响，研究发现长时间使用社交媒体会导致焦虑和抑郁等问题，虚拟世界与现实生活的差距也给他们带来困扰。家长和教育机构需要更加关注并提供正确的引导和支持。 <div>
+<p>Article URL: <a href="https://www.newyorker.com/magazine/2024/05/06/can-turning-office-towers-into-apartments-save-downtowns">https://www.newyorker.com/magazine/2024/05/06/can-turning-office-towers-into-apartments-save-downtowns</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40285211">https://news.ycombinator.com/item?id=40285211</a></p>
+<p>Points: 263</p>
+<p># Comments: 517</p>
+]]></content:encoded>
+<pubDate>Tue, 07 May 2024 13:29:49 +0000</pubDate>
+<pubDate>Tue, 07 May 2024 13:29:49 +0000</pubDate>
+</item>
+
+<item>
 <title>LPCAMM2 is a modular, repairable, upgradeable memory standard for laptops</title>
 <link>https://www.ifixit.com/News/95078/lpcamm2-memory-is-finally-here</link>
 <guid>https://www.ifixit.com/News/95078/lpcamm2-memory-is-finally-here</guid>
 <content:encoded><![CDATA[
-<div> 关键词: 社交媒体, 用户数据, 隐私问题, 数据保护, 国际标准<br>
-总结: <br>
+<div> 关键词: 社交媒体, 用户数据, 隐私问题, 数据保护, 国际标准<br />
+总结: <br />
 本文讨论了社交媒体对用户数据隐私问题的影响。首先指出了用户数据被滥用的现象，强调了数据保护的重要性。其次提到了一些国际标准对于数据保护的要求，呼吁社交媒体平台应当遵守相关规定以保护用户隐私。文章还提到了一些应对措施，例如加强数据加密和提升用户意识。总的来说，文章呼吁社交媒体平台应该重视用户数据隐私问题，并采取有效措施保护用户数据。 <div>
 <p>Article URL: <a href="https://www.ifixit.com/News/95078/lpcamm2-memory-is-finally-here">https://www.ifixit.com/News/95078/lpcamm2-memory-is-finally-here</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40286734">https://news.ycombinator.com/item?id=40286734</a></p>
@@ -18,9 +35,7 @@
 <p># Comments: 113</p>
 ]]></content:encoded>
 <pubDate>Tue, 07 May 2024 15:17:48 +0000</pubDate>
-<pubDate>Tue, 07 May 2024 15:17:48 +0000</pubDate>
 </item>
-
 <item>
 <title>Pyspread – Pythonic Spreadsheet</title>
 <link>https://pyspread.gitlab.io/</link>

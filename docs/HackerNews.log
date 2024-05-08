@@ -241,3 +241,12 @@ Summarized using GPT-3.5-turbo
 Append: [LPCAMM2 is a modular, repairable, upgradeable memory standard for laptops](https://www.ifixit.com/News/95078/lpcamm2-memory-is-finally-here)
 append_entries: 1
 Finish: 2024-05-08 04:11:05.256948
+------------------------------------------------------
+Started: 2024-05-08 06:11:52.761031
+Existing_entries: 39
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [Can turning office towers into apartments save downtowns?](https://www.newyorker.com/magazine/2024/05/06/can-turning-office-towers-into-apartments-save-downtowns)
+append_entries: 1
+Finish: 2024-05-08 06:12:00.578097
