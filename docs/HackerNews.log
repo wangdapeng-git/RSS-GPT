@@ -265,3 +265,15 @@ Summarized using GPT-3.5-turbo
 Append: [Ask HN: Interesting TUIs (text user interfaces), maybe forgotten ones?](https://news.ycombinator.com/item?id=40273177)
 append_entries: 1
 Finish: 2024-05-08 10:11:28.360792
+------------------------------------------------------
+Started: 2024-05-08 12:18:22.860683
+Existing_entries: 41
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [U.S. Rules Apple Illegally Interrogated Staff and Confiscated Union Flyers](https://www.forbes.com/sites/antoniopequenoiv/2024/05/06/us-labor-board-rules-apple-illegally-interrogated-staff-and-confiscated-union-flyers/)
+Token length: 55
+Summarized using GPT-3.5-turbo
+Append: [Hackers discover how to reprogram NES Tetris from within the game](https://arstechnica.com/gaming/2024/05/hackers-discover-how-to-reprogram-nes-tetris-from-within-the-game/)
+append_entries: 2
+Finish: 2024-05-08 12:18:39.329676
