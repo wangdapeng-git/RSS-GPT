@@ -397,3 +397,12 @@ Existing_entries: 57
 Fetching from https://hnrss.org/newest?points=250&comments=25
 append_entries: 0
 Finish: 2024-05-09 14:09:54.785247
+------------------------------------------------------
+Started: 2024-05-09 16:12:16.804927
+Existing_entries: 57
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [Boeing faces new US investigation into 'missed' 787 inspections](https://www.theguardian.com/business/article/2024/may/07/boeing-us-investigation-787-inspections-faa)
+append_entries: 1
+Finish: 2024-05-09 16:12:25.681423
