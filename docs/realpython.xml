@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>PyTorch vs TensorFlow for Your Python Deep Learning Project</title>
 <link>https://realpython.com/pytorch-vs-tensorflow/</link>
 <guid>https://realpython.com/pytorch-vs-tensorflow/</guid>
 <content:encoded><![CDATA[
-<div> PyTorch TensorFlow Python deep learning <br>
-PyTorch和TensorFlow是两个流行的Python深度学习库，它们在数据的图形数值计算方面相似，但有一些区别。TensorFlow是由Google开发的，拥有庞大的用户群体和生产级别的特点。TensorFlow 2.0引入了即时执行，使得代码更易编写和执行。相比之下，PyTorch更灵活且易于调试，操作更直观。选择合适的库取决于项目需求，TensorFlow适合用于生产环境和大规模部署，而PyTorch适合对模型进行实验和迭代。总体而言，两者都有其优势和适用范围，根据具体情况进行选择即可。 <br><br>总结: <br>PyTorch和TensorFlow是两个流行的Python深度学习库，TensorFlow适合生产环境和大规模部署，PyTorch更适合实验和迭代。 <div>
+<div> PyTorch TensorFlow Python deep learning <br />
+PyTorch和TensorFlow是两个流行的Python深度学习库，它们在数据的图形数值计算方面相似，但有一些区别。TensorFlow是由Google开发的，拥有庞大的用户群体和生产级别的特点。TensorFlow 2.0引入了即时执行，使得代码更易编写和执行。相比之下，PyTorch更灵活且易于调试，操作更直观。选择合适的库取决于项目需求，TensorFlow适合用于生产环境和大规模部署，而PyTorch适合对模型进行实验和迭代。总体而言，两者都有其优势和适用范围，根据具体情况进行选择即可。 <br /><br />总结: <br />PyTorch和TensorFlow是两个流行的Python深度学习库，TensorFlow适合生产环境和大规模部署，PyTorch更适合实验和迭代。 <div>
 <div><p>PyTorch vs TensorFlow: What’s the difference? Both are open-source Python libraries that use graphs to perform numerical computations on data in deep learning applications. Both are used extensively in academic research and commercial code. Both are extended by a variety of APIs, cloud computing platforms, and model repositories.</p>
 <p>If they’re so similar, then how do you decide which one is best for your project?</p>
 <p><strong>In this tutorial, you’ll learn:</strong></p>
@@ -114,7 +115,6 @@ PyTorch和TensorFlow是两个流行的Python深度学习库，它们在数据的
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-05-08T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -122,14 +122,13 @@ PyTorch和TensorFlow是两个流行的Python深度学习库，它们在数据的
 <link>https://realpython.com/courses/flatten-list-of-lists/</link>
 <guid>https://realpython.com/courses/flatten-list-of-lists/</guid>
 <content:encoded><![CDATA[
-<div> 列表、嵌套、扁平化、Python、数据处理<br>
+<div> 列表、嵌套、扁平化、Python、数据处理<br />
 本视频课程将教你如何在Python中将嵌套列表扁平化成一维列表。扁平化列表是指将多维列表（如矩阵）转换为一维列表的操作。在处理数据时，这是一种常见的操作。通过学习本课程，你可以掌握如何将嵌套列表中的数据转换为一维列表，从而更高效地处理数据。总结: 本视频课程教授如何在Python中对嵌套列表进行扁平化操作，将多维列表转换为一维列表，提高数据处理效率。 <div>
 <p>Sometimes, when you&rsquo;re working with data, you may have the data as a list of nested lists. A common operation is to <strong>flatten</strong> this data into a one-dimensional list in Python. Flattening a list involves converting a multidimensional list, such as a matrix, into a one-dimensional list.</p>
 <p>In this video course, you&rsquo;ll learn how to do that in Python.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-05-07T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -138,7 +137,7 @@ PyTorch和TensorFlow是两个流行的Python深度学习库，它们在数据的
 <guid>https://realpython.com/python-news-april-2024/</guid>
 <content:encoded><![CDATA[
 <div> Python, release, features, improvements, PyCon US 2024
-总结：<br><br>Python的核心开发团队在2024年4月发布了3.13.0a6和3.12.3版本。3.13.0a6带来了多项新特性、改进和优化，是最后一个alpha版发布，不应用于生产环境。3.12.3版本有300多个提交用于安全改进和bug修复。PyCon US 2024正在征集志愿者。Python 3.13带来了默认行为、性能改进基础、垃圾回收器优化、内存使用减少等新特性。标准库有新的模块和计划移除许多废弃模块和类。详细变更列表可在文档中查看。下一个Python 3.13预发布版本将于5月7日发布。 <div>
+总结：<br /><br />Python的核心开发团队在2024年4月发布了3.13.0a6和3.12.3版本。3.13.0a6带来了多项新特性、改进和优化，是最后一个alpha版发布，不应用于生产环境。3.12.3版本有300多个提交用于安全改进和bug修复。PyCon US 2024正在征集志愿者。Python 3.13带来了默认行为、性能改进基础、垃圾回收器优化、内存使用减少等新特性。标准库有新的模块和计划移除许多废弃模块和类。详细变更列表可在文档中查看。下一个Python 3.13预发布版本将于5月7日发布。 <div>
 <div><p>In April 2024, Python’s core development team released versions <strong>3.13.0a6</strong> and <strong>3.12.3</strong> of the language! The former received several exciting features, improvements, and optimizations, while the latter got more than 300 commits for security improvements and bug fixes.</p>
 <p>The 3.13.0a6 release is the last alpha release. In the first half of May, the code will be frozen and won’t accept new features. Note that 3.13.0a6 is a <a href="https://realpython.com/python-pre-release/">pre-release</a>, so you shouldn’t use it for production environments. However, it provides a great way to try out some new and exciting language features.</p>
 <p>There is also great news about PyCon US 2024, which opened its call for volunteers.</p>
@@ -164,7 +163,6 @@ PyTorch和TensorFlow是两个流行的Python深度学习库，它们在数据的
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-05-06T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -173,13 +171,12 @@ PyTorch和TensorFlow是两个流行的Python深度学习库，它们在数据的
 <guid>https://realpython.com/podcasts/rpp/203/</guid>
 <content:encoded><![CDATA[
 <div> Python、coding、book、author、projects
-<br>
+<br />
 作者Stephen Gruppetta的新书"The Python Coding Book"着重介绍了Python编程技巧，帮助读者提高Python编程水平。在学习Python过程中，很多人会感到压力，但建议通过编写小程序或项目来继续编码之旅。本书为读者提供了实用的Python编程技巧和指导，有助于他们更有效地学习和应用Python语言。总之，本书为想要提升Python编程技能的人提供了宝贵的学习资源和指导。总结： <div>
 <p>Do you get stressed while trying to learn Python? Do you prefer to build small programs or projects as you continue your coding journey? This week on the show, Real Python author Stephen Gruppetta is here to talk about his new book, "The Python Coding Book."</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-05-03T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -187,15 +184,14 @@ PyTorch和TensorFlow是两个流行的Python深度学习库，它们在数据的
 <link>https://realpython.com/quizzes/python-calendar-module/</link>
 <guid>https://realpython.com/quizzes/python-calendar-module/</guid>
 <content:encoded><![CDATA[
-<div> calendar module, functions, methods, quiz, Python <br>
-<br>
+<div> calendar module, functions, methods, quiz, Python <br />
+<br />
 总结: calendar模块是Python中用来处理日历的模块，提供了许多方法和函数可以帮助我们处理日期和时间。通过这篇文章，我们学习了如何使用calendar模块，并通过一个测验来检验理解。测验中涉及了calendar模块的基本功能和方法，帮助我们加深对其的理解。通过这篇文章，我们复习了calendar模块的重要功能，并且可以更加熟练地使用它。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of <a href="https://realpython.com/python-calendar-module/">creating calendars in Python</a> using the <code>calendar</code> module.</p>
 <p>By working through this quiz, you&rsquo;ll revisit the fundamental functions and methods provided by the <code>calendar</code> module.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-05-02T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -389,7 +385,6 @@ Python中的序列是一种数据结构，包含按顺序排列的项目，可�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-05-01T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -398,9 +393,9 @@ Python中的序列是一种数据结构，包含按顺序排列的项目，可�
 <guid>https://realpython.com/courses/global-variables-in-python-functions/</guid>
 <content:encoded><![CDATA[
 <div> global variables, Python, functions, access, modify
-<br>
+<br />
 在Python中理解全局变量及其工作原理，直接在函数内部访问全局变量，使用global关键字在函数内部修改和创建全局变量，使用globals()函数在函数内部访问、创建和修改全局变量，探讨避免在Python代码中使用全局变量的策略。
-<br><br>
+<br /><br />
 总结: 在Python中，全局变量可以在整个程序中进行数据共享，但在函数内部使用全局变量时需要注意对其值进行访问和修改的区分。本课程将帮助您深入了解全局变量在Python中的工作原理，并提供了多种方法来访问、创建和修改全局变量，同时探讨了避免在Python代码中过度使用全局变量的策略。 <div>
 <p>A <strong>global variable</strong> is a variable that you can use from any part of a program, including within <strong>functions</strong>. Using global variables inside your Python functions can be tricky. You&rsquo;ll need to differentiate between accessing and changing the values of the target global variable if you want your code to work correctly.</p>
 <p>Global variables can play a fundamental role in many software projects because they enable data sharing across an entire program. However, you should use them judiciously to avoid issues.</p>
@@ -415,7 +410,6 @@ Python中的序列是一种数据结构，包含按顺序排列的项目，可�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-30T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -506,7 +500,6 @@ unittest是Python自带的测试框架，提供了TestCase类、assert方法、f
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-29T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -515,12 +508,11 @@ unittest是Python自带的测试框架，提供了TestCase类、assert方法、f
 <guid>https://realpython.com/podcasts/rpp/202/</guid>
 <content:encoded><![CDATA[
 <div> 验证, 验证, 数据, 安全, 开发者
-总结:<br><br>本文讨论了如何验证和验证Python网络应用程序中的数据。 作为开发者，应考虑使用工具和安全最佳实践来确保数据的准确性和安全性。 对数据进行验证和验证是确保应用程序安全和有效运行的关键步骤。 您可以使用各种工具和技术来验证用户输入并防止恶意数据输入。 开发者应当密切注意数据的来源，并实施适当的验证和验证规则以确保数据的完整性和安全性。 <div>
+总结:<br /><br />本文讨论了如何验证和验证Python网络应用程序中的数据。 作为开发者，应考虑使用工具和安全最佳实践来确保数据的准确性和安全性。 对数据进行验证和验证是确保应用程序安全和有效运行的关键步骤。 您可以使用各种工具和技术来验证用户输入并防止恶意数据输入。 开发者应当密切注意数据的来源，并实施适当的验证和验证规则以确保数据的完整性和安全性。 <div>
 <p>How do you verify and validate the data coming into your Python web application? What tools and security best practices should you consider as a developer? Christopher Trudeau is back on the show this week, bringing another batch of PyCoder's Weekly articles and projects.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-26T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -530,12 +522,11 @@ unittest是Python自带的测试框架，提供了TestCase类、assert方法、f
 <content:encoded><![CDATA[
 <div> 关键词：Python项目，模块，包，__pycache__文件夹，维护
 
-Python项目中随着代码的增长，通常会将代码组织成模块和包，以便更容易地进行维护和重用。在这个过程中，你会发现__pycache__文件夹突然出现在你的原始文件旁边，在各个位置上出现，有些让人感到意外。这个文件夹是Python的编译缓存文件夹，用于存储编译后的字节码，以提高程序的性能。虽然有时会让人感到突然，但它帮助加速Python程序的运行，并且不需要手动干预管理。要留意__pycache__文件夹的存在，以免误删或造成其他问题。整体来说，__pycache__文件夹在Python项目中起到一定的辅助作用，可以提高代码的执行效率。<br><br>总结:Python项目中的模块和包的组织可以提高代码维护和重用。__pycache__文件夹存储编译后的字节码，加快程序运行速度。注意__pycache__文件夹的存在，以避免问题。 <div>
+Python项目中随着代码的增长，通常会将代码组织成模块和包，以便更容易地进行维护和重用。在这个过程中，你会发现__pycache__文件夹突然出现在你的原始文件旁边，在各个位置上出现，有些让人感到意外。这个文件夹是Python的编译缓存文件夹，用于存储编译后的字节码，以提高程序的性能。虽然有时会让人感到突然，但它帮助加速Python程序的运行，并且不需要手动干预管理。要留意__pycache__文件夹的存在，以免误删或造成其他问题。整体来说，__pycache__文件夹在Python项目中起到一定的辅助作用，可以提高代码的执行效率。<br /><br />总结:Python项目中的模块和包的组织可以提高代码维护和重用。__pycache__文件夹存储编译后的字节码，加快程序运行速度。注意__pycache__文件夹的存在，以避免问题。 <div>
 <p>As your Python project grows, you typically organize your code in modules and packages for easier maintenance and reusability. When you do that, you&rsquo;ll likely notice the sudden emergence of a <code>__pycache__</code> folder alongside your original files, popping up in various locations unexpectedly.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-26T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -545,7 +536,7 @@ Python项目中随着代码的增长，通常会将代码组织成模块和包�
 <content:encoded><![CDATA[
 <div> lazy evaluation, expressions, eager evaluation, Python, examples
 
-lazy evaluation是Python中的一种表达式处理方式，它延迟计算表达式的值直到真正需要这个值的时候。相反的是eager evaluation，即立即计算表达式的值。在Python中，一些表达式会立即计算，如使用加法运算符或调用标准函数；而另一些表达式会延迟计算，如使用range()函数生成的迭代器。延迟计算可以提高程序性能，减少内存占用，允许创建无限数据结构，并避免生成未使用的值。然而，延迟计算也会延迟错误的处理，使得调试变得更加困难。Python中的lazy evaluation提供了灵活性和效率的平衡。<br><br>总结:lazy evaluation是Python中的一种表达式处理方式，可以延迟计算表达式的值，并提高程序性能。它可以通过range()函数等方式实现，允许创建无限数据结构，但可能会使调试更困难。 <div>
+lazy evaluation是Python中的一种表达式处理方式，它延迟计算表达式的值直到真正需要这个值的时候。相反的是eager evaluation，即立即计算表达式的值。在Python中，一些表达式会立即计算，如使用加法运算符或调用标准函数；而另一些表达式会延迟计算，如使用range()函数生成的迭代器。延迟计算可以提高程序性能，减少内存占用，允许创建无限数据结构，并避免生成未使用的值。然而，延迟计算也会延迟错误的处理，使得调试变得更加困难。Python中的lazy evaluation提供了灵活性和效率的平衡。<br /><br />总结:lazy evaluation是Python中的一种表达式处理方式，可以延迟计算表达式的值，并提高程序性能。它可以通过range()函数等方式实现，允许创建无限数据结构，但可能会使调试更困难。 <div>
 <div><p>Being lazy is not always a bad thing. Every line of code you write has at least one expression that Python needs to evaluate. Python lazy evaluation is when Python takes the lazy option and delays working out the value returned by an expression until that value is needed.</p>
 <p>An <strong>expression</strong> in Python is a unit of code that evaluates to a value. Examples of expressions include object names, function calls, expressions with arithmetic operators, literals that create built-in object types such as lists, and more. However, not all statements are expressions. For example, <code>if</code> statements and <code>for</code> loop statements don’t return a value.</p>
 <p>Python needs to evaluate every expression it encounters to use its value. In this tutorial, you’ll learn about the different ways Python evaluates these expressions. You’ll understand why some expressions are evaluated immediately, while others are evaluated later in the program’s execution. So, <strong>what’s lazy evaluation in Python?</strong></p>
@@ -676,7 +667,6 @@ lazy evaluation是Python中的一种表达式处理方式，它延迟计算表�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-24T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -685,7 +675,7 @@ lazy evaluation是Python中的一种表达式处理方式，它延迟计算表�
 <guid>https://realpython.com/courses/python-basics-exercises-scopes/</guid>
 <content:encoded><![CDATA[
 <div> objects global LEGB return scope  
-Python基础练习视频课程介绍如何理解Python中函数和循环的范围问题。通过识别对象范围、使用global关键字、探索LEGB规则以及在函数中使用返回语句，帮助学习者加深对范围概念的理解。范围是编程中比较困难理解的概念之一，本视频课程将提供更多练习机会。此视频课程是Python Basics系列的一部分，在学习前建议先查看相关系列。最后强调在整个课程中都会使用Python。.<br><br>总结: 本视频课程讲解了如何理解Python函数和循环中的范围问题，包括识别对象范围、使用global关键字、探索LEGB规则以及函数中使用返回语句等内容。通过本课程的学习可以加深对范围概念的理解。 <div>
+Python基础练习视频课程介绍如何理解Python中函数和循环的范围问题。通过识别对象范围、使用global关键字、探索LEGB规则以及在函数中使用返回语句，帮助学习者加深对范围概念的理解。范围是编程中比较困难理解的概念之一，本视频课程将提供更多练习机会。此视频课程是Python Basics系列的一部分，在学习前建议先查看相关系列。最后强调在整个课程中都会使用Python。.<br /><br />总结: 本视频课程讲解了如何理解Python函数和循环中的范围问题，包括识别对象范围、使用global关键字、探索LEGB规则以及函数中使用返回语句等内容。通过本课程的学习可以加深对范围概念的理解。 <div>
 <p>On your Python journey, you&rsquo;ve worked with <a href="https://realpython.com/courses/python-basics-functions-loops/">functions and loops</a>. To fully understand functions and loops in Python, you need to be familiar with the issue of scope.</p>
 <p><strong>In this Python Basics Exercises video course, you&rsquo;ll practice:</strong></p>
 <ul>
@@ -700,7 +690,6 @@ Python基础练习视频课程介绍如何理解Python中函数和循环的范�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-23T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -709,14 +698,13 @@ Python基础练习视频课程介绍如何理解Python中函数和循环的范�
 <guid>https://realpython.com/quizzes/python-sequences/</guid>
 <content:encoded><![CDATA[
 <div> 关键词: sequence, operations, methods, mutable, immutable
-总结:<br><br>这篇文章主要讨论了序列的基本特征、大多数序列共有的操作、与序列相关的特殊方法，以及如何创建用户定义的可变和不可变序列。通过这个测验，你将测试对序列的理解。 <div>
+总结:<br /><br />这篇文章主要讨论了序列的基本特征、大多数序列共有的操作、与序列相关的特殊方法，以及如何创建用户定义的可变和不可变序列。通过这个测验，你将测试对序列的理解。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of
 <a href="https://realpython.com/python-sequences/">Python sequences</a>.</p>
 <p>By working through this quiz, you&rsquo;ll revisit the basic characteristics of a sequence, operations common to most sequences, special methods associated with sequences, and how to create user-defined mutable and immutable sequences.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-23T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -724,8 +712,8 @@ Python基础练习视频课程介绍如何理解Python中函数和循环的范�
 <link>https://realpython.com/chatgpt-unit-tests-python/</link>
 <guid>https://realpython.com/chatgpt-unit-tests-python/</guid>
 <content:encoded><![CDATA[
-<div> ChatGPT, Unit Tests, Python, Testing, Efficiency<br>
-<br>
+<div> ChatGPT, Unit Tests, Python, Testing, Efficiency<br />
+<br />
 提到在Python项目中编写良好的测试代码是很重要的，但写单元测试很难且耗时，因此开发者可能不喜欢写。本教程介绍了如何使用大型语言模型（LLMs）和ChatGPT来快速为Python代码创建完整的测试套件。使用ChatGPT可以高效生成基于规范或代码片段的单元测试，提高效率。同时，ChatGPT也能帮助改善测试覆盖率、减少错误、促进学习和培训开发人员。文章通过引导使用doctest、unittest和pytest等工具来展示如何使用ChatGPT编写Python代码的测试。总结: <div>
 <div><p>Having a good battery of tests for your code may be a requirement for many Python projects. In practice, writing <strong>unit tests</strong> is hard and can take a lot of time and effort. Therefore, some developers don’t like to write them. However, with <strong>large language models</strong> (LLMs) and tools like <strong>ChatGPT</strong>, you can quickly create robust and complete sets of tests for your Python code.</p>
 <p>In Python, you can use multiple different tools for writing tests. The most commonly used tools include <code>doctest</code>, <code>unittest</code>, and <code>pytest</code>. ChatGPT can be of great help in writing tests with any of these tools.</p>
@@ -913,7 +901,6 @@ Python基础练习视频课程介绍如何理解Python中函数和循环的范�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-22T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -921,14 +908,13 @@ Python基础练习视频课程介绍如何理解Python中函数和循环的范�
 <link>https://realpython.com/podcasts/rpp/201/</link>
 <guid>https://realpython.com/podcasts/rpp/201/</guid>
 <content:encoded><![CDATA[
-<div> decoupled data processing system, benefits, reusable queries, backend data platforms, Ibis<br>
-<br>
-Ibis是一个Python dataframe库，可以帮助用户构建可移植的查询，适用于各种后端数据平台。使用decoupled data processing system可以实现数据处理的解耦，提高灵活性和可维护性。通过编写可重用的查询，用户可以轻松地在不同的后端数据平台上执行相同的操作，简化了开发过程，并提高了代码的可移植性和重用性。总之，借助Ibis这样的工具，用户可以更高效地处理数据，并在不同平台之间实现数据查询和处理的可移植性。 <br><br>总结: <div>
+<div> decoupled data processing system, benefits, reusable queries, backend data platforms, Ibis<br />
+<br />
+Ibis是一个Python dataframe库，可以帮助用户构建可移植的查询，适用于各种后端数据平台。使用decoupled data processing system可以实现数据处理的解耦，提高灵活性和可维护性。通过编写可重用的查询，用户可以轻松地在不同的后端数据平台上执行相同的操作，简化了开发过程，并提高了代码的可移植性和重用性。总之，借助Ibis这样的工具，用户可以更高效地处理数据，并在不同平台之间实现数据查询和处理的可移植性。 <br /><br />总结: <div>
 <p>What are the benefits of using a decoupled data processing system? How do you write reusable queries for a variety of backend data platforms? This week on the show, Phillip Cloud, the lead maintainer of Ibis, will discuss this portable Python dataframe library.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-19T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -937,16 +923,15 @@ Ibis是一个Python dataframe库，可以帮助用户构建可移植的查询，
 <guid>https://realpython.com/quizzes/python-unittest/</guid>
 <content:encoded><![CDATA[
 <div> unittest framework, Python, testing, code, quiz
-<br>
+<br />
 Python的测试是一个庞大的主题，可能会有很多复杂性，但并不需要很困难。你可以通过几个简单的步骤为应用程序创建简单的测试，然后逐步完善它们。这篇文章主要测试你对Python的unittest框架测试理解的程度。祝你好运！
-<br><br>总结: Python的测试可以通过unittest框架进行，可以简单地从几个简单步骤开始撰写测试代码，逐步完善。测试并不需要复杂化，只需掌握基本概念即可。 <div>
+<br /><br />总结: Python的测试可以通过unittest框架进行，可以简单地从几个简单步骤开始撰写测试代码，逐步完善。测试并不需要复杂化，只需掌握基本概念即可。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of testing your Python code with the <a href="https://realpython.com/python-unittest/">unittest framework</a>.</p>
 <p>Testing in Python is a huge topic and can come with a lot of complexity, but it doesn&rsquo;t need to be hard. You can create simple tests for your application in a few easy steps and then build on them from there.</p>
 <p>With this quiz, you can check your understanding of testing with Python&rsquo;s <code>unittest</code> framework. Good luck!</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-19T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -954,14 +939,14 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
 <link>https://realpython.com/how-to-python-f-string-format-float/</link>
 <guid>https://realpython.com/how-to-python-f-string-format-float/</guid>
 <content:encoded><![CDATA[
-<div> f-string, float, format specifier, rounding, significant figures<br>
-<br>
-要点1: f-string是Python中用于格式化字符串的一种方式，可以在字符串中嵌入变量、表达式等动态内容。<br>
-要点2: 使用格式化说明符可以控制浮点数的显示方式，例如控制小数位数。<br>
-要点3: 通过在替换字段中添加格式化说明符来实现浮点数的格式化，例如使用`.2f`可以将浮点数保留两位小数。<br>
-要点4: 格式化说明符还可以用于控制显著数字的显示方式，使用`g`来显示特定位数的显著数字。<br>
-要点5: 在使用f-string时要注意安全问题，避免受到SQL注入等攻击，以及了解Python版本对f-string的支持程度。<br>
-<br>
+<div> f-string, float, format specifier, rounding, significant figures<br />
+<br />
+要点1: f-string是Python中用于格式化字符串的一种方式，可以在字符串中嵌入变量、表达式等动态内容。<br />
+要点2: 使用格式化说明符可以控制浮点数的显示方式，例如控制小数位数。<br />
+要点3: 通过在替换字段中添加格式化说明符来实现浮点数的格式化，例如使用`.2f`可以将浮点数保留两位小数。<br />
+要点4: 格式化说明符还可以用于控制显著数字的显示方式，使用`g`来显示特定位数的显著数字。<br />
+要点5: 在使用f-string时要注意安全问题，避免受到SQL注入等攻击，以及了解Python版本对f-string的支持程度。<br />
+<br />
 总结: f-string是一种方便的字符串格式化方式，在Python中可用格式化说明符对浮点数进行控制，包括小数位数和显著数字的显示。然而，在使用时需要注意安全性问题和Python版本的兼容性。 <div>
 <div><p>You’ll often need to format and round a Python <a href="https://docs.python.org/3/library/functions.html#float"><code>float</code></a> to display the results of your calculations neatly within strings. In earlier versions of Python, this was a messy thing to do because you needed to round your numbers <em>first</em> and then use either string concatenation or the <a href="https://realpython.com/python-string-formatting/#1-old-style-string-formatting-operator">old string formatting</a> technique to do this for you. </p>
 <p>Since Python 3.6, the <a href="https://peps.python.org/pep-0498/">literal string interpolation</a>, more commonly known as a <strong>formatted string literal</strong> or <strong><a href="https://realpython.com/python-f-strings/">f-string</a></strong>, allows you to customize the content of your strings in a more readable way.</p>
@@ -1098,7 +1083,6 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-17T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1107,8 +1091,8 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
 <guid>https://realpython.com/courses/using-raise-for-effective-exceptions/</guid>
 <content:encoded><![CDATA[
 <div> raise statement, exceptions, handle errors, robust programs, best practices
-<br>
-提到Python中的raise语句，教会如何处理异常情况，提高程序的健壮性和代码质量。课程将教授如何使用raise语句来引发异常，在何时选择引发异常，在Python中引发异常的常见用例，以及在Python代码中引发异常时应用最佳实践。<br><br>总结: 学会使用raise语句引发异常，有效处理错误和异常情况，开发更加健壮的程序，遵循引发异常的最佳实践。 <div>
+<br />
+提到Python中的raise语句，教会如何处理异常情况，提高程序的健壮性和代码质量。课程将教授如何使用raise语句来引发异常，在何时选择引发异常，在Python中引发异常的常见用例，以及在Python代码中引发异常时应用最佳实践。<br /><br />总结: 学会使用raise语句引发异常，有效处理错误和异常情况，开发更加健壮的程序，遵循引发异常的最佳实践。 <div>
 <p>In your Python journey, you&rsquo;ll come across situations where you need to signal that something is going wrong in your code. For example, maybe a file doesn&rsquo;t exist, a network or database connection fails, or your code gets invalid input. A common approach to tackle these issues is to <strong>raise an exception</strong>, notifying the user that an error has occurred. That&rsquo;s what Python&rsquo;s <code>raise</code> statement is for.</p>
 <p>Learning about the <code>raise</code> statement allows you to effectively handle errors and exceptional situations in your code. This way, you&rsquo;ll develop more robust programs and higher-quality code.</p>
 <p><strong>In this video course, you&rsquo;ll learn how to:</strong></p>
@@ -1121,7 +1105,6 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-16T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1129,13 +1112,13 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
 <link>https://realpython.com/python-django-blog/</link>
 <guid>https://realpython.com/python-django-blog/</guid>
 <content:encoded><![CDATA[
-<div> Django, GraphQL, Vue, blog, CRUD <br>
-<br>
-要点1: 本教程将教你如何使用Django、GraphQL和Vue构建博客应用的后端和前端。<br>
-要点2: 你将学习如何将Django模型转换为GraphQL API，并在浏览器中使用Vue消费该API。<br>
-要点3: 项目概述包括创建一个包含作者、文章和标签的简单博客应用。<br>
-要点4: 在构建博客的后端时，你将使用Django和GraphQL，之后用Vue展示数据。<br>
-要点5: 教程建议先了解Web应用概念，了解Django、Vue和JSON的基础知识。 <br><br>总结: 本教程将教你如何使用Django、GraphQL和Vue构建博客应用的后端和前端。你将学习如何将Django模型转换为GraphQL API，并在浏览器中使用Vue消费该API。项目概述包括创建一个包含作者、文章和标签的简单博客应用。在构建博客的后端时，你将使用Django和GraphQL，之后用Vue展示数据。教程建议先了解Web应用概念，了解Django、Vue和JSON的基础知识。 <div>
+<div> Django, GraphQL, Vue, blog, CRUD <br />
+<br />
+要点1: 本教程将教你如何使用Django、GraphQL和Vue构建博客应用的后端和前端。<br />
+要点2: 你将学习如何将Django模型转换为GraphQL API，并在浏览器中使用Vue消费该API。<br />
+要点3: 项目概述包括创建一个包含作者、文章和标签的简单博客应用。<br />
+要点4: 在构建博客的后端时，你将使用Django和GraphQL，之后用Vue展示数据。<br />
+要点5: 教程建议先了解Web应用概念，了解Django、Vue和JSON的基础知识。 <br /><br />总结: 本教程将教你如何使用Django、GraphQL和Vue构建博客应用的后端和前端。你将学习如何将Django模型转换为GraphQL API，并在浏览器中使用Vue消费该API。项目概述包括创建一个包含作者、文章和标签的简单博客应用。在构建博客的后端时，你将使用Django和GraphQL，之后用Vue展示数据。教程建议先了解Web应用概念，了解Django、Vue和JSON的基础知识。 <div>
 <div><p>Are you a regular Django user? Do you find yourself wanting to decouple your back end and front end? Do you want to handle data persistence in the API while you display the data in a single-page app (SPA) in the browser using a JavaScript framework like React or Vue? </p>
 <p>If you answered yes to any of these questions, then you’re in luck. This tutorial will take you through the process of building a Django blog back end and a <a href="https://vuejs.org/">Vue</a> front end, using <a href="https://graphql.org/">GraphQL</a> to communicate between them.</p>
 <p><a href="https://realpython.com/intermediate-python-project-ideas/">Projects</a> are an effective way to learn and solidify concepts. This tutorial is structured as a step-by-step project so you can learn in a hands-on way and take breaks as needed.</p>
@@ -1183,7 +1166,6 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-15T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1192,14 +1174,13 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
 <guid>https://realpython.com/quizzes/python-namedtuple/</guid>
 <content:encoded><![CDATA[
 <div> namedtuple, features, Pythonic code, data structure, quiz
-总结:<br><br>这篇文章主要介绍了namedtuple的创建、特性、使用以及与其他数据结构的比较，通过完成测试来加深对namedtuple的理解。namedtuple是一种方便创建小型不可变数据对象的工具，具有类似于元组的访问方式和命名字段的优点。可以通过namedtuple实例编写Pythonic代码，提高代码的可读性和易用性，尤其适合于简单的数据结构。在选择数据结构时，需要根据需求和代码风格来决定是否使用namedtuple。 <div>
+总结:<br /><br />这篇文章主要介绍了namedtuple的创建、特性、使用以及与其他数据结构的比较，通过完成测试来加深对namedtuple的理解。namedtuple是一种方便创建小型不可变数据对象的工具，具有类似于元组的访问方式和命名字段的优点。可以通过namedtuple实例编写Pythonic代码，提高代码的可读性和易用性，尤其适合于简单的数据结构。在选择数据结构时，需要根据需求和代码风格来决定是否使用namedtuple。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of
 <a href="https://realpython.com/python-namedtuple/">Python&rsquo;s <code>namedtuple()</code></a>.</p>
 <p>By working through this quiz, you&rsquo;ll revisit how to create <code>namedtuple</code> classes, identify and take advantage of the cool features of <code>namedtuple</code>, use <code>namedtuple</code> instances to write Pythonic code, and decide when to use a <code>namedtuple</code> over a similar data structure.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-15T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1207,12 +1188,10 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
 <link>https://realpython.com/podcasts/rpp/200/</link>
 <guid>https://realpython.com/podcasts/rpp/200/</guid>
 <content:encoded><![CDATA[
-
 <p>What is error culture, and how do you avoid it within your organization? How do you navigate alert and notification fatigue? Hey, it's episode #200! Real Python's editor-in-chief, Dan Bader, joins us this week to celebrate. Christopher Trudeau also returns to bring another batch of PyCoder's Weekly articles and projects.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-12T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1220,12 +1199,10 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
 <link>https://realpython.com/quizzes/python-lazy-evaluation/</link>
 <guid>https://realpython.com/quizzes/python-lazy-evaluation/</guid>
 <content:encoded><![CDATA[
-
 <p>Lazy evaluation is a programming concept where the evaluation of an expression is deferred until its value is actually needed. This can lead to performance enhancements by avoiding unnecessary calculations, and it can also allow for the creation of potentially infinite data structures. As you embark on this quiz, you&rsquo;ll test your knowledge of lazy evaluation in Python and learn how to apply this concept to write cleaner and more efficient code.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-12T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1233,14 +1210,12 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
 <link>https://realpython.com/quizzes/format-floats-within-f-strings/</link>
 <guid>https://realpython.com/quizzes/format-floats-within-f-strings/</guid>
 <content:encoded><![CDATA[
-
 <p>In this quiz, you&rsquo;ll test your understanding of
 <a href="https://realpython.com/how-to-python-f-string-format-float/">How to Format Floats Within F-Strings in Python</a>.</p>
 <p>You&rsquo;ll often need to format and round a Python <code>float</code> to display the results of your calculations neatly within strings. While there are several ways to format numbers in Python, formatted string literals or <a href="https://realpython.com/python-f-strings/">f-strings</a> are usually the most frequent choice in modern Python programs. Knowing how to use f-strings effectively can make your code more readable and concise.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-12T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1248,7 +1223,6 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
 <link>https://realpython.com/python-pydantic/</link>
 <guid>https://realpython.com/python-pydantic/</guid>
 <content:encoded><![CDATA[
-
 <div><p>Pydantic is a powerful data validation and settings management library for Python, engineered to enhance the robustness and reliability of your codebase. From basic tasks, such as checking whether a variable is an integer, to more complex tasks, like ensuring highly-nested dictionary keys and values have the correct data types, Pydantic can handle just about any data validation scenario with minimal boilerplate code.</p>
 <p><strong>In this tutorial, you’ll learn how to:</strong></p>
 <ul>
@@ -1381,7 +1355,6 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-10T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1389,7 +1362,6 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
 <link>https://realpython.com/courses/generating-qr-codes/</link>
 <guid>https://realpython.com/courses/generating-qr-codes/</guid>
 <content:encoded><![CDATA[
-
 <p>From restaurant e-menus to airline boarding passes, <strong>QR codes</strong> have numerous applications that impact your day-to-day life and enrich the user&rsquo;s experience. Wouldn&rsquo;t it be great to make them look good, too? With the help of this video course, you&rsquo;ll learn how to use Python to generate beautiful QR codes for your personal use case. </p>
 <p>In its most basic format, a QR code contains black squares and dots on a white background, with information that any smartphone or device with a dedicated QR scanner can decode. Unlike a traditional bar code, which holds information horizontally, a QR code holds the data in two dimensions, and it can hold over a hundred times more information.</p>
 <p><strong>In this video course, you&rsquo;ll learn how to:</strong></p>
@@ -1403,7 +1375,6 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-09T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1411,7 +1382,6 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
 <link>https://realpython.com/python-news-march-2024/</link>
 <guid>https://realpython.com/python-news-march-2024/</guid>
 <content:encoded><![CDATA[
-
 <div><p>While many people went hunting for <a href="https://realpython.com/courses/finding-python-easter-eggs/">Easter eggs</a>, the Python community stayed active through March 2024. The free-threaded Python project reached a new milestone, and you can now experiment with disabling the GIL in your interpreter.</p>
 <p>The Python Software Foundation does a great job supporting the language with limited resources. They’ve now announced a new position that will support users of PyPI. NumPy is an old workhorse in the data science space. The library is getting a big facelift, and the first release candidate of NumPy 2 is now available.</p>
 <p>Dive in to learn more about last month’s most important Python news. </p>
@@ -1424,7 +1394,6 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-08T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1432,12 +1401,10 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
 <link>https://realpython.com/podcasts/rpp/199/</link>
 <guid>https://realpython.com/podcasts/rpp/199/</guid>
 <content:encoded><![CDATA[
-
 <p>How do you customize a LLM chatbot to address a collection of documents and data? What tools and techniques can you use to build embeddings into a vector database? This week on the show, Calvin Hendryx-Parker is back to discuss developing an AI-powered, Large Language Model-driven chat interface.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-05T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1445,14 +1412,12 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
 <link>https://realpython.com/quizzes/command-line-interfaces-python-argparse/</link>
 <guid>https://realpython.com/quizzes/command-line-interfaces-python-argparse/</guid>
 <content:encoded><![CDATA[
-
 <p>In this quiz, you&rsquo;ll test your understanding of
 <a href="https://realpython.com/command-line-interfaces-python-argparse/">Creating Command-line Interfaces in Python with argparse</a>.</p>
 <p>Command-line apps may not be common in the general user&rsquo;s space, but they&rsquo;re present in development, data science, systems administration, and many other operations. Every command-line app needs a user-friendly <a href="https://en.wikipedia.org/wiki/Command-line_interface">command-line interface (CLI)</a> so that you can interact with the app itself. In Python, you can create full-featured CLIs with the <code>argparse</code> module from the standard library.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-03T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1460,7 +1425,6 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
 <link>https://realpython.com/courses/deep-learning-pytorch-tensorflow/</link>
 <guid>https://realpython.com/courses/deep-learning-pytorch-tensorflow/</guid>
 <content:encoded><![CDATA[
-
 <p>PyTorch vs TensorFlow: What&rsquo;s the difference? Both are open source Python libraries that use graphs to perform numerical computation on data. Both are used extensively in academic research and commercial code. Both are extended by a variety of APIs, cloud computing platforms, and model repositories.</p>
 <p>If they&rsquo;re so similar, then which one is best for your project?</p>
 <p><strong>In this video course, you&rsquo;ll learn:</strong></p>
@@ -1473,7 +1437,6 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-04-02T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1481,12 +1444,10 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
 <link>https://realpython.com/podcasts/rpp/198/</link>
 <guid>https://realpython.com/podcasts/rpp/198/</guid>
 <content:encoded><![CDATA[
-
 <p>Can you build a Space Invaders clone using Python's built-in turtle module? What advantages does the Seaborn data visualization library provide compared to Matplotlib? Christopher Trudeau is back on the show this week, along with special guest Real Python core team member Bartosz Zaczyński. We're sharing another batch of PyCoder's Weekly articles and projects.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-03-29T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1494,14 +1455,12 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
 <link>https://realpython.com/quizzes/python-web-scraping-practical-introduction/</link>
 <guid>https://realpython.com/quizzes/python-web-scraping-practical-introduction/</guid>
 <content:encoded><![CDATA[
-
 <p>In this quiz, you&rsquo;ll test your understanding of
 <a href="https://realpython.com/python-web-scraping-practical-introduction/">Web Scraping in Python</a>.</p>
 <p>By working through this quiz, you&rsquo;ll revisit how to parse website data using string methods and regular expressions, how to parse website data using an HTML parser, and how to interact with forms and other website components.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-03-27T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1509,7 +1468,6 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
 <link>https://realpython.com/courses/finding-python-easter-eggs/</link>
 <guid>https://realpython.com/courses/finding-python-easter-eggs/</guid>
 <content:encoded><![CDATA[
-
 <p>In this <strong>Code Conversation</strong>, you&rsquo;ll follow a chat between Philipp and Bartosz as they go on an Easter egg hunt. Along the way, you&rsquo;ll:</p>
 <ul>
 <li>Learn about Easter egg hunt traditions</li>
@@ -1520,7 +1478,6 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-03-26T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1528,14 +1485,12 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
 <link>https://realpython.com/quizzes/get-started-with-django/</link>
 <guid>https://realpython.com/quizzes/get-started-with-django/</guid>
 <content:encoded><![CDATA[
-
 <p>In this quiz, you&rsquo;ll test your understanding of <a href="https://realpython.com/learning-paths/django-web-development/">Django</a>. By working through this quiz, you&rsquo;ll revisit the steps you need to <a href="https://realpython.com/get-started-with-django-1/">get started with Django</a>.</p>
 <p>You&rsquo;ll touch on topics that will help you create a fully functioning web application and revisit some of the most important features of Django.</p>
 <p>You&rsquo;ll also investigate the architecture of a Django site, remember how to set up a new Django project with multiple apps, build models and views, and create and connect Django templates.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-03-26T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1543,12 +1498,10 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
 <link>https://realpython.com/podcasts/rpp/197/</link>
 <guid>https://realpython.com/podcasts/rpp/197/</guid>
 <content:encoded><![CDATA[
-
 <p>How is Python being used to automate processes in the laboratory? How can it speed up scientific work with DNA sequencing? This week on the show, Chemical Engineering PhD Student Parsa Ghadermazi is here to discuss Python in bioinformatics.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-03-22T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1556,7 +1509,6 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
 <link>https://realpython.com/courses/sqlite-sqlalchemy-python-beyond-flat-files/</link>
 <guid>https://realpython.com/courses/sqlite-sqlalchemy-python-beyond-flat-files/</guid>
 <content:encoded><![CDATA[
-
 <p>All programs process data in one form or another, and many need to be able to save and retrieve that data from one invocation to the next. Python, <a href="https://www.sqlite.org/index.html">SQLite</a>, and <a href="https://www.sqlalchemy.org/">SQLAlchemy</a> give your programs database functionality, allowing you to store data in a single file without the need for a database server.</p>
 <p>You can achieve similar results using <a href="https://en.wikipedia.org/wiki/Flat-file_database">flat files</a> in any number of formats, including CSV, JSON, XML, and even custom formats. Flat files are often human-readable text files&mdash;though they can also be binary data&mdash;with a structure that can be parsed by a computer program. You&rsquo;ll explore using SQL databases and flat files for data storage and manipulation and learn how to decide which approach is right for your program.</p>
 <p><strong>In this video course, you&rsquo;ll learn how to use:</strong></p>
@@ -1569,7 +1521,6 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-03-19T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1577,12 +1528,10 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
 <link>https://realpython.com/podcasts/rpp/196/</link>
 <guid>https://realpython.com/podcasts/rpp/196/</guid>
 <content:encoded><![CDATA[
-
 <p>What are the advantages of determining the type of an object by how it behaves? What coding circumstances are not a good fit for duck typing? Christopher Trudeau is back on the show this week, bringing another batch of PyCoder's Weekly articles and projects.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-03-15T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1590,7 +1539,6 @@ Python的测试是一个庞大的主题，可能会有很多复杂性，但并�
 <link>https://realpython.com/courses/basics-exercises-dictionaries/</link>
 <guid>https://realpython.com/courses/basics-exercises-dictionaries/</guid>
 <content:encoded><![CDATA[
-
 <p>In plain English, a dictionary is a book containing the definitions of words. Each entry in a dictionary has two parts: the word being defined, and its definition.</p>
 <p><strong>Python dictionaries</strong>, like lists and tuples, store a collection of objects. However, instead of storing objects in a sequence, dictionaries hold
 information in pairs of data called <strong>key-value pairs</strong>. That is, each object in a dictionary has two parts: a <strong>key</strong> and a <strong>value</strong>. Each key is assigned a single value, which defines the relationship between the two sets.</p>
@@ -1605,7 +1553,6 @@ information in pairs of data called <strong>key-value pairs</strong>. That is, e
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-03-12T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1613,12 +1560,10 @@ information in pairs of data called <strong>key-value pairs</strong>. That is, e
 <link>https://realpython.com/podcasts/rpp/195/</link>
 <guid>https://realpython.com/podcasts/rpp/195/</guid>
 <content:encoded><![CDATA[
-
 <p>How do you get yourself unstuck when facing a programming problem? How do you develop a positive developer mindset while learning Python? This week on the show, Bob Belderbos from Pybites is here to talk about learning Python and building healthy developer habits.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-03-08T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1626,7 +1571,6 @@ information in pairs of data called <strong>key-value pairs</strong>. That is, e
 <link>https://realpython.com/courses/asynchronous-tasks-celery-django/</link>
 <guid>https://realpython.com/courses/asynchronous-tasks-celery-django/</guid>
 <content:encoded><![CDATA[
-
 <p>You&rsquo;ve built a shiny <strong>Django</strong> app and want to release it to the public, but you&rsquo;re worried about time-intensive tasks that are part of your app&rsquo;s workflow. You don&rsquo;t want your users to have a negative experience navigating your app. You can integrate <strong>Celery</strong> to help with that.</p>
 <p>Celery is a <strong>distributed task queue</strong> for UNIX systems. It allows you to offload work from your Python app. Once you integrate Celery into your app, you can send time-intensive tasks to Celery&rsquo;s task queue. That way, your web app can continue to respond quickly to users while Celery completes expensive operations asynchronously in the background.</p>
 <p><strong>In this video course, you&rsquo;ll learn how to:</strong></p>
@@ -1640,7 +1584,6 @@ information in pairs of data called <strong>key-value pairs</strong>. That is, e
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-03-05T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -1648,14 +1591,11 @@ information in pairs of data called <strong>key-value pairs</strong>. That is, e
 <link>https://realpython.com/podcasts/rpp/194/</link>
 <guid>https://realpython.com/podcasts/rpp/194/</guid>
 <content:encoded><![CDATA[
-
 <p>What are the typical computer tasks you do manually every week? Could you automate those tasks with a Python script? Christopher Trudeau is back on the show this week, bringing another batch of PyCoder's Weekly articles and projects.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-03-01T12:00:00+00:00</pubDate>
 </item>
-
 </channel>
 </rss>

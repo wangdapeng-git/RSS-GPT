@@ -4,6 +4,7 @@
 <title>Hacker News: Newest</title>
 <link>https://news.ycombinator.com/newest</link>
 
+
 <item>
 <title>TimesFM: Time Series Foundation Model for time-series forecasting</title>
 <link>https://github.com/google-research/timesfm</link>
@@ -11,16 +12,14 @@
 <content:encoded><![CDATA[
 <div> 关键词: 报告, 研究, 数据, 结论, 意义
 
-研究报告对相关数据进行了分析，得出结论指出了重要意义。研究发现了一些有意义的数据，通过对数据的分析得出了结论。这些结论对相关领域具有重要的意义，为未来研究和实践提供了参考。整个研究报告为相关领域的发展做出了积极贡献，具有重要的研究价值。<br><br>总结: 该研究报告通过数据分析得出重要结论，为相关领域提供了有意义的参考价值。 <div>
+研究报告对相关数据进行了分析，得出结论指出了重要意义。研究发现了一些有意义的数据，通过对数据的分析得出了结论。这些结论对相关领域具有重要的意义，为未来研究和实践提供了参考。整个研究报告为相关领域的发展做出了积极贡献，具有重要的研究价值。<br /><br />总结: 该研究报告通过数据分析得出重要结论，为相关领域提供了有意义的参考价值。 <div>
 <p>Article URL: <a href="https://github.com/google-research/timesfm">https://github.com/google-research/timesfm</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40297946">https://news.ycombinator.com/item?id=40297946</a></p>
 <p>Points: 255</p>
 <p># Comments: 88</p>
 ]]></content:encoded>
 <pubDate>Wed, 08 May 2024 13:34:34 +0000</pubDate>
-<pubDate>Wed, 08 May 2024 13:34:34 +0000</pubDate>
 </item>
-
 <item>
 <title>The Time I Lied to the CTO and Saved the Day</title>
 <link>https://GrumpyOldDev.com/post/the-one-where-i-lie-to-the-cto/</link>
