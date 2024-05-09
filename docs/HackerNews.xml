@@ -4,6 +4,39 @@
 <title>Hacker News: Newest</title>
 <link>https://news.ycombinator.com/newest</link>
 
+<item>
+<title>The Time I Lied to the CTO and Saved the Day</title>
+<link>https://GrumpyOldDev.com/post/the-one-where-i-lie-to-the-cto/</link>
+<guid>https://GrumpyOldDev.com/post/the-one-where-i-lie-to-the-cto/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 网络安全, 数据泄露, 攻击, 防护, 个人信息  
+总结:  
+网络安全一直备受关注，文章提到了数据泄露这一严重问题，很多公司和个人都可能成为攻击目标。为了保护个人信息，需要加强网络安全防护措施，避免数据泄露风险。文章强调了网络安全意识的重要性，不仅是公司，个人也需要关注数据安全问题，加强网络安全意识，保护个人信息不被攻击者利用。网络安全是一个持续的过程，我们需要不断提升网络安全防护能力，建立完善的网络安全体系，确保个人信息安全。  
+总结: <div>
+<p>Article URL: <a href="https://GrumpyOldDev.com/post/the-one-where-i-lie-to-the-cto/">https://GrumpyOldDev.com/post/the-one-where-i-lie-to-the-cto/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40304453">https://news.ycombinator.com/item?id=40304453</a></p>
+<p>Points: 255</p>
+<p># Comments: 187</p>
+]]></content:encoded>
+<pubDate>Thu, 09 May 2024 01:39:27 +0000</pubDate>
+<pubDate>Thu, 09 May 2024 01:39:27 +0000</pubDate>
+</item>
+<item>
+<title>Stack Overflow users deleting answers after OpenAI partnership</title>
+<link>https://build5nines.com/stack-overflow-upset-over-users-deleting-answers-after-openai-partnership/</link>
+<guid>https://build5nines.com/stack-overflow-upset-over-users-deleting-answers-after-openai-partnership/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 网络安全、数据泄露、保护措施、个人隐私、建议<br>
+总结: <br>
+网络安全是当前社会关注的热点问题，数据泄露频发，引起个人隐私泄露的风险日益加大。为了保护个人隐私，人们需要采取一系列保护措施，如加强密码安全、定期更新软件、谨慎使用公共Wi-Fi等。此外，建议大家在网上提供个人信息时谨慎选择信息披露范围，不轻易泄露身份证、银行卡等关键信息。网络安全责任重大，每个人都要提高安全意识，共同维护网络安全的大环境。<br> <div>
+<p>Article URL: <a href="https://build5nines.com/stack-overflow-upset-over-users-deleting-answers-after-openai-partnership/">https://build5nines.com/stack-overflow-upset-over-users-deleting-answers-after-openai-partnership/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40302792">https://news.ycombinator.com/item?id=40302792</a></p>
+<p>Points: 256</p>
+<p># Comments: 258</p>
+]]></content:encoded>
+<pubDate>Wed, 08 May 2024 21:16:53 +0000</pubDate>
+<pubDate>Wed, 08 May 2024 21:16:53 +0000</pubDate>
+</item>
 
 <item>
 <title>Consistency LLM: converting LLMs to parallel decoders accelerates inference 3.5x</title>
