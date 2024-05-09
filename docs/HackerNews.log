@@ -334,3 +334,12 @@ Summarized using GPT-3.5-turbo
 Append: [40 years later, a game for the ZX Spectrum will be again broadcast over FM radio](https://www.racunalniski-muzej.si/en/40-years-later-a-game-for-the-zx-spectrum-will-be-once-again-broadcast-over-fm-radio/)
 append_entries: 2
 Finish: 2024-05-08 22:09:07.023516
+------------------------------------------------------
+Started: 2024-05-09 00:44:23.958936
+Existing_entries: 52
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 681
+Summarized using GPT-3.5-turbo
+Append: [Show HN: I built a non-linear UI for ChatGPT](https://www.grafychat.com)
+append_entries: 1
+Finish: 2024-05-09 00:44:28.325488

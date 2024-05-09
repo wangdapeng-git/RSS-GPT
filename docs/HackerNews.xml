@@ -5,19 +5,36 @@
 <link>https://news.ycombinator.com/newest</link>
 
 <item>
+<title>Show HN: I built a non-linear UI for ChatGPT</title>
+<link>https://www.grafychat.com</link>
+<guid>https://www.grafychat.com</guid>
+<content:encoded><![CDATA[
+<div> local-first, visual approach, conversational AI, free, feedback
+总结:<br><br>
+该应用采用本地优先的方式，在浏览器中运行，无需注册，可以免费试用。它采用了视觉化方法，为使用者提供更多自由和控制权，旨在提高结果的可预测性和生产力，特别适合应用于对话式人工智能。用户可以自行携带API密钥。应用功能丰富，包括提示库、语音输入、文本搜索和叙述等功能。欢迎提供反馈意见。 <div>
+<p>Hi HN,<p>I built this out of frustration of the evergrowing list of AI models and features to try and to fit my workflow.<p>The visual approach clicks for me so i went with it, it provides more freedom and control of the outcome, because predictable results and increased productivity is what I’m after when using conversational AI.<p>The app is packed with features, my most used are prompt library, voice input and text search, narration is useful too.<p>The app is local-first and works right in the browser, no sign up needed and it's absolutely free to try.<p>BYOAK – bring your own API Keys.<p>Let me know what you think, any feedback is appreciated!</p>
+<hr />
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40300126">https://news.ycombinator.com/item?id=40300126</a></p>
+<p>Points: 255</p>
+<p># Comments: 78</p>
+]]></content:encoded>
+<pubDate>Wed, 08 May 2024 16:41:12 +0000</pubDate>
+<pubDate>Wed, 08 May 2024 16:41:12 +0000</pubDate>
+</item>
+
+<item>
 <title>Development Notes from xkcd's "Machine"</title>
 <link>https://chromakode.com/post/xkcd-machine/</link>
 <guid>https://chromakode.com/post/xkcd-machine/</guid>
 <content:encoded><![CDATA[
 <div> 关键词: 网络安全, 数据保护, 攻击方式, 防范措施, 隐私保护
 
-总结:<br><br>网络安全是当今社会必须关注的重要问题，数据保护更是至关重要。文章介绍了常见的攻击方式，包括恶意软件、网络钓鱼等，强调了用户在上网时要保持警惕。为了防范这些攻击，人们可以采取多种措施，包括安装杀毒软件、定期更新系统等。此外，隐私保护也是需要重视的一点，避免个人信息泄露给不法分子。综上所述，加强网络安全意识、提高数据保护水平、注意隐私保护是保障个人网络安全的关键。 <div>
+总结:<br /><br />网络安全是当今社会必须关注的重要问题，数据保护更是至关重要。文章介绍了常见的攻击方式，包括恶意软件、网络钓鱼等，强调了用户在上网时要保持警惕。为了防范这些攻击，人们可以采取多种措施，包括安装杀毒软件、定期更新系统等。此外，隐私保护也是需要重视的一点，避免个人信息泄露给不法分子。综上所述，加强网络安全意识、提高数据保护水平、注意隐私保护是保障个人网络安全的关键。 <div>
 <p>Article URL: <a href="https://chromakode.com/post/xkcd-machine/">https://chromakode.com/post/xkcd-machine/</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40300454">https://news.ycombinator.com/item?id=40300454</a></p>
 <p>Points: 274</p>
 <p># Comments: 40</p>
 ]]></content:encoded>
-<pubDate>Wed, 08 May 2024 17:09:17 +0000</pubDate>
 <pubDate>Wed, 08 May 2024 17:09:17 +0000</pubDate>
 </item>
 <item>
@@ -26,16 +43,14 @@
 <guid>https://www.racunalniski-muzej.si/en/40-years-later-a-game-for-the-zx-spectrum-will-be-once-again-broadcast-over-fm-radio/</guid>
 <content:encoded><![CDATA[
 <div> 关键词: 网络安全, 数据泄露, 防护措施, 攻击手段, 个人信息保护
-总结:<br><br>本文介绍了网络安全领域中数据泄露问题的严重性，强调了在网络环境中保护个人信息的重要性。文章提出了多种防护措施，包括加密技术、网络防火墙和安全认证等，以应对不同的攻击手段。强调了每个人都应该重视个人信息保护，避免随意泄露个人隐私。在网络安全建设中，需要采取全面的措施，做好数据的保护工作，以确保网络环境的安全和稳定。 <div>
+总结:<br /><br />本文介绍了网络安全领域中数据泄露问题的严重性，强调了在网络环境中保护个人信息的重要性。文章提出了多种防护措施，包括加密技术、网络防火墙和安全认证等，以应对不同的攻击手段。强调了每个人都应该重视个人信息保护，避免随意泄露个人隐私。在网络安全建设中，需要采取全面的措施，做好数据的保护工作，以确保网络环境的安全和稳定。 <div>
 <p>Article URL: <a href="https://www.racunalniski-muzej.si/en/40-years-later-a-game-for-the-zx-spectrum-will-be-once-again-broadcast-over-fm-radio/">https://www.racunalniski-muzej.si/en/40-years-later-a-game-for-the-zx-spectrum-will-be-once-again-broadcast-over-fm-radio/</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40296926">https://news.ycombinator.com/item?id=40296926</a></p>
 <p>Points: 251</p>
 <p># Comments: 84</p>
 ]]></content:encoded>
 <pubDate>Wed, 08 May 2024 11:49:06 +0000</pubDate>
-<pubDate>Wed, 08 May 2024 11:49:06 +0000</pubDate>
 </item>
-
 <item>
 <title>Steve Albini has died</title>
 <link>https://pitchfork.com/news/steve-albini-storied-producer-and-icon-of-the-rock-underground-dies-at-61/</link>
