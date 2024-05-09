@@ -352,3 +352,9 @@ Summarized using GPT-3.5-turbo
 Append: [Consistency LLM: converting LLMs to parallel decoders accelerates inference 3.5x](https://hao-ai-lab.github.io/blogs/cllm/)
 append_entries: 1
 Finish: 2024-05-09 02:25:14.390690
+------------------------------------------------------
+Started: 2024-05-09 04:14:35.921259
+Existing_entries: 54
+Fetching from https://hnrss.org/newest?points=250&comments=25
+append_entries: 0
+Finish: 2024-05-09 04:14:36.430449

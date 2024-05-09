@@ -4,6 +4,7 @@
 <title>Hacker News: Newest</title>
 <link>https://news.ycombinator.com/newest</link>
 
+
 <item>
 <title>Consistency LLM: converting LLMs to parallel decoders accelerates inference 3.5x</title>
 <link>https://hao-ai-lab.github.io/blogs/cllm/</link>
@@ -11,16 +12,14 @@
 <content:encoded><![CDATA[
 <div> 关键词: 网络安全、数据泄露、隐私保护、风险管理、评论交流
 
-总结:<br><br>网络安全是当今社会关注的热点问题，数据泄露事件频繁发生，引发人们对隐私保护的重视。在面对风险时，风险管理变得尤为重要。有效的风险管理措施可以降低网络安全威胁带来的损失。在评论交流中，对网络安全问题的讨论可以增加人们的意识和防范措施。因此，保护个人隐私并加强网络安全意识对于每个人都至关重要。 <div>
+总结:<br /><br />网络安全是当今社会关注的热点问题，数据泄露事件频繁发生，引发人们对隐私保护的重视。在面对风险时，风险管理变得尤为重要。有效的风险管理措施可以降低网络安全威胁带来的损失。在评论交流中，对网络安全问题的讨论可以增加人们的意识和防范措施。因此，保护个人隐私并加强网络安全意识对于每个人都至关重要。 <div>
 <p>Article URL: <a href="https://hao-ai-lab.github.io/blogs/cllm/">https://hao-ai-lab.github.io/blogs/cllm/</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40302201">https://news.ycombinator.com/item?id=40302201</a></p>
 <p>Points: 263</p>
 <p># Comments: 54</p>
 ]]></content:encoded>
 <pubDate>Wed, 08 May 2024 19:55:07 +0000</pubDate>
-<pubDate>Wed, 08 May 2024 19:55:07 +0000</pubDate>
 </item>
-
 <item>
 <title>Show HN: I built a non-linear UI for ChatGPT</title>
 <link>https://www.grafychat.com</link>
