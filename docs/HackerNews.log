@@ -424,3 +424,18 @@ Summarized using GPT-3.5-turbo
 Append: [Algebraic Data Types for C99](https://github.com/Hirrolot/datatype99)
 append_entries: 2
 Finish: 2024-05-09 20:10:35.704459
+------------------------------------------------------
+Started: 2024-05-09 22:08:55.129080
+Existing_entries: 60
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [It's always TCP_NODELAY](https://brooker.co.za/blog/2024/05/09/nagle.html)
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [Leaked deck reveals how OpenAI is pitching publisher partnerships](https://www.adweek.com/media/openai-preferred-publisher-program-deck/)
+Token length: 55
+Summarized using GPT-3.5-turbo
+Append: [Show HN: Exploring HN by mapping and analyzing 40M posts and comments for fun](https://blog.wilsonl.in/hackerverse/)
+append_entries: 3
+Finish: 2024-05-09 22:09:11.736495
