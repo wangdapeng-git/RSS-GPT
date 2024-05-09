@@ -5,12 +5,29 @@
 <link>https://news.ycombinator.com/newest</link>
 
 <item>
+<title>Consistency LLM: converting LLMs to parallel decoders accelerates inference 3.5x</title>
+<link>https://hao-ai-lab.github.io/blogs/cllm/</link>
+<guid>https://hao-ai-lab.github.io/blogs/cllm/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 网络安全、数据泄露、隐私保护、风险管理、评论交流
+
+总结:<br><br>网络安全是当今社会关注的热点问题，数据泄露事件频繁发生，引发人们对隐私保护的重视。在面对风险时，风险管理变得尤为重要。有效的风险管理措施可以降低网络安全威胁带来的损失。在评论交流中，对网络安全问题的讨论可以增加人们的意识和防范措施。因此，保护个人隐私并加强网络安全意识对于每个人都至关重要。 <div>
+<p>Article URL: <a href="https://hao-ai-lab.github.io/blogs/cllm/">https://hao-ai-lab.github.io/blogs/cllm/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40302201">https://news.ycombinator.com/item?id=40302201</a></p>
+<p>Points: 263</p>
+<p># Comments: 54</p>
+]]></content:encoded>
+<pubDate>Wed, 08 May 2024 19:55:07 +0000</pubDate>
+<pubDate>Wed, 08 May 2024 19:55:07 +0000</pubDate>
+</item>
+
+<item>
 <title>Show HN: I built a non-linear UI for ChatGPT</title>
 <link>https://www.grafychat.com</link>
 <guid>https://www.grafychat.com</guid>
 <content:encoded><![CDATA[
 <div> local-first, visual approach, conversational AI, free, feedback
-总结:<br><br>
+总结:<br /><br />
 该应用采用本地优先的方式，在浏览器中运行，无需注册，可以免费试用。它采用了视觉化方法，为使用者提供更多自由和控制权，旨在提高结果的可预测性和生产力，特别适合应用于对话式人工智能。用户可以自行携带API密钥。应用功能丰富，包括提示库、语音输入、文本搜索和叙述等功能。欢迎提供反馈意见。 <div>
 <p>Hi HN,<p>I built this out of frustration of the evergrowing list of AI models and features to try and to fit my workflow.<p>The visual approach clicks for me so i went with it, it provides more freedom and control of the outcome, because predictable results and increased productivity is what I’m after when using conversational AI.<p>The app is packed with features, my most used are prompt library, voice input and text search, narration is useful too.<p>The app is local-first and works right in the browser, no sign up needed and it's absolutely free to try.<p>BYOAK – bring your own API Keys.<p>Let me know what you think, any feedback is appreciated!</p>
 <hr />
@@ -19,9 +36,7 @@
 <p># Comments: 78</p>
 ]]></content:encoded>
 <pubDate>Wed, 08 May 2024 16:41:12 +0000</pubDate>
-<pubDate>Wed, 08 May 2024 16:41:12 +0000</pubDate>
 </item>
-
 <item>
 <title>Development Notes from xkcd's "Machine"</title>
 <link>https://chromakode.com/post/xkcd-machine/</link>

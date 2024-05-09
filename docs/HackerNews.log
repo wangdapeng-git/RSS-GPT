@@ -343,3 +343,12 @@ Summarized using GPT-3.5-turbo
 Append: [Show HN: I built a non-linear UI for ChatGPT](https://www.grafychat.com)
 append_entries: 1
 Finish: 2024-05-09 00:44:28.325488
+------------------------------------------------------
+Started: 2024-05-09 02:25:08.919313
+Existing_entries: 53
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 55
+Summarized using GPT-3.5-turbo
+Append: [Consistency LLM: converting LLMs to parallel decoders accelerates inference 3.5x](https://hao-ai-lab.github.io/blogs/cllm/)
+append_entries: 1
+Finish: 2024-05-09 02:25:14.390690
