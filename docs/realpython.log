@@ -1,0 +1,86 @@
+------------------------------------------------------
+Started: 2024-05-09 10:12:30.623474
+Existing_entries: 0
+Fetching from https://realpython.com/atom.xml
+Token length: 4748
+Summarized using GPT-3.5-turbo
+Append: [PyTorch vs TensorFlow for Your Python Deep Learning Project](https://realpython.com/pytorch-vs-tensorflow/)
+Token length: 473
+Summarized using GPT-3.5-turbo
+Append: [Flattening a List of Lists in Python](https://realpython.com/courses/flatten-list-of-lists/)
+Token length: 2070
+Summarized using GPT-3.5-turbo
+Append: [Python News: What's New From April 2024](https://realpython.com/python-news-april-2024/)
+Token length: 388
+Summarized using GPT-3.5-turbo
+Append: [The Real Python Podcast – Episode #203: Embarking on a Relaxed and Friendly Python Coding Journey](https://realpython.com/podcasts/rpp/203/)
+Token length: 321
+Summarized using GPT-3.5-turbo
+Append: [Quiz: The Python calendar Module](https://realpython.com/quizzes/python-calendar-module/)
+Token length: 5962
+Summarized using GPT-3.5-turbo
+Append: [Python Sequences: A Comprehensive Guide](https://realpython.com/python-sequences/)
+Token length: 1018
+Summarized using GPT-3.5-turbo
+Append: [Working With Global Variables in Python Functions](https://realpython.com/courses/global-variables-in-python-functions/)
+Token length: 4706
+Summarized using GPT-3.5-turbo
+Append: [Python's unittest: Writing Unit Tests for Your Code](https://realpython.com/python-unittest/)
+Token length: 402
+Summarized using GPT-3.5-turbo
+Append: [The Real Python Podcast – Episode #202: Pydantic Data Validation & Python Web Security Practices](https://realpython.com/podcasts/rpp/202/)
+Token length: 417
+Summarized using GPT-3.5-turbo
+Append: [Quiz: What Is the __pycache__ Folder in Python?](https://realpython.com/quizzes/python-pycache/)
+Token length: 6403
+Summarized using GPT-3.5-turbo
+Append: [What's Lazy Evaluation in Python?](https://realpython.com/python-lazy-evaluation/)
+Token length: 902
+Summarized using GPT-3.5-turbo
+Append: [Python Basics Exercises: Scopes](https://realpython.com/courses/python-basics-exercises-scopes/)
+Token length: 409
+Summarized using GPT-3.5-turbo
+Append: [Quiz: Python Sequences: A Comprehensive Guide](https://realpython.com/quizzes/python-sequences/)
+Token length: 7640
+Summarized using GPT-3.5-turbo
+Append: [Write Unit Tests for Your Python Code With ChatGPT](https://realpython.com/chatgpt-unit-tests-python/)
+Token length: 391
+Summarized using GPT-3.5-turbo
+Append: [The Real Python Podcast – Episode #201: Decoupling Systems to Get Closer to the Data](https://realpython.com/podcasts/rpp/201/)
+Token length: 527
+Summarized using GPT-3.5-turbo
+Append: [Quiz: Python's unittest: Writing Unit Tests for Your Code](https://realpython.com/quizzes/python-unittest/)
+Token length: 5679
+Summarized using GPT-3.5-turbo
+Append: [How to Format Floats Within F-Strings in Python](https://realpython.com/how-to-python-f-string-format-float/)
+Token length: 1001
+Summarized using GPT-3.5-turbo
+Append: [Using raise for Effective Exceptions](https://realpython.com/courses/using-raise-for-effective-exceptions/)
+Token length: 3588
+Summarized using GPT-3.5-turbo
+Append: [Build a Blog Using Django, GraphQL, and Vue](https://realpython.com/python-django-blog/)
+Token length: 438
+Summarized using GPT-3.5-turbo
+Append: [Quiz: Write Pythonic and Clean Code With namedtuple](https://realpython.com/quizzes/python-namedtuple/)
+Append: [The Real Python Podcast – Episode #200: Avoiding Error Culture and Getting Help Inside Python](https://realpython.com/podcasts/rpp/200/)
+Append: [Quiz: What's Lazy Evaluation in Python?](https://realpython.com/quizzes/python-lazy-evaluation/)
+Append: [Quiz: Format Floats Within F-Strings](https://realpython.com/quizzes/format-floats-within-f-strings/)
+Append: [Pydantic: Simplifying Data Validation in Python](https://realpython.com/python-pydantic/)
+Append: [Generating QR Codes With Python](https://realpython.com/courses/generating-qr-codes/)
+Append: [Python News: What's New From March 2024](https://realpython.com/python-news-march-2024/)
+Append: [The Real Python Podcast – Episode #199: Leveraging Documents and Data to Create a Custom LLM Chatbot](https://realpython.com/podcasts/rpp/199/)
+Append: [Quiz: Build Command-Line Interfaces With Python's argparse](https://realpython.com/quizzes/command-line-interfaces-python-argparse/)
+Append: [Python Deep Learning: PyTorch vs Tensorflow](https://realpython.com/courses/deep-learning-pytorch-tensorflow/)
+Append: [The Real Python Podcast – Episode #198: Build a Video Game With Python Turtle & Visualize Data in Seaborn](https://realpython.com/podcasts/rpp/198/)
+Append: [Quiz: A Practical Introduction to Web Scraping in Python](https://realpython.com/quizzes/python-web-scraping-practical-introduction/)
+Append: [Finding Python Easter Eggs](https://realpython.com/courses/finding-python-easter-eggs/)
+Append: [Quiz: Get Started With Django: Build a Portfolio App](https://realpython.com/quizzes/get-started-with-django/)
+Append: [The Real Python Podcast – Episode #197: Using Python in Bioinformatics and the Laboratory](https://realpython.com/podcasts/rpp/197/)
+Append: [SQLite and SQLAlchemy in Python: Move Your Data Beyond Flat Files](https://realpython.com/courses/sqlite-sqlalchemy-python-beyond-flat-files/)
+Append: [The Real Python Podcast – Episode #196: Exploring Duck Typing in Python & Dynamics of Monkey Patching](https://realpython.com/podcasts/rpp/196/)
+Append: [Python Basics Exercises: Dictionaries](https://realpython.com/courses/basics-exercises-dictionaries/)
+Append: [The Real Python Podcast – Episode #195: Building a Healthy Developer Mindset While Learning Python](https://realpython.com/podcasts/rpp/195/)
+Append: [Creating Asynchronous Tasks With Celery and Django](https://realpython.com/courses/asynchronous-tasks-celery-django/)
+Append: [The Real Python Podcast – Episode #194: Automate Tasks With Python & Building a Small Search Engine](https://realpython.com/podcasts/rpp/194/)
+append_entries: 40
+Finish: 2024-05-09 10:14:52.993457
