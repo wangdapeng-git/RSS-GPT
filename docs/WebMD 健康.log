@@ -1168,3 +1168,12 @@ Existing_entries: 62
 Fetching from http://rssfeeds.webmd.com/rss/rss.aspx
 append_entries: 0
 Finish: 2024-05-10 16:12:36.625921
+------------------------------------------------------
+Started: 2024-05-10 18:13:01.012923
+Existing_entries: 62
+Fetching from http://rssfeeds.webmd.com/rss/rss.aspx
+Token length: 193
+Summarized using GPT-3.5-turbo
+Append: [Age-Related Macular Degeneration: Putting a Hole in Our World](https://www.webmd.com/eye-health/news/20240510/age-related-macular-degeneration-putting-hole-our-world?src=RSS_PUBLIC)
+append_entries: 1
+Finish: 2024-05-10 18:13:09.163396
