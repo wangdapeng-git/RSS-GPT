@@ -4,6 +4,7 @@
 <title>Hacker News: Newest</title>
 <link>https://news.ycombinator.com/newest</link>
 
+
 <item>
 <title>Jim Simons has died</title>
 <link>https://www.simonsfoundation.org/2024/05/10/simons-foundation-co-founder-mathematician-and-investor-jim-simons-dies-at-86/</link>
@@ -11,13 +12,12 @@
 <content:encoded><![CDATA[
 <div> 关键词: 文章 链接 评论 点数 读者
 总结: 
-本文主要讨论了一篇关于什么什么的文章，通过讨论链接、评论和阅读者对文章的观点，作者展示了什么是什么。从读者的角度来看，他们对这篇文章的评论和观点也可以反映出一些什么。整体而言，这篇文章引起了较大的关注和讨论。<br><br>总结: <div>
+本文主要讨论了一篇关于什么什么的文章，通过讨论链接、评论和阅读者对文章的观点，作者展示了什么是什么。从读者的角度来看，他们对这篇文章的评论和观点也可以反映出一些什么。整体而言，这篇文章引起了较大的关注和讨论。<br /><br />总结: <div>
 <p>Article URL: <a href="https://www.simonsfoundation.org/2024/05/10/simons-foundation-co-founder-mathematician-and-investor-jim-simons-dies-at-86/">https://www.simonsfoundation.org/2024/05/10/simons-foundation-co-founder-mathematician-and-investor-jim-simons-dies-at-86/</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40320406">https://news.ycombinator.com/item?id=40320406</a></p>
 <p>Points: 363</p>
 <p># Comments: 106</p>
 ]]></content:encoded>
-<pubDate>Fri, 10 May 2024 15:51:01 +0000</pubDate>
 <pubDate>Fri, 10 May 2024 15:51:01 +0000</pubDate>
 </item>
 <item>
@@ -26,16 +26,15 @@
 <guid>https://news.ycombinator.com/item?id=40318542</guid>
 <content:encoded><![CDATA[
 <div> Jam, bug tickets, product managers, engineers, debugging
-<br>
+<br />
 Jam是一个帮助产品经理和工程师更好地共享和解决bug的工具。通过结合Dev工具和视频功能，帮助非工程师更准确地描述问题，加快解决bug的速度。团队已经投入了4年时间研发这一产品，在过去2年内已经有超过200万个bug被解决。现在团队正在寻求用户反馈，并希望进一步优化工具，使得调试过程更加高效。Jam提供永久免费的使用计划，并在招聘工程师加入团队。如果您对这个问题感兴趣，欢迎联系他们。 
-<br><br>总结: Jam是一个帮助解决bug的工具，能够提高产品经理和工程师的效率，已有超过200万个bug在过去2年内被解决。团队致力于优化工具，提供永久免费的使用计划，并在招聘工程师加入团队。 <div>
+<br /><br />总结: Jam是一个帮助解决bug的工具，能够提高产品经理和工程师的效率，已有超过200万个bug在过去2年内被解决。团队致力于优化工具，提供永久免费的使用计划，并在招聘工程师加入团队。 <div>
 <p>Hey HN, I wanted to show you a product a small team and I have been working on for 4 years. <a href="https://jam.dev" rel="nofollow">https://jam.dev</a><p>It’s called Jam and it prevents product managers (like I used to be) from being able to create vague and un-reproducible bug tickets (like I used to create).<p>It’s actually really hard as a non-engineer to file useful bug tickets for engineers. Like, sometimes I thought I included a screenshot, but the important information the engineer needed was what was actually right outside the boundary of the screenshot I took. Or I'd write that something "didn't work" but the engineer wasn't sure if I meant that it returned an error or if it was unresponsive. So the engineer would be frustrated, I would be frustrated, and fixing stuff would slow to a halt while we went back and forth to clarify how to repro the issue over async Jira comments.<p>It’s actually pretty crazy that while so much has changed in how we develop software (heck, we have types in javascript now*), the way we capture and report bugs is just as manual and lossy as it was in the 1990’s. We can run assembly in the browser but there’s still no tooling to help a non-engineer show a bug to an engineer productively.<p>So that’s what Jam is. Dev tools + video in a link. It’s like a shareable HAR file synced to a video recording of the session. And besides video, you can use it to share an instant replay of a bug that just happened — basically a 30 second playback of the DOM as a video.<p>We’ve spent a lot of time adding in a ton of niceties, like Jam writes automatic repro steps for you, and Jam’s dev tools use the same keyboard shortcuts you’re used to in Chrome dev tools, and our team’s personal favorite: Jam parses GraphQL responses and pulls out mutation names and errors (which is important because GraphQL uses one endpoint for all requests and always returns a 200, meaning you usually have to sift through every GraphQL request when debugging to find the one you’re looking for)<p>We’re now 2 years in to the product being live and people have used Jam to fix more than 2 million bugs - which makes me so happy - but there’s still a ton to do. I wanted to open up for discussion here and get your feedback and opinions how can we make it even more valuable for you debugging?<p>The worst part of the engineering job is debugging and not even being able to repro the issue, it’s not even really engineering, it’s just a communication gap, one that we should be able to solve with tools. So yeah excited to get your feedback and hear your thoughts how we can make debugging just a little less frustrating.<p>(Jam is free to use forever — there is a paid tier for features real companies would need, but we’re keeping a large free plan forever. We learned to build products at Cloudflare and free tier is in our ethos, both my co-founder and I and about half the team is ex-Cloudflare) and what we loved there is how much great feedback we’d get because the product was mostly  free to use. We definitely want to keep that going at Jam.)<p>By the way, we’re hiring engineers and if this is a problem that excites you, we’d love to chat: jam.dev/careers</p>
 <hr />
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40318542">https://news.ycombinator.com/item?id=40318542</a></p>
 <p>Points: 351</p>
 <p># Comments: 95</p>
 ]]></content:encoded>
-<pubDate>Fri, 10 May 2024 13:08:38 +0000</pubDate>
 <pubDate>Fri, 10 May 2024 13:08:38 +0000</pubDate>
 </item>
 <item>
@@ -45,16 +44,14 @@ Jam是一个帮助产品经理和工程师更好地共享和解决bug的工具�
 <content:encoded><![CDATA[
 <div> 关键词: 网络安全、数据泄露、个人信息、保护、风险
 
-总结:<br><br>网络安全是一个重要的问题，数据泄露可能导致个人信息泄露，因此保护个人信息至关重要。在网络上，存在着各种风险，必须谨慎处理个人信息，避免数据泄露，确保网络安全。 <div>
+总结:<br /><br />网络安全是一个重要的问题，数据泄露可能导致个人信息泄露，因此保护个人信息至关重要。在网络上，存在着各种风险，必须谨慎处理个人信息，避免数据泄露，确保网络安全。 <div>
 <p>Article URL: <a href="https://developer.mozilla.org/en-US/docs/Web/API/Popover_API">https://developer.mozilla.org/en-US/docs/Web/API/Popover_API</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40317740">https://news.ycombinator.com/item?id=40317740</a></p>
 <p>Points: 269</p>
 <p># Comments: 130</p>
 ]]></content:encoded>
 <pubDate>Fri, 10 May 2024 11:41:12 +0000</pubDate>
-<pubDate>Fri, 10 May 2024 11:41:12 +0000</pubDate>
 </item>
-
 <item>
 <title>Opening Windows in Linux with sockets, bare hands and 200 lines of C</title>
 <link>https://hereket.com/posts/from-scratch-x11-windowing/</link>
