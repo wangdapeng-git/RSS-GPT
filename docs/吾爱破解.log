@@ -2148,3 +2148,11 @@ Append: [【多平台】imFile v1.0.8  复刻停更的Motrix并长期维护更�
 Filter: [【安卓/iOS】首都图书馆 v3.4.4 免费看书查资料听音乐等〈更新〉](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1918402)
 append_entries: 2
 Finish: 2024-05-10 06:13:06.750612
+------------------------------------------------------
+Started: 2024-05-10 08:13:01.421798
+Existing_entries: 169
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [硬盘检测工具 CrystalDiskInfo v9.3.0 单文件版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1919884)
+Filter: [【安卓/iOS】首都图书馆 v3.4.4 免费看书查资料听音乐等〈更新〉](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1918402)
+append_entries: 0
+Finish: 2024-05-10 08:13:03.648860
