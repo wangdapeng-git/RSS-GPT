@@ -4,6 +4,49 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>【痕迹】QQ+微信朋友圈和聊天记录分析工具1.0.4，最新</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1921143</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1921143</guid>
+<content:encoded><![CDATA[
+
+演示：https://www.bilibili.com/video/BV1dZ421j7Rp/
+
+
+
+---2024-5-8 debug---
+
+重新打包，解决list超出范围问题；
+将pandas，numpy直接打包，避免C++报错；
+增加QQ群统计的QQ邮箱表格下载CSV按钮，类似于QQ群会员提取的功能。
+
+---update----
+
+【痕迹】 ...
+]]></content:encoded>
+<pubDate>Tue, 07 May 2024 01:03:24 +0000</pubDate>
+<pubDate>Tue, 07 May 2024 01:03:24 +0000</pubDate>
+</item>
+<item>
+<title>【多平台】imFile v1.0.8  复刻停更的Motrix并长期维护更新的BT下载器、</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1919176</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1919176</guid>
+<content:encoded><![CDATA[
+
+Motrix已经很久没有更新了，已经积累了大量的问题。imFile就是基于Motrix Fork 并对其进行了长时间的维护和更新版。
+
+imFile 是一个功能齐全的下载管理器，支持下载 HTTP、FTP、BitTorrent、Magnet 等。
+
+
+
+
+
+
+ ...
+]]></content:encoded>
+<pubDate>Mon, 29 Apr 2024 14:37:05 +0000</pubDate>
+<pubDate>Mon, 29 Apr 2024 14:37:05 +0000</pubDate>
+</item>
 
 <item>
 <title>一键关闭 Win11烦人广告 OFGB V0.3汉化版</title>
