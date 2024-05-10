@@ -4,6 +4,21 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>The Real Python Podcast – Episode #204: Querying OpenStreetMaps via API &amp; Lazy Evaluation in Python</title>
+<link>https://realpython.com/podcasts/rpp/204/</link>
+<guid>https://realpython.com/podcasts/rpp/204/</guid>
+<content:encoded><![CDATA[
+<div> APIs, Python, OpenStreetMap, Practicing, Christopher Trudeau
+总结:<br>
+本文介绍了如何使用Python与APIs进行交互，主要是通过OpenStreetMap的数据来探索地球。Christopher Trudeau分享了本周的PyCoder's Weekly文章和项目，让读者有机会增加与APIs在Python中的实践经验。通过阅读本文，读者可以学习如何利用APIs和Python来获取数据并进行地理信息的探索。Christopher Trudeau的项目和文章也为读者提供了更多学习和实践的机会。 <div>
+<p>Would you like to get more practice working with APIs in Python? How about exploring the globe using the data from OpenStreetMap? Christopher Trudeau is back on the show this week, bringing another batch of PyCoder's Weekly articles and projects.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-05-10T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>PyTorch vs TensorFlow for Your Python Deep Learning Project</title>
