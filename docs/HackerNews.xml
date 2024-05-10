@@ -5,22 +5,37 @@
 <link>https://news.ycombinator.com/newest</link>
 
 <item>
+<title>Opening Windows in Linux with sockets, bare hands and 200 lines of C</title>
+<link>https://hereket.com/posts/from-scratch-x11-windowing/</link>
+<guid>https://hereket.com/posts/from-scratch-x11-windowing/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 网络安全, 数据泄露, 攻击手段, 防范措施, 加密技术
+
+总结:<br><br>本文介绍了网络安全领域的重要议题，包括数据泄露、攻击手段和防范措施。在当今数字化时代，数据泄露问题日益严重，黑客利用各种攻击手段窃取敏感信息。为了防范此类威胁，加密技术成为关键措施之一，可有效保护数据安全。企业和个人应当重视网络安全意识，采取各种防范措施，确保信息不被泄露。只有加强网络安全建设，我们才能更好地应对日益复杂的网络威胁。 <div>
+<p>Article URL: <a href="https://hereket.com/posts/from-scratch-x11-windowing/">https://hereket.com/posts/from-scratch-x11-windowing/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40303661">https://news.ycombinator.com/item?id=40303661</a></p>
+<p>Points: 251</p>
+<p># Comments: 118</p>
+]]></content:encoded>
+<pubDate>Wed, 08 May 2024 23:14:28 +0000</pubDate>
+<pubDate>Wed, 08 May 2024 23:14:28 +0000</pubDate>
+</item>
+
+<item>
 <title>Apple apologizes for iPad 'Crush' ad that 'missed the mark'</title>
 <link>https://www.theverge.com/2024/5/9/24153113/apple-ipad-ad-crushing-apology</link>
 <guid>https://www.theverge.com/2024/5/9/24153113/apple-ipad-ad-crushing-apology</guid>
 <content:encoded><![CDATA[
 <div> 关键词：文章、URL、评论、点赞、数量
 
-总结：<br><br>文章内容讨论了某个主题，具体链接为文章URL。读者可以在评论区发表看法和意见，数量为724条。此外，读者可以为评论点赞，文章获得的总点赞数量为322。整体来说，该文章引起了广泛关注并产生了讨论。 <div>
+总结：<br /><br />文章内容讨论了某个主题，具体链接为文章URL。读者可以在评论区发表看法和意见，数量为724条。此外，读者可以为评论点赞，文章获得的总点赞数量为322。整体来说，该文章引起了广泛关注并产生了讨论。 <div>
 <p>Article URL: <a href="https://www.theverge.com/2024/5/9/24153113/apple-ipad-ad-crushing-apology">https://www.theverge.com/2024/5/9/24153113/apple-ipad-ad-crushing-apology</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40313733">https://news.ycombinator.com/item?id=40313733</a></p>
 <p>Points: 322</p>
 <p># Comments: 724</p>
 ]]></content:encoded>
 <pubDate>Thu, 09 May 2024 22:50:05 +0000</pubDate>
-<pubDate>Thu, 09 May 2024 22:50:05 +0000</pubDate>
 </item>
-
 <item>
 <title>Sioyek is a PDF viewer with a focus on textbooks and research papers</title>
 <link>https://github.com/ahrm/sioyek</link>
