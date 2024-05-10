@@ -475,3 +475,12 @@ Existing_entries: 63
 Fetching from https://hnrss.org/newest?points=250&comments=25
 append_entries: 0
 Finish: 2024-05-10 10:11:10.154613
+------------------------------------------------------
+Started: 2024-05-10 12:17:20.724020
+Existing_entries: 63
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 55
+Summarized using GPT-3.5-turbo
+Append: [Sioyek is a PDF viewer with a focus on textbooks and research papers](https://github.com/ahrm/sioyek)
+append_entries: 1
+Finish: 2024-05-10 12:17:27.909092

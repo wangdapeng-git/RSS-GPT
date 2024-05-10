@@ -4,6 +4,21 @@
 <title>Hacker News: Newest</title>
 <link>https://news.ycombinator.com/newest</link>
 
+<item>
+<title>Sioyek is a PDF viewer with a focus on textbooks and research papers</title>
+<link>https://github.com/ahrm/sioyek</link>
+<guid>https://github.com/ahrm/sioyek</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 文章内容 主题 评论 回复 互动
+总结:<br><br>本文主要讨论了如何增加文章的互动性，通过撰写引人入胜的主题和内容吸引读者，促使其产生评论和互动。评论是读者对文章的回馈，作者应该及时回复评论，和读者建立良好的沟通关系，提高读者参与度。不仅要重视评论数量，还要注重评论质量，鼓励读者发表有建设性的意见和讨论。良好的互动能够增加读者黏性，提升文章在网络上的曝光率和影响力。通过不断改进文章质量和互动效果，可以吸引更多读者参与，推动网站的发展。 <div>
+<p>Article URL: <a href="https://github.com/ahrm/sioyek">https://github.com/ahrm/sioyek</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40313143">https://news.ycombinator.com/item?id=40313143</a></p>
+<p>Points: 260</p>
+<p># Comments: 87</p>
+]]></content:encoded>
+<pubDate>Thu, 09 May 2024 21:28:43 +0000</pubDate>
+<pubDate>Thu, 09 May 2024 21:28:43 +0000</pubDate>
+</item>
 
 <item>
 <title>It's always TCP_NODELAY</title>
