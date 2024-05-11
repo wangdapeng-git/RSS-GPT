@@ -577,3 +577,9 @@ Summarized using GPT-3.5-turbo
 Append: [KeePassXC Debian maintainer has removed all network features](https://fosstodon.org/@keepassxc/112417353193348720)
 append_entries: 1
 Finish: 2024-05-11 08:12:17.154360
+------------------------------------------------------
+Started: 2024-05-11 10:10:15.246042
+Existing_entries: 75
+Fetching from https://hnrss.org/newest?points=250&comments=25
+append_entries: 0
+Finish: 2024-05-11 10:10:15.850811
