@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Non_Interactive – Software &amp; ML</title>
+<link>https://nonint.com</link>
+
+<item>
+<title>Research Code</title>
+<link>https://nonint.com/2024/03/16/research-code/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=research-code</link>
+<guid>https://nonint.com/2024/03/16/research-code/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=research-code</guid>
+<content:encoded><![CDATA[
+<div> research code, beauty, purpose, haphazard, art
+<br>
+研究代码常被认为是混乱的，但也有其独特之美与目的。其追求目标过程中充满挑战与不确定性，需要不断尝试和改进。研究者采取笔记而非设计文档，直接测试一次性实现，将成功的部分固定为标志，记录评估指标。这种反复迭代的方式让编程更接近艺术，因为与他人编程不同，研究代码是研究者个人智慧与现实世界的交互产物，是有机、复杂且独特的。这种个人表达与技术交融的过程是一种艺术。 
+<br><br>总结:研究代码是有机的、复杂的、独特的产物，反映了研究者个人智慧与现实世界的交互，更接近艺术。 <div>
+<p>At my job, I&#8217;m currently in a cycle that is involving working with software engineers quite a bit. One thing that has happened a number of times is that a software engineer will bring up &#8220;research code&#8221; with a condescending tone. The implication is that research code is messy, unreadable, and difficult to maintain. </p>
+
+
+
+<p>I don&#8217;t deny this! It often is those things, but I also think it has a beauty to its purpose and prose that is worth acknowledging. </p>
+
+
+
+<p>Most code has a purpose from the get go. Someone thinks &#8220;wouldn&#8217;t it be nice if my computer did &lt;x&gt;&#8221;, then designs and builds the code to achieve &lt;x&gt;. Generally you know where you want to end up and how to get there fairly early on in the project. This makes writing design docs, unit tests and a coherent software architecture possible.</p>
+
+
+
+<p>Research doesn&#8217;t really work in this way. It is similarly goal oriented, but the distinction is that you never really know exactly how you&#8217;re going to get to the goal. You constantly poke at the unknown until something &#8220;works&#8221;. You get stuck in iterative loops improving small aspects of your design over weeks or months &#8211; which naturally causes it to evolve. At the end of the journey the goalposts have moved, more often than not.</p>
+
+
+
+<p>In such an environment, you take notes rather than write design docs. They describe where you&#8217;ve been and why the things you tried didn&#8217;t work. You test one-off implementations directly rather than write unit tests. If something works, you cement it in place as a beacon marking a step towards your goal. If you&#8217;re fortunate enough to be working on a problem that allows evaluation metrics, you might record the eval scores you achieve. It might make sense to write a unit test here, but it&#8217;s often easier just to treat the beacon code as immutable and branch off of it.</p>
+
+
+
+<p>I love this way of iterating on a problem. I always have, well before I joined the field. It&#8217;s haphazard as hell, but it also feels as close to &#8220;art&#8221; as I think programming will ever get. Let me explain that a bit: art is more often then not about individual expression. Programming for most large companies is explicitly not that: it&#8217;s about writing in common language with your fellow programmers as well as sharing &#8220;cultural norms&#8221; like coding conventions, reviews and tests. There are good reasons for all of these things! But the end product is rarely &#8220;art&#8221;.</p>
+
+
+
+<p>By contrast, the code that a researcher builds is a product of the interaction between their individual ingenuity and the real world. It&#8217;s organic and complex and two researchers tackling a similar problem rarely come up with the same code at the end of the day. I call that &#8220;art&#8221;.</p>
+]]></content:encoded>
+<pubDate>Sat, 16 Mar 2024 16:08:19 +0000</pubDate>
+<pubDate>Sat, 16 Mar 2024 16:08:19 +0000</pubDate>
+</item>
+<item>
+<title>Learned Structures</title>
+<link>https://nonint.com/2024/03/03/learned-structures/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=learned-structures</link>
+<guid>https://nonint.com/2024/03/03/learned-structures/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=learned-structures</guid>
+<content:encoded><![CDATA[
+<div> 神经网络架构, 表现提升, 数值稳定性, 可学习性, 结构化表示<br>
+<br>
+总结:<br>
+作者通过对神经网络架构的研究发现，对模型性能影响最大的调整主要分为两类：提升训练过程中的数值稳定性以及增强模型的可学习性。通过构建可学习的表现力，让数据的结构化表示相互影响，不断增加网络的学习能力。作者认为，添加这些嵌套结构到计算图中，是为了让网络可以逐步学习。而在训练过程中，这些结构不会在早期被有效学习，随着训练的进行，这些机制会逐渐发挥作用，为学习更复杂的数据分布提供有力支持。最后，作者提出了一个新颖的研究方向，即通过组合独立训练的模型和图像生成模型来提高生成性能和保真度。 <div>
+<p>From 2019-2021, I was fascinated with neural network architectures. I think a lot of researchers in the field were at the time. The transformer paper had been out for a little while and it was starting to sink in how transformational it was going to be. The general question in the air was: what other simple tweaks can we make to greatly improve performance?</p>
+
+
+
+<p>As time has passed, I&#8217;ve internally converged on the understanding that there are only a few types of architectural tweaks that actually meaningfully impact performance across model scales. These tweaks seem to fall into one of two categories: modifications that improve numerical stability during training, and modifications that enhance the expressiveness of a model in learnable ways.</p>
+
+
+
+<p>Improving numerical stability is a bit of a black art. I&#8217;m not an expert but those that are remind me of the RF engineers I worked with in my first job. Things that fit into this category would include where and how to normalize activations, weight initialization and smoothed non-linearities. I&#8217;d love to talk more about this someday.</p>
+
+
+
+<p>I wanted to talk about learnable expressiveness in this post. The core idea here is to build structured representations of your data, and let those structures interact in learnable ways. Let&#8217;s start by looking at different ways this currently can happen:</p>
+
+
+
+<p>MLPs are the most basic building block of a neural network and provide the foundation of interacting structures: they allow all of the elements of a vector to interact with each other through the weights of the neural network.</p>
+
+
+
+<p>Attention builds another layer: rather than considering just a single vector interacting with weights, we consider a set of vectors. Through the attention layer, elements from this set can interact with each other.</p>
+
+
+
+<p>Mixture of Experts adds yet another layer: Rather than considering vectors interacting with a fixed set of weights, we now dynamically select the weights to use for other operations based on the values within the vector (and some more weights!) </p>
+
+
+
+<p>Hopefully you&#8217;re seeing the pattern here: in each of the above cases, we add an axis by which our activations can affect the end result of the computation performed by our neural network. I have no empirical proof for this, but what I think is actually happening here is that as you add these nested structures into the computational graph, you are adding ways for the network to learn <em>in stages</em>.</p>
+
+
+
+<p>Why is important to learn in stages? Because we train our neural networks in a really, really dumb way: we optimize the entire parameter space from the beginning of training. This means all of the parameters fight from the very beginning to optimize really simple patterns of the data distribution. 7 Billion parameters learning that &#8220;park&#8221; and &#8220;frisbee&#8221; are common words to find around &#8220;dog&#8221;.</p>
+
+
+
+<p>The neat thing about these learned structures is that they&#8217;re practically useless in the early training regime. Attention cannot be meaningfully learned while the network is still learning &#8220;black&#8221; from &#8220;white&#8221;. Same with MoE: expert routing amounts to random chance when the network activations are akin to random noise. As training progresses, these mechanisms come &#8220;online&#8221;, though: providing meaningful value just when you need a boost in capacity to learn a more complex layer of the data distribution.</p>
+
+
+
+<p>Anyhow, regardless of whether or not my philosophical waxing is correct, learnable structures are probably the most fascinating research direction I can think of in architecture right now. My hunch is that there are additional structures that we can bolt onto our neural networks for another meaningful increase in performance. The main thing to pay attention to is that you are not just re-inventing a type of learned structure that already exists. Like Mamba. <img alt="🙂" class="wp-smiley" src="https://s.w.org/images/core/emoji/13.1.0/72x72/1f642.png" style="height: 1em;" /></p>
+
+
+
+<p>One idea along this vein that I had explored before joining OpenAI:</p>
+
+
+
+<p>StyleGAN is an image generation model with exceptional fidelity and speed. The catch is that it is an extremely narrow learning framework: It only works when you heavily regularize the dataset you train it on. For example, only photos of center-cropped faces, or specific types of churches. If you attempt to train it on something like LAION quality drops off as you lose the ability to model the data distribution: it&#8217;s just too wide to fit in the parameter space. But here&#8217;s the thing: you can think of most images as being made up of several modal components. Maybe a persons face here, a hand there, a tree in the background. It seems to me that an optimal way to get high generation performance and fidelity would be to train StyleGAN-like things separately from an image &#8220;composer&#8221; that learns to place the correct StyleGAN over the correct places in an image to decode. A &#8220;mixture of StyleGANs&#8221; if you will.</p>
+
+
+
+<p>As a final note: I don&#8217;t want to claim the above is novel or anything, just a good idea. I think one of my favorite early applications of this general idea is using StyleGAN to fix StableDiffusion faces, like <a href="https://github.com/ototadana/sd-face-editor">this</a>. I want to try something like this learned end to end someday!</p>
+]]></content:encoded>
+<pubDate>Sun, 03 Mar 2024 07:13:53 +0000</pubDate>
+<pubDate>Sun, 03 Mar 2024 07:13:53 +0000</pubDate>
+</item>
+<item>
+<title>go/rulesofthumb</title>
+<link>https://nonint.com/2024/01/06/go-rulesofthumb/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=go-rulesofthumb</link>
+<guid>https://nonint.com/2024/01/06/go-rulesofthumb/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=go-rulesofthumb</guid>
+<content:encoded><![CDATA[
+<div> Google、Rules of Thumb、SWE、成本比较、人力资源<br>
+<br>
+Google内部网站“Rules of Thumb”比较了计算资源的边际成本与“SWE”单位的“软件工程师”。这种比较方式在考虑优化技术栈时非常有趣，同时也显示了人力资源的高昂成本。文章提到，未来人类将需要与大量计算资源进行竞争，在独立工作中逐渐被计算机取代。这种“智人辅助AI技术和大量计算资源”的竞争模式可能会成为现实。总之，技术的发展将改变人类与计算资源之间的竞争关系。<br><br>总结:技术发展将使人类与计算资源之间的竞争关系逐渐增加，人们需要考虑到“更多计算资源还是更多人力资源”的选择，这导致了将人类与计算资源进行直接比较的情况出现。 <div>
+<p>Google has a neat internal website called &#8220;Rules of Thumb&#8221;, which compares the marginal cost of computational resources to the unit of a &#8220;SWE&#8221;. &#8220;SWE&#8221; refers to &#8220;Software Engineer&#8221; &#8211; which itself is the marginal cost to pay salary and benefits to the average engineer at the company. Throughout design docs at the company, you&#8217;ll see costs referred to in the units of SWE. For example, &#8220;deploying service &lt;X> at 1000QPS will cost ~100 SWEs in resources&#8221;.</p>
+
+
+
+<p>I always thought comparing costs of fixed assets like compute, RAM, or database accesses to the cost of hiring a new employee was at once brilliant and dystopian. Brilliant because it allowed for some really interesting comparisons when thinking about how much effort to pour into optimizing some aspect of the stack &#8211; if you spent half a year optimizing something that saved 1 SWE of resources per year in a product that was growing, then that was a very good use of your time! It was also humbling to see how expensive each employee was &#8211; the unit of SWE came out to a rather ridiculous number of CPUs, RAM and/or hard disk space.</p>
+
+
+
+<p>The dystopian angle is obvious: there is an underlying implication that human labor is worth some amount of computational resources. This was never more than a joke at Google, as there was never any real chance that the average Googler could be replaced by a computer. You could only really compare costs.</p>
+
+
+
+<p>Post 2023, that joke is a bit less funny. Compute is valuable, and getting more valuable. Given the choice between having a team of 3 people working under me or 1000 dedicated H100s for my work, I&#8217;d have to think for a little bit. Humans are certainly smarter than ChatGPT but they also take time to train, aren&#8217;t available at 3AM on a Saturday (and I don&#8217;t expect them to be!) and are hard to pick correctly. With more GPUs, I know exactly what I&#8217;m going to get: more synthetic data, faster iteration on a problem and ultimately a reliably better product thanks to scaling laws.</p>
+
+
+
+<p>This direct consideration of &#8220;more compute or more people?&#8221; certainly doesn&#8217;t exist out of very small niches like mine so far, but it&#8217;s interesting to me that it exists at all. I think that this is an all but guaranteed future for us all: humans will need to increasingly compete with the application of raw compute in all independent work. Social work will still be available and valued, but the act of going from problem to solution will increasingly have compute-bound solutions. If this happens in parallel to Moores law continuing at pace, the results will be interesting. </p>
+
+
+
+<p>Even if we don&#8217;t achieve an autonomous &#8220;AGI&#8221;, this notion of &#8220;smart person augmented by AI techniques and lots of compute&#8221; being competitive with a team of specialists means go/rulesofthumb might become more literal than most of us ever thought it would be!</p>
+]]></content:encoded>
+<pubDate>Sat, 06 Jan 2024 17:45:31 +0000</pubDate>
+<pubDate>Sat, 06 Jan 2024 17:45:31 +0000</pubDate>
+</item>
+<item>
+<title>Compute Multipliers</title>
+<link>https://nonint.com/2023/11/05/compute-multipliers/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=compute-multipliers</link>
+<guid>https://nonint.com/2023/11/05/compute-multipliers/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=compute-multipliers</guid>
+<content:encoded><![CDATA[
+<div> compute efficiency, compute multiplier, scaling laws, ML algorithms, neural network
+
+总结:<br><br>这篇文章讨论了在机器学习领域中计算效率和计算乘数的重要性。通过研究计算效率，可以衡量模型在固定的计算资源下表现的好坏。计算乘数是指提高计算效率的发现，可以节省大量的计算资源成本。作者强调了在研究ML算法时需要进行计算效率扫描，以确保新发现的相关性。通过固定计算资源来比较不同方法的表现，可以更好地评估其质量。文章呼吁研究人员注意并测量其想法在固定计算资源下的表现，以避免过度依赖规模、计算和评估技巧来实现最先进的结果。 <div>
+<p>I&#8217;ve listened to a couple of interviews with Dario Amodei, CEO of Anthropic, this year. In both of them, he dropped the term &#8220;compute multiplier&#8221; a few times. This concept is exceptionally important in the field of ML, and I don&#8217;t see it talked about enough. In this post, I&#8217;m going to attempt to explain what it is and why it is so important.</p>
+
+
+
+<h3>Computational Efficiency</h3>
+
+
+
+<p><a href="https://arxiv.org/pdf/2203.15556.pdf">Chinchilla</a> is undoubtedly the landmark academic paper of 2022 in the field of Machine Learning. It&#8217;s most known for documenting the optimal relationship between the amount of compute poured into training a neural network and the amount of data used to train said network. In the process, it refuted some of the findings of an OpenAI paper from 2020, <a href="https://arxiv.org/abs/2001.08361">Scaling Laws for Neural Language</a> models, which claimed that the optimal data:compute ratio was far smaller than was correct. (By the way, I highly recommend <a href="http://lesswrong.com/posts/6Fpvch8RR29qLEWNH/chinchilla-s-wild-implications">this post</a> if you want to read more about Chinchilla&#8217;s findings)</p>
+
+
+
+<p>Chinchilla did another thing, though &#8211; it highlighted the importance of studying the computational efficiency of our learning algorithms. Lets dig in there a bit:</p>
+
+
+
+<p>Compute efficiency is a measurement of how well your model performs taking into account only the amount of compute you used to train it. </p>
+
+
+
+<p>&#8220;How well your model performs&#8221; is generally measured by a loss function applied to a test dataset, but can be measured using any stable, low-variance metric that gets improved as your model trains.</p>
+
+
+
+<p>&#8220;Compute&#8221; is generally measured in FLOPs, but it can be thought of as &#8220;how many GPUs, for how long&#8221;.</p>
+
+
+
+<h3>Multipliers</h3>
+
+
+
+<p>Putting the two together, you can re-define compute efficiency a little bit: given a set of design and hyper-parameter choices and a fixed test loss target, compute efficiency is the measurement of how much compute is required to meet that test loss. A more efficient model requires less GPUs, a less efficient one needs more.</p>
+
+
+
+<p>And this is where the term &#8220;compute multipliers&#8221; come in. If you make any discovery that improves compute efficiency across all model scales, you have discovered a compute multipler. If your discovery increases efficiency by 20%, it&#8217;s as if your training fleet suddenly has 20% more GPUs in it. </p>
+
+
+
+<p>Due to the way scaling actually works, compute multipliers are actually generally worth <strong>more</strong> than a proportional increase in the number of GPUs you have. This is because adding more GPUs comes with overhead which decreases the net efficiency of the system, for example slow interconnect speeds might mean that a GPU cluster that is 20% larger is only 18% faster at crunching your giant matmuls.</p>
+
+
+
+<p>In a world where a single H100 costs $25k at a minimum, and we&#8217;re training these LLMs on thousands of these GPUs, you can see why these compute multipliers start to make a <strong>huge</strong> difference. Finding a 5% compute multiplier means you potentially saved your 4000-GPU company $5M in GPUs. That savings can be applied in several ways: buying less GPUs, training faster, or training a larger &amp; better model.</p>
+
+
+
+<h3>Where are they hiding?</h3>
+
+
+
+<p>I started this post mentioning that Dario had talked about compute multipliers. The context within which he talked about them in both podcasts I listened to was within an infosec discussion &#8211; he considers proprietary compute multipliers to be the among the most valuable corporate secrets that Anthropic has.</p>
+
+
+
+<p>As such, I obviously can&#8217;t share specifics on where you might go to look for these things. That&#8217;s OK, though, as the point of this post is to foster a different way of thinking about how improvements are made to ML algorithms. I think the search for compute multipliers is far more ubiquitous than anyone who doesn&#8217;t religiously adhere to scaling laws might think: literally every single scientist in the field of machine learning that isn&#8217;t looking into new applications of existing techniques should be performing compute efficiency scans to ensure that their discoveries are actually relevant. Some examples:</p>
+
+
+
+<ul><li>You invent a new architecture that proposes to replace the transformer &#8211; you better show that you achieve better test losses than a transformer with a fixed compute budget!</li><li>You create a new dataset &#8211; does it improve a test loss that you care about when compared with an otherwise identical model trained for an identical duration of time/tokens?</li><li>You invent a new optimizer algorithm &#8211; what test loss does it achieve when compared with the old one?</li><li>You tweak some hyperparameters &#8211; &#8230;. you get the point</li></ul>
+
+
+
+<p>In general, the important conclusion is that if you believe in scaling laws (and you should!), then it is not impressive to simply come up with an idea and achieve a state of the art score on some evaluation metric. Anyone can do that with any architecture and enough compute. You <strong>must</strong> measure the performance of your idea against other ideas with compute fixed. </p>
+
+
+
+<p>Funnily enough if everyone did this, we&#8217;d see a lot less papers in the field as it&#8217;d become clear pretty quickly that most ideas simply don&#8217;t pan out where it matters. The only reason the paper mills keep turning is that just about everything can be SOTA with enough scale, compute and eval hacking.</p>
+]]></content:encoded>
+<pubDate>Sun, 05 Nov 2023 23:59:03 +0000</pubDate>
+<pubDate>Sun, 05 Nov 2023 23:59:03 +0000</pubDate>
+</item>
+<item>
+<title>Is the Reversal Curse a generalization problem?</title>
+<link>https://nonint.com/2023/10/18/is-the-reversal-curse-a-generalization-problem/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=is-the-reversal-curse-a-generalization-problem</link>
+<guid>https://nonint.com/2023/10/18/is-the-reversal-curse-a-generalization-problem/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=is-the-reversal-curse-a-generalization-problem</guid>
+<content:encoded><![CDATA[
+<div> Latent space, knowledge look-up, reasoning, neural networks, context
+<br><br>总结: 作者在文章中提出了关于神经网络的知识查找和推理能力的观点。文章指出，神经网络通过上下文来查找知识，并在注意力上下文中进行推理。推理过程完全在注意力上下文中完成，并且作者认为记忆召回与逻辑推理能力不同。他们认为我们不应该因为模型不能混合这两者而感到担忧。 <div>
+<p>In my last post, I made a claim that the recently discovered <a href="https://owainevans.github.io/reversal_curse.pdf">reversal curse</a> is not something that worries me. In fact, when I originally learned of it, I can&#8217;t say I was very surprised. In this post, I wanted to dig into that a little bit more. </p>
+
+
+
+<p>My hypothesis is that the reversal curse is a attribute of knowledge look-up, not a problem with the ability of LLMs to perform reasoning.</p>
+
+
+
+<h2>Lookup in NNs</h2>
+
+
+
+<p>Let me first describe how I think knowledge look-up in neural networks currently works.</p>
+
+
+
+<p>At a high level, autoregressive neural networks map inputs into high-dimensional vectors (we call them &#8220;latents&#8221;). At the terminus of the network, we map those latents into sets of probabilities which can be used to make a series of predictions through the process of sampling. </p>
+
+
+
+<p>The true power of AR models is in the <em>context</em>, which is the sequence of latents which came before the current prediction. Modern AR models learn to use the context to aid their predictions using a mechanism called self attention. Empirically, we find that the richer the context, the more accurate the prediction. For example, if you prompt a language model with the following two statements:</p>
+
+
+
+<ol><li>The weather today is</li><li>It&#8217;s December in Colorado, the weather today is</li></ol>
+
+
+
+<p>The prediction will be more accurate in the second case.</p>
+
+
+
+<p>How does this mechanistically work inside of the model? Let&#8217;s assume that the model&#8217;s latent space is analogous to the internal registers of a computer processor. It can be loaded with a small bank of immediately relevant knowledge which is used at the last layer to make a prediction for the next token. </p>
+
+
+
+<p>In the first example above, the register bank may only contain the values: [&#8216;what is the weather&#8217;, &#8216;time: today&#8217;]. Probabilistically, the completion that should be produced from such a register bank is &#8220;sunny&#8221;.</p>
+
+
+
+<p>In the second example, the register bank might contain the following: [&#8216;location: colorado&#8217;, &#8216;month: december&#8217;, &#8216;what is the weather&#8217;, &#8216;time: today&#8217;], which will favor the word &#8220;snowy&#8221; with far higher probability.</p>
+
+
+
+<p>An important thing to understand here is that the register bank described above has a limited capacity to hold information (but grows with scale!) Thus, for enabling the model to maximize it&#8217;s ability to predict the next word, it is very important that only salient knowledge from the dataset is loaded into the register bank. Put another way: for the purposes of loading knowledge from learned parameters into the latent space, the model does not use any kind of logic<strong>. </strong>It is simply a contextual lookup function that is learned by the dataset.</p>
+
+
+
+<h2>World knowledge</h2>
+
+
+
+<p>Neural networks don&#8217;t just learn direct input-&gt;output mappings, they also learn facts, which can be used to augment the output process. These facts are contextually applied to the latent space through the layers of the neural network. Using the above example, the final register bank after loading contextual facts from the model&#8217;s weights might be:</p>
+
+
+
+<ol><li>[&#8216;what is the weather&#8217;, &#8216;weather is at atmospheric phenomenon&#8217;, &#8216;possible weathers: sunny, snowy, rainy, &#8230;&#8217;, &#8216;common weather: sunny&#8217;, &#8216;time: today&#8217;]</li><li>[&#8216;December is a winter month&#8217;, &#8216;winter is cold in the northern hemisphere&#8217;, &#8216;we&#8217;re in Colorado&#8217;, &#8216;Colorado is a mountain state in the USA&#8217;, &#8216;Colorado is in the northern hemisphere&#8217;, &#8216;it snows in Colorado in the winter&#8217;, &#8216;what is the weather&#8217;, &#8216;weather is at atmospheric phenomenon&#8217;, &#8216;possible weathers: sunny, snowy, rainy, &#8230;&#8217;, &#8216;common weather: sunny&#8217;, &#8216;common winter weather in Colorado: snowy&#8217;, &#8216;time: today&#8217;, &#8216;today is in December&#8217;]</li></ol>
+
+
+
+<p>You can start to see why a model might make better predictions of the next word given world knowledge infilled by the neural network, and why context matters so much.</p>
+
+
+
+<p>There&#8217;s a caveat to the above: I don&#8217;t really think that a model&#8217;s &#8220;register bank&#8221; is a discrete memory element that computer programmers are used to. Rather, I think it&#8217;s more like a superposition of information states. In such a superposition, all possibilities are represented equally initially, but as you add context, some information becomes more and more likely. So by adding &#8220;Colorado&#8221; and &#8220;December&#8221; to the context above, you update the information state to be more pre-disposed to wintery topics.</p>
+
+
+
+<p>This last point is relevant because it explains why some types of information in the context are more important than others. If &#8220;Tom Cruise&#8221; is in the context, the model can configure the information content of the latent vectors such that they indicate higher probabilities for all kinds of specific facts about the actor Tom Cruise. The model will have needed to know these facts since Tom Cruise facts are quite relevant to fitting the training dataset. </p>
+
+
+
+<p>However, when &#8220;Mary Lee Pfeiffer&#8221; is in the context, the model will augment the hidden state far less. That&#8217;s because this name rarely appears in the dataset and so the model has no reason to waste capacity learning mapping functions from &#8220;Mary Lee Pfeiffer&#8221; to facts about her &#8211; at least before a certain scale.</p>
+
+
+
+<h2>Where logic comes from</h2>
+
+
+
+<p>So we&#8217;ve got a framework for how a model might retrieve information, but how would such a model perform reasoning? I think reasoning happens entirely within the attention context. In the process of training, it becomes advantageous for the model to learn that if A has a relationship with B <em>on the context</em>, than B has an inverse relationship with A. This is particularly important for many aspects of programming. For example, ask your favorite LLM to evaluate this program:</p>
+
+
+
+<pre class="wp-block-code"><code>a = 'john'
+l = &#91;a, 'sally', 'fred']
+for k in l:
+   print('john' == k)</code></pre>
+
+
+
+<p>GPT 3.5 easily gets this one. </p>
+
+
+
+<p>In fact, 3.5 also easily gets the prompt &#8220;who is Mary Lee Pfeiffer&#8217;s son&#8221; if you first give the model &#8220;Tom Cruise&#8217;s mother is Mary Lee Pfeiffer&#8221;.  This might seem inane, but it shows the model truly has some reasoning abilities: it has not encoded the response to &#8220;who is Mary Lee Pfeiffer&#8217;s son&#8221; in its parameters, but is able to use information in the context to find the answer.</p>
+
+
+
+<p>We&#8217;ve known about this for several years now. It is exactly why chain of thought prompting works: these models are able to reason within the context, but will often fall flat at the same tasks when you attempt to zero-shot them.</p>
+
+
+
+<h2>Is this even a model specific thing?</h2>
+
+
+
+<p>I&#8217;m pretty sure knowledge recall in my own head works in a very similar way to what I described above. When asked to recall a fact, I do a type of tree search that involves dragging up contextual clues which allows my mind to hunt down facts. This type of thinking so common, the objects I pull into my head have a term: &#8220;mnemonic&#8221;.</p>
+
+
+
+<p>The authors of the reversal curse paper actually bring up this point themselves near the end:</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-350" height="358" src="https://nonint.com/wp-content/uploads/2023/10/image.png" width="1104" /></figure>
+
+
+
+<p>The operating question is: assuming I have some knowledge of a relationship between objects, is there ever a case where I could not invert that relationship? I think the answer is &#8220;yes&#8221; &#8211; one place this commonly occurs for me is with people&#8217;s names. If you tell me a persons name, I can often see their face in my minds eye, but I often have a hard time recalling names given a face. I think others have this difficulty to &#8211; it&#8217;s why there&#8217;s a cultural guessing game that everyone likes to play when watching movies (&#8220;who is that actor?&#8221;). Incidentally I&#8217;m quite bad at that game, even though I often know the actors in question. </p>
+
+
+
+<p>Another example that comes to mind &#8211; we have this term &#8220;light bulb moment&#8221; that refers to the moment when you remember something that pulls together two facts into new knowledge. The important point here is that you already knew everything you needed to have this &#8220;light bulb moment&#8221;, you only needed the right context to help you pull it out of your memory.</p>
+
+
+
+<p>I think we have a tendency to assume our models have more context then they actually have. When you prompt a model with &#8220;who is Mary Lee Pfeiffer&#8217;s son?&#8221;, it is as if you walked up to a total stranger in a random place in the world and asked the same question. Neither person nor machine has any context for question and their ability to accurately respond will be entirely conditional on their ability to recall facts. I would not be surprised if highly capable Jeopardy contestants exhibited similar difficulties retrieving obscure relationships to our language models.</p>
+
+
+
+<p>In conclusion &#8211; memory recall is not the same thing as capacity for logical reasoning, and we shouldn&#8217;t be alarmed that our models do not mix the two.</p>
+]]></content:encoded>
+<pubDate>Thu, 19 Oct 2023 03:11:57 +0000</pubDate>
+<pubDate>Thu, 19 Oct 2023 03:11:57 +0000</pubDate>
+</item>
+<item>
+<title>The State of ML in 2023</title>
+<link>https://nonint.com/2023/10/07/the-state-of-ml-in-2023/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-state-of-ml-in-2023</link>
+<guid>https://nonint.com/2023/10/07/the-state-of-ml-in-2023/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-state-of-ml-in-2023</guid>
+<content:encoded><![CDATA[
+<div> 深度学习，ML，模型，数据，智能
+<br><br>
+总结：文章主要讨论了当前机器学习领域的现状和挑战。作者指出目前模型在图像、文本、音频和视频等不同领域存在着各种不足，大部分源于数据不足和语义泛化能力不足。作者认为虽然目前已经取得了一些成就，但仍然处于发展的早期阶段，尤其对于小型模型的智能行为达成的目标持怀疑态度。作者强调了通过扩大计算规模可以解决这些问题，让模型更精确地适应数据，并通过原始压缩实现对语义的理解。文章最后提及OpenAI的使命是构建庞大超级计算机，展示在未来运行类似于GPT-4的模型的可能性。 <div>
+<p>I&#8217;ve been trying to figure out how to best write this article for most of the last year. Today, I&#8217;ve decided to just write down <em>something</em>, rather than continue trying to wordsmith exactly what I mean.</p>
+
+
+
+<p>I am tremendously excited by everything that is going on in ML right now. The breadth of the problem space to which we can apply generalist learning techniques seems virtually unbounded, and every time we scale something up, we see new capabilities start to emerge.</p>
+
+
+
+<p>With all that being said, I think it&#8217;s worth considering from time to time what we haven&#8217;t achieved. Lets take a quick tour or the current state of the art:</p>
+
+
+
+<p>The image space I know quite well. With DALL-E 3, we cracked spelling (most of the time), which was a major capability gap of text-to-image models when compared to humans. We still have a lot of problems. These models can&#8217;t tell left from right, can&#8217;t count past three, and still have a hard time getting pose and positions of body parts right. We still have to take hacky approaches to get high-resolution images (specifically, chaining multiple neural networks together with smaller, less &#8220;intelligent&#8221; ones responsible for modeling the high resolution space), resulting in comically distorted high-resolution details from time to time.</p>
+
+
+
+<p>Text is a domain I know less about, but I am an avid user of ChatGPT. GPT-4 is exceptional at understanding intent, following directions, and creativity. It&#8217;s much less amazing at providing specific information. I notice this a lot when asking for recipe instructions or variations &#8211; it always picks the most generic, boring ingredients! The issue more generally shows up in any area that I&#8217;d consider myself experienced in &#8211; coffee, airplanes, gardening, biking, etc. It&#8217;s just not a great resource for these things as it only &#8220;knows&#8221; slightly more about any niche topic than the average person off the street. Of course there&#8217;s also the <a href="https://owainevans.github.io/reversal_curse.pdf">reversal curse</a> recently discovered &#8211; this doesn&#8217;t bother me as much as it does some of my colleagues, but it is certainly a shortcoming!</p>
+
+
+
+<p>I use ChatGPT for coding quite a bit. It&#8217;s fantastic at answering API questions and coming up with simple algorithms, but consistently falls flat when you start to have it design systems over a certain size or complexity. A common failure mode is a loop where you present a bug to the system, it recommends a fix, another bug pops up, and the system recommends removing the previous fix.</p>
+
+
+
+<p>Audio is another domain I spend a lot of my mental energy on. We&#8217;ve got a pretty solid grasp on speech recognition and generation, but our models are currently quite weak at conversation. Despite their abilities with language, they don&#8217;t understand how to actually talk to people in a way that doesn&#8217;t sound robotic. Music understanding and generation is completely off of the map. There&#8217;s been some solid progress this year by the folks at Meta and Stability here, but I really can&#8217;t help but get the feeling that the text to music models they&#8217;ve put forth are just regurgitating beats, rhythms and melodies from their training datasets. I have serious doubts that any of these models have actual musical understanding and could ever create a song like GPT-4 can create a poem.</p>
+
+
+
+<p>Video is an up and coming modality and most of my experience in it comes from <a href="https://runwayml.com/">Runway</a>. They&#8217;ve got some really cool tech, but it&#8217;s painfully obvious that their models do not understand basic causal sequences of events, go look at any of their videos that run a scene for more than a few seconds to see what I mean.</p>
+
+
+
+<p>There&#8217;s a couple of common themes with all of the shortcomings I described above:</p>
+
+
+
+<ol><li>They arise from a lack of data in a specific domain or capability (or failure to train on the data we do have)</li><li>There&#8217;s a failure to generalize at the semantic level &#8211; as an example, knowing to render images of hands with five fingers is as simple as learning to count, but the models refuse to do that even at &#8220;large&#8221; scales by modern standards.</li></ol>
+
+
+
+<p>This is important because it gives me the feeling sometimes that we&#8217;re still at just the very start of our journey in this space. More importantly, realizing that enormous models like GPT-4 or DALL-E 3 <strong>still</strong> have fundamental shortcomings is a sign that attempts to get truly intelligent behavior out of relatively small models like Llama 2 or Stable Diffusion is kind of hopeless. </p>
+
+
+
+<p>I&#8217;ve had the privilege of playing with models at multiple scales, and I get the feeling that scaling compute directly addresses the above two points. They address the first by fitting the data manifold more precisely, allowing even minor data points that are trained on to emerge in the outputs of the model. They address the second through raw compression. </p>
+
+
+
+<p>Ilya recently <a href="https://www.youtube.com/watch?v=AKMuA_TVz3A">did a presentation</a> on this at Berkeley, and had a quote somewhere in there about squeezing bits and how &#8220;compressing the last few bits is where all of the interesting stuff happens&#8221;. I love this as you can imagine a giant image generation model with many hundreds of billions of parameters having to contort its entire parameter space to learn that the world is not symmetric, and there exists these important concepts called left and right which can be expressed as a single bit. And that&#8217;s just the tip of the iceberg.</p>
+
+
+
+<p>In many ways, this gets at OpenAI&#8217;s core mission. We&#8217;re all on an unstoppable ship of technological progress &#8211; in 10 years, we&#8217;ll be running something like GPT-4 on our smartphones. OpenAI (and others!) is building massive supercomputers to shine the light on what is going to be possible when that happens, or after. </p>
+]]></content:encoded>
+<pubDate>Sun, 08 Oct 2023 02:37:02 +0000</pubDate>
+<pubDate>Sun, 08 Oct 2023 02:37:02 +0000</pubDate>
+</item>
+<item>
+<title>DALL-E 3</title>
+<link>https://nonint.com/2023/09/23/dall-e-3/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=dall-e-3</link>
+<guid>https://nonint.com/2023/09/23/dall-e-3/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=dall-e-3</guid>
+<content:encoded><![CDATA[
+<div> DALL-E 3, Aditya, Gabe, impressive machine, colorful, graphical
+
+<br><br>总结:
+本周我们发布了DALL-E 3，这是我和同事Aditya、Gabe一年多来共同努力的成果。这台机器令人印象深刻，每天都能给我带来惊喜。我非常感激我的合作者们在这一年里的学习与创造。希望大家喜欢它，让这个世界因此更加丰富多彩。 <div>
+<p>We released DALL-E 3 this week. It has been a labor of love for Aditya, Gabe and myself for a little over a year. It really is an impressive machine we have built. It continues to surprise me every day, despite having worked on it for so long.</p>
+
+
+
+<p>I&#8217;m extremely grateful to my fellow authors for a year of amazing learning and creating. I really hope everyone enjoys it and the world is a more colorful, graphical place because of it.</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt="" class="wp-image-341" height="1024" src="https://nonint.com/wp-content/uploads/2023/09/black_hole.jpg" width="1792" /></figure>
+]]></content:encoded>
+<pubDate>Sun, 24 Sep 2023 04:13:17 +0000</pubDate>
+<pubDate>Sun, 24 Sep 2023 04:13:17 +0000</pubDate>
+</item>
+<item>
+<title>ICML 2023</title>
+<link>https://nonint.com/2023/07/18/icml-2023/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=icml-2023</link>
+<guid>https://nonint.com/2023/07/18/icml-2023/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=icml-2023</guid>
+<content:encoded><![CDATA[
+<div> 关键词：ICML, 人际关系, 邮件交流, 咖啡, 酒精会面
+
+总结：<br><br>本文作者通过博客结识了许多优秀的人，大多只是通过邮件交流。作者即将参加ICML，希望能与读者们在会议期间一同喝咖啡或啤酒。欢迎有兴趣的朋友通过邮箱联系作者。通过博客交流，可以打开新的人际关系，碰撞出更多的想法和机会，是一种富有收获和共享的交流方式。 <div>
+<p>I&#8217;ve met quite a few amazing people through this blog, most of which I&#8217;ve only had the chance to trade e-mails with. I&#8217;m attending ICML next week and would love to grab a coffee or beer with any of you. Shoot me an e-mail if interested. jbetker -at- gmail.</p>
+]]></content:encoded>
+<pubDate>Wed, 19 Jul 2023 04:55:17 +0000</pubDate>
+<pubDate>Wed, 19 Jul 2023 04:55:17 +0000</pubDate>
+</item>
+<item>
+<title>On the efficiency of human intelligence</title>
+<link>https://nonint.com/2023/07/05/on-the-efficiency-of-human-intelligence/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=on-the-efficiency-of-human-intelligence</link>
+<guid>https://nonint.com/2023/07/05/on-the-efficiency-of-human-intelligence/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=on-the-efficiency-of-human-intelligence</guid>
+<content:encoded><![CDATA[
+<div> Llama 65B, data efficiency, human experience, information redundancy, energy efficiency
+<br><br>总结: 作者对于机器学习领域中关于人类和模型学习效率的讨论提出了自己的见解。通过简单的数学计算，作者指出人类在3年内接收到的信息量可能与大型语言模型训练时使用的数据量相当，甚至更高。作者认为信息的冗余对于学习系统非常重要，因为它有助于压缩和智能的形成。此外，作者也提到了能量效率方面的差距，认为人类大脑在这方面表现出色，而硅基芯片还有很大的提升空间。整体来看，作者对未来的发展充满了希望。 <div>
+<p>A pet peeve of mine that often shows up in ML discourse is the claim that humans are much more data efficient at learning than the models we are currently training. The argument typically goes like this:</p>
+
+
+
+<p>“I’m blown away by how much knowledge my 3 year old has. They are smarter than most language models, despite being trained on a very small training dataset. Clearly, our models are missing something important because they cannot learn like my 3 year old!”</p>
+
+
+
+<p>But is the training dataset of a 3 year old actually smaller than a typical language model? For fun, I’d like to do some napkin math to bring the numbers down to levels that we can actually reason over.</p>
+
+
+
+<p>Starting with the LLM itself &#8211; let’s use Llama 65B. This model was trained on 1.4T tokens. For some easy math, let’s assume that the codebook size was 65536, which means that each token represents 16 bits of data. That means Llama was trained on 22.4 TBits of data in total.</p>
+
+
+
+<h2>Human &#8220;training data&#8221;</h2>
+
+
+
+<p>Let’s try to figure out how much information a human can gather in 3 years. To do this, we’ll first decompose our world experience into individual “experiences” which happen at a regular interval across those 3 years. Let’s say that a human has a new experience every second (it’s probably more frequent than this). Let’s also assume that the human is awake on average 12 hours a day. Over a time span of 3 years, that means a human will have 3 * 365 * 12 * 60 * 60 = 47,304,000 experiences.</p>
+
+
+
+<p>Let’s now compare those 3 years of experience with the at a we used to train that 65B Llama model: 22,400,000,000,000 Bits / 47,304,000 experiences = 473,532 = 474 KBit/experience. That is to say &#8211; if every given human experience has more than 474 KBit of information, than a 3 year old human is technically getting trained on more raw information than Llama 65B.</p>
+
+
+
+<p>Let’s digest that a bit further by the modalities of human experience:</p>
+
+
+
+<h3>Vision</h3>
+
+
+
+<p>The internet tells me that a human eye can perceive 576 Megapixels and 10M colors. 10M colors is ~23Bits. We’ve got two eyes so that comes out to 576,000,000 pixels * 23 bits/pixels * 2 possible states per observation. That comes out to 26GBit per experience. Hm.</p>
+
+
+
+<p>I don’t think the human brain actually perceives all of the visual information it is presented with. Rather, it focuses on a very small fraction (attention!). But even a very small fraction of 26GBit is a big number! Basically any way you try to pare this number down, it’s going to be big.</p>
+
+
+
+<h3>Audio</h3>
+
+
+
+<p>Young humans can perceive sound frequencies up to 20kHz. I don’t really know how to measure how fine-grained the pressure fluctuations our ears can perceive are, I&#8217;ll use 8 bits (255 pressure values) as a reasonable lower bound. That means over the course of one second, a human could theoretically perceive 20,000*8 = 160KBits of audio data.</p>
+
+
+
+<h3>Touch, smell and taste</h3>
+
+
+
+<p>AFAIU, smelling is performed by chemicals binding to smell receptors. The action of binding is an on or off proposition, and the internet tells me we have ~400 different smell receptors. That comes out to an easy 400 bits of information from smell.</p>
+
+
+
+<p>I’ll measure touch similarly &#8211; the internet tells me we have ~4M touch receptors (why does the number 4 keep coming up?). Each one is independent and (I assume?) can be on or off, which comes out to 4MBits of touch information.</p>
+
+
+
+<p>Taste is a complex amalgam of touch, smell and tastebuds. We can taste something like 5 independent tastes, I’ll assume smell and touch is covered above. So let’s say taste is a simple 5 bits of information.</p>
+
+
+
+<h3>Summing up</h3>
+
+
+
+<p>I’m not going to bother adding all these information sources together as I think this is all pretty pie in the sky. The point I’m trying to make &#8211; and I hope I’ve demonstrated it clearly &#8211; is that we can pretty easily make the argument that the human brain receives 474 KBit of information per second.&nbsp;</p>
+
+
+
+<p>And if we can make this claim, then we can also make the claim that a 3 year old has very likely been trained on as much data as Llama 65B (though I suspect it’s quite a lot more!!)</p>
+
+
+
+<h2>Information redundancy</h2>
+
+
+
+<p>I expect the skeptics reading this will make the following counterpoint: most human experiences are redundant! Even though the total information input is very dense, the amount of <strong>novel</strong> information is quite small!</p>
+
+
+
+<p>But you can say the same thing about our models! The text datasets these models are trained on is composed of all the human text on the internet. This is necessarily highly redundant &#8211; humans love to talk about the same things, day in and day out. Politics, sex, war, food, dieting, exercise, sports, fashion, etc. The vast majority of human text has a very low amount of semantic entropy.</p>
+
+
+
+<p>I actually think redundancy is very important to a learning system. It aids in the act of compression, which seems to be linked to intelligence. By being exposed to the same observations over long periods of time, we learn what matters and what does not. Highly redundant experiences fade from our attention and we instead focus on novel, unexpected occurrences. I would not be surprised to learn that our models work in the same way. Just the fact that training over multiple epochs with sensible data augmentations improves model performance seems like a small signal that this is the case.</p>
+
+
+
+<h2>Other types of efficiency</h2>
+
+
+
+<p>It’s disingenuous to only consider data efficiency when talking about the human brain. When it comes to energy efficiency, our brains are pretty damned remarkable. I don’t think we’re even within a few orders of magnitude of that type of efficiency with silicon. This gives me a lot of hope, though! If capabilities are already as awesome as they are at the paltry efficiencies we’ve been able to achieve, I can’t wait to see what they’ll look like in a decade or two.</p>
+]]></content:encoded>
+<pubDate>Thu, 06 Jul 2023 03:32:56 +0000</pubDate>
+<pubDate>Thu, 06 Jul 2023 03:32:56 +0000</pubDate>
+</item>
+<item>
+<title>Techniques for debugging neural networks</title>
+<link>https://nonint.com/2023/07/01/techniques-for-debugging-neural-networks/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=techniques-for-debugging-neural-networks</link>
+<guid>https://nonint.com/2023/07/01/techniques-for-debugging-neural-networks/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=techniques-for-debugging-neural-networks</guid>
+<content:encoded><![CDATA[
+<div> 关键词：Loss curves, generative models eval, grad and param norms, activation norms, 告警信号
+
+总结：<br><br>总结:
+在机器学习工程师日常工作中，如何区分一个实现错误和一个不好的想法是一个棘手的问题。通过监测损失曲线、生成模型的评估、梯度和参数规范以及激活规范等告警信号，可以及时发现模型训练过程中的问题并调整超参数，从而避免不必要的工作量和资源浪费。因此，持续监控这些方面并采取相应措施是确保机器学习模型稳定性和性能的关键。 <div>
+<p>In my last post, I briefly discussed the infuriating fact that a neural network, even when deeply flawed, will often “work” in the sense that it’ll do above-random at classification or a generative network might create things that may sometimes look plausibly from the dataset.&nbsp;</p>
+
+
+
+<p>Given an idea that you’re testing out that is performing poorly &#8211; how, then, do you tell the difference between a botched implementation and an idea that just isn’t good? I think this is one of the toughest questions I have to deal with on a daily basis as an ML engineer. It’s the difference between funneling an immense amount of work into an idea that doesn’t pan out (which happens often!) or calling it early to look at something else.</p>
+
+
+
+<p>I definitely don’t have all the answers, but I have gathered a few tricks over the last couple of years that I wanted to share:</p>
+
+
+
+<p>Know how to interpret your loss curves. Different classes of NNs will have different loss curve shapes, but rarely do tweaks to a NN result in a change to the shape &#8211; generally performance will increase or decrease in a stepwise fashion. New notches in the curves or progressively diverging performance is an interesting phenomenon you should consider digging into more. In particular &#8211; are you sure that you didn’t add more compute to your NN?</p>
+
+
+
+<p>&nbsp;For generative models, build a good eval and plot it regularly. This eval should actually sample an image/audio clip/etc from your generator and the eval should measure some aspect of your modality that you are not actively optimizing. My favorite approach here is to take a pre-trained classifier for a modality and use it to generate loss values between real/generated classes given a label. Evals that judge sampling results will often show performance differences that are not easily visible in the training loss.</p>
+
+
+
+<p>Plot grad and param norms. In runs that will likely go divergent before long, you’ll notice spikes in the grad norms start to occur. When training with FP16, these will occur at a regular intervals as the scales overflow, but will begin to occur more often as a NN becomes less stable. If you’re seeing an abnormal, or increasing level of grad spikes in your logs, it’s a good thing to consider stopping training runs and re-calibrating some of your hyperparameters (increased weight decay can reduce param and correspondingly grad norms, a lower learning rate can also help reduce both norms).</p>
+
+
+
+<p>Param norms are a good early warning sign for parameters which are overfitting some aspect of the dataset. These seem to ultimately be the cause of grad spikes and ultimately training divergence. Things to look for are param norms that appear to be growing without an upper bound. If you plot the norm for all parameters individually, you can sometimes catch this earlier, since sometimes this curve takes a long time to “warm” up for some parameters. The solution to exploding param norms is the same &#8211; increased weight decay or lower learning rates (or rethink some aspect of your architecture).</p>
+
+
+
+<p>Activation norms are a good thing to watch to judge the long term stability of your network. They should generally correlate pretty well parameter norms, but they also incorporate variance that can be attributed to the dataset. A good indication of a network that is becoming brittle and will soon fail is one with very high activation norms. This isn’t universally true, but in my experience it is a great way to compare the stability of two networks: If you have a baseline that works and a new network with higher activation norms, the latter will be more likely to diverge over the long term.</p>
+
+
+
+<p>Activation norms can also be used to isolate the specific causes of a failure. Generally only a small set of the norms will be divergent (for example, several of the projection weights for your MLP layers). Knowing where you are having numeric problems can help when trying to fix these types of problems &#8211; by adding normalization layers or L2 weight regularization, for example.</p>
+]]></content:encoded>
+<pubDate>Sun, 02 Jul 2023 04:52:17 +0000</pubDate>
+<pubDate>Sun, 02 Jul 2023 04:52:17 +0000</pubDate>
+</item>
+
+</channel>
+</rss>

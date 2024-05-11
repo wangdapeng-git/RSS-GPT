@@ -553,3 +553,9 @@ Summarized using GPT-3.5-turbo
 Append: [Coronal mass ejection impact imminent, two more earth-directed CMEs](https://www.spaceweatherlive.com/en/news/view/533/20240510-cme-impact-imminent-two-more-earth-directed-cmes.html)
 append_entries: 1
 Finish: 2024-05-11 02:20:12.106891
+------------------------------------------------------
+Started: 2024-05-11 04:11:23.591652
+Existing_entries: 73
+Fetching from https://hnrss.org/newest?points=250&comments=25
+append_entries: 0
+Finish: 2024-05-11 04:11:24.470582

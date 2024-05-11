@@ -64,3 +64,4 @@
 - https://rsshub.app/deeplearning/thebatch -> https://wangdapeng-git.github.io/RSS-GPT/deeplearning.ai.xml
 - https://hnrss.org/newest?points=250&comments=25 -> https://wangdapeng-git.github.io/RSS-GPT/HackerNews.xml
 - https://realpython.com/atom.xml -> https://wangdapeng-git.github.io/RSS-GPT/realpython.xml
+- https://nonint.com/feed/ -> https://wangdapeng-git.github.io/RSS-GPT/Non-Interactive.xml
