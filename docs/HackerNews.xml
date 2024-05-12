@@ -4,13 +4,14 @@
 <title>Hacker News: Newest</title>
 <link>https://news.ycombinator.com/newest</link>
 
+
 <item>
 <title>Show HN: Open-Source Video Editor Web App</title>
 <link>https://news.ycombinator.com/item?id=40331968</link>
 <guid>https://news.ycombinator.com/item?id=40331968</guid>
 <content:encoded><![CDATA[
 <div> website, free, open source, Webcodecs API, video editor
-总结:<br><br>作者在过去六个月里致力于开发一个视频编辑器作为作品集项目。该编辑器是他的主要项目，旨在展示他的技能以获取工作机会。该编辑器免费且开源。它采用Webcodecs API进行快速渲染，完全在浏览器内运行，保证不会保留私人数据。编辑器具有剪辑、拆分、支持多种媒体格式的功能，并且可以在不同分辨率下渲染视频。然而，目前仍存在一些问题，如仅支持25fps及以上的视频、仅有4条轨道、有些bug等。作者期待听到大家的想法和反馈。 <div>
+总结:<br /><br />作者在过去六个月里致力于开发一个视频编辑器作为作品集项目。该编辑器是他的主要项目，旨在展示他的技能以获取工作机会。该编辑器免费且开源。它采用Webcodecs API进行快速渲染，完全在浏览器内运行，保证不会保留私人数据。编辑器具有剪辑、拆分、支持多种媒体格式的功能，并且可以在不同分辨率下渲染视频。然而，目前仍存在一些问题，如仅支持25fps及以上的视频、仅有4条轨道、有些bug等。作者期待听到大家的想法和反馈。 <div>
 <p>Hey everyone, for the past like six months I've been working on a portfolio project. I got tired of doing easy projects, so I decided to tackle something bigger and more challenging. That's when I came up with the idea of a video editor. This piece of work is intended to showcase my skills and land me a job, but I like to think when working on projects that my idea is so cool that people will like to use it, and I treat every project like a startup idea. Also I havent seen many open source video editors especially on web so that was one of the points why I decided to make that and not something else, but in the end its learning experience and im not expecting much if at all.<p>A bit about the video editor itself:<p>-website: <a href="https://omniclip.app/" rel="nofollow">https://omniclip.app/</a><p>-its free<p>-its open source (MIT Licensed)<p>-its using Webcodecs API for quick rendering<p>-works fully inside browser, client side, no private data is kept<p>-I made some readme with more details, im not expecting contributions but I added bit about it: <a href="https://github.com/aegir-assembly/omni-clip">https://github.com/aegir-assembly/omni-clip</a><p>Features:<p>-Trimming<p>-Splitting<p>-Supports - Text, Audio, Video (mp4) and Images<p>-Clip editing on preview - rotating, resizing, text styling and more<p>-Undo/Redo<p>-Render in different resolutions, up to 4k.<p>Things to know before using this editor:<p>-it is simple editor, but its my main project im working on and improving it.<p>-right now it only works with videos 25 fps and more but not less<p>-only 4 tracks -- its something I could improve quickly but forgot<p>-bug here and there (eg. filmstrip not rendering until timeline scroll moved)<p>-its not working on phones yet (drag and drop API problems)<p>I'd love to hear your thoughts and feedback on it.</p>
 <hr />
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40331968">https://news.ycombinator.com/item?id=40331968</a></p>
@@ -18,9 +19,7 @@
 <p># Comments: 45</p>
 ]]></content:encoded>
 <pubDate>Sun, 12 May 2024 02:35:03 +0000</pubDate>
-<pubDate>Sun, 12 May 2024 02:35:03 +0000</pubDate>
 </item>
-
 <item>
 <title>PeaZip: Open-source file compression and encryption software</title>
 <link>https://peazip.github.io/</link>
