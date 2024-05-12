@@ -2438,3 +2438,10 @@ Append: [SubRenamer v2.0.0 字幕文件批量改名工具](https://www.52pojie.c
 Filter: [高德地图 V11.11.60.3563华为P70U内置提取版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1919625)
 append_entries: 1
 Finish: 2024-05-12 18:13:31.609845
+------------------------------------------------------
+Started: 2024-05-12 20:09:25.815104
+Existing_entries: 185
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [高德地图 V11.11.60.3563华为P70U内置提取版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1919625)
+append_entries: 0
+Finish: 2024-05-12 20:09:27.759025
