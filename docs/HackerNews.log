@@ -628,3 +628,9 @@ Summarized using GPT-3.5-turbo
 Append: [Why the CORDIC algorithm lives rent-free in my head](https://github.com/francisrstokes/githublog/blob/main/2024/5/10/cordic.md)
 append_entries: 2
 Finish: 2024-05-11 22:08:41.449042
+------------------------------------------------------
+Started: 2024-05-12 00:49:25.465087
+Existing_entries: 78
+Fetching from https://hnrss.org/newest?points=250&comments=25
+append_entries: 0
+Finish: 2024-05-12 00:49:26.108492
