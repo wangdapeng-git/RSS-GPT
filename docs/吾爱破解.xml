@@ -4,6 +4,109 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>京墨 v1.10.0——开源古诗词文、成语等查询阅读学习助手（可离线）</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1923409</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1923409</guid>
+<content:encoded><![CDATA[
+
+京墨（详情请戳 作者项目地址）是一款免费开源集上百万首古诗词、名句、上万条歇后语、成语等于一身的查询+阅读小工具，另外附带常用的知识卡片、人物介绍、绕口令等等。简言之，可充分了解、赏析各种类型的古诗作品，涵 ...
+]]></content:encoded>
+<pubDate>Sun, 12 May 2024 16:31:10 +0000</pubDate>
+<pubDate>Sun, 12 May 2024 16:31:10 +0000</pubDate>
+</item>
+<item>
+<title>原创：每日必应壁纸爬取</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1923222</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1923222</guid>
+<content:encoded><![CDATA[
+
+[md]# 每日必应壁纸爬取
+## 介绍
+用Python写的，Nuitka打包的，可以自动爬取必应每日壁纸，并且设置为桌面壁纸的一款程序
+## 运行截图
+没有主界面，运行程序后自动设置桌面壁纸
+&gt; 图片超过3MB, 我放图床了
+
+&gt; 运行后桌面壁纸如下图
+
+![]()
+
+壁纸是4k的: 
+![ ...
+]]></content:encoded>
+<pubDate>Sun, 12 May 2024 03:12:41 +0000</pubDate>
+<pubDate>Sun, 12 May 2024 03:12:41 +0000</pubDate>
+</item>
+<item>
+<title>系统优化小工具RedButton v5.99 汉化单文件版，支持Win XP - 11</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1923156</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1923156</guid>
+<content:encoded><![CDATA[
+
+RedButton（详情请戳 官网）是一款免费简单易用、适合系统优化的小工具，简称红色按钮，支持一键删除不必要的组件、释放磁盘空间、清除网络活动轨迹和数字指纹（即浏览的数据隐私）、注册表清理等实现优化系统资源。完美 ...
+]]></content:encoded>
+<pubDate>Sat, 11 May 2024 16:50:54 +0000</pubDate>
+<pubDate>Sat, 11 May 2024 16:50:54 +0000</pubDate>
+</item>
+<item>
+<title>4K高清壁纸图片批量下载工具2.0版本</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1923096</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1923096</guid>
+<content:encoded><![CDATA[
+
+关于下载分辨率问题取决于壁纸网站提供免费下载的分辨率，如果当前网站提供批量下载高精度壁纸我会尽量更新。
+
+
+有很多壁纸站打开速度太慢或者需要人工验证，没有添加进来。
+
+
+
+2.0版本更新内容：
+
+[*]更换了必 ...
+]]></content:encoded>
+<pubDate>Sat, 11 May 2024 13:20:26 +0000</pubDate>
+<pubDate>Sat, 11 May 2024 13:20:26 +0000</pubDate>
+</item>
+<item>
+<title>电脑简易收音机v4.5.11</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1923041</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1923041</guid>
+<content:encoded><![CDATA[
+
+一款可以在电脑上收听各地的网络收音机
+
+易语言写的无壳，无毒（数字会报误报担心勿下就好），调用的是蜻蜓FM
+
+
+
+
+
+
+注意：使用的是WMP（Windows Media Player） 如果电脑上卸载过的是不能使用的请勿下载
+
+下 ...
+]]></content:encoded>
+<pubDate>Sat, 11 May 2024 10:45:56 +0000</pubDate>
+<pubDate>Sat, 11 May 2024 10:45:56 +0000</pubDate>
+</item>
+<item>
+<title>TSFTool V0.9.3.1 输入法设置工具</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1922764</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1922764</guid>
+<content:encoded><![CDATA[
+
+TSFTool 是 IMETool 输入法设置工具的继承者，支持在 Windows 10/11/Windows Server 2019 操作系统下，支持新的 TSF 输入法框架，并部分兼容旧的 IMM 输入法框架。
+
+
+
+版本历史：
+0.9.3.1：修订命令行参数 /remove_eng 失效问题，去除无用的 /? 参数。同时发现程序 ...
+]]></content:encoded>
+<pubDate>Fri, 10 May 2024 22:31:56 +0000</pubDate>
+<pubDate>Fri, 10 May 2024 22:31:56 +0000</pubDate>
+</item>
 
 <item>
 <title>SubRenamer v2.0.0 字幕文件批量改名工具</title>
