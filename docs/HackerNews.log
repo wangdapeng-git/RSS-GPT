@@ -754,3 +754,9 @@ Summarized using GPT-3.5-turbo
 Append: [Show HN: I made an open-source Loom alternative](https://Cap.so)
 append_entries: 1
 Finish: 2024-05-13 10:11:15.996182
+------------------------------------------------------
+Started: 2024-05-13 12:18:39.319382
+Existing_entries: 84
+Fetching from https://hnrss.org/newest?points=250&comments=25
+append_entries: 0
+Finish: 2024-05-13 12:18:39.823706
