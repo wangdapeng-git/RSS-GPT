@@ -4,6 +4,156 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>What Is the __pycache__ Folder in Python?</title>
+<link>https://realpython.com/python-pycache/</link>
+<guid>https://realpython.com/python-pycache/</guid>
+<content:encoded><![CDATA[
+<div> 缓存 文件夹  编译 字节码 导入 快速<br>
+__pycache__ 文件夹是Python用来存储导入的模块的编译字节码的地方，以实现快速导入，从而加快脚本的启动时间。Python编译高级源代码为字节码，这使得解释器可以跳过重复步骤，节省时间。当你导入相同的模块多次时，Python会使用缓存的字节码和内存缓存机制，以减少导入模块的开销。通过测量从缓存加载模块与即时编译模块的导入时间差异，可以看到缓存的效果。总体来说，__pycache__文件夹的存在使得Python的模块导入更加高效。<br><br>总结: <div>
+<div><p>When you develop a self-contained Python script, you might not notice anything unusual about your directory structure. However, as soon as your project becomes more complex, you’ll often decide to extract parts of the functionality into additional <a href="https://realpython.com/python-modules-packages/">modules or packages</a>. That’s when you may start to see a <code>__pycache__</code> folder appearing out of nowhere next to your source files in seemingly random places:</p>
+<div class="highlight"><pre><span></span><code>project/
+│
+├── mathematics/
+│   │
+<span class="hll">│   ├── __pycache__/
+</span>│   │
+│   ├── arithmetic/
+│   │   ├── __init__.py
+│   │   ├── add.py
+│   │   └── sub.py
+│   │
+│   ├── geometry/
+│   │   │
+<span class="hll">│   │   ├── __pycache__/
+</span>│   │   │
+│   │   ├── __init__.py
+│   │   └── shapes.py
+│   │
+│   └── __init__.py
+│
+└── calculator.py
+</code></pre></div>
+<p>Notice that the <code>__pycache__</code> folder can be present at different levels in your project’s directory tree when you have multiple subpackages nested in one another. At the same time, other packages or folders with your Python source files may not contain this mysterious cache directory.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> To maintain a cleaner workspace, many <a href="https://realpython.com/python-ides-code-editors-guide/">Python IDEs and code editors</a> are configured out-of-the-box to hide the <code>__pycache__</code> folders from you, even if those folders exist on your file system.</p>
+</div>
+<p>You may encounter a similar situation after you clone a remote <a href="https://realpython.com/python-git-github-intro/">Git repository</a> with a Python project and run the underlying code. <strong>So, what causes the <code>__pycache__</code> folder to appear, and for what purpose?</strong></p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-pycache-code/">Click here to download the free sample code</a> that shows you how to work with the <strong>pycache</strong> folder in Python.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “What Is the __pycache__ Folder in Python?” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="https://realpython.com/quizzes/python-pycache/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="What Is the __pycache__ Folder in Python?" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/What-is-__pycache___Watermarked.0e2367687d70.jpg" style="background: #aae4b1;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="https://realpython.com/quizzes/python-pycache/"><span class="my-0 h4">What Is the __pycache__ Folder in Python?</span></a> 
+      <p class="text-muted mb-0 small">In this quiz, you'll have the opportunity to test your knowledge of the __pycache__ folder, including when, where, and why Python creates these folders.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="in-short-it-makes-importing-python-modules-faster">In Short: It Makes Importing Python Modules Faster<a class="headerlink" href="https://realpython.com/atom.xml#in-short-it-makes-importing-python-modules-faster" title="Permanent link"></a></h2>
+<p>Even though Python is an <a href="https://en.wikipedia.org/wiki/Interpreter_(computing)">interpreted programming language</a>, its interpreter doesn’t operate directly on your Python code, which would be very slow. Instead, when you <a href="https://realpython.com/run-python-scripts/">run a Python script</a> or <a href="https://realpython.com/python-import/">import</a> a Python module, the interpreter compiles your high-level Python source code into <a href="https://en.wikipedia.org/wiki/Bytecode">bytecode</a>, which is an intermediate binary representation of the code.</p>
+<p>This bytecode enables the interpreter to skip recurring steps, such as <a href="https://realpython.com/cpython-source-code-guide/#lexing-and-parsing">lexing and parsing</a> the code into an <a href="https://en.wikipedia.org/wiki/Abstract_syntax_tree">abstract syntax tree</a> and validating its correctness every time you run the same program. As long as the underlying source code hasn’t changed, Python can reuse the <a href="https://en.wikipedia.org/wiki/Intermediate_representation">intermediate representation</a>, which is immediately ready for execution. This saves time, speeding up your script’s startup time.</p>
+<p>Remember that while loading the compiled bytecode from <code>__pycache__</code> makes Python modules import faster, it doesn’t affect their execution speed!</p>
+<div class="card mb-3" id="collapse_cardd97415">
+<div class="card-header border-0">
+<p class="m-0">
+    <button class="btn w-100"><span class="float-left">Bytecode vs Machine Code</span><span class="float-right text-muted">Show/Hide</span></button>
+  </p>
+</div>
+<div class="collapse js-collapsible-section" id="collapsed97415">
+<div class="card-body">
+<p>Why bother with bytecode at all instead of compiling the code straight to the low-level <a href="https://en.wikipedia.org/wiki/Machine_code">machine code</a>? While machine code is what executes on the hardware, providing the ultimate performance, it’s not as <em>portable</em> or quick to produce as bytecode.</p>
+<p>Machine code is a set of binary instructions understood by your specific CPU architecture, wrapped in a container format like <a href="https://en.wikipedia.org/wiki/.exe">EXE</a>, <a href="https://en.wikipedia.org/wiki/Executable_and_Linkable_Format">ELF</a>, or <a href="https://en.wikipedia.org/wiki/Mach-O">Mach-O</a>, depending on the operating system. In contrast, bytecode provides a platform-independent abstraction layer and is typically quicker to compile.</p>
+</div>
+</div>
+</div>
+<p>Python uses local <code>__pycache__</code> folders to store the compiled bytecode of <strong>imported modules</strong> in your project. On subsequent runs, the interpreter will try to load precompiled versions of modules from these folders, provided they’re up-to-date with the corresponding source files. Note that this <a href="https://realpython.com/lru-cache-python/">caching</a> mechanism only gets triggered for modules you <em>import</em> in your code rather than executing as scripts in the terminal.</p>
+<p>In addition to this <strong>on-disk bytecode caching</strong>, Python keeps an <strong>in-memory cache of modules</strong>, which you can access through the <a href="https://docs.python.org/3/library/sys.html#sys.modules"><code>sys.modules</code></a> dictionary. It ensures that when you import the same module multiple times from different places within your program, Python will use the already imported module without needing to reload or recompile it. Both mechanisms work together to reduce the overhead of importing Python modules.</p>
+<p>Next, you’re going to find out exactly how much faster Python loads the cached bytecode as opposed to compiling the source code on the fly when you import a module.</p>
+<h2 id="how-much-faster-is-loading-modules-from-cache">How Much Faster Is Loading Modules From Cache?<a class="headerlink" href="https://realpython.com/atom.xml#how-much-faster-is-loading-modules-from-cache" title="Permanent link"></a></h2>
+<p>The caching happens behind the scenes and usually goes unnoticed since Python is quite rapid at compiling the bytecode. Besides, unless you often run short-lived Python scripts, the compilation step remains insignificant when compared to the total execution time. That said, without caching, the overhead associated with bytecode compilation could add up if you had lots of modules and imported them many times over.</p>
+<p>To measure the difference in <strong>import time</strong> between a cached and uncached module, you can pass the <a href="https://realpython.com/python37-new-features/#developer-tricks"><code>-X importtime</code></a> option to the <code>python</code> command or set the equivalent <a href="https://docs.python.org/3.7/using/cmdline.html#envvar-PYTHONPROFILEIMPORTTIME"><code>PYTHONPROFILEIMPORTTIME</code></a> environment variable. When this option is enabled, Python will display a table summarizing how long it took to import each module, including the cumulative time in case a module depends on other modules.</p>
+<p>Suppose you had a <code>calculator.py</code> script that imports and calls a utility <a href="https://realpython.com/defining-your-own-python-function/">function</a> from a local <code>arithmetic.py</code> module:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    <span class="mr-2"><code style="color: inherit;">calculator.py</code></span>
+    <div class="noselect">
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="kn">from</span> <span class="nn">arithmetic</span> <span class="kn">import</span> <span class="n">add</span>
+
+<span class="n">add</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The imported module defines a single function:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    <span class="mr-2"><code style="color: inherit;">arithmetic.py</code></span>
+    <div class="noselect">
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>As you can see, the main script delegates the addition of two numbers, three and four, to the <code>add()</code> function imported from the <code>arithmetic</code> module.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> Even though you use the <code>from ... import</code> syntax, which only brings the specified symbol into your current <a href="https://realpython.com/python-namespaces-scope/">namespace</a>, Python reads and compiles the entire module anyway. Moreover, <a href="https://www.flake8rules.com/rules/F401.html">unused imports</a> would also trigger the compilation.</p>
+</div>
+<p>The first time you run your script, Python compiles and saves the bytecode of the module you imported into a local <code>__pycache__</code> folder. If such a folder doesn’t already exist, then Python automatically creates one before moving on. Now, when you execute your script again, Python should find and load the cached bytecode as long as you didn’t alter the associated source code.</p>
+</div><h2><a href="https://realpython.com/python-pycache/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-pycache/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-05-13T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>The Real Python Podcast – Episode #204: Querying OpenStreetMaps via API &amp; Lazy Evaluation in Python</title>
