@@ -5,6 +5,38 @@
 <link>https://news.ycombinator.com/newest</link>
 
 <item>
+<title>It’s an age of marvels</title>
+<link>https://blog.plover.com/tech/its-an-age-of-marvels.html</link>
+<guid>https://blog.plover.com/tech/its-an-age-of-marvels.html</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 网络安全, 数据泄露, 保护措施, 隐私保护, 信息安全
+
+总结:<br><br>文章首先指出了网络安全日益受到威胁的现状，特别强调了数据泄露对个人和企业的巨大危害。其次，文章列举了一些有效的保护措施，包括定期更新密码、加密重要文件、安装防火墙等。再者，文章着重强调了隐私保护的重要性，提醒读者要注意个人信息的保护，并谨慎使用社交媒体和在线服务。最后，文章强调了信息安全是每个人的责任，只有大家都增强安全意识，才能有效应对网络安全威胁。 <div>
+<p>Article URL: <a href="https://blog.plover.com/tech/its-an-age-of-marvels.html">https://blog.plover.com/tech/its-an-age-of-marvels.html</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40342188">https://news.ycombinator.com/item?id=40342188</a></p>
+<p>Points: 275</p>
+<p># Comments: 277</p>
+]]></content:encoded>
+<pubDate>Mon, 13 May 2024 11:49:28 +0000</pubDate>
+<pubDate>Mon, 13 May 2024 11:49:28 +0000</pubDate>
+</item>
+<item>
+<title>Protecting your email address via SVG instead of JavaScript</title>
+<link>https://rouninmedia.github.io/protecting-your-email-address-via-svg-instead-of-js/</link>
+<guid>https://rouninmedia.github.io/protecting-your-email-address-via-svg-instead-of-js/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 网络安全, 数据泄露, 隐私保护, 威胁, 防范<br>
+总结: 这篇文章讨论了网络安全和数据隐私保护的重要性。首先指出了数据泄露对个人和机构造成的威胁，强调了安全意识的重要性。其次介绍了一些常见的网络安全威胁，如病毒、恶意软件等，提醒我们要时刻保持警惕。同时，文章还探讨了如何有效防范网络安全威胁，包括加强密码保护、定期更新软件补丁等措施。在信息时代，网络安全和数据隐私保护是每个人都应该重视的问题，只有加强安全意识和采取有效措施，才能更好地保护个人信息和网络安全。<br><br>总结: <div>
+<p>Article URL: <a href="https://rouninmedia.github.io/protecting-your-email-address-via-svg-instead-of-js/">https://rouninmedia.github.io/protecting-your-email-address-via-svg-instead-of-js/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40340642">https://news.ycombinator.com/item?id=40340642</a></p>
+<p>Points: 252</p>
+<p># Comments: 158</p>
+]]></content:encoded>
+<pubDate>Mon, 13 May 2024 07:33:57 +0000</pubDate>
+<pubDate>Mon, 13 May 2024 07:33:57 +0000</pubDate>
+</item>
+
+<item>
 <title>The Alternative Implementation Problem</title>
 <link>https://pointersgonewild.com/2024/04/20/the-alternative-implementation-problem/</link>
 <guid>https://pointersgonewild.com/2024/04/20/the-alternative-implementation-problem/</guid>
@@ -19,9 +51,7 @@
 <p># Comments: 63</p>
 ]]></content:encoded>
 <pubDate>Sun, 12 May 2024 19:49:05 +0000</pubDate>
-<pubDate>Sun, 12 May 2024 19:49:05 +0000</pubDate>
 </item>
-
 <item>
 <title>GPT-4o</title>
 <link>https://openai.com/index/hello-gpt-4o/</link>

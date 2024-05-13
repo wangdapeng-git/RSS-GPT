@@ -796,3 +796,15 @@ Summarized using GPT-3.5-turbo
 Append: [The Alternative Implementation Problem](https://pointersgonewild.com/2024/04/20/the-alternative-implementation-problem/)
 append_entries: 1
 Finish: 2024-05-13 20:10:43.081172
+------------------------------------------------------
+Started: 2024-05-13 22:10:25.969914
+Existing_entries: 88
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [It’s an age of marvels](https://blog.plover.com/tech/its-an-age-of-marvels.html)
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [Protecting your email address via SVG instead of JavaScript](https://rouninmedia.github.io/protecting-your-email-address-via-svg-instead-of-js/)
+append_entries: 2
+Finish: 2024-05-13 22:10:46.490036
