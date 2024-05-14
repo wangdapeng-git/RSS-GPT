@@ -5,12 +5,29 @@
 <link>https://news.ycombinator.com/newest</link>
 
 <item>
+<title>Show HN: Pi-C.A.R.D, a Raspberry Pi Voice Assistant</title>
+<link>https://github.com/nkasmanoff/pi-card</link>
+<guid>https://github.com/nkasmanoff/pi-card</guid>
+<content:encoded><![CDATA[
+<div> Raspberry Pi, AI, 语音助手, 摄像头, 反馈
+总结:<br><br>这篇文章介绍了一个名为Pi-card的AI驱动语音助手，运行在树莓派上。它能够在对话环境中执行标准LLM（如ChatGPT）能做的任何事情。此外，如果配备摄像头，还可以要求Pi-card拍照，描述所见内容，并提问。它使用分布式模型，因此延迟是作者正在努力解决的问题。作者对该项目的发展方向很感兴趣，欢迎反馈。 <div>
+<p>Pi-card is an AI powered voice assistant running locally on a Raspberry Pi. It is capable of doing anything a standard LLM (like ChatGPT) can do in a conversational setting. In addition, if there is a camera equipped, you can also ask Pi-card to take a photo, describe what it sees, and then ask questions about that.<p>It uses distributed models so latency is something I'm working on, but I am curious on where this could go, if anywhere.<p>Very much a WIP. Feedback welcome :-)</p>
+<hr />
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40346995">https://news.ycombinator.com/item?id=40346995</a></p>
+<p>Points: 257</p>
+<p># Comments: 61</p>
+]]></content:encoded>
+<pubDate>Mon, 13 May 2024 19:03:55 +0000</pubDate>
+<pubDate>Mon, 13 May 2024 19:03:55 +0000</pubDate>
+</item>
+
+<item>
 <title>Show HN: An open source framework for voice assistants</title>
 <link>https://github.com/pipecat-ai/pipecat</link>
 <guid>https://github.com/pipecat-ai/pipecat</guid>
 <content:encoded><![CDATA[
-<div> Pipecat, 语音AI 助手，质量， 低延迟，实时对话。贡献者，团队合作，20%时间，Pytho开发。<br>
-总结:<br>
+<div> Pipecat, 语音AI 助手，质量， 低延迟，实时对话。贡献者，团队合作，20%时间，Pytho开发。<br />
+总结:<br />
 一年来，专注于LLM对话可能性；搭建原型，分享代码，举办活动，发现处理语音AI中的低级问题关键；创建Pytho语音AI库Pipecat，支持各种模型和服务；欢迎贡献者，加入开发和社区。 <div>
 <p>I've been obsessed for the past ~year with the possibilities of talking to LLMs. I built a bunch of one-off prototypes, shared code on X, started a Meetup group in SF, and co-hosted a big hackathon. It turns out that there are a few low-level problems that everybody building conversational/real-time AI needs to solve on the way to building/shipping something that works well: low-latency media transport, echo cancellation, voice activity detection, phrase endpointing, pipelining data between models/services, handling voice interruptions, swapping out different models/services.<p>On the theory that something like a LlamaIndex or LangChain for real-time/conversational AI would be useful, a few of us started working on a Python library for voice (and multimodal) AI assistants/agents.<p>So ... Pipecat: a framework for building things like personal coaches, meeting assistants, story-telling toys for kids, customer support bots, virtual friends, and snarky social bots.<p>Most of the core contributors to Pipecat so far work together at our day jobs. This has been a kind of "20% time" thing at our company. But we're serious about welcoming all contributions. We want Pipecat to support any and all models, services, transport layers, and infrastructure tooling. If you're interested in this stuff, please check it out and let us know what you think. Submit PRs. Become a maintainer. Join the Discord. Post cool stuff. Post funny stuff when your voice agent goes completely off the rails (as mine sometimes do).</p>
 <hr />
@@ -19,9 +36,7 @@
 <p># Comments: 31</p>
 ]]></content:encoded>
 <pubDate>Mon, 13 May 2024 17:21:14 +0000</pubDate>
-<pubDate>Mon, 13 May 2024 17:21:14 +0000</pubDate>
 </item>
-
 <item>
 <title>Apple and Google deliver support for unwanted tracking alerts in iOS and Android</title>
 <link>https://www.apple.com/ca/newsroom/2024/05/apple-and-google-deliver-support-for-unwanted-tracking-alerts-in-ios-and-android/</link>

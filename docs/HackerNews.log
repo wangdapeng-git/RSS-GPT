@@ -853,3 +853,12 @@ Summarized using GPT-3.5-turbo
 Append: [Show HN: An open source framework for voice assistants](https://github.com/pipecat-ai/pipecat)
 append_entries: 1
 Finish: 2024-05-14 08:14:21.639645
+------------------------------------------------------
+Started: 2024-05-14 10:12:32.385774
+Existing_entries: 95
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 517
+Summarized using GPT-3.5-turbo
+Append: [Show HN: Pi-C.A.R.D, a Raspberry Pi Voice Assistant](https://github.com/nkasmanoff/pi-card)
+append_entries: 1
+Finish: 2024-05-14 10:12:39.667868
