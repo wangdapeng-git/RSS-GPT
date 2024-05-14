@@ -829,3 +829,12 @@ Summarized using GPT-3.5-turbo
 Append: [Amazon S3 will no longer charge for several HTTP error codes](https://aws.amazon.com/about-aws/whats-new/2024/05/amazon-s3-no-charge-http-error-codes/)
 append_entries: 1
 Finish: 2024-05-14 02:22:45.047977
+------------------------------------------------------
+Started: 2024-05-14 04:11:48.307892
+Existing_entries: 93
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [Apple and Google deliver support for unwanted tracking alerts in iOS and Android](https://www.apple.com/ca/newsroom/2024/05/apple-and-google-deliver-support-for-unwanted-tracking-alerts-in-ios-and-android/)
+append_entries: 1
+Finish: 2024-05-14 04:11:55.134853
