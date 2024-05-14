@@ -4,6 +4,23 @@
 <title>Hacker News: Newest</title>
 <link>https://news.ycombinator.com/newest</link>
 
+<item>
+<title>Show HN: An open source framework for voice assistants</title>
+<link>https://github.com/pipecat-ai/pipecat</link>
+<guid>https://github.com/pipecat-ai/pipecat</guid>
+<content:encoded><![CDATA[
+<div> Pipecat, 语音AI 助手，质量， 低延迟，实时对话。贡献者，团队合作，20%时间，Pytho开发。<br>
+总结:<br>
+一年来，专注于LLM对话可能性；搭建原型，分享代码，举办活动，发现处理语音AI中的低级问题关键；创建Pytho语音AI库Pipecat，支持各种模型和服务；欢迎贡献者，加入开发和社区。 <div>
+<p>I've been obsessed for the past ~year with the possibilities of talking to LLMs. I built a bunch of one-off prototypes, shared code on X, started a Meetup group in SF, and co-hosted a big hackathon. It turns out that there are a few low-level problems that everybody building conversational/real-time AI needs to solve on the way to building/shipping something that works well: low-latency media transport, echo cancellation, voice activity detection, phrase endpointing, pipelining data between models/services, handling voice interruptions, swapping out different models/services.<p>On the theory that something like a LlamaIndex or LangChain for real-time/conversational AI would be useful, a few of us started working on a Python library for voice (and multimodal) AI assistants/agents.<p>So ... Pipecat: a framework for building things like personal coaches, meeting assistants, story-telling toys for kids, customer support bots, virtual friends, and snarky social bots.<p>Most of the core contributors to Pipecat so far work together at our day jobs. This has been a kind of "20% time" thing at our company. But we're serious about welcoming all contributions. We want Pipecat to support any and all models, services, transport layers, and infrastructure tooling. If you're interested in this stuff, please check it out and let us know what you think. Submit PRs. Become a maintainer. Join the Discord. Post cool stuff. Post funny stuff when your voice agent goes completely off the rails (as mine sometimes do).</p>
+<hr />
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40345696">https://news.ycombinator.com/item?id=40345696</a></p>
+<p>Points: 260</p>
+<p># Comments: 31</p>
+]]></content:encoded>
+<pubDate>Mon, 13 May 2024 17:21:14 +0000</pubDate>
+<pubDate>Mon, 13 May 2024 17:21:14 +0000</pubDate>
+</item>
 
 <item>
 <title>Apple and Google deliver support for unwanted tracking alerts in iOS and Android</title>
