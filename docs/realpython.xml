@@ -4,6 +4,34 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>HTML and CSS Foundations for Python Developers</title>
+<link>https://realpython.com/courses/html-css-foundations/</link>
+<guid>https://realpython.com/courses/html-css-foundations/</guid>
+<content:encoded><![CDATA[
+<div> HTML, CSS, Python, web development, websites
+
+HTML和CSS是构建网站所必备的技能，Python程序员想要搭建网站必须掌握这两者。学习HTML和CSS可以让你更好地理解Django和Flask等Python web框架。即使你刚入门Python，掌握HTML和CSS也可以帮助你创建小型网站给朋友留下深刻印象。这个视频课程将教你如何构建基本的HTML文件、查看和检查HTML在浏览器中的显示、插入图片和页面链接、使用CSS样式网站、以可访问性为前提格式化HTML，并利用Python编写和解析HTML代码。<br><br>总结: HTML和CSS是构建网站的基础，学习它们有助于理解Python web框架，通过本视频课程学习如何构建HTML文件、样式网站、并利用Python处理HTML代码。 <div>
+<p>When you want to build websites as a Python programmer, there&rsquo;s no way around HTML and CSS.
+Almost every website on the Internet is built with <strong>HTML markup</strong> to structure the page.
+To make a website look nice, you can style HTML with <strong>CSS</strong>.</p>
+<p>If you&rsquo;re interested in web development with Python, then knowing HTML and CSS will help you understand web frameworks like <strong>Django</strong> and <strong>Flask</strong> better.
+But even if you&rsquo;re just getting started with Python, HTML and CSS can enable you to create small websites to impress your friends.</p>
+<p><strong>In this video course, you&rsquo;ll learn how to:</strong></p>
+<ul>
+<li>Structure a basic <strong>HTML</strong> file</li>
+<li>View and inspect HTML in your <strong>browser</strong></li>
+<li>Insert <strong>images</strong> and page <strong>links</strong></li>
+<li>Style a website with <strong>CSS</strong></li>
+<li>Format HTML with <strong>accessibility</strong> in mind</li>
+<li>Use Python to <strong>write and parse</strong> HTML code</li>
+</ul>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-05-14T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>What Is the __pycache__ Folder in Python?</title>

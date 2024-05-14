@@ -874,3 +874,12 @@ Existing_entries: 96
 Fetching from https://hnrss.org/newest?points=250&comments=25
 append_entries: 0
 Finish: 2024-05-14 14:09:38.212795
+------------------------------------------------------
+Started: 2024-05-14 16:12:40.852635
+Existing_entries: 96
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [Not an iPad Pro Review: Why iPadOS Still Doesn't Get the Basics Right](https://www.macstories.net/stories/not-an-ipad-pro-review/)
+append_entries: 1
+Finish: 2024-05-14 16:12:50.300203
