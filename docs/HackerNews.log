@@ -868,3 +868,9 @@ Existing_entries: 96
 Fetching from https://hnrss.org/newest?points=250&comments=25
 append_entries: 0
 Finish: 2024-05-14 12:18:46.874141
+------------------------------------------------------
+Started: 2024-05-14 14:09:37.021796
+Existing_entries: 96
+Fetching from https://hnrss.org/newest?points=250&comments=25
+append_entries: 0
+Finish: 2024-05-14 14:09:38.212795
