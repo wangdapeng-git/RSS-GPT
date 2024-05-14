@@ -898,3 +898,12 @@ Summarized using GPT-3.5-turbo
 Append: [Veo](https://deepmind.google/technologies/veo/)
 append_entries: 1
 Finish: 2024-05-14 20:12:19.304108
+------------------------------------------------------
+Started: 2024-05-14 22:09:58.441949
+Existing_entries: 98
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 55
+Summarized using GPT-3.5-turbo
+Append: [Glider – open-source eInk monitor with an emphasis on low latency](https://github.com/Modos-Labs/Glider)
+append_entries: 1
+Finish: 2024-05-14 22:10:04.484027
