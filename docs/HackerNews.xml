@@ -4,6 +4,7 @@
 <title>Hacker News: Newest</title>
 <link>https://news.ycombinator.com/newest</link>
 
+
 <item>
 <title>Apple and Google deliver support for unwanted tracking alerts in iOS and Android</title>
 <link>https://www.apple.com/ca/newsroom/2024/05/apple-and-google-deliver-support-for-unwanted-tracking-alerts-in-ios-and-android/</link>
@@ -11,16 +12,14 @@
 <content:encoded><![CDATA[
 <div> 关键词: 新冠疫苗, 接种计划, 疫苗接种中心, 疫苗接种证明, 社区接种点
 
-新冠疫苗接种计划将根据不同地区的疫情情况和人群特点进行调整，设立疫苗接种中心和社区接种点方便民众接种。接种者需持疫苗接种证明，接受相关健康监测。总结：<br><br>新冠疫苗接种计划根据疫情和人群特点调整；设立疫苗接种中心和社区接种点；接种者需持疫苗接种证明并接受健康监测。 <div>
+新冠疫苗接种计划将根据不同地区的疫情情况和人群特点进行调整，设立疫苗接种中心和社区接种点方便民众接种。接种者需持疫苗接种证明，接受相关健康监测。总结：<br /><br />新冠疫苗接种计划根据疫情和人群特点调整；设立疫苗接种中心和社区接种点；接种者需持疫苗接种证明并接受健康监测。 <div>
 <p>Article URL: <a href="https://www.apple.com/ca/newsroom/2024/05/apple-and-google-deliver-support-for-unwanted-tracking-alerts-in-ios-and-android/">https://www.apple.com/ca/newsroom/2024/05/apple-and-google-deliver-support-for-unwanted-tracking-alerts-in-ios-and-android/</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40346024">https://news.ycombinator.com/item?id=40346024</a></p>
 <p>Points: 279</p>
 <p># Comments: 260</p>
 ]]></content:encoded>
 <pubDate>Mon, 13 May 2024 17:46:28 +0000</pubDate>
-<pubDate>Mon, 13 May 2024 17:46:28 +0000</pubDate>
 </item>
-
 <item>
 <title>Amazon S3 will no longer charge for several HTTP error codes</title>
 <link>https://aws.amazon.com/about-aws/whats-new/2024/05/amazon-s3-no-charge-http-error-codes/</link>
