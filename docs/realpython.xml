@@ -4,12 +4,13 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Python's Built-in Exceptions: A Walkthrough With Examples</title>
 <link>https://realpython.com/python-built-in-exceptions/</link>
 <guid>https://realpython.com/python-built-in-exceptions/</guid>
 <content:encoded><![CDATA[
-<div> Errors, Exceptions, Python, Built-in, Handle<br>
+<div> Errors, Exceptions, Python, Built-in, Handle<br />
 错误和异常在Python中很重要，错误是使代码不正常工作甚至崩溃的具体条件，可以通过更新或修改代码、安装新版本的依赖项、检查代码逻辑等方式来修复错误。例子中展示了如何修复语法错误。异常是中断程序执行的事件，应该使用适当的异常处理机制来处理异常，Python使用类来表示异常和错误，异常类可以提供关于异常情况和程序执行过程中发现的错误的信息。SyntaxError类表示错误，但实际上实现为Python异常。要防止程序在异常发生后崩溃，必须使用适当的异常处理机制。 <div>
 <div><p>Python has a complete set of <strong>built-in exceptions</strong> that provide a quick and efficient way to handle errors and exceptional situations that may happen in your code. Knowing the most commonly used built-in exceptions is key for you as a Python developer. This knowledge will help you debug code because each exception has a specific meaning that can shed light on your debugging process.</p>
 <p>You’ll also be able to handle and raise most of the built-in exceptions in your Python code, which is a great way to deal with errors and exceptional situations without having to create your own custom exceptions.</p>
@@ -146,7 +147,6 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-05-15T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -155,9 +155,9 @@
 <guid>https://realpython.com/pycon-guide/</guid>
 <content:encoded><![CDATA[
 <div> PyCon US, Python language, tutorials, conference, sprints
-<br>
+<br />
 PyCon US 是围绕Python语言的最重要的会议之一，分为教程、会议和冲刺三个阶段。在会议之前，你应该提前计划并准备好，浏览议程表，下载PyCon应用，提前一天办理入住手续并参加开幕酒会。会议期间，参加自己感兴趣的讲座，也不要错过冲刺活动。会议结束后，可以回顾自己学到的东西并做好总结。参加PyCon，不仅可以学到技术知识，还可以与其他Python爱好者交流经验，一定会有一个愉快的体验。
-<br><br>总结: PyCon US是围绕Python语言的重要会议，分为教程、会议和冲刺三个阶段。提前计划和准备，参加自己感兴趣的讲座，不要错过冲刺活动。愉快学习交流经验。 <div>
+<br /><br />总结: PyCon US是围绕Python语言的重要会议，分为教程、会议和冲刺三个阶段。提前计划和准备，参加自己感兴趣的讲座，不要错过冲刺活动。愉快学习交流经验。 <div>
 <div><p>Congratulations! You’re going to PyCon US!</p>
 <p>Whether this is your first time or not, going to a conference full of people who love the same thing as you is always a fun experience. There’s so much more to PyCon than just a bunch of people talking about the Python language, and that can be intimidating for first-time attendees. This guide will help you navigate all there is to see and do at PyCon.</p>
 <p><a href="https://us.pycon.org/2024/">PyCon US</a> is the biggest conference centered around the Python language. Originally launched in 2003, this conference has grown exponentially and has even spawned several other <a href="https://www.python.org/community/workshops/">PyCons and workshops around the world</a>.</p>
@@ -201,10 +201,8 @@ PyCon US 是围绕Python语言的最重要的会议之一，分为教程、会�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-05-15T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Quiz: What Are CRUD Operations?</title>
 <link>https://realpython.com/quizzes/crud-operations/</link>

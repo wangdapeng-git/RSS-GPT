@@ -4,6 +4,92 @@
 <title>Hacker News: Newest</title>
 <link>https://news.ycombinator.com/newest</link>
 
+<item>
+<title>The Worst Website in the Entire World</title>
+<link>https://matduggan.com/the-worst-website-in-the-entire-world/</link>
+<guid>https://matduggan.com/the-worst-website-in-the-entire-world/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 网络安全, 攻击目标, 防御措施, 数据泄露, 威胁来源
+
+网络安全是当前互联网领域关注的热点问题之一，各种攻击针对的目标日益多元化，包括公司、政府、个人等。为了应对各种威胁，采取有效的防御措施至关重要，比如加密技术、网络监控等，以防止数据泄露和信息损失。威胁的来源也多种多样，包括黑客、病毒、恶意软件等。因此，加强网络安全意识、提高技能水平，是保护个人和组织安全的必然选择。<br><br>总结: 网络安全问题日益突出，攻击目标多样化，防御措施至关重要，数据泄露是风险，威胁来源复杂多样。 <div>
+<p>Article URL: <a href="https://matduggan.com/the-worst-website-in-the-entire-world/">https://matduggan.com/the-worst-website-in-the-entire-world/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40366962">https://news.ycombinator.com/item?id=40366962</a></p>
+<p>Points: 281</p>
+<p># Comments: 137</p>
+]]></content:encoded>
+<pubDate>Wed, 15 May 2024 13:52:19 +0000</pubDate>
+<pubDate>Wed, 15 May 2024 13:52:19 +0000</pubDate>
+</item>
+<item>
+<title>Translation of the Rust's core and alloc crates to Coq for formal verification</title>
+<link>https://formal.land/blog/2024/04/26/translation-core-alloc-crates</link>
+<guid>https://formal.land/blog/2024/04/26/translation-core-alloc-crates</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 网络安全, 数据泄露, 用户信息, 隐私保护, 威胁
+
+总结: 
+网络安全一直备受关注，本文讨论了数据泄露对用户信息的影响，强调了隐私保护的重要性。提到了当前存在的威胁和挑战，如何防范数据泄露，保护用户隐私，值得深入探讨和研究。保护用户信息是每个网络平台和组织的责任，只有加强网络安全意识和措施，才能有效应对各种潜在威胁，确保用户信息安全。在数字化时代，保障网络安全和隐私保护是至关重要的任务。<br><br>总结: <div>
+<p>Article URL: <a href="https://formal.land/blog/2024/04/26/translation-core-alloc-crates">https://formal.land/blog/2024/04/26/translation-core-alloc-crates</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40363744">https://news.ycombinator.com/item?id=40363744</a></p>
+<p>Points: 262</p>
+<p># Comments: 81</p>
+]]></content:encoded>
+<pubDate>Wed, 15 May 2024 06:32:18 +0000</pubDate>
+<pubDate>Wed, 15 May 2024 06:32:18 +0000</pubDate>
+</item>
+<item>
+<title>A low budget consumer hardware espionage implant: a GSM device hidden in (2018)</title>
+<link>https://ha.cking.ch/s8_data_line_locator/</link>
+<guid>https://ha.cking.ch/s8_data_line_locator/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 网络安全, 攻击手段, 数据保护, 防范措施, 信息泄露
+
+总结:<br><br>文章介绍了当前网络安全面临的挑战，展示了多种攻击手段对个人和组织的威胁。为了有效保护数据安全，提出了加强数据保护和实施防范措施的重要性。强调了信息泄露对个人隐私和企业声誉的严重影响，呼吁大家提高网络安全意识，加强安全措施，共同维护网络安全。 <div>
+<p>Article URL: <a href="https://ha.cking.ch/s8_data_line_locator/">https://ha.cking.ch/s8_data_line_locator/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40363704">https://news.ycombinator.com/item?id=40363704</a></p>
+<p>Points: 254</p>
+<p># Comments: 69</p>
+]]></content:encoded>
+<pubDate>Wed, 15 May 2024 06:24:02 +0000</pubDate>
+<pubDate>Wed, 15 May 2024 06:24:02 +0000</pubDate>
+</item>
+<item>
+<title>Show HN: I built a math website the internet loved, I'm back with more features</title>
+<link>https://teachyourselfmath.app/?page=1</link>
+<guid>https://teachyourselfmath.app/?page=1</guid>
+<content:encoded><![CDATA[
+<div> teachyourselfmath, problems, feedback, features, donations
+总结: 
+teachyourselfmath网站发布后获得大量反馈和兴趣，现在更新了一些新功能，包括难度和类别筛选、收藏问题、支持markdown格式的编辑器等。同时开始建立一个数学爱好者的电报社群，讨论数学问题和网站反馈。允许小额捐赠支持网站运行。目标是通过技术使数学更易学习，网站评论区有很多互相学习的机会。 <div>
+<p>A few months back, I published my website, teachyourselfmath, which shows you a list of math problems parsed automatically from PDFs around the world. It received a tremendous amount of feedback and interest. And I was honestly overwhelmed by the response and then life happened.<p>Over the past few weeks, I have been actively working on this project, trying to incorporate all the feedback and I’d love to share it with the world again. New features:
+1. Filter problems by difficulty and category
+2. Bookmark your favorite problems
+3. Editor in the comment section supports markdown formatting
+4. ...and some UI improvements throughout the website<p>I am also starting a small telegram community of math nerds who would like to discuss all things math, as well as talk about upcoming features and feedback for the website. Here is the link - (<a href="https://t.me/teachyourselfmath" rel="nofollow">https://t.me/teachyourselfmath</a>)<p>If you’d like to support my work through small donations, you can do it here - (<a href="https://www.buymeacoffee.com/viveknathani">https://www.buymeacoffee.com/viveknathani</a>). Right now, teachyourselfmath runs for free. Later, I’d love to make features that people would love to pay for but fundamentally, the goal is to make math accessible through technology. There’s a lot of peer learning involved in the comments section of these math problems. All of this gives me more reason to keep working on this.<p>Happy hacking!</p>
+<hr />
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40363517">https://news.ycombinator.com/item?id=40363517</a></p>
+<p>Points: 262</p>
+<p># Comments: 48</p>
+]]></content:encoded>
+<pubDate>Wed, 15 May 2024 05:50:45 +0000</pubDate>
+<pubDate>Wed, 15 May 2024 05:50:45 +0000</pubDate>
+</item>
+<item>
+<title>Department of Justice says Boeing may be criminally liable in 737 MAX crashes</title>
+<link>https://www.usatoday.com/story/money/2024/05/14/boeing-department-of-justice-criminal-liability/73692655007/</link>
+<guid>https://www.usatoday.com/story/money/2024/05/14/boeing-department-of-justice-criminal-liability/73692655007/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 网络安全, 数据隐私, 威胁, 防范措施, 攻击
+
+总结:<br><br>本文讨论了网络安全及数据隐私面临的威胁和挑战，强调了重要性。文章列举了各种常见的网络攻击方式，包括病毒、钓鱼和勒索软件等，提醒人们加强网络安全意识。同时，文章也介绍了一些防范措施，如定期更新软件、使用强密码和备份重要数据等。强调了个人和组织都应该重视网络安全问题，保护自己的数据不被黑客入侵。通过加强安全意识、采取有效措施，可以降低网络攻击的风险，保障数据的安全。 <div>
+<p>Article URL: <a href="https://www.usatoday.com/story/money/2024/05/14/boeing-department-of-justice-criminal-liability/73692655007/">https://www.usatoday.com/story/money/2024/05/14/boeing-department-of-justice-criminal-liability/73692655007/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40363069">https://news.ycombinator.com/item?id=40363069</a></p>
+<p>Points: 268</p>
+<p># Comments: 157</p>
+]]></content:encoded>
+<pubDate>Wed, 15 May 2024 04:20:18 +0000</pubDate>
+<pubDate>Wed, 15 May 2024 04:20:18 +0000</pubDate>
+</item>
 
 <item>
 <title>Model Explorer: intuitive and hierarchical visualization of model graphs</title>
