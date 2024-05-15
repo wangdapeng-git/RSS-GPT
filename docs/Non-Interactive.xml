@@ -4,13 +4,14 @@
 <title>Non_Interactive – Software &amp; ML</title>
 <link>https://nonint.com</link>
 
+
 <item>
 <title>GPT-4o</title>
 <link>https://nonint.com/2024/05/14/gpt-4o/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=gpt-4o</link>
 <guid>https://nonint.com/2024/05/14/gpt-4o/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=gpt-4o</guid>
 <content:encoded><![CDATA[
 <div> GPT-4o, speech models, AudioLM, technology, feedback  
-总结:<br><br>本文介绍了GPT-4o及其开发过程，强调了与该模型互动的新颖感。作者认为，通过语音与计算机交互比通过文本交互更好，因为GPT-4o的快速响应和准确性给人留下深刻印象。尽管模型仍有缺陷，但团队将不断改进。作者期待更多人体验这一技术，并相信它将给人们带来乐趣。 <div>
+总结:<br /><br />本文介绍了GPT-4o及其开发过程，强调了与该模型互动的新颖感。作者认为，通过语音与计算机交互比通过文本交互更好，因为GPT-4o的快速响应和准确性给人留下深刻印象。尽管模型仍有缺陷，但团队将不断改进。作者期待更多人体验这一技术，并相信它将给人们带来乐趣。 <div>
 <p>I&#8217;m very pleased to show the world GPT-4o. I came into the project mid-last year with Alexis Conneau with the goal of scaling up speech models and building an &#8220;AudioLM&#8221;. We knew we had something special late last year, but I don&#8217;t think either of us imagined that we&#8217;d able to pull off something as cool as GPT-4o in this short of a time frame. That came from the dedicated work of a core team of &#8220;believers&#8221;. I&#8217;m incredibly proud to have had the chance to work with so many talented and motivated people.</p>
 
 
@@ -26,9 +27,7 @@
 <p>Really excited to see this in the hands of more people. It really is exciting tech. I use it regularly and it is the source of many smiles. It&#8217;s going to be an amazing year.</p>
 ]]></content:encoded>
 <pubDate>Tue, 14 May 2024 22:28:37 +0000</pubDate>
-<pubDate>Tue, 14 May 2024 22:28:37 +0000</pubDate>
 </item>
-
 <item>
 <title>Research Code</title>
 <link>https://nonint.com/2024/03/16/research-code/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=research-code</link>
