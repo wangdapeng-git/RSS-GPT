@@ -1006,3 +1006,12 @@ Summarized using GPT-3.5-turbo
 Append: [Raspberry Pi Ltd is considering an IPO](https://www.londonstockexchange.com/news-article/market-news/expected-intention-to-float/16470316)
 append_entries: 1
 Finish: 2024-05-15 18:14:11.657526
+------------------------------------------------------
+Started: 2024-05-15 20:12:05.552264
+Existing_entries: 112
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [Adobe Photoshop Source Code (2013)](https://computerhistory.org/blog/adobe-photoshop-source-code/)
+append_entries: 1
+Finish: 2024-05-15 20:12:14.373877
