@@ -5,23 +5,222 @@
 <link>https://realpython.com/</link>
 
 <item>
+<title>Python's Built-in Exceptions: A Walkthrough With Examples</title>
+<link>https://realpython.com/python-built-in-exceptions/</link>
+<guid>https://realpython.com/python-built-in-exceptions/</guid>
+<content:encoded><![CDATA[
+<div> Errors, Exceptions, Python, Built-in, Handle<br>
+错误和异常在Python中很重要，错误是使代码不正常工作甚至崩溃的具体条件，可以通过更新或修改代码、安装新版本的依赖项、检查代码逻辑等方式来修复错误。例子中展示了如何修复语法错误。异常是中断程序执行的事件，应该使用适当的异常处理机制来处理异常，Python使用类来表示异常和错误，异常类可以提供关于异常情况和程序执行过程中发现的错误的信息。SyntaxError类表示错误，但实际上实现为Python异常。要防止程序在异常发生后崩溃，必须使用适当的异常处理机制。 <div>
+<div><p>Python has a complete set of <strong>built-in exceptions</strong> that provide a quick and efficient way to handle errors and exceptional situations that may happen in your code. Knowing the most commonly used built-in exceptions is key for you as a Python developer. This knowledge will help you debug code because each exception has a specific meaning that can shed light on your debugging process.</p>
+<p>You’ll also be able to handle and raise most of the built-in exceptions in your Python code, which is a great way to deal with errors and exceptional situations without having to create your own custom exceptions.</p>
+<p><strong>In this tutorial, you’ll:</strong></p>
+<ul>
+<li>Learn what <strong>errors</strong> and <strong>exceptions</strong> are in Python</li>
+<li>Understand how Python organizes the <strong>built-in exceptions</strong> in a <strong>class hierarchy</strong></li>
+<li>Explore the most <strong>commonly used</strong> built-in exceptions</li>
+<li>Learn how to <strong>handle</strong> and <strong>raise</strong> built-in exceptions in your code</li>
+</ul>
+<p>To smoothly walk through this tutorial, you should be familiar with some core concepts in Python. These concepts include Python <a href="https://realpython.com/python-classes/">classes</a>, class <a href="https://realpython.com/python-classes/#class-hierarchies">hierarchies</a>, <a href="https://realpython.com/python-exceptions/">exceptions</a>, <a href="https://realpython.com/python-exceptions/#handling-exceptions-with-the-try-and-except-block"><code>try</code> … <code>except</code></a> blocks, and the <a href="https://realpython.com/python-raise-exception/"><code>raise</code></a> statement.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-built-in-exceptions-code/">Click here to download the free sample code</a> that you’ll use to learn about Python’s built-in exceptions.</p>
+</div>
+<h2 id="errors-and-exceptions-in-python">Errors and Exceptions in Python<a class="headerlink" href="https://realpython.com/atom.xml#errors-and-exceptions-in-python" title="Permanent link"></a></h2>
+<p><strong>Errors</strong> and <strong>exceptions</strong> are important concepts in programming, and you’ll probably spend a considerable amount of time dealing with them in your programming career. <strong>Errors</strong> are concrete conditions, such as <strong>syntax</strong> and <strong>logical</strong> errors, that make your code work incorrectly or even crash.</p>
+<p>Often, you can fix errors by updating or modifying the code, installing a new version of a dependency, checking the code’s logic, and so on.</p>
+<p>For example, say you need to make sure that a given <a href="https://realpython.com/python-strings/">string</a> has a certain number of characters. In this case, you can use the built-in <a href="https://realpython.com/len-python-function/"><code>len()</code></a> function:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="s2">"Pythonista"</span><span class="p">)</span> <span class="o">=</span> <span class="mi">10</span>
+  File <span class="nb">"&lt;input&gt;"</span>, line <span class="m">1</span>
+<span class="w">    </span><span class="o">...</span>
+<span class="gr">SyntaxError</span>: <span class="n">cannot assign to function call here.</span>
+<span class="x">    Maybe you meant '==' instead of '='?</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this example, you use the wrong <a href="https://realpython.com/python-operators-expressions/">operator</a>. Instead of using the equality <a href="https://realpython.com/python-operators-expressions/#comparison-operators-and-expressions-in-python">comparison operator</a>, you use the <a href="https://realpython.com/python-assignment-operator/">assignment operator</a>. This code raises a <a href="https://realpython.com/invalid-syntax-python/"><code>SyntaxError</code></a>, which represents a syntax error as its name describes.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> In the above code, you’ll note how nicely the error message suggests a possible solution for correcting the code. Starting in version <a href="https://realpython.com/python310-new-features/">3.10</a>, the Python core developers have put a lot of effort into improving the <a href="https://realpython.com/python310-new-features/#better-error-messages">error messages</a> to make them more friendly and useful for debugging.</p>
+</div>
+<p>To fix the error, you need to localize the affected code and correct the syntax. This action will remove the error:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="s2">"Pythonista"</span><span class="p">)</span> <span class="o">==</span> <span class="mi">10</span>
+<span class="go">True</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Now the code works correctly, and the <code>SyntaxError</code> is gone. So, your code won’t break, and your program will continue its normal execution.</p>
+<p>There’s something to learn from the above example. You can fix errors, but you can’t <em>handle</em> them. In other words, if you have a syntax error like the one in the example, then you won’t be able to handle that error and make the code run. You need to correct the syntax.</p>
+<p>On the other hand, <strong>exceptions</strong> are events that interrupt the execution of a program. As their name suggests, exceptions occur in <em>exceptional</em> situations that should or shouldn’t happen. So, to prevent your program from crashing after an exception, you must handle the exception with the appropriate exception-handling mechanism.</p>
+<p>To better understand exceptions, say that you have a Python expression like <code>a + b</code>. This expression will work if <code>a</code> and <code>b</code> are both strings or <a href="https://realpython.com/python-numbers/">numbers</a>:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="mi">4</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="mi">3</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+<span class="go">7</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this example, the code works correctly because <code>a</code> and <code>b</code> are both numbers. However, the expression raises an exception if <code>a</code> and <code>b</code> are of types that can’t be added together:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="s2">"4"</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="mi">3</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+<span class="gt">Traceback (most recent call last):</span>
+  File <span class="nb">"&lt;input&gt;"</span>, line <span class="m">1</span>, in <span class="n">&lt;module&gt;</span>
+<span class="w">    </span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+<span class="w">    </span><span class="pm">~~^~~</span>
+<span class="gr">TypeError</span>: <span class="n">can only concatenate str (not "int") to str</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Because <code>a</code> is a string and <code>b</code> is a number, your code fails with a <code>TypeError</code> exception. Since there is no way to add text and numbers, your code has faced an exceptional situation.</p>
+<p>Python uses classes to represent exceptions and errors. These classes are generically known as <strong>exceptions</strong>, regardless of what a concrete class represents, an exception or an error. Exception classes give us information about an <em>exceptional situation</em> and also <em>errors</em> detected during the program’s execution.</p>
+<p>The first example in this section shows a syntax error in action. The <code>SyntaxError</code> class represents an error but it’s implemented as a Python exception. This could be confusing, but Python uses exception classes for both errors and exceptions.</p>
+</div><h2><a href="https://realpython.com/python-built-in-exceptions/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-built-in-exceptions/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-05-15T14:00:00+00:00</pubDate>
+</item>
+<item>
+<title>How to Get the Most Out of PyCon US</title>
+<link>https://realpython.com/pycon-guide/</link>
+<guid>https://realpython.com/pycon-guide/</guid>
+<content:encoded><![CDATA[
+<div> PyCon US, Python language, tutorials, conference, sprints
+<br>
+PyCon US 是围绕Python语言的最重要的会议之一，分为教程、会议和冲刺三个阶段。在会议之前，你应该提前计划并准备好，浏览议程表，下载PyCon应用，提前一天办理入住手续并参加开幕酒会。会议期间，参加自己感兴趣的讲座，也不要错过冲刺活动。会议结束后，可以回顾自己学到的东西并做好总结。参加PyCon，不仅可以学到技术知识，还可以与其他Python爱好者交流经验，一定会有一个愉快的体验。
+<br><br>总结: PyCon US是围绕Python语言的重要会议，分为教程、会议和冲刺三个阶段。提前计划和准备，参加自己感兴趣的讲座，不要错过冲刺活动。愉快学习交流经验。 <div>
+<div><p>Congratulations! You’re going to PyCon US!</p>
+<p>Whether this is your first time or not, going to a conference full of people who love the same thing as you is always a fun experience. There’s so much more to PyCon than just a bunch of people talking about the Python language, and that can be intimidating for first-time attendees. This guide will help you navigate all there is to see and do at PyCon.</p>
+<p><a href="https://us.pycon.org/2024/">PyCon US</a> is the biggest conference centered around the Python language. Originally launched in 2003, this conference has grown exponentially and has even spawned several other <a href="https://www.python.org/community/workshops/">PyCons and workshops around the world</a>.</p>
+<p>Everyone who attends PyCon will have a different experience, and that’s what makes the conference truly unique. This guide is meant to help you, but you don’t need to follow it strictly.</p>
+<p><strong>By the end of this article, you’ll know:</strong></p>
+<ul>
+<li>How PyCon consists of <strong>tutorials</strong>, <strong>conference</strong>, and <strong>sprints</strong></li>
+<li>What to do <strong>before</strong> you go</li>
+<li>What to do <strong>during</strong> PyCon</li>
+<li>What to do <strong>after</strong> the event</li>
+<li>How to have a <strong>great</strong> PyCon</li>
+</ul>
+<p>This guide will have links that are specific to PyCon 2024, but it should be useful for future PyCons as well.</p>
+<div class="alert alert-warning">
+<p><strong>Free Download:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-tricks-sample-pdf/">Get a sample chapter from Python Tricks: The Book</a> that shows you Python’s best practices with simple examples you can apply instantly to write more beautiful + Pythonic code.</p>
+</div>
+<h2 id="what-pycon-involves">What PyCon Involves<a class="headerlink" href="https://realpython.com/atom.xml#what-pycon-involves" title="Permanent link"></a></h2>
+<p>Before considering how to get the most out of PyCon, it’s important to first understand what PyCon involves.</p>
+<p>PyCon is broken up into three stages:</p>
+<ol>
+<li>
+<p><strong>Tutorials:</strong> PyCon starts with two days of three-hour workshops, during which you get to learn in depth with instructors. These are great to go to since the class sizes are small, and you can ask questions of the instructors. You should consider going to at least one of these if you can, but they do have an additional cost of $150 per tutorial.</p>
+</li>
+<li>
+<p><strong>Conference:</strong> Next, PyCon offers three days of talks. Each presentation lasts for thirty to forty-five minutes, and there are about five talks going on at a time, including a Spanish language charlas track. But that’s not all: there are also open spaces, sponsors, posters, lightning talks, dinners, and so much more.</p>
+</li>
+<li>
+<p><strong>Sprints:</strong> During this stage, you can take what you’ve learned and apply it! This is a four-day exercise where people group up to work on various open-source projects related to Python. If you’ve got the time, going to one or more sprint days is a great way to practice what you’ve learned, become associated with an open-source project, and network with other smart and talented people. Learn more about sprints in this <a href="https://pycon.blogspot.com/2016/03/why-not-join-sprints-this-year-at-pycon.html">blog post</a> from an earlier year.</p>
+</li>
+</ol>
+<p>Since most PyCon attendees go to the conference part, that’ll be the focus of this article. However, don’t let that deter you from attending the tutorials or sprints if you can!</p>
+<p>You may even learn more technical skills by attending the tutorials rather than listening to the talks. The sprints are great for networking and applying the skills that you’ve already got, as well as learning new ones from the people you’ll be working with.</p>
+<h2 id="what-to-do-before-you-go">What to Do Before You Go<a class="headerlink" href="https://realpython.com/atom.xml#what-to-do-before-you-go" title="Permanent link"></a></h2>
+<p>In general, the more prepared you are for something, the better your experience will be. The same applies to PyCon.</p>
+<p>It’s really helpful to plan and prepare ahead of time, which you’re already doing just by reading this article!</p>
+<p>Look through the <a href="https://us.pycon.org/2024/schedule/talks/">talk schedule</a> and see which talks sound most interesting to you. This doesn’t mean you need to plan out all of the talks that you’re going to see, in every slot possible. But it helps to get an idea of which topics are going to be presented so that you can decide what you’re most interested in.</p>
+<p>Getting the <a href="https://us.pycon.org/2024/attend/onsite/">PyCon US mobile app</a> will help you plan your schedule. This app lets you view the schedule for the talks and add reminders for the ones that you want to attend. If you’re having a hard time picking which talks to go to, you can come prepared with a question or problem that you need to solve. Doing this can help you focus on the topics that are important to you.</p>
+<p>If you can, come a day early to check in and attend the opening reception. The line to check in on the first day is always long, so you’ll save time if you check in the day before. There’s also an opening reception that evening, so you can meet other attendees and speakers, as well as get a chance to check out the various sponsors and their booths.</p>
+<p>If you’re brand-new to PyCon, the <a href="https://us.pycon.org/2024/events/newcomer-orientation/">Newcomer Orientation</a> can help you get caught up on what the conference involves and how you can participate.</p>
+</div><h2><a href="https://realpython.com/pycon-guide/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/pycon-guide/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-05-15T14:00:00+00:00</pubDate>
+</item>
+
+<item>
 <title>Quiz: What Are CRUD Operations?</title>
 <link>https://realpython.com/quizzes/crud-operations/</link>
 <guid>https://realpython.com/quizzes/crud-operations/</guid>
 <content:encoded><![CDATA[
 <div> 关键词：CRUD operations, Python, concepts, techniques, quiz
 
-总结：<br><br>本文主要讨论了与CRUD操作相关的关键概念和技巧，通过这个测试，读者可以检验对这些内容的理解。在Python中，CRUD操作是非常常见且重要的，通过掌握相关技巧，可以更加高效地处理数据。在这个测试中，读者可以通过回顾关键概念和技巧来加深对CRUD操作的理解，希望读者能够通过这个测试提升自己的Python技能。CRUD操作包括创建(Create)、读取(Retrieve)、更新(Update)和删除(Delete)四个基本操作，是进行数据处理时必不可少的操作方式。通过不断练习和掌握相关技巧，读者可以在Python编程中更加游刃有余地进行CRUD操作。 <div>
+总结：<br /><br />本文主要讨论了与CRUD操作相关的关键概念和技巧，通过这个测试，读者可以检验对这些内容的理解。在Python中，CRUD操作是非常常见且重要的，通过掌握相关技巧，可以更加高效地处理数据。在这个测试中，读者可以通过回顾关键概念和技巧来加深对CRUD操作的理解，希望读者能够通过这个测试提升自己的Python技能。CRUD操作包括创建(Create)、读取(Retrieve)、更新(Update)和删除(Delete)四个基本操作，是进行数据处理时必不可少的操作方式。通过不断练习和掌握相关技巧，读者可以在Python编程中更加游刃有余地进行CRUD操作。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of
 <a href="https://realpython.com/crud-operations/">CRUD Operations</a>.</p>
 <p>By working through this quiz, you&rsquo;ll revisit the key concepts and techniques related to CRUD operations. Good luck!</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-05-15T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>HTML and CSS Foundations for Python Developers</title>
 <link>https://realpython.com/courses/html-css-foundations/</link>

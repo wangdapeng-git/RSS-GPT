@@ -970,3 +970,9 @@ Summarized using GPT-3.5-turbo
 Append: [Femtosecond lasers create 3D midair plasma displays you can touch (2015)](https://spectrum.ieee.org/femtosecond-lasers-create-3d-midair-plasma-displays-you-can-touch)
 append_entries: 2
 Finish: 2024-05-15 12:19:53.077834
+------------------------------------------------------
+Started: 2024-05-15 14:10:56.309603
+Existing_entries: 106
+Fetching from https://hnrss.org/newest?points=250&comments=25
+append_entries: 0
+Finish: 2024-05-15 14:10:56.795864
