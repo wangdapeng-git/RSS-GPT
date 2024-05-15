@@ -997,3 +997,12 @@ Summarized using GPT-3.5-turbo
 Append: [Department of Justice says Boeing may be criminally liable in 737 MAX crashes](https://www.usatoday.com/story/money/2024/05/14/boeing-department-of-justice-criminal-liability/73692655007/)
 append_entries: 5
 Finish: 2024-05-15 16:13:08.004067
+------------------------------------------------------
+Started: 2024-05-15 18:14:00.986275
+Existing_entries: 111
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [Raspberry Pi Ltd is considering an IPO](https://www.londonstockexchange.com/news-article/market-news/expected-intention-to-float/16470316)
+append_entries: 1
+Finish: 2024-05-15 18:14:11.657526
