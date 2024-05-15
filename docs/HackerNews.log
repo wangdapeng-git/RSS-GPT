@@ -907,3 +907,21 @@ Summarized using GPT-3.5-turbo
 Append: [Glider – open-source eInk monitor with an emphasis on low latency](https://github.com/Modos-Labs/Glider)
 append_entries: 1
 Finish: 2024-05-14 22:10:04.484027
+------------------------------------------------------
+Started: 2024-05-15 00:44:42.656621
+Existing_entries: 99
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [Ilya Sutskever to leave OpenAI](https://twitter.com/ilyasut/status/1790517455628198322)
+Token length: 55
+Summarized using GPT-3.5-turbo
+Append: [Gemini Flash](https://deepmind.google/technologies/gemini/flash/)
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [VMware Fusion Pro: Now available free for personal use](https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html)
+Token length: 55
+Summarized using GPT-3.5-turbo
+Append: [Sir, there's a cat in your mirror dimension](https://lcamtuf.substack.com/p/sir-theres-a-cat-in-your-mirror-dimension)
+append_entries: 4
+Finish: 2024-05-15 00:45:07.041988
