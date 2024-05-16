@@ -1096,3 +1096,12 @@ Summarized using GPT-3.5-turbo
 Append: [Oracle dumps Terraform for OpenTofu](https://www.thestack.technology/oracle-dumps-terraform-for-opentofu/)
 append_entries: 5
 Finish: 2024-05-16 12:19:13.218624
+------------------------------------------------------
+Started: 2024-05-16 14:10:48.811345
+Existing_entries: 124
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 55
+Summarized using GPT-3.5-turbo
+Append: [Things I won't work with: the higher states of bromine (2019)](https://blogs.sciencemag.org/pipeline/archives/2019/11/21/the-higher-states-of-bromine)
+append_entries: 1
+Finish: 2024-05-16 14:10:58.711091
