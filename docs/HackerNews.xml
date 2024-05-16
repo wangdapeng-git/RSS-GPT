@@ -4,6 +4,37 @@
 <title>Hacker News: Newest</title>
 <link>https://news.ycombinator.com/newest</link>
 
+<item>
+<title>Llama 3 implemented in pure NumPy</title>
+<link>https://docs.likejazz.com/llama3.np/</link>
+<guid>https://docs.likejazz.com/llama3.np/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 网络安全, 数据隐私, 政府监管, 个人信息保护, 威胁风险
+
+总结:<br><br>这篇文章讨论了网络安全和数据隐私保护的重要性，强调了政府监管在个人信息保护中的作用。文章指出了威胁风险不断增加的问题，呼吁加强网络安全意识和技术防范。同时，强调个人和企业要注意保护自己的数据隐私，避免成为网络攻击的目标。文章还提出了加强政府监管和法律保护的建议，以确保网络空间的安全和稳定。网络安全是一个全球性问题，需要各方共同努力来应对日益复杂的威胁挑战。 <div>
+<p>Article URL: <a href="https://docs.likejazz.com/llama3.np/">https://docs.likejazz.com/llama3.np/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40378499">https://news.ycombinator.com/item?id=40378499</a></p>
+<p>Points: 299</p>
+<p># Comments: 29</p>
+]]></content:encoded>
+<pubDate>Thu, 16 May 2024 13:53:22 +0000</pubDate>
+<pubDate>Thu, 16 May 2024 13:53:22 +0000</pubDate>
+</item>
+<item>
+<title>Students invent quieter leaf blower</title>
+<link>https://hub.jhu.edu/2024/05/14/quieter-leaf-blower/</link>
+<guid>https://hub.jhu.edu/2024/05/14/quieter-leaf-blower/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 文章 URL, 评论 URL, 点数, 评论数量, 内容概要
+总结:<br><br>文章 URL: 评论 URL: 点数: 评论数量: 内容概要: 该篇文章讨论了某个话题，深入探讨了相关问题，提供了宝贵的见解。评论数量众多，反映了读者对这一话题的浓厚兴趣。文章的点数也很高，表明其受到广泛关注和认可。总的来说，这篇文章内容丰富，引人深思，值得一读。 <div>
+<p>Article URL: <a href="https://hub.jhu.edu/2024/05/14/quieter-leaf-blower/">https://hub.jhu.edu/2024/05/14/quieter-leaf-blower/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40377201">https://news.ycombinator.com/item?id=40377201</a></p>
+<p>Points: 254</p>
+<p># Comments: 379</p>
+]]></content:encoded>
+<pubDate>Thu, 16 May 2024 11:47:34 +0000</pubDate>
+<pubDate>Thu, 16 May 2024 11:47:34 +0000</pubDate>
+</item>
 
 <item>
 <title>Some notes on Rust, mutable aliasing and formal verification</title>
