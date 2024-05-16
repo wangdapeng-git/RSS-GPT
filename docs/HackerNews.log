@@ -1075,3 +1075,24 @@ Existing_entries: 119
 Fetching from https://hnrss.org/newest?points=250&comments=25
 append_entries: 0
 Finish: 2024-05-16 10:10:17.641878
+------------------------------------------------------
+Started: 2024-05-16 12:18:38.729185
+Existing_entries: 119
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [VCs aren’t your friends](https://www.openvc.app/blog/vcs-arent-your-friends)
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [Utah Locals Are Getting Cheap 10 Gbps Fiber Thanks to Local Governments](https://www.techdirt.com/2024/05/15/utah-locals-are-getting-cheap-10-gbps-fiber-thanks-to-local-governments/)
+Token length: 1456
+Summarized using GPT-3.5-turbo
+Append: [Show HN: Open-source BI and analytics for engineers](https://github.com/quarylabs/quary)
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [Fastest rate of natural carbon dioxide rise over the last 50k years](https://today.oregonstate.edu/news/researchers-identify-fastest-rate-natural-carbon-dioxide-rise-over-last-50000-years)
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [Oracle dumps Terraform for OpenTofu](https://www.thestack.technology/oracle-dumps-terraform-for-opentofu/)
+append_entries: 5
+Finish: 2024-05-16 12:19:13.218624
