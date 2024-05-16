@@ -1039,3 +1039,9 @@ Summarized using GPT-3.5-turbo
 Append: [Apple announces new accessibility features, including eye tracking](https://www.apple.com/newsroom/2024/05/apple-announces-new-accessibility-features-including-eye-tracking/)
 append_entries: 1
 Finish: 2024-05-16 00:45:00.648074
+------------------------------------------------------
+Started: 2024-05-16 02:23:37.263260
+Existing_entries: 117
+Fetching from https://hnrss.org/newest?points=250&comments=25
+append_entries: 0
+Finish: 2024-05-16 02:23:37.590681
