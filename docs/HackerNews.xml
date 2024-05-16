@@ -4,6 +4,24 @@
 <title>Hacker News: Newest</title>
 <link>https://news.ycombinator.com/newest</link>
 
+<item>
+<title>New exponent functions that make SiLU and SoftMax 2x faster, at full accuracy</title>
+<link>https://github.com/ggerganov/llama.cpp/pull/7154</link>
+<guid>https://github.com/ggerganov/llama.cpp/pull/7154</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 网络安全、数据泄露、隐私保护、文章内容、评论互动
+
+数据泄露是网络安全的一大威胁，保护个人隐私信息至关重要。本文涵盖了有关网络安全和数据泄露的内容，以及隐私保护措施。通过文章内容了解了网络安全方面的重要知识，评论互动也可以为读者提供更多观点和见解。在当今数字化时代，保护个人隐私越来越重要，而文章中的评论也反映了读者对这一问题的关注和看法。总之，网络安全和隐私保护是当前社会需要重视的话题，通过文章和评论的互动，可以加深对这些问题的理解。 
+
+总结: <br><br>数据泄露是网络安全的重要问题，保护隐私至关重要。文章内容涵盖网络安全知识，评论互动反映读者关注。隐私保护需引起越来越多的重视。 <div>
+<p>Article URL: <a href="https://github.com/ggerganov/llama.cpp/pull/7154">https://github.com/ggerganov/llama.cpp/pull/7154</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40371612">https://news.ycombinator.com/item?id=40371612</a></p>
+<p>Points: 274</p>
+<p># Comments: 54</p>
+]]></content:encoded>
+<pubDate>Wed, 15 May 2024 19:57:01 +0000</pubDate>
+<pubDate>Wed, 15 May 2024 19:57:01 +0000</pubDate>
+</item>
 
 <item>
 <title>Apple announces new accessibility features, including eye tracking</title>
