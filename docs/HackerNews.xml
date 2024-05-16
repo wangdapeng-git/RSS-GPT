@@ -5,22 +5,55 @@
 <link>https://news.ycombinator.com/newest</link>
 
 <item>
+<title>Some notes on Rust, mutable aliasing and formal verification</title>
+<link>https://graydon2.dreamwidth.org/312681.html</link>
+<guid>https://graydon2.dreamwidth.org/312681.html</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 社交媒体, 媒体风险, 隐私保护, 用户数据, 安全措施
+
+在这篇文章中，讨论了社交媒体平台在用户数据管理方面存在的媒体风险和隐私保护问题。提到了在社交媒体上发布个人信息可能导致隐私泄露和安全风险。文章强调了用户数据的重要性，强调社交媒体平台应该采取更加严格的安全措施来保护用户数据。此外，文章还探讨了用户在社交媒体上如何更好地保护自己的隐私，建议用户审慎分享个人信息和设置隐私设置。综上所述，社交媒体平台应该加强安全措施，用户也应该提高对隐私保护的重视。
+
+<br><br>总结: 在社交媒体平台上，媒体风险和隐私保护问题是关键挑战。用户数据的重要性需要引起重视，平台应该加强安全措施。同时，用户也应该注意在社交媒体上保护自己的隐私。 <div>
+<p>Article URL: <a href="https://graydon2.dreamwidth.org/312681.html">https://graydon2.dreamwidth.org/312681.html</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40375341">https://news.ycombinator.com/item?id=40375341</a></p>
+<p>Points: 269</p>
+<p># Comments: 74</p>
+]]></content:encoded>
+<pubDate>Thu, 16 May 2024 05:01:53 +0000</pubDate>
+<pubDate>Thu, 16 May 2024 05:01:53 +0000</pubDate>
+</item>
+<item>
+<title>Starting emails with "BEGIN PGP MESSAGE" will fool the filter</title>
+<link>https://nondeterministic.computer/@martin/112444389342113780</link>
+<guid>https://nondeterministic.computer/@martin/112444389342113780</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 健康, 饮食, 锻炼, 生活方式, 心理健康
+
+总结:<br><br>这篇文章讨论了如何通过正确的饮食和锻炼来维持健康。作者强调了良好的生活方式对健康的重要性，包括规律的运动和均衡的饮食。另外，心理健康也被认为是关键因素，建议保持乐观积极的心态。总的来说，养成良好的生活习惯对于保持健康至关重要。 <div>
+<p>Article URL: <a href="https://nondeterministic.computer/@martin/112444389342113780">https://nondeterministic.computer/@martin/112444389342113780</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40369119">https://news.ycombinator.com/item?id=40369119</a></p>
+<p>Points: 266</p>
+<p># Comments: 92</p>
+]]></content:encoded>
+<pubDate>Wed, 15 May 2024 16:32:08 +0000</pubDate>
+<pubDate>Wed, 15 May 2024 16:32:08 +0000</pubDate>
+</item>
+
+<item>
 <title>Things I won't work with: the higher states of bromine (2019)</title>
 <link>https://blogs.sciencemag.org/pipeline/archives/2019/11/21/the-higher-states-of-bromine</link>
 <guid>https://blogs.sciencemag.org/pipeline/archives/2019/11/21/the-higher-states-of-bromine</guid>
 <content:encoded><![CDATA[
 <div> 关键词: 网页，评论，互动，内容，点赞
 
-该文章讨论了网页互动性的重要性，特别是评论和点赞功能对于用户参与和互动的促进作用。文章强调了通过提供优质内容来吸引用户参与，并通过评论和点赞功能增加用户参与度的重要性。此外，文章还强调了如何有效地管理和促进评论互动，以提高用户体验和网页质量。总的来说，网页互动性是网站成功的关键要素，通过不断改进和优化互动功能，可以吸引更多用户并提高用户参与度。<br><br>总结: 网页互动性对于用户参与至关重要，通过评论和点赞功能提高用户互动度，优质内容是吸引用户的关键，有效管理评论可提升用户体验，不断优化互动功能是提高用户参与度的关键。 <div>
+该文章讨论了网页互动性的重要性，特别是评论和点赞功能对于用户参与和互动的促进作用。文章强调了通过提供优质内容来吸引用户参与，并通过评论和点赞功能增加用户参与度的重要性。此外，文章还强调了如何有效地管理和促进评论互动，以提高用户体验和网页质量。总的来说，网页互动性是网站成功的关键要素，通过不断改进和优化互动功能，可以吸引更多用户并提高用户参与度。<br /><br />总结: 网页互动性对于用户参与至关重要，通过评论和点赞功能提高用户互动度，优质内容是吸引用户的关键，有效管理评论可提升用户体验，不断优化互动功能是提高用户参与度的关键。 <div>
 <p>Article URL: <a href="https://blogs.sciencemag.org/pipeline/archives/2019/11/21/the-higher-states-of-bromine">https://blogs.sciencemag.org/pipeline/archives/2019/11/21/the-higher-states-of-bromine</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40375178">https://news.ycombinator.com/item?id=40375178</a></p>
 <p>Points: 273</p>
 <p># Comments: 54</p>
 ]]></content:encoded>
 <pubDate>Thu, 16 May 2024 04:24:02 +0000</pubDate>
-<pubDate>Thu, 16 May 2024 04:24:02 +0000</pubDate>
 </item>
-
 <item>
 <title>VCs aren’t your friends</title>
 <link>https://www.openvc.app/blog/vcs-arent-your-friends</link>
