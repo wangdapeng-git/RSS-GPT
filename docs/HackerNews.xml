@@ -4,6 +4,7 @@
 <title>Hacker News: Newest</title>
 <link>https://news.ycombinator.com/newest</link>
 
+
 <item>
 <title>Some notes on Rust, mutable aliasing and formal verification</title>
 <link>https://graydon2.dreamwidth.org/312681.html</link>
@@ -13,13 +14,12 @@
 
 在这篇文章中，讨论了社交媒体平台在用户数据管理方面存在的媒体风险和隐私保护问题。提到了在社交媒体上发布个人信息可能导致隐私泄露和安全风险。文章强调了用户数据的重要性，强调社交媒体平台应该采取更加严格的安全措施来保护用户数据。此外，文章还探讨了用户在社交媒体上如何更好地保护自己的隐私，建议用户审慎分享个人信息和设置隐私设置。综上所述，社交媒体平台应该加强安全措施，用户也应该提高对隐私保护的重视。
 
-<br><br>总结: 在社交媒体平台上，媒体风险和隐私保护问题是关键挑战。用户数据的重要性需要引起重视，平台应该加强安全措施。同时，用户也应该注意在社交媒体上保护自己的隐私。 <div>
+<br /><br />总结: 在社交媒体平台上，媒体风险和隐私保护问题是关键挑战。用户数据的重要性需要引起重视，平台应该加强安全措施。同时，用户也应该注意在社交媒体上保护自己的隐私。 <div>
 <p>Article URL: <a href="https://graydon2.dreamwidth.org/312681.html">https://graydon2.dreamwidth.org/312681.html</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40375341">https://news.ycombinator.com/item?id=40375341</a></p>
 <p>Points: 269</p>
 <p># Comments: 74</p>
 ]]></content:encoded>
-<pubDate>Thu, 16 May 2024 05:01:53 +0000</pubDate>
 <pubDate>Thu, 16 May 2024 05:01:53 +0000</pubDate>
 </item>
 <item>
@@ -29,16 +29,14 @@
 <content:encoded><![CDATA[
 <div> 关键词: 健康, 饮食, 锻炼, 生活方式, 心理健康
 
-总结:<br><br>这篇文章讨论了如何通过正确的饮食和锻炼来维持健康。作者强调了良好的生活方式对健康的重要性，包括规律的运动和均衡的饮食。另外，心理健康也被认为是关键因素，建议保持乐观积极的心态。总的来说，养成良好的生活习惯对于保持健康至关重要。 <div>
+总结:<br /><br />这篇文章讨论了如何通过正确的饮食和锻炼来维持健康。作者强调了良好的生活方式对健康的重要性，包括规律的运动和均衡的饮食。另外，心理健康也被认为是关键因素，建议保持乐观积极的心态。总的来说，养成良好的生活习惯对于保持健康至关重要。 <div>
 <p>Article URL: <a href="https://nondeterministic.computer/@martin/112444389342113780">https://nondeterministic.computer/@martin/112444389342113780</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40369119">https://news.ycombinator.com/item?id=40369119</a></p>
 <p>Points: 266</p>
 <p># Comments: 92</p>
 ]]></content:encoded>
 <pubDate>Wed, 15 May 2024 16:32:08 +0000</pubDate>
-<pubDate>Wed, 15 May 2024 16:32:08 +0000</pubDate>
 </item>
-
 <item>
 <title>Things I won't work with: the higher states of bromine (2019)</title>
 <link>https://blogs.sciencemag.org/pipeline/archives/2019/11/21/the-higher-states-of-bromine</link>

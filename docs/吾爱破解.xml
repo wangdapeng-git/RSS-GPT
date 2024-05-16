@@ -4,6 +4,30 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>《安卓逆向这档事》十八、表哥，你也不想你的Frida被检测吧!(上)</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1921073</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1921073</guid>
+<content:encoded><![CDATA[
+
+[md]![图片|500]()
+# 一、课程目标
+
+1.了解常见frida检测
+# 二、工具
+
+1.教程Demo(更新)
+2.jadx-gui
+3.VS Code
+4.jeb
+
+# 三、课程内容
+## 1.检测文件名、端口名、双进程保护、失效的检测点
+1.检测/data/local/tmp路径下的是否有frida特征文件，server端改 ...
+]]></content:encoded>
+<pubDate>Mon, 06 May 2024 14:10:49 +0000</pubDate>
+<pubDate>Mon, 06 May 2024 14:10:49 +0000</pubDate>
+</item>
 
 <item>
 <title>分享国外脱壳教程</title>
