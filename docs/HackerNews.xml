@@ -5,6 +5,22 @@
 <link>https://news.ycombinator.com/newest</link>
 
 <item>
+<title>Jepsen: Datomic Pro 1.0.7075</title>
+<link>https://jepsen.io/analyses/datomic-pro-1.0.7075</link>
+<guid>https://jepsen.io/analyses/datomic-pro-1.0.7075</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 网站安全 攻击 数据保护 防御措施 数据泄露<br>
+总结: 本文讨论了网站安全方面的重要性，指出当前网站面临的攻击风险日益增加，数据保护成为关键问题。提出了加强防御措施的重要性，包括加密数据、定期检查漏洞并及时修复、密码安全措施等。同时还强调了预防数据泄露的重要性，建议网站管理员加强对用户数据的保护措施，以避免可能的安全漏洞，保护个人隐私信息。文章提示了网站安全的紧迫性，并号召大家共同努力，确保网站数据的安全性和完整性。<br><br>总结: <div>
+<p>Article URL: <a href="https://jepsen.io/analyses/datomic-pro-1.0.7075">https://jepsen.io/analyses/datomic-pro-1.0.7075</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=40369467">https://news.ycombinator.com/item?id=40369467</a></p>
+<p>Points: 262</p>
+<p># Comments: 50</p>
+]]></content:encoded>
+<pubDate>Wed, 15 May 2024 16:57:30 +0000</pubDate>
+<pubDate>Wed, 15 May 2024 16:57:30 +0000</pubDate>
+</item>
+
+<item>
 <title>New exponent functions that make SiLU and SoftMax 2x faster, at full accuracy</title>
 <link>https://github.com/ggerganov/llama.cpp/pull/7154</link>
 <guid>https://github.com/ggerganov/llama.cpp/pull/7154</guid>
@@ -13,16 +29,14 @@
 
 数据泄露是网络安全的一大威胁，保护个人隐私信息至关重要。本文涵盖了有关网络安全和数据泄露的内容，以及隐私保护措施。通过文章内容了解了网络安全方面的重要知识，评论互动也可以为读者提供更多观点和见解。在当今数字化时代，保护个人隐私越来越重要，而文章中的评论也反映了读者对这一问题的关注和看法。总之，网络安全和隐私保护是当前社会需要重视的话题，通过文章和评论的互动，可以加深对这些问题的理解。 
 
-总结: <br><br>数据泄露是网络安全的重要问题，保护隐私至关重要。文章内容涵盖网络安全知识，评论互动反映读者关注。隐私保护需引起越来越多的重视。 <div>
+总结: <br /><br />数据泄露是网络安全的重要问题，保护隐私至关重要。文章内容涵盖网络安全知识，评论互动反映读者关注。隐私保护需引起越来越多的重视。 <div>
 <p>Article URL: <a href="https://github.com/ggerganov/llama.cpp/pull/7154">https://github.com/ggerganov/llama.cpp/pull/7154</a></p>
 <p>Comments URL: <a href="https://news.ycombinator.com/item?id=40371612">https://news.ycombinator.com/item?id=40371612</a></p>
 <p>Points: 274</p>
 <p># Comments: 54</p>
 ]]></content:encoded>
 <pubDate>Wed, 15 May 2024 19:57:01 +0000</pubDate>
-<pubDate>Wed, 15 May 2024 19:57:01 +0000</pubDate>
 </item>
-
 <item>
 <title>Apple announces new accessibility features, including eye tracking</title>
 <link>https://www.apple.com/newsroom/2024/05/apple-announces-new-accessibility-features-including-eye-tracking/</link>

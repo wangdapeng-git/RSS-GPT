@@ -1060,3 +1060,12 @@ Summarized using GPT-3.5-turbo
 Append: [New exponent functions that make SiLU and SoftMax 2x faster, at full accuracy](https://github.com/ggerganov/llama.cpp/pull/7154)
 append_entries: 1
 Finish: 2024-05-16 06:11:58.184682
+------------------------------------------------------
+Started: 2024-05-16 08:10:50.587172
+Existing_entries: 118
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 55
+Summarized using GPT-3.5-turbo
+Append: [Jepsen: Datomic Pro 1.0.7075](https://jepsen.io/analyses/datomic-pro-1.0.7075)
+append_entries: 1
+Finish: 2024-05-16 08:10:58.654476
