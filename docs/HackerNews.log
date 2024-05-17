@@ -1141,3 +1141,15 @@ Summarized using GPT-3.5-turbo
 Append: [Students invent quieter leaf blower](https://hub.jhu.edu/2024/05/14/quieter-leaf-blower/)
 append_entries: 2
 Finish: 2024-05-16 22:10:19.979037
+------------------------------------------------------
+Started: 2024-05-17 00:45:03.084747
+Existing_entries: 129
+Fetching from https://hnrss.org/newest?points=250&comments=25
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [Winamp has announced that it is "opening up" its source code](https://about.winamp.com/press/article/winamp-open-source-code)
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [Sprint, T-Mobile Merger Killed Wireless Price Competition in U.S.](https://www.techdirt.com/2024/05/16/report-sprint-t-mobile-merger-immediately-killed-wireless-price-competition-in-u-s/)
+append_entries: 2
+Finish: 2024-05-17 00:45:19.681514
