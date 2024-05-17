@@ -687,3 +687,9 @@ Summarized using GPT-3.5-turbo
 Append: [The Real Python Podcast – Episode #205: Considering Accessibility & Assistive Tech as a Python Developer](https://realpython.com/podcasts/rpp/205/)
 append_entries: 1
 Finish: 2024-05-17 12:17:44.108609
+------------------------------------------------------
+Started: 2024-05-17 14:10:25.232330
+Existing_entries: 47
+Fetching from https://realpython.com/atom.xml
+append_entries: 0
+Finish: 2024-05-17 14:10:25.505767
