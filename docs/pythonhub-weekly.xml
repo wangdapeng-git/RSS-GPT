@@ -1,0 +1,2087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Python Hub Weekly Digests</title>
+<link>https://pythonhub.dev/</link>
+
+<item>
+<title>Python Hub Weekly Digest for 2024-05-12</title>
+<link>https://pythonhub.dev/digest/2024-05-12/</link>
+<guid>https://pythonhub.dev/digest/2024-05-12/</guid>
+<content:encoded><![CDATA[
+<div> Figma, Python GUI, vector embeddings, Llama-3 agents, sleepsort<br>
+<br>总结: 本文介绍了如何使用Figma进行拖放操作轻松创建Python GUI，深度探讨了向量嵌入的类型、神经网络如何创建它们以及嵌入如何工作的原理。还介绍了Llama-3代理程序，可以按照指令浏览网络并与用户交流。文章还提到了一个带有"sleepsort"算法的趣味性排序方法，介绍了TypeGuard和TypeIs类型注释在Python中的差异，介绍了MuseV项目和构建应用程序来存储和查询有关水晶和宝石数据的方法。 <div>
+<img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-05-12.jpg" />
+
+
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://github.com/enzet/map-machine">Map Machine: Python renderer for OpenStreetMap with custom icons</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Axorax/tkforge">tkforge</a></strong>
+    
+        <br /><span>Drag & drop in Figma to create a Python GUI with ease.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pyinfra.com/">Pyinfra: Automate Infrastructure Using Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.timescale.com/blog/a-beginners-guide-to-vector-embeddings/">A Beginner’s Guide to Vector Embeddings</a></strong>
+    
+        <br /><span>In this article, we’ll examine vector embeddings in depth, including the types of vector embeddings, how neural networks create them, how vector embeddings work, and how you can create embeddings for your data.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/McGill-NLP/webllama">WebLlama</a></strong>
+    
+        <br /><span>Llama-3 agents that can browse the web by following instructions and talking to you.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://blog.mozilla.ai/local-llm-as-judge-evaluation-with-lm-buddy-prometheus-and-llamafile">Local LLM-as-judge evaluation with lm-buddy, Prometheus and llamafile</a></strong>
+    
+        <br /><span>This post examines how different software components came together to allow LLM-as-judge evaluation without the need for expensive GPUs. All the components were built with and chosen for their user control, open source nature, and interoperability.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://animeshchouhan.com/posts/sleepsort">Sleepsort: Sorting while sleeping</a></strong>
+    
+        <br /><span>The post introduces the "sleepsort" algorithm, a quirky sorting method that utilizes thread sleep times to sort integers in ascending order. It provides a playful yet insightful exploration of the algorithm's functionality and limitations.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://rednafi.com/python/typeguard_vs_typeis/">TypeIs does what I thought TypeGuard would do in Python</a></strong>
+    
+        <br /><span>The article discusses the differences between the TypeGuard and TypeIs type annotations in Python. It explains that TypeIs has more intuitive behavior compared to TypeGuard, especially when dealing with union types, and recommends using TypeIs over TypeGuard in most cases.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/TMElyralab/MuseV">TMElyralab / MuseV</a></strong>
+    
+        <br /><span>MuseV: Infinite-length and High Fidelity Virtual Human Video Generation with Visual Conditioned Parallel Denoising</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://adamj.eu/tech/2024/04/29/django-admin-prevent-leaking-requests/">Django: An admin extension to prevent state leaking between requests</a></strong>
+    
+        <br /><span>Here’s a small protection I added to a project a few years ago. I was considering it again since I saw a similar potential bug in a Django middleware.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.datastax.com/blog/building-a-generative-ai-crystal-image-search-app-with-vector-search">How to Build a Crystal Image Search App with Vector Search</a></strong>
+    
+        <br /><span>A demonstration of how to build an application to store and query data on crystals and precious stones using Astra DB. Built with RAGStack, this web app leverages the CLIP model to provide multi-modal search to retrieve data on all kinds of crystals.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://hereket.com/posts/linux_live_reload_python_server/">Poor mans autoreload server in single file python on linux</a></strong>
+    
+        <br /><span>The article describes a simple Python server that provides automatic browser page reload on content change, without requiring any additional setup or configuration. The server acts as a regular file server but also serves WebSocket messages over a specified path to trigger the page reload.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.borrego.dev/entries/patching-requests-for-fun-and-concurrent-profit.html">Patching requests for fun and (concurrent) profit</a></strong>
+    
+        <br /><span>Because life is too short to spam calls to SSL_CTX_load_verify_locations().</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.photondesigner.com/articles/voice-api">Stream your voice clone</a></strong>
+    
+        <br /><span>We'll turn your voice into an infinitely-scalable instrument with Django.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://superfastpython.com/asyncio-coroutine-methods/">Asyncio Coroutine Object Methods in Python</a></strong>
+    
+        <br /><span>We can define coroutine methods on custom Python objects. This allows methods on custom Python objects to use async/await syntax, such as awaiting other coroutines and tasks and allows the custom coroutine methods themselves to be awaited within our asyncio programs. In this tutorial, you will discover how to define object methods as coroutines.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-05-05/">Python Hub Weekly Digest for 2024-05-05</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Doriandarko/maestro">Doriandarko / maestro</a></strong>
+    
+        <br /><span>A framework for Claude Opus to intelligently orchestrate subagents.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/pytorch/torchtitan">torchtitan</a></strong>
+    
+        <br /><span>A native PyTorch Library for large model training.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/truefoundry/cognita">Cognita</a></strong>
+    
+        <br /><span>RAG (Retrieval Augmented Generation) Framework for building modular, open source applications for production by TrueFoundry</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Never-Over/tach">tach</a></strong>
+    
+        <br /><span>A Python tool to enforce a modular, decoupled package architecture.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/TagStudioDev/TagStudio">TagStudio</a></strong>
+    
+        <br /><span>A file and photo management application and system.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/cohere-ai/cohere-toolkit">cohere-toolkit</a></strong>
+    
+        <br /><span>Toolkit is a collection of prebuilt components enabling users to quickly build and deploy RAG applications.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/InternLM/lmdeploy">LMDeploy</a></strong>
+    
+        <br /><span>LMDeploy is a toolkit for compressing, deploying, and serving LLMs.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1ckrmog/introducing_pgqueuer_a_minimalist_python_job/">Introducing PgQueuer: A Minimalist Python Job Queue Built on PostgreSQL</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 12 May 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 12 May 2024 18:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Python Hub Weekly Digest for 2024-05-05</title>
+<link>https://pythonhub.dev/digest/2024-05-05/</link>
+<guid>https://pythonhub.dev/digest/2024-05-05/</guid>
+<content:encoded><![CDATA[
+<div> llama3, Ollama, Django, HTMX, PyTorch<br>
+<br>
+llama3和Ollama是一种开源的ngrok替代品，用于团队使用。文章介绍了如何使用Ollama在本地运行Llama2和Llama3语言模型，并演示了通过Python操作这些模型的方法。另外还介绍了使用Django构建AI驱动功能的方法，以及使用HTMX构建多人游戏的过程。PyTorch 2.3版本支持用户定义的Triton内核，并改进了大型语言模型的训练体验。整篇文章涵盖了构建AI功能、Django应用、HTMX多人游戏、PyTorch新特性和模型训练等内容。<br><br>总结: 提供了一种团队使用的开源ngrok替代品，介绍了如何在本地运行Llama3和Llama2语言模型，以及在Django中构建AI功能和使用HTMX构建多人游戏的方法。此外还介绍了PyTorch 2.3版本的新特性和改进。 <div>
+<img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-05-05.jpg" />
+
+
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://github.com/amalshaji/portr">Portr</a></strong>
+    
+        <br /><span>Open source ngrok alternative designed for teams</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/instructlab/instructlab">InstructLab</a></strong>
+    
+        <br /><span>Command-line interface. Use this to chat with the model or train the model (training consumes the taxonomy data)</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.mostlypython.com/django-from-first-principles-2/">Django from first principles</a></strong>
+    
+        <br /><span>Many people don't realize you can start a Django project with a single file. This series walks through the process of building a simple but non-trivial project by starting with a single file. The project only expands to additional files when it makes sense to move code out of the main file. By the end of the series, we'll have a project with a structure similar to what's generated by sta...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.pythonmorsels.com/time-complexities/">Python Big O: Time complexities of different data structures in Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=wPuoMaD_SnY">Run Llama 3 locally using Ollama and LlamaEdge</a></strong>
+    
+        <br /><span>Meta has unveiled Llama3, and now you can run it locally using Ollama. In this video, I explain how to use Ollama to operate various language models, specifically focusing on Llama2 and Llama3. I'll also guide you through the WebUI for the project, demonstrating how to serve models with Ollama and interact with them using Python.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://www.denoise.digital/llama-3-get-started-with-llms/">Llama 3: Get building with LLMs in 5 minutes</a></strong>
+    
+        <br /><span>Get started building transformative AI-powered features within 5 minutes using Llama 3, Ollama, and Python.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://solara.dev/documentation/getting_started/tutorials/jupyter-dashboard-part1">Build your Jupyter dashboard using Solara</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://simonwillison.net/2024/Apr/27/everything-googles-python-team-were-responsible-for/">Everything Google's Python team were responsible for</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://adamj.eu/tech/2024/04/24/django-pinpoint-upstream-git/">Django: Pinpoint upstream changes with Git</a></strong>
+    
+        <br /><span>In this post, we’ll cover Django’s branching structure, determining and searching through those commits, a worked example, and advanced behavioural searching with git bisect.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://circumeo.io/blog/entry/building-a-voice-notes-app-with-django-and-openai/">Building a Voice Notes App with Django and OpenAI</a></strong>
+    
+        <br /><span>We'll build a voice notes app that uses OpenAI to perform speech to text. As a bonus, we'll use AlpineJS to manage state on the frontend.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/fudan-generative-vision/champ">fudan-generative-vision / champ</a></strong>
+    
+        <br /><span>Champ: Controllable and Consistent Human Image Animation with 3D Parametric Guidance</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/databonsai/databonsai">Data Bonsai: a Python package to clean your data with LLMs</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pysheets.app/">PySheets – Spreadsheet UI for Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/meta-llama/codellama">meta-llama / codellama</a></strong>
+    
+        <br /><span>Inference code for CodeLlama models</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://news.ycombinator.com/item?id=40104427">Ask HN: Python Metrics Library</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/pydantic/pydantic/releases/tag/v2.7.0">Pydantic 2.7 released: the fastest version yet</a></strong>
+    
+        <br /><span>It finally integrates jiter, a high speed JSON parser</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://hashquery.dev/">Hashquery, a Python library for defining reusable analysis</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/jxnl/instructor">jxnl / instructor</a></strong>
+    
+        <br /><span>structured outputs for llms</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.photondesigner.com/articles/connect4-htmx">Build a Connect Four game with HTMX and Django in 8 minutes</a></strong>
+    
+        <br /><span>By the end, you'll have built a multiplayer game using HTMX, using neat server-side logic and storing all results in your database. HTMX is a great way to use javascript without writing javascript.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.saaspegasus.com/guides/django-websockets-chatgpt-channels-htmx/">Learn to use Websockets with Django by building your own ChatGPT</a></strong>
+    
+        <br /><span>Everything you need to know about websockets to use them in your applications, with Django, channels, and HTMX.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://harper.blog/2024/04/12/i-accidentally-built-a-meme-search-engine">I accidentally built a meme search engine</a></strong>
+    
+        <br /><span>Or: how to learn about clip/siglip and vector encoding images.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pytorch.org/blog/pytorch2-3/">PyTorch 2.3</a></strong>
+    
+        <br /><span>PyTorch 2.3 offers support for user-defined Triton kernels in torch.compile, allowing for users to migrate their own Triton kernels from eager without experiencing performance regressions or graph breaks. Tensor Parallelism improves the experience for training Large Language Models using native PyTorch functions, which has been validated on training runs for 100B parameter models. As wel...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-04-28/">Python Hub Weekly Digest for 2024-04-28</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/aiplanethub/beyondllm">BeyondLLM</a></strong>
+    
+        <br /><span>Build, evaluate and observe LLM apps.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/hashboard-hq/hashquery">Hashquery</a></strong>
+    
+        <br /><span>A Python framework for defining and querying BI models in your data warehouse.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/anthropics/anthropic-cookbook">anthropic-cookbook</a></strong>
+    
+        <br /><span>A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/meta-llama/llama3">llama3</a></strong>
+    
+        <br /><span>This release includes model weights and starting code for pre-trained and instruction tuned Llama 3 language models — including sizes of 8B to 70B parameters.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/apple/corenet">CoreNet</a></strong>
+    
+        <br /><span>A library for training deep neural networks by Apple.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Never-Over/bridge">bridge</a></strong>
+    
+        <br /><span>Automatic infrastructure for Django.</span>
+    
+    </p>
+
+
+<hr />
+]]></content:encoded>
+<pubDate>Sun, 05 May 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 05 May 2024 18:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Python Hub Weekly Digest for 2024-04-28</title>
+<link>https://pythonhub.dev/digest/2024-04-28/</link>
+<guid>https://pythonhub.dev/digest/2024-04-28/</guid>
+<content:encoded><![CDATA[
+<div> Leibniz formula, calculate, value, π, asyncio connections
+
+Leibniz formula 可以用不同的方法来计算π的值，在此使用了Asyncio连接和流。通过开发回声客户端和服务器，可以实现这一目标。总结：Leibniz公式可用于计算π的值，本文介绍了使用Asyncio连接和流进行计算的方法。 <div>
+<img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-04-28.jpg" />
+
+
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://alpopkes.com/posts/python/packaging_tools/">An unbiased evaluation of Python environment and packaging tools (2023)</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.peterbe.com/plog/leibniz-formula-for-pi">Leibniz formula for π in Python, JavaScript, and Ruby</a></strong>
+    
+        <br /><span>Different ways to calculate the value of &pi;  using the Leibniz ...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://superfastpython.com/asyncio-echo-client-server/">Develop an Asyncio Echo Client and Server</a></strong>
+    
+        <br /><span>You can develop an echo client and server using asyncio connections and streams. An echo server ...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-04-21/">Python Hub Weekly Digest for 2024-04-21</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.bitecode.dev/p/testing-with-python-part-1-the-basics">Testing with Python (part 1): the basics</a></strong>
+    
+        <br /><span>SummaryThis intro is about dumb test writing, as it's the necessary foundation to learn what comes ...</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://github.com/OpenInterpreter/01">OpenInterpreter / 01</a></strong>
+    
+        <br /><span>The open-source language model computer</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://saeedesmaili.com/posts/running-python-on-a-serverless-gpu-instance/">Running Python on a serverless GPU instance for machine learning inference</a></strong>
+    
+        <br /><span>I was experimenting with some speech-to-text work using OpenAI&rsquo;s Whisper models
+ ...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://jameshfisher.com/2024/04/12/shape-typing-in-python/">Shape Typing in Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://wasmer.io/posts/py2wasm-a-python-to-wasm-compiler">Py2wasm – A Python to WASM Compiler</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+
+<hr />
+]]></content:encoded>
+<pubDate>Sun, 28 Apr 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 28 Apr 2024 18:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Python Hub Weekly Digest for 2024-04-21</title>
+<link>https://pythonhub.dev/digest/2024-04-21/</link>
+<guid>https://pythonhub.dev/digest/2024-04-21/</guid>
+<content:encoded><![CDATA[
+<div> 计算位置 太阳 月亮 日食 Python
+
+总结:<br><br>这篇文章描述了作者如何使用Python脚本计算太阳和月亮的位置，预测日全食的位置，利用Astropy库等Python包，在大约100行代码中完成。文章还提到了使用cosine相似度比较文本嵌入来确定不同文本输入之间的相似性，并提供了计算cosine相似度的示例代码。此外，文章还讨论了使用Django、websockets和HTMX逐步构建ChatGPT克隆的过程，以及使用Django的GeneratedField来自动进行数据库计算的简短示例。文章还强调了构建客户端库的方法，重点在于利用现有文件系统抽象库，如fsspec，以提供无需定制API的无缝用户体验。 <div>
+<img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-04-21.jpg" />
+
+
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://erikbern.com/2024/04/07/predicting-solar-eclipses-with-python">Predicting solar eclipses with Python</a></strong>
+    
+        <br /><span>The article describes how the author was able to write a Python script to compute the position of the sun and moon and predict the location of total solar eclipses, leveraging the Astropy library and other Python packages, all in around 100 lines of code.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/nashsu/FreeAskInternet">FreeAskInternet</a></strong>
+    
+        <br /><span>FreeAskInternet is a completely free, private and locally running search aggregator & answer generate using LLM, without GPU needed. The user can ask a question and the system will make a multi engine search and combine the search result to the ChatGPT3.5 LLM and generate the answer based on search results.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://csvbase.com/blog/7">Client libraries are better when they have no API</a></strong>
+    
+        <br /><span>The article discusses the author's approach to building a client library for the csvbase, focusing on leveraging existing file system abstraction libraries like fsspec to provide a seamless user experience without a custom API. It highlights the benefits of this approach, such as enabling integration with a wide range of tools and libraries that already support the fsspec interface.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://medium.com/techtofreedom/9-advanced-python-type-hints-that-will-improve-your-code-significantly-ae09ab3b3493">9 Advanced Python Type Hints That Will Improve Your Code Significantly</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=aAy-B6KPld8">SQLAlchemy: The BEST SQL Database Library in Python</a></strong>
+    
+        <br /><span>Ever heard of SQLAlchemy and thought it sounded like a medieval potion? Well, it's not! SQLAlchemy combines the robustness of SQL with Python's flexibility, making database management not just easier, but kinda fun too! In this video, I’ll take a closer look at this awesome tool.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://github.com/philz1337x/clarity-upscaler">philz1337x / clarity-upscaler</a></strong>
+    
+        <br /><span>Clarity AI | AI Image Upscaler & Enhancer - free and open-source Magnific Alternative</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://earthly.dev/blog/cosine_similarity_text_embeddings/">Cosine Similarity and Text Embeddings In Python with OpenAI</a></strong>
+    
+        <br /><span>The article discusses how to use cosine similarity to compare text embeddings, which are vector representations of text that capture semantic meaning, in order to determine the similarity between different text inputs. It provides example code for calculating cosine similarity between text embeddings generated using the OpenAI API.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythoninsider.blogspot.com/2024/04/python-3123-and-3130a6-released.html">Python 3.12.3 and 3.13.0a6 released</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=8JSiiPW4S0A">Building a streaming ChatGPT clone, with Django, Channels, and HTMX</a></strong>
+    
+        <br /><span>This video walks you through the process of building a ChatGPT clone step-by-step using Django, websockets, and HTMX. Each piece of functionality is broken down into a single commit, then explained and demonstrated. By the end, a fully functional, streaming chatbot app is ready!</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=b7VkVHBX47w">7 examples in 6 minutes using Django GeneratedField</a></strong>
+    
+        <br /><span>We'll go over 7 short examples in 6 minutes. After looking at them, you'll know how to use Django's GeneratedField - doing calculations automatically with the database quickly and neatly.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/openai/grok">openai / grok</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://devblogs.microsoft.com/python/python-in-visual-studio-code-april-2024-release/">Python in Visual Studio Code – April 2024 Release</a></strong>
+    
+        <br /><span>This release includes the following announcements:</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-04-14/">Python Hub Weekly Digest for 2024-04-14</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://ivaniscoding.github.io/posts/codeinterview/">How to survive coding interviews with a single line of Python code</a></strong>
+    
+        <br /><span>The article discusses techniques for solving coding interview questions using concise, single-line Python code.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://posit-dev.github.io/great-tables/blog/design-philosophy">The Design Philosophy of Great Tables</a></strong>
+    
+        <br /><span>The article discusses the importance of well-designed tables for effectively presenting data, drawing inspiration from historical tabular design principles. It highlights the Great Tables library's focus on providing various customization options to help users create visually appealing and structured tables for publications, reports, and other data-driven content</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/nus-apr/auto-code-rover">AutoCodeRover</a></strong>
+    
+        <br /><span>A project structure aware autonomous software engineer aiming for autonomous program improvement.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Libr-AI/OpenFactVerification">Loki</a></strong>
+    
+        <br /><span>An Open-source Tool for Fact Verification.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/PhonePe/mantis">Mantis</a></strong>
+    
+        <br /><span>Mantis is a security framework that automates the workflow of discovery, reconnaissance, and vulnerability scanning.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1c2us61/chatgpt_python/">ChatGPT / Python</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 21 Apr 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 21 Apr 2024 18:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Python Hub Weekly Digest for 2024-04-14</title>
+<link>https://pythonhub.dev/digest/2024-04-14/</link>
+<guid>https://pythonhub.dev/digest/2024-04-14/</guid>
+<content:encoded><![CDATA[
+<div> WGPU, Python 3.12, Generics, Make, Code Repair
+总结:<br><br>本文介绍了Python 3.12中的泛型特性，以及如何利用它们提高代码灵活性和减少错误。同时讨论了通过使用Make自动化开发环境准备和加速测试驱动开发周期的挑战。另外还介绍了Replit的Code Repair功能，可自动修复代码中的常见错误，提高开发效率和代码质量。文章详细探讨了这些主题，为Python开发者提供了有益的指导。 <div>
+<img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-04-14.jpg" />
+
+
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://github.com/schlegelp/octarine">Octarine</a></strong>
+    
+        <br /><span>A new lightweight, WGPU-based 3D viewer for Python.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=2-SPH9hIKT8">A little guide to building Large Language Models in 2024</a></strong>
+    
+        <br /><span>This is the first video of a 2 part series covering all the concepts to train a good performance LLM in 2024.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=TkDg3EHwC1g">Python 3.12 Generics in a Nutshell</a></strong>
+    
+        <br /><span>Generics in Python 3.12 can transform your code by allowing classes to be used with different data types, enhancing flexibility, and catching bugs early. This video dives into generic classes and subclasses and show you how they can streamline your development process.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://tech.target.com/blog/make-python-devex">Make Python DevEx</a></strong>
+    
+        <br /><span>The article discusses the challenges of setting up a productive Python development environment and how using Make can help alleviate these barriers by automating the preparation of the development environment and expediting the test-driven development cycle. The author provides an example project that demonstrates how to use Make to improve the Python developer experience across multiple...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.replit.com/code-repair">Building LLMs for Code Repair</a></strong>
+    
+        <br /><span>The article discusses Replit's Code Repair feature, which automatically fixes common programming errors and issues in code. It explores how Code Repair helps developers save time and improve code quality by providing automated solutions to common coding problems.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://www.mostlypython.com/using-breakpoints-to-explore-your-code/">Using breakpoints to explore your code</a></strong>
+    
+        <br /><span>This post guides Python developers on effectively utilizing breakpoints to debug and explore code execution flow. It offers practical tips and examples to leverage breakpoints for better understanding and troubleshooting of Python code.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://finedataproducts.com/posts/2024-03-10-tax-scenarios-with-ai/">Can GPT Optimize My Taxes?</a></strong>
+    
+        <br /><span>The post describes a web application that uses GPT-4 and the tenforty Python library to allow users to input tax scenarios and receive optimized tax calculations and recommendations. The application aims to provide a more flexible and personalized tax advisory experience compared to traditional tax software.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Lightning-AI/litgpt">Lightning-AI / litgpt</a></strong>
+    
+        <br /><span>Hackable implementation of state-of-the-art open-source LLMs based on nanoGPT. Supports flash attention, 4-bit and 8-bit quantization, LoRA and LLaMA-Adapter fine-tuning, pre-training. Apache 2.0-licensed.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://fly.io/django-beats/asgi-deployment-options-for-django/">ASGI deployment options for Django</a></strong>
+    
+        <br /><span>The article explores ASGI deployment options for Django applications, providing insights into deploying Django with ASGI servers.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://outlore.dev/blog/python-dev-2024/">How I manage Python in 2024</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://hynek.me/articles/python-virtualenv-redux/">Python Project-Local Virtualenv Management Redux</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/hpcaitech/Open-Sora">hpcaitech / Open-Sora</a></strong>
+    
+        <br /><span>Open-Sora: Democratizing Efficient Video Production for All</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.sbert.net/index.html">SentenceTransformers: Python framework for sentence, text and image embeddings</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/naver/dust3r">naver / dust3r</a></strong>
+    
+        <br /><span>DUSt3R: Geometric 3D Vision Made Easy</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.cloudflare.com/python-workers">Python Cloudflare Workers</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://codeconfessions.substack.com/p/why-do-python-lists-multiply-oddly">Why Do Python Lists Multiply Oddly? Exploring the CPython Source Code</a></strong>
+    
+        <br /><span>A look at the internals of list implementation in CPython to understand this weird quirk about them.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://lukeplant.me.uk/blog/posts/enforcing-conventions-in-django-projects-with-introspection/">Enforcing conventions in Django projects with introspection</a></strong>
+    
+        <br /><span>Some code and tips to combine Python and Django introspection APIs to enforce naming conventions in your Django models.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.scipress.io/post/rSp9Rov4ppvHgpHQaRPy/Automating-Python-with-Google-Cloud">Automating Python with Google Cloud</a></strong>
+    
+        <br /><span>A tutorial series on how to automate a Python script in Google Cloud using Cloud Functions and/or Cloud Run.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-04-07/">Python Hub Weekly Digest for 2024-04-07</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/princeton-nlp/SWE-agent">SWE-agent</a></strong>
+    
+        <br /><span>SWE-agent turns LMs (e.g. GPT-4) into software engineering agents that can fix bugs and issues in real GitHub repositories.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/infiniflow/ragflow">RAGFlow</a></strong>
+    
+        <br /><span>RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/databricks/dbrx">DBRX</a></strong>
+    
+        <br /><span>Code examples and resources for DBRX, a large language model developed by Databricks.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/emcf/thepipe">thepipe</a></strong>
+    
+        <br /><span>Export any file, folder, website, or repo into GPT-4-Vision with one line of code.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/openscilab/nava">Nava</a></strong>
+    
+        <br /><span>Playing Sounds in Python.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1bs7mv1/does_anyone_actually_use_pypy_or_cython/">Does anyone actually use PyPy or Cython?</a></strong>
+      </p>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/learnpython/comments/1bwufah/most_effective_way_to_keep_a_python_script_always/">Most effective way to keep a python script always &quot;running&quot; on a server?</a></strong>
+      </p>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/madeinpython/comments/1bydj5w/rally_car_tracking_tests/">Rally car tracking tests</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 14 Apr 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 14 Apr 2024 18:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Python Hub Weekly Digest for 2024-04-07</title>
+<link>https://pythonhub.dev/digest/2024-04-07/</link>
+<guid>https://pythonhub.dev/digest/2024-04-07/</guid>
+<content:encoded><![CDATA[
+<div> Zero-Shot Speech Editing, Text-to-Speech, Data Visualization Tools, PostgreSQL, Apache Superset
+<br>
+Zero-Shot Speech Editing和Text-to-Speech技术在实践中的应用，PostgreSQL数据可视化工具的选择及使用教程。
+<br><br>总结:
+Zero-Shot Speech Editing和Text-to-Speech技术在实践中得到了广泛应用，同时介绍了PostgreSQL数据可视化工具的选择和使用方法。文章涵盖了数据处理和技术应用方面的要点，为读者提供了深入了解相关技术的机会。同时还介绍了一些开源项目和最新技术进展，为读者拓宽了视野，加深了对技术领域的理解。 <div>
+<img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-04-07.jpg" />
+
+
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://realpython.com/python-wav-files/">Reading and Writing WAV Files in Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/jasonppy/VoiceCraft">VoiceCraft</a></strong>
+    
+        <br /><span>Zero-Shot Speech Editing and Text-to-Speech in the Wild.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.timescale.com/blog/data-visualization-in-postgresql-with-apache-superset/">Data Visualization in PostgreSQL With Apache Superset</a></strong>
+    
+        <br /><span>Looking for data visualization tools for PostgreSQL? We discuss a few options and provide a step-by-step guide on PostgreSQL and Apache Superset.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonspeed.com/articles/slow-numba/">The wrong way to speed up your code with Numba</a></strong>
+    
+        <br /><span>Numba can make your numeric code faster, but only if you use it right.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/OpenDevin/OpenDevin">OpenDevin</a></strong>
+    
+        <br /><span>An open-source project aiming to replicate Devin, an autonomous AI software engineer who is capable of executing complex engineering tasks and collaborating actively with users on software development projects.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://github.com/OpenInterpreter/open-interpreter">OpenInterpreter / open-interpreter</a></strong>
+    
+        <br /><span>A natural language interface for computers</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/myshell-ai/MeloTTS">myshell-ai / MeloTTS</a></strong>
+    
+        <br /><span>High-quality multi-lingual text-to-speech library by MyShell.ai. Support English, Spanish, French, Chinese, Japanese and Korean.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.pypy.org/posts/2024/03/fixing-bug-incremental-gc.html">Fixing a Bug in PyPy's Incremental GC</a></strong>
+    
+        <br /><span>This post discusses how the author fixed a bug in PyPy's incremental garbage collector that was causing crashes in the AST rewriting phase of pytest on CI environments. It details the technical background on PyPy's incremental GC and the specific issues that were uncovered and resolved in the write barrier implementation.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=Ji2XDxmXSOM">Python Poetry in 8 Minutes</a></strong>
+    
+        <br /><span>This video guides you through the ins and outs of managing Python virtual environments, while also introducing you to Poetry. You'll learn a host of tips and strategies to manage your projects with greater effectiveness and efficiency.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.pythonmorsels.com/unnecessary-else-statements/">Unnecessary else statements</a></strong>
+    
+        <br /><span>Let's talk about unnecessary else statements in Python.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://stealthrocket.tech/blog/distributed-coroutines-in-python/">Distributed coroutines with a native Python extension and Dispatch</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.bitecode.dev/p/whats-up-python-iphone-support-sealed">What's up Python? iphone support, @sealed, PYTHON_GIL=0...</a></strong>
+    
+        <br /><span>A summary of what happened in the Python community in march</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://adamj.eu/tech/2024/03/23/django-optimizing-system-checks/">Django: Write-up on optimizing the system check framework</a></strong>
+    
+        <br /><span>The post discusses optimizations made to Django's system check framework, which had gained a reputation for being slow. The optimizations reduced the runtime of running checks on an example client project from 37ms to 18ms, a 50% reduction.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/playlist?list=PLgRx2Eap1Wm2W-ozbwAZwffEwTTy8xS5g">Building a Django API for Mobile Developers</a></strong>
+    
+        <br /><span>A dive into the backend side of app development, focusing on building robust APIs with Django and Django Rest Framework.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?&amp;v=C_5KRqQrGD4">Secure LLM Architecture - Testing LLM Guard</a></strong>
+    
+        <br /><span>The video explores LLM architectures, addressing security concerns and critiquing ineffective security tools. It introduces LLM Guard, an open-source tool aiming to enhance LLM security by checking inputs for malicious intent and outputs for sensitive data, demonstrated through practical examples and emphasizing the importance of output monitoring and permissions in safeguarding data.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://mhamilton.net/featup.html">FeatUp</a></strong>
+    
+        <br /><span>A Model-Agnostic Framework for Features at Any Resolution.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/bigcode-project/starcoder2">bigcode-project / starcoder2</a></strong>
+    
+        <br /><span>Home of StarCoder2!</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://lwn.net/Articles/964839/">&quot;Real&quot; anonymous functions for Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-03-31/">Python Hub Weekly Digest for 2024-03-31</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/IDEA-Research/T-Rex">T-Rex</a></strong>
+    
+        <br /><span>Towards Generic Object Detection via Text-Visual Prompt Synergy.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Lightning-AI/lightning-thunder">lightning-thunder</a></strong>
+    
+        <br /><span>Make PyTorch models Lightning fast! Thunder is a source to source compiler for PyTorch. It enables using different hardware executors at once.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/mrphrazer/reverser_ai">reverser_ai</a></strong>
+    
+        <br /><span>Provides automated reverse engineering assistance through the use of local large language models (LLMs) on consumer hardware.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/TracecatHQ/tracecat">Tracecat</a></strong>
+    
+        <br /><span>The AI-native, open source alternative to Tines / Splunk SOAR.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/thinkany-ai/rag-search">rag-search</a></strong>
+    
+        <br /><span>RAG Search API.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/stitionai/devika">Devika</a></strong>
+    
+        <br /><span>Agentic AI Software Engineer. Devika aims to be a competitive open-source alternative to Devin by Cognition AI.</span>
+    
+    </p>
+
+
+<hr />
+]]></content:encoded>
+<pubDate>Sun, 07 Apr 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 07 Apr 2024 18:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Python Hub Weekly Digest for 2024-03-31</title>
+<link>https://pythonhub.dev/digest/2024-03-31/</link>
+<guid>https://pythonhub.dev/digest/2024-03-31/</guid>
+<content:encoded><![CDATA[
+<div> Python, command-line, argparse, BMI calculator, Linux head command
+
+总结:<br><br>这篇文章详细介绍了如何在Python中实现命令行应用程序，并使用argparse模块解释参数、标志和选项在命令行应用程序中的工作原理。通过构建一个BMI计算器应用程序和在Python中实现Linux head命令，深入探讨了命令行应用程序的实现过程和应用场景。文章内容包括了建立BMI计算器应用程序的步骤和解释了argparse模块的使用方法，同时也讨论了如何在Python中实现Linux head命令，为读者提供了实用的示例和指导。文章内容详实，适合Python初学者和有一定经验的开发人员阅读学习。 <div>
+<img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-03-31.jpg" />
+
+
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://github.com/albertan017/LLM4Decompile">LLM4Decompile</a></strong>
+    
+        <br /><span>Reverse Engineering: Decompiling Binary Code with Large Language Models.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.honeybadger.io/blog/building-command-line-applications-in-python-a-comprehensive-guide/">Building command-line applications in Python</a></strong>
+    
+        <br /><span>Dive into a comprehensive guide on implementing command-line applications in Python. This tutorial uses the argparse module to explain how arguments, flags, and options work in a command-line application by building a BMI calculator app and implementing the Linux head command in Python.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.bitecode.dev/p/relieving-your-python-packaging-pain">Relieving your Python packaging pain</a></strong>
+    
+        <br /><span>An opinionated take for bootstrapping Python</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://docs.sweep.dev/blogs/file-cache">File-based cache for slow Python functions</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.pythonmorsels.com/every-dunder-method/">Every dunder method in Python</a></strong>
+    
+        <br /><span>An explanation of all of Pytho's 100+ dunder methods and 50+ dunder attributes, including a summary of each one.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://jamesg.blog/2024/03/16/vinyl-record-indexing/">Cataloguing my vinyl collection with computer vision</a></strong>
+    
+        <br /><span>The post  details the process of cataloguing a vinyl collection using computer vision, focusing on identifying unique vinyl records through a systematic approach. By leveraging computer vision technology and embedding techniques, the author shares insights into creating a system that accurately identifies and indexes vinyl records for efficient cataloging and organization.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://arxiv.org/html/2403.08299v1">AutoDev: Automated AI-Driven Development</a></strong>
+    
+        <br /><span>The paper "AutoDev: Automated AI-Driven Development" presents an automated approach to AI-driven development, involving a collaborative effort by multiple authors. It explores the advancements in automated development processes driven by artificial intelligence, showcasing a comprehensive study on AutoDev</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.dataschool.io/jupyter-and-ipython-terminology/">Jupyter &amp; IPython terminology explained</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/leapingio/leaping">Leaping – Debug Python tests instantly with an LLM debugger</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/FujiwaraChoki/MoneyPrinterV2">FujiwaraChoki / MoneyPrinterV2</a></strong>
+    
+        <br /><span>Automate the process of making money online.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/pyenv/pyenv">Pyenv – lets you easily switch between multiple versions of Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://klioba.com/how-to-use-postgresql-for-military-geoanalytics-tasks">How to use PostgreSQL for (military) geoanalytics tasks</a></strong>
+    
+        <br /><span>This is a detailed guide on utilizing PostgreSQL for military geoanalytics tasks, emphasizing the importance of geospatial data processing in military operations. It covers methods for processing geospatial data, finding nearest objects, distance calculations, using geospatial indexes, determining points within polygons, and geospatial aggregation to enhance analytical capabilities in mi...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://modal.com/blog/serverless-http">Lambda on hard mode: Inside Modal's web infrastructure</a></strong>
+    
+        <br /><span>This post talks about how Modal handles real-time HTTP requests and WebSockets in serverless functions.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.django-rest-framework.org/community/3.15-announcement/">Django REST framework 3.15</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythoninsider.blogspot.com/2024/03/python-31014-3919-and-3819-is-now.html">Python 3.10.14, 3.9.19, and 3.8.19 is now available</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Vchitect/Latte">Vchitect / Latte</a></strong>
+    
+        <br /><span>Latte: Latent Diffusion Transformer for Video Generation.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://austinsnerdythings.com/2021/10/15/creating-an-autopilot-in-x-plane-using-python-part-1/">Creating an autopilot in X-Plane using Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/levihsu/OOTDiffusion">levihsu / OOTDiffusion</a></strong>
+    
+        <br /><span>Official implementation of OOTDiffusion: Outfitting Fusion based Latent Diffusion for Controllable Virtual Try-on</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=n1nqgMtWRwg">How to Test Asynchronous Code in Python</a></strong>
+    
+        <br /><span>Testing asynchronous code is tricky but essential for creating smooth, error-free, and reliable applications. So in this video, I'll guide you through the basics of testing asynchronous code effectively.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.chenyang.co/diffusion.html">Diffusion models from scratch, from a new theoretical perspective</a></strong>
+    
+        <br /><span>The article provides insights into interpreting and enhancing diffusion models using the Euclidean distance function, offering a detailed exploration of diffusion models and their applications. It focuses on improving diffusion models through gradient estimation, efficient sampling techniques, and visualizing the impact of momentum terms on text-to-image generation.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/playlist?list=PLpyspNLjzwBnP-906FBRP5qzB4YXjMvnT">Nextjs and Django Airbnb Clone</a></strong>
+    
+        <br /><span>Learn how to build a fullstack clone of Airbnb using technologies like Nextjs/React and Tailwind in the frontend, and Django with Django rest framework in the backend.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://reflex.dev/blog/2024-03-21-reflex-architecture/">Designing a Pure Python Web Framework</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://bpcreech.com/post/mini-racer/">Reviving PyMiniRacer: A Python &lt;&gt; JavaScript Bridge</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-03-24/">Python Hub Weekly Digest for 2024-03-24</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/luijait/DarkGPT">DarkGPT</a></strong>
+    
+        <br /><span>DarkGPT is an artificial intelligence assistant based on GPT-4-200K designed to perform queries on leaked databases.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Skyvern-AI/skyvern">Skyvern</a></strong>
+    
+        <br /><span>Automate browser-based workflows with LLMs and Computer Vision.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/lavague-ai/LaVague">LaVague</a></strong>
+    
+        <br /><span>Automate automation with Large Action Model framework.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/xai-org/grok-1">Grok-1</a></strong>
+    
+        <br /><span>Grok open release.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/fzakaria/sqlelf">sqlelf</a></strong>
+    
+        <br /><span>Explore ELF objects through the power of SQL.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/yoheinakajima/mindgraph">MindGraph</a></strong>
+    
+        <br /><span>Proof of concept prototype for generating and querying against an ever-expanding knowledge graph with AI.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/amazon-science/chronos-forecasting">Chronos</a></strong>
+    
+        <br /><span>Pretrained (Language) Models for Probabilistic Time Series Forecasting.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/phospho-app/phospho">phospho</a></strong>
+    
+        <br /><span>Text analytics for LLM apps. PostHog for prompts. Extract evaluations, intents and events from text messages. phospho leverages LLM (OpenAI, MistralAI, Ollama, etc.)</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/luyug/magix">Magix</a></strong>
+    
+        <br /><span>Supercharge huggingface transformers with model parallelism.</span>
+    
+    </p>
+
+
+<hr />
+]]></content:encoded>
+<pubDate>Sun, 31 Mar 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 31 Mar 2024 18:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Python Hub Weekly Digest for 2024-03-24</title>
+<link>https://pythonhub.dev/digest/2024-03-24/</link>
+<guid>https://pythonhub.dev/digest/2024-03-24/</guid>
+<content:encoded><![CDATA[
+<div> Pydantic, Gevent, Lightweight framework, MediaPipe LLM Inference API, Large Language Models<br>
+Pydantic是一个提供结构和验证的库，解决Python动态类型系统的数据处理问题。Gevent库的异步使用存在常见问题，需解决。有一款轻量级框架可用于纯Python构建HTML页面。MediaPipe LLM Inference API发布，可在设备上完全运行大型语言模型。文章总结以上内容，介绍了Pydantic、Gevent、轻量级框架、MediaPipe LLM Inference API和大型语言模型的相关信息。<br><br>总结: Pydantic提供结构和验证，解决动态类型系统问题；Gevent库使用存在问题，需解决；轻量级框架适用于纯Python构建HTML页面；MediaPipe LLM Inference API发布，可在设备上完全运行大型语言模型。 <div>
+<img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-03-24.jpg" />
+
+
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=502XOB0u8OY">Why You Should Use Pydantic in 2024</a></strong>
+    
+        <br /><span>In this updated Pydantic tutorial, I’ll cover all the new features and how they can benefit your projects. Despite Python's dynamic type system being user-friendly, it's not without its data handling issues. That's where Pydantic comes in, providing the essential structure and validation for seamless data management.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://upsun.com/blog/python-gevent-best-practices/">Python Gevent in practice: common pitfalls to keep in mind</a></strong>
+    
+        <br /><span>Learn more about the common pitfalls of using the asynchronous Python library, Gevent, and how to resolve them in this article.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://bjoernricks.github.io/posts/python/context-manager/">Understanding Context Manager and its Syntastic Sugar</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/paveldedik/ludic">Ludic</a></strong>
+    
+        <br /><span>Lightweight framework for building HTML pages in pure Python.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://developers.googleblog.com/2024/03/running-large-language-models-on-device-with-mediapipe-andtensorflow-lite.html">Large Language Models On-Device with MediaPipe and TensorFlow Lite</a></strong>
+    
+        <br /><span>The article discusses the release of the experimental MediaPipe LLM Inference API, enabling Large Language Models (LLMs) to run fully on-device across platforms. This transformative capability addresses the significant memory and compute demands of LLMs, which are over a hundred times larger than traditional on-device models, achieved through optimizations like new ops, quantization, cac...</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://ajmani.net/2024/03/11/go-python-rust-and-production-ai-applications/">Go, Python, Rust, and production AI applications</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/ndleah/python-mini-project">ndleah / python-mini-project</a></strong>
+    
+        <br /><span>🙌 Welcome open-source Python mini-project contributions!</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.landh.tech/blog/20240304-google-hack-50000">We Hacked Google A.I. for $50,000</a></strong>
+    
+        <br /><span>This article discusses the author's experience of participating in a hacking event in Las Vegas where vulnerabilities were discovered, leading to the successful hacking of Google. Despite the initial achievement, the Google VRP team extended the competition deadline to encourage more creative findings, highlighting the ongoing challenges and opportunities in the realm of cybersecurity</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://verse.systems/blog/post/2024-03-09-using-llms-to-generate-fuzz-generators">Using LLMs to Generate Fuzz Generators</a></strong>
+    
+        <br /><span>The post explores the effectiveness of Large Language Models (LLMs) in generating fuzz drivers for library API fuzzing. It discusses the challenges and benefits of LLM-based fuzz driver generation, highlighting its practicality, strategies for complex API usage, and areas for improvement based on a comprehensive study and evaluation.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.davep.org/2024/03/10/homebrew-all-the-python-things.html">Homebrew all the Python things</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://nedbatchelder.com/blog/202403/does_python_have_pointers.html">Does Python have pointers?</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pykidos.github.io/">PyKidos, Teach Your Kid Python in the Browser</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/ccxt/ccxt">ccxt / ccxt</a></strong>
+    
+        <br /><span>A JavaScript / TypeScript / Python / C# / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/speechbrain/speechbrain">speechbrain / speechbrain</a></strong>
+    
+        <br /><span>A PyTorch-based Speech Toolkit</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://vickiboykis.com/2024/02/28/gguf-the-long-way-around/">GGUF, the long way around</a></strong>
+    
+        <br /><span>This is an article about GGUF, a file format used for machine learning models. It discusses what machine learning models are and how they are produced.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://jasongi.com/2024/03/04/speed-up-djangos-collectstatic-command-with-collectfasta/">Speed up Django’s collectstatic command with Collectfasta</a></strong>
+    
+        <br /><span>The post introduces Collectfasta, an updated fork of Collectfast designed to enhance the performance of Django's collectstatic command. By optimizing the repository and improving performance, Collectfasta offers faster execution and efficiency compared to the standard Django command, providing a valuable tool for developers seeking enhanced performance in their Django projects.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://lwn.net/SubscriberLink/964392/498a12fe44f51139/">Insecurity and Python pickles</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/facebookresearch/DiT">facebookresearch / DiT</a></strong>
+    
+        <br /><span>Official PyTorch Implementation of "Scalable Diffusion Models with Transformers"</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://tkte.ch/articles/2024/03/15/parsing-urls-in-python.html">Parsing URLs in Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/facebookresearch/jepa">facebookresearch / jepa</a></strong>
+    
+        <br /><span>PyTorch code and models for V-JEPA self-supervised learning from video.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/ibis-project/ibis">ibis-project / ibis</a></strong>
+    
+        <br /><span>the portable Python dataframe library</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=cHtAEWkvSMU">Create A Machine Learning Powered NCAA Bracket</a></strong>
+    
+        <br /><span>Dive into the fascinating world of machine learning and AI as we guide you through developing a model designed to predict NCAA tournament outcomes. From initial setup to final predictions, we’ll cover everything you need to create your own powerhouse model.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blogs.windows.com/windowsdeveloper/2024/03/06/sandboxing-python-with-win32-app-isolation/">Sandboxing Python with Win32 App Isolation</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.timescale.com/blog/how-to-work-with-time-series-in-python/">Guide to Time-Series Analysis in Python</a></strong>
+    
+        <br /><span>A look at why Python is a great language for time-series analysis. Plus, tips for getting started today.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/3DTopia/LGM">3DTopia / LGM</a></strong>
+    
+        <br /><span>LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/LargeWorldModel/LWM">LargeWorldModel / LWM</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-03-17/">Python Hub Weekly Digest for 2024-03-17</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/UpstageAI/dataverse">Dataverse</a></strong>
+    
+        <br /><span>The Universe of Data. All about data, data science, and data engineering.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/SethBling/cbscript">CBScript</a></strong>
+    
+        <br /><span>CBScript is a transpiled language, designed by SethBling. This compiler will compile CBScript files into Minecraft datapack zip files. It has many higher level language features that don't exist at the Minecraft command level.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/reidjs/schedule-texts-from-txt">chedule-texts-from-txt</a></strong>
+    
+        <br /><span>Schedule iMessage or SMS texts from .txt files.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/bananaml/fructose">fructose</a></strong>
+    
+        <br /><span>LLM calls as strongly-typed functions.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/rodolphebarbanneau/python-docstring-highlighter">python-docstring-highlighter</a></strong>
+    
+        <br /><span>Syntax highlighting for Python Docstring in VSCode.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/traceloop/openllmetry">openllmetry</a></strong>
+    
+        <br /><span>Open-source observability for your LLM application.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/TobikoData/sqlmesh">SQLMesh</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/KhoomeiK/LlamaGym">LlamaGym</a></strong>
+    
+        <br /><span>Fine-tune LLM agents with online reinforcement learning.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1bfs8cy/json_serialization/">JSON Serialization</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 24 Mar 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 24 Mar 2024 18:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Python Hub Weekly Digest for 2024-03-17</title>
+<link>https://pythonhub.dev/digest/2024-03-17/</link>
+<guid>https://pythonhub.dev/digest/2024-03-17/</guid>
+<content:encoded><![CDATA[
+<div> PyArrow, CSV files, processing speed, efficiency, comparison
+总结:<br><br>
+本文探讨了使用PyArrow在处理CSV文件时的速度，突出了PyArrow在显著提高CSV读取速度方面的作用。对比了不同方法，如带有C引擎的pandas，纯Python循环以及带有PyArrow引擎的pandas，展示了PyArrow在更快更有效地处理CSV文件方面的效率。<br>
+提到了PyArrow如何显著提高CSV读取速度，比较了不同方法的效率，强调了PyArrow在处理CSV文件时的有效性。文章探讨了数据处理中的速度和效率问题，为读者提供了有价值的技术见解。 <div>
+<img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-03-17.jpg" />
+
+
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://datapythonista.me/blog/how-fast-can-we-process-a-csv-file">How fast can we process a CSV file</a></strong>
+    
+        <br /><span>The article explores the speed of processing CSV files, highlighting the use of PyArrow to enhance CSV reading speed significantly. It compares different methods like pandas with C engine, pure Python looping, and pandas with PyArrow engine, showcasing the efficiency of PyArrow in processing CSV files faster and more effectively</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=lyG6AKzu4ew">Combining Rust and Python: The Best of Both Worlds?</a></strong>
+    
+        <br /><span>This video shows you how to seamlessly integrate Rust with Python using Pyo3. This library allows you to write Python modules with Rust. This means that we get the speed and safety of Rust along with Python's easy-to-use features!</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://towardsdatascience.com/intro-to-dspy-goodbye-prompting-hello-programming-4ca1c6ce3eb9">Intro to DSPy: Goodbye Prompting, Hello Programming!</a></strong>
+    
+        <br /><span>How the DSPy framework solves the fragility problem in LLM-based applications by replacing prompting with programming and compiling.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.piglei.com/articles/en-6-ways-to-improve-the-arch-of-you-py-project/">6 ways to improve the architecture of your Python project (using import-linter)</a></strong>
+    
+        <br /><span>The article discusses six ways to enhance the architecture of Python projects, focusing on maintaining clear dependency relationships between packages and modules to avoid tangled inter-module dependencies. It addresses challenges like high architectural understanding costs for newcomers and reduced development efficiency due to difficulties in locating code within large projects.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.reddit.com/r/Python/comments/1b5bc8g/i_hate_typing_out_every_selfx_x_line_in_an_init/">I hate typing out every 'self.x = x' line in an __init__ method. Is this alternative acceptable?</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://www.bitecode.dev/p/analyzing-sorting-a-million-32-bit">Analyzing &quot;Sorting a million 32-bit integers in 2MB of RAM using Python&quot;</a></strong>
+    
+        <br /><span>SummaryWe are going to revisit Guido's famous "Sorting a million 32-bit integers in 2MB of RAM ...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/NVIDIA/trt-llm-rag-windows">NVIDIA / trt-llm-rag-windows</a></strong>
+    
+        <br /><span>A developer reference project for creating Retrieval Augmented Generation (RAG) chatbots on Windows using TensorRT-LLM</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=pCX_3p40Efc">Building an LLM fine-tuning Dataset</a></strong>
+    
+        <br /><span>The video shares insights on building a comprehensive dataset for AI model training using Reddit comments, highlighting challenges such as working with large datasets and filtering out low-quality comments. The creator discusses methods like loading, sorting, and filtering data to create training samples and models, emphasizing the abundance of comments available for analysis and the pro...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.photondesigner.com/articles/quiz-htmx">Create a quiz app in 6 minutes with HTMX and Django</a></strong>
+    
+        <br /><span>This guide shows you how to build a simple quiz application using Django and HTMX in 6 minutes. HTMX is great for creating dynamic web applications without writing JavaScript.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/python/cpython/pull/116338">The GIL can now be disabled in Python's main branch</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pypi.org/project/Bython/">Bython: Python with braces. Because Python is awesome, but whitespace is awful</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=bmmQA8A-yUA">Machine Learning in 2024 – Beginner's Course</a></strong>
+    
+        <br /><span>This machine learning course is created for beginners who are learning in 2024. The course begins with a Machine Learning Roadmap for 2024, emphasizing career paths and beginner-friendly theory. Then it the course moves on to hands-on practical applications and a comprehensive end-to-end project using Python.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.dataschool.io/intro-to-conda-environments/">Get started with conda environments</a></strong>
+    
+        <br /><span>This post explains the benefits of virtual environments and how to use virtual environments in conda.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/mit-han-lab/efficientvit">mit-han-lab / efficientvit</a></strong>
+    
+        <br /><span>EfficientViT is a new family of vision models for efficient high-resolution vision.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/lllyasviel/stable-diffusion-webui-forge">lllyasviel / stable-diffusion-webui-forge</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/kserve/kserve">kserve / kserve</a></strong>
+    
+        <br /><span>Standardized Serverless ML Inference Platform on Kubernetes</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/FujiwaraChoki/MoneyPrinter">FujiwaraChoki / MoneyPrinter</a></strong>
+    
+        <br /><span>Automate Creation of YouTube Shorts using MoviePy.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Doubiiu/DynamiCrafter">Doubiiu / DynamiCrafter</a></strong>
+    
+        <br /><span>DynamiCrafter: Animating Open-domain Images with Video Diffusion Priors</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.jetbrains.com/pycharm/2024/03/deploying-django-apps-in-kubernetes/">Deploying Django Apps in Kubernetes</a></strong>
+    
+        <br /><span>Learn you can optimize Django deployments seamlessly in a Kubernetes environment, whether you are a Django developer or a Kubernetes enthusiast.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://finnley.dolphinhome.net/2024/02/25/from-beeps-to-toots-reviving-pagers-with-python-and-mastodon/">From Beeps to Toots: Reviving Pagers with Python and Mastodon</a></strong>
+    
+        <br /><span>The article showcases a unique application of Python programming by connecting pagers with Mastodon, blending the reliability of pagers with modern social media interactions. It highlights the versatility of Python in bridging analog devices like pagers with digital platforms, demonstrating the enduring relevance of traditional communication methods in today's digital age.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.jupyter.org/python-environment-management-using-jupyterlab-desktop-cli-e57485c9287c">Python environment management using JupyterLab Desktop CLI</a></strong>
+    
+        <br /><span>The article discusses Python environment management using the JupyterLab Desktop CLI, which offers various commands and options to manage Python environments efficiently within the application. It covers setting up the JupyterLab Desktop CLI, creating new Python environments, and utilizing bundled environment installers or downloading packages from the registry to enhance the development...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-03-10/">Python Hub Weekly Digest for 2024-03-10</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.norvig.com/lispy.html">How to Write a (Lisp) Interpreter (In Python) (2010)</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/Chaoyingz/flect">flect</a></strong>
+    
+        <br /><span>A pure Python full-stack web apps framework inspired by Next.js.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/parkervg/blendsql">BlendSQL</a></strong>
+    
+        <br /><span>Unified dialect for orchestrating SQLite logic and LLM reasoning.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/adinhodovic/django-admin-shellx">django-admin-shellx</a></strong>
+    
+        <br /><span>A Django Admin Web Shell using Xterm.js and Django Channels.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/zmievsa/cadwyn">Cadwyn</a></strong>
+    
+        <br /><span>Production-ready community-driven modern Stripe-like API versioning in FastAPI.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/hatchet-dev/hatchet">Hatchet</a></strong>
+    
+        <br /><span>A Distributed, Fault-Tolerant Task Queue.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/BatsResearch/bonito">Bonito</a></strong>
+    
+        <br /><span>A lightweight library for generating synthetic instruction tuning datasets for your data without GPT.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/apple/pfl-research">pfl</a></strong>
+    
+        <br /><span>Python framework for Private Federated Learning simulations.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/evalplus/evalplus">EvalPlus</a></strong>
+    
+        <br /><span>EvalPlus for rigourous evaluation of LLM-synthesized code.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1b66726/i_made_a_youtube_downloader_with_modern_ui_pyqt6/">I made a YouTube downloader with Modern UI | PyQt6 | PyTube | Fluent Design</a></strong>
+      </p>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1ao5f74/how_are_numpylinalg_functions_built_so_that_they/">How are numpy.linalg.* functions built so that they use multiple cores out-of-the-box?</a></strong>
+      </p>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1b4qwds/an_extremely_modern_and_configurable_python/">An extremely modern and configurable Python project template</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 17 Mar 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 17 Mar 2024 18:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Python Hub Weekly Digest for 2024-03-10</title>
+<link>https://pythonhub.dev/digest/2024-03-10/</link>
+<guid>https://pythonhub.dev/digest/2024-03-10/</guid>
+<content:encoded><![CDATA[
+<div> PDF解析, 代码伴侣, HTTP请求, 生成模型, 扩展功能 <br>
+PDF解析库hotpdf和CodeXpert提供了快速的文本提取和AI编码伴侣；文章涵盖了HTTP请求中的Cookie和自定义头信息管理，以及如何实现指数回退重试；探讨了生成模型和不同框架，并介绍了AI生成文本和视觉内容；最后介绍了JupyterLab和Notebook的最新版本发布和依赖注入技术的重要性。 <br><br>总结: PDF解析与AI编码伴侣提供快速解决方案；HTTP请求中的Cookie和头信息管理以及指数回退重试关键；生成模型和JupyterLab、Notebook更新内容讨论；依赖注入技术在编码中的重要性。 <div>
+<img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-03-10.jpg" />
+
+
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://github.com/weareprestatech/hotpdf">hotpdf</a></strong>
+    
+        <br /><span>hotpdf is a fast PDF parsing library to extract text and find text within PDF documents built on top of pdfminer.six</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/SudoACoder/CodeXpert">A completely free and open-source GitHub Copilot-like Project With VS Code extension.</a></strong>
+    
+        <br /><span>CodeXpert is your coding companion, providing advanced language models and a privacy-centric, open-source environment for an effortless coding experience.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://jacobpadilla.com/articles/advanced-web-scraping-techniques">Advanced Web Scraping With Python: Extract Data From Any Site</a></strong>
+    
+        <br /><span>This article covers how to get and manage cookies and custom headers, avoid TLS fingerprinting, recognize important HTTP headers to send in requests, and how to implement exponential-backoff HTTP request retrying.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.sympy.org/en/index.html">SymPy: Symbolic Mathematics in Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=mEsleV16qdo">Generative AI Full Course – Gemini Pro, OpenAI, Llama, Langchain, Pinecone, Vector Databases &amp; More</a></strong>
+    
+        <br /><span>Learn about generative models and different frameworks, investigating the production of text and visual material produced by artificial intelligence.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=IUTFrexghsQ">Build a typing assistant with Mistral 7B and Ollama</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/pydantic/FastUI">pydantic / FastUI</a></strong>
+    
+        <br /><span>Build better UIs faster.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=N_OOfkEWcOk">Build a Retrieval-Augmented Generation Chatbot in 5 Minutes</a></strong>
+    
+        <br /><span>In under 5 minutes and with only 100 lines of Python code, Rohan Rao, senior solutions architect at NVIDIA, demos how large language models (LLMs) can be developed and deployed for AI chatbot applications—without needing your own GPU infrastructure.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://devblogs.microsoft.com/python/python-in-visual-studio-code-march-2024-release/">Python in Visual Studio Code – March 2024 Release</a></strong>
+    
+        <br /><span>This release includes the following announcements:</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=DpMGEhwuuyA">Dependency Injection Explained in 7 Minutes</a></strong>
+    
+        <br /><span>This video explains why dependency injection is a game-changer for your coding projects. Creating loosely coupled code is key to making the code more flexible and more maintainable. This is all possible through the implicit use of dependencies.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://matduggan.com/everyone-is-wrong-but-you/">Python Dependencies Are Fixable</a></strong>
+    
+        <br /><span>The article critiques the current state of Python's dependency management, emphasizing the need for better defaults and user experience. Drawing parallels with Golang's successful design, the author advocates for a shift in mentality within the Pypa ecosystem to improve the default behavior of tools like Pip and suggests exploring alternatives if necessary.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.jupyter.org/jupyterlab-4-1-and-notebook-7-1-are-here-20bfc3c10217">JupyterLab 4.1 and Notebook 7.1 are here</a></strong>
+    
+        <br /><span>JupyterLab 4.1 and Notebook 7.1 are now available! These releases include several new features, bug fixes, and enhancements for extension developers. This release is compatible with extensions supporting JupyterLab 4.0 and Notebook 7.0.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/X-PLUG/MobileAgent">X-PLUG / MobileAgent</a></strong>
+    
+        <br /><span>Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.ian.stapletoncordas.co/2024/02/a-retrospective-on-requests">A Retrospective on Requests</a></strong>
+    
+        <br /><span>python-requests has been around for a long time. I've been a maintainer for many years and I share some retrospective thoughts on the project.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://towardsdatascience.com/advanced-retrieval-augmented-generation-from-theory-to-llamaindex-implementation-4de1464a9930">Advanced Retrieval-Augmented Generation: From Theory to LlamaIndex Implementation</a></strong>
+    
+        <br /><span>How to address limitations of naive RAG pipelines by implementing targeted advanced RAG techniques in Python.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/aappleby/hancho">Hancho – A simple and pleasant build system in ~500 lines of Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://calbryant.uk/blog/better-pc-cooling-with-python/">Better PC Cooling with Python and Grafana</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.pythagora.ai/2024/02/19/gpt-pilot-what-did-we-learn-in-6-months-of-working-on-a-codegen-pair-programmer/">GPT Pilot – what we learned in 6 months of working on a CodeGen pair programmer</a></strong>
+    
+        <br /><span>The article discusses the learnings from six months of working on a CodeGen pair programmer, GPT Pilot, aiming to have human developers understand the codebase and provide detailed explanations of added code to facilitate collaboration between human developers and AI in coding tasks</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://neon.tech/blog/deploy-mistral-large-to-azure-and-chat-with-langchain">Deploy Mistral Large to Azure and create a conversation with Python and LangChain</a></strong>
+    
+        <br /><span>Step-by-step guide to deploying Mistral Large to Azure.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/frappe/frappe">frappe / frappe</a></strong>
+    
+        <br /><span>Low code web framework for real world applications, in Python and Javascript</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/allenai/OLMo">allenai / OLMo</a></strong>
+    
+        <br /><span>Modeling, training, eval, and inference code for OLMo</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/OpenBMB/MiniCPM">OpenBMB / MiniCPM</a></strong>
+    
+        <br /><span>MiniCPM-2B: An end-side LLM outperforms Llama2-13B.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-03-03/">Python Hub Weekly Digest for 2024-03-03</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="http://python-history.blogspot.com/2010/08/why-pythons-integer-division-floors.html">Why Python's Integer Division Floors (2010)</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://marimo.app/l/c7h6pz">Marimo – open-source reactive Python notebook – running in WASM</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Fanghua-Yu/SUPIR">Fanghua-Yu / SUPIR</a></strong>
+    
+        <br /><span>SUPIR aims at developing Practical Algorithms for Photo-Realistic Image Restoration In the Wild</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/erivlis/graphinate">Graphinate. Data to Graphs.</a></strong>
+    
+        <br /><span>Graphinate is a python library that aims to simplify the generation of Graph Data Structures from Data Sources.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://srush.github.io/annotated-mamba/hard.html">Mamba: The Hard Way</a></strong>
+    
+        <br /><span>A post about Mamba, a recent neural architecture that can be roughly thought of as a modern recurrent neural network (RNN). The model works really well and is a legitimate competitor with the ubiquitous Transformer architecture. It has gotten a lot of attention.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/migtissera/Sensei">Sensei</a></strong>
+    
+        <br /><span>Generate Synthetic Data Using OpenAI or MistralAI.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/google/gemma_pytorch">gemma_pytorch</a></strong>
+    
+        <br /><span>The official PyTorch implementation of Google's Gemma models.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/bruin-data/ingestr">ingestr</a></strong>
+    
+        <br /><span>ingestr is a CLI tool to copy data between any databases with a single command seamlessly.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Eladlev/AutoPrompt">AutoPrompt</a></strong>
+    
+        <br /><span>Auto Prompt is a prompt optimization framework designed to enhance and perfect your prompts for real-world use cases.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/epogrebnyak/justpath">justpath</a></strong>
+    
+        <br /><span>Inspect and refine PATH environment variable on both Windows and Linux.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/ok-robot/ok-robot">ok-robot</a></strong>
+    
+        <br /><span>An open, modular framework for zero-shot, language conditioned pick-and-drop tasks in arbitrary homes.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/evo-design/evo">Evo</a></strong>
+    
+        <br /><span>DNA foundation modeling from molecular to genome scale.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1aqtjyx/modguard_a_lightweight_python_tool_for_enforcing/">Modguard - a lightweight python tool for enforcing modular design</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 10 Mar 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 10 Mar 2024 18:00:00 +0000</pubDate>
+</item>
+
+</channel>
+</rss>
