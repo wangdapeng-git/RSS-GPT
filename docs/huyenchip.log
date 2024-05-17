@@ -34,3 +34,9 @@ Summarized using GPT-3.5-turbo
 Append: [What we look for in a resume](https://huyenchip.com//2023/01/24/what-we-look-for-in-a-candidate.html)
 append_entries: 10
 Finish: 2024-05-17 06:15:04.736497
+------------------------------------------------------
+Started: 2024-05-17 08:13:12.112446
+Existing_entries: 10
+Fetching from https://huyenchip.com/feed.xml
+append_entries: 0
+Finish: 2024-05-17 08:13:12.358076

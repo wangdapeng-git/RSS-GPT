@@ -4,16 +4,16 @@
 <title>Awesome Python Weekly</title>
 <link>https://python.libhunt.com/newsletter</link>
 
+
 <item>
 <title>🐍 Issue 416 - Homoiconic Python</title>
 <link>https://python.libhunt.com/newsletter/416</link>
 <guid>https://python.libhunt.com/newsletter/416</guid>
 <content:encoded><![CDATA[
 <div> Python, Homoiconicity, AST, Metaprogramming, Syntax  
-总结:<br><br>本文介绍了Python作为一种同构性语言的概念，即代码和数据具有相同的表示形式。通过Python的AST模块，可以实现元编程，即在运行时操作代码对象。作者提到了在Python中实现元编程的多种方式，包括字符串操作、AST操作和装饰器等。同时，本文还讨论了Python的语法设计如何支持元编程，以及一些常见的用例场景。通过详细的例子和解释，读者可以更好地理解Python的同构性特性，以及如何利用这一特性进行元编程。文章内容通俗易懂，对于想要深入了解Python元编程的读者很有帮助。 <div>
+总结:<br /><br />本文介绍了Python作为一种同构性语言的概念，即代码和数据具有相同的表示形式。通过Python的AST模块，可以实现元编程，即在运行时操作代码对象。作者提到了在Python中实现元编程的多种方式，包括字符串操作、AST操作和装饰器等。同时，本文还讨论了Python的语法设计如何支持元编程，以及一些常见的用例场景。通过详细的例子和解释，读者可以更好地理解Python的同构性特性，以及如何利用这一特性进行元编程。文章内容通俗易懂，对于想要深入了解Python元编程的读者很有帮助。 <div>
 🐍 Issue 416 - Homoiconic Python
 ]]></content:encoded>
-<pubDate>Thu, 16 May 2024 13:42:00 -0800</pubDate>
 <pubDate>Thu, 16 May 2024 13:42:00 -0800</pubDate>
 </item>
 <item>
@@ -23,11 +23,10 @@
 <content:encoded><![CDATA[
 <div> speedup, unsafe, Python, 100x, issue
 
-<br><br>总结:
+<br /><br />总结:
 本文介绍了如何在Python中使用unsafe模块实现100倍的加速。通过绕过Python的保护机制，提高了代码执行的速度。作者指出unsafe模块的使用需要谨慎，可能会导致安全漏洞。文章提供了实现100倍加速的代码示例，并解释了背后的原理。unsafe模块能够绕过Python解释器的一些性能限制，但在实际项目中使用时需要权衡安全性和性能。文章呼吁开发者谨慎使用unsafe模块，确保在性能优化过程中不牺牲安全性。 <div>
 🐍 Issue 415 - A 100x speedup with unsafe Python
 ]]></content:encoded>
-<pubDate>Thu, 09 May 2024 13:42:00 -0800</pubDate>
 <pubDate>Thu, 09 May 2024 13:42:00 -0800</pubDate>
 </item>
 <item>
@@ -36,11 +35,10 @@
 <guid>https://python.libhunt.com/newsletter/414</guid>
 <content:encoded><![CDATA[
 <div> Google, Python, team, layoff, issue
-<br>
+<br />
 Google最近裁员了其Python团队。这一举动引起了业界的关注和讨论。Google在过去一直以其对Python语言的贡献和支持而闻名，但现在裁员举动却让人感到意外。裁员可能会影响到Google未来在Python项目和开发方面的发展，也让人担忧公司的战略方向和未来是否仍将支持Python。这一消息也引发了对Google内部政策和团队管理做法的质疑，究竟是出于什么原因导致Python团队被裁员？这一决定可能会对Google在开发社区中的形象和声誉产生负面影响。总结: Google裁员Python团队，引发业界关注和质疑，可能影响公司未来战略和声誉。 <div>
 🐍 Issue 414 - Google lays off its Python team
 ]]></content:encoded>
-<pubDate>Thu, 02 May 2024 13:42:00 -0800</pubDate>
 <pubDate>Thu, 02 May 2024 13:42:00 -0800</pubDate>
 </item>
 <item>
@@ -50,10 +48,9 @@ Google最近裁员了其Python团队。这一举动引起了业界的关注和�
 <content:encoded><![CDATA[
 <div> Ruby, Python, for loop, differences, comparison
 
-Ruby和Python之间的区别可以归结为其for循环的表现。Ruby的for循环更简洁、灵活，可以遍历任何对象，而Python的for循环更为直观和易懂，适合初学者。另外，Ruby的for循环基于闭包，可以改变循环变量的值，而Python则使用迭代器，在循环过程中不允许修改循环变量。总的来说，Ruby的for循环功能更强大，Python的for循环更直观易懂。要选择哪种语言取决于个人偏好和项目需求。 <br><br>总结: <br> Ruby和Python的for循环展现出各自的特点，Ruby更灵活，Python更直观易懂，选择使用哪种取决于个人偏好和项目需求。 <div>
+Ruby和Python之间的区别可以归结为其for循环的表现。Ruby的for循环更简洁、灵活，可以遍历任何对象，而Python的for循环更为直观和易懂，适合初学者。另外，Ruby的for循环基于闭包，可以改变循环变量的值，而Python则使用迭代器，在循环过程中不允许修改循环变量。总的来说，Ruby的for循环功能更强大，Python的for循环更直观易懂。要选择哪种语言取决于个人偏好和项目需求。 <br /><br />总结: <br /> Ruby和Python的for循环展现出各自的特点，Ruby更灵活，Python更直观易懂，选择使用哪种取决于个人偏好和项目需求。 <div>
 🐍 Issue 413 - Ruby vs. Python comes down to the for loop (2021)
 ]]></content:encoded>
-<pubDate>Thu, 25 Apr 2024 13:42:00 -0800</pubDate>
 <pubDate>Thu, 25 Apr 2024 13:42:00 -0800</pubDate>
 </item>
 <item>
@@ -67,7 +64,6 @@ Ruby和Python之间的区别可以归结为其for循环的表现。Ruby的for循
 🐍 Issue 412 - Shape typing in Python
 ]]></content:encoded>
 <pubDate>Thu, 18 Apr 2024 13:42:00 -0800</pubDate>
-<pubDate>Thu, 18 Apr 2024 13:42:00 -0800</pubDate>
 </item>
 <item>
 <title>🐍 Issue 411 - SentenceTransformers: Python framework for sentence, text and image embeddings</title>
@@ -75,11 +71,10 @@ Ruby和Python之间的区别可以归结为其for循环的表现。Ruby的for循
 <guid>https://python.libhunt.com/newsletter/411</guid>
 <content:encoded><![CDATA[
 <div> Python framework, sentence embeddings, text embeddings, image embeddings, SentenceTransformers
-<br>
+<br />
 提供了一个名为SentenceTransformers的Python框架，用于生成句子、文本和图像的嵌入向量。该框架可以帮助用户将句子、文本和图像转换成高维向量，从而实现语义相似度计算、信息检索和聚类等任务。框架支持多种预训练模型和损失函数，用户可以灵活选择合适的模型和参数进行训练。通过SentenceTransformers，用户可以快速、方便地实现自然语言处理和计算机视觉领域的应用。总结: 提供了SentenceTransformers框架，用于生成句子、文本和图像的嵌入向量，支持多种预训练模型和损失函数，方便用户实现自然语言处理和计算机视觉应用。 <div>
 🐍 Issue 411 - SentenceTransformers: Python framework for sentence, text and image embeddings
 ]]></content:encoded>
-<pubDate>Thu, 11 Apr 2024 13:42:00 -0800</pubDate>
 <pubDate>Thu, 11 Apr 2024 13:42:00 -0800</pubDate>
 </item>
 <item>
@@ -93,7 +88,6 @@ Pyodide 和 WebAssembly 技术结合，为 workers 带来了 Python 的能力。
 🐍 Issue 410 - Bringing Python to Workers using Pyodide and WebAssembly
 ]]></content:encoded>
 <pubDate>Thu, 04 Apr 2024 13:42:00 -0800</pubDate>
-<pubDate>Thu, 04 Apr 2024 13:42:00 -0800</pubDate>
 </item>
 <item>
 <title>🐍 Issue 409 - Improving your Python code, an initial series of best practices.</title>
@@ -101,12 +95,11 @@ Pyodide 和 WebAssembly 技术结合，为 workers 带来了 Python 的能力。
 <guid>https://python.libhunt.com/newsletter/409</guid>
 <content:encoded><![CDATA[
 <div> Improving, Python, code, best practices, series
-<br>
+<br />
 在这篇文章中，我们学习了几个关于提高Python代码质量的最佳实践。首先，我们要确保代码的可读性和可维护性，使用清晰和一致的命名规范是必不可少的。其次，要避免冗余代码和复杂逻辑，保持代码简洁高效。接着，及时进行代码审查和测试，确保代码的质量和稳定性。此外，要善用Python的内置函数和标准库，提高代码的效率和可靠性。最后，不断学习和探索新的Python特性和技巧，不断提升自己的编程水平。通过遵循这些最佳实践，我们可以写出更优秀的Python代码。 
-<br><br>总结: <div>
+<br /><br />总结: <div>
 🐍 Issue 409 - Improving your Python code, an initial series of best practices.
 ]]></content:encoded>
-<pubDate>Thu, 28 Mar 2024 13:42:00 -0800</pubDate>
 <pubDate>Thu, 28 Mar 2024 13:42:00 -0800</pubDate>
 </item>
 <item>
@@ -116,10 +109,9 @@ Pyodide 和 WebAssembly 技术结合，为 workers 带来了 Python 的能力。
 <content:encoded><![CDATA[
 <div> Python, AI, Cheatlist, tips, tricks
 
-这篇文章总结了Python在人工智能领域的重要性，并提供了一些实用的技巧和窍门。作者列出了一份“作弊清单”，包括如何提高代码性能、如何利用Python库来简化AI开发、如何优化数据处理流程等等。此外，文章还强调了Python对于人工智能项目的灵活性和易用性，鼓励读者多加尝试和实践。总的来说，本文为那些希望在AI领域发展的开发人员提供了一些宝贵的建议和指导。<br><br>总结: 本文强调了Python在人工智能领域的重要性，提供了一些实用的技巧和窍门，并鼓励读者多加尝试和实践。 <div>
+这篇文章总结了Python在人工智能领域的重要性，并提供了一些实用的技巧和窍门。作者列出了一份“作弊清单”，包括如何提高代码性能、如何利用Python库来简化AI开发、如何优化数据处理流程等等。此外，文章还强调了Python对于人工智能项目的灵活性和易用性，鼓励读者多加尝试和实践。总的来说，本文为那些希望在AI领域发展的开发人员提供了一些宝贵的建议和指导。<br /><br />总结: 本文强调了Python在人工智能领域的重要性，提供了一些实用的技巧和窍门，并鼓励读者多加尝试和实践。 <div>
 🐍 Issue 408 - Python for AI : Cheatlist
 ]]></content:encoded>
-<pubDate>Thu, 21 Mar 2024 13:42:00 -0800</pubDate>
 <pubDate>Thu, 21 Mar 2024 13:42:00 -0800</pubDate>
 </item>
 <item>
@@ -128,15 +120,13 @@ Pyodide 和 WebAssembly 技术结合，为 workers 带来了 Python 的能力。
 <guid>https://python.libhunt.com/newsletter/407</guid>
 <content:encoded><![CDATA[
 <div> Python、libraries、2024、需要、知道
-<br>
+<br />
 Python的库在编程中起着至关重要的作用，2024年的Python库也不例外。本文列举了一些你需要了解的Python库，包括Pandas、NumPy、Matplotlib、Scikit-learn和TensorFlow。Pandas库可以帮助你进行数据分析和处理，NumPy库用于数学运算，Matplotlib库可以绘制各种图表，Scikit-learn库用于机器学习任务，而TensorFlow则是深度学习的首选库。这些库将帮助你提高编程效率，拓展你的数据科学和机器学习技能，是2024年 Python 开发者必备的利器。
-<br><br>总结: 
+<br /><br />总结: 
 Python的库在编程中起着至关重要的作用，2024年的Python库也不例外。本文列举了一些你需要了解的Python库，包括Pandas、NumPy、Matplotlib、Scikit-learn和TensorFlow。Pandas库可以帮助你进行数据分析和处理，NumPy库用于数学运算，Matplotlib库可以绘制各种图表，Scikit-learn库用于机器学习任务，而TensorFlow则是深度学习的首选库。这些库将帮助你提高编程效率，拓展你的数据科学和机器学习技能，是2024年 Python 开发者必备的利器。 <div>
 🐍 Issue 407 - Python libraries you need to know in 2024
 ]]></content:encoded>
 <pubDate>Thu, 14 Mar 2024 13:42:00 -0800</pubDate>
-<pubDate>Thu, 14 Mar 2024 13:42:00 -0800</pubDate>
 </item>
-
 </channel>
 </rss>

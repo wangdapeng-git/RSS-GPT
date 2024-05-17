@@ -4,13 +4,14 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-05-12</title>
 <link>https://pythonhub.dev/digest/2024-05-12/</link>
 <guid>https://pythonhub.dev/digest/2024-05-12/</guid>
 <content:encoded><![CDATA[
-<div> Figma, Python GUI, vector embeddings, Llama-3 agents, sleepsort<br>
-<br>总结: 本文介绍了如何使用Figma进行拖放操作轻松创建Python GUI，深度探讨了向量嵌入的类型、神经网络如何创建它们以及嵌入如何工作的原理。还介绍了Llama-3代理程序，可以按照指令浏览网络并与用户交流。文章还提到了一个带有"sleepsort"算法的趣味性排序方法，介绍了TypeGuard和TypeIs类型注释在Python中的差异，介绍了MuseV项目和构建应用程序来存储和查询有关水晶和宝石数据的方法。 <div>
+<div> Figma, Python GUI, vector embeddings, Llama-3 agents, sleepsort<br />
+<br />总结: 本文介绍了如何使用Figma进行拖放操作轻松创建Python GUI，深度探讨了向量嵌入的类型、神经网络如何创建它们以及嵌入如何工作的原理。还介绍了Llama-3代理程序，可以按照指令浏览网络并与用户交流。文章还提到了一个带有"sleepsort"算法的趣味性排序方法，介绍了TypeGuard和TypeIs类型注释在Python中的差异，介绍了MuseV项目和构建应用程序来存储和查询有关水晶和宝石数据的方法。 <div>
 <img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-05-12.jpg" />
 
 
@@ -194,16 +195,15 @@
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 12 May 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 12 May 2024 18:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Python Hub Weekly Digest for 2024-05-05</title>
 <link>https://pythonhub.dev/digest/2024-05-05/</link>
 <guid>https://pythonhub.dev/digest/2024-05-05/</guid>
 <content:encoded><![CDATA[
-<div> llama3, Ollama, Django, HTMX, PyTorch<br>
-<br>
-llama3和Ollama是一种开源的ngrok替代品，用于团队使用。文章介绍了如何使用Ollama在本地运行Llama2和Llama3语言模型，并演示了通过Python操作这些模型的方法。另外还介绍了使用Django构建AI驱动功能的方法，以及使用HTMX构建多人游戏的过程。PyTorch 2.3版本支持用户定义的Triton内核，并改进了大型语言模型的训练体验。整篇文章涵盖了构建AI功能、Django应用、HTMX多人游戏、PyTorch新特性和模型训练等内容。<br><br>总结: 提供了一种团队使用的开源ngrok替代品，介绍了如何在本地运行Llama3和Llama2语言模型，以及在Django中构建AI功能和使用HTMX构建多人游戏的方法。此外还介绍了PyTorch 2.3版本的新特性和改进。 <div>
+<div> llama3, Ollama, Django, HTMX, PyTorch<br />
+<br />
+llama3和Ollama是一种开源的ngrok替代品，用于团队使用。文章介绍了如何使用Ollama在本地运行Llama2和Llama3语言模型，并演示了通过Python操作这些模型的方法。另外还介绍了使用Django构建AI驱动功能的方法，以及使用HTMX构建多人游戏的过程。PyTorch 2.3版本支持用户定义的Triton内核，并改进了大型语言模型的训练体验。整篇文章涵盖了构建AI功能、Django应用、HTMX多人游戏、PyTorch新特性和模型训练等内容。<br /><br />总结: 提供了一种团队使用的开源ngrok替代品，介绍了如何在本地运行Llama3和Llama2语言模型，以及在Django中构建AI功能和使用HTMX构建多人游戏的方法。此外还介绍了PyTorch 2.3版本的新特性和改进。 <div>
 <img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-05-05.jpg" />
 
 
@@ -412,7 +412,6 @@ llama3和Ollama是一种开源的ngrok替代品，用于团队使用。文章介
 <hr />
 ]]></content:encoded>
 <pubDate>Sun, 05 May 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 05 May 2024 18:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Python Hub Weekly Digest for 2024-04-28</title>
@@ -499,7 +498,6 @@ Leibniz formula 可以用不同的方法来计算π的值，在此使用了Async
 <hr />
 ]]></content:encoded>
 <pubDate>Sun, 28 Apr 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 28 Apr 2024 18:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Python Hub Weekly Digest for 2024-04-21</title>
@@ -508,7 +506,7 @@ Leibniz formula 可以用不同的方法来计算π的值，在此使用了Async
 <content:encoded><![CDATA[
 <div> 计算位置 太阳 月亮 日食 Python
 
-总结:<br><br>这篇文章描述了作者如何使用Python脚本计算太阳和月亮的位置，预测日全食的位置，利用Astropy库等Python包，在大约100行代码中完成。文章还提到了使用cosine相似度比较文本嵌入来确定不同文本输入之间的相似性，并提供了计算cosine相似度的示例代码。此外，文章还讨论了使用Django、websockets和HTMX逐步构建ChatGPT克隆的过程，以及使用Django的GeneratedField来自动进行数据库计算的简短示例。文章还强调了构建客户端库的方法，重点在于利用现有文件系统抽象库，如fsspec，以提供无需定制API的无缝用户体验。 <div>
+总结:<br /><br />这篇文章描述了作者如何使用Python脚本计算太阳和月亮的位置，预测日全食的位置，利用Astropy库等Python包，在大约100行代码中完成。文章还提到了使用cosine相似度比较文本嵌入来确定不同文本输入之间的相似性，并提供了计算cosine相似度的示例代码。此外，文章还讨论了使用Django、websockets和HTMX逐步构建ChatGPT克隆的过程，以及使用Django的GeneratedField来自动进行数据库计算的简短示例。文章还强调了构建客户端库的方法，重点在于利用现有文件系统抽象库，如fsspec，以提供无需定制API的无缝用户体验。 <div>
 <img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-04-21.jpg" />
 
 
@@ -655,7 +653,6 @@ Leibniz formula 可以用不同的方法来计算π的值，在此使用了Async
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 21 Apr 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 21 Apr 2024 18:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Python Hub Weekly Digest for 2024-04-14</title>
@@ -663,7 +660,7 @@ Leibniz formula 可以用不同的方法来计算π的值，在此使用了Async
 <guid>https://pythonhub.dev/digest/2024-04-14/</guid>
 <content:encoded><![CDATA[
 <div> WGPU, Python 3.12, Generics, Make, Code Repair
-总结:<br><br>本文介绍了Python 3.12中的泛型特性，以及如何利用它们提高代码灵活性和减少错误。同时讨论了通过使用Make自动化开发环境准备和加速测试驱动开发周期的挑战。另外还介绍了Replit的Code Repair功能，可自动修复代码中的常见错误，提高开发效率和代码质量。文章详细探讨了这些主题，为Python开发者提供了有益的指导。 <div>
+总结:<br /><br />本文介绍了Python 3.12中的泛型特性，以及如何利用它们提高代码灵活性和减少错误。同时讨论了通过使用Make自动化开发环境准备和加速测试驱动开发周期的挑战。另外还介绍了Replit的Code Repair功能，可自动修复代码中的常见错误，提高开发效率和代码质量。文章详细探讨了这些主题，为Python开发者提供了有益的指导。 <div>
 <img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-04-14.jpg" />
 
 
@@ -858,7 +855,6 @@ Leibniz formula 可以用不同的方法来计算π的值，在此使用了Async
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 14 Apr 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 14 Apr 2024 18:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Python Hub Weekly Digest for 2024-04-07</title>
@@ -866,9 +862,9 @@ Leibniz formula 可以用不同的方法来计算π的值，在此使用了Async
 <guid>https://pythonhub.dev/digest/2024-04-07/</guid>
 <content:encoded><![CDATA[
 <div> Zero-Shot Speech Editing, Text-to-Speech, Data Visualization Tools, PostgreSQL, Apache Superset
-<br>
+<br />
 Zero-Shot Speech Editing和Text-to-Speech技术在实践中的应用，PostgreSQL数据可视化工具的选择及使用教程。
-<br><br>总结:
+<br /><br />总结:
 Zero-Shot Speech Editing和Text-to-Speech技术在实践中得到了广泛应用，同时介绍了PostgreSQL数据可视化工具的选择和使用方法。文章涵盖了数据处理和技术应用方面的要点，为读者提供了深入了解相关技术的机会。同时还介绍了一些开源项目和最新技术进展，为读者拓宽了视野，加深了对技术领域的理解。 <div>
 <img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-04-07.jpg" />
 
@@ -1058,7 +1054,6 @@ Zero-Shot Speech Editing和Text-to-Speech技术在实践中得到了广泛应用
 <hr />
 ]]></content:encoded>
 <pubDate>Sun, 07 Apr 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 07 Apr 2024 18:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Python Hub Weekly Digest for 2024-03-31</title>
@@ -1067,7 +1062,7 @@ Zero-Shot Speech Editing和Text-to-Speech技术在实践中得到了广泛应用
 <content:encoded><![CDATA[
 <div> Python, command-line, argparse, BMI calculator, Linux head command
 
-总结:<br><br>这篇文章详细介绍了如何在Python中实现命令行应用程序，并使用argparse模块解释参数、标志和选项在命令行应用程序中的工作原理。通过构建一个BMI计算器应用程序和在Python中实现Linux head命令，深入探讨了命令行应用程序的实现过程和应用场景。文章内容包括了建立BMI计算器应用程序的步骤和解释了argparse模块的使用方法，同时也讨论了如何在Python中实现Linux head命令，为读者提供了实用的示例和指导。文章内容详实，适合Python初学者和有一定经验的开发人员阅读学习。 <div>
+总结:<br /><br />这篇文章详细介绍了如何在Python中实现命令行应用程序，并使用argparse模块解释参数、标志和选项在命令行应用程序中的工作原理。通过构建一个BMI计算器应用程序和在Python中实现Linux head命令，深入探讨了命令行应用程序的实现过程和应用场景。文章内容包括了建立BMI计算器应用程序的步骤和解释了argparse模块的使用方法，同时也讨论了如何在Python中实现Linux head命令，为读者提供了实用的示例和指导。文章内容详实，适合Python初学者和有一定经验的开发人员阅读学习。 <div>
 <img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-03-31.jpg" />
 
 
@@ -1300,15 +1295,14 @@ Zero-Shot Speech Editing和Text-to-Speech技术在实践中得到了广泛应用
 <hr />
 ]]></content:encoded>
 <pubDate>Sun, 31 Mar 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 31 Mar 2024 18:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Python Hub Weekly Digest for 2024-03-24</title>
 <link>https://pythonhub.dev/digest/2024-03-24/</link>
 <guid>https://pythonhub.dev/digest/2024-03-24/</guid>
 <content:encoded><![CDATA[
-<div> Pydantic, Gevent, Lightweight framework, MediaPipe LLM Inference API, Large Language Models<br>
-Pydantic是一个提供结构和验证的库，解决Python动态类型系统的数据处理问题。Gevent库的异步使用存在常见问题，需解决。有一款轻量级框架可用于纯Python构建HTML页面。MediaPipe LLM Inference API发布，可在设备上完全运行大型语言模型。文章总结以上内容，介绍了Pydantic、Gevent、轻量级框架、MediaPipe LLM Inference API和大型语言模型的相关信息。<br><br>总结: Pydantic提供结构和验证，解决动态类型系统问题；Gevent库使用存在问题，需解决；轻量级框架适用于纯Python构建HTML页面；MediaPipe LLM Inference API发布，可在设备上完全运行大型语言模型。 <div>
+<div> Pydantic, Gevent, Lightweight framework, MediaPipe LLM Inference API, Large Language Models<br />
+Pydantic是一个提供结构和验证的库，解决Python动态类型系统的数据处理问题。Gevent库的异步使用存在常见问题，需解决。有一款轻量级框架可用于纯Python构建HTML页面。MediaPipe LLM Inference API发布，可在设备上完全运行大型语言模型。文章总结以上内容，介绍了Pydantic、Gevent、轻量级框架、MediaPipe LLM Inference API和大型语言模型的相关信息。<br /><br />总结: Pydantic提供结构和验证，解决动态类型系统问题；Gevent库使用存在问题，需解决；轻量级框架适用于纯Python构建HTML页面；MediaPipe LLM Inference API发布，可在设备上完全运行大型语言模型。 <div>
 <img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-03-24.jpg" />
 
 
@@ -1560,7 +1554,6 @@ Pydantic是一个提供结构和验证的库，解决Python动态类型系统的
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 24 Mar 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 24 Mar 2024 18:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Python Hub Weekly Digest for 2024-03-17</title>
@@ -1568,8 +1561,8 @@ Pydantic是一个提供结构和验证的库，解决Python动态类型系统的
 <guid>https://pythonhub.dev/digest/2024-03-17/</guid>
 <content:encoded><![CDATA[
 <div> PyArrow, CSV files, processing speed, efficiency, comparison
-总结:<br><br>
-本文探讨了使用PyArrow在处理CSV文件时的速度，突出了PyArrow在显著提高CSV读取速度方面的作用。对比了不同方法，如带有C引擎的pandas，纯Python循环以及带有PyArrow引擎的pandas，展示了PyArrow在更快更有效地处理CSV文件方面的效率。<br>
+总结:<br /><br />
+本文探讨了使用PyArrow在处理CSV文件时的速度，突出了PyArrow在显著提高CSV读取速度方面的作用。对比了不同方法，如带有C引擎的pandas，纯Python循环以及带有PyArrow引擎的pandas，展示了PyArrow在更快更有效地处理CSV文件方面的效率。<br />
 提到了PyArrow如何显著提高CSV读取速度，比较了不同方法的效率，强调了PyArrow在处理CSV文件时的有效性。文章探讨了数据处理中的速度和效率问题，为读者提供了有价值的技术见解。 <div>
 <img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-03-17.jpg" />
 
@@ -1812,15 +1805,14 @@ Pydantic是一个提供结构和验证的库，解决Python动态类型系统的
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 17 Mar 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 17 Mar 2024 18:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Python Hub Weekly Digest for 2024-03-10</title>
 <link>https://pythonhub.dev/digest/2024-03-10/</link>
 <guid>https://pythonhub.dev/digest/2024-03-10/</guid>
 <content:encoded><![CDATA[
-<div> PDF解析, 代码伴侣, HTTP请求, 生成模型, 扩展功能 <br>
-PDF解析库hotpdf和CodeXpert提供了快速的文本提取和AI编码伴侣；文章涵盖了HTTP请求中的Cookie和自定义头信息管理，以及如何实现指数回退重试；探讨了生成模型和不同框架，并介绍了AI生成文本和视觉内容；最后介绍了JupyterLab和Notebook的最新版本发布和依赖注入技术的重要性。 <br><br>总结: PDF解析与AI编码伴侣提供快速解决方案；HTTP请求中的Cookie和头信息管理以及指数回退重试关键；生成模型和JupyterLab、Notebook更新内容讨论；依赖注入技术在编码中的重要性。 <div>
+<div> PDF解析, 代码伴侣, HTTP请求, 生成模型, 扩展功能 <br />
+PDF解析库hotpdf和CodeXpert提供了快速的文本提取和AI编码伴侣；文章涵盖了HTTP请求中的Cookie和自定义头信息管理，以及如何实现指数回退重试；探讨了生成模型和不同框架，并介绍了AI生成文本和视觉内容；最后介绍了JupyterLab和Notebook的最新版本发布和依赖注入技术的重要性。 <br /><br />总结: PDF解析与AI编码伴侣提供快速解决方案；HTTP请求中的Cookie和头信息管理以及指数回退重试关键；生成模型和JupyterLab、Notebook更新内容讨论；依赖注入技术在编码中的重要性。 <div>
 <img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-03-10.jpg" />
 
 
@@ -2080,8 +2072,6 @@ PDF解析库hotpdf和CodeXpert提供了快速的文本提取和AI编码伴侣；
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 10 Mar 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 10 Mar 2024 18:00:00 +0000</pubDate>
 </item>
-
 </channel>
 </rss>

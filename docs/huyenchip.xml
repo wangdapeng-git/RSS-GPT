@@ -4,6 +4,7 @@
 <title>Chip Huyen</title>
 <link>https://huyenchip.com</link>
 
+
 <item>
 <title>Measuring personal growth</title>
 <link>https://huyenchip.com//2024/04/17/personal-growth.html</link>
@@ -79,7 +80,6 @@
 <p>These heuristics work for me (so far) because I have a strong bias towards novelty and exploration. Maybe one day, I’ll get tired of exploration, and these heuristics will change. When that happens, that’ll be growth.</p>
 ]]></content:encoded>
 <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
-<pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>What I learned from looking at 900 most popular open source AI tools</title>
@@ -87,7 +87,7 @@
 <guid>https://huyenchip.com//2024/03/14/ai-oss.html</guid>
 <content:encoded><![CDATA[
 <div> 开源AI、四年、生成模型、中国、应用开发
-<br><br>总结：本文作者对开源AI领域的发展进行了四年前后的比较分析，重点关注了围绕基础模型的技术堆栈。他发现中国的开源生态系统与西方有所不同，整体看来，应用领域和应用开发层在近两年中发展迅速，2023年被誉为AI工程的一年。在模型开发领域，推出了更多的优化、评估和参数高效微调技术。中国的AI生态系统也在迅速成长，拥有许多热门AI开源仓库。一些开源项目迅速蹿红，但也有很多是昙花一现。作者认为个人开发者可能会成为未来市场的主力军。 <div>
+<br /><br />总结：本文作者对开源AI领域的发展进行了四年前后的比较分析，重点关注了围绕基础模型的技术堆栈。他发现中国的开源生态系统与西方有所不同，整体看来，应用领域和应用开发层在近两年中发展迅速，2023年被誉为AI工程的一年。在模型开发领域，推出了更多的优化、评估和参数高效微调技术。中国的AI生态系统也在迅速成长，拥有许多热门AI开源仓库。一些开源项目迅速蹿红，但也有很多是昙花一现。作者认为个人开发者可能会成为未来市场的主力军。 <div>
 <p>[<em><a href="https://news.ycombinator.com/item?id=39709912">Hacker News discussion</a>, <a href="https://www.linkedin.com/posts/chiphuyen_generativeai-aiapplications-llmops-activity-7174153467844820993-ztSE">LinkedIn discussion</a>, <a href="https://twitter.com/chipro/status/1768388213008445837">Twitter thread</a></em>]</p>
 
 <p>Four years ago, I did an analysis of the <a href="https://huyenchip.com/2020/06/22/mlops.html">open source ML ecosystem</a>. Since then, the landscape has changed, so I revisited the topic. This time, I focused exclusively on the stack around foundation models.</p>
@@ -365,7 +365,6 @@
 <p>Even though I included only 845 repos in my analysis, I went through several thousands of repos. I found this helpful for me to get a big-picture view of the seemingly overwhelming AI ecosystem. I hope the <a href="https://huyenchip.com/llama-police">list</a> is useful for you too. Please do let me know what repos I’m missing, and I’ll add them to the list!</p>
 ]]></content:encoded>
 <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
-<pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Predictive Human Preference: From Model Ranking to Model Routing</title>
@@ -374,7 +373,7 @@
 <content:encoded><![CDATA[
 <div> 关键词: AI应用，人类偏好，预测，模型选择，实验结果
 
-总结:<br><br>本文讨论了如何使用人类偏好来预测最适合的模型，进行模型选择。作者通过实验验证了人类偏好模型在匹配预测中的准确性，以及使用人类偏好进行领域特定的模型排名和路由。通过使用少量数据，作者展示了预测人类偏好的可行性，并指出了模型路由在经济上的潜在价值。此外，作者还提及了其他团队在模型选择方面的工作和应用。整体来说，预测人类偏好对模型选择和路由有着重要影响，是一个具有潜力的研究领域。 <div>
+总结:<br /><br />本文讨论了如何使用人类偏好来预测最适合的模型，进行模型选择。作者通过实验验证了人类偏好模型在匹配预测中的准确性，以及使用人类偏好进行领域特定的模型排名和路由。通过使用少量数据，作者展示了预测人类偏好的可行性，并指出了模型路由在经济上的潜在价值。此外，作者还提及了其他团队在模型选择方面的工作和应用。整体来说，预测人类偏好对模型选择和路由有着重要影响，是一个具有潜力的研究领域。 <div>
 <p>A challenge of building AI applications is choosing which model to use. What if we don’t have to? What if we can predict the best model for any prompt? Predictive human preference aims to predict which model users might prefer for a specific query.</p>
 
 <hr />
@@ -881,7 +880,6 @@
 <p>Thanks <a href="https://twitter.com/luke_metz">Luke Metz</a> for helping me with the experiments and coercing me into using JAX. While JAX is super cool and makes a lot of things easy, it also caused some of the weirdest bugs I’ve ever seen. I’m glad I used it though. Thanks <a href="https://www.linkedin.com/in/hanchunglee/">Han-chung Lee</a> for feedback on the plots.</p>
 ]]></content:encoded>
 <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
-<pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Sampling for Text Generation</title>
@@ -890,7 +888,7 @@
 <content:encoded><![CDATA[
 <div> 采样、温度、抽样策略、结构化输出、测试时间抽样
 
-<br><br>总结:
+<br /><br />总结:
 本文讨论了AI模型生成输出时的采样策略，包括温度调节、top-k抽样、top-p抽样等技术。通过调整这些参数，可以在保持模型创造性的同时控制输出的准确性和一致性。此外，还介绍了测试时间抽样的方法，以及如何生成符合特定格式的结构化输出。对于希望利用AI解决问题的人来说，理解模型输出的采样过程至关重要。 <div>
 <p>ML models are probabilistic. Imagine that you want to know what’s the best cuisine in the world. If you ask someone this question twice, a minute apart, their answers both times should be the same. If you ask a model the same question twice, its answer can change. If the model thinks that Vietnamese cuisine has a 70% chance of being the best cuisine and Italian cuisine has a 30% chance, it’ll answer “Vietnamese” 70% of the time, and “Italian” 30%.</p>
 
@@ -1129,19 +1127,18 @@
 <p>As always, feedback is much appreciated. Thanks <a href="https://leehanchung.github.io/">Han Lee</a> and <a href="https://twitter.com/luke_metz">Luke Metz</a> for graciously agreeing to be my first readers.</p>
 ]]></content:encoded>
 <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-<pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Multimodality and Large Multimodal Models (LMMs)</title>
 <link>https://huyenchip.com//2023/10/10/multimodal.html</link>
 <guid>https://huyenchip.com//2023/10/10/multimodal.html</guid>
 <content:encoded><![CDATA[
-<div> CLIP, Flamingo, Multimodal, 数据模态,图像文本编码<br>
-<br>要点1: 为何需要多模态系统，多模态数据的重要性和应用领域
+<div> CLIP, Flamingo, Multimodal, 数据模态,图像文本编码<br />
+<br />要点1: 为何需要多模态系统，多模态数据的重要性和应用领域
 要点2: 不同数据模态的表达形式，以及数据模态之间的转换
 要点3: 多模态任务包括生成和视觉-语言理解两类任务
 要点4: CLIP模型的架构和训练方法，以及其应用领域
-要点5: Flamingo模型的架构，包括视觉编码器和语言模型部分，以及训练方式<br><br>总结: 本文介绍了多模态系统的重要性和发展现状，分析了CLIP和Flamingo两个模型的架构和训练方法。未来的研究方向包括整合更多数据模态、多模态输出生成以及提高多模态训练效率等方面。 <div>
+要点5: Flamingo模型的架构，包括视觉编码器和语言模型部分，以及训练方式<br /><br />总结: 本文介绍了多模态系统的重要性和发展现状，分析了CLIP和Flamingo两个模型的架构和训练方法。未来的研究方向包括整合更多数据模态、多模态输出生成以及提高多模态训练效率等方面。 <div>
 <p>For a long time, each ML model operated in one data mode – text (translation, language modeling), image (object detection, image classification), or audio (speech recognition).</p>
 
 <p>However, natural intelligence is not limited to just a single modality. Humans can read, talk, and see. We listen to music to relax and watch out for strange noises to detect danger. Being able to work with multimodal data is essential for us or any AI to operate in the real world.</p>
@@ -1892,7 +1889,6 @@ I'm only aware of one work in this space -- [LAMM: Language-Assisted Multi-Modal
 </ul>
 ]]></content:encoded>
 <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
-<pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Open challenges in LLM research</title>
@@ -1900,7 +1896,7 @@ I'm only aware of one work in this space -- [LAMM: Language-Assisted Multi-Modal
 <guid>https://huyenchip.com//2023/08/16/llm-research-open-challenges.html</guid>
 <content:encoded><![CDATA[
 <div> LLM、hallucination、context learning、multimodality、new architecture
-<br><br>
+<br /><br />
 总结：LLM研究的开放挑战包括减少和衡量hallucination、优化上下文长度和构建、整合其他数据模态、设计新的模型架构以及开发GPU替代方案。在这些研究方向中，特别关注减少hallucination、提高学习效率和改进聊天接口。同时，构建非英语语言的LLM以及利用人类偏好进行学习也是重要的领域。各个问题的解决需要技术、政策和用户体验等多方面的努力。 <div>
 <p>[<em><a href="https://www.linkedin.com/posts/chiphuyen_llm-airesearch-generativeai-activity-7097619722363408385-s5Cp">LinkedIn discussion</a>, <a href="https://twitter.com/chipro/status/1691858084824838427">Twitter thread</a></em>]</p>
 
@@ -2346,7 +2342,6 @@ I'm only aware of one work in this space -- [LAMM: Language-Assisted Multi-Modal
 <p>What research direction are you most excited about? What are the most promising solutions you see for these problems? I’d love to hear from you.</p>
 ]]></content:encoded>
 <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
-<pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Generative AI Strategy</title>
@@ -2368,15 +2363,14 @@ I'm only aware of one work in this space -- [LAMM: Language-Assisted Multi-Modal
 <p>Thanks everyone who responded to <a href="https://www.linkedin.com/feed/update/urn:li:activity:7072230577449439232/">my post</a> and shared your thoughts on what I should include in the talk. Thanks <a href="https://www.linkedin.com/in/kylegallatin/">Kyle Gallatin</a>, <a href="https://www.linkedin.com/in/goku/">Goku Mohandas</a>, <a href="https://www.linkedin.com/in/hanchunglee/">Han-chung Lee</a>, and <a href="https://www.linkedin.com/in/jamiedeguerre/">Jamie de Guerre</a> for thoughtful feedback on the talk.</p>
 ]]></content:encoded>
 <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
-<pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>RLHF: Reinforcement Learning from Human Feedback</title>
 <link>https://huyenchip.com//2023/05/02/rlhf.html</link>
 <guid>https://huyenchip.com//2023/05/02/rlhf.html</guid>
 <content:encoded><![CDATA[
-<div> ChatGPT, RLHF, Pretraining, Supervised Finetuning, Reward Model<br>
-RLHF技术是如何帮助ChatGPT模型在自然语言处理领域取得成功的关键。该技术包括使用强化学习和人类反馈，对模型进行预训练、有监督微调及奖励模型训练三个阶段。预训练阶段旨在构建大型语言模型，微调阶段通过演示数据优化模型生成符合用户期望的回应，在RLHF阶段则通过奖励模型对回应进行评分并进一步优化模型生成高质量回应。RLHF技术能够提升模型性能，但也可能导致幻觉问题。通过对技术细节进行深入理解，可以更好地选择适合自身需求的语言模型。 <br><br>总结: <div>
+<div> ChatGPT, RLHF, Pretraining, Supervised Finetuning, Reward Model<br />
+RLHF技术是如何帮助ChatGPT模型在自然语言处理领域取得成功的关键。该技术包括使用强化学习和人类反馈，对模型进行预训练、有监督微调及奖励模型训练三个阶段。预训练阶段旨在构建大型语言模型，微调阶段通过演示数据优化模型生成符合用户期望的回应，在RLHF阶段则通过奖励模型对回应进行评分并进一步优化模型生成高质量回应。RLHF技术能够提升模型性能，但也可能导致幻觉问题。通过对技术细节进行深入理解，可以更好地选择适合自身需求的语言模型。 <br /><br />总结: <div>
 <p>[<em><a href="https://www.linkedin.com/posts/chiphuyen_llm-chatgpt-rlhf-activity-7059550685578608640-ap2Z/">LinkedIn discussion</a>, <a href="https://twitter.com/chipro/status/1653787366090510337">Twitter thread</a></em>]</p>
 
 <p>In literature discussing why ChatGPT is able to capture so much of our imagination, I often come across two narratives:</p>
@@ -2960,7 +2954,6 @@ To train a model to mimic the demonstration data, you can either start with the 
 <p>We’re still in the early days of LLMs. The rest of the world has just woken up to the potential of LLMs, so the race has just begun. Many things about LLMs, including RLHF, will evolve. But I hope that this post helped you understand better how LLMs are trained under the hood, which can hopefully help you with choosing the best LLM for your need!</p>
 ]]></content:encoded>
 <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-<pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Building LLM applications for production</title>
@@ -2969,7 +2962,7 @@ To train a model to mimic the demonstration data, you can either start with the 
 <content:encoded><![CDATA[
 <div> 挑战,生产,控制流,应用,使用  
 
-挑战: 生产化LLM应用的关键挑战包括工程严谨度不足、自然语言的模糊性、LLM输出格式不一致和用户体验方面的一致性问题。解决这些挑战需要加强工程严谨性、对LLM生成的输出进行评估和版本控制。<br><br>总结: 在LLM应用中生产任务工程方面的重要挑战包括解决自然语言的模糊性问题和提高工程严谨性，同时需要考虑控制流、多任务组合、工具整合和LLM生成的输出格式问题。 <div>
+挑战: 生产化LLM应用的关键挑战包括工程严谨度不足、自然语言的模糊性、LLM输出格式不一致和用户体验方面的一致性问题。解决这些挑战需要加强工程严谨性、对LLM生成的输出进行评估和版本控制。<br /><br />总结: 在LLM应用中生产任务工程方面的重要挑战包括解决自然语言的模糊性问题和提高工程严谨性，同时需要考虑控制流、多任务组合、工具整合和LLM生成的输出格式问题。 <div>
 <p>[<em><a href="https://news.ycombinator.com/item?id=35565212">Hacker News discussion</a>, <a href="https://www.linkedin.com/posts/chiphuyen_llms-promptengineering-mlops-activity-7051955337221844992-oG7a/">LinkedIn discussion</a>, <a href="https://twitter.com/chipro/status/1646189847625998336">Twitter thread</a></em>]</p>
 
 <p>A question that I’ve been asked a lot recently is how large language models (LLMs) will change machine learning workflows. After working with several companies who are working with LLM applications and personally going down a rabbit hole building my applications, I realized two things:</p>
@@ -3616,7 +3609,6 @@ Thought: { thought }
 <p>What’s your strategy?</p>
 ]]></content:encoded>
 <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
-<pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>What we look for in a resume</title>
@@ -3624,7 +3616,7 @@ Thought: { thought }
 <guid>https://huyenchip.com//2023/01/24/what-we-look-for-in-a-candidate.html</guid>
 <content:encoded><![CDATA[
 <div> 面试、简历、技能、项目、成就
-<br><br>总结:该文章讨论了如何撰写简历以吸引初创公司的注意。首先指出初创公司与大公司的招聘方式不同，强调初创公司更看重候选人的专业知识和实际能力。同时强调展示专业知识的重要性，建议在简历中展示技能的获取途径和应用。此外，还强调在简历中展示解决问题的能力和独特视角，重点关注影响力，而非无意义的指标。最后强调在撰写简历过程中应注重清晰传达自己的贡献和成就。 <div>
+<br /><br />总结:该文章讨论了如何撰写简历以吸引初创公司的注意。首先指出初创公司与大公司的招聘方式不同，强调初创公司更看重候选人的专业知识和实际能力。同时强调展示专业知识的重要性，建议在简历中展示技能的获取途径和应用。此外，还强调在简历中展示解决问题的能力和独特视角，重点关注影响力，而非无意义的指标。最后强调在撰写简历过程中应注重清晰传达自己的贡献和成就。 <div>
 <p>I read every single one of the resumes we receive. Sometimes, I’d talk to a candidate and see that what we perceived as their strongest aspects actually weren’t included in their resume. Occasionally, a candidate would tell me that they didn’t expect their resume to still be screened by humans – had they known, they would have written their resume differently.</p>
 
 <p>The resume evaluation process is pretty much a black box for most candidates. And it is so because few hiring managers have publicly discussed this. I thought I should start the conversation.</p>
@@ -3939,8 +3931,6 @@ Screenshotted from the resumes submitted to our resume critique session
 <p>And of course, we’re hiring for strong <a href="https://www.claypot.ai/work-with-us">infra and ML engineers</a>!! If you think we might be a good fit for you, do reach out.</p>
 ]]></content:encoded>
 <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
-<pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
 </item>
-
 </channel>
 </rss>
