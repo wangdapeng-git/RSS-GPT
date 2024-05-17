@@ -4,6 +4,20 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>The Real Python Podcast – Episode #205: Considering Accessibility &amp; Assistive Tech as a Python Developer</title>
+<link>https://realpython.com/podcasts/rpp/205/</link>
+<guid>https://realpython.com/podcasts/rpp/205/</guid>
+<content:encoded><![CDATA[
+<div> Python, visually impaired, blind developer, web accessibility, assistive technology
+Python语言在视觉障碍或盲人开发者学习过程中的体验，以及如何提高Python网络应用程序的可访问性和了解当前的指南。本周节目中，Real Python社区成员Audrey van Breederode讨论了她的编程之旅，网络可访问性和辅助技术。<br><br>总结: Python语言对于视觉障碍或盲人开发者来说有独特的学习体验，了解并优化Python网络应用程序的可访问性是重要的。Audrey van Breederode分享了自己的编程之旅，并探讨了辅助技术在这个过程中的作用。 <div>
+<p>What's it like to learn Python as a visually impaired or blind developer? How can you improve the accessibility of your Python web applications and learn current guidelines? This week on the show, Real Python community member Audrey van Breederode discusses her programming journey, web accessibility, and assistive technology.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-05-17T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Python's Built-in Exceptions: A Walkthrough With Examples</title>
