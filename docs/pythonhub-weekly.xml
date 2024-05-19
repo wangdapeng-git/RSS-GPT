@@ -4,6 +4,223 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-05-19</title>
+<link>https://pythonhub.dev/digest/2024-05-19/</link>
+<guid>https://pythonhub.dev/digest/2024-05-19/</guid>
+<content:encoded><![CDATA[
+<div> TTS models, personal email assistant, Ollama Python库, GenAI革命, 异步编程<br>
+<br>总结:本文介绍了最受欢迎的推论和训练库，用于高质量TTS模型，个人电子邮件助手等。还讨论了Ollama Python库，GenAI革命和异步编程等关键概念。 <div>
+<img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-05-19.jpg" />
+
+
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://github.com/huggingface/parler-tts">huggingface / parler-tts</a></strong>
+    
+        <br /><span>Inference and training library for high-quality TTS models.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/IST-DASLab/PanzaMail">Panza</a></strong>
+    
+        <br /><span>A personal email assistant, trained and running on-device.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pyspread.gitlab.io/">Pyspread – The Most Pythonic Spreadsheet</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/pydantic/logfire">Logfire</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/ollama/ollama-python">ollama / ollama-python</a></strong>
+    
+        <br /><span>Ollama Python library</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://yosefk.com/blog/a-100x-speedup-with-unsafe-python.html">A 100x speedup with unsafe Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.miguelgrinberg.com/post/how-llms-work-explained-without-math">How LLMs Work, Explained Without Math</a></strong>
+    
+        <br /><span>A basic question I think a lot of people have about the GenAI revolution is where does the apparent intelligence these models have come from. In this article, I'm going to attempt to explain in simple terms and without using advanced math how generative text models work, to help you think about them as computer algorithms and not as magic.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://marimo.io/blog/lessons-learned">Lessons learned reinventing the Python notebook</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/DavidBuchanan314/unsafe-python">A library to assist writing memory-unsafe code in &quot;pure&quot; Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://temporal.io/blog/durable-distributed-asyncio-event-loop">Temporal Python – A durable, distributed asyncio event loop (2023)</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=RIVcqT2OGPA">AsyncIO and the Event Loop Explained</a></strong>
+    
+        <br /><span>Over the years, I’ve produced several videos about AsyncIO. Today, however, I’m adopting a new approach where I explain the event loop in depth. I’ll delve deeper into asynchronous programming, focusing specifically on how the event loop operates behind the scenes.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-05-12/">Python Hub Weekly Digest for 2024-05-12</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://johnloewen.substack.com/p/simple-interactive-python-streamlit">Simple Interactive Python Streamlit Maps That Will Make You Shout</a></strong>
+    
+        <br /><span>Data storytelling forest fire statistics from a NASA GIS data set.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=sQVliRl5uKw">Master Python &amp; Zoom API | Build a Server-to-Server App That Transcribes Recordings</a></strong>
+    
+        <br /><span>Learn how to use Zoom's API with Python in this step-by-step guide! In this tutorial, you'll learn how to create a robust server-to-server OAuth application that automatically transcribes your Zoom recordings, prints them directly to your terminal, and saves them as text files. Perfect for developers, this tutorial will take you from setup to execution, so you'll have a fully functional ...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.jeremykun.com/2024/05/04/fhe-overview/">A High-Level Technical Overview of Fully Homomorphic Encryption</a></strong>
+    
+        <br /><span>The article provides a high-level technical overview of fully homomorphic encryption (FHE), a powerful cryptographic technique that allows computations to be performed on encrypted data without decrypting it first. It discusses some of the key FHE libraries and tools under active development.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://codeberg.org/notanamber/nerd_tree">Visual find</a></strong>
+    
+        <br /><span>A visual version of GNU find command in Unix like systems</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://aljamal.substack.com/p/homoiconic-python">Homoiconic Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/reagento/dishka/">Cute DI framework with agreeable API and everything you need</a></strong>
+    
+        <br /><span>Powerful IoC-container with scopes, resources finalization, asyncio support and modular architecture</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/tiangolo/fastapi-cli">fastapi-cli</a></strong>
+    
+        <br /><span>Run and manage FastAPI apps from the command line with FastAPI CLI.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/judahpaul16/gpt-home">gpt-home</a></strong>
+    
+        <br /><span>ChatGPT at home! Basically a better Google Nest Hub or Amazon Alexa home assistant. Built on the Raspberry Pi using the OpenAI API.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/crpier/relax-py">relax-py</a></strong>
+    
+        <br /><span>A Python web development framework for htmx and tailwindcss, with hot module replacement, URL locators, dependency injection, supported by static typing, built on top of Starlette.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Efficient-Large-Model/VILA">VILA</a></strong>
+    
+        <br /><span>A multi-image visual language model with training, inference and evaluation recipe, deployable from cloud to edge (Jetson Orin and laptops).</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/janbjorge/PgQueuer">PgQueuer</a></strong>
+    
+        <br /><span>PgQueuer is a Python library leveraging PostgreSQL for efficient job queuing.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/prometheus-eval/prometheus-eval">prometheus-eval</a></strong>
+    
+        <br /><span>Evaluate your LLM's response with Prometheus.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/bytewax/bytewax">Bytewax</a></strong>
+    
+        <br /><span>Bytewax is a Python framework that simplifies event and stream processing.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/adamchainz/django-harlequin">django-harlequin</a></strong>
+    
+        <br /><span>Launch Harlequin, the SQL IDE for your Terminal, with your Django database configuration.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/huggingface/lerobot">LeRobot</a></strong>
+    
+        <br /><span>State-of-the-art Machine Learning for real-world robotics.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://eureka-research.github.io/dr-eureka/">DrEureka</a></strong>
+    
+        <br /><span>Language Model Guided Sim-to-Real Transfer.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://sato-team.github.io/Stable-Text-to-Motion-Framework/">SATO</a></strong>
+    
+        <br /><span>Stable Text-to-Motion Framework.</span>
+    
+    </p>
+
+
+<hr />
+]]></content:encoded>
+<pubDate>Sun, 19 May 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 19 May 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-05-12</title>
