@@ -4,13 +4,14 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-05-19</title>
 <link>https://pythonhub.dev/digest/2024-05-19/</link>
 <guid>https://pythonhub.dev/digest/2024-05-19/</guid>
 <content:encoded><![CDATA[
-<div> TTS models, personal email assistant, Ollama Python库, GenAI革命, 异步编程<br>
-<br>总结:本文介绍了最受欢迎的推论和训练库，用于高质量TTS模型，个人电子邮件助手等。还讨论了Ollama Python库，GenAI革命和异步编程等关键概念。 <div>
+<div> TTS models, personal email assistant, Ollama Python库, GenAI革命, 异步编程<br />
+<br />总结:本文介绍了最受欢迎的推论和训练库，用于高质量TTS模型，个人电子邮件助手等。还讨论了Ollama Python库，GenAI革命和异步编程等关键概念。 <div>
 <img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-05-19.jpg" />
 
 
@@ -219,9 +220,7 @@
 <hr />
 ]]></content:encoded>
 <pubDate>Sun, 19 May 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 19 May 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-05-12</title>
 <link>https://pythonhub.dev/digest/2024-05-12/</link>
