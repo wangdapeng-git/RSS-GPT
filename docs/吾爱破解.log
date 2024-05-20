@@ -3425,3 +3425,13 @@ Filter: [照片去底色工具V1.0.1](https://www.52pojie.cn/forum.php?mod=viewt
 Filter: [双色球历史开奖数据采集【更新获取指定期数出现最少次数的球】](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1921825)
 append_entries: 0
 Finish: 2024-05-20 20:10:14.292220
+------------------------------------------------------
+Started: 2024-05-20 22:09:26.606723
+Existing_entries: 251
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Append: [小程序泡泡玛特小程序解包](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1924937)
+Filter: [百度地图车机版v20.0.0 内测版 纯净无广告](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1923358)
+Filter: [照片去底色工具V1.0.1](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1923317)
+Filter: [双色球历史开奖数据采集【更新获取指定期数出现最少次数的球】](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1921825)
+append_entries: 1
+Finish: 2024-05-20 22:09:28.913828
