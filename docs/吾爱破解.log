@@ -3376,3 +3376,14 @@ Filter: [双色球历史开奖数据采集【更新获取指定期数出现最�
 Append: [影子输入法 v2.1.0](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1921566)
 append_entries: 1
 Finish: 2024-05-20 12:20:11.543912
+------------------------------------------------------
+Started: 2024-05-20 14:09:52.408528
+Existing_entries: 243
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [谷歌翻译修复工具GoogleTranslate_IPFinder1.14](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1924195)
+Filter: [打印机共享709 0a报错修复工具](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1923546)
+Filter: [百度地图车机版v20.0.0 内测版 纯净无广告](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1923358)
+Filter: [照片去底色工具V1.0.1](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1923317)
+Filter: [双色球历史开奖数据采集【更新获取指定期数出现最少次数的球】](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1921825)
+append_entries: 0
+Finish: 2024-05-20 14:09:54.606341
