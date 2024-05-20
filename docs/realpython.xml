@@ -4,12 +4,13 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Basic Data Types in Python: A Quick Exploration</title>
 <link>https://realpython.com/python-data-types/</link>
 <guid>https://realpython.com/python-data-types/</guid>
 <content:encoded><![CDATA[
-<div> int float complex str bytes bool<br>
+<div> int float complex str bytes bool<br />
 整数、浮点数、复数、字符串、字节和布尔值是Python中的基本数据类型。整数是没有小数位的整数，可以是正数或负数。浮点数包含小数部分，而复数由实部和虚部组成。字符串用于表示文本数据，字节和字节数组用于存储字节数据。布尔值表示真或假的逻辑值。在Python中，这些基本数据类型可以直接使用，可以通过不同方式创建不同类型的字面量。整数没有长度限制，只受系统内存限制。在Python中，这些数据类型提供了基本的方法来创建、使用和处理这些数据，包括整数数据类型。整数字面量在代码中直接表示整数值。要生成负整数，需在数字前加上负号。真正长的整数需要转换为字符串处理。总结:整数、浮点数、复数、字符串、字节和布尔值是Python中的基本数据类型，可以直接使用，有不同的创建方式，并有基本的操作和处理方法。 <div>
 <div><p>Python has several basic data types that are built into the language. With these types, you can represent numeric values, text and binary data, and Boolean values in your code. So, these data types are the basic building blocks of most Python programs and projects.</p>
 <p><strong>In this tutorial, you’ll learn about:</strong></p>
@@ -208,10 +209,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-05-20T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>The Real Python Podcast – Episode #205: Considering Accessibility &amp; Assistive Tech as a Python Developer</title>
 <link>https://realpython.com/podcasts/rpp/205/</link>
