@@ -4,12 +4,12 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>wxdown 公众号离线文章保存</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1925991</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1925991</guid>
 <content:encoded><![CDATA[
-
 [md]# wxdown 公众号离线文章保存
 
 ## 简介
@@ -17,9 +17,7 @@
 本来一开始用 `nodejs` 写的，考虑大小、易操作、高性能、跨平台以及环境等问题，我就想能不能搞个不需依赖开发语言环境就能运行的。所以我就选择 `go`并且它本身就具备以上优点。作者本身是`java`开发，第一次使用 `go` ...
 ]]></content:encoded>
 <pubDate>Mon, 20 May 2024 00:37:35 +0000</pubDate>
-<pubDate>Mon, 20 May 2024 00:37:35 +0000</pubDate>
 </item>
-
 <item>
 <title>小程序泡泡玛特小程序解包</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1924937</link>
