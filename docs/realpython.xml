@@ -4,6 +4,37 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Building a Python GUI Application With Tkinter</title>
+<link>https://realpython.com/courses/building-gui-application-tkinter/</link>
+<guid>https://realpython.com/courses/building-gui-application-tkinter/</guid>
+<content:encoded><![CDATA[
+<div> Tkinter, GUI framework, Python, cross-platform, modern interface
+<br>
+Tkinter是Python的内置GUI框架，跨平台性强，使用原生操作系统元素渲染视觉元素，使应用程序看起来与运行平台相符。虽然Tkinter被认为是Python GUI框架的事实标准，但也受到过时外观的批评。不过，Tkinter轻量且相对易于使用，适合快速构建功能性、跨平台的GUI应用程序。本视频课程将教授如何用Tkinter创建Hello, World应用程序，使用按钮、文本框等小部件，通过几何管理器控制应用程序布局，以及将按钮点击与Python函数关联实现交互。 
+<br>
+总结: 
+1. Tkinter是Python内置的跨平台GUI框架，适合快速构建功能性应用。
+2. Tkinter使用原生操作系统元素，使应用程序看起来与平台相符。
+3. 尽管Tkinter外观过时，但轻量且易于使用。
+4. 本视频课程将教授如何创建简单的Tkinter应用程序。
+5. 课程内容包括小部件操作、布局控制以及交互功能的实现。 <div>
+<p>Python has a lot of <a href="http://wiki.python.org/moin/GuiProgramming">GUI frameworks</a>, but <a href="https://wiki.python.org/moin/TkInter">Tkinter</a> is the only framework that&rsquo;s built into the Python standard library. Tkinter has several strengths. It&rsquo;s <strong>cross-platform</strong>, so the same code works on Windows, macOS, and Linux. Visual elements are rendered using native operating system elements, so applications built with Tkinter look like they belong on the platform where they&rsquo;re run.</p>
+<p>Although Tkinter is considered the de facto Python GUI framework, it&rsquo;s not without criticism. One notable criticism is that GUIs built with Tkinter look outdated. If you want a shiny, modern interface, then Tkinter may not be what you&rsquo;re looking for.</p>
+<p>However, Tkinter is lightweight and relatively painless to use compared to other frameworks. This makes it a compelling choice for building GUI applications in Python, especially for applications where a modern sheen is unnecessary, and the top priority is to quickly build something that&rsquo;s functional and cross-platform.</p>
+<p><strong>In this video course, you&rsquo;ll learn how to:</strong></p>
+<ul>
+<li>Get started with Tkinter with a <strong>Hello, World</strong> application</li>
+<li>Work with <strong>widgets</strong>, such as buttons and text boxes</li>
+<li>Control your application layout with <strong>geometry managers</strong></li>
+<li>Make your applications <strong>interactive</strong> by associating button clicks with Python functions</li>
+</ul>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-05-21T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Basic Data Types in Python: A Quick Exploration</title>
