@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>The Python calendar Module: Create Calendars With Python</title>
 <link>https://realpython.com/python-calendar-module/</link>
 <guid>https://realpython.com/python-calendar-module/</guid>
 <content:encoded><![CDATA[
 <div> Python, calendar module, display calendars, text-based calendars, interactive quiz
-总结:<br><br>
+总结:<br /><br />
 本文介绍了如何使用Python中的calendar模块生成和定制日历，包括显示日历在终端中、创建纯文本和HTML日历、为特定区域设置格式和显示规范、使用日历相关函数和方法访问多种格式的日历数据。通过在终端中显示日历，可以使用calendar模块创建和定制日历。还介绍了如何利用交互式测试来检测对Python calendar模块的理解，并展示了如何通过Python中的calendar模块生成纯文本日历。 <div>
 <div><p>The Python <code>calendar</code> module provides several ways to generate calendars for Python programs. It also includes a variety of functions for working with calendar data as strings, numbers, and datetime objects.</p>
 <p>In this tutorial, you’ll learn how to use the <code>calendar</code> module to create and customize calendars with Python.</p>
@@ -229,10 +230,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-05-22T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Building a Python GUI Application With Tkinter</title>
 <link>https://realpython.com/courses/building-gui-application-tkinter/</link>
