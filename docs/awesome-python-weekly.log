@@ -508,3 +508,12 @@ Existing_entries: 10
 Fetching from https://python.libhunt.com/newsletter/feed
 append_entries: 0
 Finish: 2024-05-23 20:11:30.942383
+------------------------------------------------------
+Started: 2024-05-23 22:09:37.443065
+Existing_entries: 10
+Fetching from https://python.libhunt.com/newsletter/feed
+Token length: 66
+Summarized using GPT-3.5-turbo
+Append: [🐍 Issue 417 - Building A ChatGPT Wizard with MistralAI Using Taipy](https://python.libhunt.com/newsletter/417)
+append_entries: 1
+Finish: 2024-05-23 22:09:42.693224
