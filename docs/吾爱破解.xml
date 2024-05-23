@@ -4,6 +4,46 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>轻量级多功能的图像查看器  ImageGlass   9.0.11.502</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1927154</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1927154</guid>
+<content:encoded><![CDATA[
+
+ImageGlass 是一款开源、无广告的照片查看器。ImageGlass 是一款功能丰富、易于使用的软件，旨在通过简洁、现代且直观的界面无缝查看图像。
+支持 80 多种常见图像格式，包括 WEBP、GIF、SVG、PNG、JXL、HEIC、RAW 格式……ImageGlass 还提供高级功能，可满足普通用户和 ...
+]]></content:encoded>
+<pubDate>Wed, 22 May 2024 12:46:25 +0000</pubDate>
+<pubDate>Wed, 22 May 2024 12:46:25 +0000</pubDate>
+</item>
+<item>
+<title>小白记录一次软件的简单爆破过程</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1926280</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1926280</guid>
+<content:encoded><![CDATA[
+
+在论坛注册很久了，由于工作原因，没时间学习，遇到了一个软件有登录限制，就来了兴致，最后居然成功了，解下来和大家分享下破解过程。希望大佬们批评指正。
+  这是一个需要登录账号和密码网络验证的软件，使用guest ...
+]]></content:encoded>
+<pubDate>Mon, 20 May 2024 10:06:35 +0000</pubDate>
+<pubDate>Mon, 20 May 2024 10:06:35 +0000</pubDate>
+</item>
+<item>
+<title>寻找MT论坛签到请求，并用python实现签到</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1925816</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1925816</guid>
+<content:encoded><![CDATA[
+
+1、找到相关请求包
+我是在点击登录按钮之前，把之前的请求记录全部删除，然后开启拦截，点击签到，这样子就可以知道哪一个包是签到的请求包了
+
+2、发送到重放器进行分析
+
+发现：Cookie太长了，试试看哪部分是可以删 ...
+]]></content:encoded>
+<pubDate>Sun, 19 May 2024 05:50:55 +0000</pubDate>
+<pubDate>Sun, 19 May 2024 05:50:55 +0000</pubDate>
+</item>
 
 <item>
 <title>长截图 截动图 贴图 PixPin 1.8.10</title>
