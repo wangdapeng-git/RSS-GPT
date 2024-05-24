@@ -4,21 +4,20 @@
 <title>Awesome Python Weekly</title>
 <link>https://python.libhunt.com/newsletter</link>
 
+
 <item>
 <title>🐍 Issue 417 - Building A ChatGPT Wizard with MistralAI Using Taipy</title>
 <link>https://python.libhunt.com/newsletter/417</link>
 <guid>https://python.libhunt.com/newsletter/417</guid>
 <content:encoded><![CDATA[
 <div> Taipy、MistralAI、ChatGPT、建立、向导
-<br>
-总结：<br>
+<br />
+总结：<br />
 本文介绍了如何使用Taipy和MistralAI构建一个ChatGPT向导。通过结合Taipy的功能和MistralAI的技术，用户可以创建一个功能强大的聊天向导，实现更智能和个性化的交互体验。利用ChatGPT技术，用户可以构建自定义的对话模型，使得向导可以更好地与用户进行沟通和互动。整个过程涵盖了创建、训练和部署ChatGPT向导的步骤，为用户提供了详细的操作指南和实用建议。通过本文的指导，用户可以快速上手，构建自己的ChatGPT向导，并应用于各种场景中，提升用户体验和服务质量。 <div>
 🐍 Issue 417 - Building A ChatGPT Wizard with MistralAI Using Taipy
 ]]></content:encoded>
 <pubDate>Thu, 23 May 2024 13:42:00 -0800</pubDate>
-<pubDate>Thu, 23 May 2024 13:42:00 -0800</pubDate>
 </item>
-
 <item>
 <title>🐍 Issue 416 - Homoiconic Python</title>
 <link>https://python.libhunt.com/newsletter/416</link>
