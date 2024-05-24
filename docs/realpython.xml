@@ -4,6 +4,23 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Quiz: How to Create Pivot Tables With pandas</title>
+<link>https://realpython.com/quizzes/creating-pivot-tables-with-pandas/</link>
+<guid>https://realpython.com/quizzes/creating-pivot-tables-with-pandas/</guid>
+<content:encoded><![CDATA[
+<div> 关键词：pivot tables, quiz, Python, expand, research
+
+Python中的pivot tables是一种强大的数据整理工具，通过本文的quiz可以测试对pivot tables的理解程度，并且可以拓展知识。在解答问题时，可能需要进行一些超越教程范围的研究。总结：Python中的pivot tables是一种数据处理工具，本文提供了一个测试你对其理解的机会，还可以进一步扩展知识。通过解决问题，可以对pivot tables的应用有更深入的了解，并提升技能水平。 <div>
+<p>In this quiz, you&rsquo;ll test your understanding of
+<a href="https://realpython.com/how-to-pandas-pivot-table/">how to create pivot tables with pandas</a>.</p>
+<p>By working through this quiz, you&rsquo;ll review your knowledge of pivot tables and also expand beyond what you learned in the tutorial. For some of the questions, you&rsquo;ll need to do some research outside of the tutorial itself.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-05-24T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>The Python calendar Module: Create Calendars With Python</title>
