@@ -4,6 +4,7 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-05-26</title>
 <link>https://pythonhub.dev/digest/2024-05-26/</link>
@@ -12,7 +13,7 @@
 <div> Loguru, Python logging, boilerplate, simplifies, logs
 Unit of Work design pattern, crucial concept, databases, transactions, collectively
 
-总结:<br><br>Loguru是一个流行的第三方日志包，可以简化Python中创建日志的过程，消除了Python logging API的样板代码。Unit of Work设计模式对于经常与数据库交互的人来说至关重要，通过累积所有事务并集体执行它们，可以有效管理数据库。 <div>
+总结:<br /><br />Loguru是一个流行的第三方日志包，可以简化Python中创建日志的过程，消除了Python logging API的样板代码。Unit of Work设计模式对于经常与数据库交互的人来说至关重要，通过累积所有事务并集体执行它们，可以有效管理数据库。 <div>
 <img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-05-26.jpg" />
 
 
@@ -178,9 +179,7 @@ Unit of Work design pattern, crucial concept, databases, transactions, collectiv
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 26 May 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 26 May 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-05-19</title>
 <link>https://pythonhub.dev/digest/2024-05-19/</link>
