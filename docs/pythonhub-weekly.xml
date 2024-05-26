@@ -4,6 +4,182 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-05-26</title>
+<link>https://pythonhub.dev/digest/2024-05-26/</link>
+<guid>https://pythonhub.dev/digest/2024-05-26/</guid>
+<content:encoded><![CDATA[
+<div> Loguru, Python logging, boilerplate, simplifies, logs
+Unit of Work design pattern, crucial concept, databases, transactions, collectively
+
+总结:<br><br>Loguru是一个流行的第三方日志包，可以简化Python中创建日志的过程，消除了Python logging API的样板代码。Unit of Work设计模式对于经常与数据库交互的人来说至关重要，通过累积所有事务并集体执行它们，可以有效管理数据库。 <div>
+<img alt="Cover by unsplash.com" class="cover" src="https://pythonhub.dev/media/images/2024-05-26.jpg" />
+
+
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://www.blog.pythonlibrary.org/2024/05/15/an-intro-to-logging-with-python-and-loguru/">An Intro to Logging with Python and Loguru</a></strong>
+    
+        <br /><span>Python’s logging module isn’t the only way to create logs. There are several third-party packages you can use, too. One of the most popular is Loguru. Loguru intends to remove all the boilerplate you get with the Python logging API. You will find that Loguru greatly simplifies creating logs in Python.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=HX6vkP-QD7U">The Unit of Work Design Pattern Explained</a></strong>
+    
+        <br /><span>This video explains the Unit of Work design pattern, a crucial concept for anyone who regularly interacts with databases. This pattern plays a key role by accumulating all transactions and executing them collectively. But why is this necessary? Find out in this video.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=kNGOcI_qqYo">How to use Postgres as a simple task queue for Django</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.bmispelon.rocks/articles/2024/2024-05-09-django-getting-a-full-model-instance-from-a-subquery.html">Django: Getting a full model instance from a Subquery</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://johnloewen.substack.com/p/high-impact-python-streamlit-beautiful">High Impact Python Streamlit: Beautiful Interactive Maps and Charts</a></strong>
+    
+        <br /><span>A step by step modular approach with UNFAO global food insecurity data.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://github.com/stanford-oval/storm">stanford-oval / storm</a></strong>
+    
+        <br /><span>An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/feitgemel/Open-CV/tree/main/Words-Segmentation">Extracting Words from Scanned Books: A Step-by-Step Tutorial with Python, OpenCV</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.bitecode.dev/p/light-speed-with-python-and-js">Light speed with Python and JS</a></strong>
+    
+        <br /><span>Nope, this article is not about making Python and JS run very fast, it's about making a light speed effect for the fun of a hundred of drunk people</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/dvlab-research/MGM">dvlab-research / MGM</a></strong>
+    
+        <br /><span>Official repo for "Mini-Gemini: Mining the Potential of Multi-modality Vision Language Models"</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://learnbybuilding.ai/tutorials/dspy-agents-from-scratch">A first attempt at DSPy Agents from scratch</a></strong>
+    
+        <br /><span>This post is going to take a first pass at creating Agents from scratch, using DSPy. The goal here is education, and to explore how one might build agents from scratch in DSPy.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://fnands.com/blog/2024/mojo-png-parsing/">Parsing PNG images in Mojo</a></strong>
+    
+        <br /><span>The post details the author's experience implementing a PNG parser in the Mojo programming language. It covers challenges faced, such as handling unsigned 8-bit integers and converting bytes to strings, while exploring idiomatic ways to write Mojo code for this task.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=pHQfw1W7V8s">Tezos Blockchain Developer Course – Python Web3 Development</a></strong>
+    
+        <br /><span>Learn how to develop distributed applications on Tezos, from setting up wallets to understanding and managing smart contracts effectively. The course covers various tools and techniques essential for Tezos developers and highlights the community-driven innovations that support the platform's growth.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://ai9.notion.site/Real-Time-Brainwave-Visualization-Integrating-Muse-EEG-with-Python-54391bc09bf04b95a117d0fcf41ba351">Real-Time Brainwave Visualization: Integrating Muse EEG with Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-05-19/">Python Hub Weekly Digest for 2024-05-19</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/shekhuverma/FastAPI-SaaS-Template">FastAPI-SaaS-Template</a></strong>
+    
+        <br /><span>A FastAPI template for License and user management for SaaS and on-prem software</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/frame-lang/frame_transpiler">Frame</a></strong>
+    
+        <br /><span>Frame is a markdown language for creating state machines (automata) in Python as well as generating UML documentation.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/google-research/timesfm">TimesFM</a></strong>
+    
+        <br /><span>TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/pipecat-ai/pipecat">Pipecat</a></strong>
+    
+        <br /><span>Open Source framework for voice and multimodal conversational AI.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Ori-Roza/drf-api-action">drf-api-action</a></strong>
+    
+        <br /><span>drf-api-action elevates Django Rest Framework testing with the action_api fixture, simplifying REST endpoint testing to a seamless, function-like experience.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/mindspore-lab/mindnlp">MindNLP</a></strong>
+    
+        <br /><span>Easy-to-use and high-performance NLP and LLM framework based on MindSpore, compatible with models and datasets of Huggingface.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/toruseo/UXsim">UXsim</a></strong>
+    
+        <br /><span>Vehicular traffic flow simulator in road network, written in pure Python.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1crsktg/is_pygame_still_alive/">Is PyGame still alive?</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 26 May 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 26 May 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-05-19</title>
