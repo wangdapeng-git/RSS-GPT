@@ -94,3 +94,9 @@ Summarized using GPT-3.5-turbo
 Append: [Truthseeking is the ground in which other principles grow](https://www.lesswrong.com/posts/kbnJHpapusMJZb6Gs/truthseeking-is-the-ground-in-which-other-principles-grow)
 append_entries: 1
 Finish: 2024-05-27 02:26:41.426667
+------------------------------------------------------
+Started: 2024-05-27 04:13:35.138472
+Existing_entries: 12
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
+append_entries: 0
+Finish: 2024-05-27 04:13:35.827341
