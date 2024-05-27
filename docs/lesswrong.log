@@ -145,3 +145,21 @@ Existing_entries: 13
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
 append_entries: 0
 Finish: 2024-05-27 18:13:16.196206
+------------------------------------------------------
+Started: 2024-05-27 20:10:22.834251
+Existing_entries: 13
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
+Token length: 66059
+Summarized using GPT-3.5-turbo
+Append: [Review: Conor Moreton's "Civilization & Cooperation"](https://www.lesswrong.com/posts/5acACJQjnA7KAHNpT/review-conor-moreton-s-civilization-and-cooperation)
+Token length: 4031
+Summarized using GPT-3.5-turbo
+Append: [Book review: Everything Is Predictable](https://www.lesswrong.com/posts/DcEThyBPZfJvC5tpp/book-review-everything-is-predictable-1)
+Token length: 4476
+Summarized using GPT-3.5-turbo
+Append: [Maybe Anthropic's Long-Term Benefit Trust is powerless](https://www.lesswrong.com/posts/sdCcsTt9hRpbX6obP/maybe-anthropic-s-long-term-benefit-trust-is-powerless)
+Token length: 44778
+Summarized using GPT-3.5-turbo
+Append: [I am the Golden Gate Bridge](https://www.lesswrong.com/posts/JdcxDEqWKfsucxYrk/i-am-the-golden-gate-bridge)
+append_entries: 4
+Finish: 2024-05-27 20:10:52.104710
