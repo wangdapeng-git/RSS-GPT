@@ -4,6 +4,213 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>How to Create Pivot Tables With pandas</title>
+<link>https://realpython.com/how-to-pandas-pivot-table/</link>
+<guid>https://realpython.com/how-to-pandas-pivot-table/</guid>
+<content:encoded><![CDATA[
+<div> pandas, pivot table, 数据分析, PyArrow, 教程<br>
+<br>
+总结:<br>
+本教程介绍了如何使用Python中的pandas库创建和分析数据透视表。使用PyArrow库更高效地处理数据类型。在数据准备阶段，需要确保数据整洁和可分析。通过示例演示了如何读取数据文件、转换日期类型，并展示了创建数据透视表的步骤。最后，要求计算每个区域不同订单类型的总销售额。 <div>
+<div><p>A <strong>pivot table</strong> is a <a href="https://realpython.com/python-for-data-analysis/">data analysis</a> tool that allows you to take columns of raw data from a pandas DataFrame, summarize them, and then analyze the summary data to reveal its insights.</p>
+<p><a href="https://en.wikipedia.org/wiki/Pivot_table">Pivot tables</a> allow you to perform common aggregate statistical calculations such as sums, counts, averages, and so on. Often, the information a pivot table produces reveals trends and other observations your original raw data hides.</p>
+<p>Pivot tables were originally implemented in early spreadsheet packages and are still a commonly used feature of the latest ones. They can also be found in modern database applications and in programming languages. In this tutorial, you’ll learn how to implement a pivot table in Python using pandas’ <code>DataFrame.pivot_table()</code> method.</p>
+<p>Before you start, you should familiarize yourself with what a <a href="https://realpython.com/pandas-dataframe/">pandas DataFrame</a> looks like and how you can create one. Knowing the difference between a <a href="https://pandas.pydata.org/docs/user_guide/dsintro.html#dataframe">DataFrame</a> and a <a href="https://pandas.pydata.org/docs/user_guide/dsintro.html#series">pandas Series</a> will also prove useful.</p>
+<p>In addition, you may want to use the data analysis tool <a href="https://realpython.com/jupyter-notebook-introduction/">Jupyter Notebook</a> as you work through the examples in this tutorial. Alternatively, <a href="https://realpython.com/using-jupyterlab/">JupyterLab</a> will give you an enhanced notebook experience, but feel free to use any Python environment you wish.</p>
+<p>The other thing you’ll need for this tutorial is, of course, data. You’ll use the <a href="https://www.kaggle.com/datasets/satyamanidharv/sales-data-presentation-dashboards?resource=download">Sales Data Presentation - Dashboards</a> data, which is freely available for you to use under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>. The data has been made available for you in the <code>sales_data.csv</code> file that you can download by clicking the link below.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/how-to-pandas-pivot-table-code/">Click here to download the free sample code</a> you’ll use to create a pivot table with pandas.</p>
+</div>
+<p>This table provides an explanation of the data you’ll use throughout this tutorial:</p>
+<div class="table-responsive">
+<table class="table table-hover">
+<thead>
+<tr>
+<th>Column Name</th>
+<th>Data Type (PyArrow)</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>order_number</code></td>
+<td><code>int64</code></td>
+<td>Order number (unique)</td>
+</tr>
+<tr>
+<td><code>employee_id</code></td>
+<td><code>int64</code></td>
+<td>Employee’s identifier (unique)</td>
+</tr>
+<tr>
+<td><code>employee_name</code></td>
+<td><code>string</code></td>
+<td>Employee’s full name</td>
+</tr>
+<tr>
+<td><code>job_title</code></td>
+<td><code>string</code></td>
+<td>Employee’s job title</td>
+</tr>
+<tr>
+<td><code>sales_region</code></td>
+<td><code>string</code></td>
+<td>Sales region employee works within</td>
+</tr>
+<tr>
+<td><code>order_date</code></td>
+<td><code>timestamp[ns]</code></td>
+<td>Date order was placed</td>
+</tr>
+<tr>
+<td><code>order_type</code></td>
+<td><code>string</code></td>
+<td>Type of order (Retail or Wholesale)</td>
+</tr>
+<tr>
+<td><code>customer_type</code></td>
+<td><code>string</code></td>
+<td>Type of customer (Business or Individual)</td>
+</tr>
+<tr>
+<td><code>customer_name</code></td>
+<td><code>string</code></td>
+<td>Customer’s full name</td>
+</tr>
+<tr>
+<td><code>customer_state</code></td>
+<td><code>string</code></td>
+<td>Customer’s state of residence</td>
+</tr>
+<tr>
+<td><code>product_category</code></td>
+<td><code>string</code></td>
+<td>Category of product (Bath Products, Gift Basket, Olive Oil)</td>
+</tr>
+<tr>
+<td><code>product_number</code></td>
+<td><code>string</code></td>
+<td>Product identifier (unique)</td>
+</tr>
+<tr>
+<td><code>product_name</code></td>
+<td><code>string</code></td>
+<td>Name of product</td>
+</tr>
+<tr>
+<td><code>quantity</code></td>
+<td><code>int64</code></td>
+<td>Quantity ordered</td>
+</tr>
+<tr>
+<td><code>unit_price</code></td>
+<td><code>double</code></td>
+<td>Selling price of one product</td>
+</tr>
+<tr>
+<td><code>sale_price</code></td>
+<td><code>double</code></td>
+<td>Total sale price (<code>unit_price</code> × <code>quantity</code>)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>As you can see, the table stores data for a fictional set of orders. Each row contains information about a single order. You’ll become more familiar with the data as you work through the tutorial and try to solve the various challenge exercises contained within it.</p>
+<p>Throughout this tutorial, you’ll use the pandas library to allow you to work with DataFrames and the newer <strong>PyArrow</strong> library. The PyArrow library provides pandas with its own optimized <a href="https://arrow.apache.org/docs/python/api/datatypes.html#data-types-and-schemas">data types</a>, which are faster and less memory-intensive than the traditional <a href="https://numpy.org/doc/stable/user/basics.types.html">NumPy types</a> pandas uses by default.</p>
+<p>If you’re working at the command line, you can install both <code>pandas</code> and <code>pyarrow</code> using <code>python -m pip install pandas pyarrow</code>, perhaps within a <a href="https://realpython.com/python-virtual-environments-a-primer/">virtual environment</a> to avoid clashing with your existing environment.  If you’re working within a Jupyter Notebook, you should use <code>!python -m pip install pandas pyarrow</code>. With the libraries in place, you can then read your data into a DataFrame:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">sales_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
+<span class="gp">... </span>    <span class="s2">"sales_data.csv"</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="n">parse_dates</span><span class="o">=</span><span class="p">[</span><span class="s2">"order_date"</span><span class="p">],</span>
+<span class="gp">... </span>    <span class="n">dayfirst</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+<span class="gp">... </span><span class="p">)</span><span class="o">.</span><span class="n">convert_dtypes</span><span class="p">(</span><span class="n">dtype_backend</span><span class="o">=</span><span class="s2">"pyarrow"</span><span class="p">)</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>First of all, you used <code>import pandas</code> to make the library available within your code. To construct the DataFrame and read it into the <code>sales_data</code> variable, you used pandas’ <code>read_csv()</code> function. The first parameter refers to the file being read, while <code>parse_dates</code> highlights that the <code>order_date</code> column’s data is intended to be read as the <code>datetime64[ns]</code> type. But there’s an issue that will prevent this from happening.</p>
+<p>In your source file, the order dates are in <code>dd/mm/yyyy</code> format, so to tell <code>read_csv()</code> that the first part of each date represents a day, you also set the <code>dayfirst</code> parameter to <code>True</code>. This allows <code>read_csv()</code> to now read the order dates as <code>datetime64[ns]</code> types. </p>
+<p>With order dates successfully read as <code>datetime64[ns]</code> types, the <code>.convert_dtypes()</code> method can then successfully convert them to a <code>timestamp[ns][pyarrow]</code> data type, and not the more general <code>string[pyarrow]</code> type it would have otherwise done. Although this may seem a bit circuitous, your efforts will allow you to analyze data by date should you need to do this.</p>
+<p>If you want to take a look at the data, you can run <code>sales_data.head(2)</code>. This will let you see the first two rows of your dataframe. When using <code>.head()</code>, it’s preferable to do so in a Jupyter Notebook because all of the columns are shown. Many Python REPLs show only the first and last few columns unless you use <code>pd.set_option("display.max_columns", None)</code> before you run <code>.head()</code>.</p>
+<p>If you want to verify that PyArrow types are being used, <code>sales_data.dtypes</code> will confirm it for you.  As you’ll see, each data type contains <code>[pyarrow]</code> in its name.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> If you’re experienced in data analysis, you’re no doubt aware of the need for <a href="https://en.wikipedia.org/wiki/Data_cleansing">data cleansing</a>. This is still important as you work with pivot tables, but it’s equally important to make sure your input data is also <a href="https://www.jstatsoft.org/article/view/v059i10">tidy</a>.</p>
+<p><strong>Tidy data</strong> is organized as follows:</p>
+<ul>
+<li>Each <strong>row</strong> should contain a single record or observation.</li>
+<li>Each <strong>column</strong> should contain a single observable or variable.</li>
+<li>Each <strong>cell</strong> should contain an atomic value.</li>
+</ul>
+<p>If you tidy your data in this way, as part of your data cleansing, you’ll also be able to analyze it better. For example, rather than store address details in a single <code>address</code> field, it’s usually better to split it down into <code>house_number</code>, <code>street_name</code>, <code>city</code>, and <code>country</code> component fields. This allows you to analyze it by individual streets, cities, or countries more easily.</p>
+<p>In addition, you’ll also be able to use the data from individual columns more readily in calculations. For example, if you had columns <code>room_length</code> and <code>room_width</code>, they can be multiplied together to give you room area information. If both values are stored together in a single column in a format such as <code>"10 x 5"</code>, the calculation becomes more awkward.</p>
+<p>The data within the <code>sales_data.csv</code> file is already in a suitably clean and tidy format for you to use in this tutorial. However, not all raw data you acquire will be.</p>
+</div>
+<p>It’s now time to create your first pandas pivot table with Python. To do this, first you’ll learn the basics of using the DataFrame’s <a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.pivot_table.html#pandas-pivot-table"><code>.pivot_table()</code></a> method.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/how-to-pandas-pivot-table-code/">Click here to download the free sample code</a> you’ll use to create a pivot table with pandas.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “How to Create Pivot Tables With pandas” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="https://realpython.com/quizzes/creating-pivot-tables-with-pandas/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="How to Create a Pivot Table With pandas" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Pandas-Pivot-Table-Aggregate-Data-in-Python_Watermarked.b50d3e60cb29.jpg" style="background: #b9abe6;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="https://realpython.com/quizzes/creating-pivot-tables-with-pandas/"><span class="my-0 h4">How to Create Pivot Tables With pandas</span></a> 
+      <p class="text-muted mb-0 small">This quiz is designed to push your knowledge of pivot tables a little bit further. You won't find all the answers by reading the tutorial, so you'll need to do some investigating on your own. By finding all the answers, you're sure to learn some other interesting things along the way.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="how-to-create-your-first-pivot-table-with-pandas">How to Create Your First Pivot Table With pandas<a class="headerlink" href="https://realpython.com/atom.xml#how-to-create-your-first-pivot-table-with-pandas" title="Permanent link"></a></h2>
+<p>Now that your learning journey is underway, it’s time to progress toward your first learning milestone and complete the following task:</p>
+<p><strong>Calculate the total sales for each type of order for each region.</strong></p>
+</div><h2><a href="https://realpython.com/how-to-pandas-pivot-table/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/how-to-pandas-pivot-table/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-05-27T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Quiz: How to Create Pivot Tables With pandas</title>
