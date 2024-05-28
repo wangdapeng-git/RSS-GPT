@@ -235,3 +235,15 @@ Existing_entries: 19
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
 append_entries: 0
 Finish: 2024-05-28 18:13:05.090110
+------------------------------------------------------
+Started: 2024-05-28 20:11:15.513556
+Existing_entries: 19
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
+Token length: 59810
+Summarized using GPT-3.5-turbo
+Append: [Reward hacking behavior can generalize across tasks](https://www.lesswrong.com/posts/Ge55vxEmKXunFFwoe/reward-hacking-behavior-can-generalize-across-tasks)
+Token length: 4420
+Summarized using GPT-3.5-turbo
+Append: [How to get nerds fascinated about mysterious chronic illness research?](https://www.lesswrong.com/posts/joPjaY43a4umyCkJK/how-to-get-nerds-fascinated-about-mysterious-chronic-illness)
+append_entries: 2
+Finish: 2024-05-28 20:11:27.684651
