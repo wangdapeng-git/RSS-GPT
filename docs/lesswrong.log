@@ -220,3 +220,12 @@ Existing_entries: 18
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
 append_entries: 0
 Finish: 2024-05-28 14:09:44.025154
+------------------------------------------------------
+Started: 2024-05-28 16:12:24.526168
+Existing_entries: 18
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
+Token length: 20906
+Summarized using GPT-3.5-turbo
+Append: [Understanding Gödel’s completeness theorem](https://www.lesswrong.com/posts/dPpA79MjPdDd87YoW/understanding-goedel-s-completeness-theorem)
+append_entries: 1
+Finish: 2024-05-28 16:12:31.826590
