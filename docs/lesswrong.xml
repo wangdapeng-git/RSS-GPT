@@ -4,13 +4,14 @@
 <title>LessWrong</title>
 <link>https://www.lesswrong.com</link>
 
+
 <item>
 <title>Understanding Gödel’s completeness theorem</title>
 <link>https://www.lesswrong.com/posts/dPpA79MjPdDd87YoW/understanding-goedel-s-completeness-theorem</link>
 <guid>https://www.lesswrong.com/posts/dPpA79MjPdDd87YoW/understanding-goedel-s-completeness-theorem</guid>
 <content:encoded><![CDATA[
 <div> Henkin理论，一阶逻辑，完备性定理，模型存在引理，假设性质。
-<br><br>总结：
+<br /><br />总结：
 这篇文章详细探讨了一阶逻辑中的Henkin理论，证明了模型存在引理和完备性定理。通过对Henkin理论的构造和推理规则的分析，展示了在一阶理论中推导命题的过程，并阐述了模型存在的必然性。同时，讨论了一阶逻辑中的假设性质，并提出了一些关于Henkin理论对于理解非标准模型的意义的见解。Henkin理论的研究有助于理解Peano算术和ZFC等一阶理论的非标准模型。 <div>
 Published on May 27, 2024 6:55 PM GMT<br /><br /><p>In this post I prove a variant of Gödel's completeness theorem. My intention has been to really understand the theorem, so that I am not simply shuffling symbols around, but am actually understanding why it is true. I hope it is helpful for at least some other people.</p>
 <p>For sources, I have myself relied mainly on <a href="https://www.ias.ac.in/article/fulltext/reso/006/08/0060-0071">Srivastava's presentation</a>. I have relied a lot on intuitions about <a href="https://en.wikipedia.org/wiki/Sequent_calculus">sequent calculus</a>; while I present a sequent calculus in this post, this is not a complete introduction to sequent calculus. I recommend <a href="http://logitext.mit.edu/main">Logitext</a> as an online proof tool for gaining more intuition about sequent proofs. I am familiar with sequent calculus mainly through type theory.</p>
@@ -139,9 +140,7 @@ Published on May 27, 2024 6:55 PM GMT<br /><br /><p>In this post I prove a varia
 <br /><br /><a href="https://www.lesswrong.com/posts/dPpA79MjPdDd87YoW/understanding-goedel-s-completeness-theorem#comments">Discuss</a>
 ]]></content:encoded>
 <pubDate>Tue, 28 May 2024 14:44:08 GMT</pubDate>
-<pubDate>Tue, 28 May 2024 14:44:08 GMT</pubDate>
 </item>
-
 <item>
 <title>Intransitive Trust</title>
 <link>https://www.lesswrong.com/posts/zKEdphnEycdCJeq8f/intransitive-trust</link>

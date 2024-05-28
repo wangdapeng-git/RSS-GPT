@@ -4,12 +4,13 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Efficient Iterations With Python Iterators and Iterables</title>
 <link>https://realpython.com/courses/efficient-iterations-iterators-iterables/</link>
 <guid>https://realpython.com/courses/efficient-iterations-iterators-iterables/</guid>
 <content:encoded><![CDATA[
-<div> 迭代器, 可迭代对象, Python, 生成器函数, asyncio<br>
+<div> 迭代器, 可迭代对象, Python, 生成器函数, asyncio<br />
 迭代器和可迭代对象是Python编程中的核心组件。学习如何创建迭代器是Python开发者的关键。生成器函数和yield语句可用于创建生成器迭代器。不同技术可用于构建自己的可迭代对象。asyncio模块和await及async关键词可用于创建异步迭代器。总结: 学习迭代器和可迭代对象的创建和使用对Python编程至关重要。掌握生成器函数和asyncio模块可帮助提升代码效率。 <div>
 <p>Python&rsquo;s <strong>iterators</strong> and <strong>iterables</strong> are two different but related tools that come in handy when you need to iterate over a data stream or container. Iterators power and control the iteration process, while iterables typically hold data that you want to iterate over one value at a time.</p>
 <p>Iterators and iterables are fundamental components of Python programming, and you&rsquo;ll have to deal with them in almost all your programs. Learning how they work and how to create them is key for you as a Python developer.</p>
@@ -25,10 +26,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-05-28T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>How to Create Pivot Tables With pandas</title>
 <link>https://realpython.com/how-to-pandas-pivot-table/</link>
