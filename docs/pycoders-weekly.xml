@@ -4,6 +4,7 @@
 <title>PyCoder’s Weekly</title>
 <link>https://pycoders.com/</link>
 
+
 <item>
 <title>Issue #631 (May 28, 2024)</title>
 <link>https://pycoders.com/issues/631</link>
@@ -20,10 +21,8 @@ Tkinter是PythonGUI框架，pyastgrep现在可用作库进行linting。Django 5.
         <hr />
         <p><em>[ Subscribe to 🐍 PyCoder&rsquo;s Weekly 💌 – Get the best Python news, articles, and tutorials delivered to your inbox once a week <a href="https://pycoders.com/?utm_source=pycoders&amp;utm_medium=feed&amp;utm_campaign=footer">&gt;&gt; Click here to learn more</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-05-28T19:30:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Issue #630 (May 21, 2024)</title>
 <link>https://pycoders.com/issues/630</link>
