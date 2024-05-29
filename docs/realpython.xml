@@ -4,12 +4,13 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>What Are CRUD Operations?</title>
 <link>https://realpython.com/crud-operations/</link>
 <guid>https://realpython.com/crud-operations/</guid>
 <content:encoded><![CDATA[
-<div> CRUD, Create, Read, Update, Delete, 数据操作<br>
+<div> CRUD, Create, Read, Update, Delete, 数据操作<br />
 在软件开发中，CRUD操作是非常重要的，指的是创建（Create）、读取（Read）、更新（Update）和删除（Delete）数据的操作。这四种操作是应用程序存储、检索和管理数据的基石。创建操作用于将新条目添加到数据库，读取操作用于检索现有数据库条目，更新操作允许修改数据库中已有数据的细节，删除操作则用于从数据库中删除现有条目。理解CRUD操作可以帮助开发人员设计和操作数据模型，并提供持久性，确保数据在程序崩溃或用户断开连接时仍然安全可用。CRUD操作通常与SQL命令和HTTP方法紧密相关，对应的SQL命令包括INSERT、SELECT、UPDATE和DELETE。在编写原始SQL命令时，可以通过Python的SQLite包实现CRUD操作。 <div>
 <div><p>CRUD operations are at the heart of nearly every application you interact with. As a developer, you usually want to create data, read or retrieve data, update data, and delete data. Whether you access a database or interact with a REST API, only when all four operations are present are you able to make a complete data roundtrip in your app.</p>
 <p>Creating, reading, updating, and deleting are so vital in software development that these methods are widely referred to as <strong>CRUD</strong>. Understanding CRUD will give you an actionable blueprint when you build applications and help you understand how the applications you use work behind the scenes. So, what exactly does CRUD mean?</p>
@@ -112,10 +113,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-05-29T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Efficient Iterations With Python Iterators and Iterables</title>
 <link>https://realpython.com/courses/efficient-iterations-iterators-iterables/</link>
