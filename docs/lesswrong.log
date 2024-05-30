@@ -334,3 +334,15 @@ Existing_entries: 24
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
 append_entries: 0
 Finish: 2024-05-29 22:10:03.433792
+------------------------------------------------------
+Started: 2024-05-30 00:46:01.903332
+Existing_entries: 24
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
+Token length: 20344
+Summarized using GPT-3.5-turbo
+Append: [Response to nostalgebraist: proudly waving my moral-antirealist battle flag](https://www.lesswrong.com/posts/8YhjpgQ2eLfnzQ7ec/response-to-nostalgebraist-proudly-waving-my-moral)
+Token length: 15903
+Summarized using GPT-3.5-turbo
+Append: [Finding Backward Chaining Circuits in Transformers Trained on Tree Search](https://www.lesswrong.com/posts/EBbcuSuNafkYpsgTW/finding-backward-chaining-circuits-in-transformers-trained-1)
+append_entries: 2
+Finish: 2024-05-30 00:46:15.250393
