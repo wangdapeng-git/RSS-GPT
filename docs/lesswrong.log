@@ -346,3 +346,9 @@ Summarized using GPT-3.5-turbo
 Append: [Finding Backward Chaining Circuits in Transformers Trained on Tree Search](https://www.lesswrong.com/posts/EBbcuSuNafkYpsgTW/finding-backward-chaining-circuits-in-transformers-trained-1)
 append_entries: 2
 Finish: 2024-05-30 00:46:15.250393
+------------------------------------------------------
+Started: 2024-05-30 02:26:36.602530
+Existing_entries: 26
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
+append_entries: 0
+Finish: 2024-05-30 02:26:37.234506

@@ -2730,3 +2730,10 @@ Fetching from https://rsshub.app/openai/blog
 Feed error: 403
 append_entries: 0
 error when rendering xml, skip docs/openai
+------------------------------------------------------
+Started: 2024-05-30 02:26:33.164069
+Existing_entries: 21
+Fetching from https://rsshub.app/openai/blog
+Feed error: 403
+append_entries: 0
+error when rendering xml, skip docs/openai
