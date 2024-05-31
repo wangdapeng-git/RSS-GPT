@@ -433,3 +433,9 @@ Summarized using GPT-3.5-turbo
 Append: [Value Claims (In Particular) Are Usually Bullshit](https://www.lesswrong.com/posts/afjTwyudcQfGe8AAq/value-claims-in-particular-are-usually-bullshit)
 append_entries: 3
 Finish: 2024-05-31 02:27:07.758758
+------------------------------------------------------
+Started: 2024-05-31 04:13:51.965015
+Existing_entries: 29
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
+append_entries: 0
+Finish: 2024-05-31 04:13:52.473936
