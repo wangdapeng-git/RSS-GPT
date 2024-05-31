@@ -490,3 +490,12 @@ Existing_entries: 30
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
 append_entries: 0
 Finish: 2024-05-31 20:10:33.649676
+------------------------------------------------------
+Started: 2024-05-31 22:09:34.133390
+Existing_entries: 30
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
+Token length: 25357
+Summarized using GPT-3.5-turbo
+Append: [There Should Be More Alignment-Driven Startups!](https://www.lesswrong.com/posts/5yt2rWLXM5KT7ivnL/there-should-be-more-alignment-driven-startups)
+append_entries: 1
+Finish: 2024-05-31 22:09:39.970857
