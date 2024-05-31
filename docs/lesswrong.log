@@ -418,3 +418,18 @@ Existing_entries: 26
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
 append_entries: 0
 Finish: 2024-05-31 00:47:43.076889
+------------------------------------------------------
+Started: 2024-05-31 02:26:49.059460
+Existing_entries: 26
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
+Token length: 5048
+Summarized using GPT-3.5-turbo
+Append: [The Pearly Gates](https://www.lesswrong.com/posts/XD6BCyenoiy8329E8/the-pearly-gates)
+Token length: 23185
+Summarized using GPT-3.5-turbo
+Append: [Awakening](https://www.lesswrong.com/posts/99PwFdz7qwHxQgwYx/awakening)
+Token length: 3518
+Summarized using GPT-3.5-turbo
+Append: [Value Claims (In Particular) Are Usually Bullshit](https://www.lesswrong.com/posts/afjTwyudcQfGe8AAq/value-claims-in-particular-are-usually-bullshit)
+append_entries: 3
+Finish: 2024-05-31 02:27:07.758758
