@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>The Real Python Podcast – Episode #206: Building Python Unit Tests &amp; Exploring a Data Visualization Gallery</title>
 <link>https://realpython.com/podcasts/rpp/206/</link>
@@ -18,10 +19,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-05-31T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>What Are CRUD Operations?</title>
 <link>https://realpython.com/crud-operations/</link>
