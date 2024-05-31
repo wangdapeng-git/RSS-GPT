@@ -4797,3 +4797,17 @@ Filter: [汉王扫描王APP v1.26.24.284 安卓版](https://www.52pojie.cn/forum
 Filter: [油猴浏览器68.1.2，油猴pc【电脑版】](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1926757)
 append_entries: 0
 Finish: 2024-05-31 10:11:05.944008
+------------------------------------------------------
+Started: 2024-05-31 12:18:27.155349
+Existing_entries: 327
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Append: [中医中药 4.4.0版本 中药功效大全](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1930041)
+Append: [免费远程软件GameViewer V1.1.5.1160_0529163145](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1930034)
+Append: [周待办 WeekToDo v2.2.0 计划你的一周从未如此简单](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1929655)
+Filter: [车机辅助插件。【车联助手X 3.6】实现任意软件在车机使用，不限于音乐、导航。](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1929389)
+Filter: [网易云音乐极速版-V1.0.0](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1929353)
+Filter: [图了个图 v1.0，聚合Ai图像处理工具](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1929167)
+Append: [文本字符串批量替换](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1928347)
+Filter: [油猴浏览器68.1.2，油猴pc【电脑版】](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1926757)
+append_entries: 4
+Finish: 2024-05-31 12:18:30.259559
