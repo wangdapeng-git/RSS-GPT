@@ -475,3 +475,12 @@ Existing_entries: 29
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
 append_entries: 0
 Finish: 2024-05-31 16:12:34.782694
+------------------------------------------------------
+Started: 2024-05-31 18:13:14.986403
+Existing_entries: 29
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
+Token length: 12233
+Summarized using GPT-3.5-turbo
+Append: [A civilization ran by amateurs](https://www.lesswrong.com/posts/tQGSZqb97dRZ2KNwH/a-civilization-ran-by-amateurs)
+append_entries: 1
+Finish: 2024-05-31 18:13:21.356209
