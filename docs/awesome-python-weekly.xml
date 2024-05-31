@@ -4,6 +4,7 @@
 <title>Awesome Python Weekly</title>
 <link>https://python.libhunt.com/newsletter</link>
 
+
 <item>
 <title>🐍 Issue 418 - Do I not like Ruby anymore?</title>
 <link>https://python.libhunt.com/newsletter/418</link>
@@ -11,13 +12,11 @@
 <content:encoded><![CDATA[
 <div> Ruby, issue, like, feelings, programming
 
-总结:<br><br>这篇文章讨论了作者对Ruby编程语言的感受和疑惑。作者表达了他曾经热爱Ruby但现在似乎不再喜欢它的困惑。他提到了自己对Ruby的种种挑战和不满，思考是否不再喜欢这门语言。文章最后作者得出结论，虽然可能曾经对Ruby的热情有所减退，但这并不意味着他完全放弃这门语言，而是要尝试寻找新的动力和激情来重新燃起对Ruby的热爱。文章探讨了人们对编程语言的情感和变化，告诫我们要保持开放的心态和持续学习的精神。 <div>
+总结:<br /><br />这篇文章讨论了作者对Ruby编程语言的感受和疑惑。作者表达了他曾经热爱Ruby但现在似乎不再喜欢它的困惑。他提到了自己对Ruby的种种挑战和不满，思考是否不再喜欢这门语言。文章最后作者得出结论，虽然可能曾经对Ruby的热情有所减退，但这并不意味着他完全放弃这门语言，而是要尝试寻找新的动力和激情来重新燃起对Ruby的热爱。文章探讨了人们对编程语言的情感和变化，告诫我们要保持开放的心态和持续学习的精神。 <div>
 🐍 Issue 418 - Do I not like Ruby anymore?
 ]]></content:encoded>
 <pubDate>Thu, 30 May 2024 13:42:00 -0800</pubDate>
-<pubDate>Thu, 30 May 2024 13:42:00 -0800</pubDate>
 </item>
-
 <item>
 <title>🐍 Issue 417 - Building A ChatGPT Wizard with MistralAI Using Taipy</title>
 <link>https://python.libhunt.com/newsletter/417</link>
