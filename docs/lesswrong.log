@@ -559,3 +559,12 @@ Existing_entries: 33
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
 append_entries: 0
 Finish: 2024-06-01 16:11:46.595442
+------------------------------------------------------
+Started: 2024-06-01 18:12:54.445884
+Existing_entries: 33
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
+Token length: 8173
+Summarized using GPT-3.5-turbo
+Append: [What do coherence arguments actually prove about agentic behavior?](https://www.lesswrong.com/posts/GPuXM3ufXfmaktYXZ/what-do-coherence-arguments-actually-prove-about-agentic)
+append_entries: 1
+Finish: 2024-06-01 18:13:02.333548
