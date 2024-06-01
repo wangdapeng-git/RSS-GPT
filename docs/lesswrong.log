@@ -499,3 +499,12 @@ Summarized using GPT-3.5-turbo
 Append: [There Should Be More Alignment-Driven Startups!](https://www.lesswrong.com/posts/5yt2rWLXM5KT7ivnL/there-should-be-more-alignment-driven-startups)
 append_entries: 1
 Finish: 2024-05-31 22:09:39.970857
+------------------------------------------------------
+Started: 2024-06-01 00:50:23.927065
+Existing_entries: 31
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
+Token length: 14570
+Summarized using GPT-3.5-turbo
+Append: [Web-surfing tips for strange times](https://www.lesswrong.com/posts/2M8jj9wE2kiCocNJB/web-surfing-tips-for-strange-times)
+append_entries: 1
+Finish: 2024-06-01 00:50:30.809664
