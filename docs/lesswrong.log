@@ -610,3 +610,12 @@ Existing_entries: 34
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
 append_entries: 0
 Finish: 2024-06-02 08:12:11.430211
+------------------------------------------------------
+Started: 2024-06-02 10:10:17.229605
+Existing_entries: 34
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
+Token length: 645
+Summarized using GPT-3.5-turbo
+Append: [Drexler's Nanosystems is now available online](https://www.lesswrong.com/posts/wkP2AgzNF2WXhbDyp/drexler-s-nanosystems-is-now-available-online)
+append_entries: 1
+Finish: 2024-06-02 10:10:22.298867
