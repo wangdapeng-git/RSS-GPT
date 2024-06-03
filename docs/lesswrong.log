@@ -724,3 +724,12 @@ Summarized using GPT-3.5-turbo
 Append: [AI catastrophes and rogue deployments](https://www.lesswrong.com/posts/ceBpLHJDdCt3xfEok/ai-catastrophes-and-rogue-deployments)
 append_entries: 1
 Finish: 2024-06-03 18:14:05.993370
+------------------------------------------------------
+Started: 2024-06-03 20:10:54.177393
+Existing_entries: 38
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
+Token length: 15902
+Summarized using GPT-3.5-turbo
+Append: [Companies' safety plans neglect risks from scheming AI](https://www.lesswrong.com/posts/mmDJWDX5EXv6rymtM/companies-safety-plans-neglect-risks-from-scheming-ai)
+append_entries: 1
+Finish: 2024-06-03 20:11:00.587593
