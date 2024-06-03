@@ -4,6 +4,22 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Quiz: String Interpolation in Python: Exploring Available Tools</title>
+<link>https://realpython.com/quizzes/python-string-interpolation/</link>
+<guid>https://realpython.com/quizzes/python-string-interpolation/</guid>
+<content:encoded><![CDATA[
+<div> f-strings, .format() method, modulo operator, Python, string interpolation
+总结:<br><br>
+Python的字符串插值工具有多种选择，可以使用f-strings、.format()方法或者百分号（%）操作符来插入变量到字符串中。f-strings 是Python3.6及以上版本引入的一种新方法， 可以在字符串前加上‘f’来表示，直接在大括号{}中插入变量。.format()方法可以在字符串中使用占位符{}来插入变量。百分号（%）操作符也可以用来进行字符串格式化，类似于C语言中的printf()函数。这些工具可以帮助我们在字符串中动态插入变量，使代码更简洁、易读。 <div>
+<p>Test your understanding of Python&rsquo;s tools for string interpolation, including f-strings, the <code>.format()</code> method, and the modulo operator.</p>
+<p>Take this quiz after reading our <a href="https://realpython.com/python-string-interpolation/">String Interpolation in Python: Exploring Available Tools</a> tutorial.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-06-03T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>The Real Python Podcast – Episode #206: Building Python Unit Tests &amp; Exploring a Data Visualization Gallery</title>
