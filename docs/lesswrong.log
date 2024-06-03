@@ -733,3 +733,12 @@ Summarized using GPT-3.5-turbo
 Append: [Companies' safety plans neglect risks from scheming AI](https://www.lesswrong.com/posts/mmDJWDX5EXv6rymtM/companies-safety-plans-neglect-risks-from-scheming-ai)
 append_entries: 1
 Finish: 2024-06-03 20:11:00.587593
+------------------------------------------------------
+Started: 2024-06-03 22:10:32.681155
+Existing_entries: 39
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
+Token length: 20905
+Summarized using GPT-3.5-turbo
+Append: [The Standard Analogy](https://www.lesswrong.com/posts/sGEJi9wFT3Gdqg2nM/the-standard-analogy)
+append_entries: 1
+Finish: 2024-06-03 22:10:39.396167

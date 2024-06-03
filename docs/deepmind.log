@@ -3216,3 +3216,10 @@ Fetching from https://rsshub.app/deepmind/blog
 Feed error: 403
 append_entries: 0
 error when rendering xml, skip docs/deepmind
+------------------------------------------------------
+Started: 2024-06-03 22:10:28.582160
+Existing_entries: 101
+Fetching from https://rsshub.app/deepmind/blog
+Feed error: 403
+append_entries: 0
+error when rendering xml, skip docs/deepmind
