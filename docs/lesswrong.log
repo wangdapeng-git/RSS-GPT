@@ -715,3 +715,12 @@ Summarized using GPT-3.5-turbo
 Append: [Comments on Anthropic's Scaling Monosemanticity](https://www.lesswrong.com/posts/zzmhsKx5dBpChKhry/comments-on-anthropic-s-scaling-monosemanticity)
 append_entries: 1
 Finish: 2024-06-03 16:13:44.769545
+------------------------------------------------------
+Started: 2024-06-03 18:13:57.466811
+Existing_entries: 37
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
+Token length: 14894
+Summarized using GPT-3.5-turbo
+Append: [AI catastrophes and rogue deployments](https://www.lesswrong.com/posts/ceBpLHJDdCt3xfEok/ai-catastrophes-and-rogue-deployments)
+append_entries: 1
+Finish: 2024-06-03 18:14:05.993370
