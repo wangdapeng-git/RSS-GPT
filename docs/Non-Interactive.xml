@@ -4,6 +4,116 @@
 <title>Non_Interactive – Software &amp; ML</title>
 <link>https://nonint.com</link>
 
+<item>
+<title>General Intelligence (2024)</title>
+<link>https://nonint.com/2024/06/03/general-intelligence-2024/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=general-intelligence-2024</link>
+<guid>https://nonint.com/2024/06/03/general-intelligence-2024/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=general-intelligence-2024</guid>
+<content:encoded><![CDATA[
+<div> interaction, world models, system 2 thinking, embodiment, AGI
+<br>
+AGI的定义包括与复杂环境互动的方式，建立环境的稳健模型和深度内省机制。作者认为世界模型的建立已经取得了进展，系统2思维的实现可以预计在2-3年内完成，实体化也有望在1-2年内实现。作者认为AGI可能会在3-5年内实现，而且会不断完善。最终目标是构建一个看起来像一个智能、有实体的代理人。希望能够开发出足以说服其他研究者的AGI。 
+<br><br>总结: AGI的关键要素包括不同环境的互动、世界模型的建立、系统2思维、实体化和最终实现AGI目标的时间估计。 <div>
+<p>Folks in the field of AI like to make predictions for AGI. I have thoughts, and I&#8217;ve always wanted to write them down. Let&#8217;s do that.</p>
+
+
+
+<p>Since this isn’t something I’ve touched on in the past, I&#8217;ll start by doing my best to define what I mean by “general intelligence”: a generally intelligent entity is one that achieves a special synthesis of three things:</p>
+
+
+
+<ul><li>A way of interacting with and observing a complex environment. Typically this means embodiment: the ability to perceive and interact with the natural world.</li><li>A robust world model covering the environment. This is the mechanism which allows an entity to perform quick inference with a reasonable accuracy. World models in humans are generally referred to as “intuition”, “fast thinking” or &#8220;system 1 thinking&#8221;.</li><li>A mechanism for performing deep introspection on arbitrary topics. This is thought of in many different ways &#8211; it is “reasoning”, “slow thinking” or “system 2 thinking”.</li></ul>
+
+
+
+<p>If you have these three things, you can build a generally intelligent agent. Here’s how:</p>
+
+
+
+<p>First, you seed your agent with one or more objectives. Have the agent use system 2 thinking in conjunction with its world model to start ideating ways to optimize for its objectives. It picks the best idea and builds a plan. It uses this plan to take an action on the world. It observes the result of this action and compares that result with the expectation it had based on its world model. It might update its world model here with the new knowledge gained. It uses system 2 thinking to make alterations to the plan (or idea). Rinse and repeat. </p>
+
+
+
+<p>My definition for general intelligence is an agent that can coherently execute the above cycle repeatedly over long periods of time, thereby being able to attempt to optimize any objective. </p>
+
+
+
+<p>The capacity to actually achieve arbitrary objectives is not a requirement. Some objectives are simply too hard. Adaptability and coherence are the key: can the agent use what it knows to synthesize a plan, and is it able to continuously act towards a single objective over long time periods.</p>
+
+
+
+<p>So with that out of the way &#8211; where do I think we are on the path to building a general intelligence?</p>
+
+
+
+<h2>World Models</h2>
+
+
+
+<p>We’re already building world models with autoregressive transformers, particularly of the &#8220;omnimodel&#8221; variety. How robust they are is up for debate. There’s good news, though: in my experience, scale improves robustness and humanity is currently pouring capital into scaling autoregressive models. So we can expect robustness to improve.</p>
+
+
+
+<p>With that said, I suspect the world models we have <em>right now</em> are sufficient to build a generally intelligent agent. </p>
+
+
+
+<p>Side note: I also suspect that robustness can be further improved via the interaction of system 2 thinking and observing the real world. This is a paradigm we haven’t really seen in AI yet, but happens all the time in living things. It’s a very important mechanism for improving robustness. </p>
+
+
+
+<p>When LLM skeptics like Yann say we haven’t yet achieved the intelligence of a cat &#8211; this is the point that they are missing. Yes, LLMs still lack some basic knowledge that every cat has, but they <em>could learn that knowledge &#8211;</em> given the ability to self-improve in this way. And such self-improvement <em>is</em> doable with transformers and the right ingredients.</p>
+
+
+
+<h2>Reasoning</h2>
+
+
+
+<p>There is not a well known way to achieve system 2 thinking, but I am quite confident that it is possible within the transformer paradigm with the technology and compute we have available to us right now. I estimate that we are 2-3 years away from building a mechanism for system 2 thinking which is sufficiently good for the cycle I described above.</p>
+
+
+
+<h2>Embodiment</h2>
+
+
+
+<p>Embodiment is something we’re still figuring out with AI but which is something I am once again quite optimistic about near-term advancements. There is a convergence currently happening between the field of robotics and LLMs that is hard to ignore. </p>
+
+
+
+<p>Robots are becoming extremely capable &#8211; able to respond to very abstract commands like “move forward”, &#8220;get up&#8221;, &#8220;kick ball&#8221;, “reach for object”, etc. For example, see what <a href="https://www.figure.ai/"><strong>Figure</strong></a> is up to or the recently released <a href="https://shop.unitree.com/products/unitree-h1">Unitree H1</a>. </p>
+
+
+
+<p>On the opposite end of the spectrum, large Omnimodels give us a way to map arbitrary sensory inputs into commands which can be sent to these sophisticated robotics systems. </p>
+
+
+
+<p>I&#8217;ve been spending a lot of time lately walking around outside talking to GPT-4o while letting it observe the world through my smartphone camera. I like asking it questions to test its knowledge of the physical world. It&#8217;s far from perfect, but it is surprisingly capable. We’re close to being able to deploy systems which can commit coherent strings of actions on the environment and observe (and understand) the results. I suspect we’re going to see some really impressive progress in the next 1-2 years here. </p>
+
+
+
+<p>This is the field of AI I am personally most excited in, and I plan to spend most of my time working on this over the coming years.</p>
+
+
+
+<h2>TL;DR</h2>
+
+
+
+<p>In summary &#8211; we’ve basically solved building world models, have 2-3 years on system 2 thinking, and 1-2 years on embodiment. The latter two can be done concurrently. Once all of the ingredients have been built, we need to integrate them together and build the cycling algorithm I described above. I’d give that another 1-2 years.</p>
+
+
+
+<p>So my current estimate is 3-5 years for AGI. I&#8217;m leaning towards 3 for something that looks an awful lot like a generally intelligent, embodied agent (which I would personally call an AGI). Then a few more years to refine it to the point that we can convince the Gary Marcus&#8217; of the world. </p>
+
+
+
+<p>Really excited to see how this ages. <img alt="🙂" class="wp-smiley" src="https://s.w.org/images/core/emoji/13.1.0/72x72/1f642.png" style="height: 1em;" /></p>
+]]></content:encoded>
+<pubDate>Mon, 03 Jun 2024 13:01:47 +0000</pubDate>
+<pubDate>Mon, 03 Jun 2024 13:01:47 +0000</pubDate>
+</item>
 
 <item>
 <title>GPT-4o</title>

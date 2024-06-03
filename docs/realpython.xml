@@ -5,22 +5,206 @@
 <link>https://realpython.com/</link>
 
 <item>
+<title>String Interpolation in Python: Exploring Available Tools</title>
+<link>https://realpython.com/python-string-interpolation/</link>
+<guid>https://realpython.com/python-string-interpolation/</guid>
+<content:encoded><![CDATA[
+<div> f-strings, str.format() method, modulo operator, string interpolation, Template class
+<br>
+Python提供了多种工具来进行字符串插值，包括f-strings、str.format()方法、模运算符(%)以及Template类。使用f-strings可以实现即时的字符串插值，使用str.format()方法可以实现延迟的字符串插值。模运算符(%)是在Python中常用的字符串插值方式之一。在选择使用f-strings还是str.format()方法时，可以根据具体需求进行决定。另外，可以使用string.Template类创建模板进行字符串插值。这些工具可以帮助提高代码的可读性和维护性。总结: <br>
+- Python中提供了多种工具来进行字符串插值，包括f-strings、str.format()方法、模运算符、string interpolation及Template类。<br>
+- 使用这些工具可以帮助提高代码的可读性和维护性，选择合适的工具取决于具体需求。 <div>
+<div><p><strong>String interpolation</strong> allows you to create strings by inserting objects into specific places in a target string template. Python has several tools for string interpolation, including f-strings, the <code>str.format()</code> method, and the modulo operator (<code>%</code>). Python’s <code>string</code> module also provides the <code>Template</code> class, which you can use for string interpolation.</p>
+<p><strong>In this tutorial, you’ll:</strong></p>
+<ul>
+<li>Learn how to use <strong>f-strings</strong> for <strong>eager</strong> string interpolation</li>
+<li>Perform <strong>lazy</strong> string interpolation using the <strong><code>str.format()</code></strong> method</li>
+<li>Learn the basics of using the <strong>modulo operator (<code>%</code>)</strong> for string interpolation</li>
+<li>Decide whether to use f-strings or the <code>str.format()</code> method for interpolation</li>
+<li>Create templates for string interpolation with <strong><code>string.Template</code></strong></li>
+</ul>
+<p>To get the most out of this tutorial, you should be familiar with Python <a href="https://realpython.com/python-strings/">strings</a>, which are represented by the <a href="https://realpython.com/python-data-types/#strings-and-characters"><code>str</code></a> class.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-string-interpolation-code/">Click here to download the free sample code</a> you’ll use to explore string interpolation tools in Python.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “String Interpolation in Python: Exploring Available Tools” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="https://realpython.com/quizzes/python-string-interpolation/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="String Interpolation in Python: Exploring Available Tools" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/String-Interpolation-in-Python_Watermarked.71ef9704414a.jpg" style="background: #ffc873;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="https://realpython.com/quizzes/python-string-interpolation/"><span class="my-0 h4">String Interpolation in Python: Exploring Available Tools</span></a> 
+      <p class="text-muted mb-0 small">Take this quiz to test your understanding of the available tools for string interpolation in Python, as well as their strengths and weaknesses. These tools include f-strings, the .format() method, and the modulo operator.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="string-interpolation-in-python">String Interpolation in Python<a class="headerlink" href="https://realpython.com/atom.xml#string-interpolation-in-python" title="Permanent link"></a></h2>
+<p>Sometimes, when working with strings, you’d make up strings by using multiple different string values. Initially, you could use the plus operator (<code>+</code>) to concatenate strings in Python. However, this approach results in code with many quotes and pluses:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">name</span> <span class="o">=</span> <span class="s2">"Pythonista"</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">day</span> <span class="o">=</span> <span class="s2">"Friday"</span>  <span class="c1"># Of course 😃</span>
+
+<span class="hll"><span class="gp">&gt;&gt;&gt; </span><span class="s2">"Hello, "</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="s2">"! Today is "</span> <span class="o">+</span> <span class="n">day</span> <span class="o">+</span> <span class="s2">"."</span>
+</span><span class="go">'Hello, Pythonista! Today is Friday.'</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this example, you build a string using some text and a couple of variables that hold string values. The many plus signs make the code hard to read and write. Python must have a better and cleaner way.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> To learn more about string <strong>concatenation</strong> in Python, check out the <a href="https://realpython.com/python-string-concatenation/">Efficient String Concatenation in Python</a> tutorial.</p>
+</div>
+<p>The modulo operator (<code>%</code>) came to make the syntax a bit better:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="s2">"Hello, </span><span class="si">%s</span><span class="s2">! Today is </span><span class="si">%s</span><span class="s2">."</span> <span class="o">%</span> <span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">day</span><span class="p">)</span>
+<span class="go">'Hello, Pythonista! Today is Friday.'</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this example, you use the modulo operator to insert the <code>name</code> and <code>day</code> variables into the string literals. The process of creating strings by inserting other strings into them, as you did here, is known as <a href="https://en.wikipedia.org/wiki/String_interpolation">string interpolation</a>.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> Formatting with the modulo operator is inspired by <a href="https://en.wikipedia.org/wiki/Printf"><code>printf()</code></a> formatting used in <a href="https://realpython.com/c-for-python-programmers/">C</a> and many other programming languages.</p>
+</div>
+<p>The <code>%s</code> combination of characters is known as a <strong>conversion specifier</strong>. They work as <strong>replacement fields</strong>. The <code>%</code> operator marks the start of the specifier, while the <code>s</code> letter is the <strong>conversion type</strong> and tells the operator that you want to convert the input object into a string. You’ll learn more about conversion specifiers in the section about the modulo operator.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> In this tutorial, you’ll learn about two different types of string interpolation:</p>
+<ol>
+<li><strong>Eager</strong> interpolation</li>
+<li><strong>Lazy</strong> interpolation</li>
+</ol>
+<p>In eager interpolation, Python inserts the values into the string at execution time in the same place where you define the string. In <a href="https://realpython.com/python-lazy-evaluation/">lazy</a> interpolation, Python delays the insertion until the string is actually needed. In this latter case, you create string templates at one point in your code and fill the template with values at another point.</p>
+</div>
+<p>But the story doesn’t end with the modulo operator. Later, Python introduced the <code>str.format()</code> method:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="s2">"Hello, </span><span class="si">{}</span><span class="s2">! Today is </span><span class="si">{}</span><span class="s2">."</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">day</span><span class="p">)</span>
+<span class="go">'Hello, Pythonista! Today is Friday.'</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The method interpolates its arguments into the target string using replacement fields limited by curly brackets. Even though this method can produce hard-to-read code, it represents a significant advance over the modulo operator: <em>it supports the string formatting mini-language</em>.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> String formatting is a fundamental topic in Python, and sometimes, people think that formatting and interpolation are the same. However, they’re not. In this tutorial, you’ll only learn about interpolation. To learn about string formatting and the formatting mini-language, check out the <a href="https://realpython.com/python-format-mini-language/">Python’s Format Mini-Language for Tidy Strings</a> tutorial.</p>
+</div>
+<p>Python continues to evolve, and every new version brings new, exciting features. Python 3.6 introduced formatted string literals, or f-strings for short:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="sa">f</span><span class="s2">"Hello, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">! Today is </span><span class="si">{</span><span class="n">day</span><span class="si">}</span><span class="s2">."</span>
+<span class="go">'Hello, Pythonista! Today is Friday.'</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>F-strings offer a more readable and clean way to create strings that include other strings. To make an f-string, you must prefix it with an <code>f</code> or <code>F</code>. Again, curly brackets delimit the replacement fields.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> To learn more about f-strings, check out the <a href="https://realpython.com/python-f-strings/">Python’s F-String for String Interpolation and Formatting</a> tutorial.</p>
+</div>
+</div><h2><a href="https://realpython.com/python-string-interpolation/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-string-interpolation/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-06-03T14:00:00+00:00</pubDate>
+</item>
+
+<item>
 <title>Quiz: String Interpolation in Python: Exploring Available Tools</title>
 <link>https://realpython.com/quizzes/python-string-interpolation/</link>
 <guid>https://realpython.com/quizzes/python-string-interpolation/</guid>
 <content:encoded><![CDATA[
 <div> f-strings, .format() method, modulo operator, Python, string interpolation
-总结:<br><br>
+总结:<br /><br />
 Python的字符串插值工具有多种选择，可以使用f-strings、.format()方法或者百分号（%）操作符来插入变量到字符串中。f-strings 是Python3.6及以上版本引入的一种新方法， 可以在字符串前加上‘f’来表示，直接在大括号{}中插入变量。.format()方法可以在字符串中使用占位符{}来插入变量。百分号（%）操作符也可以用来进行字符串格式化，类似于C语言中的printf()函数。这些工具可以帮助我们在字符串中动态插入变量，使代码更简洁、易读。 <div>
 <p>Test your understanding of Python&rsquo;s tools for string interpolation, including f-strings, the <code>.format()</code> method, and the modulo operator.</p>
 <p>Take this quiz after reading our <a href="https://realpython.com/python-string-interpolation/">String Interpolation in Python: Exploring Available Tools</a> tutorial.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-06-03T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>The Real Python Podcast – Episode #206: Building Python Unit Tests &amp; Exploring a Data Visualization Gallery</title>
 <link>https://realpython.com/podcasts/rpp/206/</link>
