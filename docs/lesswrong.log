@@ -661,3 +661,12 @@ Existing_entries: 35
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
 append_entries: 0
 Finish: 2024-06-03 00:47:43.110709
+------------------------------------------------------
+Started: 2024-06-03 02:27:56.385933
+Existing_entries: 35
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
+Token length: 7827
+Summarized using GPT-3.5-turbo
+Append: [How it All Went Down: The Puzzle Hunt that took us way, way Less Online](https://www.lesswrong.com/posts/FtsyWwJLdTapN3c6h/how-it-all-went-down-the-puzzle-hunt-that-took-us-way-way)
+append_entries: 1
+Finish: 2024-06-03 02:28:02.092110
