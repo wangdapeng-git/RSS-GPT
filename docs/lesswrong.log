@@ -670,3 +670,9 @@ Summarized using GPT-3.5-turbo
 Append: [How it All Went Down: The Puzzle Hunt that took us way, way Less Online](https://www.lesswrong.com/posts/FtsyWwJLdTapN3c6h/how-it-all-went-down-the-puzzle-hunt-that-took-us-way-way)
 append_entries: 1
 Finish: 2024-06-03 02:28:02.092110
+------------------------------------------------------
+Started: 2024-06-03 04:14:38.133418
+Existing_entries: 36
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
+append_entries: 0
+Finish: 2024-06-03 04:14:38.381525
