@@ -742,3 +742,9 @@ Summarized using GPT-3.5-turbo
 Append: [The Standard Analogy](https://www.lesswrong.com/posts/sGEJi9wFT3Gdqg2nM/the-standard-analogy)
 append_entries: 1
 Finish: 2024-06-03 22:10:39.396167
+------------------------------------------------------
+Started: 2024-06-04 00:47:03.559160
+Existing_entries: 40
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30
+append_entries: 0
+Finish: 2024-06-04 00:47:03.976809
