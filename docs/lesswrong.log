@@ -802,3 +802,12 @@ Existing_entries: 40
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-06-04 18:13:47.582294
+------------------------------------------------------
+Started: 2024-06-04 20:10:54.878312
+Existing_entries: 40
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 24163
+Summarized using GPT-3.5-turbo
+Append: [[Paper] Stress-testing capability elicitation with password-locked models](https://www.lesswrong.com/posts/c4sZqhqPwNKGz3fFW/paper-stress-testing-capability-elicitation-with-password)
+append_entries: 1
+Finish: 2024-06-04 20:11:00.875213
