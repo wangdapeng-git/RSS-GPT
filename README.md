@@ -69,4 +69,4 @@ I will consider hosting more feeds in the future. Email me or submit an issue if
 - https://pycoders.com/feed/KcT2X2Kh -> https://wangdapeng-git.github.io/RSS-GPT/pycoders-weekly.xml
 - https://pythonhub.dev/digest/feed/ -> https://wangdapeng-git.github.io/RSS-GPT/pythonhub-weekly.xml
 - https://python.libhunt.com/newsletter/feed -> https://wangdapeng-git.github.io/RSS-GPT/awesome-python-weekly.xml
-- https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=30 -> https://wangdapeng-git.github.io/RSS-GPT/lesswrong.xml
+- https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50 -> https://wangdapeng-git.github.io/RSS-GPT/lesswrong.xml

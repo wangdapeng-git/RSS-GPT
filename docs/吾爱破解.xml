@@ -4,6 +4,71 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>小白再一次记录一个付费安装软件的破解方法</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1931108</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1931108</guid>
+<content:encoded><![CDATA[
+
+首先说点废话，说真的，2015年就注册了，没时间学习，导致自己停滞不前，最近看到巴勒斯坦的儿童可怜的样子，加上听着
+BEYONG黄家驹的amami，突然想看看巴勒斯坦的加沙地区地图，了解下。本来我有GoogleEarth pro版本 ...
+]]></content:encoded>
+<pubDate>Mon, 03 Jun 2024 10:46:28 +0000</pubDate>
+<pubDate>Mon, 03 Jun 2024 10:46:28 +0000</pubDate>
+</item>
+<item>
+<title>植物大战僵尸杂交版之秒杀僵尸分析日记</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1931106</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1931106</guid>
+<content:encoded><![CDATA[
+
+【论坛不知道怎么回事，我每次排版好了，点发布，就会报错：什么提交来路不正确，已经搞了我3次了，然后点击上一步后，恢复帖子数据，我发现我图片排版又没了，气死我了】
+哎，搞不定，我先吃饭了，吃完饭过来换个浏览器试试。。
+
+我也不会排版，我也是第一次在论坛 ...
+]]></content:encoded>
+<pubDate>Mon, 03 Jun 2024 10:41:58 +0000</pubDate>
+<pubDate>Mon, 03 Jun 2024 10:41:58 +0000</pubDate>
+</item>
+<item>
+<title>Python做的车牌识别</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1930737</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1930737</guid>
+<content:encoded><![CDATA[
+
+[mw_shl_code=python,true]import cv2
+import numpy as np
+import glob
+
+
+def get_plate(image_):
+    global plate
+    rawImage = image_.copy()
+    # 去噪处理
+    image_ = cv2.GaussianBlur(image_, (3, 3), 0)
+    # 色彩空间转换
+    image_ = cv2.c ...
+]]></content:encoded>
+<pubDate>Sun, 02 Jun 2024 08:37:04 +0000</pubDate>
+<pubDate>Sun, 02 Jun 2024 08:37:04 +0000</pubDate>
+</item>
+<item>
+<title>万能嗅探1.0.5【可抓视频号】免安装 批量抓取媒体文件</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1930186</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1930186</guid>
+<content:encoded><![CDATA[
+
+Tips(修改下)：增加 视频号 抓取教学 感觉好多朋友需要下载视频号内容呢，这个嗅探工具可以下载和解密视频号数据的，我贴个图给大家说下咋搞的。
+
+
+
+
+
+发现了一款比较好用资源嗅探软件，界面干净，可以内容预览和 ...
+]]></content:encoded>
+<pubDate>Fri, 31 May 2024 07:21:26 +0000</pubDate>
+<pubDate>Fri, 31 May 2024 07:21:26 +0000</pubDate>
+</item>
 
 <item>
 <title>免费密码管理工具 KeepassV2.57中文版</title>
