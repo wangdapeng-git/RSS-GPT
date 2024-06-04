@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Python Interfaces: Object-Oriented Design Principles</title>
 <link>https://realpython.com/courses/interfaces-object-oriented-design-principles/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> Python, Interfaces, Software engineering, ABCMeta, abstractmethod
 
-接口在软件工程中扮演重要角色。随着应用程序的增长，更新和更改代码变得更加困难。经常会出现类似但不相关的类，这可能导致混淆。这个视频课程将教你如何使用Python接口来确定应该使用哪个类来解决当前问题。你将学会接口的工作原理，Python接口创建的注意事项，了解在Python这样的动态语言中接口的有用性，实现非正式Python接口，使用abc.ABCMeta和@abc.abstractmethod来实现正式Python接口。总结：<br><br>接口在软件工程中扮演重要角色。随着应用程序的增长，更新和更改代码变得更加困难。经常会出现类似但不相关的类，这可能导致混淆。这个视频课程将教你如何使用Python接口来确定应该使用哪个类来解决当前问题。 <div>
+接口在软件工程中扮演重要角色。随着应用程序的增长，更新和更改代码变得更加困难。经常会出现类似但不相关的类，这可能导致混淆。这个视频课程将教你如何使用Python接口来确定应该使用哪个类来解决当前问题。你将学会接口的工作原理，Python接口创建的注意事项，了解在Python这样的动态语言中接口的有用性，实现非正式Python接口，使用abc.ABCMeta和@abc.abstractmethod来实现正式Python接口。总结：<br /><br />接口在软件工程中扮演重要角色。随着应用程序的增长，更新和更改代码变得更加困难。经常会出现类似但不相关的类，这可能导致混淆。这个视频课程将教你如何使用Python接口来确定应该使用哪个类来解决当前问题。 <div>
 <p>Interfaces play an important role in software engineering. As an application grows, updates and changes to the code base become more difficult to manage. More often than not, you wind up having classes that look very similar but are unrelated, which can lead to some confusion. In this video course, you&rsquo;ll see how you can use a <strong>Python interface</strong> to help determine what class you should use to tackle the current problem.</p>
 <p><strong>In this video course, you&rsquo;ll be able to:</strong></p>
 <ul>
@@ -23,10 +24,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-06-04T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>String Interpolation in Python: Exploring Available Tools</title>
 <link>https://realpython.com/python-string-interpolation/</link>
