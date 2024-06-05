@@ -883,3 +883,12 @@ Existing_entries: 45
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-06-05 16:13:28.652814
+------------------------------------------------------
+Started: 2024-06-05 18:13:13.830319
+Existing_entries: 45
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 34017
+Summarized using GPT-3.5-turbo
+Append: [On “first critical tries” in AI alignment](https://www.lesswrong.com/posts/qs7SjiMFoKseZrhxK/on-first-critical-tries-in-ai-alignment)
+append_entries: 1
+Finish: 2024-06-05 18:13:22.039906
