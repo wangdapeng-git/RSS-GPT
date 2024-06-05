@@ -901,3 +901,9 @@ Summarized using GPT-3.5-turbo
 Append: [Former OpenAI Superalignment Researcher: Superintelligence by 2030](https://www.lesswrong.com/posts/2mrdHw6yM3h55bmhg/former-openai-superalignment-researcher-superintelligence-by)
 append_entries: 1
 Finish: 2024-06-05 20:11:52.725752
+------------------------------------------------------
+Started: 2024-06-05 22:09:59.285110
+Existing_entries: 47
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-05 22:09:59.601178
