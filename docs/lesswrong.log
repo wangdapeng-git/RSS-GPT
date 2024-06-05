@@ -841,3 +841,12 @@ Existing_entries: 43
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-06-05 04:15:22.891566
+------------------------------------------------------
+Started: 2024-06-05 06:14:24.582790
+Existing_entries: 43
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 43740
+Summarized using GPT-3.5-turbo
+Append: [Takeoff speeds presentation at Anthropic](https://www.lesswrong.com/posts/Nsmabb9fhpLuLdtLE/takeoff-speeds-presentation-at-anthropic)
+append_entries: 1
+Finish: 2024-06-05 06:14:33.758235
