@@ -4,6 +4,21 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Quiz: Python String Formatting: Available Tools and Their Features</title>
+<link>https://realpython.com/quizzes/python-string-formatting-update/</link>
+<guid>https://realpython.com/quizzes/python-string-formatting-update/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: Python, 字符串格式化, f-strings, .format() 方法, 取模运算符
+总结：<br>Python提供了多种工具来进行字符串格式化，包括使用f-strings, .format() 方法和取模运算符。f-strings是一种简洁且直观的方法，通过在字符串前加上f或F来创建，可以在{}内插入变量。另一种方法是使用.format()方法，通过在字符串中使用{}占位符并在.format()方法中传入变量的值来进行字符串格式化。另外，可以使用取模运算符来进行字符串格式化，使用%符号来指定占位符并在后面传入变量。通过掌握这些工具，可以更灵活地对字符串进行格式化。 <br><br>总结: <div>
+<p>Test your understanding of Python&rsquo;s tools for string formatting, including f-strings, the <code>.format()</code> method, and the modulo operator.</p>
+<p>Take this quiz after reading our <a href="https://realpython.com/python-string-formatting/">Python String Formatting: Available Tools and Their Features</a> tutorial.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-06-05T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Python String Formatting: Available Tools and Their Features</title>
