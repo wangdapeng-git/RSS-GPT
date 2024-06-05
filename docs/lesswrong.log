@@ -859,3 +859,9 @@ Summarized using GPT-3.5-turbo
 Append: [in defense of Linus Pauling](https://www.lesswrong.com/posts/CyZeedcbztE7ngF8L/in-defense-of-linus-pauling)
 append_entries: 1
 Finish: 2024-06-05 08:13:23.654552
+------------------------------------------------------
+Started: 2024-06-05 10:11:10.765453
+Existing_entries: 45
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-05 10:11:11.094345
