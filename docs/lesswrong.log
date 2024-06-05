@@ -826,3 +826,12 @@ Summarized using GPT-3.5-turbo
 Append: [Just admit that you’ve zoned out](https://www.lesswrong.com/posts/vjeAwiWFcexohWS2e/just-admit-that-you-ve-zoned-out)
 append_entries: 1
 Finish: 2024-06-05 00:46:28.737168
+------------------------------------------------------
+Started: 2024-06-05 02:27:24.457492
+Existing_entries: 42
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 22604
+Summarized using GPT-3.5-turbo
+Append: [Evidence of Learned Look-Ahead in a Chess-Playing Neural Network](https://www.lesswrong.com/posts/GfwdBoaLw3ef3zBqe/evidence-of-learned-look-ahead-in-a-chess-playing-neural)
+append_entries: 1
+Finish: 2024-06-05 02:27:32.429593
