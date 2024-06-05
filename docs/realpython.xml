@@ -4,6 +4,168 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Python String Formatting: Available Tools and Their Features</title>
+<link>https://realpython.com/python-string-formatting/</link>
+<guid>https://realpython.com/python-string-formatting/</guid>
+<content:encoded><![CDATA[
+<div> f-strings, .format(), modulo operator, string interpolation, string formatting<br>
+<br>
+总结:<br>
+文章介绍了Python中的字符串格式化工具，包括f-strings、.format()方法和百分号操作符。使用f-strings和.format()方法可以对字符串进行格式化，支持更多的格式选项，而百分号操作符则较为陈旧且选项有限。文章说明了如何使用f-strings进行字符串插值和格式化，以及如何使用.format()方法和百分号操作符进行字符串格式化。概述了Python中的字符串插入和格式化的基本概念，并详细介绍了这些工具的优点和限制。 <div>
+<div><p><strong>String formatting</strong> is the process of applying a proper format to a given value while using this value to create a new string through interpolation. Python has several tools for string interpolation that support many formatting features. In modern Python, you’ll use f-strings or the <code>.format()</code> method most of the time. However, you’ll see the modulo operator (<code>%</code>) being used in legacy code.</p>
+<p><strong>In this tutorial, you’ll learn how to:</strong></p>
+<ul>
+<li>Format strings using <strong>f-strings</strong> for eager interpolation</li>
+<li>Use the <strong><code>.format()</code></strong> method to format your strings lazily</li>
+<li>Work with the <strong>modulo operator (<code>%</code>)</strong> for string formatting</li>
+<li>Decide which interpolation and <strong>formatting tool</strong> to use</li>
+</ul>
+<p>To get the most out of this tutorial, you should be familiar with Python’s <a href="https://realpython.com/python-strings/">string data type</a> and the available <a href="https://realpython.com/python-string-interpolation/">string interpolation</a> tools. Having a basic knowledge of the string <a href="https://realpython.com/python-format-mini-language/">formatting mini-language</a> is also a plus.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-string-formatting-code/">Click here to download the free sample code</a> you’ll use to learn about Python’s string formatting tools.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Python String Formatting: Available Tools and Their Features” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="https://realpython.com/quizzes/python-string-formatting-update/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="Python String Formatting: Available Tools and Their Features" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Python-String-Formatting-Best-Practices_Watermarked-2.e0a560b0184d.jpg" style="background: #abe0e6;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="https://realpython.com/quizzes/python-string-formatting-update/"><span class="my-0 h4">Python String Formatting: Available Tools and Their Features</span></a> 
+      <p class="text-muted mb-0 small">Take this quiz to test your understanding of the available tools for string formatting in Python, as well as their strengths and weaknesses. These tools include f-strings, the .format() method, and the modulo operator.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="interpolating-and-formatting-strings-in-python">Interpolating and Formatting Strings in Python<a class="headerlink" href="https://realpython.com/atom.xml#interpolating-and-formatting-strings-in-python" title="Permanent link"></a></h2>
+<p><a href="https://en.wikipedia.org/wiki/String_interpolation">String interpolation</a> involves generating strings by inserting other strings or objects into specific places in a base string or template. For example, here’s how you can do some string interpolation using an f-string:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">name</span> <span class="o">=</span> <span class="s2">"Bob"</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="sa">f</span><span class="s2">"Hello, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">!"</span>
+<span class="go">'Hello, Bob!'</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this quick example, you first have a Python <a href="https://realpython.com/python-variables/">variable</a> containing a string object, <code>"Bob"</code>. Then, you create a new string using an f-string. In this string, you insert the content of your <code>name</code> variable using a replacement field. When you run this last line of code, Python builds a final string, <code>'Hello, Bob!'</code>. The insertion of <code>name</code> into the f-string is an interpolation.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> To dive deeper into string interpolation, check out the <a href="https://realpython.com/python-string-interpolation/">String Interpolation in Python: Exploring Available Tools</a> tutorial.</p>
+</div>
+<p>When you do string interpolation, you may need to <em>format</em> the interpolated values to produce a well-formatted final string. To do this, you can use different string interpolation tools that support string formatting. In Python, you have these three tools:</p>
+<ol>
+<li><a href="https://realpython.com/python-f-strings/">F-strings</a></li>
+<li>The <a href="https://realpython.com/python-string-interpolation/#creating-strings-with-the-strformat-method"><code>str.format()</code></a> method</li>
+<li>The <a href="https://realpython.com/python-string-interpolation/#using-the-modulo-operator-for-interpolation">modulo operator (<code>%</code>)</a></li>
+</ol>
+<p>The first two tools support the string formatting mini-language, a feature that allows you to fine-tune your strings. The third tool is a bit old and has fewer formatting options. However, you can use it to do some minimal formatting.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> The built-in <a href="https://docs.python.org/3/library/functions.html#format"><code>format()</code></a> function is yet another tool that supports the format specification mini-language. This function is typically used for date and number formatting, but you won’t cover it in this tutorial.</p>
+</div>
+<p>In the following sections, you’ll start by learning a bit about the string formatting mini-language. Then, you’ll dive into using this language, f-strings, and the <code>.format()</code> method to format your strings. Finally, you’ll learn about the formatting capabilities of the modulo operator.</p>
+<h2 id="using-f-strings-to-format-strings">Using F-Strings to Format Strings<a class="headerlink" href="https://realpython.com/atom.xml#using-f-strings-to-format-strings" title="Permanent link"></a></h2>
+<p>Python <a href="https://dbader.org/blog/cool-new-features-in-python-3-6">3.6</a> added a string interpolation and formatting tool called <strong>formatted string literals</strong>, or <a href="https://realpython.com/python-f-strings/">f-strings</a> for short. As you’ve already learned, f-strings let you embed Python objects and expressions inside your strings. To create an f-string, you must prefix the string with an <code>f</code> or <code>F</code> and insert replacement fields in the string literal. Each replacement field must contain a variable, object, or expression:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="sa">f</span><span class="s2">"The number is </span><span class="si">{</span><span class="mi">42</span><span class="si">}</span><span class="s2">"</span>
+<span class="go">'The number is 42'</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">a</span><span class="si">}</span><span class="s2"> plus </span><span class="si">{</span><span class="n">b</span><span class="si">}</span><span class="s2"> is </span><span class="si">{</span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">b</span><span class="si">}</span><span class="s2">"</span>
+<span class="go">'5 plus 10 is 15'</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In the first example, you define an f-string that embeds the number <code>42</code> directly into the resulting string. In the second example, you insert two variables and an expression into the string.</p>
+<p>Formatted string literals are a Python parser feature that converts f-strings into a series of string constants and expressions. These are then joined up to build the final string.</p>
+<h3 id="using-the-formatting-mini-language-with-f-strings">Using the Formatting Mini-Language With F-Strings<a class="headerlink" href="https://realpython.com/atom.xml#using-the-formatting-mini-language-with-f-strings" title="Permanent link"></a></h3>
+<p>When you use f-strings to create strings through interpolation, you need to use <strong>replacement fields</strong>. In f-strings, you can define a replacement field using curly brackets (<code>{}</code>) as in the examples below:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">debit</span> <span class="o">=</span> <span class="mf">300.00</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">credit</span> <span class="o">=</span> <span class="mf">450.00</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="sa">f</span><span class="s2">"Debit: $</span><span class="si">{</span><span class="n">debit</span><span class="si">}</span><span class="s2">, Credit: $</span><span class="si">{</span><span class="n">credit</span><span class="si">}</span><span class="s2">, Balance: $</span><span class="si">{</span><span class="n">credit</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">debit</span><span class="si">}</span><span class="s2">"</span>
+<span class="go">'Debit: $300, Credit: $450.0, Balance: $150.0'</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Inside the brackets, you can insert Python objects and <a href="https://realpython.com/python-operators-expressions/">expressions</a>. In this example, you’d like the resulting string to display the currency values using a proper format. However, you get a string that shows the currency values with at most one digit on its decimal part.</p>
+</div><h2><a href="https://realpython.com/python-string-formatting/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-string-formatting/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-06-05T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Python Interfaces: Object-Oriented Design Principles</title>
