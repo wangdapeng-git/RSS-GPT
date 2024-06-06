@@ -4,6 +4,19 @@
 <title>Awesome Python Weekly</title>
 <link>https://python.libhunt.com/newsletter</link>
 
+<item>
+<title>🐍 Issue 419 - Python notebooks for fundamentals of music processing</title>
+<link>https://python.libhunt.com/newsletter/419</link>
+<guid>https://python.libhunt.com/newsletter/419</guid>
+<content:encoded><![CDATA[
+<div> Python notebooks, fundamentals, music processing, Jupyter, audio<br>
+<br>
+通过Python notebooks可以学习音乐处理的基础知识，利用Jupyter进行实践和学习。学习者可以了解音频数据的处理方法，包括加载、保存和可视化。同时，还可以学习信号处理的基础概念，如频率分析和滤波器设计。这些概念和技术对音乐处理和音频处理领域的学习和实践非常重要。通过这些Python notebooks，学习者可以深入了解音乐处理的原理和方法，为进一步的学习和实践奠定坚实的基础。<br><br>总结: <br>Python notebooks为学习音乐处理的基础知识提供了便利，通过Jupyter进行实践学习。学习者可以掌握音频数据处理方法、信号处理基础概念等重要知识，为音乐处理和音频处理领域的学习奠定基础。 <div>
+🐍 Issue 419 - Python notebooks for fundamentals of music processing
+]]></content:encoded>
+<pubDate>Thu, 06 Jun 2024 13:42:00 -0800</pubDate>
+<pubDate>Thu, 06 Jun 2024 13:42:00 -0800</pubDate>
+</item>
 
 <item>
 <title>🐍 Issue 418 - Do I not like Ruby anymore?</title>
