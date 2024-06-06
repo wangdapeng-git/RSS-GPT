@@ -952,3 +952,9 @@ Summarized using GPT-3.5-turbo
 Append: [Calculating Natural Latents via Resampling](https://www.lesswrong.com/posts/NHKCtSXgFieDAyWt2/calculating-natural-latents-via-resampling)
 append_entries: 1
 Finish: 2024-06-06 12:19:18.598281
+------------------------------------------------------
+Started: 2024-06-06 14:10:44.430345
+Existing_entries: 48
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-06 14:10:45.433353
