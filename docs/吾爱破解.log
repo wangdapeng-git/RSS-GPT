@@ -5915,3 +5915,12 @@ Filter: [发票PDF文件识别工具](https://www.52pojie.cn/forum.php?mod=viewt
 Filter: [图了个图 v1.0，聚合Ai图像处理工具](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1929167)
 append_entries: 1
 Finish: 2024-06-07 14:11:20.389088
+------------------------------------------------------
+Started: 2024-06-07 16:12:27.099630
+Existing_entries: 370
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [剪映 Jianying_pro_3_2_0_8778_beta9_jianyingpro_beta](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1930293)
+Filter: [发票PDF文件识别工具](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1930142)
+Filter: [图了个图 v1.0，聚合Ai图像处理工具](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1929167)
+append_entries: 0
+Finish: 2024-06-07 16:12:29.000100
