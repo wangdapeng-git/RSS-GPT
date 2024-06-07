@@ -4,6 +4,94 @@
 <title>LessWrong</title>
 <link>https://www.lesswrong.com</link>
 
+<item>
+<title>Humming is not a free $100 bill</title>
+<link>https://www.lesswrong.com/posts/dsZeogoPQbF8jSHMB/humming-is-not-a-free-usd100-bill</link>
+<guid>https://www.lesswrong.com/posts/dsZeogoPQbF8jSHMB/humming-is-not-a-free-usd100-bill</guid>
+<content:encoded><![CDATA[
+<div> humming, nitric oxide, Enovid, error, conclusions
+总结:<br><br>本文针对关于humming作为抗病毒干预方法的观点进行了修正。作者发现自己对Enovid中硝普钠含量的估算存在错误，humming释放的NO量也比预期小。文章探讨了humming的实际效果和潜在用途，认为其在非紧急情况下效果有限，但仍有可能存在非线性效应或Enovid含量过剩的可能。作者感叹自己的愚蠢，但同时感谢自身在写作时对可能错误的审慎态度。 <div>
+Published on June 6, 2024 8:10 PM GMT<br /><br /><p></p>
+
+
+
+<p><a href="https://acesounderglass.com/2024/05/12/do-you-believe-in-hundred-dollar-bills-lying-on-the-ground-consider-humming/">Last month</a>&nbsp;I posted about humming as a cheap and convenient way to flood your nose with nitric oxide (NO), a known antiviral. Alas, the <a href="https://www.evidenceinvestor.com/the-twenty-dollar-bill/">economists were right</a>, and the benefits were much smaller than I estimated.</p>
+
+
+
+<p>The post contained one obvious error and one complication. Both were caught by <a href="https://www.lesswrong.com/posts/NBZvpcBx4ewqkdCdT/do-you-believe-in-hundred-dollar-bills-lying-on-the-ground-1?commentId=fargcXxr9ecc7vSQc">Thomas Kwa</a>, for which he has my gratitude. When he initially pointed out the error I awarded him a $50 bounty; now that the implications are confirmed I’ve upped that to $250. In two weeks an additional $750 will go to either him or to whoever provides new evidence that causes me to retract my retraction.</p>
+
+
+
+<h1>Humming produces much less nitric oxide than Enovid</h1>
+
+
+
+<p>I found the dosage of NO in Enovid in a trial registration. Unfortunately I misread the dose- &nbsp;what I original read as &nbsp;“0.11ppm NO/hour” was in fact “0.11ppm NO*hour”. I spent a while puzzling out what this meant, with the help of Thomas Kwa, some guy on twitter, and chatGPT (the first time it’s been genuinely useful to me). My new interpretation is that this means “actual concentration upon application*1 hour/time at that concentration”. Since NO is a transient molecule, this means my guess for the amount of NO in Enovid was off by 2-3 orders of magnitude.</p>
+
+
+
+<p>My estimates for the amount of NO released by humming may also be too high. I used <a href="https://journals.sagepub.com/doi/pdf/10.1177/0310057X9502300608">this paper</a>’s numbers for baseline&nbsp;NO concentration. However <a href="https://www.atsjournals.org/doi/pdf/10.1164/rccm.200202-138BC">the paper</a>&nbsp;I used to estimate the increase gave its own baseline number, which was an order of magnitude lower than the first paper.</p>
+
+
+
+<p>This wasn’t intentional cherrypicking- I’d seen “15-20x increase in concentration” cited widely and often without sources. I searched for and spotchecked that one source but mostly to look at the experimental design. When I was ready to do math I used its increase but separately looked up the baseline concentration, and found the paper I cited.</p>
+
+
+
+<p>I just asked google again and got an even higher estimate of baseline nasal concentration, so seems like there is a great deal of disagreement here. <img alt="" src="https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/FHLkRpcc4irMGquLg/srjtoaagz3oiytpzfblu" /></p>
+
+
+
+<p>If this were the only error I’d spend the time to get a more accurate estimate. But it looks like even the highest estimate will be a fraction of Enovid’s dose, so it’s not worth the energy to track down.</p>
+
+
+
+<p>Using the new values, you’d need 28 minutes of humming to recreate the amount of NO in Enovid (<a href="https://docs.google.com/spreadsheets/d/1Gf5kYrNWmosEDgWF8wFxrA-M9qhYaDRf8i_dyepFzO0/edit#gid=0">spreadsheet here</a>). That wouldn’t be so bad spread out over 4-6 hours, except that multiple breaths of humming in a row face diminishing returns, with recovery to baseline taking 3 minutes. It is possible to achieve this in 6 hours, but only just. And while it’s not consequential enough to bother to look it up, I think some of the papers applied Enovid more often than that.</p>
+
+
+
+<p>This leaves humming in search of a use case. People who care a lot about respiratory illnesses are better off using Enovid or another nasal spray. People who don’t care very much are never going to carefully pace their humming; and the amount of humming they might do won’t be very effective. The only use case I see is people who care a lot and are pushed into a high risk situation without notice, or who want a feeling of of Doing Something even if it is not doing very much at all.</p>
+
+
+
+<h1>Reasons to not write off humming entirely</h1>
+
+
+
+<p>The math above assumes the effect is linear with the amount of NO released, regardless of application time. My guess is that frequent lower doses are more effective than the same amount as a one off. Probably not one effective enough to give humming a good non-emergency use case though.</p>
+
+
+
+<p>Another possibility is that Enovid has more nitric oxide than necessary and most of it is wasted. But again, it would have to be <em>a lot </em>moreto make this viable.</p>
+
+
+
+<h1>Conclusions</h1>
+
+
+
+<p>Humming hasn’t been disproven as an anti-viral intervention, but the primary reason I believed it worked has been destroyed. I will be observing a six week period of mourning for both my hope in humming and generally feeling dumb.</p>
+
+
+
+<p><img src="https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/dsZeogoPQbF8jSHMB/cpyc00i2ergqqbltyz11" /></p>
+
+
+
+<p>The fact that I merely feel kind of dumb, instead of pricing out swords with which to commit seppuku, is thanks to the little angel that sits on my shoulder while I write. It constantly asks “how will you feel about this sentence if you turn out to be wrong?” and demands edits until the answer is either “a manageable amount of unhappy” or “That’s not going to come up”. This post thoroughly tested her work and found it exemplary, so she will be spending the next six weeks partying in Vegas.</p>
+
+
+
+<p><img src="https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/dsZeogoPQbF8jSHMB/dpkq99nq7gmys0l6ajoh" /></p>
+
+
+
+<p></p><br /><br /><a href="https://www.lesswrong.com/posts/dsZeogoPQbF8jSHMB/humming-is-not-a-free-usd100-bill#comments">Discuss</a>
+]]></content:encoded>
+<pubDate>Thu, 06 Jun 2024 22:36:22 GMT</pubDate>
+<pubDate>Thu, 06 Jun 2024 22:36:22 GMT</pubDate>
+</item>
 
 <item>
 <title>Calculating Natural Latents via Resampling</title>
