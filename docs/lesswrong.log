@@ -1063,3 +1063,9 @@ Summarized using GPT-3.5-turbo
 Append: [Is Claude a mystic?](https://www.lesswrong.com/posts/Caj9brP8PEqkgSrSC/is-claude-a-mystic)
 append_entries: 2
 Finish: 2024-06-07 20:11:01.127590
+------------------------------------------------------
+Started: 2024-06-07 22:10:42.515631
+Existing_entries: 53
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-07 22:10:43.424411
