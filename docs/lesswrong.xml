@@ -4,6 +4,7 @@
 <title>LessWrong</title>
 <link>https://www.lesswrong.com</link>
 
+
 <item>
 <title>Scaling and evaluating sparse autoencoders</title>
 <link>https://www.lesswrong.com/posts/Fg2gAgxN6hHSaTjkf/scaling-and-evaluating-sparse-autoencoders</link>
@@ -11,15 +12,13 @@
 <content:encoded><![CDATA[
 <div> 稀疏自动编码器；特征提取；可解释性；尺寸扩展；开源模型；
 
-<br>
-总结：<br>
+<br />
+总结：<br />
 本文介绍了稀疏自动编码器在语言模型中提取特征的潜力，通过重建稀疏瓶颈层的激活来实现。研究发现，调整尺寸和稀疏度难度较大，容易出现无效激活。引入了k-稀疏自动编码器来直接控制稀疏度，简化了调整过程，并改进了重建和稀疏之间的平衡。此外，通过修改，减少了无效激活，实现了清晰的尺寸扩展规律。提出了评估特征质量的新指标，包括恢复假设特征、激活模式的可解释性和下游影响的稀疏性。这些指标都随着自动编码器规模的增大而改善。通过在GPT-4激活上训练拥有1600万潜在特征的自动编码器，证明了该方法的可扩展性。提供了开源模型的代码和自动编码器，以及可视化工具。 <div>
 Published on June 6, 2024 10:50 PM GMT<br /><br /><p>[<a href="https://openai.com/index/extracting-concepts-from-gpt-4/">Blog</a>] [<a href="https://cdn.openai.com/papers/sparse-autoencoders.pdf">Paper</a>] [<a href="https://openaipublic.blob.core.windows.net/sparse-autoencoder/sae-viewer/index.html">Visualizer</a>]</p><p>Abstract:</p><blockquote><p>Sparse autoencoders provide a promising unsupervised approach for extracting interpretable features from a language model by reconstructing activations from a sparse bottleneck layer. &nbsp;Since language models learn many concepts, autoencoders need to be very large to recover all relevant features. &nbsp;However, studying the properties of autoencoder scaling is difficult due to the need to balance reconstruction and sparsity objectives and the presence of dead latents. &nbsp;We propose using k-sparse autoencoders [Makhzani and Frey, 2013] to directly control sparsity, simplifying tuning and improving the reconstruction-sparsity frontier. Additionally, we find modifications that result in few dead latents, even at the largest scales we tried. &nbsp;Using these techniques, we find clean scaling laws with respect to autoencoder size and sparsity. &nbsp;We also introduce several new metrics for evaluating feature quality based on the recovery of hypothesized features, the explainability of activation patterns, and the sparsity of downstream effects. These metrics all generally improve with autoencoder size. &nbsp;To demonstrate the scalability of our approach, we train a 16 million latent autoencoder on GPT-4 activations for 40 billion tokens. &nbsp;We release code and autoencoders for open-source models, as well as a visualizer.</p></blockquote><br /><br /><a href="https://www.lesswrong.com/posts/Fg2gAgxN6hHSaTjkf/scaling-and-evaluating-sparse-autoencoders#comments">Discuss</a>
 ]]></content:encoded>
 <pubDate>Fri, 07 Jun 2024 05:37:37 GMT</pubDate>
-<pubDate>Fri, 07 Jun 2024 05:37:37 GMT</pubDate>
 </item>
-
 <item>
 <title>Humming is not a free $100 bill</title>
 <link>https://www.lesswrong.com/posts/dsZeogoPQbF8jSHMB/humming-is-not-a-free-usd100-bill</link>
