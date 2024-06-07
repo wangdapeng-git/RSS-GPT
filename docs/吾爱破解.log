@@ -5905,3 +5905,13 @@ Filter: [网易云音乐极速版-V1.0.0](https://www.52pojie.cn/forum.php?mod=v
 Filter: [图了个图 v1.0，聚合Ai图像处理工具](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1929167)
 append_entries: 0
 Finish: 2024-06-07 12:20:30.803804
+------------------------------------------------------
+Started: 2024-06-07 14:11:18.483925
+Existing_entries: 369
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [剪映 Jianying_pro_3_2_0_8778_beta9_jianyingpro_beta](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1930293)
+Append: [爱回收笔记本质检系统 v1.3 绿色版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1930226)
+Filter: [发票PDF文件识别工具](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1930142)
+Filter: [图了个图 v1.0，聚合Ai图像处理工具](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1929167)
+append_entries: 1
+Finish: 2024-06-07 14:11:20.389088

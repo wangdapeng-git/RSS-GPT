@@ -2241,3 +2241,9 @@ Summarized using GPT-3.5-turbo
 Append: [The Real Python Podcast – Episode #207: Decomposing Software Problems & Avoiding the Trap of Clever Code](https://realpython.com/podcasts/rpp/207/)
 append_entries: 1
 Finish: 2024-06-07 12:20:36.747026
+------------------------------------------------------
+Started: 2024-06-07 14:11:21.908388
+Existing_entries: 61
+Fetching from https://realpython.com/atom.xml
+append_entries: 0
+Finish: 2024-06-07 14:11:22.215547
