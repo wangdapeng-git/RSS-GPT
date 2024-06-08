@@ -1138,3 +1138,9 @@ Summarized using GPT-3.5-turbo
 Append: [Two easy things that maybe Just Work to improve AI discourse](https://www.lesswrong.com/posts/CZjnvaFiRokwst68C/two-easy-things-that-maybe-just-work-to-improve-ai-discourse)
 append_entries: 1
 Finish: 2024-06-08 18:12:44.342084
+------------------------------------------------------
+Started: 2024-06-08 20:09:56.607944
+Existing_entries: 56
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-08 20:09:57.592045
