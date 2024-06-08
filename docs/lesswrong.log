@@ -1102,3 +1102,12 @@ Existing_entries: 54
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-06-08 08:12:07.048757
+------------------------------------------------------
+Started: 2024-06-08 10:10:51.517671
+Existing_entries: 54
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 12352
+Summarized using GPT-3.5-turbo
+Append: [0. CAST: Corrigibility as Singular Target](https://www.lesswrong.com/posts/NQK8KHSrZRF5erTba/0-cast-corrigibility-as-singular-target-1)
+append_entries: 1
+Finish: 2024-06-08 10:10:59.343783
