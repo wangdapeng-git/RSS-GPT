@@ -1096,3 +1096,9 @@ Summarized using GPT-3.5-turbo
 Append: [Natural Latents Are Not Robust To Tiny Mixtures](https://www.lesswrong.com/posts/xDsbqxeCQWe4BiYFX/natural-latents-are-not-robust-to-tiny-mixtures)
 append_entries: 1
 Finish: 2024-06-08 06:13:24.073433
+------------------------------------------------------
+Started: 2024-06-08 08:12:06.363249
+Existing_entries: 54
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-08 08:12:07.048757
