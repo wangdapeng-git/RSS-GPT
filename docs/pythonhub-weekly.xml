@@ -4,6 +4,7 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-06-09</title>
 <link>https://pythonhub.dev/digest/2024-06-09/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> GPT-4o Flask applications ASL Kolmogorov-Arnold Network Python gotcha AlphaFold
 
-<br><br>总结: 本文总结了使用GPT-4o生成Flask应用程序的结果，介绍了从简单的“Hello, World!”应用程序到具有三个数据库模型和使用Tailwind的HTML页面的完整CRUD应用程序。通过仔细引导，GPT-4o可以生成可工作的Flask应用程序并遵循（部分）最佳编码实践。同时，介绍了一项便于聋人和不懂美国手语（ASL）的听力人士之间传播的项目，并分享了KAN的高效纯PyTorch实现。此外，介绍了另一个Python陷阱，并对其内部进行了调查，以了解为什么会发生这种情况。最后提到了开源代码AlphaFold。 <div>
+<br /><br />总结: 本文总结了使用GPT-4o生成Flask应用程序的结果，介绍了从简单的“Hello, World!”应用程序到具有三个数据库模型和使用Tailwind的HTML页面的完整CRUD应用程序。通过仔细引导，GPT-4o可以生成可工作的Flask应用程序并遵循（部分）最佳编码实践。同时，介绍了一项便于聋人和不懂美国手语（ASL）的听力人士之间传播的项目，并分享了KAN的高效纯PyTorch实现。此外，介绍了另一个Python陷阱，并对其内部进行了调查，以了解为什么会发生这种情况。最后提到了开源代码AlphaFold。 <div>
 <div></div>
 
 <h2>💖 Most Popular</h2>
@@ -155,9 +156,7 @@
 <hr />
 ]]></content:encoded>
 <pubDate>Sun, 09 Jun 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 09 Jun 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-06-02</title>
 <link>https://pythonhub.dev/digest/2024-06-02/</link>
