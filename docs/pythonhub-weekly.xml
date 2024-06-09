@@ -4,6 +4,159 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-06-09</title>
+<link>https://pythonhub.dev/digest/2024-06-09/</link>
+<guid>https://pythonhub.dev/digest/2024-06-09/</guid>
+<content:encoded><![CDATA[
+<div> GPT-4o Flask applications ASL Kolmogorov-Arnold Network Python gotcha AlphaFold
+
+<br><br>总结: 本文总结了使用GPT-4o生成Flask应用程序的结果，介绍了从简单的“Hello, World!”应用程序到具有三个数据库模型和使用Tailwind的HTML页面的完整CRUD应用程序。通过仔细引导，GPT-4o可以生成可工作的Flask应用程序并遵循（部分）最佳编码实践。同时，介绍了一项便于聋人和不懂美国手语（ASL）的听力人士之间传播的项目，并分享了KAN的高效纯PyTorch实现。此外，介绍了另一个Python陷阱，并对其内部进行了调查，以了解为什么会发生这种情况。最后提到了开源代码AlphaFold。 <div>
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://www.audiolabs-erlangen.de/resources/MIR/FMP/C0/C0.html">Python notebooks for fundamentals of music processing</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://ploomber.io/blog/gpt-4o-flask/">How good is GPT-4o at generating Flask apps? Surprisingly promising</a></strong>
+    
+        <br /><span>This article summarizes the findings when asking GPT-4o to generate Flask applications, ranging from a simple "Hello, World!" app to a full-fledged CRUD app with three database models and HTML pages with Tailwind. With careful prompting, GPT-4o can produce working Flask applications and follow (some) best coding practices.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=uuPxMWQRoXc">How AI Can Help Deaf People Hear</a></strong>
+    
+        <br /><span>This project facilitates communication between Deaf individuals and hearing individuals who do not understand American Sign Language (ASL). It is designed to respect and preserve ASL as the primary language.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Blealtan/efficient-kan">Blealtan / efficient-kan</a></strong>
+    
+        <br /><span>An efficient pure-PyTorch implementation of Kolmogorov-Arnold Network (KAN).</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.codingconfessions.com/p/how-python-compares-floats-and-ints">How Python Compares Floats and Ints: When Equals Isn’t Really Equal</a></strong>
+    
+        <br /><span>Another Python gotcha and an investigation into its internals to understand why this happens.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://github.com/google-deepmind/alphafold">google-deepmind / alphafold</a></strong>
+    
+        <br /><span>Open source code for AlphaFold.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://getludic.dev/docs/">Web Development with Htmx, Type-Guided Components, Pure Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://vickiboykis.com/2024/05/20/dont-worry-about-llms/">Don't worry about LLMs</a></strong>
+    
+        <br /><span>The post argues that while large language models (LLMs) are receiving a lot of hype, the engineering systems built around them are similar to previous machine learning systems. It advises practitioners to cut through the hype and treat LLMs as regular engineering and ML problems.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://labs.quansight.org/blog/numpy-string-ufuncs">Writing fast string ufuncs for NumPy 2.0</a></strong>
+    
+        <br /><span>The post details the performance improvements made to string operations in NumPy 2.0 by reworking how they are handled, moving from creating Python objects to operating directly on the raw C data buffers. It provides guidance on writing efficient ufuncs that work with the data buffers and handle data type resolution.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://daniel.feldroy.com/posts/2024-05-rapidly-creating-smoke-tests-for-django-views">Rapidly creating smoke tests for Django views</a></strong>
+    
+        <br /><span>A management command for quickly generating tests based off Django's URL routing mechanism.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://docs.coiled.io/blog/tpch.html">DataFrames at Scale Comparison: TPC-H</a></strong>
+    
+        <br /><span>We run benchmarks derived from the TPC-H benchmark suite on a variety of scales, hardware architectures, and dataframe projects, notably Apache Spark, Dask, DuckDB, and Polars. No project wins. This post analyzes results within each project and between projects.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-06-02/">Python Hub Weekly Digest for 2024-06-02</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://hackaday.com/2024/06/02/micropython-1-23-brings-custom-usb-devices-openamp-much-more/">MicroPython 1.23 Brings Custom USB Devices, OpenAMP, Much More</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://kadermiyanyedi.medium.com/fire-up-your-logging-needs-with-logfire-6330d7a08dfe">Fire Up Your Logging Needs with Pydantic Logfire</a></strong>
+    
+        <br /><span>The pydantic team recently introduced logfire, a new logging tool that makes it easy to track and analyze your logs. Simply integrate logfire into your projects with just a few lines of code.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/Nike-Inc/koheesio">Koheesio</a></strong>
+    
+        <br /><span>Python framework for building efficient data pipelines. It promotes modularity and collaboration, enabling the creation of complex pipelines from simple, reusable components.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/ideos/gloe">Gloe</a></strong>
+    
+        <br /><span>Gloe is a general-purpose library made to help developers create, maintain, document, and test both operational and flow-oriented code.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/mistralai/mistral-finetune">mistral-finetune</a></strong>
+    
+        <br /><span>mistral-finetune is a light-weight codebase that enables memory-efficient and performant finetuning of Mistral's models.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/maitrix-org/Pandora">Pandora</a></strong>
+    
+        <br /><span>Towards General World Model with Natural Language Actions and Video States.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/ChrisBuilds/terminaltexteffects">Terminal Text Effects</a></strong>
+    
+        <br /><span>Visual effects applied to text in the terminal.</span>
+    
+    </p>
+
+
+<hr />
+]]></content:encoded>
+<pubDate>Sun, 09 Jun 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 09 Jun 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-06-02</title>
