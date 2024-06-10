@@ -1240,3 +1240,12 @@ Existing_entries: 58
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-06-10 02:30:02.227051
+------------------------------------------------------
+Started: 2024-06-10 04:14:55.521229
+Existing_entries: 58
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 7184
+Summarized using GPT-3.5-turbo
+Append: [Dumbing down](https://www.lesswrong.com/posts/jqsRBR2fgoMPc9dGS/dumbing-down)
+append_entries: 1
+Finish: 2024-06-10 04:15:05.785471
