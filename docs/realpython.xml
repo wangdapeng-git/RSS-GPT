@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Python News: What's New From May 2024</title>
 <link>https://realpython.com/python-news-may-2024/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> Python 3.13, beta版本, 发布, 特性, 测试
 
-总结:<br><br>Python 3.13的第一个beta版本发布了，重点在内部优化和清理，第二个beta版本将引入更多功能。开发者可以通过安装Python 3.13.0b1来尝试新功能，但目前一些功能在Windows上无法使用。Python 3.13的最终发布计划在今年10月，第一个beta版本的目的是让第三方库维护者进行兼容性测试。PEP 649推迟到Python 3.14发布。Python Software Foundation发布了2023年度影响报告。EuroPython 2024的主题演讲嘉宾也已经公布。 <div>
+总结:<br /><br />Python 3.13的第一个beta版本发布了，重点在内部优化和清理，第二个beta版本将引入更多功能。开发者可以通过安装Python 3.13.0b1来尝试新功能，但目前一些功能在Windows上无法使用。Python 3.13的最终发布计划在今年10月，第一个beta版本的目的是让第三方库维护者进行兼容性测试。PEP 649推迟到Python 3.14发布。Python Software Foundation发布了2023年度影响报告。EuroPython 2024的主题演讲嘉宾也已经公布。 <div>
 <div><p>May was packed with exciting updates and events in the Python community. This month saw the release of the first beta version of <strong>Python 3.13</strong>, the conclusion of <strong>PyCon US 2024</strong>, and the announcement of the keynote speakers for <strong>EuroPython 2024</strong>. Additionally, <strong>PEP 649</strong> has been delayed until the Python 3.14 release, and the Python Software Foundation published its <strong>2023 Annual Impact Report</strong>.</p>
 <p>Get ready to explore the recent highlights!</p>
 <div class="alert alert-warning"><p><strong>Join Now:</strong> <a class="alert-link" href="https://realpython.com/atom.xml">Click here to join the Real Python Newsletter</a> and you'll never miss another Python tutorial, course update, or post.</p></div>
@@ -62,10 +63,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-06-10T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>The Real Python Podcast – Episode #207: Decomposing Software Problems &amp; Avoiding the Trap of Clever Code</title>
 <link>https://realpython.com/podcasts/rpp/207/</link>
