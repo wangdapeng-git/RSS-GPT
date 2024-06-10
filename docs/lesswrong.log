@@ -1258,3 +1258,9 @@ Summarized using GPT-3.5-turbo
 Append: [Why I don't believe in the placebo effect](https://www.lesswrong.com/posts/kpd83h5XHgWCxnv3h/why-i-don-t-believe-in-the-placebo-effect)
 append_entries: 1
 Finish: 2024-06-10 06:16:09.996886
+------------------------------------------------------
+Started: 2024-06-10 08:14:33.515953
+Existing_entries: 60
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-10 08:14:33.812035
