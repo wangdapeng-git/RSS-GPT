@@ -1297,3 +1297,9 @@ Summarized using GPT-3.5-turbo
 Append: [My AI Model Delta Compared To Yudkowsky](https://www.lesswrong.com/posts/q8uNoJBgcpAe3bSBp/my-ai-model-delta-compared-to-yudkowsky)
 append_entries: 1
 Finish: 2024-06-10 18:13:56.370242
+------------------------------------------------------
+Started: 2024-06-10 20:11:10.122710
+Existing_entries: 61
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-10 20:11:10.553272
