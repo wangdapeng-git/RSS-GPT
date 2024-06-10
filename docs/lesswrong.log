@@ -1225,3 +1225,12 @@ Existing_entries: 57
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-06-09 22:10:07.698688
+------------------------------------------------------
+Started: 2024-06-10 00:49:37.427813
+Existing_entries: 57
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 239
+Summarized using GPT-3.5-turbo
+Append: [Demystifying "Alignment" through a Comic](https://www.lesswrong.com/posts/Av9D4GkdGNkiS2wHx/demystifying-alignment-through-a-comic)
+append_entries: 1
+Finish: 2024-06-10 00:49:42.461062
