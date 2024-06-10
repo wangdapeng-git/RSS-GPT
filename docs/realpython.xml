@@ -4,6 +4,67 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Python News: What's New From May 2024</title>
+<link>https://realpython.com/python-news-may-2024/</link>
+<guid>https://realpython.com/python-news-may-2024/</guid>
+<content:encoded><![CDATA[
+<div> Python 3.13, beta版本, 发布, 特性, 测试
+
+总结:<br><br>Python 3.13的第一个beta版本发布了，重点在内部优化和清理，第二个beta版本将引入更多功能。开发者可以通过安装Python 3.13.0b1来尝试新功能，但目前一些功能在Windows上无法使用。Python 3.13的最终发布计划在今年10月，第一个beta版本的目的是让第三方库维护者进行兼容性测试。PEP 649推迟到Python 3.14发布。Python Software Foundation发布了2023年度影响报告。EuroPython 2024的主题演讲嘉宾也已经公布。 <div>
+<div><p>May was packed with exciting updates and events in the Python community. This month saw the release of the first beta version of <strong>Python 3.13</strong>, the conclusion of <strong>PyCon US 2024</strong>, and the announcement of the keynote speakers for <strong>EuroPython 2024</strong>. Additionally, <strong>PEP 649</strong> has been delayed until the Python 3.14 release, and the Python Software Foundation published its <strong>2023 Annual Impact Report</strong>.</p>
+<p>Get ready to explore the recent highlights!</p>
+<div class="alert alert-warning"><p><strong>Join Now:</strong> <a class="alert-link" href="https://realpython.com/atom.xml">Click here to join the Real Python Newsletter</a> and you'll never miss another Python tutorial, course update, or post.</p></div>
+
+<h2 id="the-first-beta-version-of-python-313-released">The First Beta Version of Python 3.13 Released<a class="headerlink" href="https://realpython.com/atom.xml#the-first-beta-version-of-python-313-released" title="Permanent link"></a></h2>
+<p>After nearly a year of continuous development, the first beta release of <a href="https://www.python.org/downloads/release/python-3130b1/">Python 3.13</a> was made available to the general public. It marks a significant milestone in Python’s <a href="https://peps.python.org/pep-0602/">annual release cycle</a>, officially kicking off the <a href="https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta">beta testing</a> phase and introducing a <a href="https://en.wikipedia.org/wiki/Freeze_(software_engineering)">freeze</a> on new features. Beyond this point, Python’s core developers will shift their focus to only identifying and fixing bugs, enhancing security, and improving the interpreter’s performance.</p>
+<p>While it’s still months before the final release planned for October 2024, as indicated by the <a href="https://peps.python.org/pep-0719/">Python 3.13 release schedule</a>, third-party library maintainers are strongly encouraged to test their packages with this new Python version. The goal of early beta testing is to ensure compatibility and address any issues that may arise so that users can expect a smoother transition when Python 3.13 gets officially released later this year.</p>
+<p>Although you shouldn’t use a beta version in any of your projects, especially in production environments, you can go ahead and try out the new version today. To check out Python’s latest features, you must install <strong>Python 3.13.0b1</strong> using one of several approaches.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> If you’d like to share your feedback or file a bug against a <a href="https://realpython.com/python-pre-release/">pre-release</a> development version, then <a href="https://github.com/python/cpython/issues">open an issue</a> on Python’s GitHub repository.</p>
+</div>
+<p>The quickest and arguably the most straightforward way to <a href="https://realpython.com/intro-to-pyenv/">manage multiple Python versions</a> alongside your system-wide interpreter is to use a tool like <code>pyenv</code> in the terminal:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Shell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="hll"><span class="gp">$ </span>pyenv<span class="w"> </span>install<span class="w"> </span><span class="m">3</span>.13.0b1
+</span><span class="gp">$ </span>pyenv<span class="w"> </span>shell<span class="w"> </span><span class="m">3</span>.13.0b1
+<span class="gp">$ </span>python
+<span class="go">Python 3.13.0b1 (main, May 15 2024, 10:41:55) [GCC 13.2.0] on linux</span>
+<span class="go">Type "help", "copyright", "credits" or "license" for more information.</span>
+<span class="go">&gt;&gt;&gt; </span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The highlighted line brings the first beta release of Python 3.13 onto your computer, while the following command temporarily sets the path to the <code>python</code> executable in your current <a href="https://en.wikipedia.org/wiki/Shell_(computing)">shell</a> session. As a result, the <code>python</code> command points to the specified Python interpreter.</p>
+<p>Alternatively, you can use a Python installer, which you’ll find at the bottom of the <a href="https://www.python.org/downloads/release/python-3130b1/">downloads page</a>, or <a href="https://realpython.com/python-versions-docker/">run Python in an isolated Docker container</a> to keep it completely separate from your operating system. However, for ultimate control, you can try <a href="https://github.com/python/cpython?tab=readme-ov-file#build-instructions">building the interpreter from source code</a> based on the instructions in the README file. This method will let you experiment with more advanced features, like turning off the <a href="https://realpython.com/python-gil/">GIL</a>.</p>
+<p>Unlike previous Python releases, which introduced a host of tangible syntactical features that you could get your hands on, this one mainly emphasizes internal optimizations and cleanup. That said, according to the official <a href="https://docs.python.org/3.13/whatsnew/3.13.html">release summary</a> document, there are a few notable <strong>new features</strong> that will be immediately visible to most Python programmers:</p>
+<ul>
+<li><a href="https://docs.python.org/3.13/whatsnew/3.13.html#whatsnew313-better-interactive-interpreter">A better standard Python REPL</a></li>
+<li><a href="https://docs.python.org/3.13/whatsnew/3.13.html#improved-error-messages">Improved error messages</a></li>
+</ul>
+<p>Some of these features don’t work on Windows at the moment because they rely on Unix-specific libraries, so you won’t see any difference unless you’re a macOS or Linux user. The good news is that <a href="https://fosstodon.org/@tonybaloney/112477098396842900">Windows support</a> is coming in the second beta release, which will arrive soon, thanks to Real Python team member <a href="https://realpython.com/interview-anthony-shaw/">Anthony Shaw</a>.</p>
+</div><h2><a href="https://realpython.com/python-news-may-2024/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-news-may-2024/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-06-10T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>The Real Python Podcast – Episode #207: Decomposing Software Problems &amp; Avoiding the Trap of Clever Code</title>
