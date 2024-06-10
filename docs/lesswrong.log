@@ -1234,3 +1234,9 @@ Summarized using GPT-3.5-turbo
 Append: [Demystifying "Alignment" through a Comic](https://www.lesswrong.com/posts/Av9D4GkdGNkiS2wHx/demystifying-alignment-through-a-comic)
 append_entries: 1
 Finish: 2024-06-10 00:49:42.461062
+------------------------------------------------------
+Started: 2024-06-10 02:30:01.877108
+Existing_entries: 58
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-10 02:30:02.227051
