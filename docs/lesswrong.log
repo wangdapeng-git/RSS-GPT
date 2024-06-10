@@ -1288,3 +1288,12 @@ Existing_entries: 60
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-06-10 16:13:29.619615
+------------------------------------------------------
+Started: 2024-06-10 18:13:49.622207
+Existing_entries: 60
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 6751
+Summarized using GPT-3.5-turbo
+Append: [My AI Model Delta Compared To Yudkowsky](https://www.lesswrong.com/posts/q8uNoJBgcpAe3bSBp/my-ai-model-delta-compared-to-yudkowsky)
+append_entries: 1
+Finish: 2024-06-10 18:13:56.370242
