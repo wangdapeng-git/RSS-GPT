@@ -4,6 +4,48 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>植物大战僵尸杂交版-阳光，叠加种植，无CD分析</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1933134</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1933134</guid>
+<content:encoded><![CDATA[
+
+分析思路跟普通版一样。阳光、cd、重叠种植代码跟普通版差不多。
+用法：
+补丁使用大白补丁工具，补丁生成后放到与PlantsVsZombies.exe一个目录，运行释放。
+
+如果觉得有用，请随手支持一下。
+
+
+
+
+特征码：
+无CD
+83 47 ?? 01 8B 47 ?? 3B 47 ?? 7E 14 C7 47 ? ...
+]]></content:encoded>
+<pubDate>Sun, 09 Jun 2024 13:11:08 +0000</pubDate>
+<pubDate>Sun, 09 Jun 2024 13:11:08 +0000</pubDate>
+</item>
+<item>
+<title>dnSpy v6.5.0</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1931650</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1931650</guid>
+<content:encoded><![CDATA[
+
+很经典的.net反编译软件。该版本支持.NET 8和 .NET Framework 4.8。
+
+
+
+
+
+原作者更新到6.1.8，后面版本由dnSpyEx维护更新 https://github.com/dnSpyEx/dnSpy/releases 
+
+下载：
+https://www.123pan.com/s/XlMbV ...
+]]></content:encoded>
+<pubDate>Wed, 05 Jun 2024 01:56:36 +0000</pubDate>
+<pubDate>Wed, 05 Jun 2024 01:56:36 +0000</pubDate>
+</item>
 
 <item>
 <title>WinFi无线分析工具免安装内附启动补丁，mesh组网必备工具</title>
