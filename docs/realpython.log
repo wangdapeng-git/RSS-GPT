@@ -2538,3 +2538,12 @@ Existing_entries: 62
 Fetching from https://realpython.com/atom.xml
 append_entries: 0
 Finish: 2024-06-11 14:10:19.130267
+------------------------------------------------------
+Started: 2024-06-11 16:13:31.632898
+Existing_entries: 62
+Fetching from https://realpython.com/atom.xml
+Token length: 808
+Summarized using GPT-3.5-turbo
+Append: [Listing All Files in a Directory With Python](https://realpython.com/courses/listing-all-files-directory/)
+append_entries: 1
+Finish: 2024-06-11 16:13:35.529018

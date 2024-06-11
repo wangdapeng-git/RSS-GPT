@@ -4,6 +4,23 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Listing All Files in a Directory With Python</title>
+<link>https://realpython.com/courses/listing-all-files-directory/</link>
+<guid>https://realpython.com/courses/listing-all-files-directory/</guid>
+<content:encoded><![CDATA[
+<div> 文件夹、Python、列表、内容、方法
+<br>
+文件夹中有多种方法可以获取其内容，每种方法都有其优点和缺点。本视频课程将重点介绍Python中最通用的方法来列出文件夹中的项目，同时也会涉及一些替代工具。总结：文件夹中内容获取的方法多样，需要根据具体情况选择适合的方法。 <div>
+<p>Getting a <a href="https://realpython.com/python-lists-tuples/">list</a> of all the <a href="https://en.wikipedia.org/wiki/Computer_file">files</a> and folders in a <a href="https://en.wikipedia.org/wiki/Directory_(computing)">directory</a> is a natural first step for many <strong>file-related operations</strong> in Python. When looking into it, though, you may be surprised to find various ways to go about it.</p>
+<p>When you&rsquo;re faced with many ways of doing something, it can be a good indication that there&rsquo;s no one-size-fits-all solution to your problems. Most likely, every solution will have its own advantages and trade-offs. This is the case when it comes to getting a list of the contents of a directory in Python.</p>
+<p>In this video course, you&rsquo;ll be focusing on the most general-purpose techniques in the <a href="https://realpython.com/python-pathlib/"><code>pathlib</code> module</a> to list items in a directory, but you&rsquo;ll also learn a bit about some alternative tools.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-06-11T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Python News: What's New From May 2024</title>
