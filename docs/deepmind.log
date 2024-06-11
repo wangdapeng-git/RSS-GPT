@@ -3818,3 +3818,10 @@ Fetching from https://rsshub.app/deepmind/blog
 Feed error: 403
 append_entries: 0
 error when rendering xml, skip docs/deepmind
+------------------------------------------------------
+Started: 2024-06-11 02:28:37.556754
+Existing_entries: 101
+Fetching from https://rsshub.app/deepmind/blog
+Feed error: 403
+append_entries: 0
+error when rendering xml, skip docs/deepmind
