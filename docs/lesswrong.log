@@ -1372,3 +1372,15 @@ Existing_entries: 62
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-06-11 18:14:42.226982
+------------------------------------------------------
+Started: 2024-06-11 20:12:12.045591
+Existing_entries: 62
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 2365
+Summarized using gpt-3.5-turbo-16k
+Append: [Soviet comedy film recommendations](https://www.lesswrong.com/posts/ZgfM4QLtQbswf7W7k/soviet-comedy-film-recommendations)
+Token length: 918
+Summarized using GPT-3.5-turbo
+Append: [What if a tech company forced you to move to NYC?](https://www.lesswrong.com/posts/9gXsecDTh2WrpqN8j/what-if-a-tech-company-forced-you-to-move-to-nyc)
+append_entries: 2
+Finish: 2024-06-11 20:14:30.538834
