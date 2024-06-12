@@ -1399,3 +1399,9 @@ Summarized using GPT-3.5-turbo
 Append: [AI takeoff and nuclear war](https://www.lesswrong.com/posts/wSEPrKkLmnwxFBkFD/ai-takeoff-and-nuclear-war)
 append_entries: 1
 Finish: 2024-06-12 00:48:10.799912
+------------------------------------------------------
+Started: 2024-06-12 02:29:01.247938
+Existing_entries: 65
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-12 02:29:01.423655
