@@ -70,3 +70,4 @@ I will consider hosting more feeds in the future. Email me or submit an issue if
 - https://pythonhub.dev/digest/feed/ -> https://wangdapeng-git.github.io/RSS-GPT/pythonhub-weekly.xml
 - https://python.libhunt.com/newsletter/feed -> https://wangdapeng-git.github.io/RSS-GPT/awesome-python-weekly.xml
 - https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50 -> https://wangdapeng-git.github.io/RSS-GPT/lesswrong.xml
+- https://blog.bytebytego.com/feed -> https://wangdapeng-git.github.io/RSS-GPT/bytebytego.xml
