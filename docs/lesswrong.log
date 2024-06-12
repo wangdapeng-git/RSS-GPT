@@ -1390,3 +1390,12 @@ Existing_entries: 64
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-06-11 22:09:51.402236
+------------------------------------------------------
+Started: 2024-06-12 00:48:02.882757
+Existing_entries: 64
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 21068
+Summarized using GPT-3.5-turbo
+Append: [AI takeoff and nuclear war](https://www.lesswrong.com/posts/wSEPrKkLmnwxFBkFD/ai-takeoff-and-nuclear-war)
+append_entries: 1
+Finish: 2024-06-12 00:48:10.799912
