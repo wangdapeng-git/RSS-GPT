@@ -4,15 +4,16 @@
 <title>Irrational Exuberance</title>
 <link>https://lethain.com/</link>
 
+
 <item>
 <title>How to create software quality.</title>
 <link>https://lethain.com/quality/</link>
 <guid>https://lethain.com/quality/</guid>
 <content:encoded><![CDATA[
 <div> 关键词: 质量、复杂性、开发循环、量化、适用性
-<br>
+<br />
 质量是领域特定的，需要根据问题的复杂性来选择合适的技术和方法。质量的提升需要在开发循环内和跨迭代中进行反馈。量化在某种程度上衡量质量，但不能直接创造质量。适用性意味着避免盲目套用前人经验，在特定环境下选择适合的策略和工具。
-<br><br>总结: 质量的提升是根据问题的复杂性和环境的不同需求选择合适的策略和方法，在开发循环内和跨迭代中进行反馈和优化。适用性是关键，量化是衡量工作结果的方式，但不是直接创造质量的手段。在复杂的软件开发环境中，避免盲目套用经验，而是根据具体情况选择最有效的质量提升方法。 <div>
+<br /><br />总结: 质量的提升是根据问题的复杂性和环境的不同需求选择合适的策略和方法，在开发循环内和跨迭代中进行反馈和优化。适用性是关键，量化是衡量工作结果的方式，但不是直接创造质量的手段。在复杂的软件开发环境中，避免盲目套用经验，而是根据具体情况选择最有效的质量提升方法。 <div>
 <p>I’ve been reading Steven Sinofsky’s <em><a href="https://www.amazon.com/Hardcore-Software-Inside-Rise-Revolution-ebook/dp/B0CYBS9PFY">Hardcore Software</a></em>, and particularly enjoyed this quote from a memo discussed in the <a href="https://hardcoresoftware.learningbyshipping.com/p/006-zero-defects">Zero Defects</a> chapter:</p>
 <blockquote>
 <p>You <em>can</em> improve the quality of your code, and if you do, the rewards
@@ -248,7 +249,6 @@ Generally composition-agnostic in their recommendations</li>
 <p>These are all well worth your time.</p>
 ]]></content:encoded>
 <pubDate>Sun, 16 Jun 2024 16:00:00 -0700</pubDate>
-<pubDate>Sun, 16 Jun 2024 16:00:00 -0700</pubDate>
 </item>
 <item>
 <title>Video of Using LLMs in your product.</title>
@@ -256,7 +256,7 @@ Generally composition-agnostic in their recommendations</li>
 <guid>https://lethain.com/video-mental-model-for-how-to-use-llms-in-products/</guid>
 <content:encoded><![CDATA[
 <div> 写笔记、展示、Sapphire Venture's、LLMs、Carta
-总结:<br><br>作者一个月前写了一些关于LLMs的笔记，昨天在Sapphire Venture's展示了对这些笔记的演化版本。视频内容与笔记有很多重叠，同时也详细介绍了Carta迄今为止在产品中整合LLMs的方法。这是作者在本周早些时候做的一个练习录音，非会场实况录音，虽然质量不高，但内容完整。 <div>
+总结:<br /><br />作者一个月前写了一些关于LLMs的笔记，昨天在Sapphire Venture's展示了对这些笔记的演化版本。视频内容与笔记有很多重叠，同时也详细介绍了Carta迄今为止在产品中整合LLMs的方法。这是作者在本周早些时候做的一个练习录音，非会场实况录音，虽然质量不高，但内容完整。 <div>
 <p>A month ago, I wrote up some notes on
 <a href="https://lethain.com/mental-model-for-how-to-use-llms-in-products/">using LLMs in your product</a>,
 and yesterday I got to present an iteration on those notes to
@@ -268,7 +268,6 @@ There&rsquo;s a lot of overlap with the notes, but I also go into Carta&rsquo;s 
 so it&rsquo;s definitely amateur quality but the content is still all there!)</p>
 ]]></content:encoded>
 <pubDate>Fri, 14 Jun 2024 07:00:00 -0700</pubDate>
-<pubDate>Fri, 14 Jun 2024 07:00:00 -0700</pubDate>
 </item>
 <item>
 <title>No Wrong Doors.</title>
@@ -276,7 +275,7 @@ so it&rsquo;s definitely amateur quality but the content is still all there!)</p
 <guid>https://lethain.com/no-wrong-doors/</guid>
 <content:encoded><![CDATA[
 <div> #observability, No Wrong Doors policy, organizational design, support system, positive relationships
-<br>
+<br />
 要点1：文章介绍了一种名为No Wrong Doors policy的做法，旨在帮助工程组织更有效地连接有问题的人员和正确的团队和信息。
 要点2：文章指出，在复杂的组织设计中，工程师有时会面临难以解决的局面，需要导航才能找到正确的团队和信息。
 要点3：作者提到了通过建立支持系统来帮助工程师成功导航团队和信息的建议。
@@ -315,7 +314,6 @@ so it&rsquo;s definitely amateur quality but the content is still all there!)</p
 <p>The most effective mechanism I’ve found for rolling out No Wrong Door is initiating three-way conversations when asked questions. If someone direct messages me a question, then I will start a thread with the question asker, myself, and the person I believe is the correct recipient for the question. This is particularly effective because it’s a viral approach: rolling out No Wrong Door just requires any one of the three participants to adopt the approach. Even the question asker can do it, although the power dynamics of the interaction do make it a bit harder for them.</p>
 ]]></content:encoded>
 <pubDate>Wed, 22 May 2024 16:00:00 -0700</pubDate>
-<pubDate>Wed, 22 May 2024 16:00:00 -0700</pubDate>
 </item>
 <item>
 <title>Making engineering strategies more readable</title>
@@ -324,10 +322,10 @@ so it&rsquo;s definitely amateur quality but the content is still all there!)</p
 <content:encoded><![CDATA[
 <div> explore, diagnose, refine, policy, operation
 
-<br>
+<br />
 在工程战略文档中，结构化写作方式不利于阅读。提出了将文档结构倒置以提高可读性的建议。文档内容应从政策入手，然后是操作，逐步展示细化、诊断和探索。此外，还提供了关于战略文档的优化和额外建议，包括征求外部意见、设立讨论期、维护内部文档模板等。总的来说，为了帮助他人更容易审批和应用战略，重构思维优化的草稿是值得的。 
 
-<br><br>总结: 
+<br /><br />总结: 
 政策、操作、细化、诊断、探索。逆向结构化文档，减少不必要的部分并优化可读性，包括征求外部意见和禁止文档内部评论。易于审批和应用。 <div>
 <p>As discussed in <a href="https://lethain.com/components-of-eng-strategy/">Components of engineering strategy</a>,
 a complete engineering strategy has five components: explore, diagnose, refine (map &amp; model), policy, and operation.
@@ -498,7 +496,6 @@ to structure documents for readers is the root cause of a surprising number of g
 that utterly fail to have their intended impact.</p>
 ]]></content:encoded>
 <pubDate>Sat, 18 May 2024 04:00:00 -0700</pubDate>
-<pubDate>Sat, 18 May 2024 04:00:00 -0700</pubDate>
 </item>
 <item>
 <title>How should you adopt LLMs?</title>
@@ -506,13 +503,13 @@ that utterly fail to have their intended impact.</p>
 <guid>https://lethain.com/llm-adoption-strategy/</guid>
 <content:encoded><![CDATA[
 <div> LLM, Theoretical Ride Sharing, 策略, 发展, 数据模型
-<br>
+<br />
 策略: Theoretical Ride Sharing 公司制定了使用LLM的政策，包括加速司机入职流程和提高开发人员生产力。他们采用Anthropic模型，并提出了关于工具采用和政策更新的具体要求。
-<br>
+<br />
 Diagnose: 公司诊断了使用LLM的问题，包括需求的分析和业务优化。他们认识到了领域中的有限经验和专业知识，以及在做出未来决策之前，需要发展内部专门知识的重要性。
-<br>
+<br />
 Explore: 公司探讨了LLM的运作方式，成本和性能等方面的信息。他们强调了在此领域中做出正确决策的重要性，并指出了现有模型的差异和发展趋势。
-<br>
+<br />
 总结: Theoretical Ride Sharing 公司制定了使用LLM的政策，根据公司的需求和领域的发展，明确了使用LLM的具体方向和目标，以提高工作效率和产品创新。他们主要注重发展内部专业知识，以实现最佳战略选择。 <div>
 <p>Whether you’re a product engineer, a product manager, or an engineering executive, you’ve probably been pushed to consider using Large Language Models (LLM) to extend your product or enhance your processes. 2023-2024 is an interesting era for LLM adoption, where these capabilities have transitioned into the mainstream, with many companies worrying that they’re falling behind despite the fact that most integrations appear superficial.</p>
 <p>That context makes LLM adoption a great topic for a strategy case study. This document is an engineering strategy document determining how a hypothetical company, Theoretical Ride Sharing, could adopt LLMs.</p>
@@ -602,7 +599,6 @@ Our foremost goal is to learn as quickly as possible about a new domain where we
 <p>Looking at ridesharing companies more specifically, there don’t appear to be any breakout industry-specific approaches either. Uber is similarly adopting LLMs for internal productivity, and some operational efficiency improvements as documented in their <a href="https://www.uber.com/blog/the-transformative-power-of-generative-ai/">August, 2023 post describing their internal developer and operations productivity investments using LLMs</a> and <a href="https://www.uber.com/blog/from-predictive-to-generative-ai/">May, 2024 post describing those efforts in more detail</a>.</p>
 ]]></content:encoded>
 <pubDate>Tue, 14 May 2024 06:00:00 -0700</pubDate>
-<pubDate>Tue, 14 May 2024 06:00:00 -0700</pubDate>
 </item>
 <item>
 <title>Load-bearing / Career-minded / Act Two rationales</title>
@@ -611,7 +607,7 @@ Our foremost goal is to learn as quickly as possible about a new domain where we
 <content:encoded><![CDATA[
 <div> load-bearing, career-minded, Act Two rationales, executives, departure
 
-总结:<br><br>本文讨论了企业中的“load-bearing”员工，即无法用现有员工替代的关键人物，以及在高管角色中如何权衡职业、个人使命等因素的“Act Two”理由。文章还探讨了执行人员选择留在具有挑战性职位的原因，包括无他目的、帮助他人成功、继续与特定团队合作、拥有个人使命。这些不同的动机可能导致不同的路径，需要通过理解和沟通来适应。 <div>
+总结:<br /><br />本文讨论了企业中的“load-bearing”员工，即无法用现有员工替代的关键人物，以及在高管角色中如何权衡职业、个人使命等因素的“Act Two”理由。文章还探讨了执行人员选择留在具有挑战性职位的原因，包括无他目的、帮助他人成功、继续与特定团队合作、拥有个人使命。这些不同的动机可能导致不同的路径，需要通过理解和沟通来适应。 <div>
 <p>One of the common conceits in leadership is that nobody is truly essential for a company’s continuity. I call it a conceit, but I do mostly agree with it: I’ve felt literally sick after hearing about some peer’s unexpected departure, but I’m continually amazed at how resilient companies are to departures, even of important people. About two-thirds of Digg’s team left in layoffs in 2010, but we found ways to amble on. Much of Uber’s leadership team turned over in the 2017 era, and it <em>was</em> chaotic, but they continued on.</p>
 <p>However, even if organizations are too resilient to collapse from departures, some departures are more impactful than others. I think of folks whose departures would leave a large hole–whose departures require reworking how the company works–as “load-bearing.”</p>
 <h2 id="load-bearing">Load-bearing</h2>
@@ -639,7 +635,6 @@ Our foremost goal is to learn as quickly as possible about a new domain where we
 <p>This disconnection between the first and second acts–and ambiguity about which act a given person is currently in–is the source of many misunderstandings about motivations. Trying to motivate someone according to one act’s rules doesn’t work well if they’re in the other act. For example, I once worked at a company whose CFO wanted to tell our employees that they should be grateful our valuation was declining, because it meant they could use it as a loss to reduce their other capital gains obligations. Unsurprisingly, this didn’t resonate very well with the vast majority of employees who had few capital gains to offset.</p>
 ]]></content:encoded>
 <pubDate>Thu, 02 May 2024 04:00:00 -0700</pubDate>
-<pubDate>Thu, 02 May 2024 04:00:00 -0700</pubDate>
 </item>
 <item>
 <title>Constraints on giving feedback.</title>
@@ -647,7 +642,7 @@ Our foremost goal is to learn as quickly as possible about a new domain where we
 <guid>https://lethain.com/constraints-on-giving-feedback/</guid>
 <content:encoded><![CDATA[
 <div> Digg Uber 反馈 领导力 框架
-总结:<br><br> 这篇文章介绍了作者在管理Digg和Uber时，给予反馈的一些经历和教训。作者表达了反馈对组织改进至关重要的观点，但也指出组织只能吸收有限数目的改进，否则会拒绝提出反馈的人。作者分享了自己的反馈框架和观点，强调了交流反馈时的关键因素。文章强调了区分反馈和评论之间的重要性，以及如何有效地提供反馈。最后，作者建议接受反馈的人应该从中汲取洞察力，而不是纠结于反馈的格式，以实现积极的改变。 <div>
+总结:<br /><br /> 这篇文章介绍了作者在管理Digg和Uber时，给予反馈的一些经历和教训。作者表达了反馈对组织改进至关重要的观点，但也指出组织只能吸收有限数目的改进，否则会拒绝提出反馈的人。作者分享了自己的反馈框架和观点，强调了交流反馈时的关键因素。文章强调了区分反馈和评论之间的重要性，以及如何有效地提供反馈。最后，作者建议接受反馈的人应该从中汲取洞察力，而不是纠结于反馈的格式，以实现积极的改变。 <div>
 <p>Back when I was managing at Digg and Uber, I spent a lot of time delivering feedback to my management chain about issues in our organization. My intentions were good, but I alienated my management chain without accomplishing much. I also shared my concerns with my team, which I thought would help them understand the organization, but mostly isolated them in a <a href="https://lethain.com/values-oasis/">Values Oasis</a> or demoralized them instead.</p>
 <p>Those experiences taught me that pushing your organization to improve <em>is</em> essential leadership work, but organizations can only absorb so much improvement at a given time before they reject the person providing the feedback. Being rejected while trying so hard to help is painful, and it’s also a predictable outcome.</p>
 <p>It’s also a bad outcome for your team. When I focused on how the environment could change to make my team more successful, I was usually technically correct, but usually didn’t help my team very much. Because work environments change slowly, it benefits your team more to give them feedback about how they can succeed in their current environment than to agree with them about how the current environment does a poor job of supporting them. Agreeing feels empathetic, but frames them as a bystander rather than active participant in their work.</p>
@@ -692,7 +687,6 @@ If your relationship is quite good, I find that sometimes folks don’t deliver 
 <p>While I’d caution you to avoid getting too caught up in formatting feedback, I’d similarly avoid the overly simplistic message that many folks take from the “Radical Candor” school of thought. Delivering feedback abruptly is better than delivering no feedback, but it’s still less effective than taking a bit of time to get better at this. Again, I’d push you to spend a few months actively practicing how to structure feedback, after which I think you’ll be better able to quickly deliver feedback as long as you put ongoing effort into maintaining those relationships.</p>
 ]]></content:encoded>
 <pubDate>Mon, 29 Apr 2024 04:00:00 -0700</pubDate>
-<pubDate>Mon, 29 Apr 2024 04:00:00 -0700</pubDate>
 </item>
 <item>
 <title>Notes on how to use LLMs in your product.</title>
@@ -700,7 +694,7 @@ If your relationship is quite good, I find that sometimes folks don’t deliver 
 <guid>https://lethain.com/mental-model-for-how-to-use-llms-in-products/</guid>
 <content:encoded><![CDATA[
 <div> LLMs, workflows, RAG, innovation, HITL  
-总结:<br><br>本文介绍了如何使用大型语言模型(LLMs)应用于产品开发中的重要性。首先，需要重新构建对LLMs的认知模型，避免过于依赖于LLMs的“魔法”和与强化学习混淆。调整工作流程可以让产品更具价值，通过Retrieval Augmented Generation (RAG)技术处理大数据集。在创新速度和人为干预方面需要注意，同时需考虑LLMs对版权法和数据处理协议的影响。最后，提供者的可用性并不是主要问题，选择云服务提供商可能更有优势。 <div>
+总结:<br /><br />本文介绍了如何使用大型语言模型(LLMs)应用于产品开发中的重要性。首先，需要重新构建对LLMs的认知模型，避免过于依赖于LLMs的“魔法”和与强化学习混淆。调整工作流程可以让产品更具价值，通过Retrieval Augmented Generation (RAG)技术处理大数据集。在创新速度和人为干预方面需要注意，同时需考虑LLMs对版权法和数据处理协议的影响。最后，提供者的可用性并不是主要问题，选择云服务提供商可能更有优势。 <div>
 <p>Pretty much every company I know is looking for a way to benefit from Large Language Models. Even if their executives don’t see much applicability, their investors likely do, so they’re staring at the blank page nervously trying to come up with an idea. It’s straightforward to make an argument for LLMs improving internal efficiency somehow, but it’s much harder to describe a believable way that LLMs will make your product more useful to your customers.</p>
 <p>I’ve been working fairly directly on meaningful applicability of LLMs to existing products for the last year, and wanted to type up some semi-disorganized notes. These notes are in no particular order, with an intended audience of industry folks building products.</p>
 <hr />
@@ -779,16 +773,15 @@ To avoid falling into those mental model’s fallacies, I’d instead suggest th
 <p><em>There’s lots of folks out there who have spent more time thinking deeply about LLMs than I have–e.g. go read some <a href="https://simonwillison.net/">Simon Willison</a>–but hopefully the notes here are useful. Curious to discuss if folks disagree with any of these perspectives.</em></p>
 ]]></content:encoded>
 <pubDate>Mon, 08 Apr 2024 09:00:00 -0700</pubDate>
-<pubDate>Mon, 08 Apr 2024 09:00:00 -0700</pubDate>
 </item>
 <item>
 <title>Ex-technology companies.</title>
 <link>https://lethain.com/ex-technology-companies/</link>
 <guid>https://lethain.com/ex-technology-companies/</guid>
 <content:encoded><![CDATA[
-<div> technology company, valuation, R&D, financial profile, ex-technology company
+<div> technology company, valuation, R&amp;D, financial profile, ex-technology company
 
-总结:<br><br>文章探讨了公司是否属于科技公司的两种观点：投资者视角和员工视角。文章指出一些公司正在失去科技公司的地位，原因包括无法达到零边际成本、R&D无法提升公司财务状况、过度维护和无法改变商业结果。建议对公司是否属于新一类的前科技公司进行评估，并指出如果R&D无法在三年内显著改变公司财务状况，则可能已经加入这个新的类别。文章鼓励保持希望，因为科技行业充满变化。 <div>
+总结:<br /><br />文章探讨了公司是否属于科技公司的两种观点：投资者视角和员工视角。文章指出一些公司正在失去科技公司的地位，原因包括无法达到零边际成本、R&amp;D无法提升公司财务状况、过度维护和无法改变商业结果。建议对公司是否属于新一类的前科技公司进行评估，并指出如果R&amp;D无法在三年内显著改变公司财务状况，则可能已经加入这个新的类别。文章鼓励保持希望，因为科技行业充满变化。 <div>
 <p>One of the most interesting questions I got after joining Calm in 2020 was whether Calm was a technology company. Most interestingly, this question wasn’t coming from friends or random strangers on the internet, it was coming from the engineers working there! In an attempt to answer those questions, I <a href="https://lethain.com/tech-company/">wrote up some notes</a>, which summarize two perspectives on “being a technology company.”</p>
 <p>The first perspective is Ben Thompson’s “<a href="https://stratechery.com/2019/what-is-a-tech-company/">Software has zero marginal costs.</a>” You’re a technology company if adding your next user doesn’t create more costs to support that user. Yes, it’s not <em>really</em> zero, e.g. Stripe has some additional human overhead for managing fraud for each incremental user it adds, but it’s a sufficiently low coefficient that it’s effectively zero. This is the investor perspective, and matters predominantly to companies because it will change how their valuation is calculated, which in turn plays a significant role in investor, founder, and employee compensation.</p>
 <p>If a company is a technology company in a “good” vertical, then the valuation might be 7-10x revenue. If it’s not a technology company, the valuation might be 2-5x revenue. The rationale behind this difference is that a technology company should be able to push its gross margin to 70+% as it matures, which will drive significantly higher cash flow, and most valuations are anchored in <a href="https://www.investopedia.com/terms/d/dcf.asp">discounted future cash flow</a>. This also means that if you’re perceived as a technology company one year, and then not perceived as a technology company a few years later, your company’s valuation plummets.</p>
@@ -813,7 +806,6 @@ These fallen technology companies are creating a new striation of company, whose
 <p>The beautiful thing about our industry is that it’s a dynamic, living thing. We’re in a challenging pocket, but the good times are never too far around the corner either.</p>
 ]]></content:encoded>
 <pubDate>Fri, 22 Mar 2024 04:00:00 -0700</pubDate>
-<pubDate>Fri, 22 Mar 2024 04:00:00 -0700</pubDate>
 </item>
 <item>
 <title>Leadership requires taking some risk.</title>
@@ -821,9 +813,9 @@ These fallen technology companies are creating a new striation of company, whose
 <guid>https://lethain.com/leadership-requires-risk/</guid>
 <content:encoded><![CDATA[
 <div> personal risk, bottom-up decision-making, leadership, accountability, capacity obfuscation
-<br>
+<br />
 领导者在职业发展中有时需要承担个人风险，尤其是在底层决策中。在这种情况下，领导者需要承担责任，而不是将风险转移到高级领导身上。在做出决策时，要确保根据用户需求进行充分的验证和数据分析，同时在解决问题时要注意隐藏内部工作，以免将容量暴露给外部需求。要想取得个人和职业成长，必须愿意承担风险并积极解决问题，这是领导者的基本要求。持续发展需要深入研究并学习自己的经验。 
-<br><br>总结:领导者需要在底层决策中承担个人风险并承担责任，同时要隐藏内部工作以防止容量的暴露。 <div>
+<br /><br />总结:领导者需要在底层决策中承担个人风险并承担责任，同时要隐藏内部工作以防止容量的暴露。 <div>
 <p>At a recent offsite with Carta’s <a href="https://lethain.com/navigators/">Navigators</a>, we landed on an interesting topic: leadership roles sometimes mean that making progress on a professional initiative requires taking some personal risk.</p>
 <p>This lesson was hammered into me a decade ago during my time at Uber, where <a href="https://lethain.com/founding-uber-sre/">I kicked off the Uber SRE group</a> and architectured Uber’s self-service service provisioning strategy that defined Uber’s approach to software development (which spawned a thousand thought pieces, not all complimentary). I did both without top-down approval, and made damn sure they worked out. It wasn’t that I was an anarchist, or that I hated all authority, rather that I could have never gotten explicit approval for either approach. It was the sort of culture where occasionally you were told not to do something, but you were only rarely given explicit permission to do anything. My choice was to either point fingers about why I was stuck, or take on some personal risk to make forward progress.</p>
 <p>I love making progress, and hate being stuck, so for me it was an easy decision: take ownership
@@ -876,15 +868,14 @@ The upside is that almost all meaningful personal and career growth is hidden be
 There’s a lot of interesting lessons to learn out there, and while you can learn a lot from others, some of them you have to learn yourself.</p>
 ]]></content:encoded>
 <pubDate>Sun, 17 Mar 2024 05:00:00 -0700</pubDate>
-<pubDate>Sun, 17 Mar 2024 05:00:00 -0700</pubDate>
 </item>
 <item>
 <title>Friction isn't velocity.</title>
 <link>https://lethain.com/friction-vs-velocity/</link>
 <guid>https://lethain.com/friction-vs-velocity/</guid>
 <content:encoded><![CDATA[
-<div> 窗户、空气阻力、迁移服务、开发流程、知识库<br>
-总结:<br>
+<div> 窗户、空气阻力、迁移服务、开发流程、知识库<br />
+总结:<br />
 文章讲述了在企业中经常出现的一种错误推理，即以行动代替进步。举例说明了在迁移服务、改变开发流程、更换知识库等方面常见的误解，认为这些举措能解决问题，实际上只是表面上的进步，没有解决根本问题。文章建议在这种情况下及时提醒相关人员，如果对反馈不感兴趣，则表明他们更注重领导力的展现，而不是工作的实际影响。最后提到，在完全陷入困境的情况下，迅速采取行动可能比耐心追求更为重要。 <div>
 <p>When you&rsquo;re driving a car down a road, you might get a bit stuffy and decide
 to roll your windows down. The air will flow in, the wind will get louder,
@@ -942,7 +933,6 @@ Frenetic motion is worse than thoughtful pursuit, but some frenzy is preferable 
 <a href="https://poets.org/poem/do-not-go-gentle-good-night">going quietly into that good night</a>.</p>
 ]]></content:encoded>
 <pubDate>Fri, 15 Mar 2024 05:00:00 -0700</pubDate>
-<pubDate>Fri, 15 Mar 2024 05:00:00 -0700</pubDate>
 </item>
 <item>
 <title>More (self-)publishing thoughts.</title>
@@ -951,7 +941,7 @@ Frenetic motion is worse than thoughtful pursuit, but some frenzy is preferable 
 <content:encoded><![CDATA[
 <div> 出版，数字，自行出版，出版商，控制价格
 
-总结：<br><br>作者分享了自己的出版经验，包括与出版商合作和自行出版的经历。他提出了自行出版的一些利弊和注意事项，例如学习曲线、定价控制、印刷质量、创作控制、编辑支持、发行时间和国际权利管理等方面的差异。作者认为是否自行出版取决于具体情况，没有绝对正确的决定。 <div>
+总结：<br /><br />作者分享了自己的出版经验，包括与出版商合作和自行出版的经历。他提出了自行出版的一些利弊和注意事项，例如学习曲线、定价控制、印刷质量、创作控制、编辑支持、发行时间和国际权利管理等方面的差异。作者认为是否自行出版取决于具体情况，没有绝对正确的决定。 <div>
 <p>I recently got an email asking about self-publishing books,
 and wanted to summarize my thinking there.
 Recapping my relevant experience, I&rsquo;ve written three books:</p>
@@ -1049,7 +1039,6 @@ there&rsquo;s only one obviously right decision, that statement is resoundingly 
 my experience.</p>
 ]]></content:encoded>
 <pubDate>Sat, 24 Feb 2024 05:00:00 -0700</pubDate>
-<pubDate>Sat, 24 Feb 2024 05:00:00 -0700</pubDate>
 </item>
 <item>
 <title>Digital release of Engineering Executive's Primer.</title>
@@ -1058,14 +1047,13 @@ my experience.</p>
 <content:encoded><![CDATA[
 <div> 书籍、印刷、3月、购买、预购
 
-书籍已经开始印刷，实体书将于3月上市。此时，您可以购买电子书或阅读书籍内容。您也可以在亚马逊预订实体书。<br><br>总结: 书籍已印刷完成，实体书将于3月上市；现已可购买电子书或阅读书籍内容；也可在亚马逊预订实体书。 <div>
+书籍已经开始印刷，实体书将于3月上市。此时，您可以购买电子书或阅读书籍内容。您也可以在亚马逊预订实体书。<br /><br />总结: 书籍已印刷完成，实体书将于3月上市；现已可购买电子书或阅读书籍内容；也可在亚马逊预订实体书。 <div>
 <p>Quick update on <em><a href="https://lethain.com/eng-execs-primer/">The Engineering Executive&rsquo;s Primer</a></em>. The book went to print yesterday,
 and physical copies will be available in March.
 Also, as of this moment, you can purchase the <a href="https://www.amazon.com/Engineering-Executives-Primer-Will-Larson-ebook/dp/B0CV4QGPXD/">digital edition on Amazon</a>,
 and read the <a href="https://www.oreilly.com/library/view/the-engineering-executives/9781098149475/">full digital release on O&rsquo;Reilly</a>.
 (You can preorder physical copies on Amazon as well.)</p>
 ]]></content:encoded>
-<pubDate>Wed, 07 Feb 2024 01:00:00 -0600</pubDate>
 <pubDate>Wed, 07 Feb 2024 01:00:00 -0600</pubDate>
 </item>
 <item>
@@ -1074,7 +1062,7 @@ and read the <a href="https://www.oreilly.com/library/view/the-engineering-execu
 <guid>https://lethain.com/value-accumulation-in-ai/</guid>
 <content:encoded><![CDATA[
 <div> 云服务商、模型和核心、AI增强产品、价值积累、人工智能
-总结：<br><br>在人工智能投资方面，当前主要的价值积累在模型和核心层，这一领域存在很多竞争激烈的新公司，但估值已经非常高。未来几年，我认为基础设施将逐渐吞噬模型和核心层，而AI增强产品将成为投资焦点。具体而言，投资于与文件相关的公司和能够结合人类操作的产品可能是有潜力的选择。值得注意的是，选择在已有丰富数据和产品工作流的公司进行AI创新可能是一个有趣而具有发展前景的职业选择。 <div>
+总结：<br /><br />在人工智能投资方面，当前主要的价值积累在模型和核心层，这一领域存在很多竞争激烈的新公司，但估值已经非常高。未来几年，我认为基础设施将逐渐吞噬模型和核心层，而AI增强产品将成为投资焦点。具体而言，投资于与文件相关的公司和能够结合人类操作的产品可能是有潜力的选择。值得注意的是，选择在已有丰富数据和产品工作流的公司进行AI创新可能是一个有趣而具有发展前景的职业选择。 <div>
 <p>Recently, I&rsquo;ve thinking about where I want to focus my angel investing in 2024,
 and decided to document my thinking about value accumulation in artificial intelligence
 because it explains the shape of my interest&ndash;or lack thereof&ndash;in investing in artificial
@@ -1128,7 +1116,6 @@ finding an established company with significant existing data and product workfl
 recent AI advances.</p>
 ]]></content:encoded>
 <pubDate>Wed, 31 Jan 2024 14:00:00 -0600</pubDate>
-<pubDate>Wed, 31 Jan 2024 14:00:00 -0600</pubDate>
 </item>
 <item>
 <title>High-Context Triad.</title>
@@ -1137,14 +1124,13 @@ recent AI advances.</p>
 <content:encoded><![CDATA[
 <div> Context Layers, Navigating Ambiguity, Staff Engineer, High-Context Triad, Engineering
 
-总结：<br><br>作者正在撰写三篇与高上下文相关的文章，形成了“高上下文三元”；其中“上下文层次”为基础概念，使得其他两篇文章写作顺利；在专注讨论领域过程中的技术细节中获得理解，推动了思维的清晰表达；作者对Staff Engineer主题的深刻了解，并计划进行轻微修订；Tanya Reilly的相关工作也对作者的思考产生影响；期望读者对这些文章有所启发。 <div>
+总结：<br /><br />作者正在撰写三篇与高上下文相关的文章，形成了“高上下文三元”；其中“上下文层次”为基础概念，使得其他两篇文章写作顺利；在专注讨论领域过程中的技术细节中获得理解，推动了思维的清晰表达；作者对Staff Engineer主题的深刻了解，并计划进行轻微修订；Tanya Reilly的相关工作也对作者的思考产生影响；期望读者对这些文章有所启发。 <div>
 <p>The past couple weeks I’ve been working on three semi-related articles that I think of as the “High Context Triad.” Those are <a href="https://lethain.com/layers-of-context/">Layers of context</a>, <a href="https://lethain.com/navigating-ambiguity/">Navigating ambiguity</a>, and <a href="https://lethain.com/multi-dimensional-tradeoffs/">Tradeoffs are multi-dimensional</a>. One of my background projects, probably happening in 2025 or 2026 after I’ve finished my <a href="https://lethain.com/strategy-notes/">nascent project on engineering strategy</a>, is publishing a second edition of <em><a href="https://staffeng.com/">Staff Engineer</a></em>, and I intended these three articles as supplements.</p>
 <p>I’ve really enjoyed writing these pieces, because the first on context layers is really necessary to establish the vocabulary to even talk about the other two effectively. I’ve been trying to write about navigating ambiguity for four or five years now, but really struggled to do so until I was able to write “Layers of context.”
 Once I wrote about context layers, then the piece on navigating ambiguity fells together in an hour or two, following years of staring at a blank page.
 Similarly, I struggled to write “Layers of context” until I was in a specific set of discussions with an engineer that framed the specific concept clearly enough in my head that I could write it down, which is a good articulation of why I believe so deeply in the unique opportunity of <a href="https://lethain.com/writers-who-operate/">Writers who operate</a>.</p>
 <p>In addition to pulling in this triad, <a href="https://lethain.com/navigators/">Navigators</a> is another likely supplement, perhaps following <a href="https://staffeng.com/guides/where-should-staff-plus-eng-report/">Where do Staff-plus engineers fit into the org?</a> Altogether, I think that <em>Staff Engineer</em> is holding up well, but there’s a lot of interesting thinking happening in the space&ndash;especially Tanya Reilly’s <em><a href="https://learning.oreilly.com/library/view/the-staff-engineers/9781098118723/">The Staff Engineer’s Path</a></em>&ndash;and a light revision will be worthwhile. Eventually. Until then, I hope folks interested in this topic get something out of this High-Context Triad.</p>
 ]]></content:encoded>
-<pubDate>Wed, 24 Jan 2024 15:00:00 -0600</pubDate>
 <pubDate>Wed, 24 Jan 2024 15:00:00 -0600</pubDate>
 </item>
 <item>
@@ -1154,7 +1140,7 @@ Similarly, I struggled to write “Layers of context” until I was in a specifi
 <content:encoded><![CDATA[
 <div> 快速部署、软件测试、特性标志、维度、决策
 
-总结:<br><br>本文讨论了在做出决策时如何通过引入额外维度来改善权衡。作者认为在处理复杂的决策时，可以通过添加维度来使决策更清晰。通过具体化利益相关方需求、拓宽视野、测试新的维度是否有用、向有经验的人请教，可以找到并应用合适的维度。这种做法需要在工作中不断尝试，并且随着经验的提升，才能逐渐培养出这种能力。 <div>
+总结:<br /><br />本文讨论了在做出决策时如何通过引入额外维度来改善权衡。作者认为在处理复杂的决策时，可以通过添加维度来使决策更清晰。通过具体化利益相关方需求、拓宽视野、测试新的维度是否有用、向有经验的人请教，可以找到并应用合适的维度。这种做法需要在工作中不断尝试，并且随着经验的提升，才能逐渐培养出这种能力。 <div>
 <p>In some pockets of the industry, an axiom of software development is that deploying software quickly is at odds with thoroughly testing that software. One reason that teams believe this is because a fully automated deployment process implies that there’s no opportunity for manual quality assurance. In other pockets of the industry, the axiom is quite different: you can get both fast deployment and manual quality assurance by using feature flags to decouple deployment (shipping the code) and release (enabling new functionality).</p>
 <p>The deeper I get into my career, the more I believe that example holds within it a generalizable pattern for making useful tradeoffs:</p>
 <ol>
@@ -1227,16 +1213,15 @@ mean you are unaware of it now.</p>
 <p>Sometimes people will talk about engineers becoming senior in five to seven years, and then being wholly competent at the job they do. This is true in one sense–you can be a very good engineer with five years of experience–but also misses on the many abilities that are only beginning to take root at that point. Adding dimensions to tradeoffs is a good example of the latter category: there are very few folks with the necessary context layers and the breadth of experience to get good at identifying the missing dimension to make difficult tradeoffs easier. There’s always more to learn.</p>
 ]]></content:encoded>
 <pubDate>Wed, 24 Jan 2024 14:00:00 -0600</pubDate>
-<pubDate>Wed, 24 Jan 2024 14:00:00 -0600</pubDate>
 </item>
 <item>
 <title>Navigating ambiguity.</title>
 <link>https://lethain.com/navigating-ambiguity/</link>
 <guid>https://lethain.com/navigating-ambiguity/</guid>
 <content:encoded><![CDATA[
-<div> 关键词：工程师、问题、模糊、解决、执行<br>
-<br>
-总结：<br>
+<div> 关键词：工程师、问题、模糊、解决、执行<br />
+<br />
+总结：<br />
 工作中遇到的问题往往需要工程师能够感知其中的复杂性，并逐渐解决。然而，处理模糊不清的问题是一项稀缺技能，需要掌握。解决模糊问题的通用方法是分析现状，提出解决方案，并做出决策。及时与关键利益相关者沟通，并取得执行力，是解决模糊问题的关键。若遇到困难，及时向领导层寻求支持与指导，并在必要时放慢进程，等待合适时机。要避免在不确定性中陷入僵局，保持沟通合作，以最终解决问题为目标。 <div>
 <p>Perceiving the <a href="https://lethain.com/layers-of-context/">layers of context</a> in problems will unlock another stage of career progression as a Staff-plus engineer, but there’s at least one essential skill to develop afterwards: navigating ambiguity. In my experience, navigating deeply ambiguous problems is the rarest skill in engineers, and doing it well is a rarity. It’s sufficiently rare that many executives can’t do it well either, although I do believe that all long-term successful executives find <em>at least</em> one toolkit for these kinds of problems.</p>
 <p>Before going further, let’s get a bit less abstract by identifying a few examples of the kinds of problems I’m referring with the label <em>deeply ambiguous</em>:</p>
@@ -1301,7 +1286,6 @@ When explaining this problem to new colleagues, my starting explanation became, 
 <p>My biggest advice on solving deeply ambiguous problems is pretty simple: don’t overreact when you get stuck. If you can’t make progress, then escalate. If escalating doesn’t clarify the path forward, then slow down until circumstances evolve. Failing to solve an ambiguous problem is often the only reasonable outcome. The only true failure is if feeling stuck leads you to push so hard that you alienate those working on the problem with you.</p>
 ]]></content:encoded>
 <pubDate>Fri, 19 Jan 2024 05:00:00 -0600</pubDate>
-<pubDate>Fri, 19 Jan 2024 05:00:00 -0600</pubDate>
 </item>
 <item>
 <title>Layers of context.</title>
@@ -1310,7 +1294,7 @@ When explaining this problem to new colleagues, my starting explanation became, 
 <content:encoded><![CDATA[
 <div> context layers, influence, engineering, perspective, leadership 
 
-<br>
+<br />
 总结：文章讨论了工程师在影响同事时遇到的困难，主要原因是缺乏跨层上下文的推理能力。通过分享引入新编程语言问题的实例，展示了问题涉及的不同层面上下文，包括工程团队、开发者体验和基础设施团队、工程领导等。同时，提出了如何跨越层面上下文的技巧，包括保持好奇心、轮转到其他团队、参与销售电话和审查支持票、在不同公司和行业工作以及建立广泛网络。最后强调，过度关注热情可能会导致视野狭窄，应该以理解他人视角为优先，经过学术评估后再加入个人情感，以最大程度解决问题。 <div>
 <p>Recently I was chatting with a Staff-plus engineer who was struggling to influence his peers. Each time he suggested an approach, his team agreed with him, but his peers in the organization disagreed and pushed back. He wanted advice on why his peers kept undermining his approach.
 After our chat, I followed up by talking with his peers about some recent disagreements, and they kept highlighting missing context from the engineer’s proposals.
@@ -1384,15 +1368,14 @@ then take some time to test this idea against some of your recent conflicts and 
 For some exceptionally talented folks I’ve worked with, this is the last lesson they needed to learn before thriving as a senior leader.</p>
 ]]></content:encoded>
 <pubDate>Mon, 15 Jan 2024 05:00:00 -0600</pubDate>
-<pubDate>Mon, 15 Jan 2024 05:00:00 -0600</pubDate>
 </item>
 <item>
 <title>Those five spare hours each week.</title>
 <link>https://lethain.com/five-spare-hours/</link>
 <guid>https://lethain.com/five-spare-hours/</guid>
 <content:encoded><![CDATA[
-<div> CTOs, impact, time investment, context, role <br>
-<br>
+<div> CTOs, impact, time investment, context, role <br />
+<br />
 Deep context和broad context都是CTO角色中重要的投资方向，在工作中要根据角色的需要和个人的需求来选择投资方向，而不是盲目跟随别人的建议。较小规模或市场拟合不足的公司更需要高管建立深入的上下文，而较大规模或多业务部门的公司则更有利于广泛上下文或改进现有系统和流程。重要的是要根据具体情况做决定，不能一概而论。总结: 深入和广泛上下文对于CTO来说都很重要，但决定如何投资时间应基于自己的角色需求和个人需求，而不能盲目跟随通用规则。 <div>
 <p>One of the recurring debates about senior engineering leadership roles is whether Chief Technology Officers should actively write code. There are a lot of strongly held positions, from “Real CTOs code.” at one end of the spectrum, to “Low ego managers know they contribute more by focusing on leadership work rather than coding.” There are, of course, adherents at every point between those two extremes. It’s hard to take these arguments too seriously, because these values correlate so strongly with holders&rsquo; identities: folks who believe they are strong programmers argue that CTOs must code, and people who don’t feel comfortable writing software take the opposite view.</p>
 <p>There’s another question that I find more applicable in my own career: If I have five spare hours each week, how should I invest that time? It’s hard to answer that without specifying your investment goal, so a more complete version of the question is “If I have five spare hours each week, how should I invest that time to maximize my impact and <a href="https://lethain.com/better-micromanage-than-disengaged/">long-term engagement</a>?”</p>
@@ -1407,16 +1390,15 @@ Deep context和broad context都是CTO角色中重要的投资方向，在工作�
 <p>There are some general rules. Smaller and pre-market fit companies are more likely to need their executives to build deep context. Larger and multi-business unit companies are more likely to benefit from broad context or improvements to existing systems and processes. They’re just generalized rules though, make the decisions for yourself.</p>
 ]]></content:encoded>
 <pubDate>Sun, 14 Jan 2024 05:00:00 -0600</pubDate>
-<pubDate>Sun, 14 Jan 2024 05:00:00 -0600</pubDate>
 </item>
 <item>
 <title>Predictability.</title>
 <link>https://lethain.com/predictability/</link>
 <guid>https://lethain.com/predictability/</guid>
 <content:encoded><![CDATA[
-<div> Uber, CTO, predictability, decision making, executive<br>
-<br>
-总结:<br>
+<div> Uber, CTO, predictability, decision making, executive<br />
+<br />
+总结:<br />
 文章讨论了在企业决策中的可预测性对于执行层的重要性。通过Uber的例子，说明了即使是一般的执行层能够通过保持可预测性来取得成功，而即使是杰出的执行层如果缺乏可预测性也会遇到困难。文章强调了增加预测性可以帮助团队更好地规划并取得进展，但并非是万能之道。在决策中需要平衡预测性和灵活性，以确保长期成功。 <div>
 <p>Right now I’m reading Michael S. Malone’s <em><a href="https://press.stripe.com/the-big-score">The Big Score</a></em>, and one thing that I love about it is how much it believes that key individuals drive and create industries. It’s an infectious belief, and a necessary one to write a concise, coherent narrative story about the origins of Silicon Valley. It’s something I’ve thought about a lot as well in my career, and also while writing <a href="https://lethain.com/eng-execs-primer/">my upcoming book</a> on operating as an engineering executive–how much do good executives <em>really</em> matter?</p>
 <p>My ego’s too frail to sustain a proclamation like, “Executives don’t matter!” Further, that doesn’t reflect my lived experience: I think executive quality matters a great deal. That said, I do think that there are non-obvious ways that seemingly mediocre executives outperform the sum of their capabilities, and seemingly brilliant executives underperform their talents. One of those ways is the extent that they create a predictable environment.</p>
@@ -1435,8 +1417,6 @@ Deep context和broad context都是CTO角色中重要的投资方向，在工作�
 <p>That said, the moral of the story here is that predictability is valuable, not that it’s a universal cure. A mediocre but predictable executive will likely outperform an extraordinary but unpredictable executive, but both are unlikely to be successful in the long-run.</p>
 ]]></content:encoded>
 <pubDate>Mon, 01 Jan 2024 05:00:00 -0600</pubDate>
-<pubDate>Mon, 01 Jan 2024 05:00:00 -0600</pubDate>
 </item>
-
 </channel>
 </rss>

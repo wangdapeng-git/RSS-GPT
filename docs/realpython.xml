@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Ruff: A Modern Python Linter for Error-Free and Maintainable Code</title>
 <link>https://realpython.com/ruff-python/</link>
@@ -161,7 +162,6 @@ Linting是写作干净可读代码的重要工具，Ruff是一个现代的linter
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-06-17T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -169,15 +169,14 @@ Linting是写作干净可读代码的重要工具，Ruff是一个现代的linter
 <link>https://realpython.com/quizzes/ruff-python/</link>
 <guid>https://realpython.com/quizzes/ruff-python/</guid>
 <content:encoded><![CDATA[
-<div> 自动修复、代码格式化、可选配置、Linting、Ruff <br>
-Linting工具Ruff能够自动修复Python代码中的错误，格式化代码，并提供可选配置以增强Linting功能。通过使用Ruff，可以提高Python代码的质量和可读性，确保代码风格一致，同时自动修复常见错误，使代码更加规范。Linting是代码审查的一种重要方式，能够帮助开发人员发现并解决潜在的问题，提高代码质量和稳定性。Ruff为Python开发者提供了一个方便实用的工具，有助于提升编码效率和整体代码质量。 <br><br>总结: 自动修复、代码格式化、可选配置、Linting、Ruff。Linting工具Ruff能够提高Python代码质量和可读性，通过自动修复错误、格式化代码和提供可选配置，帮助开发人员发现并解决潜在问题，提高代码质量和稳定性。Ruff为Python开发者提供便捷的工具，促进编码效率和代码质量的提升。 <div>
+<div> 自动修复、代码格式化、可选配置、Linting、Ruff <br />
+Linting工具Ruff能够自动修复Python代码中的错误，格式化代码，并提供可选配置以增强Linting功能。通过使用Ruff，可以提高Python代码的质量和可读性，确保代码风格一致，同时自动修复常见错误，使代码更加规范。Linting是代码审查的一种重要方式，能够帮助开发人员发现并解决潜在的问题，提高代码质量和稳定性。Ruff为Python开发者提供了一个方便实用的工具，有助于提升编码效率和整体代码质量。 <br /><br />总结: 自动修复、代码格式化、可选配置、Linting、Ruff。Linting工具Ruff能够提高Python代码质量和可读性，通过自动修复错误、格式化代码和提供可选配置，帮助开发人员发现并解决潜在问题，提高代码质量和稳定性。Ruff为Python开发者提供便捷的工具，促进编码效率和代码质量的提升。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of
 <a href="https://realpython.com/ruff-python/">Ruff, a modern linter for Python</a>.</p>
 <p>By working through this quiz, you&rsquo;ll revisit why you&rsquo;d want to use Ruff to check your Python code and how it automatically fixes errors, formats your code, and provides optional configurations to enhance your linting.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-06-17T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -185,14 +184,13 @@ Linting工具Ruff能够自动修复Python代码中的错误，格式化代码，
 <link>https://realpython.com/podcasts/rpp/208/</link>
 <guid>https://realpython.com/podcasts/rpp/208/</guid>
 <content:encoded><![CDATA[
-<div> 关键词: 数据, 异常点检测, Python, Brett Kennedy, 图书<br>
-<br>
-数据分析中的关键环节是发现数据中最有趣或可疑的点，可以使用Python中的库和技术来检测这些异常值。本周节目邀请了作者Brett Kennedy谈论他的书籍"Outlier Detection in Python"，详细介绍了如何利用Python进行异常点检测的方法和技巧。本书可以帮助读者更好地理解和利用数据中潜在的特殊点和异常值，提高数据分析的准确性和深度。<br><br>总结: 数据分析关键，Python库技术，异常点处理，Brett Kennedy，书籍介绍。 <div>
+<div> 关键词: 数据, 异常点检测, Python, Brett Kennedy, 图书<br />
+<br />
+数据分析中的关键环节是发现数据中最有趣或可疑的点，可以使用Python中的库和技术来检测这些异常值。本周节目邀请了作者Brett Kennedy谈论他的书籍"Outlier Detection in Python"，详细介绍了如何利用Python进行异常点检测的方法和技巧。本书可以帮助读者更好地理解和利用数据中潜在的特殊点和异常值，提高数据分析的准确性和深度。<br /><br />总结: 数据分析关键，Python库技术，异常点处理，Brett Kennedy，书籍介绍。 <div>
 <p>How do you find the most interesting or suspicious points within your data? What libraries and techniques can you use to detect these anomalies with Python? This week on the show, we speak with author Brett Kennedy about his book "Outlier Detection in Python."</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-06-14T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -201,9 +199,9 @@ Linting工具Ruff能够自动修复Python代码中的错误，格式化代码，
 <guid>https://realpython.com/python-mappings/</guid>
 <content:encoded><![CDATA[
 <div> Mappings, Characteristics, Operations, defaultdict, Counter
-<br>
+<br />
 字典是Python中常见的映射，具有查找键并检索值的功能。映射的特征包括能够使用键检索值，例如使用`points["Sarah"]`查找字典中相应的值。字典还可以设置缺失键的默认值，可以使用`collections`模块中的`defaultdict`实现。另外，映射也是可迭代容器，具有特定的长度，并且可以通过`len()`方法获取其长度。比如，使用`Counter`可以将字符串中的字符转换为键，以字符的出现次数作为值，同时也可以使用`in`关键字检查映射中是否存在某个元素。Mappings是一种常见的数据结构，对于Python编程非常重要。 
-<br><br>总结: <div>
+<br /><br />总结: <div>
 <div><p>One of the main data structures you learn about early in your Python learning journey is the dictionary. Dictionaries are the most common and well-known of Python’s <strong>mappings</strong>. However, there are other mappings in Python’s standard library and third-party modules. Mappings share common characteristics, and understanding these shared traits will help you use them more effectively.</p>
 <p><strong>In this tutorial, you’ll learn about:</strong></p>
 <ul>
@@ -427,7 +425,6 @@ Linting工具Ruff能够自动修复Python代码中的错误，格式化代码，
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-06-12T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -442,16 +439,14 @@ Linting工具Ruff能够自动修复Python代码中的错误，格式化代码，
 - custom mapping
 - Python Tricks
 
-<br>总结:
-这篇文章介绍了关于Python的基本特征和操作，以及创建自定义映射的关键概念和技术。通过这篇文章，读者可以测试对Python的理解，复习重要概念和技巧。另外，还提到了Python Tricks，为读者提供了一种通过简短的技巧增强Python编程能力的方式。这篇文章帮助读者全面理解Python的基础知识和操作，以及如何创建自定义映射。<br> <div>
+<br />总结:
+这篇文章介绍了关于Python的基本特征和操作，以及创建自定义映射的关键概念和技术。通过这篇文章，读者可以测试对Python的理解，复习重要概念和技巧。另外，还提到了Python Tricks，为读者提供了一种通过简短的技巧增强Python编程能力的方式。这篇文章帮助读者全面理解Python的基础知识和操作，以及如何创建自定义映射。<br /> <div>
 <p>In this quiz, you&rsquo;ll test your understanding of the basic characteristics and operations of <a href="https://realpython.com/python-mappings/">Python mappings</a>. By working through this quiz, you&rsquo;ll revisit the key concepts and techniques of creating a custom mapping.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-06-12T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Listing All Files in a Directory With Python</title>
 <link>https://realpython.com/courses/listing-all-files-directory/</link>

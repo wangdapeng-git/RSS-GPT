@@ -4,12 +4,13 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-06-16</title>
 <link>https://pythonhub.dev/digest/2024-06-16/</link>
 <guid>https://pythonhub.dev/digest/2024-06-16/</guid>
 <content:encoded><![CDATA[
-<div> AI, Python, WebApps, Django, LLM <br>
+<div> AI, Python, WebApps, Django, LLM <br />
 总结: 这篇文章介绍了使用AI技术和Python语言开发各种Web应用程序，涉及到Django框架和LLM模型的应用。通过使用这些技术，可以快速搭建出性能优异的Web应用，并且提供了一些开源项目和工具供开发者使用。同时，还探讨了在健康领域中使用预测模型进行评估的重要性和方法。整体而言，本文囊括了AI、Python、Web应用、Django框架和LLM模型在项目开发和数据处理中的关键应用。 <div>
 <div></div>
 
@@ -269,9 +270,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 16 Jun 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 16 Jun 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-06-09</title>
 <link>https://pythonhub.dev/digest/2024-06-09/</link>
