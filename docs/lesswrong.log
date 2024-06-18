@@ -1492,3 +1492,9 @@ Summarized using GPT-3.5-turbo
 Append: [D&D.Sci Alchemy: Archmage Anachronos and the Supply Chain Issues Evaluation & Ruleset](https://www.lesswrong.com/posts/EC4R6FFjnsDz3cxcp/d-and-d-sci-alchemy-archmage-anachronos-and-the-supply-chain-1)
 append_entries: 1
 Finish: 2024-06-18 18:14:33.633264
+------------------------------------------------------
+Started: 2024-06-18 20:12:08.306585
+Existing_entries: 78
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-18 20:12:08.914846
