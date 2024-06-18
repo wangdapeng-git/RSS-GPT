@@ -4,6 +4,273 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-06-16</title>
+<link>https://pythonhub.dev/digest/2024-06-16/</link>
+<guid>https://pythonhub.dev/digest/2024-06-16/</guid>
+<content:encoded><![CDATA[
+<div> AI, Python, WebApps, Django, LLM <br>
+总结: 这篇文章介绍了使用AI技术和Python语言开发各种Web应用程序，涉及到Django框架和LLM模型的应用。通过使用这些技术，可以快速搭建出性能优异的Web应用，并且提供了一些开源项目和工具供开发者使用。同时，还探讨了在健康领域中使用预测模型进行评估的重要性和方法。整体而言，本文囊括了AI、Python、Web应用、Django框架和LLM模型在项目开发和数据处理中的关键应用。 <div>
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://github.com/Shubhamsaboo/awesome-llm-apps">awesome-llm-apps</a></strong>
+    
+        <br /><span>Collection of awesome LLM apps with RAG using OpenAI, Anthropic, Gemini and opensource models.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/darrenburns/elia">Elia</a></strong>
+    
+        <br /><span>A snappy, keyboard-centric terminal user interface for interacting with large language models. Chat with ChatGPT, Claude, Llama 3, Phi 3, Mistral, Gemma and more.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://wickstrom.tech/2024-05-23-statically-typed-functional-programming-python-312.html">Statically Typed Functional Programming with Python 3.12</a></strong>
+    
+        <br /><span>The article demonstrates how to use Python 3.12's new type alias and union type syntax to define a simple expression-based language with dataclasses, and then implements an evaluator function using pattern matching to evaluate expressions in that language.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/fohrloop/wakepy">wakepy</a></strong>
+    
+        <br /><span>Cross-platform keep-awake with Python.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.pythonmorsels.com/cli-tools/">Python's many command-line utilities</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://www.thepythoncodingstack.com/p/bytes-python-built-in-unicode-utf-8-encoding">`bytes`: The Lesser-Known Python Built-In Sequence • And Understanding UTF-8 Encoding</a></strong>
+    
+        <br /><span>The `bytes` data type looks a bit like a string, but it isn't a string. Let's explore it and also look at the main Unicode encoding, UTF-8.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://google.github.io/mesop/">Mesop – Open-source Python UI framework</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=Az1BosALarw">How to use React with Django (in 10 mins)</a></strong>
+    
+        <br /><span>The simplest way to set up a React.js frontend and a Django REST API backend.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonspeed.com/articles/lets-optimize-median-local-threshold/">Let’s optimize! Running 15× faster with a situation-specific algorithm</a></strong>
+    
+        <br /><span>Sometimes the best way to speed up your algorithm is to adjust it to the specifics of your data.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://oxo.ostorlab.co/">An open source vuln scanner in Python: OXO</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/VinciGit00/Scrapegraph-ai">VinciGit00 / Scrapegraph-ai</a></strong>
+    
+        <br /><span>Python scraper based on AI</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://taipy.io/blog/build-interactive-data-apps-of-scikit-learn-models-using-taipy">Build Interactive Data Apps of Scikit-learn Models Using Taipy</a></strong>
+    
+        <br /><span>A low-code data pipeline interface to compare various models.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1">FineWeb: decanting the web for the finest text data at scale</a></strong>
+    
+        <br /><span>The article introduces FineWeb, a Hugging Face project aimed at extracting high-quality text data from the web at scale. It highlights the methodology and tools used to ensure the gathered data is of the finest quality for training AI models, emphasizing the importance of clean and relevant text data for machine learning applications.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://jamesg.blog/2024/06/04/python-dataloaders-/">Designing data loaders in Python classes</a></strong>
+    
+        <br /><span>If you are designing an API that loads data into a standard format, consider the from_ and to_ syntax to describe data loaders. from_ data loaders should read data and serialise it into a class for processing, and to_ data loaders should convert data to another format, or save data to disk.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://glassnotebook.io/r/dxJTYbJBmPR1X3NQUfwXB/99_python_at_the_speed_of_julia.jl">Python at the Speed of Julia</a></strong>
+    
+        <br /><span>The article explores achieving Python's ease of use with Julia's speed, illustrating how to optimize Python code using Julia for high-performance computing tasks. It provides examples and insights on integrating both languages to enhance computational efficiency without sacrificing Python's simplicity.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.jetbrains.com/pycharm/2024/06/the-state-of-django/">The State of Django 2024</a></strong>
+    
+        <br /><span>Discover the Django framework's popularity through statistics and learn the latest trends in Django development for 2024.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://progscrape.com/blog/2024-06-06/cloud-performance-on-a-toy-computer-from-python-to-rust">Cloud Performance on a &quot;Toy&quot; Computer: From Python to Rust</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://teodev.io">Next-generation web framework Teo, supports Node.js, Python and Rust</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/modelscope/FunClip">modelscope / FunClip</a></strong>
+    
+        <br /><span>Open-source, accurate and easy-to-use video speech recognition & clipping tool, LLM based AI clipping intergrated.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-06-09/">Python Hub Weekly Digest for 2024-06-09</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/rio-labs/rio">Rio</a></strong>
+    
+        <br /><span>WebApps in pure Python. No JavaScript, HTML and CSS needed.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/epic-open-source/seismometer">Seismometer</a></strong>
+    
+        <br /><span>Predictive model evaluation with a focus on healthcare.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/google/mesop">Mesop</a></strong>
+    
+        <br /><span>Build delightful web apps quickly in Python.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Healthlane-Technologies/Zango">Zango</a></strong>
+    
+        <br /><span>Build microservices as tenants on a Django monolith. Avoid the infra &amp; operational overheads. Scale effortlessly.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Bklieger/groqbook">groqbook</a></strong>
+    
+        <br /><span>Generate entire books in seconds using Groq and Llama3.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/robusta-dev/holmesgpt/">HolmesGPT</a></strong>
+    
+        <br /><span>The Open Source DevOps Assistant - solve problems twice as fast with an AI teammate.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/awolverp/cachebox">cachebox</a></strong>
+    
+        <br /><span>The fastest caching Python library written in Rust.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/lllyasviel/Omost">Omost</a></strong>
+    
+        <br /><span>Omost is a project to convert LLM's coding capability to image generation (or more accurately, image composing) capability.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/p0dalirius/smbclient-ng">smbclient-ng</a></strong>
+    
+        <br /><span>A fast and user friendly way to interact with SMB shares.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/AlexIoannides/llm-regression">llm-regression</a></strong>
+    
+        <br /><span>Exploring the classical regression capabilities of LLMs.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/apparebit/prettypretty">Prettypretty</a></strong>
+    
+        <br /><span>Prettypretty helps build awesome terminal user interfaces in Python. Notably, it incorporates a powerful and general color library.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/iyaja/llama-fs">LlamaFS</a></strong>
+    
+        <br /><span>A self-organizing file system with llama 3.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/ToonCrafter/ToonCrafter">ToonCrafter</a></strong>
+    
+        <br /><span>A research paper for generative cartoon interpolation.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/OpenDriveLab/Vista">Vista</a></strong>
+    
+        <br /><span>A Generalizable World Model for Autonomous Driving.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/2noise/ChatTTS">ChatTTS</a></strong>
+    
+        <br /><span>ChatTTS is a generative speech model for daily dialogue.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1d9r9xa/what_are_the_best_python_projects_youve_worked_on/">What are the best Python projects you've worked on?</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 16 Jun 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 16 Jun 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-06-09</title>

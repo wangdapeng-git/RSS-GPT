@@ -64,3 +64,15 @@ Summarized using GPT-3.5-turbo
 Append: [How to Execute End-to-End Tests at Scale](https://blog.bytebytego.com/p/how-to-execute-end-to-end-tests-at)
 append_entries: 20
 Finish: 2024-06-12 10:13:33.812759
+------------------------------------------------------
+Started: 2024-06-18 12:21:44.504079
+Existing_entries: 20
+Fetching from https://blog.bytebytego.com/feed
+Token length: 5940
+Summarized using GPT-3.5-turbo
+Append: [EP116: 11 steps to go from Junior to Senior Developer](https://blog.bytebytego.com/p/ep116-11-steps-to-go-from-junior)
+Token length: 1293
+Summarized using GPT-3.5-turbo
+Append: [A Crash Course on Cell-based Architecture](https://blog.bytebytego.com/p/a-crash-course-on-cell-based-architecture)
+append_entries: 2
+Finish: 2024-06-18 12:21:55.589875

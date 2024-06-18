@@ -1432,3 +1432,39 @@ Existing_entries: 66
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-06-12 10:11:39.677970
+------------------------------------------------------
+Started: 2024-06-18 12:20:21.919647
+Existing_entries: 66
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 39927
+Summarized using GPT-3.5-turbo
+Append: [Towards a Less Bullshit Model of Semantics](https://www.lesswrong.com/posts/RrQftNoRHd5ya54cb/towards-a-less-bullshit-model-of-semantics)
+Token length: 56291
+Summarized using GPT-3.5-turbo
+Append: [OpenAI #8: The Right to Warn](https://www.lesswrong.com/posts/q3zs7E7rktHsESXaF/openai-8-the-right-to-warn)
+Token length: 33848
+Summarized using GPT-3.5-turbo
+Append: [Getting 50% (SoTA) on ARC-AGI with GPT-4o](https://www.lesswrong.com/posts/Rdwui3wHxCeKb7feK/getting-50-sota-on-arc-agi-with-gpt-4o)
+Token length: 13635
+Summarized using GPT-3.5-turbo
+Append: [Sycophancy to subterfuge: Investigating reward tampering in large language models](https://www.lesswrong.com/posts/FSgGBjDiaCdWxNBhj/sycophancy-to-subterfuge-investigating-reward-tampering-in)
+Token length: 33062
+Summarized using GPT-3.5-turbo
+Append: [Degeneracies are sticky for SGD](https://www.lesswrong.com/posts/JDrxA3vwZAKZfmShz/degeneracies-are-sticky-for-sgd)
+Token length: 15904
+Summarized using GPT-3.5-turbo
+Append: [CIV: a story](https://www.lesswrong.com/posts/SSNfgL49Bx2uATPv8/civ-a-story)
+Token length: 94543
+Summarized using gpt-3.5-turbo-16k
+Append: [The Leopold Model: Analysis and Reactions](https://www.lesswrong.com/posts/b8u6nF5GAb6Ecttev/the-leopold-model-analysis-and-reactions)
+Token length: 26731
+Summarized using GPT-3.5-turbo
+Append: [Shard Theory - is it true for humans?](https://www.lesswrong.com/posts/MtnASqccEZ6zYTqi6/shard-theory-is-it-true-for-humans)
+Token length: 7899
+Summarized using GPT-3.5-turbo
+Append: [Safety isn’t safety without a social model (or: dispelling the myth of per se technical safety)](https://www.lesswrong.com/posts/F2voF4pr3BfejJawL/safety-isn-t-safety-without-a-social-model-or-dispelling-the)
+Token length: 3276
+Summarized using GPT-3.5-turbo
+Append: [[Paper] AI Sandbagging: Language Models can Strategically Underperform on Evaluations](https://www.lesswrong.com/posts/WspwSnB8HpkToxRPB/paper-ai-sandbagging-language-models-can-strategically-1)
+append_entries: 10
+Finish: 2024-06-18 12:21:44.310842

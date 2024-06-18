@@ -70,3 +70,5 @@
 - https://python.libhunt.com/newsletter/feed -> https://wangdapeng-git.github.io/RSS-GPT/awesome-python-weekly.xml
 - https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50 -> https://wangdapeng-git.github.io/RSS-GPT/lesswrong.xml
 - https://blog.bytebytego.com/feed -> https://wangdapeng-git.github.io/RSS-GPT/bytebytego.xml
+- https://nlp.elvissaravia.com/feed -> https://wangdapeng-git.github.io/RSS-GPT/ML-PaperWeekly.xml
+- https://lethain.com/feeds.xml -> https://wangdapeng-git.github.io/RSS-GPT/WillLarson.xml

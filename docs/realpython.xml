@@ -4,6 +4,453 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Ruff: A Modern Python Linter for Error-Free and Maintainable Code</title>
+<link>https://realpython.com/ruff-python/</link>
+<guid>https://realpython.com/ruff-python/</guid>
+<content:encoded><![CDATA[
+<div> Linting, Ruff, Python, errors, installation
+Linting是写作干净可读代码的重要工具，Ruff是一个现代的linter，能够分析代码并寻找错误、风格问题和可疑结构。通过linting，可以在提交代码之前解决问题并与他人分享。Ruff是一个快速且拥有简单界面的linter工具，可作为其他linting和格式化工具的替代品。本文介绍了安装Ruff的方法、检查Python代码的错误、自动修复linting错误、格式化代码以及添加配置以增强linting的方式。总结：通过Ruff这一现代Python linter，您可以检查和格式化代码，同时提供一系列可选配置选项以简化linting过程。 <div>
+<div><p>Linting is essential to writing <strong>clean and readable code</strong> that you can share with others. A linter, like Ruff, is a tool that analyzes your code and looks for errors, stylistic issues, and suspicious constructs. Linting allows you to address issues and <a href="https://realpython.com/python-code-quality/">improve your code quality</a> before you <a href="https://realpython.com/python-git-github-intro/#committing-changes">commit</a> your code and share it with others. </p>
+<p>Ruff is a modern linter that’s extremely fast and has a simple interface, making it straightforward to use. It also aims to be a drop-in replacement for many other linting and formatting tools, such as <a href="https://github.com/PyCQA/flake8">Flake8</a>, <a href="https://github.com/PyCQA/isort">isort</a>, and <a href="https://github.com/psf/black">Black</a>. It’s quickly becoming one of the most popular Python linters.</p>
+<p><strong>In this tutorial, you’ll learn how to:</strong></p>
+<ul>
+<li>Install <strong>Ruff</strong></li>
+<li><strong>Check your Python code</strong> for errors</li>
+<li>Automatically <strong>fix your linting errors</strong></li>
+<li>Use Ruff to <strong>format your code</strong></li>
+<li><strong>Add optional configurations</strong> to supercharge your linting</li>
+</ul>
+<p>To get the most from this tutorial, you should be familiar with <a href="https://realpython.com/python-virtual-environments-a-primer/">virtual environments</a>, <a href="https://realpython.com/what-is-pip/">installing third-party modules</a>, and be comfortable with using the <a href="https://realpython.com/terminal-commands/">terminal</a>.</p>
+<div class="alert alert-warning">
+<p><strong>Ruff cheat sheet:</strong> <a class="alert-link" href="https://realpython.com/bonus/ruff-python-pdf/">Click here to get access to a free Ruff cheat sheet</a> that summarizes the main Ruff commands you’ll use in this tutorial.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Ruff: A Modern Python Linter” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="https://realpython.com/quizzes/ruff-python/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="Ruff: A Modern Linter for Error-Free and Maintainable Code" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Showcase-Ruff-Linter_Watermarked.71e600eb11de.jpg" style="background: #ff7e74;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="https://realpython.com/quizzes/ruff-python/"><span class="my-0 h4">Ruff: A Modern Python Linter</span></a> 
+      <p class="text-muted mb-0 small">In this quiz, you'll test your understanding of Ruff, a modern linter for Python. By working through this quiz, you'll revisit why you'd want to use Ruff to check your Python code and how it automatically fixes errors, formats your code, and provides optional configurations to enhance your linting.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="installing-ruff">Installing Ruff<a class="headerlink" href="https://realpython.com/atom.xml#installing-ruff" title="Permanent link"></a></h2>
+<p>Now that you know why linting your code is important and how Ruff is a powerful tool for the job, it’s time to install it. Thankfully, Ruff works out of the box, so no complicated installation instructions or configurations are needed to start using it. </p>
+<p>Assuming your project is already set up with a virtual environment, you can install Ruff in the following ways:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Shell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">$ </span>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>ruff
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In addition to <code>pip</code>, you can also install Ruff with <a href="https://brew.sh/">Homebrew</a> if you’re on macOS or Linux:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Shell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">$ </span>brew<span class="w"> </span>install<span class="w"> </span>ruff
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p><a href="https://docs.conda.io/en/latest/">Conda</a> users can install Ruff using <code>conda-forge</code>:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Shell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">$ </span>conda<span class="w"> </span>install<span class="w"> </span>-c<span class="w"> </span>conda-forge<span class="w"> </span>ruff
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>If you use Arch, Alpine, or openSUSE Linux, you can also use the official distribution repositories. You’ll find specific instructions on the <a href="https://docs.astral.sh/ruff/installation/">Ruff installation page</a> of the official documentation.</p>
+<p>Additionally, if you’d like Ruff to be available for all your projects, you might want to install Ruff with <a href="https://realpython.com/python-pipx/"><code>pipx</code></a>.</p>
+<p>You can check that Ruff installed correctly by using the <code>ruff version</code> command:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Shell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">$ </span>ruff<span class="w"> </span>version
+<span class="go">ruff 0.4.7</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>For the <code>ruff</code> command to appear in your <a href="https://en.wikipedia.org/wiki/PATH_(variable)"><code>PATH</code></a>, you may need to close and reopen your terminal application or start a new terminal session.</p>
+<h2 id="linting-your-python-code">Linting Your Python Code<a class="headerlink" href="https://realpython.com/atom.xml#linting-your-python-code" title="Permanent link"></a></h2>
+<p>While linting helps keep your code consistent and error-free, it doesn’t guarantee that your code will be <em>bug-free</em>. Finding the bugs in your code is best handled with a <a href="https://realpython.com/python-debug-idle/">debugger</a> and adequate <a href="https://realpython.com/pytest-python-testing/">testing</a>, which won’t be covered in this tutorial. Coming up in the next sections, you’ll learn how to use Ruff to check for errors and speed up your workflow.</p>
+<h3 id="checking-for-errors">Checking for Errors<a class="headerlink" href="https://realpython.com/atom.xml#checking-for-errors" title="Permanent link"></a></h3>
+<p>The code below is a simple script called <code>one_ring.py</code>. When you run it, it gets a <a href="https://realpython.com/python-random/">random</a> <strong>Lord of the Rings</strong> character name from a <a href="https://realpython.com/python-tuple/"><code>tuple</code></a> and lets you know if that character bore the burden of the <strong>One Ring</strong>. This code has no real practical use and is just a bit of fun. Regardless of the size of your code base, the steps are going to be the same: </p>
+</div><h2><a href="https://realpython.com/ruff-python/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/ruff-python/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-06-17T14:00:00+00:00</pubDate>
+</item>
+<item>
+<title>Quiz: Ruff: A Modern Python Linter</title>
+<link>https://realpython.com/quizzes/ruff-python/</link>
+<guid>https://realpython.com/quizzes/ruff-python/</guid>
+<content:encoded><![CDATA[
+<div> 自动修复、代码格式化、可选配置、Linting、Ruff <br>
+Linting工具Ruff能够自动修复Python代码中的错误，格式化代码，并提供可选配置以增强Linting功能。通过使用Ruff，可以提高Python代码的质量和可读性，确保代码风格一致，同时自动修复常见错误，使代码更加规范。Linting是代码审查的一种重要方式，能够帮助开发人员发现并解决潜在的问题，提高代码质量和稳定性。Ruff为Python开发者提供了一个方便实用的工具，有助于提升编码效率和整体代码质量。 <br><br>总结: 自动修复、代码格式化、可选配置、Linting、Ruff。Linting工具Ruff能够提高Python代码质量和可读性，通过自动修复错误、格式化代码和提供可选配置，帮助开发人员发现并解决潜在问题，提高代码质量和稳定性。Ruff为Python开发者提供便捷的工具，促进编码效率和代码质量的提升。 <div>
+<p>In this quiz, you&rsquo;ll test your understanding of
+<a href="https://realpython.com/ruff-python/">Ruff, a modern linter for Python</a>.</p>
+<p>By working through this quiz, you&rsquo;ll revisit why you&rsquo;d want to use Ruff to check your Python code and how it automatically fixes errors, formats your code, and provides optional configurations to enhance your linting.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-06-17T12:00:00+00:00</pubDate>
+</item>
+<item>
+<title>The Real Python Podcast – Episode #208: Detecting Outliers in Your Data With Python</title>
+<link>https://realpython.com/podcasts/rpp/208/</link>
+<guid>https://realpython.com/podcasts/rpp/208/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 数据, 异常点检测, Python, Brett Kennedy, 图书<br>
+<br>
+数据分析中的关键环节是发现数据中最有趣或可疑的点，可以使用Python中的库和技术来检测这些异常值。本周节目邀请了作者Brett Kennedy谈论他的书籍"Outlier Detection in Python"，详细介绍了如何利用Python进行异常点检测的方法和技巧。本书可以帮助读者更好地理解和利用数据中潜在的特殊点和异常值，提高数据分析的准确性和深度。<br><br>总结: 数据分析关键，Python库技术，异常点处理，Brett Kennedy，书籍介绍。 <div>
+<p>How do you find the most interesting or suspicious points within your data? What libraries and techniques can you use to detect these anomalies with Python? This week on the show, we speak with author Brett Kennedy about his book "Outlier Detection in Python."</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-06-14T12:00:00+00:00</pubDate>
+</item>
+<item>
+<title>Python Mappings: A Comprehensive Guide</title>
+<link>https://realpython.com/python-mappings/</link>
+<guid>https://realpython.com/python-mappings/</guid>
+<content:encoded><![CDATA[
+<div> Mappings, Characteristics, Operations, defaultdict, Counter
+<br>
+字典是Python中常见的映射，具有查找键并检索值的功能。映射的特征包括能够使用键检索值，例如使用`points["Sarah"]`查找字典中相应的值。字典还可以设置缺失键的默认值，可以使用`collections`模块中的`defaultdict`实现。另外，映射也是可迭代容器，具有特定的长度，并且可以通过`len()`方法获取其长度。比如，使用`Counter`可以将字符串中的字符转换为键，以字符的出现次数作为值，同时也可以使用`in`关键字检查映射中是否存在某个元素。Mappings是一种常见的数据结构，对于Python编程非常重要。 
+<br><br>总结: <div>
+<div><p>One of the main data structures you learn about early in your Python learning journey is the dictionary. Dictionaries are the most common and well-known of Python’s <strong>mappings</strong>. However, there are other mappings in Python’s standard library and third-party modules. Mappings share common characteristics, and understanding these shared traits will help you use them more effectively.</p>
+<p><strong>In this tutorial, you’ll learn about:</strong></p>
+<ul>
+<li>Basic <strong>characteristics of a mapping</strong></li>
+<li><strong>Operations</strong> that are <strong>common to most mappings</strong></li>
+<li>Abstract base classes <strong><code>Mapping</code> and <code>MutableMapping</code></strong></li>
+<li><strong>User-defined mutable and immutable mappings</strong> and how to create them</li>
+</ul>
+<p>This tutorial assumes that you’re familiar with <a href="https://realpython.com/python-data-types/">Python’s built-in data types</a>, especially <a href="https://realpython.com/python-dicts/">dictionaries</a>, and with the <a href="https://realpython.com/python3-object-oriented-programming/">basics of object-oriented programming</a>.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-mappings-code/">Click here to download the free sample code</a> that you’ll use to learn about mappings in Python.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Python Mappings” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="https://realpython.com/quizzes/python-mappings/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="Python Mappings: A Comprehensive Guide" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Python-Mappings_Watermarked-2.a8cbbb3a0c5d.jpg" style="background: #b8aae5;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="https://realpython.com/quizzes/python-mappings/"><span class="my-0 h4">Python Mappings</span></a> 
+      <p class="text-muted mb-0 small">In this quiz, you'll test your understanding of the basic characteristics and operations of Python mappings. By working through this quiz, you'll revisit the key concepts and techniques of creating a custom mapping.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="understanding-the-main-characteristics-of-python-mappings">Understanding the Main Characteristics of Python Mappings<a class="headerlink" href="https://realpython.com/atom.xml#understanding-the-main-characteristics-of-python-mappings" title="Permanent link"></a></h2>
+<p>A <a href="https://docs.python.org/3/glossary.html#term-mapping">mapping</a> is a collection that allows you to look up a key and retrieve its value. The keys in mappings can be objects of a broad range of types. However, in most mappings, there are object types that can’t be used as keys, as you’ll learn later in this tutorial.</p>
+<p>The previous paragraph described mappings as <a href="https://docs.python.org/3/library/collections.abc.html#collections.abc.Collection">collections</a>. A collection is an iterable container that has a defined size. However, mappings also have additional features. You’ll explore each of these mapping characteristics with examples from Python’s main mapping types.</p>
+<p>The feature that’s most characteristic of mappings is the ability to retrieve a value using a key. You can use a <a href="https://realpython.com/python-dicts/">dictionary</a> to demonstrate this operation:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">points</span> <span class="o">=</span> <span class="p">{</span>
+<span class="gp">... </span>    <span class="s2">"Denise"</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="s2">"Igor"</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="s2">"Sarah"</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="s2">"Trevor"</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+<span class="gp">... </span><span class="p">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">points</span><span class="p">[</span><span class="s2">"Sarah"</span><span class="p">]</span>
+<span class="go">3</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">points</span><span class="p">[</span><span class="s2">"Matt"</span><span class="p">]</span>
+<span class="gt">Traceback (most recent call last):</span>
+<span class="w">  </span><span class="c">...</span>
+<span class="gr">KeyError</span>: <span class="n">'Matt'</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The dictionary <code>points</code> contains four items, each with a key and a value. You can use the key within the square brackets to fetch the value associated with that key. However, if the key doesn’t exist in the dictionary, the code raises a <code>KeyError</code>.</p>
+<p>You can use one of the mappings in the standard-library <a href="https://realpython.com/python-collections-module/"><code>collections</code></a> module to assign a default value for keys that aren’t present in the collection. The <strong><a href="https://realpython.com/python-defaultdict/"><code>defaultdict</code></a></strong> type includes a callable that’s called each time you try to access a key that doesn’t exist. If you want the default value to be zero, you can use a <a href="https://realpython.com/python-lambda/"><code>lambda</code> function</a> that returns 0 as the first argument in <code>defaultdict</code>:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">points_default</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span>
+<span class="gp">... </span>    <span class="k">lambda</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="n">points</span><span class="p">,</span>
+<span class="gp">... </span><span class="p">)</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">points_default</span>
+<span class="go">defaultdict(&lt;function &lt;lambda&gt; at 0x104a95da0&gt;, {'Denise': 3,</span>
+<span class="go">    'Igor': 2, 'Sarah': 3, 'Trevor': 1})</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">points_default</span><span class="p">[</span><span class="s2">"Sarah"</span><span class="p">]</span>
+<span class="go">3</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">points_default</span><span class="p">[</span><span class="s2">"Matt"</span><span class="p">]</span>
+<span class="go">0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">points_default</span>
+<span class="go">defaultdict(&lt;function &lt;lambda&gt; at 0x103e6c700&gt;, {'Denise': 3,</span>
+<span class="go">    'Igor': 2, 'Sarah': 3, 'Trevor': 1, 'Matt': 0})</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The <code>defaultdict</code> <a href="https://realpython.com/python-class-constructor/">constructor</a> has two arguments in this example. The first argument is the callable that’s used when a default value is needed. The second argument is the dictionary you created earlier. You can use any valid argument when you call <code>dict()</code> as the second argument in <code>defaultdict()</code> or omit this argument to create an empty <code>defaultdict</code>.</p>
+<p>When you access a key that’s missing from the dictionary, the key is added, and the default value is assigned to it. You can also create the same <code>points_default</code> object using the callable <code>int</code> as the first argument since calling <code>int()</code> with no arguments returns 0.</p>
+<p>All mappings are also collections, which means they’re iterable containers with a defined length. You can explore these characteristics with another mapping in Python’s standard library, <strong><a href="https://realpython.com/python-counter/"><code>collections.Counter</code></a></strong>:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">letters</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="s2">"learning python"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">letters</span>
+<span class="go">Counter({'n': 3, 'l': 1, 'e': 1, 'a': 1, 'r': 1, 'i': 1, 'g': 1,</span>
+<span class="go">    ' ': 1, 'p': 1, 'y': 1, 't': 1, 'h': 1, 'o': 1})</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The letters in the string <code>"learning python"</code> are converted into keys in <code>Counter</code>, and the number of occurrences of each letter is used as the value corresponding to each key.</p>
+<p>You can confirm that this mapping is iterable, has a defined length, and is a container:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">letter</span> <span class="ow">in</span> <span class="n">letters</span><span class="p">:</span>
+<span class="gp">... </span>    <span class="nb">print</span><span class="p">(</span><span class="n">letter</span><span class="p">)</span>
+<span class="gp">...</span>
+<span class="go">l</span>
+<span class="go">e</span>
+<span class="go">a</span>
+<span class="go">r</span>
+<span class="go">n</span>
+<span class="go">i</span>
+<span class="go">g</span>
+
+<span class="go">p</span>
+<span class="go">y</span>
+<span class="go">t</span>
+<span class="go">h</span>
+<span class="go">o</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="n">letters</span><span class="p">)</span>
+<span class="go">13</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">"n"</span> <span class="ow">in</span> <span class="n">letters</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">"x"</span> <span class="ow">in</span> <span class="n">letters</span>
+<span class="go">False</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>You can use the <code>Counter</code> object <code>letters</code> in a <code>for</code> loop, which confirms it’s iterable. All mappings are iterable. However, the iteration loops through the keys and not the values. You’ll see how to iterate through the values or through both keys and values later in this tutorial.</p>
+<p>The built-in <a href="https://realpython.com/len-python-function/"><code>len()</code> function</a> returns the number of items in the mapping. This is equal to the number of unique characters in the original string, including the space character. The object is sized since <code>len()</code> returns a value.</p>
+<p>You can use the <code>in</code> keyword to confirm which elements are in the mapping. This check alone isn’t sufficient to confirm that the mapping is a container. However, you can also access the object’s <code>.__contains__()</code> special method directly:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">letters</span><span class="o">.</span><span class="fm">__contains__</span><span class="p">(</span><span class="s2">"n"</span><span class="p">)</span>
+<span class="go">True</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+</div><h2><a href="https://realpython.com/python-mappings/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-mappings/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-06-12T14:00:00+00:00</pubDate>
+</item>
+<item>
+<title>Quiz: Python Mappings</title>
+<link>https://realpython.com/quizzes/python-mappings/</link>
+<guid>https://realpython.com/quizzes/python-mappings/</guid>
+<content:encoded><![CDATA[
+<div> 提取关键词:
+- quiz
+- basic characteristics
+- operations
+- custom mapping
+- Python Tricks
+
+<br>总结:
+这篇文章介绍了关于Python的基本特征和操作，以及创建自定义映射的关键概念和技术。通过这篇文章，读者可以测试对Python的理解，复习重要概念和技巧。另外，还提到了Python Tricks，为读者提供了一种通过简短的技巧增强Python编程能力的方式。这篇文章帮助读者全面理解Python的基础知识和操作，以及如何创建自定义映射。<br> <div>
+<p>In this quiz, you&rsquo;ll test your understanding of the basic characteristics and operations of <a href="https://realpython.com/python-mappings/">Python mappings</a>. By working through this quiz, you&rsquo;ll revisit the key concepts and techniques of creating a custom mapping.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-06-12T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Listing All Files in a Directory With Python</title>

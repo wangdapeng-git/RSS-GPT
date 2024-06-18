@@ -1,0 +1,1442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Irrational Exuberance</title>
+<link>https://lethain.com/</link>
+
+<item>
+<title>How to create software quality.</title>
+<link>https://lethain.com/quality/</link>
+<guid>https://lethain.com/quality/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 质量、复杂性、开发循环、量化、适用性
+<br>
+质量是领域特定的，需要根据问题的复杂性来选择合适的技术和方法。质量的提升需要在开发循环内和跨迭代中进行反馈。量化在某种程度上衡量质量，但不能直接创造质量。适用性意味着避免盲目套用前人经验，在特定环境下选择适合的策略和工具。
+<br><br>总结: 质量的提升是根据问题的复杂性和环境的不同需求选择合适的策略和方法，在开发循环内和跨迭代中进行反馈和优化。适用性是关键，量化是衡量工作结果的方式，但不是直接创造质量的手段。在复杂的软件开发环境中，避免盲目套用经验，而是根据具体情况选择最有效的质量提升方法。 <div>
+<p>I’ve been reading Steven Sinofsky’s <em><a href="https://www.amazon.com/Hardcore-Software-Inside-Rise-Revolution-ebook/dp/B0CYBS9PFY">Hardcore Software</a></em>, and particularly enjoyed this quote from a memo discussed in the <a href="https://hardcoresoftware.learningbyshipping.com/p/006-zero-defects">Zero Defects</a> chapter:</p>
+<blockquote>
+<p>You <em>can</em> improve the quality of your code, and if you do, the rewards
+for yourself and for Microsoft will be immense.
+<em>The hardest part is to decide that you want to write perfect code.</em></p>
+</blockquote>
+<p>If I wrote that in an internal memo, I imagine the engineering team would mutiny, but
+software quality is certainly an interesting topic where I continue to refine my thinking.
+There are so many software quality playbooks out there, and I increasingly believe that all
+these playbooks work <em>in their intended context</em>, but are often misapplied.</p>
+<p>For example, pretty much every startup has someone on an infrastructure team who believes that
+all quality problems can be solved with a sufficiently nuanced automated rollout strategy.
+That&rsquo;s generally been true in my experience at companies with a high volume of engaged usage,
+and has not at all been true in environments with low or highly varied usage.
+Unsurprisingly, folks who&rsquo;ve only seen high volume scenarios tend to overestimate the value of rollout techniques,
+and folks who&rsquo;ve never seen high volume scenarios tend to underestimate the value of rollout techniques.</p>
+<p>This observation is the underpinning of my beliefs about creating software quality.
+Expanding from that observation, I&rsquo;ll try to convince you of two things:</p>
+<ol>
+<li>
+<p>Creating quality is context specific. There are different techniques for
+solving essential domain complexity, scaling complexity, and accidental complexity.</p>
+<p>For example, phased automated rollouts don&rsquo;t help much if there&rsquo;s little consistency
+among your users&rsquo; behaviors.</p>
+</li>
+<li>
+<p>Quality is created both within the development loop and across iterations of the development loop.
+Feedback within the loop, as opposed to across iterations, creates quality more quickly.
+Feedback across iterations tends to <em>measure</em> quality, which informs future quality, but
+does not necessarily create it.</p>
+<p>For example, bugs detected after software is nominally complete tend to be fixed locally,
+even if they reveal a suboptimal approach. I&rsquo;ve seen projects launch using Redis for no reason,
+which later causes a production incident, just because the developer was interested in learning
+about Redis and it was too late to rip it out without doing substantial rework.</p>
+</li>
+</ol>
+<p>Those are some nice words. Let’s see if I can convince you that they’re meaningful words.</p>
+<h2 id="defining-quality">Defining quality</h2>
+<p>Generally I think quality is in the eye of the beholder, but my experience writing for the internet indicates that people will
+be upset if I don’t supply a definition of quality, so here’s my working direction:</p>
+<ul>
+<li>Software behaves as its users anticipate it should behave</li>
+<li>Software is easy to modify</li>
+<li>Software meets reasonable non-functionality requirements (latency, cost, etc)</li>
+</ul>
+<p>There are, undoubtedly, better definitions out there, and feel free to insert yours.</p>
+<h2 id="kinds-of-complexity">Kinds of complexity</h2>
+<p>Managing quality is largely about finding useful ways to deal with complexity.
+For example, a codebase might be complex due to its size. Complexity in large codebases
+can be managed by using a strongly typed language, increasing test coverage, and so on.</p>
+<p>I find it useful to recognize whether complexity is mostly driven by high scale (e.g. you&rsquo;re
+performing 10,000s or 100,000s of requests per second) or whether complexity is mostly driven
+by a complex business domain (e.g. you&rsquo;re trying to capture the intent of open-ended business contracts into
+a structured database). I think of the former as &ldquo;scale complexity&rdquo; and the later as
+&ldquo;essential domain complexity&rdquo;, extending the phrase from Fred Brooks&rsquo; <a href="https://en.wikipedia.org/wiki/No_Silver_Bullet">No Silver Bullet</a>.</p>
+<p><img alt="Two-by-two grid of complexity due to scale versus due to essential domain complexity." src="https://lethain.com/static/blog/2024/complexity-grid.png" /></p>
+<p>The third common sort of complexity is accidental complexity. If you&rsquo;ve used a bunch of different technologies
+for each part of your product because your team was excited to &ldquo;try out something new&rdquo;, then your problems are
+likely of the accidental variety.</p>
+<h2 id="creating-quality-is-context-specific">Creating quality is context-specific</h2>
+<p>My experience is that most folks in technology develop strongly-held opinions about creating quality that anchor heavily on their first working experiences. For example, many folks whose early jobs included:</p>
+<ul>
+<li>high-volume websites or APIs believe that automated rollbacks driven by production metrics are a fundamental mechanism to prevent a low quality release from impacting users. However, in a domain with infrequent, complex and precise user actions–very much the case for Carta’s domains of fund accounting and managing cap tables–those techniques are less helpful. They certainly might prevent <em>some</em> issues, but they’d fail to prevent many others because the volume of user actions is insufficient to test the full cardinality of potential configurations</li>
+<li>high-volume consumer-facing applications believe that A/B testing can determine quality. However, Michelle Bu’s <a href="https://increment.com/apis/api-design-for-eager-discerning-developers/">Eagerly discerning, discerningly eager</a> discusses how many tools for validating quality don’t apply effectively when it comes to API design. She proposes friction logs as a replacement for user interviews, pilot programs as a replacement for beta testing, and dogfooding as a replacement for A/B testing</li>
+<li>highly critical and narrow problem spaces might benefit from multiple heterogeneous implementations voting to determine the correct answer in the face of software errors, as described in Gloria Davis’ 1987 paper <a href="https://ntrs.nasa.gov/api/citations/19870019975/downloads/19870019975.pdf">An Analysis of Redundancy Management Algorithms for Asynchrous Fault Tolerant Control Systems</a>. However, maintaining and verifying multiple heterogeneous implementations would be extremely costly for broad problem domains that are expected to change frequently (the typical problem domain for startups)</li>
+</ul>
+<p>The key observation here is that there’s no universal solution that “just works” across all problem domains. Even the universally accepted ideal of “have a highly conscientious and high-context engineer do it all themselves” isn’t a viable solution in an environment where the current team is too small for the desired volume of work.</p>
+<p>Generally, I think your approach to creating quality will vary on these dimensions:</p>
+<ul>
+<li><strong>Essential domain complexity</strong> – a problem domain with few workflows and conditions can often be validated by looking at user usage (e.g. an application like Instagram, TikTok or Calm has very few workflows and conditions in the software, although the variety of mobile devices they need to run on does increase essential complexity). A problem domain with many workflows or many conditions requires a different approach, which might range from simulating usage to formal specification.</li>
+<li><strong>Scalability complexity</strong> – sufficient user traffic solves a lot of problems. At Calm, Uber or Stripe, the scale was high enough that errors were immediately visible in operational data, even with an incremental rollout strategy. At Carta, that would only be true in the case of an exceptionally broad error (a category of error that’s relatively straightforward to catch with automated testing), given the different user usage patterns.</li>
+<li><strong>Maturity and tenure of team</strong> – a team with deep context in the problem domain is able to drive quality with fewer distinct roles, more individual empowerment, and less structured process. A team with high turnover depends generally leans on more defined roles where it’s easier to quickly develop context. Similarly, a team that feels accountable for high-quality will behave differently than a team that feels otherwise.</li>
+</ul>
+<p>To develop my point a bit, let’s think about two combinations and how we’d approach quality differently:</p>
+<ul>
+<li><strong>Low essential complexity problem domain, high traffic, and deep team context</strong> – a thorough test suite will go a long way to validating the expected behavior, and the team has enough familiarity with the problem space for engineers to effectively test as they implement. If you do miss something, an incremental rollout mechanism, using production operating metrics to pace rollout, will probably prevent testing gaps from significantly impacting your users</li>
+<li><strong>High essential complexity problem domain, low traffic, and limited team context</strong> – designing effective test suites is a challenge because of your team’s limited context and the complex problem space. This means you may need dedicated individuals working on testing frameworks to encapsulate domain context into a reusable testing harness/framework rather than relying on individual team member’s context. It might also mean a focus on highly defined types that codify parts of the domain context into the typechecker itself rather than depending on the awareness of each individual writing incremental code. Incremental rollout mechanisms are unlikely to catch issues missed by testing, because conditions differ enough across users that even a small number of catastrophically failing users are unlikely to meet the necessary thresholds</li>
+</ul>
+<p>These are radically different approaches, and if you naively applied the solution for one combination to another, you will generate a lot of motion, but are unlikely to generate much impact. Once you’re aware of these combinations, you can start to see what sort of techniques are adopted by folks working on similar problems, but the awareness also helps you start to build a model for creating quality across various circumstances.</p>
+<h2 id="is-tolerance-for-error-an-important-dimension">Is tolerance for error an important dimension?</h2>
+<p>Before developing a model for reasoning about creating quality, a few comments on “tolerance for error.” I think many people would argue that your tolerance for error is an important dimension in determining your approach to creating quality, but to be honest I haven’t found that a useful dimension.</p>
+<p>For example, if you tell me that you highly prioritize quality at your company, and that’s why you have a very large quality assurance organization, or a very formal verification process, my first response would be skepticism. Quality assurance teams are extremely useful in many scenarios. Formal verification processes are also very useful in many scenarios. However, neither is universally ideal, and both can be done poorly.</p>
+<p>In my personal experience, the highest quality organizations are those with detail oriented <a href="https://lethain.com/inspection/">executives who actively inspect</a> quality in their teams’ work. That executive-driven inspection elevates quality into first-tier work done by their leadership, and so on down the chain. In those organizations, there are often teams that build quality assurance tools, but those teams support quality rather than being directly accountable for it.</p>
+<p>Others’ personal experiences will be the opposite, and that’s entirely the point: I’ve seen low tolerance for error drive a wide variety of different approaches. Similarly, I’ve seen organizations with a high tolerance for errors both go heavy on quality assurance and heavy on engineer-led quality. As such, I don’t think this is an important dimension when reasoning about creating quality.</p>
+<h2 id="iterating-on-a-model">Iterating on a model</h2>
+<p>My model of creating quality started as a
+<a href="https://lethain.com/modeling-reliability/">model for reliability</a>.</p>
+<p><img alt="Mental model for creating reliable systems." src="https://lethain.com/static/blog/2019/reliability-diagram-9.png" /></p>
+<p>There&rsquo;s a lot to like about this model, I think the idea of &ldquo;latent incidents&rdquo;
+is a particularly useful one, because it acknowledges that even if you improve your quality practices,
+it may take a very long time to drain the backlog of latent incidents such that you actually
+feel like you&rsquo;ve improved quality. I imagine many teams actually solve their quality problem
+but accidentally abandon their successful approach before they drain the backlog and realize
+they&rsquo;ve solved it.</p>
+<p>I made the above model at a period when I was almost entirely focused on accidental
+complexity from a sprawling codebase and scaling complexity from an increasingly large volume
+of concurrent usage. Because of that focus, I spent too little time thinking about the third
+source of complexity, essential domain complexity.</p>
+<p>What I&rsquo;d like to do here is to develop a model that incorporates both the insights of
+my prior model <em>and</em> also the fact that essential domain complexity has been the largest
+source of quality issues in my current and prior roles at Carta and Calm.</p>
+<p>I think it&rsquo;s useful to start with the smallest possible loop for iterating on software,
+the <a href="https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop">Read Eval Print Loop</a>
+(aka REPL), first popularized in 1964.</p>
+<p><img alt="Diagram of the classic Read, Evaluate, Print loop" src="https://lethain.com/static/blog/2024/repl.png" /></p>
+<p>Not much modern development is done directly in a REPL, but developer-led testing provides
+a very similar loop, with a single developer looping from writing a piece of code, to writing tests for that code,
+to running the tests, to addressing the feedback raised by those tests.</p>
+<p><img alt="Diagram of the writing code, writing tests for code, then reviewing output from tests" src="https://lethain.com/static/blog/2024/code-loop.png" /></p>
+<p>Now let&rsquo;s try to introduce the fact that this tight iteration loop is just one phase of shipping software.
+After writing software, we also need to release that software into production.
+After all, as Steve Jobs said, real artists ship!</p>
+<p><img alt="Diagram of software engineer writing code and then following a release process to release that code." src="https://lethain.com/static/blog/2024/dev-release-loop.png" /></p>
+<p>In particular, it&rsquo;s worth noticing the loops that occur within one node versus the
+loops that occur across nodes. It&rsquo;s significantly faster to iterate within a node than
+it is to iterate across nodes.</p>
+<p>While we&rsquo;re starting to get a bit closer, but we&rsquo;re missing a few key things here to
+reason about the quality of our code.
+First, even after releasing code, there can be a defect rate where the implementation
+doesn&rsquo;t wholly solve the domain&rsquo;s essential complexity, such that there is a latent defect.
+Alternatively, there might be an emergent issue in production caused by either accidental complexity
+(e.g. sloppy environment setup) or scaling complexity (e.g. unexpected traffic spike).</p>
+<p>Second, sometimes engineers don&rsquo;t understand the feature they&rsquo;re trying to implement,
+even when they&rsquo;re trying hard to do so. This might be because they&rsquo;re new to the team
+and it&rsquo;s a complex problem space. Or it might be because they had a miscommunication
+with their product manager, who is responsible for defining the required functionality.</p>
+<p><img alt="Diagram of development loop include defining feature requirements and latent errors." src="https://lethain.com/static/blog/2024/prod-soft-deploy-loop.png" /></p>
+<p>This model starts to get interesting! The first thing to note is just how delayed the feedback is from writing software
+to rewriting software if that feedback requires releasing the software.
+If the handoff of specification from product to engineer goes awry, it may take weeks to detect the issue.
+This is even more profound in &ldquo;high cardinality&rdquo; problem domains where there&rsquo;s a great deal of divergence in
+user usage and user data: it may take months or quarters for the feedback to reach the developer about something
+they did wrong, at which point they&ndash;at best&ndash;have forgotten much of their original intentions.</p>
+<p>Like any good model, you can iterate on it endlessly to capture the details
+that are most interesting for your situation:</p>
+<ul>
+<li>If you&rsquo;re mostly focused on scalability
+complexity, then the release process is likely particularly interesting for you.</li>
+<li>If you&rsquo;re focused on accidental complexity, then proactive and reactive controls on software design&ndash;mechanisms
+that gate access to and departure from the software development cluster&ndash;would be the most
+interesting such as <a href="https://lethain.com/scaling-consistency/">architecture reviews</a> or
+<a href="https://lethain.com/reclaim-unreasonable-software/">verifying properties</a> within pull requests before merging them.</li>
+<li>If you&rsquo;re focused on essential domain complexity, then you&rsquo;re
+focused on either feature specification or the software development feedback loop.
+Techniques to address might vary from embedding new hires onto teams with high context
+to requiring pull requests be reviewed by a domain expert, to developming a comprehensive test
+harness that makes it easy for developers to test new functionality against the full spectrum of
+unusual scenarios.</li>
+</ul>
+<p>The best way to get a feel for any model is to experiment with it.
+Delete pieces that aren&rsquo;t interesitng to you, add pieces that seem to be missing from your perspective,
+and see what it teaches out.</p>
+<h2 id="measurement-contributes-to--creates-quality">Measurement contributes to (!= creates) quality</h2>
+<p>One important observation from this model is that errors detected in production,
+or even in release, are much harder to address effectively than errors detected
+by the engineer writing the software initially.
+I think of detecting errors after the software engineer handoff primarily as
+<em>measuring quality</em> rather than <em>creating quality</em>. My reason for this distinction
+is that any improvement from this measurement occurs in a later iteration of the loop,
+as opposed to within the current loop.</p>
+<p>I think this is an important distinction because it provides the vocabulary to discuss
+the role of software engineering teams and the role of quality assurance (QA) teams.</p>
+<p>Software engineering teams write software to address problem domain and scaling complexity.
+Done effectively, developer-led testing happens within the small, local development loop,
+such that there&rsquo;s no delay and no coordination overhead separating implemention and verification
+In that way, developer-led testing directly contributes to quality in the stage that it&rsquo;s written.</p>
+<p>QA teams write software (or run manual processes) to measure the quality of that
+software in the problem domain.
+QA-led testing happens in a distinct step, even if that step occurs concurrently, and as such
+the software&rsquo;s initial design is not influenced by QA tests.
+That influences only occurs when the quality loop next repeats.</p>
+<p>This is an important distinction, because the later in development an issue is detected, the more likely it is that it&rsquo;s addressed tactically
+rather than structurally. Quality issues detected late are more likely to drive improvement
+in specific correctness (fix the test case) rather than in fundamental approach (redesign the architecture).
+It also doesn&rsquo;t mean that QA-led testing isn&rsquo;t valuable, it&rsquo;s very valuable for managing the sort of cross-feature
+bugs that an engineer with narrow context would not know to test for, but it does mean that
+developer-led testing of their current work creates quality sooner and in ways that QA-led testing does not.</p>
+<p>Trying to ground this observation in something specific,
+think about John Ousterhout&rsquo;s idea of defining errors out of existence
+from <em><a href="https://www.amazon.com/Philosophy-Software-Design-2nd-ebook/dp/B09B8LFKQL/">Philosophy of Software Design</a></em>.
+That principle argues that you can eliminate many potential software errors by designing interfaces which prevent the error
+from occuring. For example, instead of throwing an error when I attempt to delete a non-existent file, it might
+simply confirm the file does not exist.
+QA-led testing might ensure that the function throws the error only at the correct times, but
+it would only be developer-led design (potentially including developer-led testing or dogfooding)
+that would allow the quick iteration loop that supports changing the interface entirely to define that error out of existence.</p>
+<hr />
+<p>As an aside, this is more-or-less the same point I tried to make in
+<a href="https://github.com/readme/guides/incident-response">my contribution to GitHub ReadME</a>,
+but there I was focused on incident response. Measuring prior incidents and instances of incident response
+are an <em>input</em> to improving future incident response, but do not directly improve reliability:
+only finishing projects that increase reliability does that, and investing more into measurement
+when you aren&rsquo;t completing any projects doesn&rsquo;t solve anything.</p>
+<h2 id="what-should-you-do">What should you do?</h2>
+<p>The intended takeaway from all this is exactly where we started in the introduction:
+creating quality is context specific.
+Be wary of following the playbook you&rsquo;ve seen before, even if those playbook were
+tremendously successful. They might work extremely well, but they often don&rsquo;t
+unless you have a useful model for reasoning about why they worked in
+the former environment.</p>
+<h2 id="related-materials">Related materials</h2>
+<p>Throughout this piece, I&rsquo;ve tried to explain and references ideas as I&rsquo;ve invoked them,
+but here are some of the materials that might be worth reading through if this is an interesting
+topic to you:</p>
+<ul>
+<li>“Define errors out of existence” is an idea from John Ousterhout’s <em><a href="https://www.amazon.com/Philosophy-Software-Design-2nd-ebook/dp/B09B8LFKQL/">Philosophy of Software Design</a></em>, and described with some great examples in <a href="https://wiki.tcl-lang.org/page/Define+Errors+Out+of+Existence">this page from the TCL Lang wiki</a></li>
+<li>The distinction between essential and accidental complexity, discussed in
+Fred Brooks&rsquo; <a href="https://en.wikipedia.org/wiki/No_Silver_Bullet">No Silver Bullet</a> from
+<em><a href="https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959">Mythical Man Month</a></em>
+is a valuable dimension for reasoning about complexity (and consequently, quality)</li>
+<li><a href="https://increment.com/apis/api-design-for-eager-discerning-developers/">Eagerly discerning, discerningly eager</a> is a great piece
+from Michelle Bu that discusses how API design is distinct from many other sorts of product design (e.g. can&rsquo;t use A/B testing, but can
+work with other companies as design partners)</li>
+<li>Kent Beck&rsquo;s <em><a href="https://www.amazon.com/Tidy-First-Personal-Exercise-Empirical/dp/1098151240">Tidy First?</a></em> discusses a number of
+strategies for addressing accidental quality issues within a codebase, mostly those caused by inconsistent implementations
+across a large codebase. I <a href="https://lethain.com/notes-on-tidy-first/">wrote up some notes on this book</a> a while back</li>
+<li><a href="https://lethain.com/reclaim-unreasonable-software/">Reclaim unreasonable software</a> captures my thinking about creating quality in a codebase
+that has become challenging to reason about. In this piece&rsquo;s vocabulary, it&rsquo;s most interested in
+solving accidental and scaling complexity</li>
+<li><a href="https://staffeng.com/guides/manage-technical-quality/">Manage technical quality</a> is a chapter from <em>Staff Engineer</em> which
+describes many of the tools you can use to improve quality. Most of the discussion here is composition-agnostic, e.g.
+useful techniques that might or might not apply to various compositions, and certainly you can use the quality model
+to evaluate which might apply well for your circumstances</li>
+<li><em><a href="https://www.amazon.com/Domain-Driven-Design-Distilled-Vaughn-Vernon/dp/0134434420">Domain-Driven Design Distilled</a></em> by
+Vaughn Vernon is a good overview of domain-driven design, which is an approach to software development that applies
+particularly well to working in problem domains with high essential complexity</li>
+<li><em><a href="https://www.amazon.com/Practical-TLA-Planning-Driven-Development/dp/1484238281">Practical TLA+</a></em> by Hillel Wayne is
+a useful introduction to formal specification, which is a topic that not many software engineers spend time thinking about,
+but an interesting one nonetheless</li>
+<li><em><a href="https://www.amazon.com/Building-Evolutionary-Architectures-Automated-Governance-dp-1492097543/dp/1492097543/">Building Evolutionary Architectures</a></em> by Ford, Parsons, Kua and Sadalage has a number of ideas about guided evolution of codebases (here are <a href="https://lethain.com/building-evolutionary-architectures/">my notes on the 1st edition</a>).
+Generally composition-agnostic in their recommendations</li>
+</ul>
+<p>These are all well worth your time.</p>
+]]></content:encoded>
+<pubDate>Sun, 16 Jun 2024 16:00:00 -0700</pubDate>
+<pubDate>Sun, 16 Jun 2024 16:00:00 -0700</pubDate>
+</item>
+<item>
+<title>Video of Using LLMs in your product.</title>
+<link>https://lethain.com/video-mental-model-for-how-to-use-llms-in-products/</link>
+<guid>https://lethain.com/video-mental-model-for-how-to-use-llms-in-products/</guid>
+<content:encoded><![CDATA[
+<div> 写笔记、展示、Sapphire Venture's、LLMs、Carta
+总结:<br><br>作者一个月前写了一些关于LLMs的笔记，昨天在Sapphire Venture's展示了对这些笔记的演化版本。视频内容与笔记有很多重叠，同时也详细介绍了Carta迄今为止在产品中整合LLMs的方法。这是作者在本周早些时候做的一个练习录音，非会场实况录音，虽然质量不高，但内容完整。 <div>
+<p>A month ago, I wrote up some notes on
+<a href="https://lethain.com/mental-model-for-how-to-use-llms-in-products/">using LLMs in your product</a>,
+and yesterday I got to present an iteration on those notes to
+the folks at the Sapphire Venture&rsquo;s <a href="https://events.sapphireventures.com/hypergrowthengineeringsummit24/">2024 Hypergrowth Engineering Summit</a>.</p>
+
+<p>If you&rsquo;re interested, you can watch <a href="https://youtu.be/EVPY9koFceU">a recording of my talk on Youtube</a>.
+There&rsquo;s a lot of overlap with the notes, but I also go into Carta&rsquo;s approach thus-far to incorporating LLMs into our product.
+(Note that it&rsquo;s a recording of a practice run I did earlier in the week, not a recording from the venue itself,
+so it&rsquo;s definitely amateur quality but the content is still all there!)</p>
+]]></content:encoded>
+<pubDate>Fri, 14 Jun 2024 07:00:00 -0700</pubDate>
+<pubDate>Fri, 14 Jun 2024 07:00:00 -0700</pubDate>
+</item>
+<item>
+<title>No Wrong Doors.</title>
+<link>https://lethain.com/no-wrong-doors/</link>
+<guid>https://lethain.com/no-wrong-doors/</guid>
+<content:encoded><![CDATA[
+<div> #observability, No Wrong Doors policy, organizational design, support system, positive relationships
+<br>
+要点1：文章介绍了一种名为No Wrong Doors policy的做法，旨在帮助工程组织更有效地连接有问题的人员和正确的团队和信息。
+要点2：文章指出，在复杂的组织设计中，工程师有时会面临难以解决的局面，需要导航才能找到正确的团队和信息。
+要点3：作者提到了通过建立支持系统来帮助工程师成功导航团队和信息的建议。
+要点4：No Wrong Doors policy的实施方式是通过启动三方对话，将问题提问者、帮助者和正确的接收者联系起来。
+要点5：文章强调了No Wrong Doors的多重好处，包括建立积极关系、指导问题解决方式、明确归属责任和快速发现错误。 
+总结: 本文介绍了一种名为No Wrong Doors policy的方法，旨在帮助工程组织更好地解决问题和连接正确团队。作者建议通过建立支持系统和启动三方对话的方式来实施这一政策，以促进积极关系、教育问题解决方式、明确责任归属并快速发现错误。 <div>
+<p>Some governmental agencies have started to <a href="https://nwd.acl.gov/our-initiatives.html">adopt No Wrong Door policies</a>, which aim to provide help–often health or mental health services–to individuals even if they show up to the wrong agency to request help. The core insight is that the employees at those agencies are far better equipped to navigate their own bureaucracies than an individual who knows nothing about the bureaucracy’s internal function.</p>
+<p>For the most part, technology organizations are not complex bureaucracies, but sometimes they do seem to operate that way. A particularly common pattern is along the lines of:</p>
+<ul>
+<li><strong>Product Engineer joins #observability</strong></li>
+<li><strong>Product Engineer</strong>: Hey, I’m having trouble with alerts, can you help me with that?</li>
+<li><strong>Obs Engineer</strong>: Oh yeah, for sure, what alerts?</li>
+<li><strong>Product Engineer</strong>: Ok, so there at this Datadog link…</li>
+<li><strong>Obs Engineer</strong>: Got it. Yeah, so that’s in the SRE Obs team now. We do observability for the product analytics data lake, not production observability.</li>
+<li><strong>Obs Engineer</strong>: Ok. Yeah, good. Let me find SRE Obs</li>
+<li><strong>Product Engineer joins #sre-obs</strong></li>
+<li><strong>Product Engineer</strong>: Hi, I got steered here by #observability, I think this is where I can get help with issues like Datadog link…</li>
+<li><strong>SRE Engineer</strong>: Oh, absolutely. That looks misconfigured. Where is your app completed Observability Checklist and when did you review it with us?</li>
+<li><strong>Product Engineer</strong>: …how would I know that?</li>
+</ul>
+<p>In that example, the product engineer is first forced to navigate the unintuitive organizational design to find the right team for questions about Datadog. After they find the right team, they are forced to figure out how the SRE Observability team records when a checklist is completed. In almost all cases, the product engineer ends up frustrated, but it’s not just them. Almost every time, the observability engineer and SRE engineer also probably feel frustrated that the product engineer didn’t know enough to navigate their bureaucracy successfully.</p>
+<p>Something I’ve been thinking about recently is how engineering organizations can adopt a variant of the No Wrong Doors policy to directly connect folks with problems with the right team and information. Then the first contact point becomes a support system for navigating the bureaucracy successfully.</p>
+<p>For example, imagine if this had happened instead:</p>
+<ul>
+<li><strong>Product Engineer joins #observability</strong></li>
+<li><strong>Product Engineer</strong>: Hey, I’m having trouble with alerts, can you help me with that?</li>
+<li><strong>Obs Engineer</strong>: Oh yeah, for sure, what alerts?</li>
+<li><strong>Product Engineer</strong>: Ok, so there at this Datadog link…</li>
+<li><strong>Obs Engineer</strong>: Got it. Yeah, let me start a thread in #sre-obs to help get this sorted</li>
+<li><strong>Product Engineer joins #sre-obs</strong></li>
+<li><strong>Obs Engineer</strong>: Hey all, Product Engineer is having trouble with Datadog (see link here). Product Engineer: if you look into this spreadsheet you can find the Observability Checklist entry for your app to add to this thread to help with debugging</li>
+<li><strong>SRE Engineer</strong>: OK, so..</li>
+</ul>
+<p>Now the product engineer gets support from the same two folks as before, but because they’re helping the product engineer navigate the process, they get to a better situation.</p>
+<p>Beyond being helpful to your colleagues, which is an obvious goal in some companies and not-at-all a cultural priority in others, I think there are a number of other advantages to think about here. First, being helpful creates positive relationships across organizations. Second, it makes it more obvious where you do have genuine areas of ambiguous ownership, and makes it possible for informed parties to escalate that rather than relying on folks with the least context to know to escalate the ambiguities. Third, it educates folks asking for help about the right thing to do, because a knowledgeable person helping is a great role model of the best way to solve a problem. Finally, if you happen to route to the wrong person–it happens!&ndash;then you learn that immediately rather than forcing someone without context to navigate the confusion.</p>
+<p>The most effective mechanism I’ve found for rolling out No Wrong Door is initiating three-way conversations when asked questions. If someone direct messages me a question, then I will start a thread with the question asker, myself, and the person I believe is the correct recipient for the question. This is particularly effective because it’s a viral approach: rolling out No Wrong Door just requires any one of the three participants to adopt the approach. Even the question asker can do it, although the power dynamics of the interaction do make it a bit harder for them.</p>
+]]></content:encoded>
+<pubDate>Wed, 22 May 2024 16:00:00 -0700</pubDate>
+<pubDate>Wed, 22 May 2024 16:00:00 -0700</pubDate>
+</item>
+<item>
+<title>Making engineering strategies more readable</title>
+<link>https://lethain.com/readable-engineering-strategy-documents/</link>
+<guid>https://lethain.com/readable-engineering-strategy-documents/</guid>
+<content:encoded><![CDATA[
+<div> explore, diagnose, refine, policy, operation
+
+<br>
+在工程战略文档中，结构化写作方式不利于阅读。提出了将文档结构倒置以提高可读性的建议。文档内容应从政策入手，然后是操作，逐步展示细化、诊断和探索。此外，还提供了关于战略文档的优化和额外建议，包括征求外部意见、设立讨论期、维护内部文档模板等。总的来说，为了帮助他人更容易审批和应用战略，重构思维优化的草稿是值得的。 
+
+<br><br>总结: 
+政策、操作、细化、诊断、探索。逆向结构化文档，减少不必要的部分并优化可读性，包括征求外部意见和禁止文档内部评论。易于审批和应用。 <div>
+<p>As discussed in <a href="https://lethain.com/components-of-eng-strategy/">Components of engineering strategy</a>,
+a complete engineering strategy has five components: explore, diagnose, refine (map &amp; model), policy, and operation.
+However, it&rsquo;s actually quite challenging to read a strategy document written that way.
+That&rsquo;s an effective sequence for <em>creating</em> a strategy, but it&rsquo;s a challenging sequence
+for those trying to quickly <em>read and apply</em> a strategy without necessarily wanting to understand
+the complete thinking behind each decision.</p>
+<p>This post covers:</p>
+<ul>
+<li>Why the order for writing strategy is hard to reading strategy</li>
+<li>How to organize a strategy document for reading</li>
+<li>How to refactor and merge components for improved readability</li>
+<li>Additional tips for effective strategy documents</li>
+</ul>
+<p>After reading it, you should be able to take a written strategy and
+rework it into a version that&rsquo;s much easier for others to read.</p>
+<hr />
+<p><em>This is an exploratory, draft chapter for a book on engineering strategy that I&rsquo;m brainstorming in <a href="https://lethain.com/tags/eng-strategy-book/">#eng-strategy-book</a>.</em>
+<em>As such, some of the links go to other draft chapters, both published drafts and very early, unpublished drafts.</em></p>
+<h2 id="why-writing-structure-inhibits-reading">Why writing structure inhibits reading</h2>
+<p>Most software engineers learn to structure documents early in their lives as
+students writing academic essays. Academic essays are focused on presenting evidence
+to support a clear thesis, and generally build forward towards their conclusion.
+Some business consultancies explicitly train their new hires in business writing,
+such as McKinsey teaching
+Barbara Minto&rsquo;s <em><a href="https://www.amazon.com/Pyramid-Principle-Logic-Writing-Thinking/dp/0273710516">The Pyramid Principle</a></em>,
+but that&rsquo;s the exception.</p>
+<p>While academic essays want to develop an argument, professional writing is a bit different.
+Professional writing typically has one of three distinct goals:</p>
+<ul>
+<li><strong>Refining thinking about a given approach</strong> (&ldquo;how do we select databases for our new products?&rdquo;) &ndash; this is an area where the academic structure can be useful,
+because it focuses on the thinking behind the proposal rather than the proposal itself</li>
+<li><strong>Seeking approval from stakeholders or executives</strong> (&ldquo;what database have we selected for our new analytics product?&rdquo;) &ndash; this is an area where the academic structure
+creates a great deal of confusion, because it focuses on the thinking rather than the specific proposal,
+but the stakeholders view the specific proposal are the primary topic to review</li>
+<li><strong>Communicating a policy to your organization</strong> (&ldquo;databases allowed for new products&rdquo;) &ndash; helping engineers at your company
+understand the permitted options for a given problem, and also explaining the rationale behind the decision for
+the subset who may want to undrstand or challenge the current policy</li>
+</ul>
+<p>The ideal format for the first case is generally at odds with the other two, which is a frequent cause of
+strategy documents which struggle to graduate from brainstorm to policy.
+I find that most strategy writers are resistent to the idea that it&rsquo;s worth their time to restructure their
+initial documents, so let me expand on challenges I&rsquo;ve encountered when I&rsquo;ve personally tried to make
+progress without restructuring:</p>
+<ul>
+<li>
+<p><strong>Too long, didn&rsquo;t read.</strong> Thinking-orienting structures leave policy recommendations at the very bottom,
+but the vast majority of strategy readers are simply trying to understand that policy so they can
+apply it to their specific problem at hand. Many of those readers, in my experience a majority of them,
+will simply give up before reading the sections that answer their questions and assume that the
+document doesn&rsquo;t provide clear direction because finding that direction took too long.</p>
+<p>This is very much akin to the core lesson of Steve Krug&rsquo;s <a href="https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515">Don&rsquo;t Make Me Think</a>:
+users (and readers) don&rsquo;t understand, they muddle through. Assuming that they will
+take the time to deeply understand is an act of hubris.</p>
+</li>
+<li>
+<p><strong>Approval meeting to nowhere.</strong> There are roughly three types of approval meetings. The first, you go in and no one has any feedback.
+Maybe someone gripes that it could have been done asynchrously instead of a meeting, but your docuemnt is approved.
+The second, the are two sets of stakeholders with incompatible goals, and you need a senior decision-maker to
+mediate between them. This is a very useful meeting, because you generally can&rsquo;t make progress without that
+senior decision-maker breaking the tie.</p>
+<p>The third sort of meeting is when you get derailed early with questions about the research, whether you&rsquo;d considered
+another option, and whether this is even relevant. You might think this is because your strategy is wrong, but
+in my experience it&rsquo;s usually because you failed to structure the document to present the policy upfront.
+Stakeholders might disagree with many elements of your thinking but still agree with your ultimate policy,
+but it&rsquo;s only useful to dig into your rationale if they actually disagree with the policy itself.
+Avoid getting stuck debating details when you agree on the overarching approach by presenting the
+policy <em>first</em>, and only digging into those details when there&rsquo;s disagreement.</p>
+</li>
+<li>
+<p><strong>Transient alignment.</strong> Sometimes you&rsquo;ll see two distinct strategy documents, with the first covering
+the full thinking, and the second only including the policy and operations sections.
+This tends to work quite well initially, but over time existing members of the team depart
+and new members are hired. At some point, a new member will challenge the thinking behind
+the strategy as obviously wrong, generally because it&rsquo;s a different set of policies than
+they used at the previous employer. If you omit the diagnosis and exploration sections entirely,
+then they can&rsquo;t trace through the decision making to understand the reasoning,
+which will often cause them to leap to simplistic conclusions like the
+ever popular, &ldquo;I guess the previous engineers here were just dumb.&rdquo;</p>
+</li>
+</ul>
+<p>As annoying as each of these challenges is, the solution is simple:
+use the writing structure for writing, and invert that structure for reading.</p>
+<h2 id="invert-structure-for-reading">Invert structure for reading</h2>
+<p>Reiterating a point from <a href="https://lethain.com/components-of-eng-strategy/">Components of engineering strategy</a>:
+it&rsquo;s always appropriate to change the structure that you use to develop or present a strategy,
+as long as you are making a deliberate, informed decision.</p>
+<p>While I&rsquo;ve generally found explore, diagnose, refine, policy, and operation to work well for
+writing policy, I&rsquo;ve consistently found it a poor format for presenting strategy.
+Whether I&rsquo;m presenting a strategy for review or rolling the strategy out to be followed by
+the wider organizaton, I recommend an inverted structure:</p>
+<ul>
+<li><strong>Policy</strong>: what does the strategy require or allow?</li>
+<li><strong>Operation</strong>: how is the strategy enforced and carried out, how do I get exceptions for the policy?</li>
+<li><strong>Refine</strong>: what were the load-bearing details that informed the strategy?</li>
+<li><strong>Diagnose</strong>: what are the more generalized trends and observations that steered the thinking?</li>
+<li><strong>Explore</strong>: what is the high-level, wide-ranging context that we brought into creating this strategy?</li>
+</ul>
+<p>When seeking approval, you&rsquo;ll probably focus on the <strong>Policy</strong> section.
+When rolling it out to your organization, you&rsquo;ll probably focus on the <strong>Operation</strong> section more.
+In both cases, those are the critical components and you want them upfront.
+Very few strategy readers want to understand the full thinking behind your strategy, instead they just
+want to understand how it impacts the specific decision they are trying to answer.</p>
+<p>The vast majority of strategy readers want the answer, not to understand the thinking behind the answer,
+and these are your least motivated readers. Someone who wants to really understand the thinking will
+invest time reading through the document, even if it isn&rsquo;t perfectly structured for them.
+Someone who just wants an answer will frequently give up and make up an answer rather than reading all
+the way through to where the document does infact answer their question.</p>
+<p>Zooming out a bit, this is a classic &ldquo;lack of user empathy&rdquo; problem. Folks authoring the document
+are so deep in the details that they can&rsquo;t put themselves in the readers&rsquo; mindset to think about
+how overwhelming the document would be if you were simply trying to pop in, get an answer, and then pop out.
+This lack of empathy also means that most strategy writers refuse to structure their documents to
+support the large population of answer seekers over the tiny population of strategy authors,
+but just try it a few times and I think you&rsquo;ll see it helps a great deal.
+Even faster, go read someone else&rsquo;s strategy document that you aren&rsquo;t familiar with, and
+you&rsquo;ll quickly appreciate how challenging it can be to identify the actual proposal
+if they follow the academic structure.</p>
+<h2 id="strategy-refactoring">Strategy refactoring</h2>
+<p>Inverting the structure is the first step of optimizing a document
+for readability, but you don&rsquo;t have to stop there. Often you&rsquo;ll
+find that even the inverted strategy structure is somewhat confusing to read
+for a given document. I think of this process as &ldquo;strategy refactoring.&rdquo;</p>
+<p>For example, <a href="https://lethain.com/llm-adoption-strategy/">How should you adopt LLMs?</a> makes two refactors
+to the inverted format. First, it merges <em>Refine</em> into <em>Diagnose</em>, which keeps
+the map and models closer to the specific topics thet explore.
+Second, it discards the <em>Operation</em> sectiom entirely, and includes the relevant
+details with the policies they apply to in the <em>Policy</em> section.</p>
+<p>Strategy refactoring is about discarding structure where it interferes with usability.
+The strategy structure is very effective at separating concerns while reasoning through
+decision making, but most readers benefit more from engaging with the full implications at once.
+Once you&rsquo;re done thinking, refactor away the thinking tools: don&rsquo;t let the best tools for
+one workflow mislead you into thinking they&rsquo;re the best for an entirely different one.</p>
+<h2 id="additional-tips-for-effective-strategy-docs">Additional tips for effective strategy docs</h2>
+<p>In addition to the above advice, there are a handful of smaller tips
+that I&rsquo;ve found helpful for creating readable strategy documents:</p>
+<ul>
+<li>Before releasing a document widely, find someone entirely uninvolved with the
+strategy thus far and have them point out areas that are difficult to understand.
+Anyone who&rsquo;s been thinking about the strategy is going to gloss over areas that might
+be inscrutinable to those who are approaching it with fresh eyes.</li>
+<li>Every strategy document should be rolled out with an explicit commenting period where you
+invite discussion, as well as office hours where you are available to explain how to apply
+the strategy correctly. These steps help with adoption, but even more importantly they
+help you identify disenters who disagree with the strategy such that you can follow up
+to better understand their concerns.</li>
+<li>Every company should maintain its own internal engineering strategy
+template, along the lines of this book&rsquo;s <a href="https://lethain.com/engineering-strategy-template/">engineering strategy template</a>.</li>
+<li>Your template should include consistent metadata, particularly when it was created,
+the current approval status, and where to ask questions.
+Of these, a clear, durable place to ask questions is the most important,
+as it slows the rate that these documents rot.</li>
+<li>After you release your strategy, disable in-document commenting. This isn&rsquo;t intended to prevent further discussion,
+but rather to move the discussion outside of the document.
+Nothing creates the impression of an unapproved, unfinished strategy document
+faster then a long string of open comments. Open comments also make it difficult
+to read the strategy document, as often the reader will get distracted from reading
+the document to read the comments.</li>
+</ul>
+<h2 id="summary">Summary</h2>
+<p>After reading this chapter, you know how to escape the rigid structures imposed during the
+creation of a strategy to create a readable document that is easier for others to both approve and apply.
+Beyond initially inverting the structure for easier reading, you also understand how to refactor sections
+away entirely that may have been essential for creation but interfere for understanding how to apply the strategy,
+which is by far the most common task for strategy readers.</p>
+<p>Most importantly, I hope you finish this chapter agreeing that it&rsquo;s worth your time to
+rework your thinking-optimized draft rather than leaving it as is. The deliberate refusal
+to structure documents for readers is the root cause of a surprising number of good strategies
+that utterly fail to have their intended impact.</p>
+]]></content:encoded>
+<pubDate>Sat, 18 May 2024 04:00:00 -0700</pubDate>
+<pubDate>Sat, 18 May 2024 04:00:00 -0700</pubDate>
+</item>
+<item>
+<title>How should you adopt LLMs?</title>
+<link>https://lethain.com/llm-adoption-strategy/</link>
+<guid>https://lethain.com/llm-adoption-strategy/</guid>
+<content:encoded><![CDATA[
+<div> LLM, Theoretical Ride Sharing, 策略, 发展, 数据模型
+<br>
+策略: Theoretical Ride Sharing 公司制定了使用LLM的政策，包括加速司机入职流程和提高开发人员生产力。他们采用Anthropic模型，并提出了关于工具采用和政策更新的具体要求。
+<br>
+Diagnose: 公司诊断了使用LLM的问题，包括需求的分析和业务优化。他们认识到了领域中的有限经验和专业知识，以及在做出未来决策之前，需要发展内部专门知识的重要性。
+<br>
+Explore: 公司探讨了LLM的运作方式，成本和性能等方面的信息。他们强调了在此领域中做出正确决策的重要性，并指出了现有模型的差异和发展趋势。
+<br>
+总结: Theoretical Ride Sharing 公司制定了使用LLM的政策，根据公司的需求和领域的发展，明确了使用LLM的具体方向和目标，以提高工作效率和产品创新。他们主要注重发展内部专业知识，以实现最佳战略选择。 <div>
+<p>Whether you’re a product engineer, a product manager, or an engineering executive, you’ve probably been pushed to consider using Large Language Models (LLM) to extend your product or enhance your processes. 2023-2024 is an interesting era for LLM adoption, where these capabilities have transitioned into the mainstream, with many companies worrying that they’re falling behind despite the fact that most integrations appear superficial.</p>
+<p>That context makes LLM adoption a great topic for a strategy case study. This document is an engineering strategy document determining how a hypothetical company, Theoretical Ride Sharing, could adopt LLMs.</p>
+<p>Building out the scenario a bit before diving into the strategy: Theoretical has 2,000 employees, 300 of which are software engineers. They’ve raised $400m, are doing $50m in annual revenue, and are operating in 200 cities across North America and Europe. They are a ride sharing business, similar to Uber or Lyft, but have innovated on the formula by using larger vehicles (also known as, they’ve reinvented public transit).</p>
+<hr />
+<p><em>This is an exploratory, draft chapter for a book on engineering strategy that I&rsquo;m brainstorming in <a href="https://lethain.com/tags/eng-strategy-book/">#eng-strategy-book</a>.</em>
+<em>As such, some of the links go to other draft chapters, both published drafts and very early, unpublished drafts.</em></p>
+<h2 id="reading-this-document">Reading this document</h2>
+<p>To apply this strategy, start at the top with <em>Policy</em>. To understand the thinking behind this strategy, read sections in reserve order, starting with <em>Explore</em>, then <em>Diagnose</em> and so on.
+Relative to the default structure, this document has been refactored in two ways
+to improve readability:
+first, <em>Operation</em> has been folded into <em>Policy</em>;
+second, <em>Refine</em> has been embedded in <em>Diagnose</em>.</p>
+<p>More detail on this structure in <a href="https://lethain.com/readable-engineering-strategy-documents">Making a readable Engineering Strategy document</a>.</p>
+<h2 id="policy">Policy</h2>
+<p>Our combined policy for using LLMs at Theoretical Ride Sharing are:</p>
+<ul>
+<li>
+<p><strong>Develop an LLM-backed process for verifying <em>I-9</em> and <em>US Driver License</em> documents such that we can wholly automate driver onboarding in the United States.</strong>
+Moving from an average onboarding delay of seven days to near-instant onboarding will increase driver supply and allow us to reprioritize the team on servicing rider complaints, which are a major source of concern.</p>
+<p>Verifying <em>I-9 Forms</em> and <em>US Drivers Licenses</em> will be directly useful for accelerating onboarding, and also establish the framework for us to perform document extraction on in other jurisdictions outside the US to the extent that this experiment outperforms our current hybrid automation/services model for onboarding.</p>
+<p>Report on progress monthly in <em>Exec Weekly Meeting</em>, coordinated in #exec-weekly</p>
+</li>
+<li>
+<p><strong>Start with Anthropic.</strong>
+We use Anthropic models, which are available through our existing cloud provider via <a href="https://aws.amazon.com/bedrock/">AWS Bedrock</a>. To avoid maintain multiple implementations, where we view the underlying foundational model quality to be somewhat undifferentiated, we are not looking to adopt a broad set of LLMs at this point.</p>
+<p>Exceptions will be reviewed by the <em>Machine Learning Review</em> in #ml-review</p>
+</li>
+<li>
+<p><strong>Developer experience team (DX) must offer at least one LLM-backed developer productivity tool.</strong>
+This tool should enhance the experience, speed, or quality of writing software in TypeScript. This tool should help us develop our thinking for next year, such that we have conviction increasing (or decreasing!) our investment. This tool should be available to all engineers. Adopting one tool is the required baseline, if DX identifies further interesting tools, e.g. Github Copilot, they are empowered to bring the request to the <em>Engineering Exec</em> team for review. Review will focus on balancing our rate of learning, vendor cost, and data security.
+We&rsquo;ve <a href="https://lethain.com/dx-llm-model/">modeled options for measuring LLMs impact on developer experience</a>.</p>
+<p>Vendor approvals to be reviewed in #cto</p>
+</li>
+<li>
+<p><strong>Internal Toolings team (INT) must offer at least one LLM-backed ad-hoc prompting tool.</strong>
+This tool should support arbitrary non-engineering use cases for LLMs, such as text extraction, rewriting notes, and so on. It must be usable with customer data while also honoring our existing data processing commitments. This tool should be available to all employees.</p>
+<p>Vendor approvals to be reviewed in #coo</p>
+</li>
+<li>
+<p><strong>Refresh policy in six months.</strong>
+Our foremost goal is to learn as quickly as possible about a new domain where we have limited internal expertise, then review whether we should increase our investment afterwards.</p>
+<p>Flag questions and suggestions in #cto</p>
+</li>
+</ul>
+<h2 id="diagnose">Diagnose</h2>
+<p>The synthesis of the problem at hand regarding how we use LLMs at Theoretical Ride Sharing is:</p>
+<ol>
+<li>
+<p>There are, at minimum, <strong>three distinct needs</strong> that folks internally are asking us to solve (either separately or with a shared solution):</p>
+<ol>
+<li><em>productivity tooling for non-engineers</em>, e.g. ad-hoc document rewriting,document summarization</li>
+<li><em>productivity tooling for engineers</em>, e.g. advanced autocomplete tooling like Github Copilot</li>
+<li><em>product extensions</em>, e.g. high-quality document extraction in driver onboarding workflows</li>
+</ol>
+</li>
+<li>
+<p>Of the above, <strong>we see product extensions are potential strategic differentiation</strong>, and the other two as workflow optimizations that improve our productivity but don’t necessarily differentiate us from wider industry. Some of the opportunities for strategic differentiation we see are:</p>
+<ol>
+<li><em>Faster driver onboarding</em> by processing driver documentation without human involvement, making it possible to bring new driver supply online more quickly, particularly as we move into new regions. We&rsquo;ve sized the potential impact by <a href="https://lethain.com/driver-onboarding-model/">developing a model of faster driver onboarding</a></li>
+<li><em>Improved customer support</em> by increasing the response speed and quality of our responses to customer inquiries</li>
+</ol>
+</li>
+<li>
+<p><strong>We currently have limited experience or expertise in using LLMs in the company and in the industry.</strong> Prolific thought leadership to the contrary, there are very few companies or products using LLMs in scaled, differentiated ways. That’s currently true for us as well</p>
+</li>
+<li>
+<p><strong>We want to develop our expertise without making an irreversible commitment.</strong> We think that our internal expertise is a limiter for effective problem selection and utilization of LLMs, and that developing our expertise will help us become more effective in iterative future decisions on this topic. Conversely, we believe that making a major investment now, prior to developing our in-house expertise, would be relatively high risk and low reward given no other industry players appear to have identified a meaningful advantage at this point</p>
+</li>
+<li>
+<p><strong>Switching across foundational models and foundational model providers is cheap</strong>. This is true both economically (low financial commitment) and from an integration cost perspective (APIs and usage is largely consistent across providers)</p>
+</li>
+<li>
+<p><strong>Foundational models and providers are evolving rapidly, and it’s unclear how the space will evolve.</strong> It’s likely that current foundational model providers will train one or two additional generations of foundational models with larger datasets, but at some point they will become cost prohibitive to train (e.g. the next major version of OpenAI or Anthropic models seem likely to cost $500m+ to train). Differentiation might move into developer-experience at that point. Open source models like LLaMa might become significantly cost-advantaged. Or something else entirely. The future is wide open.</p>
+<p>We&rsquo;ve built a Wardley map to understand the <a href="https://lethain.com/wardley-llm-ecosystem/">possible evolution of the foundational model ecosystem</a>.</p>
+</li>
+<li>
+<p><strong>Training a foundational model is prohibitively expensive for our needs.</strong> We’ve raised $400m, and training a competitive foundational model would cost somewhere between $3m to $100m to match the general models provided by Anthropic or OpenAI</p>
+</li>
+</ol>
+<h2 id="explore">Explore</h2>
+<p>Large Language Models operate on top of a foundational model. Training these foundational models is exceptionally expensive, and growing more expensive over time as competition for more sophisticated models accelerates. <a href="https://www.cnbc.com/2023/10/16/metas-open-source-approach-to-ai-puzzles-wall-street-techies-love-it.html">Meta allegedly spent $20-30m training LLaMa 2</a>, up from about $3m training costs for LLaMa 1. OpenAI’s GPT-4 <a href="https://www.wired.com/story/openai-ceo-sam-altman-the-age-of-giant-ai-models-is-already-over/">allegedly cost $100m to train</a>. With some nuance related to the quality of corpus and its relevance to the task at hand, <a href="https://arxiv.org/abs/2309.16583">larger models outperform smaller models</a>, so there’s not much incentive to train a smaller foundational model unless you have a large, unique dataset to train against, and even in that case you might be better off fine-tuning or in-context learning (ICL).</p>
+<p><a href="https://www.anthropic.com/api">Anthropic charges</a> between $0.25 and $15 per million tokens of input, and a bit more for output tokens. <a href="https://openai.com/api/pricing">OpenAI charges</a> between $0.50 and $60 per million tokens of input, and a bit more for output tokens. The average English word is about 1.3 tokens, which means you can do a significant amount of LLM work while spending less than most venture funded startups spend on snacks.</p>
+<p>There’s <a href="https://garymarcus.substack.com/p/evidence-that-llms-are-reaching-a">significant debate on whether LLMs have reached a point where their performance improvements will slow</a>. Much like the ongoing debate around whether Moore’s Law has died, it’s unclear how much LLM performance will improving going forward. From a cost to train perspective, it’s unlikely that companies can continue to improve foundational models merely by spending more money on compute. A few companies can tolerate a $1B training cost, fewer still a $10B training cost, but it’s hard to imagine a world where any companies are building $100B models. However, algorithmic improvements and investment in datasets may well drive improvements without driving up compute costs. The only high confidence prediction you can make in this space is that it’s likely model improvement will double one or two more times over the next 3 years, after which it <em>might</em> continue doubling at that rate or it <em>might</em> plateau at that level of performance: either outcome is plausible.</p>
+<p>For some decisions, there’s a strategic imperative to get it right from the beginning. For example, migrating from AWS to Azure is very expensive due to the degree of customization and lock-in. However, LLMs don’t appear to be in this category. Talking with industry peers, the majority of companies are experimenting with a variety of models from Anthropic, OpenAI and elsewhere (e.g. <a href="https://mistral.ai/">Mistral</a>). Behaviors do vary across models, but it’s also true that behavior of existing models varies over time (e.g. <a href="https://arstechnica.com/information-technology/2023/12/is-chatgpt-becoming-lazier-because-its-december-people-run-tests-to-find-out/">GPT 3.5 allegedly got “lazier” over time</a>), which means the overhead of dealing with model differences is unavoidable even if you only adopt one. Altogether, vendor lock-in for models is very low from a technical perspective, although there is some lock-in created by regulatory overhead, for example it’s potentially painful to update your Data Processing Agreement multiple times, combined with the notification delay, to support multiple model vendors.</p>
+<p>Although there’s an ongoing investment boom in artificial intelligence, most scaled technology companies are still looking for ways to leverage these capabilities beyond the obvious, widespread practices like adopting <a href="https://github.com/features/copilot">Github Copilot</a>. For example, <a href="https://podcasts.apple.com/us/podcast/build-ai-products-at-on-ai-companies-with-emily/id1668002688?i=1000644619725">Stripe is investing heavily in LLMs for internal productivity</a>, including presumably relying on them to perform some internal tasks that would have previously been performed by an employee such as verifying a company’s website matches details the company supplied in their onboarding application, but it’s less clear that they have yet found an approach to meaningfully shift their product, or their product’s user experience, using LLMs.</p>
+<p>Looking at ridesharing companies more specifically, there don’t appear to be any breakout industry-specific approaches either. Uber is similarly adopting LLMs for internal productivity, and some operational efficiency improvements as documented in their <a href="https://www.uber.com/blog/the-transformative-power-of-generative-ai/">August, 2023 post describing their internal developer and operations productivity investments using LLMs</a> and <a href="https://www.uber.com/blog/from-predictive-to-generative-ai/">May, 2024 post describing those efforts in more detail</a>.</p>
+]]></content:encoded>
+<pubDate>Tue, 14 May 2024 06:00:00 -0700</pubDate>
+<pubDate>Tue, 14 May 2024 06:00:00 -0700</pubDate>
+</item>
+<item>
+<title>Load-bearing / Career-minded / Act Two rationales</title>
+<link>https://lethain.com/load-bearing-career-minded-act-two-rationales/</link>
+<guid>https://lethain.com/load-bearing-career-minded-act-two-rationales/</guid>
+<content:encoded><![CDATA[
+<div> load-bearing, career-minded, Act Two rationales, executives, departure
+
+总结:<br><br>本文讨论了企业中的“load-bearing”员工，即无法用现有员工替代的关键人物，以及在高管角色中如何权衡职业、个人使命等因素的“Act Two”理由。文章还探讨了执行人员选择留在具有挑战性职位的原因，包括无他目的、帮助他人成功、继续与特定团队合作、拥有个人使命。这些不同的动机可能导致不同的路径，需要通过理解和沟通来适应。 <div>
+<p>One of the common conceits in leadership is that nobody is truly essential for a company’s continuity. I call it a conceit, but I do mostly agree with it: I’ve felt literally sick after hearing about some peer’s unexpected departure, but I’m continually amazed at how resilient companies are to departures, even of important people. About two-thirds of Digg’s team left in layoffs in 2010, but we found ways to amble on. Much of Uber’s leadership team turned over in the 2017 era, and it <em>was</em> chaotic, but they continued on.</p>
+<p>However, even if organizations are too resilient to collapse from departures, some departures are more impactful than others. I think of folks whose departures would leave a large hole–whose departures require reworking how the company works–as “load-bearing.”</p>
+<h2 id="load-bearing">Load-bearing</h2>
+<p>Someone is load-bearing to the extent that there’s no meaningful way to replace them. Their departure would leave an irregularly shaped hole, such that no existing member of your company can fill it, and hiring an external candidate to fill it is also impractical. For example, someone who is a deeply empathetic people leader, and a deep expert in machine learning, and has domain context in accounting. Sure, it’s possible to find such a person, but it’s quite challenging in a time-sensitive role.</p>
+<p>Once you start factoring in holding specific relationships, e.g. someone who’s a great engineering leader and was also able to be the glue connecting the finance and product teams because they had a great relationship with both leaders, then it’s simply not possible to replace some individuals. Instead you have to change the company’s internal system to manage their departure.</p>
+<p>Even if you personally don’t believe in load-bearing employees, most large companies do. It’s an open secret that most very large companies (think Facebook or Google) have special equity programs for employees believed to be in this category, such that they can’t rationally leave the company because no competing company can match their current compensation without violating their internal compensation rules. In some cases, they can’t match it even if they do violate their internal compensation rules.</p>
+<p>It’s inevitable to have some number of load-bearing employees at any given point, but it’s a bad sign if the identities of load-bearing employees remain the same over time. A healthy organization rotates load&ndash;bearing-ness across different employees over time rather than reinforcing the dependency.</p>
+<p>If you find yourself in a load-bearing position, digging your way out is the same incremental process as <a href="https://lethain.com/succession-planning/">succession planning</a>. This takes a long time, but it’s doable if you are willing to accept necessary tradeoffs that in the short-term reduce your own impact to create greater organizational durability in the long-term.</p>
+<h2 id="career-minded">Career-minded</h2>
+<p>I think the concept of “load-bearing people” effectively explains a conversation I had recently, where a startup CEO told me they backchannel reference checked each executive candidate early on to make sure they were not “overly career-minded.” The reference checks were intended to derisk the executive joining, becoming a load-bearing person, and then leaving soon thereafter. To, in the lingua franca of CEOs, determine if a candidate is a missionary or a mercenary.</p>
+<p>It’s hard to disagree with the premise that load-bearing people who shift roles frequently are disruptive hires, such that it’s worthwhile to reduce the risk of voluntary departure. This is particularly true today when executive retention has gotten more difficult. In the 2012-2022 period where valuations rapidly climbed, financial packages became “golden handcuffs” that kept executives in their current roles. That’s less true today, where more executives have underwater compensation packages. Further, the low points of being an executive–layoffs, shutdowns, and so on–are more frequent than they were last decade, and each is a moment where an executive might reevaluate their current role.</p>
+<p>I do think that a more nuanced mental model of executives–who are nothing more or less than people–makes this conversation more interesting. For example, I might suggest talking through the premise of <a href="https://lethain.com/forty-year-career/">A forty-year career</a> with a prospective executive, and using that discussion to determine their priorities for their next role. How do they stack rank their personal priorities across profit (increasing their networth), people (building their network or working with a familiar group), prestige (increasing perceived value of their career), learning (increasing their own abilities), and pace (managing the time between work and other components of their life)?</p>
+<p>As usual, reality is most interesting in the details. Many people who you might consider “optimizing for their career” would stack rank those areas very differently. Someone maximizing for learning in 2024 might change roles frequently because many companies are narrowing their focus to areas where they already understand how to operate an effective business. Conversely, someone pursuing a learning objective might also conclude the opposite, and decide to stick with a financially struggling company because it has so much to teach them. This era is the first opportunity for many recently emerged executives to learn to operate a financially responsible organization, a learning lab for handling change management effectively, and an education in showing up for their team each day despite challenges.</p>
+<h2 id="act-two-rationales">Act Two rationales</h2>
+<p>Switching away from the CEO or hiring manager’s perspective for a moment, I think it’s interesting to dig a bit into why executives themselves choose to stay in challenging roles. The profit/people/prestige/learning/pace model from “a forty-year career” remains relevant in explaining behaviors of executives who are optimizing for their career, but there are a small but meaningful number of executives who are beyond career optimization.</p>
+<p>For example, imagine someone who’s spent fifteen years at Google or Meta, and is leaving to become the engineering executive at a startup. They’ve already fulfilled their financial goals. They have a large network from working within such a massive, well-positioned organization. Maybe their first startup role is oriented around a certain sort of prestige (“I’m more than just a FANG leader, I can succeed in many environments”), but why would they move to a second startup executive role three years later? Sure, many don’t, but many do, and generally I believe they’re looking for dimensions that I missed when developing the 40-year model.</p>
+<p>I’ve roughly found four common rationales among these folks:</p>
+<ol>
+<li>They don’t really have much else to do, or feel a social pressure to continue working. To be totally honest, I can only think of two people I’ve worked with who have been successful as an executive and stayed in the role out of boredom, but I think it’s worth mentioning this bucket as folks believe this category exists</li>
+<li>Desire to help others succeed. When a load-bearing executive leaves a company, it causes a fair bit of disruption, even if succession planning was done effectively. People in this bucket feel the weight of their many colleagues who haven’t accomplished their financial goals, and recognize that those colleague’s equity in their current employer might be their one and only opportunity to reach those goals. Sometimes this is more focused on helping folks succeed in their career trajectories instead (e.g. this is why I set <a href="https://lethain.com/2023-in-review/">a personal goal for helping folks I’ve managed or mentored reach executive roles</a>)</li>
+<li>Continue working with a specific group of people. There are “squads” of colleagues who really enjoy working together and move from company to company. In the worst case, these are a <a href="https://lethain.com/flying-wedge/">flying wedge</a> that dislodge the existing team, but in the best case this is a founding team or loose collection of folks who are collaborative rather than cliquish. They simply enjoy how the group works together, and want to continue doing it</li>
+<li>They’ve found a personal mission and/or goal. This was my motivation behind “<a href="https://lethain.com/advancing-the-industry/">advancing the industry</a>” which is a mission where my work and writing intersect to become larger than the sum of their parts. Others have missions around bringing technology to government, climate change, artificial intelligence, and really anything else that’s meaningful to them personally. It doesn’t need to be a mission that resonates with others, just that enduringly resonates with themselves</li>
+</ol>
+<p>In many cases, I see very successful folks having a two-act career. The first act is operating under the “forty-year career” structure, and the second act working under the above “Act Two” rationales instead. Certainly some stop working as well, which is–like other personal choices–a totally reasonable thing to do.</p>
+<p>This disconnection between the first and second acts–and ambiguity about which act a given person is currently in–is the source of many misunderstandings about motivations. Trying to motivate someone according to one act’s rules doesn’t work well if they’re in the other act. For example, I once worked at a company whose CFO wanted to tell our employees that they should be grateful our valuation was declining, because it meant they could use it as a loss to reduce their other capital gains obligations. Unsurprisingly, this didn’t resonate very well with the vast majority of employees who had few capital gains to offset.</p>
+]]></content:encoded>
+<pubDate>Thu, 02 May 2024 04:00:00 -0700</pubDate>
+<pubDate>Thu, 02 May 2024 04:00:00 -0700</pubDate>
+</item>
+<item>
+<title>Constraints on giving feedback.</title>
+<link>https://lethain.com/constraints-on-giving-feedback/</link>
+<guid>https://lethain.com/constraints-on-giving-feedback/</guid>
+<content:encoded><![CDATA[
+<div> Digg Uber 反馈 领导力 框架
+总结:<br><br> 这篇文章介绍了作者在管理Digg和Uber时，给予反馈的一些经历和教训。作者表达了反馈对组织改进至关重要的观点，但也指出组织只能吸收有限数目的改进，否则会拒绝提出反馈的人。作者分享了自己的反馈框架和观点，强调了交流反馈时的关键因素。文章强调了区分反馈和评论之间的重要性，以及如何有效地提供反馈。最后，作者建议接受反馈的人应该从中汲取洞察力，而不是纠结于反馈的格式，以实现积极的改变。 <div>
+<p>Back when I was managing at Digg and Uber, I spent a lot of time delivering feedback to my management chain about issues in our organization. My intentions were good, but I alienated my management chain without accomplishing much. I also shared my concerns with my team, which I thought would help them understand the organization, but mostly isolated them in a <a href="https://lethain.com/values-oasis/">Values Oasis</a> or demoralized them instead.</p>
+<p>Those experiences taught me that pushing your organization to improve <em>is</em> essential leadership work, but organizations can only absorb so much improvement at a given time before they reject the person providing the feedback. Being rejected while trying so hard to help is painful, and it’s also a predictable outcome.</p>
+<p>It’s also a bad outcome for your team. When I focused on how the environment could change to make my team more successful, I was usually technically correct, but usually didn’t help my team very much. Because work environments change slowly, it benefits your team more to give them feedback about how they can succeed in their current environment than to agree with them about how the current environment does a poor job of supporting them. Agreeing feels empathetic, but frames them as a bystander rather than active participant in their work.</p>
+<p>I’ve pulled together a few related thoughts on this topic:</p>
+<ul>
+<li>my framework for delivering cross-functional feedback,</li>
+<li>modifying that framework for communicating within your team,</li>
+<li>how I see many folks get caught up on “feedback legalism”, e.g. fighting the format of feedback, as a way to avoid hearing feedback</li>
+<li>why it’s still worthwhile to improve how you deliver feedback, even if you believe that the focus on format of received feedback is unconstructive</li>
+</ul>
+<p>This is more a collection of notes than a grand theory, but hopefully the notes are useful.</p>
+<h2 id="feedback-framework">Feedback framework</h2>
+<p>As mentioned above, I used to give a lot of feedback, and found I tended to damage the relationship rather than improve outcomes, so I recalibrated. My framework these days is:</p>
+<ol>
+<li>Determine why I am confident in my perspective. Is it because I worked on a similar problem previously? Is it because of research I’ve specific done on the topic? Have I <a href="https://lethain.com/modeling-reliability/">modeled the problem out</a>? <br />
+<br />
+If you can’t explain why you’re confident, then it’s extremely unlikely you’ll convince others. Similarly, there’s a power dynamic where depending on your perceived positions in hierarchy, the less senior you are, the more you’re expected to have strong rationale. (I’m not saying this is <em>good</em>, as this dynamic often prevents good feedback. Conversely, I’m not saying it’s <em>bad</em>, as it avoids senior leaders wading through a deluge of feedback. I’m just saying this is <em>real</em>.)</li>
+<li>Once I’ve been able to determine where my confidence comes from, I’m able to articulate the strength of the feedback. For example, much of the feedback I give these days is formatted as, “I’m not positive, but I think it’s worth quickly checking if the number of upsells is actually low, or if we have a significant dropoff right before the last stage of the conversion funnel.” <br />
+<br />
+You can deliver a much higher volume of lightweight feedback than heavy feedback.</li>
+<li>Determine the size of the “feedback pipe” between you and the other party. If it’s someone who you or your team is in active conflict with, the size of the feedback pipe might be “absolutely no feedback can successfully be transmitted,” In that case, you have to start by trying to invest into the relationship before delivering feedback (try getting dinner with them, or a joint project, or figuring out a joint interest – yes, it can seem silly, but yes this is how humans work). <br />
+<br />
+It’s so tempting to skip this step, but it basically doesn’t work. Even folks who are good at receiving feedback will focus on merely <em>understanding</em> your feedback rather than <em>valuing</em> your feedback. They will poke at it a bit, and maybe try it on for size, but you’ll be starting from a difficult place.</li>
+<li>Prioritize the feedback that you want to give. Particularly in cases where you’re having a lot of trouble working with a set of stakeholders, you might have built up a backlog of dozens of pieces of valuable feedback. You have to figure out the order you want to work through those pieces, recognizing that each piece might take months to work through.</li>
+<li>Based on the size of your pipeline and priorities, deliver as much feedback as you can, but no more. The two rules here are. One, delivering <em>too much</em> slows down improvement and harms the relationship. Two, delivering <em>too little</em> slows down improvement and harms the relationship. <br />
+<br />
+If your relationship is quite good, I find that sometimes folks don’t deliver valuable feedback because they don’t have time to format it well. I recommend using the full feedback pipe, and sometimes that means delivering imperfect feedback to people you have a strong relationship with; this is the executive-perspective of <a href="https://lethain.com/extract-the-kernel/">Extracting the kernel</a>.</li>
+</ol>
+<p>All-in, I think it would be fair to call this “very obvious,” but it was also something that I messed up for a long time until I figured it out, so I think it’s more the category of “obvious once you’ve seen it, but hard to perceive before then.”</p>
+<h2 id="commentary-isnt-feedback">Commentary isn’t feedback</h2>
+<p>Feedback is conveying information to someone about how they are impacting something. For example, “Hey Will, it felt like you focused on convincing the CFO about the cost impact of your hiring plan, but didn’t spend time convincing anyone else that the plan was worthwhile, even if the cost was low. It would have worked better if you’d started on why it’s useful before getting caught up on how to minimize the expense.” People also talk <em>a lot</em> about their views on the behavior of a third party. Going back to my last example, if the head of product complained to the CFO that Will (the head of engineering) didn’t even explain their proposal, that’s not feedback (it’s being delivered to an uninvolved party), that’s just commentary about the head of engineering’s behavior.</p>
+<p>I think it’s important to distinguish between these two behaviors, and I’d argue that commentary generally has few positive impacts. It polarizes the team. It harms your relationships, reducing the bandwidth for feedback. It makes you <a href="https://lethain.com/hard-to-work-with/">harder to work with</a>, even when the commentary is accurate.</p>
+<p>This is particularly true when you share your concerns with your team. You may have to acknowledge the problems around you to maintain credibility, but done frequently that creates a <a href="https://lethain.com/values-oasis/">values oasis</a>. It also frames you as an observer of the problem rather than part of the solution, which diminishes you in the eyes of whoever you’re talking with.</p>
+<p>Ultimately, I believe that people want to work with an inspiring leader who believes they can overcome even messy internal problems. Commentary generally reduces your ability to solve internal problems, reduces your visibility as an inspiring leader, and anchors your own attention on problems rather than opportunity.</p>
+<p>If you do want to complain, ah, I mean provide commentary, external friends and colleagues are the best recipients.</p>
+<h2 id="situation-behavior-impact">“Situation Behavior Impact”</h2>
+<p>There’s an industry around delivering good feedback, such as the Situation-Behavior-Impact (SBI) framework, and these things are useful guide rails for giving feedback. In particular, I think they’re the sort of thing you can actively practice for three months (e.g. spend time proactively framing every piece of your feedback this way) and reflexively deploy without much effort from that point onward. However, I see them get misused in two different ways.</p>
+<p>First, often folks never really get comfortable with them and end up viewing them as “too heavy to apply quickly” so they start pocketing more and more feedback rather than delivering it. This is often net-negative because these trainings trying to help deliver better feedback result in folks getting significantly less feedback. If this seems surprising, then draw the Econ 101 supply/demand chart, and model the impact of the price of delivering feedback going up: the supply will naturally go down at any given point on the line.</p>
+<p>Second, I see folks reject feedback because they don’t like how it was delivered. Essentially, they become feedback lawyers who fixate on the weakness in how feedback was delivered rather than trying to understand the content within the feedback itself. This lets someone feel justified in ignoring feedback because it wasn’t properly formatted, but doesn’t accomplish anything other than discouraging future feedback. Again, if we look at the impact of this behavior, it’s just shifting the demand curve on the Econ 101 chart down, once again resulting in less feedback.</p>
+<p>The advice I give to people is that feedback recipients are obligated to <a href="https://lethain.com/extract-the-kernel/">extract the kernel</a> of insight from feedback, even if it isn’t well delivered. Other approaches might feel better short term, but they don’t work.</p>
+<h2 id="radical-candor">“Radical Candor”</h2>
+<p>While I’d caution you to avoid getting too caught up in formatting feedback, I’d similarly avoid the overly simplistic message that many folks take from the “Radical Candor” school of thought. Delivering feedback abruptly is better than delivering no feedback, but it’s still less effective than taking a bit of time to get better at this. Again, I’d push you to spend a few months actively practicing how to structure feedback, after which I think you’ll be better able to quickly deliver feedback as long as you put ongoing effort into maintaining those relationships.</p>
+]]></content:encoded>
+<pubDate>Mon, 29 Apr 2024 04:00:00 -0700</pubDate>
+<pubDate>Mon, 29 Apr 2024 04:00:00 -0700</pubDate>
+</item>
+<item>
+<title>Notes on how to use LLMs in your product.</title>
+<link>https://lethain.com/mental-model-for-how-to-use-llms-in-products/</link>
+<guid>https://lethain.com/mental-model-for-how-to-use-llms-in-products/</guid>
+<content:encoded><![CDATA[
+<div> LLMs, workflows, RAG, innovation, HITL  
+总结:<br><br>本文介绍了如何使用大型语言模型(LLMs)应用于产品开发中的重要性。首先，需要重新构建对LLMs的认知模型，避免过于依赖于LLMs的“魔法”和与强化学习混淆。调整工作流程可以让产品更具价值，通过Retrieval Augmented Generation (RAG)技术处理大数据集。在创新速度和人为干预方面需要注意，同时需考虑LLMs对版权法和数据处理协议的影响。最后，提供者的可用性并不是主要问题，选择云服务提供商可能更有优势。 <div>
+<p>Pretty much every company I know is looking for a way to benefit from Large Language Models. Even if their executives don’t see much applicability, their investors likely do, so they’re staring at the blank page nervously trying to come up with an idea. It’s straightforward to make an argument for LLMs improving internal efficiency somehow, but it’s much harder to describe a believable way that LLMs will make your product more useful to your customers.</p>
+<p>I’ve been working fairly directly on meaningful applicability of LLMs to existing products for the last year, and wanted to type up some semi-disorganized notes. These notes are in no particular order, with an intended audience of industry folks building products.</p>
+<hr />
+<p><em>You can watch <a href="https://youtu.be/EVPY9koFceU">a recording of my talk based on these on Youtube</a>, or <a href="https://docs.google.com/presentation/d/1CoBeFTz8kg59KCQRIcdZAlmOvX0pn5xQiO0mvDY9YE4/edit#slide=id.g272560649f6_0_60">see the slides</a>.</em></p>
+<h2 id="rebuild-your-mental-model">Rebuild your mental model</h2>
+<p>Many folks in the industry are still building their mental model for LLMs, which leads to many reasoning errors about what LLMs can do and how we should use them. Two unhelpful mental models I see many folks have regarding LLMs are:</p>
+<ol>
+<li><strong>LLMs are magic</strong>: anything that a human can do, an LLM can probably do roughly as well and vastly faster</li>
+<li><strong>LLMs are the same as reinforcement learning</strong>: current issues with hallucinations and accuracy are caused by small datasets. Accuracy problems will be solved with larger training sets, and we can rely on confidence scores to reduce the impact of inaccuracies</li>
+</ol>
+<p>These are both wrong in different but important ways.
+To avoid falling into those mental model’s fallacies, I’d instead suggest these pillars for a useful mental model around LLMs:</p>
+<ol>
+<li><strong>LLMs can predict reasonable responses to any prompt</strong> – an LLM will confidently provide a response to any textual prompt you write, and will increasingly provide a response to text plus other forms of media like image or video</li>
+<li><strong>You cannot know whether a given response is accurate</strong> – LLMs generate unexpected results, called hallucinations, and you cannot concretely know when they are wrong. There are no confidence scores generated that help you reason about a specific answer from an LLM</li>
+<li><strong>You can estimate accuracy for a model and a given set of prompts using evals</strong> – You can use <a href="https://github.com/openai/evals">evals</a> – running an LLM against a known set of prompts, recording the responses, and evaluating those responses – to evaluate the likelihood that an LLM will perform well in a given scenario</li>
+<li><strong>You can generally increase accuracy by using a larger model, but it’ll cost more and have higher latency</strong> – for example, GPT 4 is a larger model than GPT 3.5, and generally provides higher quality responses. However, it’s meaningfully more expensive (~20x more expensive), and meaningfully slower (2-5x slower). However, the quality, cost and latency are improving at every price point. You should expect the year-over-year performance at a given cost, latency or quality point to meaningfully improve over the next five years (e.g. you should expect to get GPT 4 quality at the price and latency of GPT 3.5 in 12-24 months)</li>
+<li><strong>Models generally get more accurate as the corpus it&rsquo;s built from grows in size</strong> – the accuracy of reinforcement learning tends to grow predictability as the dataset grows. That remains generally true for LLMs, but is less predictable. Small models generally underperform large models. Large models generally outperform small models with higher quality data. Supplementing large general models with specific data is called “fine-tuning” and it’s currently ambiguous when fine-tuning a smaller model will outperform using a larger model. All you can really do is run evals based on the available models and fine-tuning datasets for your specific usecase</li>
+<li><strong>Even the fastest LLMs are not that fast</strong> – even a fast LLM might take 10+ seconds to provide a reasonably sized response. If you need to perform multiple iterations to refine the initial response, or to use a larger model, it might take a minute or two to complete. These will get faster, but they aren’t fast today</li>
+<li><strong>Even the most expensive LLMs are not that expensive for B2B usage. Even the cheapest LLM is not that cheap for Consumer usage</strong> – because pricing is driven by usage volume, this is a technology that’s very easy to justify for B2B businesses with smaller, paying usage. Conversely, it’s very challenging to figure out how you’re going to pay for significant LLM usage in a Consumer business without the risk of significantly shrinking your margin</li>
+</ol>
+<p>These aren’t perfect, but hopefully they provide a good foundation for reasoning about what will or won’t work when it comes to applying LLMs to your product. With this foundation in place, now it’s time to dig into some more specific subtopics.</p>
+<h2 id="revamp-workflows">Revamp workflows</h2>
+<p>The workflows in most modern software are not designed to maximize benefit from LLMs. This is hardly surprising–they were built before LLMs became common–but it does require some rethinking about workflow design.</p>
+<p>To illustrate this point, let’s think of software for a mortgage provider:</p>
+<ol>
+<li>User creates an account</li>
+<li>Product asks user to fill in a bunch of data to understand the sort of mortgage user wants and user’s eligibility for such a mortgage</li>
+<li>Product asks user to provide paperwork to support the data user just provided, perhaps some recent paychecks, bank account balances, and so on</li>
+<li>Internal team validates the user’s data against the user’s paperwork</li>
+</ol>
+<p>In that workflow, LLMs can still provide significant value to the business, as you could increase efficiency of validating the paperwork matching with the user supplied information, but the user themselves won’t see much benefit other than perhaps faster validation of their application.</p>
+<p>However, you can adjust the workflows to make them more valuable:</p>
+<ol>
+<li>User creates an account</li>
+<li>Product asks user to provide paperwork</li>
+<li>Product uses LLM to extract values from paperwork</li>
+<li>User validates the extracted data is correct, providing some adjustments</li>
+<li>Internal team reviews the user’s adjustments, along with any high risk issues raised by a rule engine of some sort</li>
+</ol>
+<p>The technical complexity of these two products is functionally equivalent, but the user experience is radically different. The internal team experience is improved as well. My belief is that many existing products will find they can only significantly benefit their user experience from LLMs by rethinking their workflows.</p>
+<h2 id="retrieval-augmented-generation-rag">Retrieval Augmented Generation (RAG)</h2>
+<p>Models have a maximum “token window” of text that they’ll consider in a given prompt. The maximum size of token windows are expanding rapidly, but larger token windows are slower to evaluate and cost more to evaluate, so even the expanding token windows don’t solve the entire problem.</p>
+<p>One solution to navigate large datasets within a fixed token window is Retrieval Augmented Generation (RAG). To come up with a concrete example, you might want to create a dating app that matches individuals based on their free-form answer to the question, “What is your relationship with books, tv shows, movies and music, and how has it changed over time?” No token window is large enough to include every user&rsquo;s response from the dating app’s database into the LLM prompt, but you could find twenty plausible matching users by filtering on location, and then include those twenty users’ free-form answers, and match amongst them.</p>
+<p>This makes a lot of sense, and the two phase combination of an unsophisticated algorithm to get plausible components of a response along with an LLM to filter through and package the plausible responses into an actual response works pretty well.</p>
+<p>Where I see folks get into trouble is trying to treat RAG as a <em>solution</em> to a search problem, as opposed to recognizing that RAG requires useful search as part of its implementation. An effective approach to RAG <em>depends</em> on a high-quality retrieval and filtering mechanism to work well at a non-trivial scale. For example, with a high-level view of RAG, some folks might think they can replace their search technology (e.g. Elasticsearch) with RAG, but that’s only true if your dataset is very small and you can tolerate much higher response latencies.</p>
+<p>The challenge, from my perspective, is that most corner-cutting solutions look like they’re working on small datasets while letting you pretend that things like search relevance don’t matter, while in reality relevance significantly impacts quality of responses when you move beyond prototyping (whether they&rsquo;re literally search relevance or are better tuned SQL queries to retrieve more appropriate rows). This creates a false expectation of how the prototype will translate into a production capability, with all the predictable consequences: underestimating timelines, poor production behavior/performance, etc.</p>
+<h2 id="rate-of-innovation">Rate of innovation</h2>
+<p>Model performance, essentially the quality of response for a given budget in either dollars or milliseconds, is going to continue to improve, but it’s not going to continue improving at this rate absent significant technology breakthroughs in the creation or processing of LLMs. I’d expect those breakthroughs to happen, but to happen less frequently after the first several years, and slow from there. It’s hard to determine where we are in that cycle because there’s still an extraordinary amount of capital flowing into this space.</p>
+<p>In addition to technical breakthroughs, the other aspect driving innovation is building increasingly large models. It’s unclear if today’s limiting factor for model size is availability of Nvidia GPUs, larger datasets to train models upon that are plausibly legal, capital to train new models, or financial models suggesting that the discounted future cashflow from training larger models doesn’t meet a reasonable payback period. My assumption is that all of these have or will be the limiting constraint on LLM innovation over time, and various competitors will be best suited to make progress depending on which constraint is most relevant. (Lots of fascinating albeit fringe scenarios to contemplate here, e.g. imagine a scenario where the US government disbands copyright laws to allow training on larger datasets because it fears losing the LLM training race to countries that don’t respect US copyright laws.)</p>
+<p>It’s safe to assume model performance will continue to improve. It’s likely true that performance will significantly improve over the next several years. I find it relatively unlikely to assume that we’ll see a Moore’s Law scenario where LLMs continue to radically improve for several decades, but lots of things could easily prove me wrong. For example, at some point nuclear fusion is going to become mainstream and radically change how we think about energy utilization in ways that will truly rewrite the world’s structure, and LLM training costs could be one part of that.</p>
+<h2 id="human-in-the-loop-hitl">Human-in-the-Loop (HITL)</h2>
+<p>Because you cannot rely on LLMs to provide correct responses, and you cannot generate a confidence score for any given response, you have to either accept potential inaccuracies (which makes sense in many cases, humans are wrong sometimes too) or keep a Human-in-the-Loop (HITL) to validate the response.</p>
+<p>As discussed in the workflow section, many companies already have humans performing validation work who can now move into supervision of LLM responses rather than generating the responses themselves. In other scenarios, it’s possible to adjust your product’s workflows to rely on external users to serve as the HITL instead. I suspect most products will depend on both techniques along with heuristics to determine when internal review is necessary.</p>
+<h2 id="hallucinations-and-legal-liability">Hallucinations and legal liability</h2>
+<p>As mentioned before, LLMs often generate confidently wrong responses. HITL is the design principle to prevent acting on confidently wrong responses. This is because it shifts responsibility (specifically, legal liability) away from the LLM itself and to the specific human. For example, if you use Github Copilot to generate some code that causes a security breach, <em>you</em> are responsible for that security breach, not Github Copilot. Every large-scale adoption of LLMs today is being done in a mode where it shifts responsibility for the responses to a participating human.</p>
+<p>Many early-stage entrepreneurs are dreaming of a world with a very different loop where LLMs are relied upon without a HITL, but I think that will only be true for scenarios where it’s possible to shift legal liability (e.g. Github Copilot example) or there’s no legal liability to begin with (e.g. generating a funny poem based on their profile picture).</p>
+<h2 id="zero-to-one-versus-one-to-n">“Zero to one” versus “One to N”</h2>
+<p>There’s a strong desire for a world where LLMs replace software engineers, or where software engineers move into a supervisory role rather than writing software. For example, an entrepreneur wants to build a copy of Reddit, and uses an LLM to implement that implementation. There’s enough evidence that you can assume it’s possible today to go from zero to one on a new product idea in a few weeks with an LLM and some debugging skills.</p>
+<p>However, most entrepreneurs lack a deep intuition on operating and evolving software with a meaningful number of users. Some examples:</p>
+<ul>
+<li>Keeping users engaged after changing the UI requires active, deliberate work</li>
+<li>Ensuring user data is secure and meets various privacy compliance obligations</li>
+<li>Providing controls to meet SOC2 and providing auditable evidence of maintaining those controls</li>
+<li>Migrating a database schema with customer data in it to support a new set of columns</li>
+<li>Ratcheting down query patterns to a specific set of allowed patterns that perform effectively at higher scale</li>
+</ul>
+<p>All of these are straightforward, basic components of scaling a product (e.g. going from “one to N”) that an LLM is simply not going to perform effectively at, and where I am skeptical that we’ll ever see a particularly reliable LLM-based replacement for skilled, human intelligence. It will be interesting to watch, though, as we see how far folks try to push the boundaries of what LLM-based automation can do to delay the onset of projects needing to hire expertise.</p>
+<h2 id="copyright-law">Copyright law</h2>
+<p>Copyright implications are very unclear today, and will remain unclear for the foreseeable future. All work done today using LLMs has to account for divergent legal outcomes. My best guess is that we will see an era of legal balkanization regarding whether LLM generated content is copyright-able, and longer-term that LLMs will be viewed the same as any other basic technical component, e.g. running a spell checker doesn’t revoke your copyright on the spell checked document. You can make all sorts of good arguments why this perspective isn’t fair to copyright holders whose data was trained on, but long-term I just don’t think any other interpretation is workable.</p>
+<h2 id="data-processing-agreements">Data Processing Agreements</h2>
+<p>One small but fascinating reality of working with LLMs today is that many customers are sensitive to the LLM providers (OpenAI, Anthropic, etc) because these providers are relatively new companies building relatively new things with little legal precedent to derisk them. This means adding them to your Data Processing Agreement (DPA) can create some friction. The most obvious way around that friction is relying on LLM functionality served via your existing cloud vendor (AWS, Azure, GCP, etc).</p>
+<h2 id="provider-availability">Provider availability</h2>
+<p>I used to think this was very important, but my sense is that LLM hosting is already essentially equivalent to other cloud services (e.g. you can get Anthropic via AWS or OpenAI via Azure), and that very few companies will benefit from spending too much time worrying about LLM availability. I do think that getting direct access to LLMs via cloud providers–companies that are well-versed at scalability–is likely the winning pick here as well.</p>
+<hr />
+<p><em>There’s lots of folks out there who have spent more time thinking deeply about LLMs than I have–e.g. go read some <a href="https://simonwillison.net/">Simon Willison</a>–but hopefully the notes here are useful. Curious to discuss if folks disagree with any of these perspectives.</em></p>
+]]></content:encoded>
+<pubDate>Mon, 08 Apr 2024 09:00:00 -0700</pubDate>
+<pubDate>Mon, 08 Apr 2024 09:00:00 -0700</pubDate>
+</item>
+<item>
+<title>Ex-technology companies.</title>
+<link>https://lethain.com/ex-technology-companies/</link>
+<guid>https://lethain.com/ex-technology-companies/</guid>
+<content:encoded><![CDATA[
+<div> technology company, valuation, R&D, financial profile, ex-technology company
+
+总结:<br><br>文章探讨了公司是否属于科技公司的两种观点：投资者视角和员工视角。文章指出一些公司正在失去科技公司的地位，原因包括无法达到零边际成本、R&D无法提升公司财务状况、过度维护和无法改变商业结果。建议对公司是否属于新一类的前科技公司进行评估，并指出如果R&D无法在三年内显著改变公司财务状况，则可能已经加入这个新的类别。文章鼓励保持希望，因为科技行业充满变化。 <div>
+<p>One of the most interesting questions I got after joining Calm in 2020 was whether Calm was a technology company. Most interestingly, this question wasn’t coming from friends or random strangers on the internet, it was coming from the engineers working there! In an attempt to answer those questions, I <a href="https://lethain.com/tech-company/">wrote up some notes</a>, which summarize two perspectives on “being a technology company.”</p>
+<p>The first perspective is Ben Thompson’s “<a href="https://stratechery.com/2019/what-is-a-tech-company/">Software has zero marginal costs.</a>” You’re a technology company if adding your next user doesn’t create more costs to support that user. Yes, it’s not <em>really</em> zero, e.g. Stripe has some additional human overhead for managing fraud for each incremental user it adds, but it’s a sufficiently low coefficient that it’s effectively zero. This is the investor perspective, and matters predominantly to companies because it will change how their valuation is calculated, which in turn plays a significant role in investor, founder, and employee compensation.</p>
+<p>If a company is a technology company in a “good” vertical, then the valuation might be 7-10x revenue. If it’s not a technology company, the valuation might be 2-5x revenue. The rationale behind this difference is that a technology company should be able to push its gross margin to 70+% as it matures, which will drive significantly higher cash flow, and most valuations are anchored in <a href="https://www.investopedia.com/terms/d/dcf.asp">discounted future cash flow</a>. This also means that if you’re perceived as a technology company one year, and then not perceived as a technology company a few years later, your company’s valuation plummets.</p>
+<p>The second perspective on being a technology company is captured by <a href="https://twitter.com/skamille/status/1216076147391434752?s=20">Camille Fournier</a>, “A company where engineering has a seat at the table for strategic discussions.” This is the employee perspective regarding how it <em>feels</em> to work within a company. If engineering has a meaningful influence in how the company makes decisions, then doing engineering work at that company will generally be a rewarding experience. If they don’t have much influence, then they’ll generally be <a href="https://lethain.com/cost-centers/">treated as a cost center</a>.</p>
+<p>The recent trend that I want to apply these definitions to is that I see a number of companies <em>losing their “technology company status.”</em>
+These fallen technology companies are creating a new striation of company, whose employees and investors think of themselves as being in a technology company, but where the company itself is no longer able to effectively provide that experience to employees, or valuation to investors.</p>
+<p>Companies are falling out of technology company status for a few reasons:</p>
+<ol>
+<li>
+<p>Their zero marginal costs were always aspirational constructs to attract investors. They can no longer find investors who believe in their dream, and they are not able to reach those zero marginal costs with their remaining cash reserves</p>
+</li>
+<li>
+<p>They no longer believe they can change the business’ outcomes through R&amp;D efforts, and as a result they shouldn’t include engineering as a major stakeholder in business decisions. I recently chatted with a data science leader who described their company reaching this state. They couldn’t show any business impact from the past two years of their product releases, so the finance team identified a surefire way for R&amp;D to make a business impact: laying off much of the R&amp;D team.</p>
+<p>This is more extreme than the typical example of companies which have “overhired.” Those companies believe they have impactful R&amp;D work to do, it’s simply that they have more capacity than high quality projects. <em>These</em> companies cannot identify non-maintenance R&amp;D work that will make their business more valuable</p>
+</li>
+</ol>
+<p>The experience of working in this new striation of ex-technology company shares some of the ideas developed in Jean Yang’s <a href="https://www.akitasoftware.com/blog-posts/building-observability-for-99-developers">Building Observability for 99% Developers</a>: many of the latest ideas and trends are no longer appropriate or <a href="https://www.honeycomb.io/blog/cost-crisis-observability-tooling">perhaps even affordable</a>. However, compared to the 99% developer experience, this striation of ex-technology companies is in an even harder spot: they grew up, and established their R&amp;D cost structures, believing they were technology companies. Now they have poor financial fundamentals and have downsized the R&amp;D teams previously intended to build their way out of that predicament.</p>
+<p>Organizations that spun up dedicated in-house build and deployment infrastructure have fixed engineering costs to maintain that infrastructure, and the math that convinced executives earlier–some sort of argument about the multiplicative effect on the impact of other engineers–doesn’t make as much sense anymore. But often you can’t just stop maintaining those investments, because that would require slowing down to decommission the existing systems, and ex-technology companies have little capacity for maintenance. Instead they’re focused on survival or roleplaying the motions of rapid product development despite actually spending the large majority of their time on maintenance.</p>
+<p>This was the exact challenge we encountered after <a href="https://lethain.com/digg-acquihire/">Digg’s layoffs</a>: our architecture and processes had been designed for a team of ~50 engineers and now a team of ~10 had to operate it. Our service architecture of seven services made a great deal of sense for seven engineering teams, but was a lot less convenient for one engineering team with little redundancy in skillset.</p>
+<p>If you’re trying to determine whether you’re in this ex-technology striation, the question I’d encourage you to ask yourself is whether R&amp;D at your company can significantly change your company’s financial profile over the next three years. If the answer is yes, then I don’t think you’re a member. Even if you’re in a dark moment–and many people are in 2024–as long as you see a path for R&amp;D to change your company’s financial fundamentals, stay hopeful.</p>
+<p>On the other hand, if you simply don’t see a path to changing the underlying financials, then you probably have joined the new striation of ex-technology companies. This might be because your business never made sense as a technology company to begin with. Or it might be because your R&amp;D operating structure is simply designed for a larger team than you’ll ever have again, and the work to solve that problem is uninvestable in your new circumstances.</p>
+<p>The beautiful thing about our industry is that it’s a dynamic, living thing. We’re in a challenging pocket, but the good times are never too far around the corner either.</p>
+]]></content:encoded>
+<pubDate>Fri, 22 Mar 2024 04:00:00 -0700</pubDate>
+<pubDate>Fri, 22 Mar 2024 04:00:00 -0700</pubDate>
+</item>
+<item>
+<title>Leadership requires taking some risk.</title>
+<link>https://lethain.com/leadership-requires-risk/</link>
+<guid>https://lethain.com/leadership-requires-risk/</guid>
+<content:encoded><![CDATA[
+<div> personal risk, bottom-up decision-making, leadership, accountability, capacity obfuscation
+<br>
+领导者在职业发展中有时需要承担个人风险，尤其是在底层决策中。在这种情况下，领导者需要承担责任，而不是将风险转移到高级领导身上。在做出决策时，要确保根据用户需求进行充分的验证和数据分析，同时在解决问题时要注意隐藏内部工作，以免将容量暴露给外部需求。要想取得个人和职业成长，必须愿意承担风险并积极解决问题，这是领导者的基本要求。持续发展需要深入研究并学习自己的经验。 
+<br><br>总结:领导者需要在底层决策中承担个人风险并承担责任，同时要隐藏内部工作以防止容量的暴露。 <div>
+<p>At a recent offsite with Carta’s <a href="https://lethain.com/navigators/">Navigators</a>, we landed on an interesting topic: leadership roles sometimes mean that making progress on a professional initiative requires taking some personal risk.</p>
+<p>This lesson was hammered into me a decade ago during my time at Uber, where <a href="https://lethain.com/founding-uber-sre/">I kicked off the Uber SRE group</a> and architectured Uber’s self-service service provisioning strategy that defined Uber’s approach to software development (which spawned a thousand thought pieces, not all complimentary). I did both without top-down approval, and made damn sure they worked out. It wasn’t that I was an anarchist, or that I hated all authority, rather that I could have never gotten explicit approval for either approach. It was the sort of culture where occasionally you were told not to do something, but you were only rarely given explicit permission to do anything. My choice was to either point fingers about why I was stuck, or take on some personal risk to make forward progress.</p>
+<p>I love making progress, and hate being stuck, so for me it was an easy decision: take ownership
+and move forward.
+There’s a reasonable argument to be made that I was a bit reckless here, but I believe that a surprising number of environments distribute leadership decisions exactly this way. Indeed, if you want a bottom-up decision-making environment, but feel that taking on personal risk is an unreasonable demand, then maybe you actually don’t want a bottom-up decision-making environment.</p>
+<p>In these environments, decisions aren’t solely the purview of executives. As a staff engineer or a line manager, you’ll be celebrated if you succeed, lampooned if you fail, and you&rsquo;ll have to own the risk directly rather than shifting the risk to senior leadership by getting their approval. In this mode of operation, senior leadership doesn’t provide direction on navigating demands, rather they provide demands to be satisfied (sometimes described as “context” because that’s a nicer sounding word than “demands”), and outsource solving the constraints to the team.</p>
+<p>If you want to make choices, expect that you’re going to be accountable for outcomes.</p>
+<h2 id="when-should-you-take-risks">When should you take risks?</h2>
+<p>This isn’t a recommendation to <em>always</em> take on personal risks. Sometimes that isn’t just ill-advised, it will put you in active conflict with your company. For example, if your company has a clearly articulated <a href="https://lethain.com/eng-strategies/">engineering strategy</a>, then explicitly violating that strategy is unlikely to succeed. Further, the risk is magnified, because you’re not just filling in blank space, you’re undermining the organization’s explicit decisions. This is true even when <a href="https://lethain.com/solving-the-engineering-strategy-crisis/">the strategy isn’t explicitly documented</a>, but is nonetheless widely recognized.</p>
+<p>You should generally only take bottom-up decision-making risk in two scenarios:</p>
+<ol>
+<li>It’s a blank space without an articulated or practiced strategy (e.g. rolling out a caching strategy at a company without any consistent approach to caching). <br />
+<br />
+Creating the SRE organization at Uber fell into this bucket, as there simply wasn’t an existing point of view on whether to have such an organization</li>
+<li>It’s an existential issue, where respecting the strategy is secondary to survival (e.g. solving a compliance problem that your company has irrationally decided to deprioritize). <br />
+<br />
+Our switch to self-service service provisioning at Uber was in this bucket, as part of that strategy <a href="https://lethain.com/trunk-and-branches/">was deliberately slowing down support for manual provisioning while we built the new solution</a>, and no one would have approved a slow down</li>
+</ol>
+<p>If there’s a way to make progress without taking on personal risk, that’s your first option. Get approval from the decision-making body. Find an executive sponsor for the initiative. It’s only when you run out of “approved paths forward” that you should consider taking on the risk yourself. Depending on your company, you may find there are abundant opportunities for approval, or none at all.</p>
+<h2 id="owning-the-risk">Owning the risk</h2>
+<p>For a long time, I considered it an enduring irony that executives are rarely held accountable for their decisions. This seems unfair, but it’s also true that the typical executive holds a basket of risks, and some of them are going to come due even if they do an excellent job of managing the overall basket. When you take on a risk as a non-executive, your situation is a bit different. You probably own exactly one significant risk, and similarly to the pressure to ensure your “<a href="https://staffeng.com/guides/staff-projects/">staff project</a>” succeeds, every time you take on a personal risk, you need to ensure it’s a success.</p>
+<p>When attempts to own risk fail, it usually comes down to two issues:</p>
+<ol>
+<li>a lack of interest in user needs, generally because you’re anchored on the adoption of a particular approach or technology (e.g. we must use a serverless architecture)</li>
+<li>It’s unclear if the approach is working for so long that it gets canceled from above before showing impact (e.g. you’re nine months into building a vastly superior service framework, but nothing important is able to migrate to it)</li>
+</ol>
+<p>There are a handful of techniques to reduce risk:</p>
+<ul>
+<li><em><a href="https://lethain.com/eng-strategies/">Engineering strategy techniques</a></em>: are useful even if no one will approve your strategy, because they force you to think through the constraints and challenges before jumping into the solution</li>
+<li><em>Modeling techniques</em>: like <a href="https://lethain.com/systems-thinking/">systems thinking</a> or Wardley mapping (explained in <a href="https://medium.com/wardleymaps/on-being-lost-2ef5f05eb1ec">Simon Wardley’s original book</a> or <a href="https://lethain.com/notes-on-the-value-flywheel-effect/">The Value Flywheel Effect</a>) will help you build conviction that both the problem is real and your solution is viable</li>
+<li><em>Skunkwork prototyping</em>: don’t take on the risk until you’ve validated your approach is viable</li>
+<li><em><a href="https://lethain.com/migrations/">Effective migrations</a></em>: iterate rapidly across usage cohorts to understand the full breadth of requirements before driving adoption numbers to ensure you don’t stall out in late stages</li>
+<li><em>Validate across your network</em>: derisk your approach by <a href="https://staffeng.com/guides/network-of-peers/">reaching out to peers at similar companies</a> who’ve already solved the problem and understanding why your proposed approach did or did not work well for them</li>
+<li><em>Engage an executive sponsor</em>: convince an executive to care enough about the risk you’re taking on that they’re going to absorb it themselves. This usually requires a strong pre-existing relationship with the executive that you’ve built by listening to them and taking on problems that they’re trying to solve</li>
+</ul>
+<p>If none of those are directly applicable, then at a minimum ensure that you’re anchored in the data about your users and have done the work to understand their needs.</p>
+<h2 id="obfuscated-capacity">Obfuscated capacity</h2>
+<p>As hinted at earlier, sometimes bottom-up leadership requires obfuscating the work being done, because it addresses an
+implied system problem rather than directly solving their current problem. Sometimes your approach will even make things worse short-term, which is an idea I touch on in the <a href="https://lethain.com/trunk-and-branches/">Trunk and Branches Model for Scaling Infrastructure Organizations</a>. In that case, we had so many incoming requests that servicing them effectively would have consumed our entire bandwidth, and we created time to invest into systems work by degrading our response to short-term requests.</p>
+<p>Overwhelmed teams generally turn to executive leadership to prioritize their incoming asks, but overwhelmed teams in a bottom-up decision-making environment will generally find that approach doesn’t work very well. Executives have become comfortable articulating demands, and will restate their demands, but are often not particularly good at solving for underlying constraints. The bottom-up team itself has to take the risk to solve their own constraints.</p>
+<p>In most cases, that means that these teams develop some mechanism for hiding internal work that needs to be done but doesn’t directly solve an executive demand. They’ll all describe this somewhat differently, whether it’s “engineering-allocated story points”, mildly inflating the sizing of every project, preventing on-call engineers from being tasked with product work, a platform team that’s not included in roadmapping, or just a sufficiently messy planning process that an engineer or two&rsquo;s efforts can be quietly redirected.</p>
+<p>Long-term, teams retain the right to obfuscate capacity by delivering something useful with the capacity they previously obfuscated. If not, long-term that capacity is “detected” and recaptured by the encompassing organization. Most organizations are glad to ignore the details of your team’s allocation for a quarter, but very few will ignore your output for an entire year.
+If you obfuscate capacity without solving something meaningful with it, you&rsquo;ll find that trust takes
+quite a long time to rebuild.</p>
+<h2 id="leadership-requires-some-risks">Leadership requires some risks</h2>
+<p>Taking direct, personal risk is a prerequisite to taking ownershsip of interesting problems that matter to your company.
+A risk-free existence isn&rsquo;t a leadership role, regardless of whatever your title might be.
+Indeed, an uncomfortable belief of mine is that leadership is predicated on risk.
+The upside is that almost all meaningful personal and career growth is hidden behind the risk-taking door.
+There’s a lot of interesting lessons to learn out there, and while you can learn a lot from others, some of them you have to learn yourself.</p>
+]]></content:encoded>
+<pubDate>Sun, 17 Mar 2024 05:00:00 -0700</pubDate>
+<pubDate>Sun, 17 Mar 2024 05:00:00 -0700</pubDate>
+</item>
+<item>
+<title>Friction isn't velocity.</title>
+<link>https://lethain.com/friction-vs-velocity/</link>
+<guid>https://lethain.com/friction-vs-velocity/</guid>
+<content:encoded><![CDATA[
+<div> 窗户、空气阻力、迁移服务、开发流程、知识库<br>
+总结:<br>
+文章讲述了在企业中经常出现的一种错误推理，即以行动代替进步。举例说明了在迁移服务、改变开发流程、更换知识库等方面常见的误解，认为这些举措能解决问题，实际上只是表面上的进步，没有解决根本问题。文章建议在这种情况下及时提醒相关人员，如果对反馈不感兴趣，则表明他们更注重领导力的展现，而不是工作的实际影响。最后提到，在完全陷入困境的情况下，迅速采取行动可能比耐心追求更为重要。 <div>
+<p>When you&rsquo;re driving a car down a road, you might get a bit stuffy and decide
+to roll your windows down. The air will flow in, the wind will get louder,
+and the sensation of moving will intensify. Your engine will start working a bit
+harder&ndash;and louder&ndash;to maintain the same speed.
+Every sensation will tell you that you&rsquo;re moving faster, but lowering the window
+has increased your car&rsquo;s air resistance, and you&rsquo;re actually going slower.
+Or at minimum you&rsquo;re using more fuel to maintain the same speed.</p>
+<p>There&rsquo;s nothing that you didn&rsquo;t already know in the first paragraph,
+but it remains the most common category of reasoning error that I see stressed executives make.
+If you&rsquo;re not sure how to make progress, then emotionally it feels a lot better to
+substitute motion for lack of progress, but in practice you&rsquo;re worse off.</p>
+<p>Grounding this in a few examples:</p>
+<ul>
+<li>
+<p>Many companies realize that their monolithic codebase is slowing them down.
+It&rsquo;s easy to decide to migrate from your monolith to services to &ldquo;solve&rdquo; this problem,
+but without a clear service architecture, most attempts take a long time without
+improving on the underlying issues. That&rsquo;s because an effective service migration
+requires the same skill to operate an effective monolith: good technical design.</p>
+<p>However, the microservice migration itself provides a reassuring sensation of progress,
+delaying for a year or two the realization that you&rsquo;re in roughly the same place
+that you started in.</p>
+</li>
+<li>
+<p>When your engineering organization doesn&rsquo;t seem to be shipping enough software,
+an easy solution is to rollout a new development process. For example, you might
+say that an ineffective team needs to start following the scrum development technique.</p>
+<p>In rare case that the team has never considered any approach to organize their work,
+then this might well help. In most cases, this will just paper over whatever problem
+is causing the slow down, creating an appearance of progress that&rsquo;ll quickly fade away.</p>
+</li>
+<li>
+<p>It&rsquo;s common for new executives to rollout their preferrenced knowledge base, e.g.
+Notion or Confluence or whatnot, operating from the belief that the tool itself is the fundamental
+driver of an effective knowledge base.</p>
+<p>This will create months of work to move to a new knowledge base, but generally does not
+improve the underlying knowledge being managed. Poorly managed knowledge bases are always
+related to incentives and culture, not checkbox ready feature lists like &ldquo;effective search.&rdquo;</p>
+</li>
+</ul>
+<p>The pattern here is generally an intuition-driven decision driven by a senior leader, unclear criteria for success,
+an orientation towards motion as an effective proxy for progress, and being too busy to
+reflect on whether prior actions accomplished their intended goals.
+This recipe passes as leadership,
+and does share some of the characteristics from <a href="https://lethain.com/developing-leadership-styles/">leading from conviction</a>,
+but is always an inferior tactic to another available option.</p>
+<p>If you see someone following this tactic, it&rsquo;s a genuine kindness to point it out to them.
+If they&rsquo;re not interested in that feedback, you&rsquo;ve learned something important:
+they&rsquo;re more focused on the performance act of leadership than in the impact of their work.</p>
+<p>To provide one caveat, in cases where you&rsquo;re wholly stuck, then minimizing friction doesn&rsquo;t matter so much.
+In that case, Travis Kalanick&rsquo;s classic quote is appropriate,
+&ldquo;<a href="https://siliconprairienews.com/2011/05/big-omaha-travis-kalanick-whatever-it-is-that-you-re-afraid-of-go-after-it/">Fear is the disease. Hustle is the antidote</a>.&rdquo;
+Frenetic motion is worse than thoughtful pursuit, but some frenzy is preferable to
+<a href="https://poets.org/poem/do-not-go-gentle-good-night">going quietly into that good night</a>.</p>
+]]></content:encoded>
+<pubDate>Fri, 15 Mar 2024 05:00:00 -0700</pubDate>
+<pubDate>Fri, 15 Mar 2024 05:00:00 -0700</pubDate>
+</item>
+<item>
+<title>More (self-)publishing thoughts.</title>
+<link>https://lethain.com/more-publshing-thoughts/</link>
+<guid>https://lethain.com/more-publshing-thoughts/</guid>
+<content:encoded><![CDATA[
+<div> 出版，数字，自行出版，出版商，控制价格
+
+总结：<br><br>作者分享了自己的出版经验，包括与出版商合作和自行出版的经历。他提出了自行出版的一些利弊和注意事项，例如学习曲线、定价控制、印刷质量、创作控制、编辑支持、发行时间和国际权利管理等方面的差异。作者认为是否自行出版取决于具体情况，没有绝对正确的决定。 <div>
+<p>I recently got an email asking about self-publishing books,
+and wanted to summarize my thinking there.
+Recapping my relevant experience, I&rsquo;ve written three books:</p>
+<ol>
+<li><a href="https://lethain.com/elegant-puzzle/"><em>An Elegant Puzzle</em></a> was published in 2019 as a manuscript by <em>Stripe Press</em> (e.g. I wrote it and then it was released as is),
+which has sold about 100,000 copies (96k through the end of 2023, and selling about 4k copies a quarter over past two years),</li>
+<li><a href="https://lethain.com/staff-engineer/"><em>Staff Engineer</em></a> which I self-published in 2021, which has sold about 70,000 copies (also selling roughly 4k copies a quarter
+over the past two years)</li>
+<li><a href="https://lethain.com/eng-execs-primer/"><em>The Engineering Executive&rsquo;s Primer</em></a> which was published by <em>O&rsquo;Reilly</em> earlier this month.
+It&rsquo;s too early to have sales numbers at this point</li>
+</ol>
+<p>Putting those in context, my sense is that these are &ldquo;very good&rdquo; numbers, but not &ldquo;breakout&rdquo; numbers.
+For example, my best guess is that a breakout technology book like <em><a href="https://www.amazon.com/dp/1942788339">Accelerate</a></em>
+or <em><a href="https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/">The Manager&rsquo;s Path</a></em>
+has sold something closer to 300-500k copies.</p>
+<p>I&rsquo;ve also written about publishing a few times:</p>
+<ul>
+<li><a href="https://lethain.com/self-publishing-staff-engineer/">Self-publishing Staff Engineer</a> (2021) &ndash; this remains a comprehensive summary of my self-publishing process</li>
+<li><a href="https://lethain.com/publishing-eng-execs-primer/">Thoughts on writing and publishing Primer</a> (2023) &ndash; my process writing with <em>O&rsquo;Reilly</em> and how it contrasted with self-publishing</li>
+<li><a href="https://lethain.com/learned-writing-book/">What I learned writing [An Elegant Puzzle]</a> (2019) &ndash; I wrote this shortly after finishing writing Puzzle, and rereading this five years later,
+I&rsquo;m most surprised at how little I knew about writing books at this point. It&rsquo;s also a poorly formatted post, but whatever, who knows what
+I was doing back then</li>
+</ul>
+<p>Building on that, the general elements I&rsquo;d encourage someone to think
+through if they&rsquo;re deciding whether to self-publishing:</p>
+<ul>
+<li>
+<p><strong>There&rsquo;s a learning curve</strong> to publishing book, and I&rsquo;ve learned a lot from every book I&rsquo;ve written.
+Both working with publishers and self-publishing accelerate your learning curve.
+To maximize learning, I&rsquo;d recommend doing a mix of both. If your goal is to only write a single book,
+I&rsquo;d recommend working with a publisher already has gone through the learning curve and can guide you
+on navigate it as well</p>
+</li>
+<li>
+<p><strong>Publishers might not take your book</strong>, which means sometimes you can&rsquo;t publish a given book with a publisher.
+I&rsquo;d generally argue that means you should work on your own distribution before trying to publish the book.
+Having your own distribution is critical to getting a publisher to take your book, and also critical to
+being able to self-publish successfully. If you can&rsquo;t find a publisher willing to take your book, I think there&rsquo;s
+a lot of risk in self-publishing it (not because self-publishing is inherently risky, but because publishers filter
+for the sorts of criteria that derisk self-publishing), and you should reflect on that</p>
+</li>
+<li>
+<p><strong>Pricing control</strong> is lost when you work with a publisher. <em>Stripe Press</em> prices to maximize distribution, selling a hard cover at roughly $20.
+<em>O&rsquo;Reilly</em> prices to maximize profit, selling a paperback at roughly $40. Neither of these is right or wrong, but your goals may or may not
+align with your publisher&rsquo;s pricing strategy. When self-publishing, there&rsquo;s no potential for misaligning with the publisher&rsquo;s pricing strategy.
+Of course, pricing strategy also impacts your compensation a great deal, e.g. I probably make twice as much from each copy of <em>Staff Engineer</em> sold
+as I do from a copy of <em>The Engineering Executive&rsquo;s Primer</em>, despite the fact that <em>Staff Engineer</em> costs half as much.</p>
+</li>
+<li>
+<p><strong>Pring quality</strong> is highly variable across publishing solutions. In particular, <a href="https://kdp.amazon.com/">Kindle Direct Publishing</a>&ndash;which is the
+dominant on-demand printing solution for self-published books&ndash;has highly variable print quality.
+In general, on-demand print quality is variable because there are 10,000s of small batch print runs. Even when print quality is high 99% of the time,
+it still means shipping some badly printed books. Anecdotally, my sense is that quality is highly dependent on the specific region where your book is
+printed, so you might never get a badly printed copy, but many of your readers in another region might frequently receive low quality print.
+This has been the largest &ldquo;hidden tax&rdquo; of self-publishing for me.</p>
+<p>If you work with a publisher, they handle this, and their large volume print runs are generally error free because they are infrequent and represent
+a major investment for both the publisher and printer</p>
+</li>
+<li>
+<p><strong>Creative control</strong> may be significantly lower working with a publisher on many dimensions. This ranges from creating your book&rsquo;s cover
+to decisions about how content and topics are treated. Similar to pricing strategy, you can largely derisk this issue upfront by
+understanding what a given publisher wants in these regards, but you can get into a lot of trouble if you don&rsquo;t align early</p>
+</li>
+<li>
+<p><strong>Editorial support</strong> is highly variable across publishers and editors within publishers
+I&rsquo;ve adored every publisher and editor I&rsquo;ve worked with, but I think that&rsquo;s largely due to good luck
+(asking around about a given editor goes a long way here)</p>
+</li>
+<li>
+<p><strong>Other sorts of support</strong> is highly variable, but working with a publisher you don&rsquo;t have to find
+the folks, and generally you&rsquo;re going to run into fewer operational issues because you&rsquo;re working
+with folks who publish books frequently</p>
+</li>
+<li>
+<p><strong>Release timing and control</strong> is very low when you work with a publisher.
+When you self-publish, particularly with a print on-demand solution, you have immense control here</p>
+</li>
+<li>
+<p><strong>Payment nuances</strong> are someone else&rsquo;s problem if you work with a publisher. If you&rsquo;re an individual author
+who is taking full revenue (and costs), this is trivial. However, if you want to split revenue from a book,
+this is going to be fairly annoying as a self-publisher</p>
+</li>
+<li>
+<p><strong>International rights management</strong> is pretty painstaking as a self-published author, although if you&rsquo;re lucky
+you can find an agency to work with like <a href="https://www.nordlysetagency.com/">Nordlyset</a> who take on most of the burden
+for this. You can do this yourself (and I did for one language, just to understand the process), but you won&rsquo;t
+have a good sense of the quality of those international publishers, how to do the negotiations, and so on.
+Not all publishers will handle this for you either, for example I work with Nordlyset for both my Stripe Press
+and self-published books, but O&rsquo;Reilly handles this for me</p>
+</li>
+</ul>
+<p>In sum, I don&rsquo;t think there&rsquo;s any right decision on whether or not to self-publish,
+it&rsquo;s all very context dependent. The only thing I&rsquo;d push back on is the sense that
+there&rsquo;s only one obviously right decision, that statement is resoundingly untrue from
+my experience.</p>
+]]></content:encoded>
+<pubDate>Sat, 24 Feb 2024 05:00:00 -0700</pubDate>
+<pubDate>Sat, 24 Feb 2024 05:00:00 -0700</pubDate>
+</item>
+<item>
+<title>Digital release of Engineering Executive's Primer.</title>
+<link>https://lethain.com/eng-execs-primer-digital-release/</link>
+<guid>https://lethain.com/eng-execs-primer-digital-release/</guid>
+<content:encoded><![CDATA[
+<div> 书籍、印刷、3月、购买、预购
+
+书籍已经开始印刷，实体书将于3月上市。此时，您可以购买电子书或阅读书籍内容。您也可以在亚马逊预订实体书。<br><br>总结: 书籍已印刷完成，实体书将于3月上市；现已可购买电子书或阅读书籍内容；也可在亚马逊预订实体书。 <div>
+<p>Quick update on <em><a href="https://lethain.com/eng-execs-primer/">The Engineering Executive&rsquo;s Primer</a></em>. The book went to print yesterday,
+and physical copies will be available in March.
+Also, as of this moment, you can purchase the <a href="https://www.amazon.com/Engineering-Executives-Primer-Will-Larson-ebook/dp/B0CV4QGPXD/">digital edition on Amazon</a>,
+and read the <a href="https://www.oreilly.com/library/view/the-engineering-executives/9781098149475/">full digital release on O&rsquo;Reilly</a>.
+(You can preorder physical copies on Amazon as well.)</p>
+]]></content:encoded>
+<pubDate>Wed, 07 Feb 2024 01:00:00 -0600</pubDate>
+<pubDate>Wed, 07 Feb 2024 01:00:00 -0600</pubDate>
+</item>
+<item>
+<title>Thesis on value accumulation in AI.</title>
+<link>https://lethain.com/value-accumulation-in-ai/</link>
+<guid>https://lethain.com/value-accumulation-in-ai/</guid>
+<content:encoded><![CDATA[
+<div> 云服务商、模型和核心、AI增强产品、价值积累、人工智能
+总结：<br><br>在人工智能投资方面，当前主要的价值积累在模型和核心层，这一领域存在很多竞争激烈的新公司，但估值已经非常高。未来几年，我认为基础设施将逐渐吞噬模型和核心层，而AI增强产品将成为投资焦点。具体而言，投资于与文件相关的公司和能够结合人类操作的产品可能是有潜力的选择。值得注意的是，选择在已有丰富数据和产品工作流的公司进行AI创新可能是一个有趣而具有发展前景的职业选择。 <div>
+<p>Recently, I&rsquo;ve thinking about where I want to focus my angel investing in 2024,
+and decided to document my thinking about value accumulation in artificial intelligence
+because it explains the shape of my interest&ndash;or lack thereof&ndash;in investing in artificial
+intelligence tooling. I&rsquo;ll describe my understanding of the current state, how I think it&rsquo;ll
+evolve over the next 1-3 years, and then end with how that shapes what I&rsquo;m investing in.</p>
+<p>My view on the the state of play today:</p>
+<ol>
+<li>There are three fundamental components: <em>Infrastructure</em> (cloud providers, NVIDIA, etc),
+<em>Modeling &amp; Core</em> (OpenAI, Anthropic, etc), and <em>AI-enhanced products</em> (Github Copilot, etc)</li>
+<li>Today there&rsquo;s significant value being captured in the <em>Modeling &amp; Core</em> layer,
+and many new companies attempting to compete in that tier. Valuations in this tier
+are extremely rich at this point</li>
+<li><em>Infrastructure</em> hasn&rsquo;t captured too much value, except for NVIDIA who arguably should be
+split into their own bucket of &ldquo;hardware&rdquo; instead of lumped in with cloud providers.
+Cloud vendors have the scale of physical resources to participate in AI, but generally
+don&rsquo;t yet have strong offerings. However, these companies have a structural advantage
+in preexisting legal contracts with companies to govern API and data usage, along with
+the economy of scale to rapidly grow these businesses once they find product-market fit
+in the AI segment</li>
+<li><em>AI-enhanced product</em> has relatively few sophisticated entries today. There&rsquo;s a lot of
+handwaving and loud statements, but very few companies that have proven out their AI-enhanced
+products are meaningfully better than preexisting alternatives.
+I think this is a matter of time rather than exceptionally difficult, so we will see more
+value accumulate here.</li>
+</ol>
+<p>However, I think this is a transitory state.
+Where I see things moving over the next several years (and generally I think the transition here
+will be faster than slower):</p>
+<ol>
+<li>I believe <em>Infrastructure</em> will eat an increasingly large amount of the <em>Modeling &amp; Core</em> tier.
+Even today, the cloud providers of the <em>Infrastructure</em> have significant ownership and control
+in the leading <em>Modeling &amp; Core</em> tier. This will make it harder to perceive the shift,
+but I think it&rsquo;s already happening and will accelerate</li>
+<li>Because I believe <em>AI-enhanced product</em> will successfully capture value thoughtfully using AI,
+the interesting question is what sorts of products will capture the majority.
+Ultimately I think the question is whether it&rsquo;s harder to get the necessary data
+to power AI (fast-moving incumbents capture majority of value)
+or whether learning to integrate and integrating products with genuinely useful AI-capabilities
+is harder (new challengers capture majority of value)</li>
+</ol>
+<p>There&rsquo;s no interesting way to invest in the <em>Infrastructure</em> tier in 2024 (the main players are all
+public at this point), and I think the <em>Modeling &amp; Core</em> tier is shrinking (and largely over-valued
+by interest from folks with a different thesis on value accumulation), which means that the interesting
+place to angel invest in 2024 is, in my opinion, in products that are well-suited to adopt AI-capabilities.
+That&rsquo;s a broad category&ndash;we&rsquo;re still learning where these techniques are powerful&ndash;but I think it&rsquo;s particularly
+any company that works heavily with documents, and any company where it&rsquo;s product is capable of keeping a human
+in the loop (e.g. LLMs are cheap, fast and imperfectly accurate, but in a system where someone uses it to draft
+replies and review them by a human, you&rsquo;d be fine).</p>
+<p>Not angel-investing, but if you wanted to make a career bet, I think the interesting career bet is
+finding an established company with significant existing data and product workflows that could be enhanced by
+recent AI advances.</p>
+]]></content:encoded>
+<pubDate>Wed, 31 Jan 2024 14:00:00 -0600</pubDate>
+<pubDate>Wed, 31 Jan 2024 14:00:00 -0600</pubDate>
+</item>
+<item>
+<title>High-Context Triad.</title>
+<link>https://lethain.com/high-context-triad/</link>
+<guid>https://lethain.com/high-context-triad/</guid>
+<content:encoded><![CDATA[
+<div> Context Layers, Navigating Ambiguity, Staff Engineer, High-Context Triad, Engineering
+
+总结：<br><br>作者正在撰写三篇与高上下文相关的文章，形成了“高上下文三元”；其中“上下文层次”为基础概念，使得其他两篇文章写作顺利；在专注讨论领域过程中的技术细节中获得理解，推动了思维的清晰表达；作者对Staff Engineer主题的深刻了解，并计划进行轻微修订；Tanya Reilly的相关工作也对作者的思考产生影响；期望读者对这些文章有所启发。 <div>
+<p>The past couple weeks I’ve been working on three semi-related articles that I think of as the “High Context Triad.” Those are <a href="https://lethain.com/layers-of-context/">Layers of context</a>, <a href="https://lethain.com/navigating-ambiguity/">Navigating ambiguity</a>, and <a href="https://lethain.com/multi-dimensional-tradeoffs/">Tradeoffs are multi-dimensional</a>. One of my background projects, probably happening in 2025 or 2026 after I’ve finished my <a href="https://lethain.com/strategy-notes/">nascent project on engineering strategy</a>, is publishing a second edition of <em><a href="https://staffeng.com/">Staff Engineer</a></em>, and I intended these three articles as supplements.</p>
+<p>I’ve really enjoyed writing these pieces, because the first on context layers is really necessary to establish the vocabulary to even talk about the other two effectively. I’ve been trying to write about navigating ambiguity for four or five years now, but really struggled to do so until I was able to write “Layers of context.”
+Once I wrote about context layers, then the piece on navigating ambiguity fells together in an hour or two, following years of staring at a blank page.
+Similarly, I struggled to write “Layers of context” until I was in a specific set of discussions with an engineer that framed the specific concept clearly enough in my head that I could write it down, which is a good articulation of why I believe so deeply in the unique opportunity of <a href="https://lethain.com/writers-who-operate/">Writers who operate</a>.</p>
+<p>In addition to pulling in this triad, <a href="https://lethain.com/navigators/">Navigators</a> is another likely supplement, perhaps following <a href="https://staffeng.com/guides/where-should-staff-plus-eng-report/">Where do Staff-plus engineers fit into the org?</a> Altogether, I think that <em>Staff Engineer</em> is holding up well, but there’s a lot of interesting thinking happening in the space&ndash;especially Tanya Reilly’s <em><a href="https://learning.oreilly.com/library/view/the-staff-engineers/9781098118723/">The Staff Engineer’s Path</a></em>&ndash;and a light revision will be worthwhile. Eventually. Until then, I hope folks interested in this topic get something out of this High-Context Triad.</p>
+]]></content:encoded>
+<pubDate>Wed, 24 Jan 2024 15:00:00 -0600</pubDate>
+<pubDate>Wed, 24 Jan 2024 15:00:00 -0600</pubDate>
+</item>
+<item>
+<title>Useful tradeoffs are multi-dimensional.</title>
+<link>https://lethain.com/multi-dimensional-tradeoffs/</link>
+<guid>https://lethain.com/multi-dimensional-tradeoffs/</guid>
+<content:encoded><![CDATA[
+<div> 快速部署、软件测试、特性标志、维度、决策
+
+总结:<br><br>本文讨论了在做出决策时如何通过引入额外维度来改善权衡。作者认为在处理复杂的决策时，可以通过添加维度来使决策更清晰。通过具体化利益相关方需求、拓宽视野、测试新的维度是否有用、向有经验的人请教，可以找到并应用合适的维度。这种做法需要在工作中不断尝试，并且随着经验的提升，才能逐渐培养出这种能力。 <div>
+<p>In some pockets of the industry, an axiom of software development is that deploying software quickly is at odds with thoroughly testing that software. One reason that teams believe this is because a fully automated deployment process implies that there’s no opportunity for manual quality assurance. In other pockets of the industry, the axiom is quite different: you can get both fast deployment and manual quality assurance by using feature flags to decouple deployment (shipping the code) and release (enabling new functionality).</p>
+<p>The deeper I get into my career, the more I believe that example holds within it a generalizable pattern for making useful tradeoffs:</p>
+<ol>
+<li>Two-dimensional tradeoffs always disappoint someone</li>
+<li>You can usually make a tradeoff that doesn’t disappoint anyone by introducing a new dimension</li>
+</ol>
+<p>In the “quick vs safe deployment” tradeoff, the additional dimension is decoupling feature activation (“release”) from shipping the code necessary to enable that feature (“deployment”). Introducing that dimension makes it possible for engineers to get fast, predictable deployments and for quality assurance to get the chance to review before enabling the feature for users.</p>
+<p>While most people have already intuited these rules to some extent, I think that stating them explicitly is a lightly transformative experience, and I’ll dig into applying these rules a bit.</p>
+<h2 id="examples">Examples</h2>
+<p>Before talking about the mechanisms of identifying dimensions to improve tradeoffs, let’s briefly walk through a few more examples of where adding a dimension makes for cleaner tradeoffs:</p>
+<ul>
+<li><strong>Project budgets</strong> – During annual planning, many companies struggle with intense debates about whether they invest into international expansion in new markets or do they instead prioritize their existing markets. By adding the dimension of fixed budgets, they can get varying degrees of both rather than debating existentially about doing one or the other</li>
+<li><strong>Diversified portfolio</strong> – For a long time, investors felt stuck either making safe investments that underperformed the stock market or making risky bets that <em>might</em> overperform the stock market but also <em>might</em> go to zero. Burt Malkiel’s <em><a href="https://www.amazon.com/Random-Walk-Down-Wall-Street/dp/1324035439/">A Random Walk Down Wall Street</a></em> introduced the dimension of diversification, such that you could both get stock market-like performance and lower risk</li>
+<li><strong>Data-informed restrictions</strong> – You’ll often hear debates between Product and Security teams about the tradeoff between safety for your users and usability of your product. However, by taking a data informed approach you can often get both. For example, instead of debating about removing permissions from users, start by removing all permissions that each given user currently doesn’t use. By including real-world usage as a dimension of the tradeoffs, you can usually identify a tradeoff that improves security without reducing usability</li>
+<li><strong>Feature flags</strong> – As discussed in the introduction, many engineers believe we must have slow-and-safe deployment or fast-and-risky deployment, but decoupling deploy and release via feature flags allows us to get fast-and-safe deployments</li>
+</ul>
+<p>Beyond this small handful of examples, I suspect you can identify quite a few more tradeoffs from your work history where an additional dimension turned a messy disagreement into an obvious path forward. When you work with someone who’s particularly good at this, the entire idea of tradeoffs starts to melt away to be replaced by thoughtful solutions.</p>
+<h2 id="how-to-add-dimensions">How to add dimensions</h2>
+<p>Once you start thinking about tradeoffs this way, you&rsquo;ll notice people who already take this
+approach to improving tradeoff decisions. The challenge is that most people do this intuitively
+rather than following a specific set of steps, which makes it difficult for them to explain it.
+Frankly, I have this challenge as well. Over time I&rsquo;ve gotten better at doing it, but it was only
+very recently that I found the right vocabulary to describe it.</p>
+<p>Here&rsquo;s by best attempt to reverse engineering this practice into steps:</p>
+<ol>
+<li>
+<p>Go into each tradeoff discussion believing that there&rsquo;s an additional dimension you can add
+that will greatly reduce the current tension in decision-making. Socialize this belief with
+others so they understand where you&rsquo;re coming from, this can be as simple as a statement
+like, &ldquo;I wonder if there&rsquo;s a dimension we can add to this tradeoff to make it easier.&rdquo;</p>
+</li>
+<li>
+<p>Get very specific on all stakeholder requirements. The missing dimension is usually only evident in the details,
+so you need to force people to be precise about their needs. If you have stakeholders who cannot be precise about
+their needs, then you should spend time working with them to get more clarity.</p>
+<p>Yes, it is their problem that they can&rsquo;t articulate their needs, but it&rsquo;s also <em>your</em>
+problem now too.</p>
+</li>
+<li>
+<p>Seeing dimensions is the same as seeing <a href="https://lethain.com/layers-of-context/">layers of context</a>.
+You&rsquo;ll either need to expand your awareness of additional context layers or pull together a working team
+who have broad knowledge. This doesn&rsquo;t need to be the decision making stakeholders, just folks who
+understand the relevant teams, technologies, and product.</p>
+</li>
+<li>
+<p>Test new dimensions for usefulness. At the simplest, as your working group
+“How might we simplify untangling this tradeoffs with this additional dimension?”
+The key is to explore many dimensions quickly, try them on for usefulness, and then move on to another.
+Don&rsquo;t go deep into any given dimension until it shows some promise.</p>
+</li>
+<li>
+<p>See around corners by asking those who&rsquo;ve solved similar tradeoffs before.
+I feel like a broken record, but it really does work to just ask people who’ve solved this specific problem before.
+Once again, this is why it&rsquo;s so valuable to develop <a href="https://staffeng.com/guides/network-of-peers/">a network of peers</a>.
+They can probably just tell you what the missing dimension is!</p>
+</li>
+<li>
+<p>Ultimately, you should only add a dimension to a tradeoff if it provides significantly better outcomes
+for the stakeholders involved. Once you start thinking about this idea, there&rsquo;s a temptation to add
+dimensions everywhere, but avoid additional dimensions that make things decisions harder to explain
+without greatly improving your options.</p>
+</li>
+</ol>
+<p>This process won&rsquo;t work every time, because some working groups simply won&rsquo;t know enough about
+the missing dimension to suggest it. This is why you shouldn&rsquo;t get discouraged if you can&rsquo;t find
+the missing dimension in any given tradeoff, and also why it&rsquo;s useful to reconsider hard tradeoffs
+every couple of years. Just because you didn&rsquo;t know about the missing dimension last time doesn&rsquo;t
+mean you are unaware of it now.</p>
+<h2 id="late-career-abilities">Late-career abilities</h2>
+<p>Sometimes people will talk about engineers becoming senior in five to seven years, and then being wholly competent at the job they do. This is true in one sense–you can be a very good engineer with five years of experience–but also misses on the many abilities that are only beginning to take root at that point. Adding dimensions to tradeoffs is a good example of the latter category: there are very few folks with the necessary context layers and the breadth of experience to get good at identifying the missing dimension to make difficult tradeoffs easier. There’s always more to learn.</p>
+]]></content:encoded>
+<pubDate>Wed, 24 Jan 2024 14:00:00 -0600</pubDate>
+<pubDate>Wed, 24 Jan 2024 14:00:00 -0600</pubDate>
+</item>
+<item>
+<title>Navigating ambiguity.</title>
+<link>https://lethain.com/navigating-ambiguity/</link>
+<guid>https://lethain.com/navigating-ambiguity/</guid>
+<content:encoded><![CDATA[
+<div> 关键词：工程师、问题、模糊、解决、执行<br>
+<br>
+总结：<br>
+工作中遇到的问题往往需要工程师能够感知其中的复杂性，并逐渐解决。然而，处理模糊不清的问题是一项稀缺技能，需要掌握。解决模糊问题的通用方法是分析现状，提出解决方案，并做出决策。及时与关键利益相关者沟通，并取得执行力，是解决模糊问题的关键。若遇到困难，及时向领导层寻求支持与指导，并在必要时放慢进程，等待合适时机。要避免在不确定性中陷入僵局，保持沟通合作，以最终解决问题为目标。 <div>
+<p>Perceiving the <a href="https://lethain.com/layers-of-context/">layers of context</a> in problems will unlock another stage of career progression as a Staff-plus engineer, but there’s at least one essential skill to develop afterwards: navigating ambiguity. In my experience, navigating deeply ambiguous problems is the rarest skill in engineers, and doing it well is a rarity. It’s sufficiently rare that many executives can’t do it well either, although I do believe that all long-term successful executives find <em>at least</em> one toolkit for these kinds of problems.</p>
+<p>Before going further, let’s get a bit less abstract by identifying a few examples of the kinds of problems I’m referring with the label <em>deeply ambiguous</em>:</p>
+<ul>
+<li>
+<p>At Stripe, we knew that data locality laws were almost certainly coming, but we didn’t know when or what shape that regulation would come in. One scenario was that many countries would require domestic transactions (e.g. transactions where the buyer and seller reside in the same jurisdiction) to be stored in a domestic datacenter, which India did indeed require. Another scenario was that all transactions would have to store a replica in jurisdictions that had a buyer or seller present. There were many such scenarios, and which seemed most likely changed as various political parties won and lost elections in various regions
+When explaining this problem to new colleagues, my starting explanation became, “The only thing we can know is that the requirements will change every six months for the lifespan of the internet.”</p>
+<p>If the requirements were ambiguous, so were our tools for solving it. Many solutions involved degrading the reliability or usability of our user-facing functionality for impacted zones. Evaluating those solutions required Product, Engineering, and Sales alignment. Other solutions reduced the user-impact but reduced our operating margin, which required alignment from Product, Engineering and Finance. Even implementing this work had a significant opportunity cost relative to other work, which was also difficult to get agreement on.</p>
+<p>This was a deeply ambiguous problem.</p>
+</li>
+<li>
+<p>At Calm, we would eventually <a href="https://techcrunch.com/2022/02/02/calm-acquires-health-care-technology-company-ripple-health-group/">acquire Ripple Health Group</a> to enter the healthcare space, but beforehand we made a series of efforts to enter the space ourselves. None of our Product, Engineering or Legal teams were from a healthcare background, and we ran into an unexpected source of ambiguity: <a href="https://www.hhs.gov/hipaa/index.html">HIPAA</a>.</p>
+<p>It quickly became clear that we couldn’t make forward progress on a number of product and engineering decisions without agreeing on our interpretation of HIPAA. Some interpretations implied significant engineering costs, and others implied almost no engineering costs at all, but some potential legal risk. Teams were glad to highlight concerns, but no one had conviction on how to solve the whole set of concerns.</p>
+<p>This, too, was a deeply ambiguous problem.</p>
+</li>
+</ul>
+<p>These examples highlight why perceiving layers of context are a prerequisite to effectively navigating deeply ambiguous problems: they almost always happen across cross-functional boundaries, and never happen in the seams where your organization has built experience solving the particular problem. They are atypical exceptions, that involve a lot of folks, and where the decision has meaningful consequences.</p>
+<p>It’s also true that what’s a deeply ambiguous problem for one company isn’t necessarily that ambiguous for another company. For example, Amazon has solved data locality in a comprehensive way, so it’s certainly not a deeply ambiguous problem for them at this point, but I suspect it was until they figured it out. What falls into this category at any given company changes over time too: data locality isn&rsquo;t deeply ambiguous for Stripe anymore, either.</p>
+<h2 id="navigation-process">Navigation process</h2>
+<p>It would be disingenuous to claim that there’s a universal process to navigating ambiguous problems–they’re ambiguous for a reason!&ndash;but there is a general approach that I’ve found effective for most of these problems that I’ve encountered: map out the state of play, develop options for discussion, and drive a decision.</p>
+<p><strong>First, map out the state of play:</strong></p>
+<ul>
+<li>Talk to involved teams to understand what the problems at hand are, and rough sketches of what the solution might look like. Particularly focus on the points of confusion or disagreement whose existence are at the root of this problem being deeply ambiguous, e.g. data locality is important, for sure, but wouldn’t it be better to delay solving it until we have clearer requirements?</li>
+<li>Debug the gaps in cross-functional awareness and partnership that are making this difficult to resolve. You’re not looking to assign blame, simply to diagnosis the areas where you’ll need to dig in to resolve perceived tradeoffs, e.g. as Product, we can’t be responsible for interpreting HIPAA, we need Legal to tell us exactly how to implement this</li>
+<li>Identify who the key stakeholders are, and also the potential executive sponsors for this work, e.g. the General Counsel, Chief Technology Officer, and Chief Product Officer</li>
+</ul>
+<p><strong>Next, develop potential options to solve the state of play:</strong></p>
+<ul>
+<li>
+<p>Cluster the potential approaches and develop a clear vocabulary for the clusters and general properties of each approach. For the data locality situation, the clusters might be something like: (1) highly-available and eventually consistent, (2) strongly consistent and single-region, and (3) strongly consistent with backup region</p>
+</li>
+<li>
+<p>Develop the core tradeoffs to be made in the various approaches. It helps to be very specific, because getting agreement across stakeholders who don’t understand the implications will usually backfire on you.</p>
+<p>For example, if we allow transactions to be processed in any region, and then forwarded them for storage in their home region, then it means that balances in the home region will sometimes be stale. This is because a transaction may be completed in another region and not yet forwarded to the home, causing the sum of all calculations to be stale. Are you willing to temporarily expose stale balances? If you’re not comfortable with that, you have to be comfortable failing to complete transactions if the home region is unavailable. What’s the right tradeoff for our users?</p>
+</li>
+<li>
+<p>Talk to folks solving similar problems at other companies. It’s one thing for <em>you</em> to say that you want to run a wholly isolated instance of your product per region, but it’s something else entirely to say that Amazon used to do so. As you gather more of this data, you <a href="https://lethain.com/benchmarking/">can benchmark</a> against how similar companies approached this issue. (It’s true that companies rely too heavily on social proof to make decisions, but it’s also true that there are few things more comforting for leadership making a decision they don’t understand particularly well than knowing what another successful company did to solve it.)</p>
+</li>
+</ul>
+<p><strong>Finally, drive a decision:</strong></p>
+<ul>
+<li>Determine who has the authority to enforce the decision. The right answer is almost always one or more executives. The wrong answer is the person who cares about solving the problem the most (which might well be you, at this point)</li>
+<li>Document a decision making process and ensure stakeholders are aware of that process. No matter how reasonable the process is, some stakeholders may push back on the process, and you should spend time working to build buy-in on the process with those skeptics. Eventually, you will lean on the authorities to hold folks to the process, but they’ll only do that if you’ve already mostly gotten folks aligned</li>
+<li>Follow that process to its end. Slow down as necessary to bring people along, but do promptly escalate on anyone who withholds their consent from the process</li>
+<li>Align on the criteria to reopen this decision. One way that solutions to ambiguous problems die is that the debates are immediately reopened for litigation after the decision is made, and you should strive to prevent that. Generally a reasonable proposal is “material, new information or six months from now”</li>
+</ul>
+<p>This formula often works, but sometimes you’ll follow it diligently and still find yourself unable to make forward progress. Let’s dig into the two most common challenges: trying to solve the problem too early, and not having an executive sponsor.</p>
+<h2 id="is-the-time-ripe">Is the time ripe?</h2>
+<p>Something that I’ve learned the hard way is that there’s a time and place for solving any given ambiguous problem. The strongest indicator that the time isn’t now is if you drive a decision to conclusion with the relevant stakeholders, but find the decision simply won’t stay made. It’s easy to feel like you’re failing at that moment, but usually it’s not personal. Instead, it probably means that the company values the optionality of various potential solutions more than it values the specific consequences those solutions imply.</p>
+<p>Going back to the data locality challenge for Stripe, I found it quite difficult to make forward progress–even after getting stakeholders bought in–and it was only when the risk of legal penalties for non-compliance became clear that the organization was able to truly accept the necessary consequences to solve the problem at hand. Until the legal consequences became clear, the very clear opportunity cost, product tradeoffs, and margin impact weren’t worth tolerating. Once the legal consequences were better understood, it became obvious which trade offs were tolerable.</p>
+<p>Here are some questions to ask yourself if you’re debugging whether your approach is flawed or it’s simply the wrong time to solve a given problem:</p>
+<ul>
+<li>Does new information keep getting introduced throughout the process, despite your attempts to uncover all the relevant information? If so, you’re probably trying to solve the problem too early</li>
+<li>Are there clear camps advocating for various approaches? If so, it’s probably not a timing issue. Rather it sounds like there’s more stakeholder management to do, starting with aligning with your executive sponsor</li>
+<li>Do your meetings attempting to agree on a decision keep ending with requests for additional information? This may or may not indicate being early. Many leaders hide from difficult decisions by requesting more information, so this might be either a timing issue or a leadership issue. Don’t assume requests for additional information mean it’s too early</li>
+</ul>
+<p>If you’re still unclear, then escalate to your leadership chain for direction. That will make it clear whether they value you solving this problem at this moment. If they don’t, then slow down and wait for the circumstances to unfold before returning to push on the problem again.</p>
+<h2 id="do-you-have-an-executive-sponsor">Do you have an executive sponsor?</h2>
+<p>Maybe you’re reading my advice to escalate up the leadership chain and thinking to yourself, “Yeah, I <em>wish</em> I had someone to escalate this to!” To be explicit: that’s a bad sign! If you can’t find an executive committed to solving an ambiguous problem, then you’re unlikely to solve it. Yes, there are some exceptions when it comes to very small companies or when you yourself are a quasi-executive with significant organizational resources, but those are <em>exceptions</em>.</p>
+<p>My general advice is that you should only take on deeply ambiguous problems when an executive tells you to, and ensure that the executive is committed to being your sponsor. If not, the timing might be good, but you’re still extremely likely to fail. Flag the issue to your management chain, and then let them decide when they’re willing to provide the necessary support to make progress.</p>
+<h2 id="dont-get-stuck">Don’t get stuck</h2>
+<p>My biggest advice on solving deeply ambiguous problems is pretty simple: don’t overreact when you get stuck. If you can’t make progress, then escalate. If escalating doesn’t clarify the path forward, then slow down until circumstances evolve. Failing to solve an ambiguous problem is often the only reasonable outcome. The only true failure is if feeling stuck leads you to push so hard that you alienate those working on the problem with you.</p>
+]]></content:encoded>
+<pubDate>Fri, 19 Jan 2024 05:00:00 -0600</pubDate>
+<pubDate>Fri, 19 Jan 2024 05:00:00 -0600</pubDate>
+</item>
+<item>
+<title>Layers of context.</title>
+<link>https://lethain.com/layers-of-context/</link>
+<guid>https://lethain.com/layers-of-context/</guid>
+<content:encoded><![CDATA[
+<div> context layers, influence, engineering, perspective, leadership 
+
+<br>
+总结：文章讨论了工程师在影响同事时遇到的困难，主要原因是缺乏跨层上下文的推理能力。通过分享引入新编程语言问题的实例，展示了问题涉及的不同层面上下文，包括工程团队、开发者体验和基础设施团队、工程领导等。同时，提出了如何跨越层面上下文的技巧，包括保持好奇心、轮转到其他团队、参与销售电话和审查支持票、在不同公司和行业工作以及建立广泛网络。最后强调，过度关注热情可能会导致视野狭窄，应该以理解他人视角为优先，经过学术评估后再加入个人情感，以最大程度解决问题。 <div>
+<p>Recently I was chatting with a Staff-plus engineer who was struggling to influence his peers. Each time he suggested an approach, his team agreed with him, but his peers in the organization disagreed and pushed back. He wanted advice on why his peers kept undermining his approach.
+After our chat, I followed up by talking with his peers about some recent disagreements, and they kept highlighting missing context from the engineer’s proposals.
+As I spoke with more peers, the engineer&rsquo;s problem became clearer:
+the engineer struggled to reason about a problem across its multiple layers of context.</p>
+<p>All interesting problems operate across a number of context layers.
+For a concrete example, let’s think about a problem I&rsquo;ve run into twice:
+what are the layers of context for evaluating a team that wants to introduce a new programming
+language like Erlang or Elixir to your company&rsquo;s technology stack?
+I encountered this first at Yahoo! when my team lead introduced <a href="https://www.erlang.org/">Erlang</a> to the great dismay
+of the Security and tooling teams. I also experienced it later in my career when dealing with a team at Uber
+that wanted to implement their service in <a href="https://elixir-lang.org/">Elixir</a>.</p>
+<p>Some of the layers of context are:</p>
+<ul>
+<li><strong>Project’s engineering team</strong>
+<ul>
+<li>The problem to be solved involves coordinating work across a number of servers</li>
+<li>Erlang and Elixir have a number of useful tools for implementing distributed systems</li>
+<li>The team solving the problem has an experienced Erlang engineer, and the rest of the team is very excited to learn the language</li>
+</ul>
+</li>
+<li><strong>Developer Experience and Infrastructure teams</strong>
+<ul>
+<li>There’s a fixed amount of budget to support the entire engineering organization</li>
+<li>Each additional programming language reduces the investment into the more frequently used programming languages across the organization. This makes the organization view the Infrastructure organization as less efficient each time it supports a new programming language, because on average it <em>is</em> less efficient</li>
+<li>The team is telling Infrastructure that they’ll take responsibility for all atypical work created by introducing Erlang. However, the Infrastructure team has heard this promise before, and frequently ends up owning tools in new languages after those teams are reorganized. At this point, they believe that any project in a new programming language will become their problem, no matter how vigorously the team says that it won’t</li>
+</ul>
+</li>
+<li><strong>Engineering leadership</strong>
+<ul>
+<li>Wants to invest innovation budget into problems that matter to their users, not into introducing new technologies that are generally equivalent to their existing tools</li>
+<li>Is managing a highly constrained financial budget, and is trying to maximize budget spend on product engineering without impacting stability and productivity. Introducing new languages is counter to that goal</li>
+<li>Wants a standardized hiring and training process focused on the smallest possible number of programming languages</li>
+<li>Has been burned by teams trying to introduce new programming languages and ending up blocked by lack of Infrastructure support for the language</li>
+</ul>
+</li>
+</ul>
+<p>Seeing this specific problem twice in my career was enlightening, because the first time it seemed like a great idea to
+introduce a new programming language. The second time, my context stack had expanded, and I pushed back on the decision firmly.
+In my current role as an executive, introducing another programming language is a non-starter as it would violate <a href="https://lethain.com/eng-strategies/">our engineering strategy</a>.</p>
+<p>A mid-level engineer on the project team is expected to miss some parts of the infrastructure perspectives. A mid-level engineer on the infrastructure team is expected to miss some parts of the product engineering perspectives. Succeeding as a Staff-plus engineer requires perceiving and reasoning across those context layers: seeing both product and infrastructure perspectives, and also understanding (or knowing to ask about) the leadership perspective.</p>
+<h2 id="how-to-see-across-layers">How to see across layers</h2>
+<p>In any given role, you’ll be missing critical context to expand your understanding of the layers around you.
+In the best case, your peers and manager will take the time to explain the context in those layers, but often they won’t.
+For example, it took me a long time to understand <a href="https://lethain.com/planning/">how the company’s financial plan connected with our planning process</a>,
+in part because no one ever explained it to me. Folks are generally so deep in their own layer of context that they fail to recognize how unintuitive
+it might be to others.</p>
+<p>If you want to develop your sense for additional layers around you,
+here are some of the techniques I’ve found most effective for developing that context yourself:</p>
+<ul>
+<li><strong>Operate from a place of curiosity rather than conviction.</strong> When folks say things that don’t make sense to you, it’s almost always because they’re operating at a layer whose context you’re missing. When you’re befuddled by someone’s perspective, instead of trying to convince them they’re wrong, try to discover that layer and its context. This is a perspective that gets <em>more</em> valuable the more senior you get</li>
+<li><strong>Rotate onto other teams.</strong> If you work in platform engineering, work with your manager to spend three months on a product engineering team that uses your platform. Do this every few years to build your understanding of how different teams perceive the same situations</li>
+<li><strong>Join sales calls and review support tickets.</strong> Stepping outside of the engineering perspective to directly understand your end user is a powerful way to step outside of the context layer where you spend the majority of your time</li>
+<li><strong>Work in different sorts of companies and industries.</strong> There are many benefits to specializing in a given vertical–e.g. fintech or marketplaces–but it’s equally valuable to see a few different industries in your career. By seeing other verticals you’ll come to better understand what’s special about the one you spend the most time in. This is equally true for joining a larger company to better understand what makes startups special, or vice-versa</li>
+<li><strong>Finally, build a broad network.</strong> Developing <a href="https://staffeng.com/guides/network-of-peers/">a wide network of peers</a> is the easiest way to borrow the hard-won context of others without the confounding mess of a company’s internal tensions and politics. Particularly mine for reasons why your perspective on a given topic might be wrong, rather than looking for reasons you might be right</li>
+</ul>
+<p>These things take time, and to be entirely honest it took me a solid decade before I got good at perceiving and navigating context layers. Indeed, it was the biggest gap that prevented me from reaching more senior roles in my first forays up the org chart.</p>
+<h2 id="passion-can-be-blinding">Passion can be blinding</h2>
+<p>Like many foundational leadership skills, perceiving across context layers is an obvious idea, but a lot of folks struggle with implementation. Lack of curiosity is the most common challenge I see preventing folks from figuring this out, but the most difficult blocker is a bit unintuitive: caring too much.</p>
+<p>I’ve run into many very bright engineers who care so deeply about solving a given problem in a certain way–generally a way that perfectly solves the context layer they exist in–that they are entirely incapable of recognizing that other context layers exist. For example, I worked with a senior engineering manager who was persistently upset that they didn’t get promoted, but also threatened to quit if we didn’t introduce a new note taking tool they preferred. We already have a proliferation of notes across a number of knowledge bases, and introducing a new one would fragment our knowledge further–a recurring top three problem in our developer productivity surveys–but this individual believed so strongly about a specific note taking tool that none of that registered to them at all.</p>
+<p>As someone who used to struggle greatly with this, I’ve found it valuable to approach problems in three phases:</p>
+<ol>
+<li>Focus exclusively on understanding the perspective of the other parties</li>
+<li>Enter the mode of academic evaluation where I try very hard to think about the problem from a purely intellectual basis</li>
+<li>Only after finishing both those approaches, only do I bring my own feelings into the decision making–what do I actually think is the best approach?</li>
+</ol>
+<p>The point of this approach isn’t to reject my feelings and perspective, as I know those are important parts of making effective decisions, instead it’s ensuring that I don’t allow my feelings to cloud my sense of what’s possible. Increasingly I believe that most implied trade offs are artificial–you really can get your cake and eat it too–as long as you take the time to understand the situation at hand. This approach helps me maximize my energy solving the entire problem rather than engaging in conflict among the problem’s participants.</p>
+<h2 id="obvious-or-invisible">Obvious or invisible</h2>
+<p>If you find the idea that there are many context layers is too obvious to consider, then maybe you’re already quite good at considering the perspectives at hand. However, if you frequently find yourself at odds with peers or leadership,
+then take some time to test this idea against some of your recent conflicts and see if it might be at their root.
+For some exceptionally talented folks I’ve worked with, this is the last lesson they needed to learn before thriving as a senior leader.</p>
+]]></content:encoded>
+<pubDate>Mon, 15 Jan 2024 05:00:00 -0600</pubDate>
+<pubDate>Mon, 15 Jan 2024 05:00:00 -0600</pubDate>
+</item>
+<item>
+<title>Those five spare hours each week.</title>
+<link>https://lethain.com/five-spare-hours/</link>
+<guid>https://lethain.com/five-spare-hours/</guid>
+<content:encoded><![CDATA[
+<div> CTOs, impact, time investment, context, role <br>
+<br>
+Deep context和broad context都是CTO角色中重要的投资方向，在工作中要根据角色的需要和个人的需求来选择投资方向，而不是盲目跟随别人的建议。较小规模或市场拟合不足的公司更需要高管建立深入的上下文，而较大规模或多业务部门的公司则更有利于广泛上下文或改进现有系统和流程。重要的是要根据具体情况做决定，不能一概而论。总结: 深入和广泛上下文对于CTO来说都很重要，但决定如何投资时间应基于自己的角色需求和个人需求，而不能盲目跟随通用规则。 <div>
+<p>One of the recurring debates about senior engineering leadership roles is whether Chief Technology Officers should actively write code. There are a lot of strongly held positions, from “Real CTOs code.” at one end of the spectrum, to “Low ego managers know they contribute more by focusing on leadership work rather than coding.” There are, of course, adherents at every point between those two extremes. It’s hard to take these arguments too seriously, because these values correlate so strongly with holders&rsquo; identities: folks who believe they are strong programmers argue that CTOs must code, and people who don’t feel comfortable writing software take the opposite view.</p>
+<p>There’s another question that I find more applicable in my own career: If I have five spare hours each week, how should I invest that time? It’s hard to answer that without specifying your investment goal, so a more complete version of the question is “If I have five spare hours each week, how should I invest that time to maximize my impact and <a href="https://lethain.com/better-micromanage-than-disengaged/">long-term engagement</a>?”</p>
+<p>In most CTO roles, you have roughly four options:</p>
+<ol>
+<li><em>Build deep context</em> – Write code, or otherwise engage in the detailed work within the Engineering organization you lead</li>
+<li><em>Build broad context</em> – Expand your context outside of Engineering, better understanding your peer function’s work, goals and obstacles. This might be talking with customers, discussing product tradeoffs, understanding how marketing is driving interesting, etc</li>
+<li><em>Improve current systems and process</em> – Work on your <a href="https://lethain.com/eng-strategies/">engineering strategy</a>, <a href="https://lethain.com/planning/">planning process</a>, or pretty much any existing element of <a href="https://lethain.com/tags/executive/">how your Engineering organization operates</a></li>
+<li><em>Build relationships</em> – <a href="https://lethain.com/building-exec-network/">Expand your internal or industry networks</a></li>
+</ol>
+<p>These are all valid ways to invest your time, and picking among them for your last five hours depends on what your role needs from you, and what you need from your role. You should be wary – and honestly somewhat weary – of anyone who tells you, context-free, what’s important for you and your role. You should likely be capable of doing all of those, but there are many ways to do them, and what’s optimal in your circumstances is deeply context-specific.</p>
+<p>There are some general rules. Smaller and pre-market fit companies are more likely to need their executives to build deep context. Larger and multi-business unit companies are more likely to benefit from broad context or improvements to existing systems and processes. They’re just generalized rules though, make the decisions for yourself.</p>
+]]></content:encoded>
+<pubDate>Sun, 14 Jan 2024 05:00:00 -0600</pubDate>
+<pubDate>Sun, 14 Jan 2024 05:00:00 -0600</pubDate>
+</item>
+<item>
+<title>Predictability.</title>
+<link>https://lethain.com/predictability/</link>
+<guid>https://lethain.com/predictability/</guid>
+<content:encoded><![CDATA[
+<div> Uber, CTO, predictability, decision making, executive<br>
+<br>
+总结:<br>
+文章讨论了在企业决策中的可预测性对于执行层的重要性。通过Uber的例子，说明了即使是一般的执行层能够通过保持可预测性来取得成功，而即使是杰出的执行层如果缺乏可预测性也会遇到困难。文章强调了增加预测性可以帮助团队更好地规划并取得进展，但并非是万能之道。在决策中需要平衡预测性和灵活性，以确保长期成功。 <div>
+<p>Right now I’m reading Michael S. Malone’s <em><a href="https://press.stripe.com/the-big-score">The Big Score</a></em>, and one thing that I love about it is how much it believes that key individuals drive and create industries. It’s an infectious belief, and a necessary one to write a concise, coherent narrative story about the origins of Silicon Valley. It’s something I’ve thought about a lot as well in my career, and also while writing <a href="https://lethain.com/eng-execs-primer/">my upcoming book</a> on operating as an engineering executive–how much do good executives <em>really</em> matter?</p>
+<p>My ego’s too frail to sustain a proclamation like, “Executives don’t matter!” Further, that doesn’t reflect my lived experience: I think executive quality matters a great deal. That said, I do think that there are non-obvious ways that seemingly mediocre executives outperform the sum of their capabilities, and seemingly brilliant executives underperform their talents. One of those ways is the extent that they create a predictable environment.</p>
+<p>Uber gives a clear example and counterexample of predictability:</p>
+<ul>
+<li>
+<p>At Uber, our CTO strongly preferred letting teams work through disagreements themselves. The exception was existential issues (“our database will run out of space in six months”) or CEO decrees (“we will build a datacenter in China in the next six months”), where one of the CTO’s trusted advisors would select a top-down plan.</p>
+<p>Many folks disagreed with both the mostly bottom-up approach (“it’s just politics”) or the trusted advisors (“why does he listen to those folks?”). Many disagreed with the specific decisions. However, it was predictable how decisions would get made, and that made it easy for teams to plan around. Teams knew how to make forward progress, even if they often disagreed.</p>
+</li>
+<li>
+<p>Later, Uber hired an engineering executive beneath the CTO who started rapidly changing a number of technology decisions without much input. He actively avoided seeking input because he was convinced the existing team’s context was irrelevant due to their relative lack of experience. Decision making became unpredictable, both in terms of who was expected to make which kinds of decisions, and which decisions would be reached.</p>
+<p>Many folks believed the specific decisions being made were better than previous choices, but decision making became extremely unpredictable. Teams got stuck, unsure how to make forward progress, even those teams that agreed with the vast majority of decisions.</p>
+</li>
+</ul>
+<p>Although I never thought about predictability directly, much of my onboarding approach as an executive is around increasing predictability while I come to understand the business, team and technology enough to make more context-specific decisions. In the <a href="https://lethain.com/first-ninety-days-cto-vpe/">first several months</a>, it’s difficult to decide whether to shut down a business unit, but you can absolutely increase predictability by <a href="https://lethain.com/work-policy-not-exceptions/">leading with policy rather than exceptions</a> and <a href="https://lethain.com/eng-strategies/">explicitly documenting the engineering strategy</a> that the organization already follows.</p>
+<p>That said, the moral of the story here is that predictability is valuable, not that it’s a universal cure. A mediocre but predictable executive will likely outperform an extraordinary but unpredictable executive, but both are unlikely to be successful in the long-run.</p>
+]]></content:encoded>
+<pubDate>Mon, 01 Jan 2024 05:00:00 -0600</pubDate>
+<pubDate>Mon, 01 Jan 2024 05:00:00 -0600</pubDate>
+</item>
+
+</channel>
+</rss>
