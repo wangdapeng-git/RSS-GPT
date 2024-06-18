@@ -4,6 +4,30 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Rounding Numbers in Python</title>
+<link>https://realpython.com/courses/rounding-numbers-python/</link>
+<guid>https://realpython.com/courses/rounding-numbers-python/</guid>
+<content:encoded><![CDATA[
+<div> 数据分析、数据集、偏见、四舍五入、Python<br>
+四舍五入在数据分析中的重要性不容忽视，熟练掌握Python中的四舍五入方法可以避免引入偏见。本视频课程将教授不同四舍五入策略的实现方法，以及四舍五入对数据的影响。学习者将掌握在纯Python、NumPy数组和pandas数据框中进行四舍五入的技能，并了解何时应用不同的四舍五入策略，避免数据集的偏见。<br><br>总结: 数据分析中避免偏见至关重要，学习正确的四舍五入方法对数据集的准确性至关重要。Python中的四舍五入方法能够实现不同的策略，同时也能最小化数据集的偏见。 <div>
+<p>With many businesses <a href="https://stackoverflow.blog/2017/09/14/python-growing-quickly/">turning to Python&rsquo;s powerful data science ecosystem</a> to analyze their data, understanding how to avoid introducing bias into datasets is absolutely vital. If you&rsquo;ve studied some statistics, then you&rsquo;re probably familiar with terms like reporting bias, selection bias, and sampling bias. There&rsquo;s another type of bias that plays an important role when you&rsquo;re dealing with numeric data: rounding bias. </p>
+<p>Understanding how rounding works in Python can help you avoid biasing your dataset. This is an important skill. After all, drawing conclusions from biased data can lead to costly mistakes.</p>
+<p><strong>In this video course, you&rsquo;ll learn:</strong></p>
+<ul>
+<li>Why the way you round numbers is important</li>
+<li>How to round a number according to <strong>various rounding strategies</strong></li>
+<li>How to <strong>implement</strong> each strategy in pure Python</li>
+<li>How <strong>rounding affects data</strong> and which rounding strategy <strong>minimizes this effect</strong></li>
+<li>How to round numbers in <strong>NumPy arrays</strong> and <strong>pandas DataFrames</strong></li>
+<li>When to apply different rounding strategies</li>
+</ul>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-06-18T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Ruff: A Modern Python Linter for Error-Free and Maintainable Code</title>
