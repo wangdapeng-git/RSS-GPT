@@ -4,13 +4,14 @@
 <title>LessWrong</title>
 <link>https://www.lesswrong.com</link>
 
+
 <item>
 <title>Fat Tails Discourage Compromise</title>
 <link>https://www.lesswrong.com/posts/Z5sDqqGridJQfr4uC/fat-tails-discourage-compromise</link>
 <guid>https://www.lesswrong.com/posts/Z5sDqqGridJQfr4uC/fat-tails-discourage-compromise</guid>
 <content:encoded><![CDATA[
 <div> interventions, popularity, effectiveness, distribution, trade-offs
-总结:<br><br>本文讨论了选择干预措施时应该如何权衡人气和效果两个因素。如果人气和效果都服从正态分布，可以选择一个在两者之间取得平衡的措施；如果人气和效果都服从对数正态分布，应该选择在某个因素上最大化；如果人气正态分布而效果对数正态分布，可以在两者之间取得较好的折中。不同分布形态能影响最优选择的取向，决策时需要根据不同情况灵活权衡选择适合的干预措施。 <div>
+总结:<br /><br />本文讨论了选择干预措施时应该如何权衡人气和效果两个因素。如果人气和效果都服从正态分布，可以选择一个在两者之间取得平衡的措施；如果人气和效果都服从对数正态分布，应该选择在某个因素上最大化；如果人气正态分布而效果对数正态分布，可以在两者之间取得较好的折中。不同分布形态能影响最优选择的取向，决策时需要根据不同情况灵活权衡选择适合的干预措施。 <div>
 Published on June 17, 2024 9:39 AM GMT<br /><br /><p>Say that we have a set of options, such as (for example) <a href="https://en.wikipedia.org/wiki/Wild_animal_welfare">wild animal
 welfare</a> interventions.</p>
 <p>Say also that you have two axes along which you can score those
@@ -74,9 +75,7 @@ towards your available options can give you most of the value you want.</p>
 <br /><br /><a href="https://www.lesswrong.com/posts/Z5sDqqGridJQfr4uC/fat-tails-discourage-compromise#comments">Discuss</a>
 ]]></content:encoded>
 <pubDate>Wed, 19 Jun 2024 12:27:42 GMT</pubDate>
-<pubDate>Wed, 19 Jun 2024 12:27:42 GMT</pubDate>
 </item>
-
 <item>
 <title>Loving a world you don’t trust</title>
 <link>https://www.lesswrong.com/posts/iqNjYdsectt5TvJRh/loving-a-world-you-don-t-trust</link>

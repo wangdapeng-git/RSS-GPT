@@ -1561,3 +1561,9 @@ Summarized using GPT-3.5-turbo
 Append: [Fat Tails Discourage Compromise](https://www.lesswrong.com/posts/Z5sDqqGridJQfr4uC/fat-tails-discourage-compromise)
 append_entries: 1
 Finish: 2024-06-19 14:09:49.442295
+------------------------------------------------------
+Started: 2024-06-19 16:13:12.838836
+Existing_entries: 81
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-19 16:13:13.702699
