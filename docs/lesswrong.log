@@ -1507,3 +1507,12 @@ Summarized using GPT-3.5-turbo
 Append: [Boycott OpenAI](https://www.lesswrong.com/posts/sXhBCDLJPEjadwHBM/boycott-openai)
 append_entries: 1
 Finish: 2024-06-18 22:09:30.547069
+------------------------------------------------------
+Started: 2024-06-19 00:47:59.614376
+Existing_entries: 79
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 62434
+Summarized using GPT-3.5-turbo
+Append: [Loving a world you don’t trust](https://www.lesswrong.com/posts/iqNjYdsectt5TvJRh/loving-a-world-you-don-t-trust)
+append_entries: 1
+Finish: 2024-06-19 00:48:24.464251
