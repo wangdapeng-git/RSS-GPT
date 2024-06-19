@@ -4,6 +4,78 @@
 <title>LessWrong</title>
 <link>https://www.lesswrong.com</link>
 
+<item>
+<title>Fat Tails Discourage Compromise</title>
+<link>https://www.lesswrong.com/posts/Z5sDqqGridJQfr4uC/fat-tails-discourage-compromise</link>
+<guid>https://www.lesswrong.com/posts/Z5sDqqGridJQfr4uC/fat-tails-discourage-compromise</guid>
+<content:encoded><![CDATA[
+<div> interventions, popularity, effectiveness, distribution, trade-offs
+总结:<br><br>本文讨论了选择干预措施时应该如何权衡人气和效果两个因素。如果人气和效果都服从正态分布，可以选择一个在两者之间取得平衡的措施；如果人气和效果都服从对数正态分布，应该选择在某个因素上最大化；如果人气正态分布而效果对数正态分布，可以在两者之间取得较好的折中。不同分布形态能影响最优选择的取向，决策时需要根据不同情况灵活权衡选择适合的干预措施。 <div>
+Published on June 17, 2024 9:39 AM GMT<br /><br /><p>Say that we have a set of options, such as (for example) <a href="https://en.wikipedia.org/wiki/Wild_animal_welfare">wild animal
+welfare</a> interventions.</p>
+<p>Say also that you have two axes along which you can score those
+interventions: <em>popularity</em> (how much people will like your intervention)
+and <em>effectiveness</em> (how much the intervention actually helps wild
+animals).</p>
+<p>Assume that we (for some reason) can't convert between and compare those
+two properties.</p>
+<p>Should you then pick an intervention that is a compromise on the two
+axes—that is, it scores decently well on both—or should you max out
+on a particular axis?</p>
+<p>One thing you might consider is the distribution of options
+along those two axes: the distribution of interventions can
+be <a href="https://en.wikipedia.org/wiki/Normal-distribution">normal</a> on for both
+popularity and effectiveness, or the underlying distribution could be
+<a href="https://en.wikipedia.org/wiki/Lognormal_Distribution">lognormal</a>
+for both axes, or they could be mixed (e.g. normal for popularity,
+and lognormal for effectiveness).</p>
+<p>Intuitively, the distributions seem like they affect the kinds of
+tradeoffs we can make, how could we possibly figure out how?</p>
+<p>…</p>
+<p>…</p>
+<p>…</p>
+<p><img alt="" src="https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/Z5sDqqGridJQfr4uC/yppt34v48zwqa30obvdr" title="Text: “you can't use Monte Carlo simulations for everything”. Image of sketch man with sunglasses making finger guns, with the text “that's where you're wrong kiddo” next to him" /></p>
+<p>It turns out that if both properties are normally
+distributed, one gets a fairly large Pareto frontier, with a
+<a href="https://en.wikipedia.org/wiki/Convexity">convex</a> set of options,
+while if the two properties are lognormally distributed, one gets a
+<a href="https://en.wikipedia.org/wiki/Concavity">concave</a> set of options.</p>
+<p><img alt="" src="https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/Z5sDqqGridJQfr4uC/oszviigtuqjttlvcrvtm" /></p>
+<p>(Code <a href="http://niplav.site/code/fat_tails/fat_tails.jl">here</a>.)</p>
+<p>So if we believe that the interventions are normally distributed
+around popularity and effectiveness, we would be justified
+in opting for an intervention that gets us the best of both
+worlds, such as sterilising stray dogs or finding less painful
+<a href="https://en.wikipedia.org/wiki/Rodenticides">rodenticides</a>.</p>
+<p>If we, however, believe that popularity and effectiveness are lognormally
+distributed, we instead want to go in hard on only one of those,
+such as <a href="https://reducing-suffering.org/how-rainforest-beef-production-affects-wild-animal-suffering/">buying brazilian beef that leads to Amazonian rainforest being
+destroyed</a>,
+or writing a book of poetic short stories that detail the harsh life of
+wild animals.</p>
+<p>What if popularity of interventions is normally distributed, but
+effectiveness is lognormally distributed?</p>
+<p><img alt="" src="https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/Z5sDqqGridJQfr4uC/oxh9algkexujj292monh" /></p>
+<p>In that case you get a pretty large Pareto frontier which almost looks
+linear to me, and it's not clear anymore that one can't get a good
+trade-off between the two options.</p>
+<p>So if you believe that <a href="https://80000hours.org/2023/02/how-much-do-solutions-differ-in-effectiveness/">heavy tails dominate with the things you care
+about</a>,
+on multiple dimensions, you might consider taking a <a href="https://en.wikipedia.org/wiki/Barbell_strategy">barbell
+strategy</a> and taking
+one or multiple options that each max out on a particular axis.</p>
+<p>If you have thin tails, however, taking a <a href="https://vitalik.eth.limo/general/2020/11/08/concave.html">concave
+disposition</a>
+towards your available options can give you most of the value you want.</p>
+<h3>See Also</h3>
+<ul>
+<li><a href="https://www.lesswrong.com/posts/XvN2QQpKTuEzgkZHY/being-the-pareto-best-in-the-world">Being the (Pareto) Best in the World (johnswentworth, 2019)</a></li>
+</ul>
+<br /><br /><a href="https://www.lesswrong.com/posts/Z5sDqqGridJQfr4uC/fat-tails-discourage-compromise#comments">Discuss</a>
+]]></content:encoded>
+<pubDate>Wed, 19 Jun 2024 12:27:42 GMT</pubDate>
+<pubDate>Wed, 19 Jun 2024 12:27:42 GMT</pubDate>
+</item>
 
 <item>
 <title>Loving a world you don’t trust</title>

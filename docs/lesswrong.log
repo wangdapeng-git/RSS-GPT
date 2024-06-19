@@ -1552,3 +1552,12 @@ Existing_entries: 80
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-06-19 12:19:38.088955
+------------------------------------------------------
+Started: 2024-06-19 14:09:43.044960
+Existing_entries: 80
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 2280
+Summarized using GPT-3.5-turbo
+Append: [Fat Tails Discourage Compromise](https://www.lesswrong.com/posts/Z5sDqqGridJQfr4uC/fat-tails-discourage-compromise)
+append_entries: 1
+Finish: 2024-06-19 14:09:49.442295
