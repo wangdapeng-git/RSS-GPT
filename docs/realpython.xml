@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Build a Guitar Synthesizer: Play Musical Tablature in Python</title>
 <link>https://realpython.com/python-guitar-synthesizer/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> Python, Guitar Synthesizer, Karplus-Strong algorithm, Tablature, Music
 
-<br><br>总结: 
+<br /><br />总结: 
 本教程介绍了如何使用Python构建吉他合成器，通过实现Karplus-Strong弦乐合成算法，模拟不同类型的弦乐器和调音方式，结合多个振动弦实现和弦，模拟真实吉他拨弦和扫弦技术，使用真实乐器的冲激响应来复制其独特音色，读取科学音高记谱和吉他谱。通过这篇文章，您可以学习如何搭建一个数字吉他合成器，设计数据格式存储吉他谱并解释，使用Python脚本实现解释吉他谱的功能，需要的先决条件是有基本音乐理论和计算机音频处理知识，项目将使用Poetry管理依赖包，设计两个Python包：digitar用于数字吉他音效合成，tablature用于读取和解释吉他谱谱表及Python脚本实现功能，您还将学习如何解析音乐谱谱表，完成后您将拥有一个数字吉他。 <div>
 <div><p>Have you ever wanted to compose music without expensive gear or a professional studio? Maybe you’ve tried to play a musical instrument before but found the manual dexterity required too daunting or time-consuming. If so, you might be interested in harnessing the power of Python to create a guitar synthesizer. By following a few relatively simple steps, you’ll be able to turn your computer into a virtual guitar that can play any song.</p>
 <p><strong>In this tutorial, you’ll:</strong></p>
@@ -106,7 +107,6 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-06-19T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -114,16 +114,14 @@
 <link>https://realpython.com/quizzes/python-guitar-synthesizer/</link>
 <guid>https://realpython.com/quizzes/python-guitar-synthesizer/</guid>
 <content:encoded><![CDATA[
-<div> 音乐理论,声音合成,Python,测验,理解<br>
-音乐理论和声音合成是本文的主要内容，通过Python测验来测试对这些概念的理解。文章提供了一些关键概念，可以帮助读者回顾相关知识。<br><br>总结: 音乐理论和声音合成是本文的主要内容，通过Python测验来测试对这些概念的理解。文章提供了一些关键概念，可以帮助读者回顾相关知识。 <div>
+<div> 音乐理论,声音合成,Python,测验,理解<br />
+音乐理论和声音合成是本文的主要内容，通过Python测验来测试对这些概念的理解。文章提供了一些关键概念，可以帮助读者回顾相关知识。<br /><br />总结: 音乐理论和声音合成是本文的主要内容，通过Python测验来测试对这些概念的理解。文章提供了一些关键概念，可以帮助读者回顾相关知识。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of what it takes to <a href="https://realpython.com/python-guitar-synthesizer/">build a guitar synthesizer</a> in Python. By working through this quiz, you&rsquo;ll revisit a few key concepts from the music theory and sound synthesis.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-06-18T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Rounding Numbers in Python</title>
 <link>https://realpython.com/courses/rounding-numbers-python/</link>
