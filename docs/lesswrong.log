@@ -1651,3 +1651,12 @@ Existing_entries: 81
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-06-20 20:10:59.617294
+------------------------------------------------------
+Started: 2024-06-20 22:09:41.986022
+Existing_entries: 81
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 2894
+Summarized using GPT-3.5-turbo
+Append: [Actually, Power Plants May Be an AI Training Bottleneck.](https://www.lesswrong.com/posts/DsoqEcnCu8vQeeeBe/actually-power-plants-may-be-an-ai-training-bottleneck)
+append_entries: 1
+Finish: 2024-06-20 22:09:47.574104

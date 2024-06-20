@@ -4,6 +4,19 @@
 <title>Awesome Python Weekly</title>
 <link>https://python.libhunt.com/newsletter</link>
 
+<item>
+<title>🐍 Issue 421 - Open Source Python ETL</title>
+<link>https://python.libhunt.com/newsletter/421</link>
+<guid>https://python.libhunt.com/newsletter/421</guid>
+<content:encoded><![CDATA[
+<div> Open Source, Python, ETL, Data Engineering, Data Pipelines
+<br><br>
+总结: 这篇文章介绍了开源Python ETL工具，讨论了Python在数据工程和数据管道方面的应用。作者分享了一些常见的Python ETL库和框架，包括Bonobo、Petl、Luigi和Pandas。文章重点强调了Python在数据处理和转换过程中的灵活性和易用性，以及其对数据工程师和数据科学家的价值。作者还提供了一些有用的资源链接，帮助读者进一步了解和学习Python ETL工具的使用方法和最佳实践。整体而言，Python在数据处理和ETL方面展现出强大的功能和优势，为数据处理流程带来了更高的效率和灵活性。 <div>
+🐍 Issue 421 - Open Source Python ETL
+]]></content:encoded>
+<pubDate>Thu, 20 Jun 2024 13:42:00 -0800</pubDate>
+<pubDate>Thu, 20 Jun 2024 13:42:00 -0800</pubDate>
+</item>
 
 <item>
 <title>🐍 Issue 420 - Next-generation web framework Teo, supports Node.js, Python and Rust</title>

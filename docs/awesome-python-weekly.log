@@ -2104,3 +2104,12 @@ Existing_entries: 14
 Fetching from https://python.libhunt.com/newsletter/feed
 append_entries: 0
 Finish: 2024-06-20 20:10:57.693628
+------------------------------------------------------
+Started: 2024-06-20 22:09:34.602701
+Existing_entries: 14
+Fetching from https://python.libhunt.com/newsletter/feed
+Token length: 36
+Summarized using GPT-3.5-turbo
+Append: [🐍 Issue 421 - Open Source Python ETL](https://python.libhunt.com/newsletter/421)
+append_entries: 1
+Finish: 2024-06-20 22:09:40.700815
