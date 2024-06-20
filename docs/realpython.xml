@@ -4,6 +4,22 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Quiz: Creating Great README Files for Your Python Projects</title>
+<link>https://realpython.com/quizzes/readme-python-project/</link>
+<guid>https://realpython.com/quizzes/readme-python-project/</guid>
+<content:encoded><![CDATA[
+<div> README 文件 Python 项目 突出 重要性 创建
+
+README 文件 是一个 Python 项目 的关键组成部分，通过清晰、简洁、有组织的 README 文件，可以使你的项目脱颖而出。README 文件应当包含项目的介绍、安装指南、使用示例、贡献方式和作者信息等内容，帮助他人更快速地了解和使用你的项目。在创建 README 文件时，应当注意格式排版、使用标记语言、追加徽章和链接、添加漂亮的图片等，让 README 文件更加吸引人。通过不断完善和更新 README 文件，可以提升项目的可读性，吸引更多的用户和贡献者。总结: README 文件是 Python 项目中不容忽视的重要组成部分，可以通过清晰的介绍和吸引人的排版，让你的项目更加突出和受欢迎。 <div>
+<p>Test your understanding of how a great <code>README</code> file can make your Python project stand out and how to create your own README files.</p>
+<p>Take this quiz after reading our <a href="https://realpython.com/readme-python-project/">Creating Great README Files for Your Python Projects</a> tutorial.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-06-19T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Build a Guitar Synthesizer: Play Musical Tablature in Python</title>
