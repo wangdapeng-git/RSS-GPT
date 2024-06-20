@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Quiz: Creating Great README Files for Your Python Projects</title>
 <link>https://realpython.com/quizzes/readme-python-project/</link>
@@ -17,10 +18,8 @@ README 文件 是一个 Python 项目 的关键组成部分，通过清晰、简
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-06-19T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Build a Guitar Synthesizer: Play Musical Tablature in Python</title>
 <link>https://realpython.com/python-guitar-synthesizer/</link>

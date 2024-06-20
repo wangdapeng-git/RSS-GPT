@@ -4,6 +4,7 @@
 <title>ByteByteGo Newsletter</title>
 <link>https://blog.bytebytego.com</link>
 
+
 <item>
 <title>A Crash Course on Microservice Communication Patterns</title>
 <link>https://blog.bytebytego.com/p/a-crash-course-on-microservice-communication</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> 网络挑战,进程通信,通信模式,性能可扩展性,优劣点
 
-总结:<br><br>微服务架构带来了独立服务开发的优势，但服务间仍需相互通信以构建一个协调的系统。然而，微服务间通信存在网络挑战和进程通信等困难。开发者在选择通信模式时需要考虑问题的特殊需求，否则会导致性能和可扩展性不佳。本文探讨了微服务的各种通信模式，包括其优势、劣势和最佳使用情况。Microservices architecture promotes the development of independent services. However, these services still need to communicate with each other to function as a cohesive system. Getting the communication right between microservices is often a challenge. There are two primary reasons for this: When microservices communicate over a network, they face inherent challenges associated with inter-process communication. Developers often choose a communication pattern without carefully considering the specific needs of the problem. This can lead to suboptimal performance and scalability. In this post, we explore various communication patterns for microservices and discuss their strengths, weaknesses, and ideal use cases. But first, let’s look at the key challenges associated with microservice communication. <div>
+总结:<br /><br />微服务架构带来了独立服务开发的优势，但服务间仍需相互通信以构建一个协调的系统。然而，微服务间通信存在网络挑战和进程通信等困难。开发者在选择通信模式时需要考虑问题的特殊需求，否则会导致性能和可扩展性不佳。本文探讨了微服务的各种通信模式，包括其优势、劣势和最佳使用情况。Microservices architecture promotes the development of independent services. However, these services still need to communicate with each other to function as a cohesive system. Getting the communication right between microservices is often a challenge. There are two primary reasons for this: When microservices communicate over a network, they face inherent challenges associated with inter-process communication. Developers often choose a communication pattern without carefully considering the specific needs of the problem. This can lead to suboptimal performance and scalability. In this post, we explore various communication patterns for microservices and discuss their strengths, weaknesses, and ideal use cases. But first, let’s look at the key challenges associated with microservice communication. <div>
 <p>Microservices architecture promotes the development of independent services. However, these services still need to communicate with each other to function as a cohesive system.&nbsp;</p><p>Getting the communication right between microservices is often a challenge. There are two primary reasons for this:</p><ul><li><p>When microservices communicate over a network, they face inherent challenges associated with inter-process communication.</p></li></ul><ul><li><p>Developers often choose a communication pattern without carefully considering the specific needs of the problem. This can lead to suboptimal performance and scalability.</p></li></ul><p>In this post, we explore various communication patterns for microservices and discuss their strengths, weaknesses, and ideal use cases.</p><p>But first, let&#8217;s look at the key challenges associated with microservice communication.</p><div class="captioned-image-container"><figure><a class="image-link image2" href="https://blog.bytebytego.com/subscribe" target="_blank"><div class="image2-inset"><source type="image/webp" /><img alt="" class="sizing-normal" height="1652" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5db07039-ccc9-4fb2-afc3-d9a3b1093d6a_3438x3900.jpeg" width="1456" /><div></div></div></a></figure></div><h2>Why is Microservice Communication Challenging?</h2>
       <p>
           <a href="https://blog.bytebytego.com/p/a-crash-course-on-microservice-communication">
@@ -20,9 +21,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Thu, 20 Jun 2024 15:30:51 GMT</pubDate>
-<pubDate>Thu, 20 Jun 2024 15:30:51 GMT</pubDate>
 </item>
-
 <item>
 <title>Scaling to 1.2 Billion Daily API Requests with Caching at RevenueCat</title>
 <link>https://blog.bytebytego.com/p/scaling-to-12-billion-daily-api-requests</link>
