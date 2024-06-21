@@ -4,19 +4,18 @@
 <title>LessWrong</title>
 <link>https://www.lesswrong.com</link>
 
+
 <item>
 <title>Claude 3.5 Sonnet</title>
 <link>https://www.lesswrong.com/posts/xyuZcijPfjBa5qZDw/claude-3-5-sonnet</link>
 <guid>https://www.lesswrong.com/posts/xyuZcijPfjBa5qZDw/claude-3-5-sonnet</guid>
 <content:encoded><![CDATA[
 <div> Claude 3.5, Anthropic, UK AISI, DeepMind, AI Safety Institute
-<br><br>总结: Anthropic将发布Claude 3.5 Haiku和Claude 3.5 Opus，UK AISI和美国AI安全研究所分享了测试结果，METR进行了初步探索。UK AISI仅获得了表面访问权限，DeepMind允许外部测试组关闭安全过滤器。Anthropic避免推动能力和竞争动态的恶化。与Dustin Moskovitz的会谈表明Anthropic可能不完全遵守之前的承诺。Anthropic未明确其承诺，令人失望，特别是在Claude 3发布后。Hatfield-Dodds表示Anthropic希望避免恶化情况。 <div>
+<br /><br />总结: Anthropic将发布Claude 3.5 Haiku和Claude 3.5 Opus，UK AISI和美国AI安全研究所分享了测试结果，METR进行了初步探索。UK AISI仅获得了表面访问权限，DeepMind允许外部测试组关闭安全过滤器。Anthropic避免推动能力和竞争动态的恶化。与Dustin Moskovitz的会谈表明Anthropic可能不完全遵守之前的承诺。Anthropic未明确其承诺，令人失望，特别是在Claude 3发布后。Hatfield-Dodds表示Anthropic希望避免恶化情况。 <div>
 Published on June 20, 2024 6:00 PM GMT<br /><br /><figure class="image"><img src="https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/xyuZcijPfjBa5qZDw/p68qcwalabfvdt4kt7wh" /></figure><blockquote><p>we’ll be releasing Claude 3.5 Haiku and Claude 3.5 Opus later this year.</p></blockquote><hr /><p>They made a <a href="https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf">mini model card</a>. Notably:</p><blockquote><p>The UK AISI also conducted pre-deployment testing of a near-final model, and shared their results with the US AI Safety Institute . . . . Additionally, METR did an initial exploration of the model’s autonomy-relevant capabilities.</p></blockquote><p>It seems that UK AISI only got maximally shallow access, since Anthropic would have said if not, and in particular the model card mentions "internal research techniques to acquire non-refusal model responses" as <i>internal</i>. This is better than nothing, but it would be unsurprising if an evaluator is unable to elicit dangerous capabilities but users—with much more time and with access to future elicitation techniques—ultimately are. <a href="https://www.lesswrong.com/posts/WjtnvndbsHxCnFNyc/ai-companies-aren-t-really-using-external-evaluators">Recall</a> that DeepMind, in contrast, gave "external testing groups . . . . the ability to turn down or turn off safety filters."</p><hr /><p><u>Anthropic CEO Dario Amodei gave Dustin Moskovitz the impression that Anthropic </u><a href="https://www.lesswrong.com/posts/JbE7KynwshwkXPJAJ/anthropic-release-claude-3-claims-greater-than-gpt-4?commentId=JhBNSujBa3c78Epdn"><u>committed</u></a><u> "to not meaningfully advance the frontier with a launch." (Plus Gwern, and this was definitely Anthropic's vibe around 2022,</u><span class="footnote-reference" id="fnrefoshr06ewimr"><sup><a href="https://www.lesswrong.com/feed.xml?view=frontpage-rss&amp;karmaThreshold=50#fnoshr06ewimr">[1]</a></sup></span><u>&nbsp;although not a hard public commitment.) Perhaps Anthropic does not consider itself bound by this, which might be reasonable — it's quite disappointing </u>that Anthropic hasn't clarified its commitments, particularly after the confusion on this topic around the Claude 3 launch.</p><ol class="footnote-section footnotes"><li class="footnote-item" id="fnoshr06ewimr"><span class="footnote-back-link"><sup><strong><a href="https://www.lesswrong.com/feed.xml?view=frontpage-rss&amp;karmaThreshold=50#fnrefoshr06ewimr">^</a></strong></sup></span><div class="footnote-content"><p>E.g. Zac Hatfield-Dodds <a href="https://www.lesswrong.com/posts/9TWReSDKyshfA66sz/alignment-org-cheat-sheet?commentId=wkcCybFvcq3QuBBX8">said</a> Anthropic wanted to avoid "making things worse (advancing capabilities, race dynamics, etc)." Plus nonpublic sources, including stuff discussed in the Claude 3 discourse.</p></div></li></ol><br /><br /><a href="https://www.lesswrong.com/posts/xyuZcijPfjBa5qZDw/claude-3-5-sonnet#comments">Discuss</a>
 ]]></content:encoded>
 <pubDate>Fri, 21 Jun 2024 09:17:21 GMT</pubDate>
-<pubDate>Fri, 21 Jun 2024 09:17:21 GMT</pubDate>
 </item>
-
 <item>
 <title>Actually, Power Plants May Be an AI Training Bottleneck.</title>
 <link>https://www.lesswrong.com/posts/DsoqEcnCu8vQeeeBe/actually-power-plants-may-be-an-ai-training-bottleneck</link>

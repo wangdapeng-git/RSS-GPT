@@ -4,6 +4,21 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>The Real Python Podcast – Episode #209: Python's Command-Line Utilities &amp; Music Information Retrieval Tools</title>
+<link>https://realpython.com/podcasts/rpp/209/</link>
+<guid>https://realpython.com/podcasts/rpp/209/</guid>
+<content:encoded><![CDATA[
+<div> Python模块,命令行工具,Windows机器,功能添加,Christopher Trudeau<br>
+总结:<br>
+Python模块中有内置的一些可作为实用命令行工具的功能，可以为Windows机器增加更多功能。Christopher Trudeau在本周节目中带来了另一批PyCoder's Weekly文章和项目。 <div>
+<p>What are the built-in Python modules that can work as useful command-line tools? How can these tools add more functionality to Windows machines? Christopher Trudeau is back on the show this week, bringing another batch of PyCoder's Weekly articles and projects.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-06-21T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Quiz: Creating Great README Files for Your Python Projects</title>

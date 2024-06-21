@@ -1699,3 +1699,9 @@ Summarized using GPT-3.5-turbo
 Append: [Claude 3.5 Sonnet](https://www.lesswrong.com/posts/xyuZcijPfjBa5qZDw/claude-3-5-sonnet)
 append_entries: 1
 Finish: 2024-06-21 10:11:16.459069
+------------------------------------------------------
+Started: 2024-06-21 12:18:47.426567
+Existing_entries: 83
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-21 12:18:47.758992
