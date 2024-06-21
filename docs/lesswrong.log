@@ -1723,3 +1723,12 @@ Existing_entries: 83
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-06-21 18:14:24.573352
+------------------------------------------------------
+Started: 2024-06-21 20:11:54.257631
+Existing_entries: 83
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 14907
+Summarized using GPT-3.5-turbo
+Append: [Connecting the Dots: LLMs can Infer & Verbalize Latent Structure from Training Data](https://www.lesswrong.com/posts/5SKRHQEFr8wYQHYkx/connecting-the-dots-llms-can-infer-and-verbalize-latent)
+append_entries: 1
+Finish: 2024-06-21 20:11:59.465348
