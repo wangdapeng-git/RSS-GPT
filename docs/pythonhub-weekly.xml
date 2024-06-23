@@ -4,6 +4,188 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-06-23</title>
+<link>https://pythonhub.dev/digest/2024-06-23/</link>
+<guid>https://pythonhub.dev/digest/2024-06-23/</guid>
+<content:encoded><![CDATA[
+<div> Python, Django, SaaS, Stripe, PostgreSQL
+<br>
+Python教程中涵盖了如何使用Django，Stripe，Neon PostgreSQL，TailwindCSS和GitHub Actions构建SaaS应用程序。视频涵盖了Django Web开发，发送电子邮件，用户身份验证，部署，数据库集成，静态文件和订阅管理等主题。Andriej Karpathy演示了如何复制GPT-2（124M）模型，讨论了参数共享，模型初始化，混合精度训练，优化如flash attention和超参数调整。文章详细介绍了CPython如何实现内存管理，包括引用计数和垃圾回收。视频展示了如何将传统的Django表单转换为HTMX模态元素。文章提供了针对Django应用程序的最佳SQLite设置，旨在增强较小部署的性能和可靠性。微软新的Python在Excel功能的深入评估。学习如何使用混合整数线性规划和Google OR-Tools解决Hay Day游戏中的调度问题。实现高效Python图表结果的简单模块化提示工程。释放包括以下公告： AI-Powered Jupyter笔记本使用React构建。 Burr使得从简单的Python构建块中开发应用程序（聊天机器人，代理，模拟等...）变得容易。Inspectus是一个多功能可视化工具，适用于大型语言模型。它通过易于使用的Python API在Jupyter笔记本中平稳运行。Inspectus提供多个视图，为语言模型行为提供不同的见解。输入pytest --edit打开失败的测试代码。LLM动力的无损压缩工具。你见过的最小的PaaS. Piku允许您对您自己的服务器进行git推送部署。 
+<br><br>总结: 这篇文章详细介绍了Python和Django相关内容，包括构建SaaS应用程序、模型复制以及内存管理等方面的知识。同时还涵盖了SQLite优化设置、Microsoft新功能评估、游戏调度问题解决方法等内容。文章和视频内容丰富多样，适合Python开发者学习和实践。 <div>
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=WbNNESIxJnY">Build a SaaS App with Django, Stripe, Neon PostgreSQL, TailwindCSS, GitHub Actions</a></strong>
+    
+        <br /><span>This video is a Python tutorial that teaches how to build a SaaS app with Django, Stripe, Neon PostgreSQL, TailwindCSS, and GitHub Actions. It covers topics like Django web development, sending emails, user authentication, deployment, database integration, static files, and subscription management.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythoninsider.blogspot.com/2024/06/python-3124-released.html">Python 3.12.4 released</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/pdm-project/pdm">pdm-project / pdm</a></strong>
+    
+        <br /><span>A modern Python package and dependency manager supporting the latest PEP standards</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://muhammadraza.me/2024/building-http-server/">Understanding HTTP Server by Implementing in Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=l8pRSuU81PU">Let's reproduce GPT-2 (124M)</a></strong>
+    
+        <br /><span>In this video, Andrej Karpathy demonstrates how to reproduce the GPT-2 (124M) model, covering topics like parameter sharing, model initialization, mixed precision training, optimizations like flash attention, and hyperparameter tuning.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://blog.codingconfessions.com/p/cpython-garbage-collection-internals">CPython Garbage Collection: The Internal Mechanics and Algorithms</a></strong>
+    
+        <br /><span>A detailed code walkthrough of how CPython implements memory management, including reference counting and garbage collection.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=L1VC-KpSoBk">Modal Forms with Django, HTMX, and Tailwind CSS</a></strong>
+    
+        <br /><span>This video shows how you can convert a traditional Django form to an HTMX modal element in just a few quick steps.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://gcollazo.com/optimal-sqlite-settings-for-django/">Optimal SQLite settings for Django</a></strong>
+    
+        <br /><span>The article provides optimal SQLite settings for Django applications, aimed at enhancing performance and reliability for smaller deployments. It includes specific PRAGMA configurations and a simple backup strategy, highlighting the potential of SQLite when correctly tuned for production use.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.xlwings.org/blog/my-thoughts-on-python-in-excel">My thoughts on Python in Excel</a></strong>
+    
+        <br /><span>An in-depth review of Microsoft's new Python in Excel functionality.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/NVIDIA/warp">Nvidia Warp: A Python framework for high performance GPU simulation and graphics</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/ictnlp/StreamSpeech">StreamSpeech is an “All in One” seamless model for offline and simultaneous speech recognition, speech translation and speech synthesis.</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://thinhcorner.com/blog/hayday-game-schedule">Cracking the Scheduling Code in Hay Day</a></strong>
+    
+        <br /><span>Learn how to solve the scheduling problem in the Hay Day game using Mixed-integer linear programming and Google OR-Tools.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://johnloewen.substack.com/p/insanely-easy-gpt-4-one-prompt-streamlit">Insanely Easy GPT-4 One Prompt Streamlit Interactive Plotly Sunburst Chart</a></strong>
+    
+        <br /><span>Simple and modular prompt engineering for efficient Python charting results.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://devblogs.microsoft.com/python/python-in-visual-studio-code-june-2024-release/">Python in Visual Studio Code – June 2024 Release</a></strong>
+    
+        <br /><span>This release includes the following announcements:</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-06-16/">Python Hub Weekly Digest for 2024-06-16</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/LLaVA-VL/LLaVA-NeXT">LLaVA-VL / LLaVA-NeXT</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/squaredtechnologies/thread">thread</a></strong>
+    
+        <br /><span>AI-Powered Jupyter Notebook built using React.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/dagworks-inc/burr">Burr</a></strong>
+    
+        <br /><span>Burr makes it easy to develop applications that make decisions (chatbots, agents, simulations, etc...) from simple python building blocks.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/labmlai/inspectus">Inspectus</a></strong>
+    
+        <br /><span>Inspectus is a versatile visualization tool for large language models. It runs smoothly in Jupyter notebooks via an easy-to-use Python API. Inspectus provides multiple views, offering diverse insights into language model behaviors.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/MrMino/pytest-edit">pytest-edit</a></strong>
+    
+        <br /><span>Type `pytest --edit` to open the failing test code.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/AlexBuz/llama-zip">llama-zip</a></strong>
+    
+        <br /><span>LLM-powered lossless compression tool.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/piku/piku">piku</a></strong>
+    
+        <br /><span>The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1dgbq1e/cant_decide_between_flask_django_ninja_or_fastapi/">Cant decide between flask, django ninja or fastAPI for sideproject</a></strong>
+      </p>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1de2llp/sold_my_python_open_source_project_to_a_san/">Sold my Python open source project to a San Francisco AI company. Now I work for them. AMA.</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 23 Jun 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 23 Jun 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-06-16</title>
