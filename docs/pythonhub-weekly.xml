@@ -4,15 +4,16 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-06-23</title>
 <link>https://pythonhub.dev/digest/2024-06-23/</link>
 <guid>https://pythonhub.dev/digest/2024-06-23/</guid>
 <content:encoded><![CDATA[
 <div> Python, Django, SaaS, Stripe, PostgreSQL
-<br>
+<br />
 Python教程中涵盖了如何使用Django，Stripe，Neon PostgreSQL，TailwindCSS和GitHub Actions构建SaaS应用程序。视频涵盖了Django Web开发，发送电子邮件，用户身份验证，部署，数据库集成，静态文件和订阅管理等主题。Andriej Karpathy演示了如何复制GPT-2（124M）模型，讨论了参数共享，模型初始化，混合精度训练，优化如flash attention和超参数调整。文章详细介绍了CPython如何实现内存管理，包括引用计数和垃圾回收。视频展示了如何将传统的Django表单转换为HTMX模态元素。文章提供了针对Django应用程序的最佳SQLite设置，旨在增强较小部署的性能和可靠性。微软新的Python在Excel功能的深入评估。学习如何使用混合整数线性规划和Google OR-Tools解决Hay Day游戏中的调度问题。实现高效Python图表结果的简单模块化提示工程。释放包括以下公告： AI-Powered Jupyter笔记本使用React构建。 Burr使得从简单的Python构建块中开发应用程序（聊天机器人，代理，模拟等...）变得容易。Inspectus是一个多功能可视化工具，适用于大型语言模型。它通过易于使用的Python API在Jupyter笔记本中平稳运行。Inspectus提供多个视图，为语言模型行为提供不同的见解。输入pytest --edit打开失败的测试代码。LLM动力的无损压缩工具。你见过的最小的PaaS. Piku允许您对您自己的服务器进行git推送部署。 
-<br><br>总结: 这篇文章详细介绍了Python和Django相关内容，包括构建SaaS应用程序、模型复制以及内存管理等方面的知识。同时还涵盖了SQLite优化设置、Microsoft新功能评估、游戏调度问题解决方法等内容。文章和视频内容丰富多样，适合Python开发者学习和实践。 <div>
+<br /><br />总结: 这篇文章详细介绍了Python和Django相关内容，包括构建SaaS应用程序、模型复制以及内存管理等方面的知识。同时还涵盖了SQLite优化设置、Microsoft新功能评估、游戏调度问题解决方法等内容。文章和视频内容丰富多样，适合Python开发者学习和实践。 <div>
 <div></div>
 
 <h2>💖 Most Popular</h2>
@@ -184,9 +185,7 @@ Python教程中涵盖了如何使用Django，Stripe，Neon PostgreSQL，Tailwind
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 23 Jun 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 23 Jun 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-06-16</title>
 <link>https://pythonhub.dev/digest/2024-06-16/</link>
