@@ -1951,3 +1951,15 @@ Existing_entries: 87
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-06-24 18:13:54.150474
+------------------------------------------------------
+Started: 2024-06-24 20:11:17.840247
+Existing_entries: 87
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 13593
+Summarized using GPT-3.5-turbo
+Append: [LLM Generality is a Timeline Crux](https://www.lesswrong.com/posts/k38sJNLk7YbJA72ST/llm-generality-is-a-timeline-crux)
+Token length: 20509
+Summarized using GPT-3.5-turbo
+Append: [SAE feature geometry is outside the superposition hypothesis](https://www.lesswrong.com/posts/MFBTjb2qf3ziWmzz6/sae-feature-geometry-is-outside-the-superposition-hypothesis)
+append_entries: 2
+Finish: 2024-06-24 20:11:31.381775
