@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Creating Great README Files for Your Python Projects</title>
 <link>https://realpython.com/readme-python-project/</link>
 <guid>https://realpython.com/readme-python-project/</guid>
 <content:encoded><![CDATA[
 <div> README file, Python projects, organization, sections, benefits
-<br><br>
+<br /><br />
 总结:
 README文件是Python项目中至关重要的一部分，提供了关于项目的基本信息和使用指南。它有助于吸引用户和贡献者，以及让项目在众多项目中脱颖而出。一个优质的README文件通常包括项目概述、设置和使用指南、贡献指南等常见部分。通过创建一个结构良好的README文件，您可以让您的项目更加专业和吸引人。 <div>
 <div><p>Most software projects benefit from having a piece of documentation that provides a quick start guide for setting up, using, and contributing to the project. This is especially true in open-source projects where you typically want to attract users and contributors. This type of document is commonly known as a <strong><code>README</code></strong> file, and you should add one to each Python project you create.</p>
@@ -94,10 +95,8 @@ README文件是Python项目中至关重要的一部分，提供了关于项目�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-06-24T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>The Real Python Podcast – Episode #209: Python's Command-Line Utilities &amp; Music Information Retrieval Tools</title>
 <link>https://realpython.com/podcasts/rpp/209/</link>
