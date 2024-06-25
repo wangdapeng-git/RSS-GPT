@@ -1972,3 +1972,9 @@ Summarized using GPT-3.5-turbo
 Append: [Compact Proofs of Model Performance via Mechanistic Interpretability](https://www.lesswrong.com/posts/bRsKimQcPTX3tNNJZ/compact-proofs-of-model-performance-via-mechanistic)
 append_entries: 1
 Finish: 2024-06-24 22:11:33.528553
+------------------------------------------------------
+Started: 2024-06-25 00:48:02.522720
+Existing_entries: 90
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-25 00:48:03.008580
