@@ -4,6 +4,74 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>FastGestures 鼠标/触控板/屏手势  2.2.14</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1937850</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1937850</guid>
+<content:encoded><![CDATA[
+
+鼠标手势、手势快捷键、 激活/启动应用、发送快捷键、三指拖拽、快速搜索、执行命令行脚本、资源管理器导航、微信多开、图片OCR、Lua脚本、自定义扩展等！一款小而美的应用，支持 win7/8/10/11
+
+
+
+可以定义任何你想使 ...
+]]></content:encoded>
+<pubDate>Mon, 24 Jun 2024 22:29:23 +0000</pubDate>
+<pubDate>Mon, 24 Jun 2024 22:29:23 +0000</pubDate>
+</item>
+<item>
+<title>闲来无事，写了一个简单的摸鱼工具</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1937765</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1937765</guid>
+<content:encoded><![CDATA[
+
+废话不多说，直接上代码。
+[mw_shl_code=python,true]import tkinter as tk
+from tkinter import ttk
+import pystray
+from PIL import Image
+import win32gui
+import win32process
+import win32con
+import psutil ...
+]]></content:encoded>
+<pubDate>Mon, 24 Jun 2024 10:24:46 +0000</pubDate>
+<pubDate>Mon, 24 Jun 2024 10:24:46 +0000</pubDate>
+</item>
+<item>
+<title>国家职业技能标准下载工具</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1937728</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1937728</guid>
+<content:encoded><![CDATA[
+
+[md]# 背景
+朋友需要在[国家职业技能标准](http://biaozhun.osta.org.cn/)这个网站上下载相应的标准，于是就有了这个软件。
+# 使用方法
+在软件输入框里输入例如下图的标记的网页code=后的数字编码
+
+
+
+
+然后点击下 ...
+]]></content:encoded>
+<pubDate>Mon, 24 Jun 2024 08:52:24 +0000</pubDate>
+<pubDate>Mon, 24 Jun 2024 08:52:24 +0000</pubDate>
+</item>
+<item>
+<title>0.8M大小的电脑手机互传文件 2024.06.24</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1937684</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1937684</guid>
+<content:encoded><![CDATA[
+
+蓝奏云下载地址：https://wwf.lanzout.com/iNlp122kxmfa
+软件修改自aardio软件的范例工具，版权归原作者所有，如有侵权请删贴。
+软件特点：
+1、单文件运行，只有780K，支持电脑、手机互传文件；
+2、文件只是删除了一 ...
+]]></content:encoded>
+<pubDate>Mon, 24 Jun 2024 07:03:00 +0000</pubDate>
+<pubDate>Mon, 24 Jun 2024 07:03:00 +0000</pubDate>
+</item>
 
 <item>
 <title>xposed去掉七猫小说广告和使用vip背景</title>
