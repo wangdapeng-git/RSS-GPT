@@ -2038,3 +2038,9 @@ Summarized using GPT-3.5-turbo
 Append: [Formal verification, heuristic explanations and surprise accounting](https://www.lesswrong.com/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise)
 append_entries: 1
 Finish: 2024-06-25 18:14:42.499172
+------------------------------------------------------
+Started: 2024-06-25 20:11:07.788448
+Existing_entries: 92
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-25 20:11:08.285762
