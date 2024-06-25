@@ -2020,3 +2020,12 @@ Existing_entries: 90
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-06-25 14:10:23.781101
+------------------------------------------------------
+Started: 2024-06-25 16:13:41.534974
+Existing_entries: 90
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 8308
+Summarized using GPT-3.5-turbo
+Append: [The Minority Faction](https://www.lesswrong.com/posts/vSSrAbbE8RtowRSBZ/the-minority-faction)
+append_entries: 1
+Finish: 2024-06-25 16:13:47.088575
