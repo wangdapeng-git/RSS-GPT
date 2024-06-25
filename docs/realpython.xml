@@ -4,14 +4,15 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Build a GUI Calculator With PyQt and Python</title>
 <link>https://realpython.com/courses/build-gui-calculator-pyqt/</link>
 <guid>https://realpython.com/courses/build-gui-calculator-pyqt/</guid>
 <content:encoded><![CDATA[
 <div> Python, PyQt, GUI, desktop applications, libraries
-<br>
-这个视频课程将教你如何使用Python和PyQt构建GUI桌面应用程序。你将学习如何创建图形用户界面，将用户事件与应用逻辑连接起来，使用适当的项目布局组织PyQt应用程序，以及如何创建一个完全功能的GUI应用程序。这个课程适合对构建传统GUI桌面应用程序感兴趣的开发者，为他们提供了丰富的库选择和实用的技能。总结: <br><br> <div>
+<br />
+这个视频课程将教你如何使用Python和PyQt构建GUI桌面应用程序。你将学习如何创建图形用户界面，将用户事件与应用逻辑连接起来，使用适当的项目布局组织PyQt应用程序，以及如何创建一个完全功能的GUI应用程序。这个课程适合对构建传统GUI桌面应用程序感兴趣的开发者，为他们提供了丰富的库选择和实用的技能。总结: <br /><br /> <div>
 <p>Even though web and mobile applications appear to have taken over the software development market, there&rsquo;s still demand for traditional <strong>graphical user interface (GUI)</strong> desktop applications. If you&rsquo;re interested in building these kinds of applications in Python, then you&rsquo;ll find a wide variety of libraries to choose from. They include <a href="https://docs.python.org/3/library/tkinter.html">Tkinter</a>, <a href="https://realpython.com/python-gui-with-wxpython/">wxPython</a>, <a href="https://www.riverbankcomputing.com/software/pyqt/intro">PyQt</a>, <a href="https://wiki.qt.io/Qt_for_Python">PySide</a>, and a few others.</p>
 <p>In this video course, you&rsquo;ll learn the basics of building GUI desktop applications with Python and <strong>PyQt</strong>.</p>
 <p><strong>In this video course, you&rsquo;ll learn how to:</strong></p>
@@ -24,10 +25,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-06-25T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Creating Great README Files for Your Python Projects</title>
 <link>https://realpython.com/readme-python-project/</link>

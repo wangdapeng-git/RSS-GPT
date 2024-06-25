@@ -2029,3 +2029,12 @@ Summarized using GPT-3.5-turbo
 Append: [The Minority Faction](https://www.lesswrong.com/posts/vSSrAbbE8RtowRSBZ/the-minority-faction)
 append_entries: 1
 Finish: 2024-06-25 16:13:47.088575
+------------------------------------------------------
+Started: 2024-06-25 18:14:36.365619
+Existing_entries: 91
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 15395
+Summarized using GPT-3.5-turbo
+Append: [Formal verification, heuristic explanations and surprise accounting](https://www.lesswrong.com/posts/SyeQjjBoEC48MvnQC/formal-verification-heuristic-explanations-and-surprise)
+append_entries: 1
+Finish: 2024-06-25 18:14:42.499172
