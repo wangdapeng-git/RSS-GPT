@@ -2074,3 +2074,9 @@ Summarized using GPT-3.5-turbo
 Append: [In favour of exploring nagging doubts about x-risk](https://www.lesswrong.com/posts/4eBLj3TTcypq4ic9v/in-favour-of-exploring-nagging-doubts-about-x-risk)
 append_entries: 1
 Finish: 2024-06-26 04:13:19.663490
+------------------------------------------------------
+Started: 2024-06-26 06:15:02.366475
+Existing_entries: 94
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-26 06:15:03.266024
