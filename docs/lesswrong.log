@@ -2053,3 +2053,9 @@ Summarized using GPT-3.5-turbo
 Append: [I'm a bit skeptical of AlphaFold 3](https://www.lesswrong.com/posts/D9yYmL6KPq7dcNSKE/i-m-a-bit-skeptical-of-alphafold-3)
 append_entries: 1
 Finish: 2024-06-25 22:09:49.975412
+------------------------------------------------------
+Started: 2024-06-26 00:47:33.361546
+Existing_entries: 93
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-26 00:47:33.916360
