@@ -4,6 +4,141 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Understanding the Python Mock Object Library</title>
+<link>https://realpython.com/python-mock-library/</link>
+<guid>https://realpython.com/python-mock-library/</guid>
+<content:encoded><![CDATA[
+<div> Mock, unittest.mock, Python, patch, testing
+Mock是Python的unittest.mock库提供的模拟对象，用于测试中替代真实对象。patch是用于替换代码中真实对象为Mock实例的函数。Mock类是用于模拟对象的基类，非常灵活。使用Mock可以控制代码的行为，检查调用方法和频率等使用数据。unittest.mock库提供了解决mocking对象中一些常见问题的解决方案。总结: Mock是unittest.mock库中的重要概念，可以帮助在测试中模拟对象，替换真实对象，控制代码行为，并解决常见问题。 <div>
+<div><p>Python’s <code>unittest.mock</code> library is a tool that helps you create mock objects to simulate complex logic and unpredictable <a href="https://realpython.com/courses/managing-python-dependencies/">dependencies</a>.
+This helps you write valuable tests that verify your application logic is correct, reliable, and efficient.</p>
+<p><strong>By the end of this tutorial, you’ll be able to:</strong></p>
+<ul>
+<li><strong>Create Python mock objects</strong> using <code>Mock</code></li>
+<li><strong>Assert</strong> that you’re using objects as you intended</li>
+<li><strong>Inspect</strong> usage data stored on your Python mocks</li>
+<li><strong>Configure</strong> certain aspects of your Python mock objects</li>
+<li>Substitute your mocks for real objects using <strong><code>patch()</code></strong></li>
+<li><strong>Avoid common problems</strong> inherent in Python mocking</li>
+</ul>
+<p>You’ll begin by learning about what mocking is and how you can use it to improve your tests.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-mock-library-code/">Click here to download the free sample code</a> that you’ll use to learn about Python’s mock object library.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Understanding the Python Mock Object Library” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="https://realpython.com/quizzes/python-mock-library/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="Understanding the Python Mock Object Library" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/unittest.mock-Tutorial_Watermarked.8e92b54478af.jpg" style="background: #abe0e6;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="https://realpython.com/quizzes/python-mock-library/"><span class="my-0 h4">Understanding the Python Mock Object Library</span></a> 
+      <p class="text-muted mb-0 small">In this quiz, you'll test your understanding of Python's unittest.mock library. With this knowledge, you'll be able to write robust tests, create mock objects, and ensure your code is reliable and efficient.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="what-is-mocking">What Is Mocking?<a class="headerlink" href="https://realpython.com/atom.xml#what-is-mocking" title="Permanent link"></a></h2>
+<p>A <a href="https://en.wikipedia.org/wiki/Mock_object">mock object</a> substitutes and imitates a real object within a <a href="https://realpython.com/python-testing/">testing environment</a>. Using mock objects is a versatile and powerful way to <a href="https://realpython.com/python-cli-testing/#mocks">improve the quality of your tests</a>. This is because by using Python mock objects, you can control your code’s behavior during testing.</p>
+<p>For example, if your code makes <a href="https://realpython.com/python-requests/">HTTP requests</a> to external services, then your tests execute predictably only so far as the services are behaving as you expected. Sometimes, a temporary change in the behavior of these external services can cause intermittent failures within your test suite.</p>
+<p>Because of this, it would be better for you to test your code in a controlled environment. <a href="https://realpython.com/testing-third-party-apis-with-mocks/">Replacing the actual request with a mock object</a> would allow you to simulate external service outages and successful responses in a predictable way.</p>
+<p>Sometimes, it’s difficult to test certain areas of your codebase. Such areas include <code>except</code> blocks and <code>if</code> statements that are hard to satisfy. Using Python mock objects can help you control the execution path of your code to reach these areas and improve your <a href="https://en.wikipedia.org/wiki/Code_coverage">code coverage</a>.</p>
+<p>Another reason to use mock objects is to better understand how you’re using their real counterparts in your code. A Python mock object contains data about its usage that you can inspect, such as:</p>
+<ul>
+<li>If you called a method</li>
+<li>How you called the method</li>
+<li>How often you called the method</li>
+</ul>
+<p>Understanding what a mock object does is the first step to learning how to use one.
+Next, you’ll explore the Python mock object library to see how to use Python mock objects.</p>
+<h2 id="the-python-mock-library">The Python Mock Library<a class="headerlink" href="https://realpython.com/atom.xml#the-python-mock-library" title="Permanent link"></a></h2>
+<p>Python’s built-in mock object library is <a href="https://docs.python.org/3/library/unittest.mock.html"><code>unittest.mock</code></a>. It provides an easy way to introduce mocks into your tests.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> The standard library includes <code>unittest.mock</code> starting from Python 3.3 and in all newer versions. If you’re using an older version of Python, then you’ll need to install the official backport of the library.</p>
+<p>To do so, install <a href="https://pypi.org/project/mock/"><code>mock</code></a> from the <strong>Python Package Index (PyPI)</strong> using <a href="https://realpython.com/what-is-pip/"><code>pip</code></a>:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Shell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">$ </span>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>mock
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>You may want to create and activate a <a href="https://realpython.com/python-virtual-environments-a-primer/">virtual environment</a> before installing the package.</p>
+</div>
+<p><code>unittest.mock</code> provides a class called <code>Mock</code>, which you’ll use to imitate real objects in your codebase. <code>Mock</code>, along with its subclasses, offers incredible flexibility and insightful data that will meet most of your Python mocking needs.</p>
+<p>The library also provides a function called <code>patch()</code>, which replaces the real objects in your code with <code>Mock</code> instances. You can use <code>patch()</code> as either a <a href="https://realpython.com/primer-on-python-decorators/">decorator</a> or a <a href="https://realpython.com/python-with-statement/">context manager</a>, giving you control over the scope in which the object will be mocked. Once the designated scope exits, <code>patch()</code> will clean up your code by replacing the mocked objects with their original counterparts.</p>
+<p>Finally, <code>unittest.mock</code> provides solutions for some of the issues inherent in mocking objects, which you’ll explore later in this tutorial. </p>
+<p>Now that you have a better understanding of what mocking is and the library you’ll be using, it’s time to dive in and explore the features and functionalities <code>unittest.mock</code> has to offer.</p>
+<h2 id="the-mock-object">The <code>Mock</code> Object<a class="headerlink" href="https://realpython.com/atom.xml#the-mock-object" title="Permanent link"></a></h2>
+<p><code>unittest.mock</code> offers a base class for mocking objects called <code>Mock</code>. The use cases for <code>Mock</code> are practically limitless because <code>Mock</code> is so flexible.</p>
+<p>Begin by instantiating a new <code>Mock</code> instance:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">unittest.mock</span> <span class="kn">import</span> <span class="n">Mock</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">mock</span> <span class="o">=</span> <span class="n">Mock</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">mock</span>
+<span class="go">&lt;Mock id='4561344720'&gt;</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+</div><h2><a href="https://realpython.com/python-mock-library/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-mock-library/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-06-26T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Build a GUI Calculator With PyQt and Python</title>
