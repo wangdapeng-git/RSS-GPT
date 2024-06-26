@@ -2122,3 +2122,18 @@ Existing_entries: 94
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-06-26 20:13:20.911259
+------------------------------------------------------
+Started: 2024-06-26 22:10:14.933774
+Existing_entries: 94
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 11152
+Summarized using GPT-3.5-turbo
+Append: [What is a Tool?](https://www.lesswrong.com/posts/ajJRyKtwZNnBdmkcv/what-is-a-tool)
+Token length: 22745
+Summarized using GPT-3.5-turbo
+Append: [So you want to work on technical AI safety](https://www.lesswrong.com/posts/kGt3ukLR924kyfn5y/so-you-want-to-work-on-technical-ai-safety)
+Token length: 64675
+Summarized using GPT-3.5-turbo
+Append: [Book Review: Righteous Victims - A History of the Zionist-Arab Conflict](https://www.lesswrong.com/posts/Th4SeayGQyF6pYmZ6/book-review-righteous-victims-a-history-of-the-zionist-arab-1)
+append_entries: 3
+Finish: 2024-06-26 22:10:34.852238
