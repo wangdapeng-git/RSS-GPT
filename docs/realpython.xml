@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Understanding the Python Mock Object Library</title>
 <link>https://realpython.com/python-mock-library/</link>
@@ -136,10 +137,8 @@ Next, you’ll explore the Python mock object library to see how to use Python m
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-06-26T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Build a GUI Calculator With PyQt and Python</title>
 <link>https://realpython.com/courses/build-gui-calculator-pyqt/</link>
