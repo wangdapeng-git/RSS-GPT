@@ -2176,3 +2176,12 @@ Existing_entries: 98
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-06-27 10:11:09.090271
+------------------------------------------------------
+Started: 2024-06-27 12:19:32.725340
+Existing_entries: 98
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 20769
+Summarized using GPT-3.5-turbo
+Append: [Live Theory Part 0: Taking Intelligence Seriously](https://www.lesswrong.com/posts/QvnzEHvodmwfBXu94/live-theory-part-0-taking-intelligence-seriously)
+append_entries: 1
+Finish: 2024-06-27 12:19:39.282264
