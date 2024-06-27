@@ -4,6 +4,20 @@
 <title>Awesome Python Weekly</title>
 <link>https://python.libhunt.com/newsletter</link>
 
+<item>
+<title>🐍 Issue 422 - Porting Python to a terrible $3 smartwatch [video]</title>
+<link>https://python.libhunt.com/newsletter/422</link>
+<guid>https://python.libhunt.com/newsletter/422</guid>
+<content:encoded><![CDATA[
+<div> Python, smartwatch, porting, issue, video
+<br>
+这篇文章介绍了将Python移植到一款3美元的智能手表的过程。作者在视频中展示了如何在这款智能手表上运行Python，并说明了在这个过程中遇到的一些问题。通过移植Python，作者展示了智能手表的潜力，并探讨了如何利用这样的设备进行开发和创新。文章通过提供视频和详细说明，向读者展示了移植Python的具体步骤和技巧，为对智能手表开发感兴趣的读者提供了有益的参考。总之，这篇文章展示了作者在移植Python到智能手表上的尝试，为读者呈现了一种有趣的技术探索过程。
+<br><br>总结: 移植Python到3美元智能手表的过程，展示了智能手表的潜力，探讨了智能手表的开发和创新，提供了详细步骤和技巧，并展示了作者的技术探索过程。 <div>
+🐍 Issue 422 - Porting Python to a terrible $3 smartwatch [video]
+]]></content:encoded>
+<pubDate>Thu, 27 Jun 2024 13:42:00 -0800</pubDate>
+<pubDate>Thu, 27 Jun 2024 13:42:00 -0800</pubDate>
+</item>
 
 <item>
 <title>🐍 Issue 421 - Open Source Python ETL</title>
