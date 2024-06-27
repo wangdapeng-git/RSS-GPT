@@ -2146,3 +2146,9 @@ Summarized using GPT-3.5-turbo
 Append: [Mistakes people make when thinking about units](https://www.lesswrong.com/posts/5vfSNLb92eyXKkQax/mistakes-people-make-when-thinking-about-units)
 append_entries: 1
 Finish: 2024-06-27 00:48:34.285915
+------------------------------------------------------
+Started: 2024-06-27 02:28:21.715819
+Existing_entries: 98
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-27 02:28:22.153620
