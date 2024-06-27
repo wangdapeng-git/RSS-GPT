@@ -4,15 +4,16 @@
 <title>ByteByteGo Newsletter</title>
 <link>https://blog.bytebytego.com</link>
 
+
 <item>
 <title>A Crash Course in Database Sharding</title>
 <link>https://blog.bytebytego.com/p/a-crash-course-in-database-sharding</link>
 <guid>https://blog.bytebytego.com/p/a-crash-course-in-database-sharding</guid>
 <content:encoded><![CDATA[
 <div> 数据库，横向扩展，性能，挑战，分片
-<br>
+<br />
 分片是一种解决数据库横向扩展挑战的技术，将数据库划分为更小、更易管理的单元称为分片。当应用程序接收到更多流量和数据时，数据库可能成为性能瓶颈，影响用户体验。通过分片，可以解决数据库横向扩展的挑战，提高性能，确保应用程序的可伸缩性。不同的公司已经成功实施了分片技术来扩展他们的数据库，有效应对业务增长的需求。
-<br><br>总结: 数据库的横向扩展面临着性能挑战，分片技术能够有效解决这一问题，提升性能，并确保应用程序的可伸缩性。通过对数据库进行分片，可以更好地应对增加的流量和数据量，确保用户体验。 <div>
+<br /><br />总结: 数据库的横向扩展面临着性能挑战，分片技术能够有效解决这一问题，提升性能，并确保应用程序的可伸缩性。通过对数据库进行分片，可以更好地应对增加的流量和数据量，确保用户体验。 <div>
 <p>As an application grows in popularity, it attracts more active users and incorporates additional features. This growth leads to a daily increase in data generation, which is a positive indicator from a business perspective.&nbsp;</p><p>However, it can also pose challenges to the application's architecture, particularly in terms of database scalability.</p><p>The database is a critical component of any application, but it is also one of the most difficult components to scale horizontally. When an application receives increased traffic and data volume, the database can become a performance bottleneck, impacting the user experience.</p><p>Sharding is a technique that addresses the challenges of horizontal database scaling. It involves partitioning the database into smaller, more manageable units called shards.</p><p>In this post, we&#8217;ll cover the fundamentals of database sharding, exploring its various approaches, technical considerations, and real-world case studies showcasing how companies have implemented sharding to scale their databases.</p><div class="captioned-image-container"><figure><a class="image-link is-viewable-img image2" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F571827ac-b3da-44a3-886a-8ca9770bb443_1337x1600.png" target="_blank"><div class="image2-inset"><source type="image/webp" /><img alt="" class="sizing-normal" height="1600" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F571827ac-b3da-44a3-886a-8ca9770bb443_1337x1600.png" width="1337" /><div class="image-link-expand"><svg class="lucide lucide-maximize2 " fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" x2="14" y1="3" y2="10"></line><line x1="3" x2="10" y1="21" y2="14"></line></svg></div></div></a></figure></div><h2>What is Sharding?</h2>
       <p>
           <a href="https://blog.bytebytego.com/p/a-crash-course-in-database-sharding">
@@ -21,9 +22,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Thu, 27 Jun 2024 15:30:37 GMT</pubDate>
-<pubDate>Thu, 27 Jun 2024 15:30:37 GMT</pubDate>
 </item>
-
 <item>
 <title>How Netflix Manages 238 Million Memberships?</title>
 <link>https://blog.bytebytego.com/p/how-netflix-manages-238-million-memberships</link>
