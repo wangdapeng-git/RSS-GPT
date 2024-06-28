@@ -2221,3 +2221,15 @@ Existing_entries: 99
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-06-28 00:48:21.077223
+------------------------------------------------------
+Started: 2024-06-28 02:29:48.890921
+Existing_entries: 99
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 17158
+Summarized using GPT-3.5-turbo
+Append: [An issue with training schemers with supervised fine-tuning](https://www.lesswrong.com/posts/mXYdYh6L9odTJZDSm/an-issue-with-training-schemers-with-supervised-fine-tuning)
+Token length: 38
+Summarized using GPT-3.5-turbo
+Append: [Detecting Genetically Engineered Viruses With Metagenomic Sequencing](https://www.lesswrong.com/posts/iaPhjYhhp7PP6BWp9/detecting-genetically-engineered-viruses-with-metagenomic)
+append_entries: 2
+Finish: 2024-06-28 02:29:57.500020
