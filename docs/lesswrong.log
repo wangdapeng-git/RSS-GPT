@@ -2266,3 +2266,12 @@ Existing_entries: 102
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-06-28 14:10:16.494025
+------------------------------------------------------
+Started: 2024-06-28 16:12:36.182442
+Existing_entries: 102
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 18592
+Summarized using GPT-3.5-turbo
+Append: [Corrigibility = Tool-ness?](https://www.lesswrong.com/posts/7LaDvWtymFWtidGxe/corrigibility-tool-ness)
+append_entries: 1
+Finish: 2024-06-28 16:12:44.272862
