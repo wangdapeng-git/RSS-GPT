@@ -2248,3 +2248,9 @@ Summarized using GPT-3.5-turbo
 Append: [Secondary forces of debt](https://www.lesswrong.com/posts/WZ2Xug4j3rz2Pe3D2/secondary-forces-of-debt)
 append_entries: 1
 Finish: 2024-06-28 08:13:34.396799
+------------------------------------------------------
+Started: 2024-06-28 10:11:27.564979
+Existing_entries: 102
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-28 10:11:28.265560
