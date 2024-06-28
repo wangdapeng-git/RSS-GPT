@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>The Real Python Podcast – Episode #210: Creating a Guitar Synthesizer &amp; Generating WAV Files With Python</title>
 <link>https://realpython.com/podcasts/rpp/210/</link>
@@ -11,15 +12,13 @@
 <content:encoded><![CDATA[
 <div> Python, Guitar Synthesizer, Bartosz Zaczyński, Techniques, High-Level Programming
 
-通过与Real Python作者和核心团队成员Bartosz Zaczyński的讨论，了解了如何在Python中合成吉他声音的技术以及在构建高级项目时可以练习的更高级编程和Python概念。 Bartosz Zaczyński最近一步一步的项目《构建吉他合成器：在Python中播放乐谱》展示了如何用Python实现吉他合成器，可以演奏音乐的简谱。通过这篇文章，读者可以了解到如何在Python中实现复杂的音乐合成功能，并提高自己的编程技能。<br><br>总结: Python技术，吉他合成器，Bartosz Zaczyński，技术，高级编程。 <div>
+通过与Real Python作者和核心团队成员Bartosz Zaczyński的讨论，了解了如何在Python中合成吉他声音的技术以及在构建高级项目时可以练习的更高级编程和Python概念。 Bartosz Zaczyński最近一步一步的项目《构建吉他合成器：在Python中播放乐谱》展示了如何用Python实现吉他合成器，可以演奏音乐的简谱。通过这篇文章，读者可以了解到如何在Python中实现复杂的音乐合成功能，并提高自己的编程技能。<br /><br />总结: Python技术，吉他合成器，Bartosz Zaczyński，技术，高级编程。 <div>
 <p>What techniques go into synthesizing a guitar sound in Python? What higher-level programming and Python concepts can you practice while building advanced projects? This week on the show, we talk with Real Python author and core team member Bartosz Zaczyński about his recent step-by-step project, Build a Guitar Synthesizer: Play Musical Tablature in Python.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-06-28T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Understanding the Python Mock Object Library</title>
 <link>https://realpython.com/python-mock-library/</link>

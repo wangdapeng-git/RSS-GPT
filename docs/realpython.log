@@ -3363,3 +3363,9 @@ Summarized using GPT-3.5-turbo
 Append: [The Real Python Podcast – Episode #210: Creating a Guitar Synthesizer & Generating WAV Files With Python](https://realpython.com/podcasts/rpp/210/)
 append_entries: 1
 Finish: 2024-06-28 12:19:27.581072
+------------------------------------------------------
+Started: 2024-06-28 14:10:11.832382
+Existing_entries: 77
+Fetching from https://realpython.com/atom.xml
+append_entries: 0
+Finish: 2024-06-28 14:10:12.113546
