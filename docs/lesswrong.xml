@@ -4,6 +4,62 @@
 <title>LessWrong</title>
 <link>https://www.lesswrong.com</link>
 
+<item>
+<title>how birds sense magnetic fields</title>
+<link>https://www.lesswrong.com/posts/AZnF5LNZfeGZRGvid/how-birds-sense-magnetic-fields</link>
+<guid>https://www.lesswrong.com/posts/AZnF5LNZfeGZRGvid/how-birds-sense-magnetic-fields</guid>
+<content:encoded><![CDATA[
+<div> magnetic field, bird magnetoreception, magnetite, compass, optical sensing
+<br>
+<br>
+总结: 本文讨论了鸟类感知地球磁场的两种理论：一种是鸟类嘴部含有磁铁矿晶体，通过罗盘的方式感知磁场方向；另一种是鸟类眼睛中含有蛋白质，通过光学效应感知磁场方向。文章解释了光学效应对磁场的影响，推测了可能的磁感应机制，同时提出了鸟类磁场感知可能结合了嘴部和眼睛两种系统。 <div>
+Published on June 27, 2024 6:59 PM GMT<br /><br /><h2>introduction</h2>
+<p>It is known that many birds are able to sense the direction of Earth's magnetic field. <a href="https://en.wikipedia.org/wiki/Magnetoreception">Here's a wikipedia page</a> on that general phenomenon. There have been 2 main theories of how that works.</p>
+<p>One theory is that birds have magnets in their beak that act like a compass. We know this is the correct theory because:</p>
+<ul>
+<li>Small magnetite crystals have been found in bird beaks.</li>
+<li>Anaesthesia of bird beaks seems to affect their magnetic sense, sometimes.</li>
+</ul>
+<p>The other theory is that birds have some sensing mechanism in their eyes that uses magneto-optical effects. We know this is the correct theory because:</p>
+<ul>
+<li>Birds can't sense magnetic field direction in red light.</li>
+<li>Covering the right eye of birds prevents them from sensing field direction.</li>
+</ul>
+<p>We also know those theories probably aren't both correct because:</p>
+<ul>
+<li>Most animals don't have a magnetic field sense. It's implausible that birds developed two separate and redundant systems for sensing magnetic fields when other animals didn't develop one.</li>
+</ul>
+<h2>organic magneto-optics</h2>
+<p>It's possible for magnetic fields to affect the optical properties of molecules; <a href="https://x.com/AndrewGYork/status/1797408565742776348">here's an example</a>, a fluorescent protein strongly affected by a small magnet. However, known examples of this require much stronger (~1000x) fields than the Earth's magnetic field.</p>
+<p>Let's suppose birds sense magnetic fields using some proteins in their eyes that directly interact with fields. The energy density of a magnetic field is proportional to the field strength^2. The energy of interaction of a magnet with a field is proportional to the product of the field strengths. The earth has a field of 25 to 65 μT. If we consider the energy of a strongly magnetic protein interacting with the Earth's magnetic field, that's not enough energy to directly cause a cellular signalling effect.</p>
+<p>So, magnetic fields must act to control some energy-transferring process, and the only logical possibilities are light absorption/emission and transfer of excited states between molecules. Birds can sense the direction of magnetic fields, more so than field strength, so the effect of magnetic fields must be relative to the orientation of something. Molecules are randomly oriented, but absorption/emission of a photon is relative to molecule orientation, so magnetic fields can create differences in absorption/emission of light at different angles. (That's the basis of a spectroscopy technique I <a href="https://www.bhauth.com/blog/chemistry/magnetic%20ftir.html">previously proposed</a>.)</p>
+<p>For excited states of molecules to interact with a magnetic field, they must have a magnetic field. The excited states with the strongest fields would logically be triplet states, where the spin of an electron is reversed, creating a net spin difference of 2. (The magnetism of iron comes from the spin of its one unpaired electron, so triplet states are more magnetic than iron atoms.)</p>
+<p>Molecules absorb/emit photons only of specific wavelengths: as energy and momentum are conserved, molecules must have a vibrational mode that matches the photon. Magnetic fields can shift what wavelengths are absorbed. Considering the energy density of the Earth's magnetic field and the magnetic field of triplet states, shifting the affected wavelengths of visible light by 1nm seems feasible.</p>
+<p>A blue sky doesn't seem to have sharp enough spectral lines. Can one be made artificially? It's not normally possible to absorb a wide spectrum of light and emit a narrow spectral line: thermodynamically, a more narrow spectrum has a higher "temperature". The spectral width of emission is typically about the same as the width of absorption. (This is why early laser types are so inefficient: they only absorb a small fraction of the light used to pump them. Systems using diode lasers are more efficient.) Thus, we need to absorb only a narrow spectral line.</p>
+<p>Fluorescence can be delayed; see "<a href="https://en.wikipedia.org/wiki/Phosphorescence">phosphorescence</a>". A fluorescent molecule with a narrow spectrum would only absorb/emit a small fraction of light, but supposing the emission is slightly delayed, birds could blink their eyes and detect emitted light against a black background. The emitted light could theoretically be detected by a separate magnetically-sensitive molecule, but that would require evolving 2 molecules/proteins tuned to the exact same wavelength. A more likely possibility is that the fluorescent emission rate itself is affected by magnetic fields. A common mechanism for delayed fluorescence involves triplet states, which create an interaction with magnetic fields. Supposing the rate of light emission is affected by magnetic fields, it would be faster in certain directions.</p>
+<p>How could small shifts in the direction of emitted light be detected? Supposing there's a pattern of magnetically-sensitive fluorescent pigment on the surface of the eye, and a separate pattern of another fluorescent pigment, the relative position of those patterns could be detected. This would be a complex thing to detect, which would explain the somewhat long acclimation times birds have to changes in magnetic field strength.</p>
+<p>What would small dots on the surface of the eye look like? You've probably seen the answer for yourself: when looking at a clear blue sky, people <a href="https://en.wikipedia.org/wiki/Blue_field_entoptic_phenomenon">can often see white blood cells in blood vessels in the eye</a>. Different fluorescent pigments having changes in light emission with direction would then be similar to such dots having some chromatic aberration that varies with eye direction. Except, instead of dots, there might be more complex patterns, and they would be visible when blinking. That does seem like something birds could interpret, and something that could require a day of adaptation when field strength changes.</p>
+<h3>the problem</h3>
+<p>Instead of guessing, we can consider experiments on birds in artificial light. As <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6769297/">this paper</a> notes:</p>
+<blockquote>
+<p>Tests under near-monochromatic lights revealed that orientation is possible under light from ultraviolet to about 565 nm green; under yellow and red light, birds are disoriented.</p>
+</blockquote>
+<p>The above mechanism <strong>cannot work</strong> with a wide range of nearly-monochromatic light. Now, we've demonstrated how well we understand complicated optical effects, so let's try to actually find the answer.</p>
+<h2>magnetite</h2>
+<p>As I mentioned, a tiny amount of magnetite has been found in bird beaks. Researchers have also found that magnetic field changes <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2844004/">affect</a> nerves in the beak. Birds have some behavioral responses to magnetic fields in the dark; they're just different and less directionally oriented than the response when they can see through their right eye.</p>
+<p><a href="https://en.wikipedia.org/wiki/Magnetotactic_bacteria">Some bacteria have tiny magnetite crystals</a> in them that cause them to orient along the Earth's magnetic field. Magnetite is not usually a very strong magnet, but tiny crystals of it only have a single domain, making them about as strong as Nd magnets. (See <a href="https://www.bhauth.com/blog/materials/neodymium%20magnets.html">this post</a> for an introduction to magnets.) As such, we know that a freely-floating cell can act as a compass.</p>
+<p>If we consider a cluster of rod-like cells with narrow magnetite crystals, freely floating, they would collectively produce more force, enough to be sensed by <a href="https://en.wikipedia.org/wiki/Mechanoreceptor">mechanoreceptors</a>.</p>
+<h3>compass</h3>
+<p>When humans use a compass, they don't <em>feel</em> the movement of the compass needle, they <em>see</em> it. Perhaps birds do the same.</p>
+<p>Consider a cluster of cells containing magnetite crystals. Now, put it on the surface of the eye, and add sheets of different pigments along different planes. That would cause its apparent color to change with its orientation. As mentioned above, even single cells on the surface of the eye <a href="https://en.wikipedia.org/wiki/Blue_field_entoptic_phenomenon">can be seen</a>. Birds would then perceive magnetic field direction as changes in the color of similar dots. The relaxation time and perhaps orientation accuracy would depend on field strength, which could explain the adaptation time to field strength changes. It's also possible that the clusters are weakly connected to surrounding cells, such that their position would depend on field strength as well as direction; logically, some sort of anchor to keep the cell clusters near a consistent location would be needed.</p>
+<h2>two systems</h2>
+<p>The current consensus (I think) among researchers studying bird magnetoreception is that birds have 2 separate systems for sensing magnetic fields. The same core structure (a cluster of cells with single-domain magnetite crystals, mostly freely-floating) would be used in both above systems. That makes evolution of 2 partly-redundant systems much easier.</p>
+<p>Each system would have some advantages. Mechanoreceptors would only detect the force applied by each magnetic cell cluster, not the exact direction. Detecting direction optically would be more accurate, but requires light, and would mainly detect field direction, not strength.</p>
+<br /><br /><a href="https://www.lesswrong.com/posts/AZnF5LNZfeGZRGvid/how-birds-sense-magnetic-fields#comments">Discuss</a>
+]]></content:encoded>
+<pubDate>Fri, 28 Jun 2024 19:07:51 GMT</pubDate>
+<pubDate>Fri, 28 Jun 2024 19:07:51 GMT</pubDate>
+</item>
 
 <item>
 <title>Corrigibility = Tool-ness?</title>
