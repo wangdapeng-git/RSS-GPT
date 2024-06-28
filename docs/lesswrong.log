@@ -2290,3 +2290,9 @@ Summarized using GPT-3.5-turbo
 Append: [how birds sense magnetic fields](https://www.lesswrong.com/posts/AZnF5LNZfeGZRGvid/how-birds-sense-magnetic-fields)
 append_entries: 1
 Finish: 2024-06-28 20:10:49.990853
+------------------------------------------------------
+Started: 2024-06-28 22:09:41.418816
+Existing_entries: 104
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-28 22:09:42.076306
