@@ -2233,3 +2233,9 @@ Summarized using GPT-3.5-turbo
 Append: [Detecting Genetically Engineered Viruses With Metagenomic Sequencing](https://www.lesswrong.com/posts/iaPhjYhhp7PP6BWp9/detecting-genetically-engineered-viruses-with-metagenomic)
 append_entries: 2
 Finish: 2024-06-28 02:29:57.500020
+------------------------------------------------------
+Started: 2024-06-28 04:12:38.246082
+Existing_entries: 101
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-28 04:12:38.691659

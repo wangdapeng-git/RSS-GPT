@@ -754,3 +754,51 @@ Existing_entries: 20
 Fetching from https://lethain.com/feeds.xml
 append_entries: 0
 Finish: 2024-06-28 02:29:58.816868
+------------------------------------------------------
+Started: 2024-06-28 04:12:39.677021
+Existing_entries: 20
+Fetching from https://lethain.com/feeds.xml
+append_entries: 0
+Finish: 2024-06-28 04:12:39.848054
+------------------------------------------------------
+Started: 2024-06-28 04:12:39.908367
+Existing_entries: 20
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [CodecLM: Aligning language models with tailored synthetic data](https://research.google/blog/codeclm-aligning-language-models-with-tailored-synthetic-data/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Adversarial Nibbler Challenge: Continuous open red-teaming with diverse communities](https://research.google/blog/adversarial-nibbler-challenge-continuous-open-red-teaming-with-diverse-communities/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Heuristics on the high seas: Mathematical optimization for cargo ships](https://research.google/blog/heuristics-on-the-high-seas-mathematical-optimization-for-cargo-ships/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Using generative AI to investigate medical imagery models and datasets](https://research.google/blog/using-generative-ai-to-investigate-medical-imagery-models-and-datasets/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [AI in software engineering at Google: Progress and the path ahead](https://research.google/blog/ai-in-software-engineering-at-google-progress-and-the-path-ahead/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Advancing personal health and wellness insights with AI](https://research.google/blog/advancing-personal-health-and-wellness-insights-with-ai/)
+Token length: 56
+Summarized using GPT-3.5-turbo
+Append: [June 12, 2024](https://research.google/blog/smart-paste-for-context-aware-adjustments-to-pasted-code/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Human I/O: Detecting situational impairments with large language models](https://research.google/blog/human-io-detecting-situational-impairments-with-large-language-models/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Pre-translation vs. direct inference in multilingual LLM applications](https://research.google/blog/pre-translation-vs-direct-inference-in-multilingual-llm-applications/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Dynamics of magnetization at infinite temperature in a Heisenberg spin chain](https://research.google/blog/dynamics-of-magnetization-at-infinite-temperature-in-a-heisenberg-spin-chain/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Efficient data generation for source-grounded information-seeking dialogs: A use case for meeting transcripts](https://research.google/blog/efficient-data-generation-for-source-grounded-information-seeking-dialogs-a-use-case-for-meeting-transcripts/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Rich human feedback for text-to-image generation](https://research.google/blog/rich-human-feedback-for-text-to-image-generation/)
+append_entries: 12
+Finish: 2024-06-28 04:13:31.705224
