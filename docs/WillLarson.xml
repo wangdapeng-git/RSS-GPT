@@ -4,6 +4,134 @@
 <title>Irrational Exuberance</title>
 <link>https://lethain.com/</link>
 
+<item>
+<title>Physics and perception.</title>
+<link>https://lethain.com/physics-perception/</link>
+<guid>https://lethain.com/physics-perception/</guid>
+<content:encoded><![CDATA[
+<div> 物理、感知、冲突、平衡、领导者
+<br>
+物理和感知是有效领导者需要平衡的关键要素。在处理冲突时，不能简单地将一方视为“对”的一方，另一方视为“错”的一方。需要理解每个团队的立场和知识，以及解决方案应该同时考虑物理因素和感知因素。领导者需要谨慎地施加压力，同时制定计划以确保有效的执行。在组织中，需要找到在哪个层面上规划应该开始，并在不同层次的组织中找到合适的压力点。同时，尊重物理并不意味着盲目迎合工程师的意见，而是在适当的情况下权衡利弊。在管理中寻求平衡，需要不断学习改进，以避免过度或不足的压力影响组织的发展。总结: 物理和感知是领导者需要平衡的关键要素，冲突处理时应考虑各方立场和知识，并有计划地施加压力。在组织中需要找到适合的压力点和规划起点，尊重物理适度权衡利弊可以有效推动发展。 <div>
+<p>At one point in 2019, several parts of Stripe’s engineering organization were going through a polite civil war.
+The conflict was driven by one group’s belief that Java should replace Ruby.
+Java would, they posited, address the ongoing challenge of delivering a quality platform in the face of both a rapidly growing business and a rapidly growing engineering organization. The other group believed Stripe’s problems were driven by <a href="https://lethain.com/quality/">a product domain with high essential complexity</a> and numerous, demanding external partners ranging from users to financial institutions to governments;
+switching programming languages wouldn’t address any of those issues. I co-wrote the internal version of <a href="https://lethain.com/magnitudes-of-exploration/">Magnitudes of exploration</a> in an attempt to find a useful framework for navigating that debate,
+but nonetheless the two groups struggled to make much progress in understanding one another.</p>
+<p>I was reminded of those discussions while reading Steven Sinofsky&rsquo;s <em><a href="https://www.amazon.com/Hardcore-Software-Inside-Rise-Revolution-ebook/dp/B0CYBS9PFY">Hardcore Software</a></em>’s chapter on <a href="https://hardcoresoftware.learningbyshipping.com/p/020-innovation-versus-shipping-the">Innovation versus Shipping: The Cairo Project</a>:</p>
+<blockquote>
+<p>Landing on my desk early in 1993 was the first of many drafts of Cairo plans and documents. Cairo took the maturity of the NT product process—heavy on documentation and architectural planning—and amped it up. Like a well-oiled machine, the Cairo team was in short order producing reams of documents assembled into three-inch binders detailing all the initiatives of the product. Whenever I would meet with people from Cairo, they would exude confidence in planning and their processes. … While any observer should have rightfully taken the abundance of documentation and confidence of the team as a positive sign, the lack of working code and ever-expanding product definition seemed to set off some minor alarms, especially with the Apps person in me. While the Cairo product had the appearance of the NT project in documentation, it seemed to lack the daily rigorous builds, ongoing performance and benchmarking, and quality and compatibility testing. There was a more insidious dynamic, and one that would prove a caution to many future products across the company but operating systems in particular.</p>
+</blockquote>
+<p>The simple narrative regarding both the Cairo development and Java migration is that there&rsquo;s a group doing the &ldquo;right&rdquo; thing,
+and another group doing the &ldquo;wrong&rdquo; thing.
+The Cairo team was shipping vaporware. The Java team was incorrectly diagnosing the underlying problems.
+These sorts of descriptions are comforting because they create
+the familiar narrative structure of &ldquo;good&rdquo; in conflict with &ldquo;evil.&rdquo; Unfortunately, I&rsquo;ve never found these
+sorts of narratives very useful for understanding what causes a conflict, and they&rsquo;re worse than useless at actually resolving conflicts.</p>
+<p>What I have found useful is studying what each faction knows <a href="https://lethain.com/layers-of-context/">that the other doesn&rsquo;t</a>,
+and trying to <a href="https://lethain.com/multi-dimensional-tradeoffs/">understand those gaps deeply enough to find a solution</a>.
+Sometimes I summarize this as &quot; solving for both physics and perception.&quot;</p>
+<h2 id="solving-for-perception">Solving for perception</h2>
+<p>Sinofsky&rsquo;s represents Cairo as an impossibly broad project that didn&rsquo;t ship, but he also explains why it picked
+up so many features:</p>
+<blockquote>
+<p>Cairo tended to take this as a challenge to incorporate more and more capabilities. New things that would come along would be quickly added to the list of potential features in the product. Worse, something that BillG might see conceptually related, like an application from a third party for searching across all the files on your hard disk, might become a competitive feature to Cairo. Or more commonly “Can’t Cairo just do this with a little extra work?” and then that little extra work was part of the revised product plans.</p>
+</blockquote>
+<p>It wasn&rsquo;t ill-intentioned, rather they simply wanted to live up to their CEO&rsquo;s expectations.
+They wanted to be perceived as succeeding within their company&rsquo;s value system,
+because they correctly understood that their project would be canceled otherwise.</p>
+<p>Many incoming leaders find themselves immediately stuck in similar circumstances.
+They&rsquo;ve just joined and don&rsquo;t understand the domain or team very well, but are being told they
+need to immediately make progress on a series of problems that have foiled the company&rsquo;s efforts thus
+far.
+They know they need to appear to be doing something valuable, so they do <em>anything</em> that might look like progress.
+It&rsquo;s particularly common for leaders to begin a <a href="https://lethain.com/grand-migration/">Grand Migration</a> at that moment,
+which they hope will solve the problems at hand, but no matter what will be perceived as a brave, audacious initiative.</p>
+<p><img alt="Image of stacked layers, with each layer belonging to a different team. Some of these layers are grouped into perception, and some are grouped into physics. Neither perception nor physics represents the entire set." src="https://lethain.com/static/blog/2024/physics-perception.png" /></p>
+<p>This isn&rsquo;t a problem unique to executives or product engineers, I frequently see platform teams make the same mistake
+when <a href="https://lethain.com/migrations/">they undertake large-scale migrations</a>. Many platform migrations are structured
+as <a href="https://lethain.com/incident-response-programs-and-your-startup/">an organizational program</a> where a platform team tells product teams they need to complete a certain task (e.g. &ldquo;move to our monorepo&rdquo;)
+by a certain date, along with tracking dashboards that inform executives which teams have or haven&rsquo;t
+completed their tasks. This does a great job of applying pressure to the underlying teams, and a good job of
+managing perceptions by appearing to push hard, but these migrations often fail because there&rsquo;s little emphasis on
+the underlying ergonomics of the migration itself. If you tell teams they are failing if they miss a date,
+they will try to hit the date; if it&rsquo;s hard, they&rsquo;ll still fail.
+Platform teams in that case often blame the product teams for not prioritizing their initiative,
+when instead the platform teams should have the self-awareness to recognize that they made things
+difficult by not simplifying the underlying physics for the product teams they asked to migrate.</p>
+<p>There&rsquo;s nothing wrong about solving for perception, and indeed it&rsquo;s a necessary scale
+to be an effective leader. Rather the lesson here is that most meaningful projects require solving
+for both perception <em>and</em> physics.</p>
+<h2 id="solving-for-physics">Solving for physics</h2>
+<p>When I joined Stripe, one of the first projects I wanted to take on was migrating to Kubernetes and away
+from hand-rolled tooling for managing VMs directly.
+This was heavily influenced by what I had learned migrating Uber from a monolithic Python application to
+polygot applications in a polyrepo.
+After a few months of trying to build alignment within
+engineering, I postponed the Kubernetes migration for a few years because I couldn&rsquo;t convince them it solved a pressing problem.
+(I did come back to it, and it was a success when I did.)
+I could have forced the team to work on that project, but it goes against my instincts: generally when engineers
+push back on leadership ideas, there&rsquo;s a good reason for doing so.</p>
+<p>Similarly, my initial push at Stripe was not toward the Ruby typing work that became <a href="https://sorbet.org/">Sorbet</a>,
+but rather to design an incremental migration towards an existing statically-typed language such as Java or Go.
+The argument I got back was that this was impractical because it required too large a migration effort,
+and that Facebook&rsquo;s <a href="https://hacklang.org/">Hack</a> had already proven out the viability of moving from PHP
+to a PHP-like typed language. I took my time to understand the pushback, and over time shifted my thinking to
+focus instead on sequencing these efforts: even if we wanted to move to a different language, first we needed to improve
+the architecture to support migrating modules, and that effort would benefit from typing Ruby.</p>
+<p>I was fortunate in these cases, because there were few perceptions that I needed to solve for, and I was able
+to mostly focus on the physics. Indeed, the opportunity to focus on physics is one of the undervalued advantages of
+working within infrastructure engineering.
+You&rsquo;ll rarely be lucky enough in senior leadership roles to focus on the physics.</p>
+<p>For example, when I joined Carta, there was pressure across the industry and internally to increase our investment into
+using LLMs. Most engineers were quite skeptical of the opportunity to use LLMs, so if I&rsquo;d listened
+exclusively to the physics, I would have probably ignored the pressure to adopt.
+However, that would have led me astray in two ways. First, I would have seriously damaged the wider executive team&rsquo;s belief
+in my ability to incorporate new ideas.
+Second, physics are anchored on how we understand the world today, and LLMs are a place where things
+are evolving quickly. Our approach to <a href="https://lethain.com/video-mental-model-for-how-to-use-llms-in-products/">using LLMs in our product</a>
+is better than anything we would have gotten to by <em>only</em> solving for physics.
+(And vastly better than we&rsquo;d have come up with if we&rsquo;d only solved for perception.)</p>
+<p>I think the LLM example is instructive because it violates the expectation that
+&ldquo;physics&rdquo; are real and &ldquo;perceptions&rdquo; are false. It can go both ways, depending on the circumstances.
+As soon as you get complacent about your perspective representing reality,
+you&rsquo;ll quickly be disabused of that notion.</p>
+<h2 id="balancing-physics-and-perception">Balancing physics and perception</h2>
+<p>Effective leaders meld perception and physics into approaches that solve both.
+This is hard to do, takes a lot of energy, and when done well often doesn&rsquo;t even
+look like you&rsquo;re doing that much.
+Many leaders try to solve both, but eventually give in to the siren&rsquo;s song of
+applying perception pressure without a point of view on how that pressure should
+be channeled into a physical plan.
+Applying pressure without a plan is the same issue as the infrastructure migration,
+where you can certainly create accountability, but it&rsquo;s pretty likely to fail.</p>
+<p>Pressure without a plan <em>is</em> appropriate at some level of seniority, and it&rsquo;s important
+to understand within a given organization where responsibility lies for appending a plan
+to the pressure. In a small startup (10s of people), that&rsquo;s probably the founders. In a medium-sized company
+(100s of people), that&rsquo;s likely the executive team. As the company grows,
+more and more of the plan will be devised further from the physics, but you
+always have to decide where planning should start.</p>
+<p>There is always a point where an organization will simply give up on planning
+and allow the pressure to cascade undeterred. In a high-functioning organization,
+that pressure point is quite high. In lower-functioning organizations, it
+will occur frequently even if there&rsquo;s little pressure.</p>
+<p>If you can reduce pressure too little, you can also reduce pressure too much.
+One of my biggest regrets from my time at Stripe is that I allowed too little
+pressure to hit my organization, which over time created a <a href="https://lethain.com/values-oasis/">values oasis</a>
+that operated with a clear plan but also limited pressure. When I left,
+the pressure regulator came off, and my organization had a rough patch
+learning to operate in the new circumstances.</p>
+<p>Altogether, this balance is difficult to maintain.
+I&rsquo;m still getting better at it slowly over time, learning mostly
+from mistakes. As a final thought here, respecting physics doesn&rsquo;t
+necessarily mean doing what engineers want you to do: those who speak
+for physics aren&rsquo;t necessarily right. Instead, it&rsquo;s making a deliberate,
+calculated tradeoff between the two that&rsquo;s appropriate to the circumstances.
+Sometime&rsquo;s that courageously pushing back on an impossible timeline,
+sometimes it&rsquo;s firing a leader who insists change is impossible.</p>
+]]></content:encoded>
+<pubDate>Sat, 29 Jun 2024 07:00:00 -0700</pubDate>
+<pubDate>Sat, 29 Jun 2024 07:00:00 -0700</pubDate>
+</item>
 
 <item>
 <title>CodecLM: Aligning language models with tailored synthetic data</title>
