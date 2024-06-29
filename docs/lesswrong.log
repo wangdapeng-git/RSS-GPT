@@ -2317,3 +2317,9 @@ Summarized using GPT-3.5-turbo
 Append: [The Incredible Fentanyl-Detecting Machine](https://www.lesswrong.com/posts/TzwMfRArgsNscHocX/the-incredible-fentanyl-detecting-machine)
 append_entries: 1
 Finish: 2024-06-29 04:13:56.036484
+------------------------------------------------------
+Started: 2024-06-29 06:13:39.155757
+Existing_entries: 105
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-06-29 06:13:39.402489
