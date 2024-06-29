@@ -2329,3 +2329,12 @@ Existing_entries: 105
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-06-29 08:13:09.610450
+------------------------------------------------------
+Started: 2024-06-29 10:10:15.961571
+Existing_entries: 105
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 9977
+Summarized using GPT-3.5-turbo
+Append: [How a chip is designed](https://www.lesswrong.com/posts/cruYtDoJuDXnkaPxR/how-a-chip-is-designed)
+append_entries: 1
+Finish: 2024-06-29 10:10:26.772247
