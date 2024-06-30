@@ -4,6 +4,7 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-06-30</title>
 <link>https://pythonhub.dev/digest/2024-06-30/</link>
@@ -15,7 +16,7 @@ DEP-14, approval, Jake Howard, stewardship, specifics
 Rust, Python ASTs, parsing, speed, performance
 Polars, pandas, switch, considerations, PyCharm support
 
-<br><br>总结:
+<br /><br />总结:
 Ruff是一个用Rust编写的极快的Python linter，通过在Rust中解析Python代码并实现linting规则，比起Python，从根源上实现了速度的提升。NumPy 2.0.0是2006年以来的第一个重大发布，包含了很多令人兴奋的新功能和对Python和C API的更改。DEP-14已经获得批准，Jake Howard编写并主持了这个DEP。使用Rust整合能显著加快解析Python ASTs的过程。Polars可以替换pandas吗？如何转换，需要注意什么，PyCharm如何提供支持。 <div>
 <div></div>
 
@@ -208,9 +209,7 @@ It is pretty popular, with over 2,500 GitHub ...</span>
 <hr />
 ]]></content:encoded>
 <pubDate>Sun, 30 Jun 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 30 Jun 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-06-23</title>
 <link>https://pythonhub.dev/digest/2024-06-23/</link>
