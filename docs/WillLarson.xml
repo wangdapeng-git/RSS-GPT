@@ -4,13 +4,14 @@
 <title>Irrational Exuberance</title>
 <link>https://lethain.com/</link>
 
+
 <item>
 <title>Physics and perception.</title>
 <link>https://lethain.com/physics-perception/</link>
 <guid>https://lethain.com/physics-perception/</guid>
 <content:encoded><![CDATA[
 <div> 物理、感知、冲突、平衡、领导者
-<br>
+<br />
 物理和感知是有效领导者需要平衡的关键要素。在处理冲突时，不能简单地将一方视为“对”的一方，另一方视为“错”的一方。需要理解每个团队的立场和知识，以及解决方案应该同时考虑物理因素和感知因素。领导者需要谨慎地施加压力，同时制定计划以确保有效的执行。在组织中，需要找到在哪个层面上规划应该开始，并在不同层次的组织中找到合适的压力点。同时，尊重物理并不意味着盲目迎合工程师的意见，而是在适当的情况下权衡利弊。在管理中寻求平衡，需要不断学习改进，以避免过度或不足的压力影响组织的发展。总结: 物理和感知是领导者需要平衡的关键要素，冲突处理时应考虑各方立场和知识，并有计划地施加压力。在组织中需要找到适合的压力点和规划起点，尊重物理适度权衡利弊可以有效推动发展。 <div>
 <p>At one point in 2019, several parts of Stripe’s engineering organization were going through a polite civil war.
 The conflict was driven by one group’s belief that Java should replace Ruby.
@@ -130,9 +131,7 @@ Sometime&rsquo;s that courageously pushing back on an impossible timeline,
 sometimes it&rsquo;s firing a leader who insists change is impossible.</p>
 ]]></content:encoded>
 <pubDate>Sat, 29 Jun 2024 07:00:00 -0700</pubDate>
-<pubDate>Sat, 29 Jun 2024 07:00:00 -0700</pubDate>
 </item>
-
 <item>
 <title>CodecLM: Aligning language models with tailored synthetic data</title>
 <link>https://research.google/blog/codeclm-aligning-language-models-with-tailored-synthetic-data/</link>
