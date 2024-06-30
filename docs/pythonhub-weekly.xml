@@ -4,6 +4,212 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-06-30</title>
+<link>https://pythonhub.dev/digest/2024-06-30/</link>
+<guid>https://pythonhub.dev/digest/2024-06-30/</guid>
+<content:encoded><![CDATA[
+<div> Ruff, Python, linter, Rust, speed
+NumPy 2.0.0, release, features, contributors, APIs
+DEP-14, approval, Jake Howard, stewardship, specifics
+Rust, Python ASTs, parsing, speed, performance
+Polars, pandas, switch, considerations, PyCharm support
+
+<br><br>总结:
+Ruff是一个用Rust编写的极快的Python linter，通过在Rust中解析Python代码并实现linting规则，比起Python，从根源上实现了速度的提升。NumPy 2.0.0是2006年以来的第一个重大发布，包含了很多令人兴奋的新功能和对Python和C API的更改。DEP-14已经获得批准，Jake Howard编写并主持了这个DEP。使用Rust整合能显著加快解析Python ASTs的过程。Polars可以替换pandas吗？如何转换，需要注意什么，PyCharm如何提供支持。 <div>
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://compileralchemy.substack.com/p/ruff-internals-of-a-rust-backed-python">Ruff: Internals of a Rust-backed Python linter-formatter - Part 1</a></strong>
+    
+        <br /><span>Ruff is an extremely fast Python linter written in Rust, deriving its speed from parsing Python code and implementing linting rules natively in Rust rather than Python. The article provides insights into Ruff's internals, including its initial implementation using RustPython's parser, the evolution to a hand-written recursive descent parser, and its caching and parallelization mechanisms.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.jetbrains.com/pycharm/2024/06/how-to-move-from-pandas-to-polars/">How to Move From pandas to Polars</a></strong>
+    
+        <br /><span>Considering replacing pandas with Polars? Learn how to make the switch, what to keep in mind, and how PyCharm can help.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/numpy/numpy/releases/tag/v2.0.0">NumPy 2.0.0</a></strong>
+    
+        <br /><span>NumPy 2.0.0 is the first major release since 2006. It is the result of 11 months of development since the last feature release and is the work of 212 contributors spread over 1078 pull requests. It contains a large number of exciting new features as well as changes to both the Python and C APIs.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/knowsuchagency/pdf-to-podcast">pdf-to-podcast</a></strong>
+    
+        <br /><span>Convert any PDF into a podcast episode!</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.djangoproject.com/weblog/2024/may/29/django-enhancement-proposal-14-background-workers/">Django Enhancement Proposal 14: Background Workers</a></strong>
+    
+        <br /><span>As of today, DEP-14 has been approved &#65533;
+
+The DEP was written and stewarded by Jake Howard. A very ...</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://www.gauge.sh/blog/parsing-python-asts-20x-faster-with-rust">Parsing Python ASTs 20x Faster with Rust</a></strong>
+    
+        <br /><span>The post describes how the integration of Rust can significantly speed up the parsing of Python Abstract Syntax Trees (ASTs). By rewriting critical components in Rust, the process can be made up to 20 times faster compared to the original Python implementation, offering substantial performance improvements for developers working with ASTs in Python.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=vhdUyGs_f6c">Do These 5 Things if You Don’t Want to Write Crappy Code</a></strong>
+    
+        <br /><span>In this video, I'll share 5 key things you should do to avoid writing crappy code. These tips, drawn from my own experience, will help you write clean code.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://berglyd.net/blog/2024/06/joining-strings-in-python/">Joining Strings in Python: A &quot;Huh&quot; Moment</a></strong>
+    
+        <br /><span>The article discusses the performance implications of using generators vs list comprehensions when joining strings with str.join() in Python. Contrary to expectations, using a generator expression with str.join() is slower than a list comprehension because the CPython implementation converts the generator to a list internally before joining the strings, negating the memory efficiency ben...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=4hl8LpDKRMw">Semantic search with Django, PostgreSQL, &amp; pgvector</a></strong>
+    
+        <br /><span>In this talk we will see how to add semantic search functionality to an existing Python-based web project, in particular Django, with data storage on PostgreSQL.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://johnloewen.substack.com/p/a-beautiful-and-timely-python-multi">A Beautiful and Timely Python Multi-page Streamlit Application</a></strong>
+    
+        <br /><span>Showcasing historical summer Olympic data through multiple data visualizations.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=XNLbpgpfwrQ">Boosting AI with Python: Using Click, Jinja2, and GPT Libraries</a></strong>
+    
+        <br /><span>This talk explores enhancing AI projects using Python with tools like Click CLI for command-line interfaces, Jinja2 for dynamic content generation, and GPT libraries for language model integration. Attendees will see a practical project demonstration and gain skills to build functional AI applications, along with opportunities to connect with other Python developers.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=X1lDWzvIXRs">React + Django + Ninja: Full-stack app in 15 mins</a></strong>
+    
+        <br /><span>We'll build a React and Django app fast, using Django Ninja - aiming for under 15 minutes.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-06-23/">Python Hub Weekly Digest for 2024-06-23</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://treyhunner.com/2024/06/a-beautiful-python-monstrosity/">A beautiful Python monstrosity</a></strong>
+    
+        <br /><span>Creating performance tests for Python Morsels exercises is a frequent annoyance
+
+I loathe writing ...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pyimagesearch.com/2024/05/06/introduction-to-machine-learning-why-there-are-no-programmed-answers/">Introduction to Machine Learning: Why There Are No Programmed Answers</a></strong>
+    
+        <br /><span>Home
+
+
+Table of Contents
+
+
+
+
+
+    Introduction to Machine Learning: Why There Are No Programmed ...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://adamj.eu/tech/2024/05/07/django-harlequin/">Django: Introducing django-harlequin, a launcher for Terminal-based SQL IDE Harlequin</a></strong>
+    
+        <br /><span>Harlequin is a Terminal-based SQL IDE by Ted Conbeer.
+It is pretty popular, with over 2,500 GitHub ...</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/AgentOps-AI/tokencost">TokenCost</a></strong>
+    
+        <br /><span>Easy token price estimates for 400+ LLMs.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/capjamesg/aurora">Aurora</a></strong>
+    
+        <br /><span>Aurora is a static site generator implemented in Python.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/ayushpai/AI-Math-Notes">AI-Math-Notes</a></strong>
+    
+        <br /><span>AI Math Notes is an interactive drawing application that allows users to draw mathematical equations on a canvas. Once an equation is drawn, the application uses a multimodal LLM to calculate and display the result next to the equals sign.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Tenzer/alga">Alga</a></strong>
+    
+        <br /><span>CLI for remote controlling LG webOS TVs.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/amphi-ai/amphi-etl">Amphi</a></strong>
+    
+        <br /><span>Open-Source Python ETL. Extract, transform and load data with low-code. Generate native Python code you can deploy anywhere.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Textualize/textual-serve">textual-serve</a></strong>
+    
+        <br /><span>Serve Textual apps locally.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/kaedroho/django-render">django-render</a></strong>
+    
+        <br /><span>Build fast, user-friendly applications with Django and React.</span>
+    
+    </p>
+
+
+<hr />
+]]></content:encoded>
+<pubDate>Sun, 30 Jun 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 30 Jun 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-06-23</title>
