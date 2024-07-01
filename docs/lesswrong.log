@@ -2455,3 +2455,9 @@ Summarized using GPT-3.5-turbo
 Append: [Datasets that change the odds you exist](https://www.lesswrong.com/posts/RfC4mkYuLksukyzns/datasets-that-change-the-odds-you-exist)
 append_entries: 1
 Finish: 2024-07-01 00:54:35.425958
+------------------------------------------------------
+Started: 2024-07-01 02:34:55.251147
+Existing_entries: 107
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-07-01 02:34:55.998913
