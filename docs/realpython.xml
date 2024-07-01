@@ -4,6 +4,206 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Python's Built-in Functions: A Complete Exploration</title>
+<link>https://realpython.com/python-built-in-functions/</link>
+<guid>https://realpython.com/python-built-in-functions/</guid>
+<content:encoded><![CDATA[
+<div> 综述:内置函数, Python, 数学计算, 绝对值, 商和余数, 财务计算
+
+本教程介绍了Python的内置函数，涵盖了数学计算，财务计算等常见编程任务。首先介绍了与数学计算相关的内置函数，如计算绝对值的abs()函数和计算商和余数的divmod()函数。通过示例演示了如何使用这些函数进行数学计算和财务计算。最后，强调了内置函数的重要性和实用性，帮助程序员更高效地处理各种编程问题。 <div>
+<div><p>Python has many <strong>built-in functions</strong> that you can use directly without importing anything. These functions cover a wide variety of common programming tasks that include performing math operations, working with built-in data types, processing iterables of data, handling input and output in your programs, working with scopes, and more.</p>
+<p><strong>In this tutorial, you’ll:</strong></p>
+<ul>
+<li>Get to know Python’s <strong>built-in functions</strong></li>
+<li>Learn about common <strong>use cases</strong> of Python’s built-in functions</li>
+<li>Use these functions to solve <strong>practical problems</strong></li>
+</ul>
+<p>To get the most out of this tutorial, you’ll need to be familiar with Python programming, including topics like working with built-in <a href="https://realpython.com/python-data-types/">data types</a>, <a href="https://realpython.com/defining-your-own-python-function/">functions</a>, <a href="https://realpython.com/python-classes/">classes</a>, <a href="https://realpython.com/primer-on-python-decorators/">decorators</a>, <a href="https://realpython.com/python-scope-legb-rule/">scopes</a>, and the <a href="https://realpython.com/python-import/">import</a> system.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-built-in-functions-code/">Click here to download the free sample code</a> that shows you how to use Python’s built-in functions.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Python's Built-in Functions: A Complete Exploration” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/python-built-in-functions/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="Python's Built-in Functions: A Complete Exploration" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Pythons-Built-in-Functions-A-Quick-Exploration_Watermarked.44a8e102943b.jpg" style="background: #ff7e74;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/python-built-in-functions/"><span class="my-0 h4">Python's Built-in Functions: A Complete Exploration</span></a> 
+      <p class="text-muted mb-0 small">Take this quiz to test your knowledge of the available built-in functions in Python. By taking this quiz, you'll deepen your understanding of how to use these functions and the common programming problems they cover, from mathematical computations to Python-specific features.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="built-in-functions-in-python">Built-in Functions in Python<a class="headerlink" href="#built-in-functions-in-python" title="Permanent link"></a></h2>
+<p>Python has several <a href="https://realpython.com/defining-your-own-python-function/">functions</a> available for you to use directly from anywhere in your code. These functions are known as <a href="https://docs.python.org/3/library/functions.html">built-in functions</a> and they cover many common programming problems, from mathematical computations to Python-specific features.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> Many of Python’s built-in functions are classes with function-style names. Good examples are <code>str</code>, <code>tuple</code>, <code>list</code>, and <code>dict</code>, which are classes that define built-in data types. These classes are listed in the Python documentation as <em>built-in functions</em> and you’ll find them in this tutorial.</p>
+</div>
+<p>In this tutorial, you’ll learn the basics of Python’s built-in functions. By the end, you’ll know what their use cases are and how they work. To kick things off, you’ll start with those built-in functions related to math computations.</p>
+<h2 id="using-math-related-built-in-functions">Using Math-Related Built-in Functions<a class="headerlink" href="#using-math-related-built-in-functions" title="Permanent link"></a></h2>
+<p>In Python, you’ll find a few built-in functions that take care of common math operations, like computing the absolute value of a <a href="https://realpython.com/python-numbers/">number</a>, calculating powers, and more. Here’s a summary of the math-related built-in functions in Python:</p>
+<div class="table-responsive">
+<table class="table table-hover">
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://realpython.com/python-absolute-value/"><code>abs()</code></a></td>
+<td>Calculates the absolute value of a number</td>
+</tr>
+<tr>
+<td><a href="https://docs.python.org/3/library/functions.html#divmod"><code>divmod()</code></a></td>
+<td>Computes the quotient and remainder of integer division</td>
+</tr>
+<tr>
+<td><a href="https://realpython.com/python-min-and-max/"><code>max()</code></a></td>
+<td>Finds the largest of the given arguments or items in an iterable</td>
+</tr>
+<tr>
+<td><a href="https://realpython.com/python-min-and-max/"><code>min()</code></a></td>
+<td>Finds the smallest of the given arguments or items in an iterable</td>
+</tr>
+<tr>
+<td><a href="https://docs.python.org/3/library/functions.html#pow"><code>pow()</code></a></td>
+<td>Raises a number to a power</td>
+</tr>
+<tr>
+<td><a href="https://realpython.com/python-rounding/#pythons-built-in-round-function"><code>round()</code></a></td>
+<td>Rounds a floating-point value</td>
+</tr>
+<tr>
+<td><a href="https://realpython.com/python-sum-function/"><code>sum()</code></a></td>
+<td>Sums the values in an iterable</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>In the following sections, you’ll learn how these functions work and how to use them in your Python code.</p>
+<h3 id="getting-the-absolute-value-of-a-number-abs">Getting the Absolute Value of a Number: <code>abs()</code><a class="headerlink" href="#getting-the-absolute-value-of-a-number-abs" title="Permanent link"></a></h3>
+<p>The <a href="https://en.wikipedia.org/wiki/Absolute_value">absolute value</a> or <strong>modulus</strong> of a <a href="https://en.wikipedia.org/wiki/Real_number">real number</a> is its non-negative value. In other words, the absolute value is the number without its <a href="https://en.wikipedia.org/wiki/Sign_(mathematics)">sign</a>. For example, the absolute value of <em>-5</em> is <em>5</em>, and the absolute value of <em>5</em> is also <em>5</em>.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> To learn more about <code>abs()</code>, check out the <a href="https://realpython.com/python-absolute-value/">How to Find an Absolute Value in Python</a> tutorial.</p>
+</div>
+<p>Python’s built-in <code>abs()</code> function allows you to quickly compute the absolute value or modulus of a <a href="https://realpython.com/python-numbers/">number</a>:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">decimal</span> <span class="kn">import</span> <span class="n">Decimal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">fractions</span> <span class="kn">import</span> <span class="n">Fraction</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">abs</span><span class="p">(</span><span class="o">-</span><span class="mi">42</span><span class="p">)</span>
+<span class="go">42</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">abs</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span>
+<span class="go">42</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">abs</span><span class="p">(</span><span class="o">-</span><span class="mf">42.42</span><span class="p">)</span>
+<span class="go">42.42</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">abs</span><span class="p">(</span><span class="mf">42.42</span><span class="p">)</span>
+<span class="go">42.42</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">abs</span><span class="p">(</span><span class="nb">complex</span><span class="p">(</span><span class="s2">"-2+3j"</span><span class="p">))</span>
+<span class="go">3.605551275463989</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">abs</span><span class="p">(</span><span class="nb">complex</span><span class="p">(</span><span class="s2">"2+3j"</span><span class="p">))</span>
+<span class="go">3.605551275463989</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">abs</span><span class="p">(</span><span class="n">Fraction</span><span class="p">(</span><span class="s2">"-1/2"</span><span class="p">))</span>
+<span class="go">Fraction(1, 2)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">abs</span><span class="p">(</span><span class="n">Fraction</span><span class="p">(</span><span class="s2">"1/2"</span><span class="p">))</span>
+<span class="go">Fraction(1, 2)</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">abs</span><span class="p">(</span><span class="n">Decimal</span><span class="p">(</span><span class="s2">"-0.5"</span><span class="p">))</span>
+<span class="go">Decimal('0.5')</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">abs</span><span class="p">(</span><span class="n">Decimal</span><span class="p">(</span><span class="s2">"0.5"</span><span class="p">))</span>
+<span class="go">Decimal('0.5')</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In these examples, you compute the absolute value of different numeric types using the <code>abs()</code> function. First, you use integer numbers, then floating-point and complex numbers, and finally, fractional and decimal numbers. In all cases, when you call the function with a negative value, the final result removes the sign.</p>
+<p>For a practical example, say that you need to compute the total profits and losses of your company from a month’s transactions:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">transactions</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mi">200</span><span class="p">,</span> <span class="mi">300</span><span class="p">,</span> <span class="o">-</span><span class="mi">100</span><span class="p">,</span> <span class="mi">500</span><span class="p">]</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">incomes</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">income</span> <span class="k">for</span> <span class="n">income</span> <span class="ow">in</span> <span class="n">transactions</span> <span class="k">if</span> <span class="n">income</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">expenses</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span>
+<span class="hll"><span class="gp">... </span>    <span class="nb">sum</span><span class="p">(</span><span class="n">expense</span> <span class="k">for</span> <span class="n">expense</span> <span class="ow">in</span> <span class="n">transactions</span> <span class="k">if</span> <span class="n">expense</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span>
+</span><span class="gp">... </span><span class="p">)</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Total incomes: $</span><span class="si">{</span><span class="n">incomes</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="go">Total incomes: $800</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Total expenses: $</span><span class="si">{</span><span class="n">expenses</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="go">Total expenses: $300</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Total profit: $</span><span class="si">{</span><span class="n">incomes</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">expenses</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="go">Total profit: $500</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this example, to compute the expenses, you use the <code>abs()</code> function to get the absolute value of the expenses, which results in a positive value.</p>
+<h3 id="finding-the-quotient-and-remainder-in-division-divmod">Finding the Quotient and Remainder in Division: <code>divmod()</code><a class="headerlink" href="#finding-the-quotient-and-remainder-in-division-divmod" title="Permanent link"></a></h3>
+<p>Python provides a built-in function called <code>divmod()</code> that takes two numbers as arguments and <a href="https://realpython.com/python-return-statement/">returns</a> a tuple with the <strong>quotient</strong> and <strong>remainder</strong> that result from the integer division of the input numbers:</p>
+</div><h2><a href="https://realpython.com/python-built-in-functions/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-built-in-functions/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-07-01T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>The Real Python Podcast – Episode #210: Creating a Guitar Synthesizer &amp; Generating WAV Files With Python</title>

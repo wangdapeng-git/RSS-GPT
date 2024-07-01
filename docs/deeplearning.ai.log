@@ -4804,3 +4804,33 @@ Fetching from https://rsshub.app/deeplearning/thebatch
 Feed error: 403
 append_entries: 0
 error when rendering xml, skip docs/deeplearning.ai
+------------------------------------------------------
+Started: 2024-07-01 18:15:16.942782
+Existing_entries: 17
+Fetching from https://rsshub.app/deeplearning/thebatch
+Token length: 17958
+Summarized using GPT-3.5-turbo
+Append: [AI Monopolies, Ancestor Avatars, Benchmarks for Agentic Behavior, Chatbot for Minority Languages](https://www.deeplearning.ai/the-batch/issue-255)
+Token length: 17604
+Summarized using GPT-3.5-turbo
+Append: [Open Model Bonanza, Private Benchmarks for Fairer Tests, More Interactive Music Generation, Diffusion + GAN](https://www.deeplearning.ai/the-batch/issue-254)
+Token length: 18917
+Summarized using GPT-3.5-turbo
+Append: [Apple’s Gen AI Strategy, Stability's Copyright-Clear Audio Generator, International Safety Agreements, LLMs Play Doctor](https://www.deeplearning.ai/the-batch/issue-253)
+Token length: 16436
+Summarized using GPT-3.5-turbo
+Append: [The AI PC Arrives, OpenAI Used For Disinformation, U.S. and China Seek AI Agreement, Training Models to Reason](https://www.deeplearning.ai/the-batch/issue-252)
+Token length: 17785
+Summarized using GPT-3.5-turbo
+Append: [Heart-Risk Model Saves Lives, Self-Driving on Unruly Roads, Knowledge Workers Embrace AI, Richer Context for RAG](https://www.deeplearning.ai/the-batch/issue-251)
+Token length: 18134
+Summarized using GPT-3.5-turbo
+Append: [Music Industry Titan Targets AI, End-to-End Multimodality, Millions of Tokens of Context, More Responsive Text-to-Image](https://www.deeplearning.ai/the-batch/issue-250)
+Token length: 20779
+Summarized using GPT-3.5-turbo
+Append: [OpenAI’s Rules for Model Behavior, Better Brain-Controlled Robots, AlphaFold 3 Covers All Biochemistry, AI Oasis in the Desert](https://www.deeplearning.ai/the-batch/issue-249)
+Token length: 18503
+Summarized using GPT-3.5-turbo
+Append: [OpenAI Licenses News Archives, Generative Coding From Plan to Pull Request, Recognizing Landmines, Streamlined Inference](https://www.deeplearning.ai/the-batch/issue-248)
+append_entries: 8
+Finish: 2024-07-01 18:16:05.544369
