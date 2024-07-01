@@ -4797,3 +4797,10 @@ Fetching from https://rsshub.app/deeplearning/thebatch
 Feed error: 403
 append_entries: 0
 error when rendering xml, skip docs/deeplearning.ai
+------------------------------------------------------
+Started: 2024-07-01 06:16:22.188163
+Existing_entries: 17
+Fetching from https://rsshub.app/deeplearning/thebatch
+Feed error: 403
+append_entries: 0
+error when rendering xml, skip docs/deeplearning.ai
