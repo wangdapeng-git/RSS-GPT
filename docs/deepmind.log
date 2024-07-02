@@ -5035,3 +5035,9 @@ Summarized using GPT-3.5-turbo
 Append: [AlphaFold 3 predicts the structure and interactions of all of life’s molecules](https://deepmind.google/discover/blog/alphafold-3-predicts-the-structure-and-interactions-of-all-lifes-molecules/)
 append_entries: 7
 Finish: 2024-07-01 18:15:07.323955
+------------------------------------------------------
+Started: 2024-07-02 18:13:44.291652
+Existing_entries: 108
+Fetching from https://rsshub.app/deepmind/blog
+append_entries: 0
+Finish: 2024-07-02 18:13:44.430686

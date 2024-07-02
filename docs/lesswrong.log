@@ -2482,3 +2482,12 @@ Summarized using GPT-3.5-turbo
 Append: [Contra Acemoglu on AI](https://www.lesswrong.com/posts/viRn7Drv9FKcdFpyX/contra-acemoglu-on-ai)
 append_entries: 1
 Finish: 2024-07-01 18:16:20.373722
+------------------------------------------------------
+Started: 2024-07-02 18:14:02.147562
+Existing_entries: 108
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 15423
+Summarized using GPT-3.5-turbo
+Append: [Interpreting Preference Models w/ Sparse Autoencoders](https://www.lesswrong.com/posts/5XmxmszdjzBQzqpmz/interpreting-preference-models-w-sparse-autoencoders)
+append_entries: 1
+Finish: 2024-07-02 18:14:07.491979

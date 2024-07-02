@@ -5,6 +5,31 @@
 <link>https://realpython.com/</link>
 
 <item>
+<title>Defining Python Constants for Code Maintainability</title>
+<link>https://realpython.com/courses/defining-constants-code-maintainability/</link>
+<guid>https://realpython.com/courses/defining-constants-code-maintainability/</guid>
+<content:encoded><![CDATA[
+<div> Python、constants、naming convention、readability、reusability
+<br>
+常量是在程序执行过程中不会改变的值，在Python中通过大写字母命名来表示常量，以防止被重新赋值。学习如何正确定义Python常量，并识别一些内置常量，可以提高代码的可读性、重用性和可维护性。在项目中组织和管理常量时，可以采用不同的方法，并使用多种技巧使Python中的常量变得完全不可变。总结: <div>
+<p>In programming, the term <strong>constant</strong> refers to names representing values that don&rsquo;t change during a program&rsquo;s execution. Constants are a fundamental concept in programming, and Python developers use them in many cases. However, Python doesn&rsquo;t have a dedicated syntax for defining constants. In practice, Python constants are just <strong>variables</strong> that <em>never change</em>.</p>
+<p>To prevent programmers from reassigning a name that&rsquo;s supposed to hold a constant, the Python community has adopted a naming convention: <em>use uppercase letters</em>. For every Pythonista, it&rsquo;s essential to know what constants are, as well as why and when to use them.</p>
+<p><strong>In this video course, you&rsquo;ll learn how to:</strong></p>
+<ul>
+<li>Properly <strong>define constants</strong> in Python</li>
+<li>Identify some <strong>built-in constants</strong> </li>
+<li>Use constants to improve your code&rsquo;s <strong>readability</strong>, <strong>reusability</strong>, and <strong>maintainability</strong></li>
+<li>Apply different approaches to <strong>organize</strong> and <strong>manage</strong> constants in a project</li>
+<li>Use several techniques to make constants <strong>strictly constant</strong> in Python</li>
+</ul>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-07-02T14:00:00+00:00</pubDate>
+</item>
+
+<item>
 <title>Python's Built-in Functions: A Complete Exploration</title>
 <link>https://realpython.com/python-built-in-functions/</link>
 <guid>https://realpython.com/python-built-in-functions/</guid>
@@ -201,10 +226,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-01T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>The Real Python Podcast – Episode #210: Creating a Guitar Synthesizer &amp; Generating WAV Files With Python</title>
 <link>https://realpython.com/podcasts/rpp/210/</link>
