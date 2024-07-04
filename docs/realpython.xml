@@ -4,6 +4,152 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Working With JSON Data in Python</title>
+<link>https://realpython.com/python-json/</link>
+<guid>https://realpython.com/python-json/</guid>
+<content:encoded><![CDATA[
+<div> JSON, Python, syntax, data interchange, tools
+总结:<br><br>这篇文章介绍了JSON在Python中的应用。它首先解释了JSON的语法和起源，指出JSON已经成为信息交换的主流标准，同时Python提供了强大的工具来处理JSON数据。文章展示了如何将Python数据转换为JSON，以及如何将JSON反序列化为Python。此外，还介绍了如何写入和读取JSON文件，验证JSON语法，以及如何在终端美化和压缩JSON。最后，文章还提到了JSON与XML的比较。 <div>
+<div><p>Since its introduction, <a href="https://en.wikipedia.org/wiki/JSON">JSON</a> has rapidly emerged as the predominant standard for the exchange of information. Whether you want to transfer data with an <a href="https://realpython.com/api-integration-in-python/">API</a> or store information in a <a href="https://realpython.com/introduction-to-mongodb-and-python/">document database</a>, it’s likely you’ll encounter JSON. Fortunately, Python provides robust tools to facilitate this process and help you manage JSON data efficiently.</p>
+<p><strong>In this tutorial, you’ll learn how to:</strong></p>
+<ul>
+<li><strong>Understand</strong> the JSON syntax</li>
+<li><strong>Convert</strong> Python data to JSON</li>
+<li><strong>Deserialize</strong> JSON to Python</li>
+<li><strong>Write and read</strong> JSON files</li>
+<li><strong>Validate</strong> JSON syntax</li>
+<li><strong>Prettify</strong> JSON in the terminal</li>
+<li><strong>Minify</strong> JSON with Python</li>
+</ul>
+<p>While JSON is the most common format for data distribution, it’s not the only option for such tasks. Both <a href="https://realpython.com/python-xml-parser/">XML</a> and <a href="https://realpython.com/python-yaml/">YAML</a> serve similar purposes. If you’re interested in how the formats differ, then you can check out the tutorial on how to <a href="https://realpython.com/python-serialize-data/">serialize your data with Python</a>.</p>
+<div class="alert alert-warning">
+<p><strong>Free Bonus:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-json/">Click here to download the free sample code</a> that shows you how to work with JSON data in Python.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Working With JSON Data in Python” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/python-json/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="Working With JSON Data in Python" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Working-With-JSON-Data-in-Python_Watermarked.66a8fdcb8859.jpg" style="background: #ff7e74;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/python-json/"><span class="my-0 h4">Working With JSON Data in Python</span></a> 
+      <p class="text-muted mb-0 small">In this quiz, you'll test your understanding of working with JSON in Python. JSON has become the de facto standard for information exchange, and Python provides easy-to-use tools to handle JSON data.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="introducing-json">Introducing JSON<a class="headerlink" href="#introducing-json" title="Permanent link"></a></h2>
+<p>The acronym <strong>JSON</strong> stands for <a href="https://www.json.org/">JavaScript Object Notation</a>. As the name suggests, JSON originated from <a href="https://realpython.com/python-vs-javascript/">JavaScript</a>. However, JSON has transcended its origins to become language-agnostic and is now recognized as the <a href="https://tools.ietf.org/html/rfc8259">standard</a> for <strong>data interchange</strong>.</p>
+<p>The popularity of JSON can be attributed to native support by the JavaScript language, resulting in excellent parsing performance in web browsers. On top of that, JSON’s straightforward syntax allows both humans and computers to read and write JSON data effortlessly.</p>
+<p>To get a first impression of JSON, have a look at this example code:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--purple">
+    <span class="mr-2 noselect">JSON</span>
+    <span class="mr-2"><code style="color: inherit;">hello_world.json</code></span>
+    <div class="noselect">
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">"greeting"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Hello, world!"</span>
+<span class="p">}</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>You’ll learn more about the JSON syntax later in this tutorial. For now, recognize that the JSON format is <strong>text-based</strong>. In other words, you can create JSON files using the code editor of your choice. Once you set the file extension to <code>.json</code>, most code editors display your JSON data with syntax highlighting out of the box:</p>
+<figure class="js-lightbox"><a href="https://files.realpython.com/media/json-syntax-highlighting.bf172e2b07bd.png" target="_blank"><img alt="Editor screenshot with code highlighting for a JSON file" class="img-fluid mx-auto d-block " height="1080" src="https://files.realpython.com/media/json-syntax-highlighting.bf172e2b07bd.png" width="1920" /></a></figure>
+
+<p>The screenshot above shows how <a href="https://realpython.com/python-development-visual-studio-code/">VS Code</a> displays JSON data using the <a href="https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedtheme">Bearded color theme</a>. You’ll have a closer look at the syntax of the JSON format next!</p>
+<h3 id="examining-json-syntax">Examining JSON Syntax<a class="headerlink" href="#examining-json-syntax" title="Permanent link"></a></h3>
+<p>In the previous section, you got a first impression of how JSON data looks. And as a Python developer, the JSON structure probably reminds you of <a href="https://realpython.com/python-data-structures/">common Python data structures</a>, like a dictionary that contains a string as a key and a value. If you understand the syntax of a <a href="https://realpython.com/python-dicts/">dictionary</a> in Python, you already know the general syntax of a <strong>JSON object</strong>.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> Later in this tutorial, you’ll learn that you’re free to use lists and other data types at the top level of a JSON document.</p>
+</div>
+<p>The similarity between Python dictionaries and JSON objects is no surprise. One idea behind establishing JSON as the go-to data interchange format was to make working with JSON as convenient as possible, independently of which programming language you use:</p>
+<blockquote>
+<p>[A collection of key-value pairs and arrays] are universal data structures. Virtually all modern programming languages support them in one form or another. It makes sense that a data format that is interchangeable with programming languages is also based on these structures. (<a href="https://www.json.org/json-en.html">Source</a>)</p>
+</blockquote>
+<p>To explore the JSON syntax further, create a new file named <code>hello_frieda.json</code> and add a more complex JSON structure as the content of the file:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--purple">
+    <span class="mr-2 noselect">JSON</span>
+    <span class="mr-2"><code style="color: inherit;">hello_frieda.json</code></span>
+    <div class="noselect">
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="linenos"> 1</span><span class="p">{</span>
+<span class="linenos"> 2</span><span class="w">  </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Frieda"</span><span class="p">,</span>
+<span class="linenos"> 3</span><span class="w">  </span><span class="nt">"isDog"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="linenos"> 4</span><span class="w">  </span><span class="nt">"hobbies"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"eating"</span><span class="p">,</span><span class="w"> </span><span class="s2">"sleeping"</span><span class="p">,</span><span class="w"> </span><span class="s2">"barking"</span><span class="p">],</span>
+<span class="linenos"> 5</span><span class="w">  </span><span class="nt">"age"</span><span class="p">:</span><span class="w"> </span><span class="mi">8</span><span class="p">,</span>
+<span class="linenos"> 6</span><span class="w">  </span><span class="nt">"address"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="linenos"> 7</span><span class="w">    </span><span class="nt">"work"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span>
+<span class="linenos"> 8</span><span class="w">    </span><span class="nt">"home"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"Berlin"</span><span class="p">,</span><span class="w"> </span><span class="s2">"Germany"</span><span class="p">]</span>
+<span class="linenos"> 9</span><span class="w">  </span><span class="p">},</span>
+<span class="linenos">10</span><span class="w">  </span><span class="nt">"friends"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="linenos">11</span><span class="w">    </span><span class="p">{</span>
+<span class="linenos">12</span><span class="w">      </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Philipp"</span><span class="p">,</span>
+<span class="linenos">13</span><span class="w">      </span><span class="nt">"hobbies"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"eating"</span><span class="p">,</span><span class="w"> </span><span class="s2">"sleeping"</span><span class="p">,</span><span class="w"> </span><span class="s2">"reading"</span><span class="p">]</span>
+<span class="linenos">14</span><span class="w">    </span><span class="p">},</span>
+<span class="linenos">15</span><span class="w">    </span><span class="p">{</span>
+<span class="linenos">16</span><span class="w">      </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Mitch"</span><span class="p">,</span>
+<span class="linenos">17</span><span class="w">      </span><span class="nt">"hobbies"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"running"</span><span class="p">,</span><span class="w"> </span><span class="s2">"snacking"</span><span class="p">]</span>
+<span class="linenos">18</span><span class="w">    </span><span class="p">}</span>
+<span class="linenos">19</span><span class="w">  </span><span class="p">]</span>
+<span class="linenos">20</span><span class="p">}</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In the code above, you see data about a dog named Frieda, which is formatted as JSON. The top-level value is a JSON object. Just like Python dictionaries, you wrap JSON objects inside curly braces (<code>{}</code>).</p>
+<p>In line 1, you start the JSON object with an opening curly brace (<code>{</code>), and then you close the object at the end of line 20 with a closing curly brace (<code>}</code>).</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> Although whitespace doesn’t matter in JSON, it’s customary for JSON documents to be formatted with two or four spaces to indicate indentation. If the file size of the JSON document is important, then you may consider minifying the JSON file by removing the whitespace. You’ll learn more about minifying JSON data later in the tutorial.</p>
+</div>
+<p>Inside the JSON object, you can define zero, one, or more key-value pairs. If you add multiple key-value pairs, then you must separate them with a comma (<code>,</code>).</p>
+</div><h2><a href="https://realpython.com/python-json/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-json/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-07-03T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Defining Python Constants for Code Maintainability</title>

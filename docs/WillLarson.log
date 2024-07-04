@@ -1039,3 +1039,51 @@ Existing_entries: 33
 Fetching from https://lethain.com/feeds.xml
 append_entries: 0
 Finish: 2024-07-02 22:11:14.283655
+------------------------------------------------------
+Started: 2024-07-04 14:10:56.606941
+Existing_entries: 33
+Fetching from https://lethain.com/feeds.xml
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Tags](https://lethain.com/tags/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Posts](https://lethain.com/posts/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Management](https://lethain.com/tags/management/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Executive](https://lethain.com/tags/executive/)
+Token length: 190
+Summarized using GPT-3.5-turbo
+Append: [](https://lethain.com/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Staff-Plus](https://lethain.com/tags/staff-plus/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Architecture](https://lethain.com/tags/architecture/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Talks](https://lethain.com/tags/talks/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Speaking](https://lethain.com/tags/speaking/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Llm](https://lethain.com/tags/llm/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Strategy](https://lethain.com/tags/strategy/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Eng-Strategy-Book](https://lethain.com/tags/eng-strategy-book/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Wardley-Map](https://lethain.com/tags/wardley-map/)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Systems-Thinking](https://lethain.com/tags/systems-thinking/)
+append_entries: 14
+Finish: 2024-07-04 14:12:16.838985

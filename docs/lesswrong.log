@@ -2500,3 +2500,18 @@ Summarized using GPT-3.5-turbo
 Append: [Decomposing the QK circuit with Bilinear Sparse Dictionary Learning](https://www.lesswrong.com/posts/2ep6FGjTQoGDRnhrq/decomposing-the-qk-circuit-with-bilinear-sparse-dictionary)
 append_entries: 1
 Finish: 2024-07-02 22:11:12.941850
+------------------------------------------------------
+Started: 2024-07-04 14:10:36.247541
+Existing_entries: 110
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 13307
+Summarized using GPT-3.5-turbo
+Append: [3C's: A Recipe For Mathing Concepts](https://www.lesswrong.com/posts/fEvCxNte6FKSRNFvN/3c-s-a-recipe-for-mathing-concepts)
+Token length: 17301
+Summarized using GPT-3.5-turbo
+Append: [OthelloGPT learned a bag of heuristics](https://www.lesswrong.com/posts/gcpNuEZnxAPayaKBY/othellogpt-learned-a-bag-of-heuristics-1)
+Token length: 6090
+Summarized using GPT-3.5-turbo
+Append: [Covert Malicious Finetuning](https://www.lesswrong.com/posts/33emJkmw5bMAXZHHt/covert-malicious-finetuning-1)
+append_entries: 3
+Finish: 2024-07-04 14:10:55.451456
