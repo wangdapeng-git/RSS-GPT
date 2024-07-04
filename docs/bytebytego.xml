@@ -4,6 +4,23 @@
 <title>ByteByteGo Newsletter</title>
 <link>https://blog.bytebytego.com</link>
 
+<item>
+<title>A Crash Course in Database Scaling Strategies</title>
+<link>https://blog.bytebytego.com/p/a-crash-course-in-database-scaling</link>
+<guid>https://blog.bytebytego.com/p/a-crash-course-in-database-scaling</guid>
+<content:encoded><![CDATA[
+<div> 数据库、应用开发、数据库扩展、性能优化、索引<br>
+<br>总结：<br>数据库是现代应用开发的重要组成部分，通过索引等技术来改进数据库的可扩展性和性能。数据库扩展是通过采用各种技术和策略来适应数据增长和维持性能，以确保应用程序的正常运行。选择合适的数据库扩展策略至关重要，否则可能会带来更多问题。 <div>
+<p>Databases form the backbone of modern application development. They play a vital role in storing, managing, and retrieving data, enabling applications and services to function effectively.</p><p>As applications gain popularity and attract a growing user base, databases face the challenge of handling ever-increasing data volumes, concurrent users, and complex queries.</p><p>It becomes critical to scale databases effectively to ensure optimal performance and a good user experience.&nbsp;</p><p>Database scaling is the process of adapting and expanding the database infrastructure to accommodate growth and maintain performance under increased load. It involves employing various techniques and strategies to distribute data efficiently, optimize query execution, and utilize hardware resources judiciously.</p><p>Organizations and developers must understand and implement the right database scaling strategy. Choosing the wrong strategies for a particular situation can result in more harm than good.</p><p>In this post, we will cover the most popular database scaling strategies in detail, discussing their benefits and trade-offs.</p><div class="captioned-image-container"><figure><a class="image-link is-viewable-img image2" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4cff25a5-b061-4fd4-8831-fab148e8926b_1401x1600.png" target="_blank"><div class="image2-inset"><source type="image/webp" /><img alt="" class="sizing-normal" height="1600" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4cff25a5-b061-4fd4-8831-fab148e8926b_1401x1600.png" width="1401" /><div class="image-link-expand"><svg class="lucide lucide-maximize2 " fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" x2="14" y1="3" y2="10"></line><line x1="3" x2="10" y1="21" y2="14"></line></svg></div></div></a></figure></div><div><hr /></div><h2>Indexing</h2><p>Indexing is one of the foundational techniques to enhance the scalability and performance of databases.&nbsp;</p>
+      <p>
+          <a href="https://blog.bytebytego.com/p/a-crash-course-in-database-scaling">
+              Read more
+          </a>
+      </p>
+]]></content:encoded>
+<pubDate>Thu, 04 Jul 2024 15:31:12 GMT</pubDate>
+<pubDate>Thu, 04 Jul 2024 15:31:12 GMT</pubDate>
+</item>
 
 <item>
 <title>EP118: What are the differences among database locks?</title>

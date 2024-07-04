@@ -5,12 +5,30 @@
 <link>https://realpython.com/</link>
 
 <item>
+<title>Quiz: Python's Magic Methods: Leverage Their Power in Your Classes</title>
+<link>https://realpython.com/quizzes/python-magic-methods/</link>
+<guid>https://realpython.com/quizzes/python-magic-methods/</guid>
+<content:encoded><![CDATA[
+<div> magic methods, Python, customize, classes, behavior
+<br><br>总结:
+magic methods 是 Python 中的特殊方法，可以用来自定义类的行为。通过实现这些特殊方法，你可以定制类的操作，如算术运算、比较和类型转换。在编写类时，可以利用这些 magic methods 来增强类的灵活性和功能性，使其符合特定需求。为了更好地理解 magic methods 的工作原理和如何应用它们，建议通过实践测试来加深认识。对于想要提升 Python 技能和加强类设计能力的人来说，掌握 magic methods 是一个很好的方式。 <div>
+<p>In this quiz, you&rsquo;ll test your understanding of
+<a href="https://realpython.com/python-magic-methods/">Python&rsquo;s Magic Methods</a>.</p>
+<p>By working through this quiz, you&rsquo;ll revisit the concept of magic methods in Python, how they work, and how you can use them to customize the behavior of your classes.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-07-03T12:00:00+00:00</pubDate>
+</item>
+
+<item>
 <title>Working With JSON Data in Python</title>
 <link>https://realpython.com/python-json/</link>
 <guid>https://realpython.com/python-json/</guid>
 <content:encoded><![CDATA[
 <div> JSON, Python, syntax, data interchange, tools
-总结:<br><br>这篇文章介绍了JSON在Python中的应用。它首先解释了JSON的语法和起源，指出JSON已经成为信息交换的主流标准，同时Python提供了强大的工具来处理JSON数据。文章展示了如何将Python数据转换为JSON，以及如何将JSON反序列化为Python。此外，还介绍了如何写入和读取JSON文件，验证JSON语法，以及如何在终端美化和压缩JSON。最后，文章还提到了JSON与XML的比较。 <div>
+总结:<br /><br />这篇文章介绍了JSON在Python中的应用。它首先解释了JSON的语法和起源，指出JSON已经成为信息交换的主流标准，同时Python提供了强大的工具来处理JSON数据。文章展示了如何将Python数据转换为JSON，以及如何将JSON反序列化为Python。此外，还介绍了如何写入和读取JSON文件，验证JSON语法，以及如何在终端美化和压缩JSON。最后，文章还提到了JSON与XML的比较。 <div>
 <div><p>Since its introduction, <a href="https://en.wikipedia.org/wiki/JSON">JSON</a> has rapidly emerged as the predominant standard for the exchange of information. Whether you want to transfer data with an <a href="https://realpython.com/api-integration-in-python/">API</a> or store information in a <a href="https://realpython.com/introduction-to-mongodb-and-python/">document database</a>, it’s likely you’ll encounter JSON. Fortunately, Python provides robust tools to facilitate this process and help you manage JSON data efficiently.</p>
 <p><strong>In this tutorial, you’ll learn how to:</strong></p>
 <ul>
@@ -147,10 +165,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-03T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Defining Python Constants for Code Maintainability</title>
 <link>https://realpython.com/courses/defining-constants-code-maintainability/</link>
