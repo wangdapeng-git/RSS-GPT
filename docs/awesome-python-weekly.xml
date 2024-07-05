@@ -4,6 +4,26 @@
 <title>Awesome Python Weekly</title>
 <link>https://python.libhunt.com/newsletter</link>
 
+<item>
+<title>🐍 Issue 423 - My Python code is a neural network</title>
+<link>https://python.libhunt.com/newsletter/423</link>
+<guid>https://python.libhunt.com/newsletter/423</guid>
+<content:encoded><![CDATA[
+<div> neural network, Python code, machine learning, training, classification
+<br>
+本文介绍了如何使用Python编写神经网络的代码来进行机器学习。神经网络是一种模拟人类大脑处理信息的模型，可以用于训练和分类数据。在Python中，可以使用各种库和框架来构建神经网络模型，并使用训练数据来优化模型参数，从而提高分类准确性。通过编写Python代码，可以灵活地定制神经网络模型，实现适合特定任务的机器学习算法。总之，Python是一个强大的工具，用于实现神经网络和机器学习的计算。 
+<br>
+总结: 
+1. 神经网络模型使用Python编写
+2. 应用于机器学习任务
+3. 训练数据用于优化模型参数
+4. 提高数据分类准确性
+5. 可以定制化调整机器学习算法 <div>
+🐍 Issue 423 - My Python code is a neural network
+]]></content:encoded>
+<pubDate>Thu, 04 Jul 2024 13:42:00 -0800</pubDate>
+<pubDate>Thu, 04 Jul 2024 13:42:00 -0800</pubDate>
+</item>
 
 <item>
 <title>🐍 Issue 422 - Porting Python to a terrible $3 smartwatch [video]</title>

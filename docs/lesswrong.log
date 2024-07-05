@@ -2521,3 +2521,15 @@ Existing_entries: 113
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-07-04 16:13:10.902055
+------------------------------------------------------
+Started: 2024-07-05 12:19:10.221870
+Existing_entries: 113
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 9511
+Summarized using GPT-3.5-turbo
+Append: [Introduction to French AI Policy](https://www.lesswrong.com/posts/GFeyXGib7DD3ooTEN/introduction-to-french-ai-policy)
+Token length: 5333
+Summarized using GPT-3.5-turbo
+Append: [Static Analysis As A Lifestyle](https://www.lesswrong.com/posts/XEuArCYEALQ6XecW7/static-analysis-as-a-lifestyle)
+append_entries: 2
+Finish: 2024-07-05 12:19:21.882595
