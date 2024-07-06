@@ -4,6 +4,26 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>The Real Python Podcast – Episode #211: Python Doesn't Round Numbers the Way You Might Think</title>
+<link>https://realpython.com/podcasts/rpp/211/</link>
+<guid>https://realpython.com/podcasts/rpp/211/</guid>
+<content:encoded><![CDATA[
+<div> Python, round, math, default method, variety  
+Python中的round方法与数学课上学到的方式可能不同。Python使用的默认方法以及在Python中对数字进行舍入的多种方式可能让你感到惊讶。本周节目中，Christopher Trudeau带来了另一批PyCoder's Weekly文章和项目。  
+
+<br><br>总结:  
+1. Python中的round方法与数学课上学到的方式可能不同。  
+2. Python使用的默认方法可能会让你感到惊讶。  
+3. Python提供了多种对数字进行舍入的方式。  
+4. 本周节目中，Christopher Trudeau带来了PyCoder's Weekly文章和项目。 <div>
+<p>Does Python round numbers the same way you learned back in math class? You might be surprised by the default method Python uses and the variety of ways to round numbers in Python. Christopher Trudeau is back on the show this week, bringing another batch of PyCoder's Weekly articles and projects.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-07-05T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Quiz: Python's Magic Methods: Leverage Their Power in Your Classes</title>
