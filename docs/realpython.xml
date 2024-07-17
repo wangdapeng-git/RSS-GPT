@@ -4,6 +4,120 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Python Protocols: Leveraging Structural Subtyping</title>
+<link>https://realpython.com/python-protocol/</link>
+<guid>https://realpython.com/python-protocol/</guid>
+<content:encoded><![CDATA[
+<div> protocols, static typing, duck typing, structural subtyping, Python
+
+总结:<br><br>
+本文介绍了Python中的“协议”概念，重点在于第二种意义上的协议，即指定类必须实现的方法和属性以被认为是某种类型。Python是动态类型语言，但通过类型提示实现了静态类型检查，而通过协议可以实现静态鸭子类型。静态类型和动态类型之间的对比，以及鸭子类型的灵活性，可以使类之间建立关系而无需依赖继承。通过协议，可以定义类的内部结构，实现结构子类型化。最后还介绍了如何使用Python的Protocol类创建自定义协议，以及协议和抽象基类之间的区别。 <div>
+<div><p>In Python, a <strong>protocol</strong> specifies the methods and attributes that a class must implement to be considered of a given type. Protocols are important in Python’s <strong>type hint system</strong>, which allows for static type checking through external tools, such as <a href="http://mypy-lang.org/">mypy</a>, <a href="https://github.com/microsoft/pyright">Pyright</a>, and <a href="https://pyre-check.org/">Pyre</a>.</p>
+<p>Before there were protocols, these tools could only check for <strong>nominal subtyping</strong> based on inheritance. There was no way to check for <strong>structural subtyping</strong>, which relies on the internal structure of classes. This limitation affected Python’s <strong>duck typing</strong> system, which allows you to use objects without considering their nominal types. Protocols overcome this limitation, making static duck typing possible.</p>
+<p><strong>In this tutorial, you’ll:</strong></p>
+<ul>
+<li>Gain clarity around the use of the term <strong>protocol</strong> in Python</li>
+<li>Learn how <strong>type hints</strong> facilitate <strong>static type checking</strong></li>
+<li>Learn how protocols allow <strong>static duck typing</strong></li>
+<li>Create custom protocols with the <strong><code>Protocol</code> class</strong></li>
+<li>Understand the differences between <strong>protocols</strong> and <strong>abstract base classes</strong></li>
+</ul>
+<p>To get the most out of this tutorial, you’ll need to know the basics of <a href="https://realpython.com/python3-object-oriented-programming/">object-oriented programming</a> in Python, including concepts such as <a href="https://realpython.com/python-classes/">classes</a> and <a href="https://realpython.com/inheritance-composition-python/">inheritance</a>. You should also know about <a href="https://realpython.com/python-type-checking/">type checking</a> and <a href="https://realpython.com/duck-typing-python/">duck typing</a> in Python.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-protocol-code/">Click here to download the free sample code</a> that shows you how to leverage structural subtyping with Python protocols</p>
+</div>
+<h2 id="the-meaning-of-protocol-in-python">The Meaning of “Protocol” in Python<a class="headerlink" href="#the-meaning-of-protocol-in-python" title="Permanent link"></a></h2>
+<p>During Python’s evolution, the term <strong>protocol</strong> became overloaded with two subtly different meanings. The first meaning refers to internal protocols, such as the <a href="https://realpython.com/python-iterators-iterables/#what-is-the-python-iterator-protocol">iterator</a>, <a href="https://realpython.com/python-with-statement/#creating-custom-context-managers">context manager</a>, and <a href="https://realpython.com/python-descriptors/">descriptor</a> protocols.</p>
+<p>These protocols are widely understood in the community and consist of <a href="https://realpython.com/python-magic-methods/">special methods</a> that make up a given protocol. For example, the <a href="https://docs.python.org/3/library/stdtypes.html#iterator.__iter__"><code>.__iter__()</code></a> and <a href="https://docs.python.org/3/library/stdtypes.html#iterator.__next__"><code>.__next__()</code></a> methods define the iterator protocol.</p>
+<p><a href="https://realpython.com/python38-new-features/">Python 3.8</a> introduced a second, slightly different type of <a href="https://realpython.com/python38-new-features/#more-precise-types">protocol</a>. These protocols specify the methods and attributes that a class must implement to be considered of a given type. So, these protocols also have to do with a class’s internal structure.</p>
+<p>With this kind of protocol, you can define interchangeable classes as long as they share a common internal structure. This feature allows you to enforce a relationship between types or classes without the burden of <a href="https://realpython.com/inheritance-composition-python/#whats-inheritance">inheritance</a>. This relationship is known as <strong>structural subtyping</strong> or <a href="https://realpython.com/duck-typing-python/#understanding-type-hints-and-static-duck-typing">static duck typing</a>.</p>
+<p>In this tutorial, you’ll focus on this second meaning of the term protocol. First, you’ll have a look at how Python manages types.</p>
+<h2 id="dynamic-and-static-typing-in-python">Dynamic and Static Typing in Python<a class="headerlink" href="#dynamic-and-static-typing-in-python" title="Permanent link"></a></h2>
+<p>Python is a dynamically typed language, which means that the Python interpreter checks an object’s type when the code runs. It also means that while a variable can only reference one object at a time, the type of that object can change during the variable’s lifetime.</p>
+<p>For example, you can have a variable that starts as a string and changes into an integer number:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">value</span> <span class="o">=</span> <span class="s2">"One hundred"</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">value</span>
+<span class="go">'One hundred'</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">value</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">value</span>
+<span class="go">100</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this example, you have a variable that starts as a string. Later in your code, you change the variable’s value to an integer.</p>
+<p>Because of its dynamic nature, Python has embraced a flexible typing system that’s known as duck typing.</p>
+<h3 id="duck-typing">Duck Typing<a class="headerlink" href="#duck-typing" title="Permanent link"></a></h3>
+<p>Duck typing is a <a href="https://en.wikipedia.org/wiki/Type_system">type system</a> in which an object is considered compatible with a given type if it has all the <a href="https://realpython.com/python-classes/#providing-behavior-with-methods">methods</a> and <a href="https://realpython.com/python-classes/#attaching-data-to-classes-and-instances">attributes</a> that the type requires. This typing system supports the ability to use objects of independent and decoupled classes in a specific context as long as they adhere to some common interface.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> To dive deeper into duck typing, check out the <a href="https://realpython.com/duck-typing-python/">Duck Typing in Python: Writing Flexible and Decoupled Code</a> tutorial.</p>
+</div>
+<p>As an example of duck typing, you can consider built-in container data types, such as <a href="https://realpython.com/python-list/">lists</a>, <a href="https://realpython.com/python-tuple/">tuples</a>, <a href="https://realpython.com/python-strings/">strings</a>, <a href="https://realpython.com/python-dicts/">dictionaries</a>, and <a href="https://realpython.com/python-sets/">sets</a>. All of these data types support iteration:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">person</span> <span class="o">=</span> <span class="p">(</span><span class="s2">"Jane"</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="s2">"Python Dev"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">letters</span> <span class="o">=</span> <span class="s2">"abc"</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ordinals</span> <span class="o">=</span> <span class="p">{</span><span class="s2">"one"</span><span class="p">:</span> <span class="s2">"first"</span><span class="p">,</span> <span class="s2">"two"</span><span class="p">:</span> <span class="s2">"second"</span><span class="p">,</span> <span class="s2">"three"</span><span class="p">:</span> <span class="s2">"third"</span><span class="p">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">even_digits</span> <span class="o">=</span> <span class="p">{</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">}</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">containers</span> <span class="o">=</span> <span class="p">[</span><span class="n">numbers</span><span class="p">,</span> <span class="n">person</span><span class="p">,</span> <span class="n">letters</span><span class="p">,</span> <span class="n">ordinals</span><span class="p">,</span> <span class="n">even_digits</span><span class="p">]</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">container</span> <span class="ow">in</span> <span class="n">containers</span><span class="p">:</span>
+<span class="gp">... </span>    <span class="k">for</span> <span class="n">element</span> <span class="ow">in</span> <span class="n">container</span><span class="p">:</span>
+<span class="gp">... </span>        <span class="nb">print</span><span class="p">(</span><span class="n">element</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">" "</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="nb">print</span><span class="p">()</span>
+<span class="gp">...</span>
+<span class="go">1 2 3 </span>
+<span class="go">Jane 25 Python Dev </span>
+<span class="go">a b c </span>
+<span class="go">one two three </span>
+<span class="go">8 2 4 6 </span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this code snippet, you define a few variables using different built-in types. Then, you start a <a href="https://realpython.com/python-for-loop/"><code>for</code></a> loop over the collections and iterate over each of them to print their elements to the screen. Even though the built-in types are significantly different from one another, they all support iteration.</p>
+<p>The duck typing system allows you to create code that can work with different objects, provided that they share a common interface. This system allows you to set relationships between classes that don’t rely on inheritance, which produces flexible and decoupled code.</p>
+</div><h2><a href="https://realpython.com/python-protocol/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-protocol/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-07-17T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Exercises Course: Introduction to Web Scraping With Python</title>
