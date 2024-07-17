@@ -4918,3 +4918,12 @@ Existing_entries: 27
 Fetching from https://rsshub.app/deeplearning/thebatch
 append_entries: 0
 Finish: 2024-07-17 20:11:43.917268
+------------------------------------------------------
+Started: 2024-07-17 22:11:07.929910
+Existing_entries: 27
+Fetching from https://rsshub.app/deeplearning/thebatch
+Token length: 17551
+Summarized using GPT-3.5-turbo
+Append: [Hallucination Detector, Battle of the Image Generators, How Open Are Open Models?, Copyright Claim Fails Against GitHub](https://www.deeplearning.ai/the-batch/issue-258)
+append_entries: 1
+Finish: 2024-07-17 22:11:14.099995
