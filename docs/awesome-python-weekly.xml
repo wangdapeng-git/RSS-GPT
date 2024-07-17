@@ -4,6 +4,7 @@
 <title>Awesome Python Weekly</title>
 <link>https://python.libhunt.com/newsletter</link>
 
+
 <item>
 <title>🐍 Issue 424 - Rye: A Hassle-Free Python Experience</title>
 <link>https://python.libhunt.com/newsletter/424</link>
@@ -11,13 +12,11 @@
 <content:encoded><![CDATA[
 <div> Python, Rye, hassle-free, issue, experience
 
-Rye是一个致力于提供无忧Python体验的工具，旨在解决Python开发过程中的各种烦恼。本期的424期期刊介绍了Rye的用法和优势，为用户提供了一种简单的Python开发环境。通过Rye，用户可以轻松搭建Python环境，省去了复杂的配置步骤，提高了开发效率。同时，Rye还提供了丰富的功能和插件，让用户可以根据自己的需求定制开发环境，轻松应对各种开发需求。总之，Rye为Python开发者提供了一种方便快捷的开发工具，让开发过程变得更加简单和高效。<br><br>总结: Rye是一款旨在提供无忧Python体验的工具，通过简化配置和提供丰富功能插件，为用户创造了简单快捷的开发环境，提高了开发效率。 <div>
+Rye是一个致力于提供无忧Python体验的工具，旨在解决Python开发过程中的各种烦恼。本期的424期期刊介绍了Rye的用法和优势，为用户提供了一种简单的Python开发环境。通过Rye，用户可以轻松搭建Python环境，省去了复杂的配置步骤，提高了开发效率。同时，Rye还提供了丰富的功能和插件，让用户可以根据自己的需求定制开发环境，轻松应对各种开发需求。总之，Rye为Python开发者提供了一种方便快捷的开发工具，让开发过程变得更加简单和高效。<br /><br />总结: Rye是一款旨在提供无忧Python体验的工具，通过简化配置和提供丰富功能插件，为用户创造了简单快捷的开发环境，提高了开发效率。 <div>
 🐍 Issue 424 - Rye: A Hassle-Free Python Experience
 ]]></content:encoded>
 <pubDate>Thu, 11 Jul 2024 13:42:00 -0800</pubDate>
-<pubDate>Thu, 11 Jul 2024 13:42:00 -0800</pubDate>
 </item>
-
 <item>
 <title>🐍 Issue 423 - My Python code is a neural network</title>
 <link>https://python.libhunt.com/newsletter/423</link>

@@ -4,6 +4,7 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-07-14</title>
 <link>https://pythonhub.dev/digest/2024-07-14/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> PyO3, Python performance, Rust code, challenges, ongoing developments
 
-总结:<br><br>PyO3项目致力于通过整合Rust代码来提高Python的性能，本文讨论了在使Python和Rust无缝协作方面所面临的挑战和不断的发展，突显了在提升性能方面将这两种语言连接起来所涉及的复杂性。 <div>
+总结:<br /><br />PyO3项目致力于通过整合Rust代码来提高Python的性能，本文讨论了在使Python和Rust无缝协作方面所面临的挑战和不断的发展，突显了在提升性能方面将这两种语言连接起来所涉及的复杂性。 <div>
 <div></div>
 
 <h2>💖 Most Popular</h2>
@@ -241,7 +242,6 @@
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 14 Jul 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 14 Jul 2024 18:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Python Hub Weekly Digest for 2024-07-07</title>
@@ -249,13 +249,13 @@
 <guid>https://pythonhub.dev/digest/2024-07-07/</guid>
 <content:encoded><![CDATA[
 <div> Python, generator co-routines, functions, collections.abc, lazy computation, Pytest fixtures
-<br>
+<br />
 生成器协程在Python中的重要性和用途，介绍了生成器、函数和生成器实例之间的区别，以及collections.abc在定义生成器时的协议和作用。重点强调了生成器的惰性计算优势、高效的控制和数据流管理，并解决了在操作链和建模复杂问题中的挑战。
 Pytest fixtures的创建、参数化和利用，以创建高效、可靠和可维护的单元测试。
 ChatGPT如何执行Python代码并解释其工作原理，以及如何使用它进行其他用途。
 Xinference让您能够在应用中将OpenAI GPT替换为另一个LLM，只需更改一行代码。提供了使用任何开源语言模型、语音识别模型和多模型的自由。具有云端、本地甚至笔记本电脑上的推理能力。
 全栈Python网络应用程序的创建过程，使用Reflex实现，无需HTML、CSS和JavaScript，覆盖了接口创建、添加用户认证和数据存储等功能，以及使用Radix UI进行设计定制。这为开发提供了无缝的体验。
-<br><br>
+<br /><br />
 总结: 本文深入探讨了生成器协程和Pytest fixtures在Python中的应用，以及使用ChatGPT执行Python代码和Xinference进行LLM替换的方法。另外还介绍了全栈Python应用程序开发过程。 Article: [Source](https://www.example.com) <div>
 <div></div>
 
@@ -438,9 +438,7 @@ Xinference让您能够在应用中将OpenAI GPT替换为另一个LLM，只需更
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 07 Jul 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 07 Jul 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-06-30</title>
 <link>https://pythonhub.dev/digest/2024-06-30/</link>

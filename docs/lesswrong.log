@@ -2578,3 +2578,9 @@ Summarized using GPT-3.5-turbo
 Append: [Superbabies: Putting The Pieces Together](https://www.lesswrong.com/posts/2uJsiQqHTjePTRqi4/superbabies-putting-the-pieces-together)
 append_entries: 10
 Finish: 2024-07-17 08:16:56.041310
+------------------------------------------------------
+Started: 2024-07-17 10:12:08.748222
+Existing_entries: 126
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-07-17 10:12:09.184368

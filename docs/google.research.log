@@ -40,3 +40,9 @@ Summarized using GPT-3.5-turbo
 Append: [Assessing ASR performance with meaning preservation](https://research.google/blog/assessing-asr-performance-with-meaning-preservation/)
 append_entries: 12
 Finish: 2024-07-17 08:18:04.046660
+------------------------------------------------------
+Started: 2024-07-17 10:12:11.450847
+Existing_entries: 12
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+append_entries: 0
+Finish: 2024-07-17 10:12:15.620787

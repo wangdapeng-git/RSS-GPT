@@ -72,4 +72,5 @@ I will consider hosting more feeds in the future. Email me or submit an issue if
 - https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50 -> https://wangdapeng-git.github.io/RSS-GPT/lesswrong.xml
 - https://blog.bytebytego.com/feed -> https://wangdapeng-git.github.io/RSS-GPT/bytebytego.xml
 - https://nlp.elvissaravia.com/feed -> https://wangdapeng-git.github.io/RSS-GPT/ML-PaperWeekly.xml
+- https://feed.cnblogs.com/blog/u/415579/rss/ -> https://wangdapeng-git.github.io/RSS-GPT/数据科学学习手札.xml
 - https://rss.diffbot.com/atom?url=https://research.google/blog/ -> https://wangdapeng-git.github.io/RSS-GPT/google.research.xml

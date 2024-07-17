@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Exercises Course: Introduction to Web Scraping With Python</title>
 <link>https://realpython.com/courses/exercises-introduction-web-scraping/</link>
 <guid>https://realpython.com/courses/exercises-introduction-web-scraping/</guid>
 <content:encoded><![CDATA[
-<div> web scraping, Python, data collection, parsing, website data<br>
-Python社区提供了一些强大的网络爬虫工具，用于从网站中收集和解析原始数据。在互联网上，包含了世界上最丰富的信息来源。许多学科，如商业智能和调查报道，都可以从收集和分析网站数据中获益。在这门课程中，您将练习使用字符串方法和正则表达式解析网站数据，使用HTML解析器解析网站数据，与表单和其他网站组件进行交互。<br><br>总结: <div>
+<div> web scraping, Python, data collection, parsing, website data<br />
+Python社区提供了一些强大的网络爬虫工具，用于从网站中收集和解析原始数据。在互联网上，包含了世界上最丰富的信息来源。许多学科，如商业智能和调查报道，都可以从收集和分析网站数据中获益。在这门课程中，您将练习使用字符串方法和正则表达式解析网站数据，使用HTML解析器解析网站数据，与表单和其他网站组件进行交互。<br /><br />总结: <div>
 <p><strong>Web scraping</strong> is the process of collecting and parsing raw data from the Web, and the Python community has come up with some pretty powerful web scraping tools.</p>
 <p>The Internet hosts the greatest source of information on the planet. Many disciplines, such as <a href="https://realpython.com/learning-paths/data-science-python-core-skills/">data science</a>, business intelligence, and investigative reporting, can benefit enormously from collecting and analyzing data from websites. </p>
 <p><strong>In this course, you&rsquo;ll practice:</strong></p>
@@ -22,7 +23,6 @@ Python社区提供了一些强大的网络爬虫工具，用于从网站中收�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-16T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -32,7 +32,7 @@ Python社区提供了一些强大的网络爬虫工具，用于从网站中收�
 <content:encoded><![CDATA[
 <div> 数据分割、模型评估、验证、train_test_split()、过拟合、欠拟合
 
-分割数据集对于评估模型性能及验证至关重要。在监督学习中，需要将数据集分为训练集、验证集和测试集，以保持评估的客观性。训练集用于训练模型，验证集用于评估模型性能，测试集用于最终的模型评估。过拟合和欠拟合是常见问题，分割数据有助于发现这些问题。通过使用scikit-learn库中的train_test_split()函数，可以方便地实现数据分割功能。通过掌握这些基本概念和工具，可以有效地进行模型训练和评估，提高模型的预测性能。<br><br>总结:数据的分割及合理利用可以有效评估模型性能，并避免过拟合和欠拟合问题。 <div>
+分割数据集对于评估模型性能及验证至关重要。在监督学习中，需要将数据集分为训练集、验证集和测试集，以保持评估的客观性。训练集用于训练模型，验证集用于评估模型性能，测试集用于最终的模型评估。过拟合和欠拟合是常见问题，分割数据有助于发现这些问题。通过使用scikit-learn库中的train_test_split()函数，可以方便地实现数据分割功能。通过掌握这些基本概念和工具，可以有效地进行模型训练和评估，提高模型的预测性能。<br /><br />总结:数据的分割及合理利用可以有效评估模型性能，并避免过拟合和欠拟合问题。 <div>
 <div><p>One of the key aspects of supervised <a href="https://realpython.com/learning-paths/machine-learning-python/">machine learning</a> is model evaluation and validation. When you evaluate the predictive performance of your model, it’s essential that the process be unbiased. Using <a href="https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html"><strong><code>train_test_split()</code></strong></a> from the data science library <a href="https://scikit-learn.org/stable/index.html">scikit-learn</a>, you can split your dataset into subsets that minimize the potential for bias in your evaluation and validation process.</p>
 <p><strong>In this tutorial, you’ll learn:</strong></p>
 <ul>
@@ -121,7 +121,6 @@ Python社区提供了一些强大的网络爬虫工具，用于从网站中收�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-15T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -130,16 +129,15 @@ Python社区提供了一些强大的网络爬虫工具，用于从网站中收�
 <guid>https://realpython.com/quizzes/generators-and-yield-in-python/</guid>
 <content:encoded><![CDATA[
 <div> Generators, Python yield statement, large datasets, maintain internal state, efficient data pipelines
-<br>
+<br />
 Python的生成器和yield语句可以帮助处理大型数据集，避免内存溢出问题。另一个用例是在需要保持内部状态的复杂函数中使用生成器。理解Python生成器后，可以更Pythonic地处理大型数据集，创建生成器函数和表达式，以及构建高效的数据管道。 
-<br><br>总结: 理解Python生成器的工作原理可以有效处理大型数据集、维护内部状态，并构建高效的数据处理流程。 <div>
+<br /><br />总结: 理解Python生成器的工作原理可以有效处理大型数据集、维护内部状态，并构建高效的数据处理流程。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of <a href="https://realpython.com/introduction-to-python-generators/">Python generators</a>.</p>
 <p>Generators and the Python <code>yield</code> statement can help you when you&rsquo;re working with large datasets that might overwhelm your machine&rsquo;s memory. Another use case is when you have a complex function that needs to maintain an internal state every time it&rsquo;s called.</p>
 <p>When you understand Python generators, then you&rsquo;ll be able to work with large datasets in a more Pythonic fashion, create generator functions and expressions, and apply your knowledge towards building efficient data pipelines.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-15T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -147,15 +145,14 @@ Python的生成器和yield语句可以帮助处理大型数据集，避免内存
 <link>https://realpython.com/quizzes/python-pep8/</link>
 <guid>https://realpython.com/quizzes/python-pep8/</guid>
 <content:encoded><![CDATA[
-<div> PEP 8, guidelines, development environment, Python code, quiz <br>
-PEP 8 是针对 Python 代码风格的规范指南，通过本文中提供的测验来测试对 PEP 8 的理解。在文中，强调了如何遵循 PEP 8 的关键指导原则以及如何设置开发环境来编写符合 PEP 8 标准的 Python 代码。通过学习本文，可以加深对 PEP 8 的理解，提高写出符合规范的 Python 代码的能力。同时，本文还提供了一个技巧，即通过订阅邮件获取每隔几天发送的 Python 小技巧，帮助进一步提升 Python 编程技能。 <br><br>总结: <div>
+<div> PEP 8, guidelines, development environment, Python code, quiz <br />
+PEP 8 是针对 Python 代码风格的规范指南，通过本文中提供的测验来测试对 PEP 8 的理解。在文中，强调了如何遵循 PEP 8 的关键指导原则以及如何设置开发环境来编写符合 PEP 8 标准的 Python 代码。通过学习本文，可以加深对 PEP 8 的理解，提高写出符合规范的 Python 代码的能力。同时，本文还提供了一个技巧，即通过订阅邮件获取每隔几天发送的 Python 小技巧，帮助进一步提升 Python 编程技能。 <br /><br />总结: <div>
 <p>In this quiz, you&rsquo;ll test your understanding of
 <a href="https://realpython.com/python-pep8/">how to write beautiful Python code with PEP 8</a>.</p>
 <p>By working through this quiz, you&rsquo;ll revisit the key guidelines laid out in PEP 8 and how to set up your development environment to write PEP 8 compliant Python code.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-15T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -164,7 +161,7 @@ PEP 8 是针对 Python 代码风格的规范指南，通过本文中提供的测
 <guid>https://realpython.com/quizzes/python-type-checking/</guid>
 <content:encoded><![CDATA[
 <div> type annotations, type hints, static types, static type checker, runtime enforcement
-<br><br>总结:
+<br /><br />总结:
 在这个测验中，您将测试自己对类型注解和类型提示的理解，将静态类型添加到代码中，运行静态类型检查器，并在运行时执行类型强制。通过这个测验，您将重新审视类型注解和类型提示，为代码添加静态类型，运行静态类型检查器，并在运行时强制类型。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of
 <a href="https://realpython.com/python-type-checking/">Python Type Checking</a>.</p>
@@ -172,7 +169,6 @@ PEP 8 是针对 Python 代码风格的规范指南，通过本文中提供的测
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-14T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -182,13 +178,12 @@ PEP 8 是针对 Python 代码风格的规范指南，通过本文中提供的测
 <content:encoded><![CDATA[
 <div> 关键词：多维列表、一维列表、转换、代码、理解
 
-多维列表转换一维列表，通过编写代码来强化对这一概念的理解。本文通过测试和问题回答，帮助读者重新学习如何将多维列表（如矩阵）转换为一维列表。文章提供了实际的编程练习，让读者亲自动手进行转换操作，加深对概念的理解。不仅仅是理论知识，通过实际操作，读者可以更好地掌握如何在Python中实现多维列表向一维列表的转换。通过这个过程，读者可以提升自己的编程能力，同时加深对Python中数据结构操作的理解。<br><br>总结: 多维列表转换一维列表的概念，通过编写代码和回答问题来加深理解，实践操作有助于提升编程能力和掌握Python数据结构操作。 <div>
+多维列表转换一维列表，通过编写代码来强化对这一概念的理解。本文通过测试和问题回答，帮助读者重新学习如何将多维列表（如矩阵）转换为一维列表。文章提供了实际的编程练习，让读者亲自动手进行转换操作，加深对概念的理解。不仅仅是理论知识，通过实际操作，读者可以更好地掌握如何在Python中实现多维列表向一维列表的转换。通过这个过程，读者可以提升自己的编程能力，同时加深对Python中数据结构操作的理解。<br /><br />总结: 多维列表转换一维列表的概念，通过编写代码和回答问题来加深理解，实践操作有助于提升编程能力和掌握Python数据结构操作。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of <a href="https://realpython.com/python-flatten-list/">how to flatten a list in Python</a>.</p>
 <p>You&rsquo;ll write code and answer questions to revisit the concept of converting a multidimensional list, such as a matrix, into a one-dimensional list.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-14T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -202,7 +197,6 @@ Graph theory是一个有趣的主题，可以用Python进行探索。本文中�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-12T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -211,14 +205,13 @@ Graph theory是一个有趣的主题，可以用Python进行探索。本文中�
 <guid>https://realpython.com/quizzes/python-django-blog/</guid>
 <content:encoded><![CDATA[
 <div> Django, Vue, GraphQL, blog, back end
-<br>
+<br />
 本文介绍了如何构建一个使用Django构建博客后端和Vue构建前端的应用程序，并通过GraphQL进行通信。您将学习如何同时在计算机上运行Django服务器和Vue应用程序。总结: 本文讲解了如何使用Django构建博客后端和Vue构建前端，并通过GraphQL进行通信。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of building a Django blog back end and a Vue front end, using GraphQL to communicate between them. </p>
 <p>You&rsquo;ll revisit how to run the Django server and a Vue application on your computer at the same time.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-11T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -228,7 +221,7 @@ Graph theory是一个有趣的主题，可以用Python进行探索。本文中�
 <content:encoded><![CDATA[
 <div> Python, function names, naming conventions, snake case, rules
 
-Python编程中选择函数名称是一项具有挑战性的任务。在Python中，函数命名应该遵循规则和常规惯例，使用snake_case风格，并描述清晰简洁的函数操作。同时避免使用数字开头、空格或特殊字符，并尽量使用拉丁字符。此外，根据PEP 8风格指南，Python函数应该使用小写字母和下划线分隔单词。适当使用下划线可以表示函数仅供内部使用或避免与Python关键字或内置函数发生冲突。双前导下划线通常用于类中的属性，以实现名称混淆。正确选择Python函数名称有助于提高代码可读性、易维护性和减少错误。<br><br>总结: <div>
+Python编程中选择函数名称是一项具有挑战性的任务。在Python中，函数命名应该遵循规则和常规惯例，使用snake_case风格，并描述清晰简洁的函数操作。同时避免使用数字开头、空格或特殊字符，并尽量使用拉丁字符。此外，根据PEP 8风格指南，Python函数应该使用小写字母和下划线分隔单词。适当使用下划线可以表示函数仅供内部使用或避免与Python关键字或内置函数发生冲突。双前导下划线通常用于类中的属性，以实现名称混淆。正确选择Python函数名称有助于提高代码可读性、易维护性和减少错误。<br /><br />总结: <div>
 <div><p><em>One of the hardest decisions in programming is choosing names</em>. Programmers often use this phrase to highight the challenges of selecting Python function names. It may be an exaggeration, but there’s still a lot of truth in it.</p>
 <p>There are some hard <strong>rules</strong> you can’t break when naming Python functions and other objects. There are also other <strong>conventions and best practices</strong> that don’t raise errors when you break them, but they’re still important when writing <strong>Pythonic code</strong>.</p>
 <p>Choosing the ideal Python function names makes your code more readable and easier to maintain. Code with well-chosen names can also be less prone to bugs.</p>
@@ -325,7 +318,6 @@ Python编程中选择函数名称是一项具有挑战性的任务。在Python�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-10T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -333,14 +325,13 @@ Python编程中选择函数名称是一项具有挑战性的任务。在Python�
 <link>https://realpython.com/quizzes/coding-fonts/</link>
 <guid>https://realpython.com/quizzes/coding-fonts/</guid>
 <content:encoded><![CDATA[
-<div> 程序字体、选择、技术细节、特征、高质量<br>
-<br>
-技术细节和特征是选择程序字体时需要考虑的关键因素。文章提供了如何选择适合日常编程的最佳字体的指导，强调了如何识别高质量的编程字体。在选择字体时，需要考虑其在编程环境中的可读性和易用性，同时还要关注字体的技术特性和编程体验。通过了解程序字体的最佳选择方法，程序员可以提高编程效率和舒适度，提升工作体验。<br><br>总结: 文章强调了在选择程序字体时需要考虑的技术细节和特征，包括可读性和易用性。建议程序员选择高质量的编程字体，以提升编程效率和工作体验。 <div>
+<div> 程序字体、选择、技术细节、特征、高质量<br />
+<br />
+技术细节和特征是选择程序字体时需要考虑的关键因素。文章提供了如何选择适合日常编程的最佳字体的指导，强调了如何识别高质量的编程字体。在选择字体时，需要考虑其在编程环境中的可读性和易用性，同时还要关注字体的技术特性和编程体验。通过了解程序字体的最佳选择方法，程序员可以提高编程效率和舒适度，提升工作体验。<br /><br />总结: 文章强调了在选择程序字体时需要考虑的技术细节和特征，包括可读性和易用性。建议程序员选择高质量的编程字体，以提升编程效率和工作体验。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of how to choose the best font for your daily programming. You&rsquo;ll get questions about the technicalities and features to consider when choosing a programming font and refresh your knowledge about how to spot a high-quality coding font.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-10T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -349,7 +340,7 @@ Python编程中选择函数名称是一项具有挑战性的任务。在Python�
 <guid>https://realpython.com/courses/customize-vscode-settings/</guid>
 <content:encoded><![CDATA[
 <div> settings, customize, interface, productivity, profile
-<br>
+<br />
 用户可以通过自定义设置来优化Visual Studio Code的界面，提高工作效率。创建个人配置文件，调整特定设置，清理界面可以帮助用户专注于编码工作，并且可以在不同设备间导出和重复使用个人配置文件。总结: 通过优化设置和界面，用户可以提高工作效率并更好地利用Visual Studio Code进行Python开发。 <div>
 <p>Visual Studio Code, is an open-source code editor available on all platforms. It’s also a great platform for Python development. The default settings in VS Code present a somewhat cluttered environment. </p>
 <p>This <strong>Code Conversation</strong> with instructor Philipp Acsany is about learning how to customize the settings within the interface of VS Code. Having a clean digital workspace is an important part of your work life. Removing distractions and making code more readable can increase productivity and even help you spot bugs.</p>
@@ -364,7 +355,6 @@ Python编程中选择函数名称是一项具有挑战性的任务。在Python�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-09T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -372,8 +362,8 @@ Python编程中选择函数名称是一项具有挑战性的任务。在Python�
 <link>https://realpython.com/quizzes/train-test-split-python-data/</link>
 <guid>https://realpython.com/quizzes/train-test-split-python-data/</guid>
 <content:encoded><![CDATA[
-<div> sklearn, 数据集分割, train_test_split, 监督学习, 评估模型<br>
-<br>
+<div> sklearn, 数据集分割, train_test_split, 监督学习, 评估模型<br />
+<br />
 数据集在监督学习中的分割对于评估模型非常重要。使用train_test_split()函数可以将数据集分为训练集和测试集，确保评估模型时的客观性和准确性。通过在训练集上训练模型，然后在测试集上进行预测和评估，可以有效地检验模型的泛化能力。在sklearn库中提供了train_test_split()函数来实现数据集的分割，并可结合各种预测方法进行模型训练和评估。这种数据集分割和模型评估的流程是监督学习中不可或缺的步骤。总结: 数据集分割是监督学习中评估模型的重要步骤，通过使用train_test_split()函数可以实现数据集分割，并结合预测方法进行模型训练和评估。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of
 <a href="https://realpython.com/train-test-split-python-data/">how to use <code>train_test_split()</code></a> from the <code>sklearn</code> library.</p>
@@ -381,7 +371,6 @@ Python编程中选择函数名称是一项具有挑战性的任务。在Python�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-09T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -390,7 +379,7 @@ Python编程中选择函数名称是一项具有挑战性的任务。在Python�
 <guid>https://realpython.com/python-news-july-2024/</guid>
 <content:encoded><![CDATA[
 <div> NumPy, Polars, PyCon US, NumPy 2.0, Python Language Summit  
-NumPy发布了2.0版本，包括改进和一些破坏性改变；Polars达到了1.0版本，现在可用于生产；PyCon US在宾夕法尼亚州匹兹堡举办，激发了新想法和讨论。NumPy是数据科学领域的基础软件包，提供内存中的N维数组和许多快速操作函数。NumPy的新版本2.0添加了改进的字符串类型，清理了库并提高了性能。NumPy数组限制为具有相同数据类型，因此可以快速查找和处理单个元素。NumPy 2.0允许使用可变长度字符串来解决处理字符串时的一些限制。<br><br>总结: NumPy发布2.0版本，支持改进和破坏性改变；Polars达到1.0版本，可用于生产；PyCon US举办激发新想法和讨论；NumPy数组限制相同数据类型，提高性能；NumPy 2.0支持可变长度字符串解决字符串处理限制。 <div>
+NumPy发布了2.0版本，包括改进和一些破坏性改变；Polars达到了1.0版本，现在可用于生产；PyCon US在宾夕法尼亚州匹兹堡举办，激发了新想法和讨论。NumPy是数据科学领域的基础软件包，提供内存中的N维数组和许多快速操作函数。NumPy的新版本2.0添加了改进的字符串类型，清理了库并提高了性能。NumPy数组限制为具有相同数据类型，因此可以快速查找和处理单个元素。NumPy 2.0允许使用可变长度字符串来解决处理字符串时的一些限制。<br /><br />总结: NumPy发布2.0版本，支持改进和破坏性改变；Polars达到1.0版本，可用于生产；PyCon US举办激发新想法和讨论；NumPy数组限制相同数据类型，提高性能；NumPy 2.0支持可变长度字符串解决字符串处理限制。 <div>
 <div><p>Summer isn’t all holidays and lazy days at the beach. Over the last month, two important players in the data science ecosystem released new major versions. NumPy published version 2.0, which comes with several improvements but also some breaking changes. At the same time, Polars reached its version 1.0 milestone and is now considered production-ready.</p>
 <p>PyCon US was hosted in Pittsburgh, Pennsylvania in May. The conference is an important meeting spot for the community and sparked some new ideas and discussions. You can read about some of these in PSF’s coverage of the Python Language Summit, and watch some of the videos posted from the conference.</p>
 <p>Dive in to learn more about the most important Python news from the last month. </p>
@@ -465,7 +454,6 @@ NumPy发布了2.0版本，包括改进和一些破坏性改变；Polars达到了
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-08T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -474,17 +462,15 @@ NumPy发布了2.0版本，包括改进和一些破坏性改变；Polars达到了
 <guid>https://realpython.com/quizzes/python-built-in-functions/</guid>
 <content:encoded><![CDATA[
 <div> built-in functions, Python, code, quiz, tutorial
-总结:<br><br>
+总结:<br /><br />
 本文重点介绍了Python内置函数的使用，通过阅读教程并参加测验来测试对Python内置函数的理解。教程中提供了关于如何使用Python内置函数的详细指导，帮助读者更好地掌握Python编程技巧。测验可以帮助读者检验对Python内置函数的掌握程度，加深对Python知识的理解。建议读者在阅读完本文后，通过实际操作和练习来巩固所学知识，提高自己的Python编程水平。通过不断学习和实践，可以更加熟练地运用Python内置函数，实现更加复杂和高效的编程任务。这篇文章为读者提供了学习Python内置函数的基础知识，帮助他们在编程过程中更加游刃有余。 <div>
 <p>Test your understanding of Python&rsquo;s built-in functions and how to use them in your code.</p>
 <p>Take this quiz after reading our <a href="https://realpython.com/python-built-in-functions/">Python&rsquo;s Built-in Functions: A Complete Exploration</a> tutorial.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-01T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>The Real Python Podcast – Episode #211: Python Doesn't Round Numbers the Way You Might Think</title>
 <link>https://realpython.com/podcasts/rpp/211/</link>

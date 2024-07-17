@@ -4,6 +4,7 @@
 <title>Lil'Log</title>
 <link>https://lilianweng.github.io/</link>
 
+
 <item>
 <title>Extrinsic Hallucinations in LLMs</title>
 <link>https://lilianweng.github.io/posts/2024-07-07-hallucination/</link>
@@ -17,9 +18,7 @@ There are two types of hallucination:
 In-context hallucination: The model output should be consistent with the source content in context.
 ]]></content:encoded>
 <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
-<pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Diffusion Models for Video Generation</title>
 <link>https://lilianweng.github.io/posts/2024-04-12-diffusion-video/</link>
