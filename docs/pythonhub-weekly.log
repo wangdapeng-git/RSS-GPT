@@ -2899,3 +2899,15 @@ Existing_entries: 17
 Fetching from https://pythonhub.dev/digest/feed/
 append_entries: 0
 Finish: 2024-07-06 02:26:36.723823
+------------------------------------------------------
+Started: 2024-07-17 08:15:57.017126
+Existing_entries: 17
+Fetching from https://pythonhub.dev/digest/feed/
+Token length: 3492
+Summarized using GPT-3.5-turbo
+Append: [Python Hub Weekly Digest for 2024-07-14](https://pythonhub.dev/digest/2024-07-14/)
+Token length: 3430
+Summarized using GPT-3.5-turbo
+Append: [Python Hub Weekly Digest for 2024-07-07](https://pythonhub.dev/digest/2024-07-07/)
+append_entries: 2
+Finish: 2024-07-17 08:16:07.986354

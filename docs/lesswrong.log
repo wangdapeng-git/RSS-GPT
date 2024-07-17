@@ -2542,3 +2542,39 @@ Summarized using GPT-3.5-turbo
 Append: [Consider the humble rock (or: why the dumb thing kills you)](https://www.lesswrong.com/posts/fWEnZqgxA2BcxZXF3/consider-the-humble-rock-or-why-the-dumb-thing-kills-you)
 append_entries: 1
 Finish: 2024-07-06 02:26:43.852647
+------------------------------------------------------
+Started: 2024-07-17 08:16:15.930611
+Existing_entries: 116
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 13847
+Summarized using GPT-3.5-turbo
+Append: [Multiplex Gene Editing: Where Are We Now?](https://www.lesswrong.com/posts/oSy5vHvwSfnjmC7Tf/multiplex-gene-editing-where-are-we-now)
+Token length: 6130
+Summarized using GPT-3.5-turbo
+Append: [Towards more cooperative AI safety strategies](https://www.lesswrong.com/posts/5uffoui3axcK7gQXG/towards-more-cooperative-ai-safety-strategies)
+Token length: 13052
+Summarized using GPT-3.5-turbo
+Append: [I found >800 orthogonal "write code" steering vectors](https://www.lesswrong.com/posts/CbSEZSpjdpnvBcEvc/i-found-greater-than-800-orthogonal-write-code-steering)
+Token length: 1597
+Summarized using GPT-3.5-turbo
+Append: [Breaking Circuit Breakers](https://www.lesswrong.com/posts/NAYyHimM3FaDYLvEH/breaking-circuit-breakers)
+Token length: 7120
+Summarized using GPT-3.5-turbo
+Append: [Brief notes on the Wikipedia game](https://www.lesswrong.com/posts/4fqdfrDzFebsx8amf/brief-notes-on-the-wikipedia-game)
+Token length: 318
+Summarized using GPT-3.5-turbo
+Append: [Ice: The Penultimate Frontier](https://www.lesswrong.com/posts/gthjxPDywrMTs3p2j/ice-the-penultimate-frontier)
+Token length: 13223
+Summarized using GPT-3.5-turbo
+Append: [A simple case for extreme inner misalignment](https://www.lesswrong.com/posts/fjfWrKhEawwBGCTGs/a-simple-case-for-extreme-inner-misalignment)
+Token length: 14439
+Summarized using GPT-3.5-turbo
+Append: [Transformer Circuit Faithfulness Metrics Are Not Robust](https://www.lesswrong.com/posts/kp5h6khwrK47psMaA/transformer-circuit-faithfulness-metrics-are-not-robust)
+Token length: 1398
+Summarized using GPT-3.5-turbo
+Append: [Yoshua Bengio: Reasoning through arguments against taking AI safety seriously](https://www.lesswrong.com/posts/ndvtiaqZErjnermWF/yoshua-bengio-reasoning-through-arguments-against-taking-ai)
+Token length: 17807
+Summarized using GPT-3.5-turbo
+Append: [Superbabies: Putting The Pieces Together](https://www.lesswrong.com/posts/2uJsiQqHTjePTRqi4/superbabies-putting-the-pieces-together)
+append_entries: 10
+Finish: 2024-07-17 08:16:56.041310

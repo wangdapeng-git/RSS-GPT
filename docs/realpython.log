@@ -3618,3 +3618,51 @@ Summarized using GPT-3.5-turbo
 Append: [The Real Python Podcast – Episode #211: Python Doesn't Round Numbers the Way You Might Think](https://realpython.com/podcasts/rpp/211/)
 append_entries: 1
 Finish: 2024-07-06 02:26:35.013815
+------------------------------------------------------
+Started: 2024-07-17 08:14:50.007212
+Existing_entries: 82
+Fetching from https://realpython.com/atom.xml
+Token length: 707
+Summarized using GPT-3.5-turbo
+Append: [Exercises Course: Introduction to Web Scraping With Python](https://realpython.com/courses/exercises-introduction-web-scraping/)
+Token length: 4926
+Summarized using GPT-3.5-turbo
+Append: [Split Your Dataset With scikit-learn's train_test_split()](https://realpython.com/train-test-split-python-data/)
+Token length: 663
+Summarized using GPT-3.5-turbo
+Append: [Quiz: How to Use Generators and yield in Python](https://realpython.com/quizzes/generators-and-yield-in-python/)
+Token length: 346
+Summarized using GPT-3.5-turbo
+Append: [Quiz: How to Write Beautiful Python Code With PEP 8](https://realpython.com/quizzes/python-pep8/)
+Token length: 349
+Summarized using GPT-3.5-turbo
+Append: [Quiz: Python Type Checking](https://realpython.com/quizzes/python-type-checking/)
+Token length: 327
+Summarized using GPT-3.5-turbo
+Append: [Quiz: How to Flatten a List of Lists in Python](https://realpython.com/quizzes/python-flatten-list/)
+Token length: 431
+Summarized using GPT-3.5-turbo
+Append: [The Real Python Podcast – Episode #212: Digging Into Graph Theory in Python With David Amos](https://realpython.com/podcasts/rpp/212/)
+Token length: 375
+Summarized using GPT-3.5-turbo
+Append: [Quiz: Build a Blog Using Django, GraphQL, and Vue](https://realpython.com/quizzes/python-django-blog/)
+Token length: 5513
+Summarized using GPT-3.5-turbo
+Append: [How Do You Choose Python Function Names?](https://realpython.com/python-function-names/)
+Token length: 410
+Summarized using GPT-3.5-turbo
+Append: [Quiz: Choosing the Best Font for Programming](https://realpython.com/quizzes/coding-fonts/)
+Token length: 868
+Summarized using GPT-3.5-turbo
+Append: [Customize VS Code Settings](https://realpython.com/courses/customize-vscode-settings/)
+Token length: 509
+Summarized using GPT-3.5-turbo
+Append: [Quiz: Split Your Dataset With scikit-learn's train_test_split()](https://realpython.com/quizzes/train-test-split-python-data/)
+Token length: 3816
+Summarized using GPT-3.5-turbo
+Append: [Python News Roundup: July 2024](https://realpython.com/python-news-july-2024/)
+Token length: 262
+Summarized using GPT-3.5-turbo
+Append: [Quiz: Python's Built-in Functions: A Complete Exploration](https://realpython.com/quizzes/python-built-in-functions/)
+append_entries: 14
+Finish: 2024-07-17 08:15:45.376680

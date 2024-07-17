@@ -5197,3 +5197,12 @@ Existing_entries: 33
 Fetching from https://rsshub.app/paulgraham/articles
 append_entries: 0
 Finish: 2024-07-06 02:26:06.138712
+------------------------------------------------------
+Started: 2024-07-17 08:14:03.446550
+Existing_entries: 33
+Fetching from https://rsshub.app/paulgraham/articles
+Token length: 11370
+Summarized using GPT-3.5-turbo
+Append: [The Right Kind of Stubborn](http://paulgraham.com/persistence.html)
+append_entries: 1
+Finish: 2024-07-17 08:14:06.484601

@@ -4,6 +4,21 @@
 <title>Lil'Log</title>
 <link>https://lilianweng.github.io/</link>
 
+<item>
+<title>Extrinsic Hallucinations in LLMs</title>
+<link>https://lilianweng.github.io/posts/2024-07-07-hallucination/</link>
+<guid>https://lilianweng.github.io/posts/2024-07-07-hallucination/</guid>
+<content:encoded><![CDATA[
+<div> Hallucination, large language models, unfaithful, fabricated, inconsistent
+
+Hallucination在大型语言模型中通常指模型生成的内容与提供的上下文或世界知识不一致、虚构、不连贯或荒谬。这篇文章将幻觉问题限定为模型输出内容是虚构的，没有与提供的上下文或世界知识相关。幻觉有两种类型：上下文幻觉和非上下文幻觉。总结: Hallucination在大型语言模型中指模型生成的内容虚构，与上下文不相关。有上下文幻觉和非上下文幻觉两种类型。 <div>
+Hallucination in large language models usually refers to the model generating unfaithful, fabricated, inconsistent, or nonsensical content. As a term, hallucination has been somewhat generalized to cases when the model makes mistakes. Here, I would like to narrow down the problem of hallucination to cases where the model output is fabricated and not grounded by either the provided context or world knowledge.
+There are two types of hallucination:
+In-context hallucination: The model output should be consistent with the source content in context.
+]]></content:encoded>
+<pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
+<pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Diffusion Models for Video Generation</title>

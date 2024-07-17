@@ -4,6 +4,442 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-07-14</title>
+<link>https://pythonhub.dev/digest/2024-07-14/</link>
+<guid>https://pythonhub.dev/digest/2024-07-14/</guid>
+<content:encoded><![CDATA[
+<div> PyO3, Python performance, Rust code, challenges, ongoing developments
+
+总结:<br><br>PyO3项目致力于通过整合Rust代码来提高Python的性能，本文讨论了在使Python和Rust无缝协作方面所面临的挑战和不断的发展，突显了在提升性能方面将这两种语言连接起来所涉及的复杂性。 <div>
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://www.stuartellis.name/articles/python-modern-practices/">Python Modern Practices</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=UmL_CA-v3O8">PyO3: From Python to Rust and Back Again</a></strong>
+    
+        <br /><span>David Hewitt, the principal committer to PyO3, discusses the project's role in improving Python's performance by integrating Rust code. The conversation explores the challenges and ongoing developments in making Python and Rust work seamlessly together, highlighting the complexities involved in bridging these two languages for enhanced performance.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pola.rs/posts/announcing-polars-1/">Polars 1.0</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://flet.dev/">Flet – multi-platform apps in Python powered by Flutter</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/ahnazary/stockdex">Stockdex</a></strong>
+    
+        <br /><span>Python package for mining stock and financial data, using data from open data sources like Yahoo Finance.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://github.com/astral-sh/packse">Python packaging scenarios by the creators of ruff</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/mathialo/bython">Python with Braces</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.kusho.ai/uv-pip-killer-or-yet-another-package-manager/">uv - pip killer or yet another package manager?</a></strong>
+    
+        <br /><span>Pip has been the go to package manager for Python since time immemorial. But there’s a new kid on the block - uv. So is it worth the try or yet another tool?</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://dublog.net/blog/so-many-python-package-managers/">Python Has Too Many Package Managers</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://kivy.org">Kivy – a cross platform Python UI framework</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/gutomaia/pyNES">Python programming for Nintendo 8 bits</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=fUpvQd_5cnA">How to use Vue with Django (including Auth)</a></strong>
+    
+        <br /><span>We'll set up a Vue.js frontend + a Django backend. Strong foundations for your production app. We'll also add auth Simple and robust. No tokens, no DRF, no JWT.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=rkPIftzu1pQ">API integration Course – Modern Python with FastAPI</a></strong>
+    
+        <br /><span>This video provides a comprehensive overview of building event-driven applications using FastAPI, covering topics from basic setup to advanced features like real-time translation and sentiment analysis. It demonstrates the integration of various technologies and APIs, emphasizing practical implementation, troubleshooting, and optimization techniques for creating functional web applicatio...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/livekit/agents">livekit / agents</a></strong>
+    
+        <br /><span>Build real-time multimodal AI applications 🤖🎙️📹</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://dillan.org/articles/how-to-get-root-access-to-your-sleep-number-bed">How to Get Root Access to Your Sleep Number Bed</a></strong>
+    
+        <br /><span>The article provides a detailed guide on how to gain root access to a Sleep Number bed's hub by modifying internal files, which voids the warranty. It also explores the hub's functionality and potential backdoors, warning about the security implications of an internet-connected appliance with direct access to the home network.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://lukeplant.me.uk/blog/posts/keeping-things-in-sync-derive-vs-test/">Keeping things in sync: derive vs test</a></strong>
+    
+        <br /><span>In software development, keeping different parts of a program in sync is crucial. This article discusses two approaches: Deriving the behavior from a single source of truth (like a constant) or testing for synced behavior.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=iFEVef5XdMI">Build a Django Rest API and Integrate with Next.js! Django Ninja, shadcn, Neon Postgres, Railway...</a></strong>
+    
+        <br /><span>The video guides developers through integrating Django for backend and Next.js for frontend development, showcasing rapid REST API setup with Django Ninja, including user authentication, JWT tokens, Neon serverless PostgreSQL setup, CORS management, and deployment optimizations for secure and efficient application performance. It emphasizes best practices and security measures for seamle...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pypiscout.com/">PyPI Scout</a></strong>
+    
+        <br /><span>Find Python packages on PyPI with natural language queries.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-07-07/">Python Hub Weekly Digest for 2024-07-07</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/qaspen-python/psqlpy">PSQLPy</a></strong>
+    
+        <br /><span>Async PostgreSQL driver for Python written in Rust.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/pretzelai/pretzelai">Pretzel</a></strong>
+    
+        <br /><span>Modern, open-source Jupyter alternative.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/cambrian-mllm/cambrian">cambrian</a></strong>
+    
+        <br /><span>A Fully Open, Vision-Centric Exploration of Multimodal LLMs.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/microsoft/graphrag">GraphRAG</a></strong>
+    
+        <br /><span>A modular graph-based Retrieval-Augmented Generation (RAG) system by Microsoft.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/run-llama/llama-agents">llama-agents</a></strong>
+    
+        <br /><span>llama-agents is an async-first framework for building, iterating, and productionizing multi-agent systems, including multi-agent communication, distributed tool execution, human-in-the-loop, and more!</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/kkinder/puepy">PuePy</a></strong>
+    
+        <br /><span>Python+Webassembly Frontend Framework via PyScript.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/bunkerity/bunkerweb">BunkerWeb</a></strong>
+    
+        <br /><span>Make your web services secure by default!</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/ComposioHQ/composio">composio</a></strong>
+    
+        <br /><span>Composio equips agents with well-crafted tools empowering them to tackle complex tasks.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/metatypedev/metatype">Metatype</a></strong>
+    
+        <br /><span>Declarative API development platform. Build backend components with WASM, Typescript and Python, no matter where and how your (legacy) systems are.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/adithya-s-k/omniparse">OmniParse</a></strong>
+    
+        <br /><span>Ingest, parse, and optimize any data format from documents to multimedia for enhanced compatibility with GenAI frameworks.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/raphaelmansuy/code2prompt">Code2Prompt</a></strong>
+    
+        <br /><span>A powerful command-line tool that generates comprehensive prompts from codebases, designed to streamline interactions between developers and Large Language Models (LLMs) for code analysis, documentation, and improvement tasks.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/learnpython/comments/1dxfucj/is_there_a_way_to_host_python_projects_for_really/">Is there a way to host python projects for really free?</a></strong>
+      </p>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/learnpython/comments/1dx78zc/is_there_an_alternative_to_jupyter_notebook/">Is there an alternative to Jupyter Notebook?</a></strong>
+      </p>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1dwf2sh/im_a_python_backend_developer_how_to_create_a/">I'm a Python Backend Developer, How to Create a Modern and Fast Frontend?</a></strong>
+      </p>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1dxcdiy/flask_django_or_fastapi/">Flask, Django, or FastAPI?</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 14 Jul 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 14 Jul 2024 18:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Python Hub Weekly Digest for 2024-07-07</title>
+<link>https://pythonhub.dev/digest/2024-07-07/</link>
+<guid>https://pythonhub.dev/digest/2024-07-07/</guid>
+<content:encoded><![CDATA[
+<div> Python, generator co-routines, functions, collections.abc, lazy computation, Pytest fixtures
+<br>
+生成器协程在Python中的重要性和用途，介绍了生成器、函数和生成器实例之间的区别，以及collections.abc在定义生成器时的协议和作用。重点强调了生成器的惰性计算优势、高效的控制和数据流管理，并解决了在操作链和建模复杂问题中的挑战。
+Pytest fixtures的创建、参数化和利用，以创建高效、可靠和可维护的单元测试。
+ChatGPT如何执行Python代码并解释其工作原理，以及如何使用它进行其他用途。
+Xinference让您能够在应用中将OpenAI GPT替换为另一个LLM，只需更改一行代码。提供了使用任何开源语言模型、语音识别模型和多模型的自由。具有云端、本地甚至笔记本电脑上的推理能力。
+全栈Python网络应用程序的创建过程，使用Reflex实现，无需HTML、CSS和JavaScript，覆盖了接口创建、添加用户认证和数据存储等功能，以及使用Radix UI进行设计定制。这为开发提供了无缝的体验。
+<br><br>
+总结: 本文深入探讨了生成器协程和Pytest fixtures在Python中的应用，以及使用ChatGPT执行Python代码和Xinference进行LLM替换的方法。另外还介绍了全栈Python应用程序开发过程。 Article: [Source](https://www.example.com) <div>
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=Knth0LhQnC0">Are generator-coroutines really the answer?</a></strong>
+    
+        <br /><span>The video delves into generator co-routines in Python, explaining the distinctions between generators, functions, and generator instances, and the protocols and roles of collections.abc in defining generators. It highlights the advantages of lazy computation with generators, efficient control and data flow management, and addresses challenges in chaining operations and modeling complex p...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://betterstack.com/community/guides/testing/pytest-fixtures-guide/">A Complete Guide to Pytest Fixtures</a></strong>
+    
+        <br /><span>In this tutorial, I'll guide you through the ins and outs of Pytest fixtures. You'll learn how to create fixtures, parameterize them for flexibility, and leverage their power to create efficient, reliable, and maintainable unit tests.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://incoherency.co.uk/blog/stories/chatgpt-linux.html">Secrets of the ChatGPT Linux system</a></strong>
+    
+        <br /><span>Have you noticed that ChatGPT sometimes writes out Python code and somehow executes it? How does that work? What kind of environment is it using? Can we co-opt it for our own ends? Let's find out!</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.nature.com/articles/s41586-024-07421-0">Detecting hallucinations in large language models using semantic entropy</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/xorbitsai/inference">xorbitsai / inference</a></strong>
+    
+        <br /><span>Replace OpenAI GPT with another LLM in your app by changing a single line of code. Xinference gives you the freedom to use any LLM you need. With Xinference, you're empowered to run inference with any open-source language models, speech recognition models, and multimodal models, whether in the cloud, on-premises, or even on your laptop.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://github.com/goldmansachs/gs-quant">Python toolkit for quantitative finance</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://timefold.ai/blog/new-open-source-solver-python">Optimize scheduling and routing in Python: a new open source solver Timefold</a></strong>
+    
+        <br /><span>Solve the Vehicle Routing Problem, Maintenance Scheduling, Employee Scheduling, etc in Python.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=Rp9Ha0rVM1w">7 Functional Programming Techniques Every Developer Should Know</a></strong>
+    
+        <br /><span>This video explores 7 functional programming techniques and demonstrate their functionality. Despite Python not being a purely functional language, embracing these techniques can greatly enhance your Python skills.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=rgP_LBtaUEc">Official PyTorch Documentary: Powering the AI Revolution</a></strong>
+    
+        <br /><span>The film reveals the true story behind PyTorch's creation, highlighting the contributions of its dedicated developers. It showcases the strength of the PyTorch community, aiming to inspire further contributions and recognition of its importance in the open source world.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=ITOZkzjtjUA">Build Full Stack Web Apps in Pure Python with Reflex - No Javascript Required</a></strong>
+    
+        <br /><span>The video demonstrates building a full stack web application using only Python with Reflex, bypassing the need for HTML, CSS, and JavaScript. It covers creating interfaces, adding features like user authentication and data storage, managing data efficiently, and customizing design with Radix UI for a seamless development experience.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.thepythoncodingstack.com/p/python-diffusion-simulation-demo-turtle">A simplified Python simulation of diffusion</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://martinheinz.dev/blog/112">A Guide to Python's Weak References Using weakref Module</a></strong>
+    
+        <br /><span>Chances are that you never touched and maybe haven't even heard about Python's weakref module. While it might not be commonly used in your code, it's fundamental to the inner workings of many libraries, frameworks and even Python itself. So, in this article we will explore what it is, how it is helpful, and how you could incorporate it into your code as well.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.pynerds.com/compiler/">Run Python code in the browser</a></strong>
+    
+        <br /><span>Execute you code online with the latest version of the interpreter.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.pynerds.com/asyncawait-in-python/">The basics of async/await</a></strong>
+    
+        <br /><span>Learn the basics of create and running asynchronous tasks</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.gabornyeki.com/2024-07-my-python-code-is-a-neural-network/">My Python code is a neural network</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.codingconfessions.com/p/cpython-set-implementation">All Set! Looking Under the Hood of Python's Set Data Structure</a></strong>
+    
+        <br /><span>Learn everything about hash tables, collision handling, and performance optimization.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/PostHog/posthog">PostHog / posthog</a></strong>
+    
+        <br /><span>🦔 PostHog provides open-source product analytics, session recording, feature flagging and A/B testing that you can self-host.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-06-30/">Python Hub Weekly Digest for 2024-06-30</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/anthropics/anthropic-sdk-python">anthropics / anthropic-sdk-python</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/erezsh/reladiff">Reladiff</a></strong>
+    
+        <br /><span>High-performance diffing of large datasets across databases.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/JSv4/OpenContracts">OpenContracts</a></strong>
+    
+        <br /><span>Mass document analytics platform based on LlamaIndex, Pgvector, React and Django.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/nkaz001/hftbacktest">hftbacktest</a></strong>
+    
+        <br /><span>A high-frequency trading and market-making backtesting tool in Python and Rust, which accounts for limit orders, queue positions, and latencies, utilizing full tick data for trades and order books, with real-world crypto market-making examples for Binance Futures</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/frappe/hrms">Frappe HR</a></strong>
+    
+        <br /><span>Open Source, modern, and easy-to-use HR and Payroll Software for all organizations</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Florents-Tselai/tsellm">tsellm</a></strong>
+    
+        <br /><span>Use LLMs in your SQLite queries.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/learnpython/comments/1d9mc9e/before_moving_from_java_to_python_what_does/">Before moving from Java to Python, what does Python lack that Java has? ( Think about enterprise application)</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 07 Jul 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 07 Jul 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-06-30</title>
