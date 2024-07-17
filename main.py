@@ -9,6 +9,7 @@ import datetime
 import requests
 from fake_useragent import UserAgent
 #from dateutil.parser import parse
+from loguru import logger
 
 def fetch_feed(url, log_file):
     feed = None
@@ -22,10 +23,10 @@ def fetch_feed(url, log_file):
             feed = feedparser.parse(response.text)
             return {'feed': feed, 'status': 'success'}
         else:
-            logging.error(f"Fetch error: {response.status_code}")
+            logger.error(f"Fetch error: {response.status_code}")
             return {'feed': None, 'status': response.status_code}
     except requests.RequestException as e:
-        logging.error(f"Fetch error: {e}")
+        logger.error(f"Fetch error: {e}")
         return {'feed': None, 'status': 'failed'}
 
 
