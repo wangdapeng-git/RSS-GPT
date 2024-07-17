@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Python Protocols: Leveraging Structural Subtyping</title>
 <link>https://realpython.com/python-protocol/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> protocols, static typing, duck typing, structural subtyping, Python
 
-总结:<br><br>
+总结:<br /><br />
 本文介绍了Python中的“协议”概念，重点在于第二种意义上的协议，即指定类必须实现的方法和属性以被认为是某种类型。Python是动态类型语言，但通过类型提示实现了静态类型检查，而通过协议可以实现静态鸭子类型。静态类型和动态类型之间的对比，以及鸭子类型的灵活性，可以使类之间建立关系而无需依赖继承。通过协议，可以定义类的内部结构，实现结构子类型化。最后还介绍了如何使用Python的Protocol类创建自定义协议，以及协议和抽象基类之间的区别。 <div>
 <div><p>In Python, a <strong>protocol</strong> specifies the methods and attributes that a class must implement to be considered of a given type. Protocols are important in Python’s <strong>type hint system</strong>, which allows for static type checking through external tools, such as <a href="http://mypy-lang.org/">mypy</a>, <a href="https://github.com/microsoft/pyright">Pyright</a>, and <a href="https://pyre-check.org/">Pyre</a>.</p>
 <p>Before there were protocols, these tools could only check for <strong>nominal subtyping</strong> based on inheritance. There was no way to check for <strong>structural subtyping</strong>, which relies on the internal structure of classes. This limitation affected Python’s <strong>duck typing</strong> system, which allows you to use objects without considering their nominal types. Protocols overcome this limitation, making static duck typing possible.</p>
@@ -115,10 +116,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-17T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Exercises Course: Introduction to Web Scraping With Python</title>
 <link>https://realpython.com/courses/exercises-introduction-web-scraping/</link>
