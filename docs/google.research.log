@@ -73,3 +73,9 @@ Summarized using GPT-3.5-turbo
 Append: [FireBench: Using high-performance computing to advance machine learning and wildfire research](https://research.google/blog/firebench-using-high-performance-computing-to-advance-machine-learning-and-wildfire-research/)
 append_entries: 1
 Finish: 2024-07-17 18:14:16.667226
+------------------------------------------------------
+Started: 2024-07-17 20:11:51.625406
+Existing_entries: 13
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+append_entries: 0
+Finish: 2024-07-17 20:11:55.485901
