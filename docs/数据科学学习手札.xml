@@ -2,17 +2,16 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>博客园 - 费弗里</title>
-<link>uuid:0a75ddf1-c050-403f-937c-cf7790585fb1;id=1736735</link>
+<link>uuid:0a75ddf1-c050-403f-937c-cf7790585fb1;id=1751628</link>
+
 
 <item>
 <title>（数据科学学习手札162）Python GIS神器geopandas 1.0版本发布 - 费弗里</title>
 <link>https://www.cnblogs.com/feffery/p/18267525</link>
 <guid>https://www.cnblogs.com/feffery/p/18267525</guid>
 <content:encoded><![CDATA[
-
 【摘要】本文完整代码及附件已上传至我的Github仓库https://github.com/CNFeffery/DataScienceStudyNotes 1 简介 大家好我是费老师，就在昨天，Python生态中著名的GIS分析库geopandas发布了其1.0.0正式版本。 历经10年迭代升级，geopa <a href="https://www.cnblogs.com/feffery/p/18267525" target="_blank">阅读全文</a>
 ]]></content:encoded>
-<pubDate>2024-06-25T09:23:00Z</pubDate>
 <pubDate>2024-06-25T09:23:00Z</pubDate>
 </item>
 <item>
@@ -20,10 +19,8 @@
 <link>https://www.cnblogs.com/feffery/p/18233565</link>
 <guid>https://www.cnblogs.com/feffery/p/18233565</guid>
 <content:encoded><![CDATA[
-
 【摘要】本文完整代码及附件已上传至我的Github仓库https://github.com/CNFeffery/DataScienceStudyNotes 1 简介 大家好我是费老师，就在几天前，经过六年多的持续开发迭代，著名的开源高性能分析型数据库DuckDB发布了其1.0.0正式版本。 DuckDB具有 <a href="https://www.cnblogs.com/feffery/p/18233565" target="_blank">阅读全文</a>
 ]]></content:encoded>
-<pubDate>2024-06-05T10:27:00Z</pubDate>
 <pubDate>2024-06-05T10:27:00Z</pubDate>
 </item>
 <item>
@@ -31,10 +28,8 @@
 <link>https://www.cnblogs.com/feffery/p/18205617</link>
 <guid>https://www.cnblogs.com/feffery/p/18205617</guid>
 <content:encoded><![CDATA[
-
 【摘要】本文完整示例代码及文件已上传至我的Github仓库https://github.com/CNFeffery/PythonPracticalSkills 这是我的系列文章「Python实用秘技」的第17期，本系列立足于笔者日常工作中使用Python积累的心得体会，每一期为大家带来一个几分钟内就可学会的 <a href="https://www.cnblogs.com/feffery/p/18205617" target="_blank">阅读全文</a>
 ]]></content:encoded>
-<pubDate>2024-05-22T02:12:00Z</pubDate>
 <pubDate>2024-05-22T02:12:00Z</pubDate>
 </item>
 <item>
@@ -42,10 +37,8 @@
 <link>https://www.cnblogs.com/feffery/p/18175843</link>
 <guid>https://www.cnblogs.com/feffery/p/18175843</guid>
 <content:encoded><![CDATA[
-
 【摘要】本文示例代码已上传至我的Github仓库https://github.com/CNFeffery/dash-master 大家好我是费老师，不久前Dash发布了其2.17.0版本，执行下面的命令进行最新版本Dash的安装： pip install dash -U 2.17版本中新增了多项重要的新功能 <a href="https://www.cnblogs.com/feffery/p/18175843" target="_blank">阅读全文</a>
 ]]></content:encoded>
-<pubDate>2024-05-06T12:32:00Z</pubDate>
 <pubDate>2024-05-06T12:32:00Z</pubDate>
 </item>
 <item>
@@ -53,10 +46,8 @@
 <link>https://www.cnblogs.com/feffery/p/18158285</link>
 <guid>https://www.cnblogs.com/feffery/p/18158285</guid>
 <content:encoded><![CDATA[
-
 【摘要】本文已收录至我的Github仓库https://github.com/CNFeffery/DataScienceStudyNotes 1 简介 大家好我是费老师，conda作为Python数据科学领域的常用软件，是对Python环境及相关依赖进行管理的经典工具，通常集成在anaconda或minic <a href="https://www.cnblogs.com/feffery/p/18158285" target="_blank">阅读全文</a>
 ]]></content:encoded>
-<pubDate>2024-04-25T09:53:00Z</pubDate>
 <pubDate>2024-04-25T09:53:00Z</pubDate>
 </item>
 <item>
@@ -64,10 +55,8 @@
 <link>https://www.cnblogs.com/feffery/p/18128958</link>
 <guid>https://www.cnblogs.com/feffery/p/18128958</guid>
 <content:encoded><![CDATA[
-
 【摘要】本文示例代码已上传至我的Github仓库https://github.com/CNFeffery/DataScienceStudyNotes 1 简介 大家好我是费老师，在日常编写Python代码的过程中，由于个人经验及编程习惯上的差异，有些人写出的代码可读性很高，一眼看上去就非常整洁易懂，而有些人 <a href="https://www.cnblogs.com/feffery/p/18128958" target="_blank">阅读全文</a>
 ]]></content:encoded>
-<pubDate>2024-04-11T05:47:00Z</pubDate>
 <pubDate>2024-04-11T05:47:00Z</pubDate>
 </item>
 <item>
@@ -75,10 +64,8 @@
 <link>https://www.cnblogs.com/feffery/p/18058655</link>
 <guid>https://www.cnblogs.com/feffery/p/18058655</guid>
 <content:encoded><![CDATA[
-
 【摘要】本文示例代码已上传至我的Github仓库https://github.com/CNFeffery/dash-master 大家好我是费老师，几天前Dash发布了其2.16.0版本，随后在修复了一些潜在问题后，于今天发布了可稳定使用的2.16.1版本，执行下面的命令进行最新版本Dash的安装： pip <a href="https://www.cnblogs.com/feffery/p/18058655" target="_blank">阅读全文</a>
 ]]></content:encoded>
-<pubDate>2024-03-07T05:09:00Z</pubDate>
 <pubDate>2024-03-07T05:09:00Z</pubDate>
 </item>
 <item>
@@ -86,10 +73,8 @@
 <link>https://www.cnblogs.com/feffery/p/18003548</link>
 <guid>https://www.cnblogs.com/feffery/p/18003548</guid>
 <content:encoded><![CDATA[
-
 【摘要】本文示例代码已上传至我的Github仓库https://github.com/CNFeffery/DataScienceStudyNotes 1 简介 大家好我是费老师，martin作为快速发展中的新一代开源高性能地图服务框架，在之前的两篇文章中，我已为大家分别介绍过使用martin快速发布矢量切片 <a href="https://www.cnblogs.com/feffery/p/18003548" target="_blank">阅读全文</a>
 ]]></content:encoded>
-<pubDate>2024-02-02T09:23:00Z</pubDate>
 <pubDate>2024-02-02T09:23:00Z</pubDate>
 </item>
 <item>
@@ -97,10 +82,8 @@
 <link>https://www.cnblogs.com/feffery/p/18000994</link>
 <guid>https://www.cnblogs.com/feffery/p/18000994</guid>
 <content:encoded><![CDATA[
-
 【摘要】本文示例代码已上传至我的Github仓库https://github.com/CNFeffery/dash-master 大家好我是费老师，Dash不久前发布了其2.15.0版本，新增了一些实用的特性，下面我们就来一起get其中的重点&#128521;： 1 在浏览器端回调中获知触发来源 熟悉Dash应用开发的朋 <a href="https://www.cnblogs.com/feffery/p/18000994" target="_blank">阅读全文</a>
 ]]></content:encoded>
-<pubDate>2024-02-01T05:05:00Z</pubDate>
 <pubDate>2024-02-01T05:05:00Z</pubDate>
 </item>
 <item>
@@ -108,10 +91,8 @@
 <link>https://www.cnblogs.com/feffery/p/17991230</link>
 <guid>https://www.cnblogs.com/feffery/p/17991230</guid>
 <content:encoded><![CDATA[
-
 【摘要】本文示例代码已上传至我的Github仓库https://github.com/CNFeffery/DataScienceStudyNotes 1 简介 大家好我是费老师，pandas在前不久更新的2.2版本中，针对Series对象新增了case_when()方法，用于实现类似SQL中经典的CASE  <a href="https://www.cnblogs.com/feffery/p/17991230" target="_blank">阅读全文</a>
 ]]></content:encoded>
-<pubDate>2024-01-27T03:19:00Z</pubDate>
 <pubDate>2024-01-27T03:19:00Z</pubDate>
 </item>
 <item>
@@ -119,10 +100,8 @@
 <link>https://www.cnblogs.com/feffery/p/17932811.html</link>
 <guid>https://www.cnblogs.com/feffery/p/17932811.html</guid>
 <content:encoded><![CDATA[
-
 【摘要】本文已收录至我的Github仓库https://github.com/CNFeffery/DataScienceStudyNotes 1 简介 大家好我是费老师，地图可视化神器kepler.gl终于带来了其3.0大版本的更新&#127881;，距离其上一个正式版本2.5.5的发布已经过去了两年多的时间，这次的版本 <a href="https://www.cnblogs.com/feffery/p/17932811.html" target="_blank">阅读全文</a>
 ]]></content:encoded>
-<pubDate>2023-12-28T07:26:00Z</pubDate>
 <pubDate>2023-12-28T07:26:00Z</pubDate>
 </item>
 <item>
@@ -130,10 +109,8 @@
 <link>https://www.cnblogs.com/feffery/p/17846899.html</link>
 <guid>https://www.cnblogs.com/feffery/p/17846899.html</guid>
 <content:encoded><![CDATA[
-
 【摘要】本文示例代码已上传至我的Github仓库https://github.com/CNFeffery/DataScienceStudyNotes 1 简介 大家好我是费老师，在之前的一篇文章（基于martin的高性能矢量切片地图服务构建）中我为大家介绍过martin的安装与使用，它是由maplibre开 <a href="https://www.cnblogs.com/feffery/p/17846899.html" target="_blank">阅读全文</a>
 ]]></content:encoded>
-<pubDate>2023-11-21T08:25:00Z</pubDate>
 <pubDate>2023-11-21T08:25:00Z</pubDate>
 </item>
 <item>
@@ -141,10 +118,8 @@
 <link>https://www.cnblogs.com/feffery/p/17839235.html</link>
 <guid>https://www.cnblogs.com/feffery/p/17839235.html</guid>
 <content:encoded><![CDATA[
-
 【摘要】本文示例代码已上传至我的Github仓库https://github.com/CNFeffery/dash-master 大家好我是费老师，回调函数是我们在Dash应用中实现各种交互功能的核心，在绝大多数情况下，我们只需要以纯Python的方式编写常规服务端回调函数即可，这也贯彻了Dash无需编写j <a href="https://www.cnblogs.com/feffery/p/17839235.html" target="_blank">阅读全文</a>
 ]]></content:encoded>
-<pubDate>2023-11-17T09:13:00Z</pubDate>
 <pubDate>2023-11-17T09:13:00Z</pubDate>
 </item>
 <item>
@@ -152,10 +127,8 @@
 <link>https://www.cnblogs.com/feffery/p/17834387.html</link>
 <guid>https://www.cnblogs.com/feffery/p/17834387.html</guid>
 <content:encoded><![CDATA[
-
 【摘要】本文示例代码已上传至我的Github仓库https://github.com/CNFeffery/dash-master 大家好我是费老师，使用Dash开发过交互式应用的朋友，想必都不会对回调函数感到陌生，作为Dash应用中实现各种交互逻辑的“万金油”方式，不管是常规的@app.callback() <a href="https://www.cnblogs.com/feffery/p/17834387.html" target="_blank">阅读全文</a>
 ]]></content:encoded>
-<pubDate>2023-11-15T09:40:00Z</pubDate>
 <pubDate>2023-11-15T09:40:00Z</pubDate>
 </item>
 <item>
@@ -163,10 +136,8 @@
 <link>https://www.cnblogs.com/feffery/p/17783183.html</link>
 <guid>https://www.cnblogs.com/feffery/p/17783183.html</guid>
 <content:encoded><![CDATA[
-
 【摘要】fac项目地址：https://github.com/CNFeffery/feffery-antd-components 欢迎star支持⭐ 大家好我是费老师，由我开源维护的Python网页通用组件库fac前不久更新至0.2.10新版本，使用下列命令可快速完成更新： pip install feff <a href="https://www.cnblogs.com/feffery/p/17783183.html" target="_blank">阅读全文</a>
 ]]></content:encoded>
-<pubDate>2023-10-23T10:27:00Z</pubDate>
 <pubDate>2023-10-23T10:27:00Z</pubDate>
 </item>
 <item>
@@ -174,10 +145,8 @@
 <link>https://www.cnblogs.com/feffery/p/17759046.html</link>
 <guid>https://www.cnblogs.com/feffery/p/17759046.html</guid>
 <content:encoded><![CDATA[
-
 【摘要】本文示例代码已上传至我的Github仓库https://github.com/CNFeffery/dash-master 大家好我是费老师，就在昨晚，Dash框架发布了其2.14.0新版本，新增的功能中，有一项非常令人兴奋，那就是其针对回调函数这一Dash中的核心概念，新增了动态回调函数注册的支持� <a href="https://www.cnblogs.com/feffery/p/17759046.html" target="_blank">阅读全文</a>
 ]]></content:encoded>
-<pubDate>2023-10-12T03:06:00Z</pubDate>
 <pubDate>2023-10-12T03:06:00Z</pubDate>
 </item>
 <item>
@@ -185,10 +154,8 @@
 <link>https://www.cnblogs.com/feffery/p/17756416.html</link>
 <guid>https://www.cnblogs.com/feffery/p/17756416.html</guid>
 <content:encoded><![CDATA[
-
 【摘要】问题描述： 针对mongo中已创建的集合，更新validator验证器规则 解决方法 在确保pymongo中所使用的用户对目标数据库具有dbAdmin之类的管理权限的前提下（若无权限，可在mongo中执行db.grantRolesToUser(&quot;目标用户名&quot;, [{ role: &quot;dbAdmin&quot;, <a href="https://www.cnblogs.com/feffery/p/17756416.html" target="_blank">阅读全文</a>
 ]]></content:encoded>
-<pubDate>2023-10-11T02:14:00Z</pubDate>
 <pubDate>2023-10-11T02:14:00Z</pubDate>
 </item>
 <item>
@@ -196,10 +163,8 @@
 <link>https://www.cnblogs.com/feffery/p/17709443.html</link>
 <guid>https://www.cnblogs.com/feffery/p/17709443.html</guid>
 <content:encoded><![CDATA[
-
 【摘要】本文示例代码已上传至我的Github仓库https://github.com/CNFeffery/DataScienceStudyNotes 1 简介 大家好我是费老师，就在前两天，Python生态中的GIS运算神器geopandas发布了其0.14.0新版本，在这次新版本更新中，不仅是新增了许多矢 <a href="https://www.cnblogs.com/feffery/p/17709443.html" target="_blank">阅读全文</a>
 ]]></content:encoded>
-<pubDate>2023-09-17T10:44:00Z</pubDate>
 <pubDate>2023-09-17T10:44:00Z</pubDate>
 </item>
 <item>
@@ -207,10 +172,8 @@
 <link>https://www.cnblogs.com/feffery/p/17588053.html</link>
 <guid>https://www.cnblogs.com/feffery/p/17588053.html</guid>
 <content:encoded><![CDATA[
-
 【摘要】&gt; 本文完整示例代码及文件已上传至我的`Github`仓库[https://github.com/CNFeffery/PythonPracticalSkills](https://github.com/CNFeffery/PythonPracticalSkills) 这是我的系列文章**「Pytho <a href="https://www.cnblogs.com/feffery/p/17588053.html" target="_blank">阅读全文</a>
 ]]></content:encoded>
-<pubDate>2023-07-28T08:37:00Z</pubDate>
 <pubDate>2023-07-28T08:37:00Z</pubDate>
 </item>
 <item>
@@ -218,12 +181,9 @@
 <link>https://www.cnblogs.com/feffery/p/17581158.html</link>
 <guid>https://www.cnblogs.com/feffery/p/17581158.html</guid>
 <content:encoded><![CDATA[
-
 【摘要】&gt; 本文示例代码已上传至我的`Github`仓库[https://github.com/CNFeffery/DataScienceStudyNotes](https://github.com/CNFeffery/DataScienceStudyNotes) # 1 简介 大家好我是费老师，在日常研发 <a href="https://www.cnblogs.com/feffery/p/17581158.html" target="_blank">阅读全文</a>
 ]]></content:encoded>
 <pubDate>2023-07-25T13:52:00Z</pubDate>
-<pubDate>2023-07-25T13:52:00Z</pubDate>
 </item>
-
 </channel>
 </rss>
