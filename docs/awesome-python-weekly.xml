@@ -4,6 +4,18 @@
 <title>Awesome Python Weekly</title>
 <link>https://python.libhunt.com/newsletter</link>
 
+<item>
+<title>🐍 Issue 425 - How to build a Perplexity-like Chatbot in Slack?</title>
+<link>https://python.libhunt.com/newsletter/425</link>
+<guid>https://python.libhunt.com/newsletter/425</guid>
+<content:encoded><![CDATA[
+<div> Perplexity, Chatbot, Slack, Build, Guide  
+总结:<br><br>本文介绍了如何在Slack上构建类似Perplexity的聊天机器人。首先，作者解释了Perplexity是什么，然后提供了在Slack上构建聊天机器人的详细指南。指南包括创建Slack应用程序、使用云计算平台、定义机器人响应和处理用户输入等关键步骤。作者还分享了一些提示和技巧，以帮助读者顺利构建自己的聊天机器人。通过本文，读者可以了解如何利用Slack平台和Perplexity的概念来创建一个强大的聊天机器人。 <div>
+🐍 Issue 425 - How to build a Perplexity-like Chatbot in Slack?
+]]></content:encoded>
+<pubDate>Thu, 18 Jul 2024 13:42:00 -0800</pubDate>
+<pubDate>Thu, 18 Jul 2024 13:42:00 -0800</pubDate>
+</item>
 
 <item>
 <title>🐍 Issue 424 - Rye: A Hassle-Free Python Experience</title>

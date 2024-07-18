@@ -3016,3 +3016,12 @@ Existing_entries: 18
 Fetching from https://python.libhunt.com/newsletter/feed
 append_entries: 0
 Finish: 2024-07-18 20:11:44.028244
+------------------------------------------------------
+Started: 2024-07-18 22:10:30.112838
+Existing_entries: 18
+Fetching from https://python.libhunt.com/newsletter/feed
+Token length: 62
+Summarized using GPT-3.5-turbo
+Append: [🐍 Issue 425 - How to build a Perplexity-like Chatbot in Slack?](https://python.libhunt.com/newsletter/425)
+append_entries: 1
+Finish: 2024-07-18 22:10:34.670458
