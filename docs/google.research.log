@@ -148,3 +148,12 @@ Summarized using GPT-3.5-turbo
 Append: [Harnessing hidden genetic information in clinical data with REGLE](https://research.google/blog/harnessing-hidden-genetic-information-in-clinical-data-with-regle/)
 append_entries: 1
 Finish: 2024-07-18 18:15:31.793618
+------------------------------------------------------
+Started: 2024-07-18 20:11:48.572289
+Existing_entries: 14
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Accelerating code migrations with AI](https://research.google/blog/accelerating-code-migrations-with-ai/)
+append_entries: 1
+Finish: 2024-07-18 20:11:58.595255
