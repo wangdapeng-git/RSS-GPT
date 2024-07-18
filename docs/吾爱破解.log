@@ -8801,3 +8801,12 @@ Filter: [可离线的文本转语音工具MultiTTS 新版 v1.5.3.1（听书专�
 Filter: [虚拟定位软件，影梭_V1.12.1(只做精品搬运工)最新更新](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1942822)
 append_entries: 0
 Finish: 2024-07-18 00:49:06.265464
+------------------------------------------------------
+Started: 2024-07-18 02:29:48.314282
+Existing_entries: 574
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [可离线的文本转语音工具MultiTTS 新版 v1.5.3.1（听书专用，附带全新海量语音引擎包）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1943208)
+Filter: [虚拟定位软件，影梭_V1.12.1(只做精品搬运工)最新更新](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1942822)
+Append: [[网络视频下载工具]](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1942298)
+append_entries: 1
+Finish: 2024-07-18 02:29:50.608551
