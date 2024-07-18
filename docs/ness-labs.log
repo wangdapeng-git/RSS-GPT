@@ -4729,3 +4729,12 @@ Existing_entries: 32
 Fetching from https://nesslabs.com/feed
 append_entries: 0
 Finish: 2024-07-18 08:14:03.713284
+------------------------------------------------------
+Started: 2024-07-18 10:11:30.967174
+Existing_entries: 32
+Fetching from https://nesslabs.com/feed
+Token length: 5681
+Summarized using GPT-3.5-turbo
+Append: [Active reading: how to become a better reader](https://nesslabs.com/active-reading?utm_source=rss&utm_medium=rss&utm_campaign=active-reading)
+append_entries: 1
+Finish: 2024-07-18 10:11:35.411136
