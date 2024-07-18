@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Quiz: How Do You Choose Python Function Names?</title>
 <link>https://realpython.com/quizzes/python-function-names/</link>
 <guid>https://realpython.com/quizzes/python-function-names/</guid>
 <content:encoded><![CDATA[
 <div> Python、函数名称、可读性、维护性、减少错误
-<br>
+<br />
 函数名称在Python中起着至关重要的作用。选择合适的函数名称可以使代码更具可读性和易维护性，也能减少错误的发生。通过本文，回顾了命名Python函数的规则和约定，强调了它们对于编程的重要性。希望通过合理命名函数，可以让代码更加清晰易懂，减少出错的可能性。总结：编程中，选择合适的函数名称对代码质量和效率至关重要，可读性和维护性是关键，也能有效减少bug的出现。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of
 <a href="https://realpython.com/python-function-names/">how to choose Python function names</a>.</p>
@@ -21,10 +22,8 @@ Code with well-chosen names can also be less prone to bugs.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-17T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Python Protocols: Leveraging Structural Subtyping</title>
 <link>https://realpython.com/python-protocol/</link>
