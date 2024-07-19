@@ -2758,3 +2758,9 @@ Summarized using GPT-3.5-turbo
 Append: [Linkpost: Surely you can be serious](https://www.lesswrong.com/posts/FfihtAuPwtLnBmeGZ/linkpost-surely-you-can-be-serious)
 append_entries: 1
 Finish: 2024-07-19 14:12:21.517320
+------------------------------------------------------
+Started: 2024-07-19 16:13:20.313145
+Existing_entries: 132
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-07-19 16:13:20.548665
