@@ -5227,3 +5227,12 @@ Existing_entries: 108
 Fetching from https://rsshub.app/deepmind/blog
 append_entries: 0
 Finish: 2024-07-19 10:11:02.655206
+------------------------------------------------------
+Started: 2024-07-19 12:19:09.844765
+Existing_entries: 108
+Fetching from https://rsshub.app/deepmind/blog
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Google DeepMind at ICML 2024](https://deepmind.google/discover/blog/google-deepmind-at-icml-2024/)
+append_entries: 1
+Finish: 2024-07-19 12:19:13.605535

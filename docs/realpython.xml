@@ -4,6 +4,36 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>The Real Python Podcast – Episode #213: Constraint Programming &amp; Exploring Python's Built-in Functions</title>
+<link>https://realpython.com/podcasts/rpp/213/</link>
+<guid>https://realpython.com/podcasts/rpp/213/</guid>
+<content:encoded><![CDATA[
+<div> discrete optimization problems, constraint programming, Python, Christopher Trudeau, PyCoder's Weekly<br>
+<br>
+关键词提取：discrete optimization problems, constraint programming, Python, Christopher Trudeau, PyCoder's Weekly。这篇文章介绍了离散优化问题以及如何使用Python中的约束编程来解决这些问题。Christopher Trudeau在本周的节目中带来了另一批PyCoder's Weekly的文章和项目。文章详细介绍了离散优化问题的概念，以及如何利用约束编程的方法在Python中解决这些问题。约束编程是一种解决复杂问题的方法，其重点在于定义问题的变量和约束条件，然后找到满足所有限制条件的最优解。通过Python中的约束编程技术，可以以更高效和可维护的方式解决各种离散优化问题。总结：离散优化问题是一种重要的问题类型，利用约束编程可以在Python中有效解决这类问题。Christopher Trudeau带来了关于PyCoder's Weekly的最新资讯。 <div>
+<p>What are discrete optimization problems? How do you solve them with constraint programming in Python? Christopher Trudeau is back on the show this week, bringing another batch of PyCoder's Weekly articles and projects</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-07-19T12:00:00+00:00</pubDate>
+</item>
+<item>
+<title>Quiz: Python Strings and Character Data</title>
+<link>https://realpython.com/quizzes/python-strings-update/</link>
+<guid>https://realpython.com/quizzes/python-strings-update/</guid>
+<content:encoded><![CDATA[
+<div> Python、string data type、manipulating、textual data、string methods<br>
+Python的字符串数据类型提供了丰富的操作方法，可以用来处理文本数据。通过使用字符串字面值和str()函数可以创建字符串，利用字符串方法可以进行各种操作。除此之外，还可以使用运算符和内置函数来处理字符串，通过索引和切片操作可以获取字符串中的特定部分。通过本文的学习和练习，可以加深对Python字符串数据类型的理解，提升对文本数据操作的能力。<br><br>总结: <div>
+<p>This quiz will evaluate your understanding of Python&rsquo;s string data type and test your knowledge about manipulating textual data with string objects. You&rsquo;ll cover the basics of creating strings using literals and the str() function, applying string methods, using operators and built-in functions with strings, indexing and slicing strings, and more!</p>
+<p>Take this quiz after reading our <a href="https://realpython.com/python-strings/">Strings and Character Data in Python</a> tutorial.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-07-19T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Quiz: How Do You Choose Python Function Names?</title>

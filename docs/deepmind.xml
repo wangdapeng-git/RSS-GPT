@@ -4,6 +4,19 @@
 <title>Google DeepMind Blog</title>
 <link>https://deepmind.google/discover/blog//blog</link>
 
+<item>
+<title>Google DeepMind at ICML 2024</title>
+<link>https://deepmind.google/discover/blog/google-deepmind-at-icml-2024/</link>
+<guid>https://deepmind.google/discover/blog/google-deepmind-at-icml-2024/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 文章、总结、中文、要点、输出
+总结:
+文章中提到了如何用中文总结一篇文章，首先要提取出关键词，然后在200字内写一个包含所有重点的总结。要点包括提取关键词、换行输出、使用中文撰写、按顺序呈现要点。这种方法可以帮助读者更快地了解文章内容，提高阅读效率。<br><br>总结:文章中详细介绍了提取关键词的方法，并指导如何用中文进行总结，并提醒在输出时要保持清晰的顺序。 <div>
+
+]]></content:encoded>
+<pubDate>Fri, 19 Jul 2024 10:00:00 GMT</pubDate>
+<pubDate>Fri, 19 Jul 2024 10:00:00 GMT</pubDate>
+</item>
 
 <item>
 <title>Generating audio for video</title>
