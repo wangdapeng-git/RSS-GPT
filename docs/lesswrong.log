@@ -2749,3 +2749,12 @@ Existing_entries: 131
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-07-19 12:19:28.109257
+------------------------------------------------------
+Started: 2024-07-19 14:12:17.615483
+Existing_entries: 131
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 1482
+Summarized using GPT-3.5-turbo
+Append: [Linkpost: Surely you can be serious](https://www.lesswrong.com/posts/FfihtAuPwtLnBmeGZ/linkpost-surely-you-can-be-serious)
+append_entries: 1
+Finish: 2024-07-19 14:12:21.517320
