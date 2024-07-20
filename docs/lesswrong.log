@@ -2782,3 +2782,12 @@ Existing_entries: 132
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-07-19 22:12:26.373610
+------------------------------------------------------
+Started: 2024-07-20 00:49:15.531925
+Existing_entries: 132
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 11223
+Summarized using GPT-3.5-turbo
+Append: [How do we know that "good research" is good? (aka "direct evaluation" vs "eigen-evaluation")](https://www.lesswrong.com/posts/ZPixGrCbJoyuAdjkK/how-do-we-know-that-good-research-is-good-aka-direct)
+append_entries: 1
+Finish: 2024-07-20 00:49:19.741249
