@@ -2803,3 +2803,12 @@ Existing_entries: 133
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-07-20 04:14:39.652290
+------------------------------------------------------
+Started: 2024-07-20 06:15:51.918624
+Existing_entries: 133
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 29019
+Summarized using GPT-3.5-turbo
+Append: [Feature Targeted LLC Estimation Distinguishes SAE Features from Random Directions](https://www.lesswrong.com/posts/zpwh9knxBMHuFbJxc/feature-targeted-llc-estimation-distinguishes-sae-features)
+append_entries: 1
+Finish: 2024-07-20 06:15:58.174805
