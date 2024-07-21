@@ -4,6 +4,265 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-07-21</title>
+<link>https://pythonhub.dev/digest/2024-07-21/</link>
+<guid>https://pythonhub.dev/digest/2024-07-21/</guid>
+<content:encoded><![CDATA[
+<div> HTTP client, terminal, PySkyWiFi, vulnerability, text input
+
+总结:<br><br>
+这篇文章讨论了在终端环境中的文本输入的复杂性和不一致性，探讨了从基本输入模式到高级系统（如readline和自定义解决方案）的各种模式。它提供了不同程序如何处理文本输入的见解，为用户提供了建议，并解释了终端文本编辑中常用键盘快捷键的起源和特点。文章描述了一个装饰器没有使用functools.wraps导致Flask应用程序崩溃，从而为多个端点分配相同名称。它演示了使用functools.wraps保持函数元数据的重要性，从而防止此类错误发生。文章还讨论了使用ptrace拦截和修改进程的getrandom系统调用，以及通过Docker Compose或树莓派运行多个迭代的Django来处理大量时间序列数据。 <div>
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://github.com/darrenburns/posting">Posting</a></strong>
+    
+        <br /><span>A powerful HTTP client that lives in your terminal.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://robertheaton.com/pyskywifi/">PySkyWiFi: completely free, unbelievably stupid wi-fi on long-haul flights</a></strong>
+    
+        <br /><span>PySkyWiFi is a tool that allows free internet access on planes by exploiting a vulnerability in airline loyalty program websites. It works by sending HTTP requests through an airline account's name field, relaying them to a ground computer that makes the actual web requests, and sending responses back through the same channel.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://jvns.ca/blog/2024/07/08/readline/">Entering text in the terminal is complicated</a></strong>
+    
+        <br /><span>The article explores the complexities and inconsistencies of text input in terminal environments, discussing various modes from basic input to advanced systems like readline and custom solutions. It provides insights into how different programs handle text input, offers tips for users, and explains the origins and features of common keyboard shortcuts used in terminal text editing.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://crawlee.dev/python/">Crawlee for Python – a web scraping and browser automation library</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.sheenaoc.com/articles/2024-06-30-htmx">An HTMX success story</a></strong>
+    
+        <br /><span>Porting from Django+React to a Django+HTMX based stack.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://satyrn.app/">Satyrn</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://hackaday.com/2024/07/11/embedded-python-micropython-is-amazing/">Embedded Python: MicroPython Is Amazing</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Kedreamix/Linly-Talker">Kedreamix / Linly-Talker</a></strong>
+    
+        <br /><span>Digital Avatar Conversational System - Linly-Talker. 😄✨ Linly-Talker is an intelligent AI system that combines large language models (LLMs) with visual models to create a novel human-AI interaction method. 🤝🤖 It integrates various technologies like Whisper, Linly, Microsoft Speech Services, and SadTalker talking head generation system. 🌟🔬</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://rye.astral.sh/">Rye: A Hassle-Free Python Experience</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/kitao/pyxel">Pyxel: A retro game engine for Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://suyogdahal.com.np/posts/how-decorator-crashed-my-flask-app/">How a Decorator Crashed My Flask App: Lessons Learned</a></strong>
+    
+        <br /><span>The article explains how a decorator without functools.wraps caused a Flask app to crash by assigning the same name to multiple endpoints. It demonstrates the importance of using functools.wraps to maintain function metadata, thus preventing such errors.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/tonio-m/python_neural_network">Ultra simplified &quot;MNIST&quot; in 60 lines of Python with NumPy</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonium.net/">Python Online Toolbox</a></strong>
+    
+        <br /><span>Free online Python tools (Code checker, regex tester, ...)</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://healeycodes.com/making-python-less-random">Making Python Less Random</a></strong>
+    
+        <br /><span>Using ptrace to intercept and modify a process's getrandom syscall.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=ilp3ZHTKPNg">Building a Perceptron From Scratch (no frameworks, only math and python)</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=kykDfDtp7Wg">Run Multi-Node Django for Time Series Data with TimescaleDB, Celery and more.</a></strong>
+    
+        <br /><span>Run many iterations of Django across Docker Compose or Raspberry Pis to handle large amounts of time series data.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://nvidia.github.io/warp/">Nvidia Warp (a Python framework for writing high-performance code)</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/maelstrom-software/maelstrom">Maelstrom – A Hermetic, Clustered Test Runner for Python and Rust</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.tolidano.com/micropython-smartwatch.html">MicroPython Smartwatch</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/apple/axlearn">apple / axlearn</a></strong>
+    
+        <br /><span>An Extensible Deep Learning Library</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.dagworks.io/p/streaming-chatbot-with-burr-fastapi">Streaming Chatbot with Burr, FastAPI, and React</a></strong>
+    
+        <br /><span>Expose the OpenAI streaming API with server-sent-events.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=FWacanslfFM">Click: Build Your Own Command Line Interface Tool</a></strong>
+    
+        <br /><span>This video provides a tutorial on creating a Command Line Interface (CLI) tool in Python using the Click package. The project involves building a simple note-taking tool with functionalities to write, read, update, and delete notes. Additionally, it explores some lesser-known features of Click that enhance tool functionality.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/playlist?list=PL2Uw4_HvXqvYhjub9bw4uDAmNtprgAvlJ">PyCon US 2024 Videos</a></strong>
+    
+        <br /><span>Couldn't attend PyCon US 2024? The videos of the talks have started trickling down.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/amakelov/mandala">Mandala – Automatically save, query and version Python computations</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://coroot.com/blog/instrumenting-python-gil-with-ebpf">Instrumenting Python GIL with eBPF</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-07-14/">Python Hub Weekly Digest for 2024-07-14</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/ariebovenberg/whenever">whenever</a></strong>
+    
+        <br /><span>Modern datetime library for Python, written in Rust.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/apify/crawlee-python">Crawlee</a></strong>
+    
+        <br /><span>A web scraping and browser automation library for Python to build reliable crawlers. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with BeautifulSoup, Playwright, and raw HTTP. Both headful and headless mode. With proxy rotation.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/qdrant/fastembed">FastEmbed</a></strong>
+    
+        <br /><span>Fast, Accurate, Lightweight Python library to make State of the Art Embedding.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/tanelpoder/0xtools">0xtools</a></strong>
+    
+        <br /><span>X-Ray vision for Linux systems.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/getmomentum/momentum-core">momentum</a></strong>
+    
+        <br /><span>The open-source behavioural auditor for backend code.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/vintasoftware/django-ai-assistant/">django-ai-assistant</a></strong>
+    
+        <br /><span>Integrate AI Assistants with Django to build intelligent applications.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/KwaiVGI/LivePortrait">LivePortrait</a></strong>
+    
+        <br /><span>Make one portrait alive!</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/explorerhq/django-sql-explorer">django-sql-explorer</a></strong>
+    
+        <br /><span>Easily share data across your company via SQL queries.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/incidentalhq/incidental">Incidental</a></strong>
+    
+        <br /><span>An opensource incident management platform integrating with Slack.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1e2cvwb/computers_are_fast_python_perf_quiz/">Computers are fast [Python perf quiz]</a></strong>
+      </p>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1e29hy8/why_do_people_want_to_obduscate_python_code/">Why do people want to obduscate python code?</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 21 Jul 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 21 Jul 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-07-14</title>
