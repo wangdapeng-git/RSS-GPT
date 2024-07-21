@@ -4,6 +4,7 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-07-21</title>
 <link>https://pythonhub.dev/digest/2024-07-21/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> HTTP client, terminal, PySkyWiFi, vulnerability, text input
 
-总结:<br><br>
+总结:<br /><br />
 这篇文章讨论了在终端环境中的文本输入的复杂性和不一致性，探讨了从基本输入模式到高级系统（如readline和自定义解决方案）的各种模式。它提供了不同程序如何处理文本输入的见解，为用户提供了建议，并解释了终端文本编辑中常用键盘快捷键的起源和特点。文章描述了一个装饰器没有使用functools.wraps导致Flask应用程序崩溃，从而为多个端点分配相同名称。它演示了使用functools.wraps保持函数元数据的重要性，从而防止此类错误发生。文章还讨论了使用ptrace拦截和修改进程的getrandom系统调用，以及通过Docker Compose或树莓派运行多个迭代的Django来处理大量时间序列数据。 <div>
 <div></div>
 
@@ -261,9 +262,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 21 Jul 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 21 Jul 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-07-14</title>
 <link>https://pythonhub.dev/digest/2024-07-14/</link>
