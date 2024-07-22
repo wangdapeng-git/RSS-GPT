@@ -2950,3 +2950,12 @@ Existing_entries: 134
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-07-22 04:14:09.944058
+------------------------------------------------------
+Started: 2024-07-22 06:15:59.966404
+Existing_entries: 134
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 15513
+Summarized using GPT-3.5-turbo
+Append: [A simple model of math skill](https://www.lesswrong.com/posts/EF8tvShQJ5cbdZzTb/a-simple-model-of-math-skill)
+append_entries: 1
+Finish: 2024-07-22 06:16:05.236067
