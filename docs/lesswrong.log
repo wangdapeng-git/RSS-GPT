@@ -2959,3 +2959,9 @@ Summarized using GPT-3.5-turbo
 Append: [A simple model of math skill](https://www.lesswrong.com/posts/EF8tvShQJ5cbdZzTb/a-simple-model-of-math-skill)
 append_entries: 1
 Finish: 2024-07-22 06:16:05.236067
+------------------------------------------------------
+Started: 2024-07-22 08:15:32.239694
+Existing_entries: 135
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-07-22 08:15:32.680815
