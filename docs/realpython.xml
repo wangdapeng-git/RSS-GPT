@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Logging in Python</title>
 <link>https://realpython.com/python-logging/</link>
 <guid>https://realpython.com/python-logging/</guid>
 <content:encoded><![CDATA[
 <div> logging, Python, module, records, levels
-总结:<br><br>本文介绍了在Python开发中记录日志的重要性。通过Python的logging模块，开发人员可以方便地记录应用程序执行过程中的相关信息。文章中提到了如何使用logging模块、设置基本的日志配置、利用日志级别、为日志消息添加格式化等内容。此外，还介绍了日志记录的作用和好处，以及日志记录在调试错误、分析性能和规划应用程序的扩展方面的重要性。文章还提到了Python的logging模块中的五个默认日志级别和它们的不同用途。通过本文，读者可以了解如何利用logging模块为Python应用程序添加强大的日志功能。 <div>
+总结:<br /><br />本文介绍了在Python开发中记录日志的重要性。通过Python的logging模块，开发人员可以方便地记录应用程序执行过程中的相关信息。文章中提到了如何使用logging模块、设置基本的日志配置、利用日志级别、为日志消息添加格式化等内容。此外，还介绍了日志记录的作用和好处，以及日志记录在调试错误、分析性能和规划应用程序的扩展方面的重要性。文章还提到了Python的logging模块中的五个默认日志级别和它们的不同用途。通过本文，读者可以了解如何利用logging模块为Python应用程序添加强大的日志功能。 <div>
 <div><p>Recording relevant information during the execution of your program is a good practice as a Python developer when you want to gain a better understanding of your code. This practice is called <strong>logging</strong>, and it’s a very useful tool for your programmer’s toolbox. It can help you discover scenarios that you might not have thought of while developing.</p>
 <p>These records are called <strong>logs</strong>, and they can serve as an extra set of eyes that are constantly looking at your application’s flow. Logs can store information, like which user or IP accessed the application. If an error occurs, then logs may provide more insights than a stack trace by telling you the state of the program before the error and the line of code where it occurred.</p>
 <p>Python provides a logging system as part of its standard library. You can add logging to your application with just a few lines of code. </p>
@@ -177,10 +178,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-22T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>The Real Python Podcast – Episode #213: Constraint Programming &amp; Exploring Python's Built-in Functions</title>
 <link>https://realpython.com/podcasts/rpp/213/</link>
