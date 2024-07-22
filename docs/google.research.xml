@@ -4,6 +4,19 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+<item>
+<title>Fast, accurate climate modeling with NeuralGCM</title>
+<link>https://research.google/blog/fast-accurate-climate-modeling-with-neuralgcm/</link>
+<guid>https://research.google/blog/fast-accurate-climate-modeling-with-neuralgcm/</guid>
+<content:encoded><![CDATA[
+<div> 关键词：文章、总结、中文、提取、要点
+
+总结：<br><br>本文提到了如何用中文总结一篇文章，并提取关键词，最后进行总结。首先，需要提取关键词，例如提取文章中的关键概念或重要词汇。然后，利用这些关键词来写一个200字以内的总结，确保包含所有要点，按顺序分析并输出。通过这种方式，可以帮助人们更好地理解文章内容，提炼出文章的核心信息。<br> <div>
+
+]]></content:encoded>
+<pubDate>2024-07-22T00:00:00+00:00</pubDate>
+<pubDate>2024-07-22T16:14:32.085959+00:00</pubDate>
+</item>
 
 <item>
 <title>Accelerating code migrations with AI</title>
