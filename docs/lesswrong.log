@@ -3019,3 +3019,9 @@ Summarized using GPT-3.5-turbo
 Append: [Coalitional agency](https://www.lesswrong.com/posts/WD6fdTreuTaXgZb4H/coalitional-agency)
 append_entries: 2
 Finish: 2024-07-23 00:51:27.786257
+------------------------------------------------------
+Started: 2024-07-23 02:30:54.513480
+Existing_entries: 137
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-07-23 02:30:55.118856
