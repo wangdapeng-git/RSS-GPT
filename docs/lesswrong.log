@@ -3067,3 +3067,18 @@ Existing_entries: 137
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-07-23 16:15:29.488304
+------------------------------------------------------
+Started: 2024-07-23 18:14:39.865197
+Existing_entries: 137
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 2653
+Summarized using GPT-3.5-turbo
+Append: [D&D.Sci Scenario Index](https://www.lesswrong.com/posts/6QfatwCcmuaDBNeDv/d-and-d-sci-scenario-index)
+Token length: 33095
+Summarized using GPT-3.5-turbo
+Append: [Analyzing DeepMind's Probabilistic Methods for Evaluating Agent Capabilities](https://www.lesswrong.com/posts/NKmjGS4a3ykriqRNR/analyzing-deepmind-s-probabilistic-methods-for-evaluating)
+Token length: 7594
+Summarized using GPT-3.5-turbo
+Append: [BatchTopK: A Simple Improvement for TopK-SAEs](https://www.lesswrong.com/posts/Nkx6yWZNbAsfvic98/batchtopk-a-simple-improvement-for-topk-saes)
+append_entries: 3
+Finish: 2024-07-23 18:14:54.524524
