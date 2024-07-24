@@ -3154,3 +3154,12 @@ Existing_entries: 140
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-07-24 18:14:31.838890
+------------------------------------------------------
+Started: 2024-07-24 20:12:08.868605
+Existing_entries: 140
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 6140
+Summarized using GPT-3.5-turbo
+Append: [You should go to ML conferences](https://www.lesswrong.com/posts/czNgEuaxkXHL2g8mQ/you-should-go-to-ml-conferences)
+append_entries: 1
+Finish: 2024-07-24 20:12:15.083272
