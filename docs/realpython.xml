@@ -5,21 +5,116 @@
 <link>https://realpython.com/</link>
 
 <item>
+<title>Hugging Face Transformers: Leverage Open-Source AI in Python</title>
+<link>https://realpython.com/huggingface-transformers/</link>
+<guid>https://realpython.com/huggingface-transformers/</guid>
+<content:encoded><![CDATA[
+<div> Hugging Face, Transformers, Python, AI models, Model cards
+<br>
+Hugging Face是一个强大的Python库，通过Transformers模块可以下载、操作和运行预训练的AI模型。Transformers库涵盖自然语言处理、计算机视觉、音频和多模态学习等多个领域的任务。使用预训练的开源模型可以降低成本、节省训练模型的时间，并能更好地控制部署的模型。Hugging Face生态系统包括模型、数据集、Spaces和付费服务，为开发者提供丰富的资源和工具。Model cards是Model Hub的核心组件，提供与每个模型相关的有用信息，可帮助用户选择和了解模型。总体来说，Hugging Face为用户提供了加速AI项目、促进创新和合作的平台。总结: <div>
+<div><p>Transformers is a powerful Python library created by Hugging Face that allows you to download, manipulate, and run thousands of pretrained, open-source AI models. These models cover multiple tasks across modalities like natural language processing, computer vision, audio, and multimodal learning. Using pretrained open-source models can reduce costs, save the time needed to train models from scratch, and give you more control over the models you deploy.</p>
+<p><strong>In this tutorial, you’ll learn how to:</strong></p>
+<ul>
+<li><strong>Navigate</strong> the Hugging Face ecosystem</li>
+<li><strong>Download, run, and manipulate</strong> models with Transformers</li>
+<li><strong>Speed up</strong> model inference with GPUs</li>
+</ul>
+<p>Throughout this tutorial, you’ll gain a conceptual understanding of Hugging Face’s AI offerings and learn how to work with the Transformers library through hands-on examples. When you finish, you’ll have the knowledge and tools you need to start using models for your own use cases. Before starting, you’ll benefit from having an intermediate understanding of Python and popular deep learning libraries like <a href="https://realpython.com/pytorch-vs-tensorflow/"><code>pytorch</code> and <code>tensorflow</code></a>.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/huggingface-transformers-code/">Click here to download the free sample code</a> that shows you how to use Hugging Face Transformers to leverage open-source AI in Python.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Hugging Face Transformers” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/hugging-face-transformers/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="Hugging Face Transformers: Leverage Open-Source AI in Python" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Showcase-HuggingFace-Transformers_Watermarked-3.bfafcf75db45.jpg" style="background: #abe0e6;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/hugging-face-transformers/"><span class="my-0 h4">Hugging Face Transformers</span></a> 
+      <p class="text-muted mb-0 small">In this quiz, you'll test your understanding of the Hugging Face Transformers library. This library is a popular choice for working with transformer models in natural language processing tasks, computer vision, and other machine learning applications.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="the-hugging-face-ecosystem">The Hugging Face Ecosystem<a class="headerlink" href="#the-hugging-face-ecosystem" title="Permanent link"></a></h2>
+<p>Before using Transformers, you’ll want to have a solid understanding of the Hugging Face ecosystem. In this first section, you’ll briefly explore everything that Hugging Face offers with a particular emphasis on <strong>model cards</strong>.</p>
+<h3 id="exploring-hugging-face">Exploring Hugging Face<a class="headerlink" href="#exploring-hugging-face" title="Permanent link"></a></h3>
+<p><a href="https://huggingface.co/">Hugging Face</a> is a hub for state-of-the-art AI models. It’s primarily known for its wide range of open-source transformer-based models that excel in natural language processing (NLP), computer vision, and audio tasks. The platform offers several resources and services that cater to developers, researchers, businesses, and anyone interested in exploring AI models for their own use cases. </p>
+<p>There’s a lot you can do with Hugging Face, but the primary offerings can be broken down into a few categories:</p>
+<ul>
+<li>
+<p><strong>Models</strong>: Hugging Face hosts a vast repository of pretrained AI models that are readily accessible and highly customizable. This repository is called the Model Hub, and it hosts models covering a wide range of tasks, including text classification, text generation, translation, summarization, speech recognition, image classification, and more. The platform is community-driven and allows users to contribute their own models, which facilitates a diverse and ever-growing selection.</p>
+</li>
+<li>
+<p><strong>Datasets</strong>: Hugging Face has a library of thousands of datasets that you can use to train, benchmark, and enhance your models. These range from small-scale benchmarks to massive, real-world datasets that encompass a variety of domains, such as text, image, and audio data. Like the Model Hub, 🤗 Datasets supports community contributions and provides the tools you need to search, download, and use data in your machine learning projects. </p>
+</li>
+<li>
+<p><strong>Spaces</strong>: Spaces allows you to deploy and share machine learning applications directly on the Hugging Face website. This service supports a variety of frameworks and interfaces, including Streamlit, Gradio, and Jupyter notebooks. It is particularly useful for showcasing model capabilities, hosting interactive demos, or for educational purposes, as it allows you to interact with models in real time.</p>
+</li>
+<li>
+<p><strong>Paid offerings</strong>: Hugging Face also offers several <a href="https://huggingface.co/pricing">paid services</a> for enterprises and advanced users. These include the Pro Account, the Enterprise Hub, and Inference Endpoints. These solutions offer private model hosting, advanced collaboration tools, and dedicated support to help organizations scale their AI operations effectively.</p>
+</li>
+</ul>
+<p>These resources empower you to accelerate your AI projects and encourage collaboration and innovation within the community. Whether you’re a novice looking to experiment with pretrained models, or an enterprise seeking robust AI solutions, Hugging Face offers tools and platforms that cater to a wide range of needs.</p>
+<p>This tutorial focuses on Transformers, a Python library that lets you run just about any model in the Model Hub. Before using <code>transformers</code>, you’ll need to understand what model cards are, and that’s what you’ll do next.</p>
+<h3 id="understanding-model-cards">Understanding Model Cards<a class="headerlink" href="#understanding-model-cards" title="Permanent link"></a></h3>
+<p><a href="https://huggingface.co/docs/hub/en/model-cards">Model cards</a> are the core components of the Model Hub, and you’ll need to understand how to search and read them to use models in Transformers. Model cards are nothing more than files that accompany each model to provide useful information. You can search for the model card you’re looking for on the Models page:</p>
+<figure class="js-lightbox"><a href="https://files.realpython.com/media/Screenshot_2024-05-25_at_2.50.35_PM.272112bd8bb6.png" target="_blank"><img alt="HuggingFace Models page" class="img-fluid mx-auto d-block " height="1936" src="https://files.realpython.com/media/Screenshot_2024-05-25_at_2.50.35_PM.272112bd8bb6.png" width="3370" /></a><figcaption class="figure-caption text-center">Hugging Face Models page</figcaption></figure>
+
+<p>On the left side of the Models page, you can search for model cards based on the task you’re interested in. For example, if you’re interested in <a href="https://huggingface.co/tasks/zero-shot-classification">zero-shot text classification</a>, you can click the <code>Zero-Shot Classification</code> button under the <code>Natural Language Processing</code> section:</p>
+<figure class="js-lightbox"><a href="https://files.realpython.com/media/Screenshot_2024-05-26_at_1.16.02_PM.eecd94e4a2d0.png" target="_blank"><img alt="HuggingFace Models page filtered to zero-shot text classification" class="img-fluid mx-auto d-block " height="1666" src="https://files.realpython.com/media/Screenshot_2024-05-26_at_1.16.02_PM.eecd94e4a2d0.png" width="3074" /></a><figcaption class="figure-caption text-center">Hugging Face Models page filtered for zero-shot text classification models</figcaption></figure>
+
+<p>In this search, you can see 266 different zero-shot text classification models, which is a paradigm where language models assign labels to text without explicit training or seeing any examples. In the upper-right corner, you can sort the search results based on model likes, downloads, creation dates, updated dates, and popularity trends. </p>
+<p>Each model card button tells you the model’s task, when it was last updated, and how many downloads and likes it has. When you click a model card button, say the one for the <a href="https://huggingface.co/facebook/bart-large-mnli"><code>facebook/bart-large-mnli</code></a> model, the model card will open and display all of the model’s information:</p>
+<figure class="js-lightbox"><a href="https://files.realpython.com/media/Screenshot_2024-05-26_at_1.36.57_PM.87c9cde69339.png" target="_blank"><img alt="HuggingFace model card" class="img-fluid mx-auto d-block " height="1944" src="https://files.realpython.com/media/Screenshot_2024-05-26_at_1.36.57_PM.87c9cde69339.png" width="3448" /></a><figcaption class="figure-caption text-center">A Hugging Face model card</figcaption></figure>
+
+<p>Even though a model card can display just about anything, Hugging Face has <a href="https://github.com/huggingface/huggingface_hub/blob/main/src/huggingface_hub/templates/modelcard_template.md">outlined</a> the information that a good model card should provide. This includes detailed information about the model, its uses and limitations, the training parameters and experiment details, the dataset used to train the model, and the model’s evaluation performance.</p>
+<p>A high-quality model card also includes metadata such as the model’s license, references to the training data, and links to research papers that describe the model in detail. In some model cards, you’ll also get to tinker with a deployed instance of the model via the <a href="https://huggingface.co/inference-api/serverless">Inference API</a>. You can see an example of this in the <code>facebook/bart-large-mnli</code> model card:</p>
+<figure class="js-lightbox"><a href="https://files.realpython.com/media/Screenshot_2024-05-27_at_10.34.39_PM.3e20bb8f558a.png" target="_blank"><img alt="HuggingFace Inference API within A model card" class="img-fluid mx-auto d-block " height="1106" src="https://files.realpython.com/media/Screenshot_2024-05-27_at_10.34.39_PM.3e20bb8f558a.png" width="1822" /></a><figcaption class="figure-caption text-center">Tinker with Hugging Face models using the Inference API</figcaption></figure>
+
+</div><h2><a href="https://realpython.com/huggingface-transformers/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/huggingface-transformers/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-07-24T14:00:00+00:00</pubDate>
+</item>
+
+<item>
 <title>Quiz: Hugging Face Transformers</title>
 <link>https://realpython.com/quizzes/hugging-face-transformers/</link>
 <guid>https://realpython.com/quizzes/hugging-face-transformers/</guid>
 <content:encoded><![CDATA[
 <div> transformer, natural language processing, computer vision, machine learning, Hugging Face
 
-总结:<br><br> Hugging Face是一个流行的库，用于在自然语言处理任务、计算机视觉和其他机器学习应用中处理transformer模型。该库在各种领域都得到广泛应用，特别是在处理自然语言处理和计算机视觉任务中表现出色。Hugging Face库为开发人员提供了丰富的工具和功能，使其在构建和部署各种机器学习模型时能够更加高效和灵活。通过使用Hugging Face库，开发人员可以快速搭建和训练transformer模型，从而实现更复杂的自然语言处理和计算机视觉任务。 <div>
+总结:<br /><br /> Hugging Face是一个流行的库，用于在自然语言处理任务、计算机视觉和其他机器学习应用中处理transformer模型。该库在各种领域都得到广泛应用，特别是在处理自然语言处理和计算机视觉任务中表现出色。Hugging Face库为开发人员提供了丰富的工具和功能，使其在构建和部署各种机器学习模型时能够更加高效和灵活。通过使用Hugging Face库，开发人员可以快速搭建和训练transformer模型，从而实现更复杂的自然语言处理和计算机视觉任务。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of <a href="https://realpython.com/huggingface-transformers/">Hugging Face Transformers</a>. This library is a popular choice for working with transformer models in natural language processing tasks, computer vision, and other machine learning applications.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-24T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>pandas GroupBy: Grouping Real World Data in Python</title>
 <link>https://realpython.com/courses/pandas-groupby-real-world-data/</link>
