@@ -4,6 +4,22 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>Frida 安装</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1945680</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1945680</guid>
+<content:encoded><![CDATA[
+
+[md]
+逆向过程中，借助Frida 可以更快的实现软件的逆向破解，Frida不仅可以实现Android应用的逆向，对于IOS应用，Windows应用同样可以实现不错的效果
+
+本文可能由于frida 代码的不断更新，可能出现某些错误或者过时，大家尽量以官方文档为主：
+
+* frida-server 安 ...
+]]></content:encoded>
+<pubDate>Fri, 19 Jul 2024 12:36:50 +0000</pubDate>
+<pubDate>Fri, 19 Jul 2024 12:36:50 +0000</pubDate>
+</item>
 
 <item>
 <title>华为浏览器9.1.1.308</title>
