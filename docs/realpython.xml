@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Hugging Face Transformers: Leverage Open-Source AI in Python</title>
 <link>https://realpython.com/huggingface-transformers/</link>
 <guid>https://realpython.com/huggingface-transformers/</guid>
 <content:encoded><![CDATA[
 <div> Hugging Face, Transformers, Python, AI models, Model cards
-<br>
+<br />
 Hugging Face是一个强大的Python库，通过Transformers模块可以下载、操作和运行预训练的AI模型。Transformers库涵盖自然语言处理、计算机视觉、音频和多模态学习等多个领域的任务。使用预训练的开源模型可以降低成本、节省训练模型的时间，并能更好地控制部署的模型。Hugging Face生态系统包括模型、数据集、Spaces和付费服务，为开发者提供丰富的资源和工具。Model cards是Model Hub的核心组件，提供与每个模型相关的有用信息，可帮助用户选择和了解模型。总体来说，Hugging Face为用户提供了加速AI项目、促进创新和合作的平台。总结: <div>
 <div><p>Transformers is a powerful Python library created by Hugging Face that allows you to download, manipulate, and run thousands of pretrained, open-source AI models. These models cover multiple tasks across modalities like natural language processing, computer vision, audio, and multimodal learning. Using pretrained open-source models can reduce costs, save the time needed to train models from scratch, and give you more control over the models you deploy.</p>
 <p><strong>In this tutorial, you’ll learn how to:</strong></p>
@@ -97,10 +98,8 @@ Hugging Face是一个强大的Python库，通过Transformers模块可以下载�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-24T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Quiz: Hugging Face Transformers</title>
 <link>https://realpython.com/quizzes/hugging-face-transformers/</link>
