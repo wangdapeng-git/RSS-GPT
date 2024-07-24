@@ -4,6 +4,21 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Quiz: Hugging Face Transformers</title>
+<link>https://realpython.com/quizzes/hugging-face-transformers/</link>
+<guid>https://realpython.com/quizzes/hugging-face-transformers/</guid>
+<content:encoded><![CDATA[
+<div> transformer, natural language processing, computer vision, machine learning, Hugging Face
+
+总结:<br><br> Hugging Face是一个流行的库，用于在自然语言处理任务、计算机视觉和其他机器学习应用中处理transformer模型。该库在各种领域都得到广泛应用，特别是在处理自然语言处理和计算机视觉任务中表现出色。Hugging Face库为开发人员提供了丰富的工具和功能，使其在构建和部署各种机器学习模型时能够更加高效和灵活。通过使用Hugging Face库，开发人员可以快速搭建和训练transformer模型，从而实现更复杂的自然语言处理和计算机视觉任务。 <div>
+<p>In this quiz, you&rsquo;ll test your understanding of <a href="https://realpython.com/huggingface-transformers/">Hugging Face Transformers</a>. This library is a popular choice for working with transformer models in natural language processing tasks, computer vision, and other machine learning applications.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-07-24T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>pandas GroupBy: Grouping Real World Data in Python</title>
