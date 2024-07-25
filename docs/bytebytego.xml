@@ -4,6 +4,24 @@
 <title>ByteByteGo Newsletter</title>
 <link>https://blog.bytebytego.com</link>
 
+<item>
+<title>"Tidying" Code</title>
+<link>https://blog.bytebytego.com/p/tidying-code</link>
+<guid>https://blog.bytebytego.com/p/tidying-code</guid>
+<content:encoded><![CDATA[
+<div> 敏捷，重构，Kent Beck，TDD，书籍
+
+敏捷开发领域著名人物Kent Beck最新著作《Tidy First》介绍了代码重构的重要性。文章介绍了Kent在软件行业的重要贡献，包括签署敏捷宣言、推动测试驱动开发等实践。他曾在多家知名公司工作，并且积极撰写有关软件设计和开发的新闻。文章还描述了作者与Kent交流讨论书籍内容的经历。Kent提及他19年前就开始构思《Tidy First》，强调代码整洁对软件开发的重要性。总结：文章介绍了敏捷软件开发领域的重要人物Kent Beck及其新书《Tidy First》，强调了代码重构在软件开发中的重要性，突出了作者对此书的热切期盼。 <div>
+<p>I&#8217;ve found my new favorite book on refactoring code. It&#8217;s &#8220;<a href="https://www.amazon.com/Tidy-First-Personal-Exercise-Empirical/dp/1098151240/">Tidy First?</a>&#8221; by Kent Beck.</p><p>Kent Beck is a renowned figure in the software industry. One of Kent&#8217;s notable contributions is his role as a signatory of the Agile Manifesto that was created in 2001 and laid the foundation for the agile software development methodology.</p><p>Kent has also been a key figure in the industry&#8217;s rediscovery of test-driven development (TDD). TDD is a software development practice that emphasizes writing tests before writing the code.</p><p>Throughout his career, Kent has worked at several prominent companies, including Facebook, Apple Computer, and Gusto. In addition to his professional work, Kent is also an active writer. He publishes a newsletter titled &#8220;<a href="https://tidyfirst.substack.com/bytebytego">Software Design: Tidy First?</a>&#8221; which explores various aspects of software design and development. For readers interested in subscribing, here is a <a href="https://tidyfirst.substack.com/bytebytego">20% discount offer</a>.</p><p>Recently, I had the opportunity to meet Kent and talk about his book &#8220;Tidy First&#8221;.</p><div class="captioned-image-container"><figure><a class="image-link is-viewable-img image2" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff6ea57ee-22dc-43a6-ada7-a4a60275e5d1_1200x1600.jpeg" target="_blank"><div class="image2-inset"><source type="image/webp" /><img alt="" class="sizing-normal" height="1600" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff6ea57ee-22dc-43a6-ada7-a4a60275e5d1_1200x1600.jpeg" width="1200" /><div class="image-link-expand"><svg class="lucide lucide-maximize2 " fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" x2="14" y1="3" y2="10"></line><line x1="3" x2="10" y1="21" y2="14"></line></svg></div></div></a></figure></div><h2>Story of Tidy First&nbsp;</h2><p>I came to learn from Kent that the idea of the book Tidy First came to him around 19 years ago.</p>
+      <p>
+          <a href="https://blog.bytebytego.com/p/tidying-code">
+              Read more
+          </a>
+      </p>
+]]></content:encoded>
+<pubDate>Thu, 25 Jul 2024 15:31:02 GMT</pubDate>
+<pubDate>Thu, 25 Jul 2024 15:31:02 GMT</pubDate>
+</item>
 
 <item>
 <title>How Stripe Scaled to 5 Million Database Queries Per Second</title>
