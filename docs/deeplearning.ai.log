@@ -5431,3 +5431,12 @@ Existing_entries: 28
 Fetching from https://rsshub.app/deeplearning/thebatch
 append_entries: 0
 Finish: 2024-07-24 22:11:22.528427
+------------------------------------------------------
+Started: 2024-07-25 00:50:37.992627
+Existing_entries: 28
+Fetching from https://rsshub.app/deeplearning/thebatch
+Token length: 18120
+Summarized using GPT-3.5-turbo
+Append: [OpenAI Shrinks GPT-4o, Meta Withholds Models From Europe, Investors Hoard GPUs, Synthetic Talking Heads Get Expressive](https://www.deeplearning.ai/the-batch/issue-259)
+append_entries: 1
+Finish: 2024-07-25 00:50:43.630618
