@@ -4,6 +4,7 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+
 <item>
 <title>A step towards making heart health screening accessible for billions with PPG signals</title>
 <link>https://research.google/blog/a-step-towards-making-heart-health-screening-accessible-for-billions-with-ppg-signals/</link>
@@ -11,14 +12,11 @@
 <content:encoded><![CDATA[
 <div> 关键词: 文章, 总结, 提取, 关键词, 输出
 
-总结:<br><br>
+总结:<br /><br />
 本文介绍了如何提取文章中的关键词，并通过一个示例展示了如何用中文总结一篇文章。首先，我们需要提取文章中的关键词，然后整理成一个列表，以便后续使用。接着，我们可以用这些关键词来撰写文章的总结，确保包含所有重要要点。最后，我们需要按要点顺序逐条输出总结，以便读者更清晰地理解文章内容。通过这种方式，我们可以简洁明了地总结一篇文章的主要内容。 <div>
-
 ]]></content:encoded>
-<pubDate>2024-07-25T00:00:00+00:00</pubDate>
 <pubDate>2024-07-25T18:15:03.211732+00:00</pubDate>
 </item>
-
 <item>
 <title>Fast, accurate climate modeling with NeuralGCM</title>
 <link>https://research.google/blog/fast-accurate-climate-modeling-with-neuralgcm/</link>

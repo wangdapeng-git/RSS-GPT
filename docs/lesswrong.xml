@@ -4,20 +4,21 @@
 <title>LessWrong</title>
 <link>https://www.lesswrong.com</link>
 
+
 <item>
 <title>"AI achieves silver-medal standard solving International Mathematical Olympiad problems"</title>
 <link>https://www.lesswrong.com/posts/TyCdgpCfX7sfiobsH/ai-achieves-silver-medal-standard-solving-international</link>
 <guid>https://www.lesswrong.com/posts/TyCdgpCfX7sfiobsH/ai-achieves-silver-medal-standard-solving-international</guid>
 <content:encoded><![CDATA[
-<div> DeepMind, AlphaProof, AlphaGeometry, 解决数学问题, IMO<br>
-<br>
+<div> DeepMind, AlphaProof, AlphaGeometry, 解决数学问题, IMO<br />
+<br />
 1. DeepMind报告了两个解决数学问题的系统：AlphaProof和AlphaGeometry，能够完整解决2024年IMO的四个问题，居于银牌区域。
 2. AlphaProof通过LLM生成候选步骤并使用Lean进行验证，同时在训练中不断加强自动生成的问题的证明，类似于计算机围棋的方法。
 3. AlphaGeometry专为几何问题设计，前一个版本已达到金牌IMO标准，AlphaGeometry 2解决了2024年IMO的一个平面几何问题。
 4. AlphaProof解决了1、2和6号问题，AlphaGeometry 2解决了第4号问题，分别生成Lean和自有符号的证明。
 5. 系统需要将问题手动翻译成数学语言理解，解题时间从几分钟到三天不等，但解题速度预计会快速提高。 
 
-<br><br>总结: 
+<br /><br />总结: 
 1. DeepMind报告了两个解决数学问题的系统，分别是AlphaProof和AlphaGeometry。
 2. AlphaProof使用LLM生成候选步骤并使用Lean进行验证，同时不断加强证明。
 3. AlphaGeometry专为几何问题设计，AlphaGeometry 2解决了2024年IMO的一个问题。
@@ -26,9 +27,7 @@
 Published on July 25, 2024 3:58 PM GMT<br /><br /><p>Google DeepMind reports on a system for solving mathematical problems that allegedly is able to give complete solutions to four of the six problems on the 2024 IMO, putting it near the top of the silver-medal category.</p><p>Well, actually, <i>two</i> systems for solving mathematical problems: AlphaProof, which is more general-purpose, and AlphaGeometry, which is specifically for geometry problems. (This is AlphaGeometry 2; they reported earlier this year on a previous version of AlphaGeometry.)</p><p>AlphaProof works in the "obvious" way: an LLM generates candidate next steps which are checked using a formal proof-checking system, in this case Lean. One not-so-obvious thing, though: "The training loop was also applied during the contest, reinforcing proofs of self-generated variations of the contest problems until a full solution could be found."</p><p>(That last bit is reminiscent of something from the world of computer go: a couple of years ago someone <a href="https://www.reddit.com/r/baduk/comments/spt1mv/igo_hatsuyoron_120_possibly_solved_by_a_new/">trained a custom version of KataGo specifically to solve the infamous Igo Hatsuyoron problem 120</a>, starting with ordinary KataGo and feeding it training data containing positions reachable from the problem's starting position. They claim to have laid that problem to rest at last.)</p><p>AlphaGeometry is similar but uses something specialized for (I think) Euclidean planar geometry problems in place of Lean. The previous version of AlphaGeometry allegedly already performed at gold-medal IMO standard; they don't say anything about whether that version was already able to solve the 2024 IMO problem that was solved using AlphaGeometry 2.</p><p>AlphaProof was able to solve questions 1, 2, and 6 on this year's IMO (two algebra, one number theory). It produces Lean-formalized proofs. AlphaGeometry 2 was able to solve question 4 (plane geometry). It produces proofs in its own notation.</p><p>The solutions found by the Alpha... systems are at <a href="https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/imo-2024-solutions/index.html.">https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/imo-2024-solutions/index.html.</a> (There are links in the top-of-page navbar to solutions to the individual problems.)</p><p>(If you're curious about the IMO questions or want to try them yourself before looking at the machine-generated proofs, you can find them -- and those for previous years -- at <a href="https://www.imo-official.org/problems.aspx">https://www.imo-official.org/problems.aspx</a>.)</p><p>One caveat (note: an earlier version of what I wrote failed to notice this and quite wrongly explicitly claimed something different): "First, the problems were manually translated into formal mathematical language for our systems to understand." It feels to me like it shouldn't be so hard to teach an LLM to convert IMO problems into Lean or whatever, but apparently they aren't doing that yet. [EDITED to add:] But it seems they <i>are</i> doing this to generate training data. Perhaps the fact that they didn't do it for the IMO problem statements themselves reveals something about the limitations of their English-to-Lean translator?</p><p>Another caveat: "Our systems solved one problem within minutes and took up to three days to solve the others." Later on they say that AlphaGeometry 2 solved the geometry question within 19 seconds, so I guess that was also the one that was done "within minutes". Three days is a lot longer than human IMO contestants get given, but this feels to me like the sort of thing that will predictably improve pretty rapidly.</p><br /><br /><a href="https://www.lesswrong.com/posts/TyCdgpCfX7sfiobsH/ai-achieves-silver-medal-standard-solving-international#comments">Discuss</a>
 ]]></content:encoded>
 <pubDate>Thu, 25 Jul 2024 17:57:25 GMT</pubDate>
-<pubDate>Thu, 25 Jul 2024 17:57:25 GMT</pubDate>
 </item>
-
 <item>
 <title>You should go to ML conferences</title>
 <link>https://www.lesswrong.com/posts/czNgEuaxkXHL2g8mQ/you-should-go-to-ml-conferences</link>

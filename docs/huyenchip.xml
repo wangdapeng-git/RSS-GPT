@@ -4,13 +4,14 @@
 <title>Chip Huyen</title>
 <link>https://huyenchip.com</link>
 
+
 <item>
 <title>Building A Generative AI Platform</title>
 <link>https://huyenchip.com//2024/07/25/genai-platform.html</link>
 <guid>https://huyenchip.com//2024/07/25/genai-platform.html</guid>
 <content:encoded><![CDATA[
 <div> 构建平台、增强上下文、保护组件、优化性能、监控系统
-<br><br>总结:本文介绍了部署生成式AI应用的常见组件和架构。从简单的架构开始，逐步添加组件，包括增强上下文、保护措施、模型路由器、缓存和复杂逻辑。同时讨论了监控系统的重要性，包括日志、追踪和指标。最后，探讨了AI管道编排的重要性，指出选择合适的编排工具需要考虑集成性、支持复杂管道和易用性、性能和可扩展性。 <div>
+<br /><br />总结:本文介绍了部署生成式AI应用的常见组件和架构。从简单的架构开始，逐步添加组件，包括增强上下文、保护措施、模型路由器、缓存和复杂逻辑。同时讨论了监控系统的重要性，包括日志、追踪和指标。最后，探讨了AI管道编排的重要性，指出选择合适的编排工具需要考虑集成性、支持复杂管道和易用性、性能和可扩展性。 <div>
 <p>After studying how companies deploy generative AI applications, I noticed many similarities in their platforms. This post outlines the common components of a generative AI platform, what they do, and how they are implemented. I try my best to keep the architecture general, but certain applications might deviate. This is what the overall architecture looks like.</p>
 
 <center>
@@ -623,9 +624,7 @@ Consider the user-friendliness of the orchestrator. Look for intuitive APIs, com
 </ul>
 ]]></content:encoded>
 <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-<pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Measuring personal growth</title>
 <link>https://huyenchip.com//2024/04/17/personal-growth.html</link>

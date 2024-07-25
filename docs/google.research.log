@@ -663,3 +663,9 @@ Summarized using GPT-3.5-turbo
 Append: [A step towards making heart health screening accessible for billions with PPG signals](https://research.google/blog/a-step-towards-making-heart-health-screening-accessible-for-billions-with-ppg-signals/)
 append_entries: 1
 Finish: 2024-07-25 18:15:06.432566
+------------------------------------------------------
+Started: 2024-07-25 20:12:32.034974
+Existing_entries: 17
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+append_entries: 0
+Finish: 2024-07-25 20:12:37.299894
