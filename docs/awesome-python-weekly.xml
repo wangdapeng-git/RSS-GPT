@@ -4,6 +4,18 @@
 <title>Awesome Python Weekly</title>
 <link>https://python.libhunt.com/newsletter</link>
 
+<item>
+<title>🐍 Issue 426 - Creating a CSV to Graph Generator App Using ToolJet and Python Libraries 🚀</title>
+<link>https://python.libhunt.com/newsletter/426</link>
+<guid>https://python.libhunt.com/newsletter/426</guid>
+<content:encoded><![CDATA[
+<div> ToolJet, Python Libraries, CSV, Graph Generator, App
+<br>这篇文章介绍了如何使用ToolJet和Python库创建一个CSV转图表生成器应用。通过使用ToolJet的可视化工具和Python库，可以轻松地将CSV数据转换为图表。文章中详细介绍了如何使用ToolJet创建应用和配置数据源，然后使用Python库来处理CSV数据并生成图表。通过这种方法，用户可以快速创建一个功能强大的图表生成器应用，实现数据可视化的需求。<br><br>总结: <br>文章介绍了使用ToolJet和Python库创建CSV转图表生成器应用的步骤，包括创建应用、配置数据源和处理CSV数据。通过这种方法，可以快速实现数据可视化的需求。 <div>
+🐍 Issue 426 - Creating a CSV to Graph Generator App Using ToolJet and Python Libraries 🚀
+]]></content:encoded>
+<pubDate>Thu, 25 Jul 2024 13:42:00 -0800</pubDate>
+<pubDate>Thu, 25 Jul 2024 13:42:00 -0800</pubDate>
+</item>
 
 <item>
 <title>🐍 Issue 425 - How to build a Perplexity-like Chatbot in Slack?</title>
