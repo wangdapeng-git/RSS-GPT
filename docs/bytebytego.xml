@@ -4,6 +4,7 @@
 <title>ByteByteGo Newsletter</title>
 <link>https://blog.bytebytego.com</link>
 
+
 <item>
 <title>"Tidying" Code</title>
 <link>https://blog.bytebytego.com/p/tidying-code</link>
@@ -20,9 +21,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Thu, 25 Jul 2024 15:31:02 GMT</pubDate>
-<pubDate>Thu, 25 Jul 2024 15:31:02 GMT</pubDate>
 </item>
-
 <item>
 <title>How Stripe Scaled to 5 Million Database Queries Per Second</title>
 <link>https://blog.bytebytego.com/p/how-stripe-scaled-to-5-million-database</link>
