@@ -4350,3 +4350,12 @@ Existing_entries: 106
 Fetching from https://realpython.com/atom.xml
 append_entries: 0
 Finish: 2024-07-26 10:11:46.074750
+------------------------------------------------------
+Started: 2024-07-26 12:19:51.689744
+Existing_entries: 106
+Fetching from https://realpython.com/atom.xml
+Token length: 420
+Summarized using GPT-3.5-turbo
+Append: [The Real Python Podcast – Episode #214: Build Captivating Display Tables in Python With Great Tables](https://realpython.com/podcasts/rpp/214/)
+append_entries: 1
+Finish: 2024-07-26 12:19:55.617637
