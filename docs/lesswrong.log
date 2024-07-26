@@ -3280,3 +3280,9 @@ Summarized using GPT-3.5-turbo
 Append: [A Solomonoff Inductor Walks Into a Bar: Schelling Points for Communication](https://www.lesswrong.com/posts/QA7bQHpKymPBFBuHb/a-solomonoff-inductor-walks-into-a-bar-schelling-points-for)
 append_entries: 1
 Finish: 2024-07-26 08:14:07.946218
+------------------------------------------------------
+Started: 2024-07-26 10:11:50.343195
+Existing_entries: 144
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-07-26 10:11:51.435394
