@@ -729,3 +729,12 @@ Existing_entries: 17
 Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
 append_entries: 0
 Finish: 2024-07-26 16:13:53.034129
+------------------------------------------------------
+Started: 2024-07-26 18:14:39.630543
+Existing_entries: 17
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Smoothly editing material properties of objects with text-to-image models and synthetic data](https://research.google/blog/smoothly-editing-material-properties-of-objects-with-text-to-image-models-and-synthetic-data/)
+append_entries: 1
+Finish: 2024-07-26 18:14:47.638249
