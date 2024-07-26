@@ -3247,3 +3247,9 @@ Summarized using GPT-3.5-turbo
 Append: [A framework for thinking about AI power-seeking](https://www.lesswrong.com/posts/A9YYkbnjmfsP7Chfo/a-framework-for-thinking-about-ai-power-seeking)
 append_entries: 1
 Finish: 2024-07-25 22:11:38.767064
+------------------------------------------------------
+Started: 2024-07-26 00:50:31.270690
+Existing_entries: 143
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-07-26 00:50:33.010496
