@@ -10454,3 +10454,23 @@ Filter: [腾讯视频 海外版 WeTv 5.15.0.13210](https://www.52pojie.cn/forum.
 Filter: [微博轻享版 6.4.5版本 去掉了广告 页面也更加简洁](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1943706)
 append_entries: 0
 Finish: 2024-07-26 12:19:19.673726
+------------------------------------------------------
+Started: 2024-07-26 14:09:43.664842
+Existing_entries: 659
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Append: [东临书法 v1.4 免费宝藏书法学习软件，功能强大](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1948209)
+Append: [数据恢复软件R-Studio 9.4 Build 191346](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1948009)
+Append: [PC本地播放器AIMP v5.30.2560](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1948002)
+Filter: [音乐播放器 fooboxV7.31——基于foobar2000汉化版的美化整合版(24.7.25更新)](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1947801)
+Filter: [双色球根据近120期统计随机生成号码](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1947627)
+Filter: [GPT4All v3.0.0 本地部署语言大模型(LLM) 无需显卡 支持Win/macOS/Linux](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1947390)
+Filter: [统一游戏运行库 合集v1.1.0 | Unified GameBoost Runtimes](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1946610)
+Filter: [卡巴斯基企业版12.6.0.438](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1946407)
+Filter: [百度地图车机版2024最新版本v20.0.3安卓版纯净版！](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1945638)
+Filter: [高德地图谷歌版 13.18.0.1325 版本 无广告个人感觉更流畅点](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1945329)
+Filter: [爱奇艺国际版 v6.6.0无广告](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1945246)
+Filter: [词根单词 2.2.7版本 无广告版 学习英语更方便](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1944187)
+Filter: [Windows 11 （24H2）LTSC长期服务版俗称老坛酸菜最终版本26100](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1943894)
+Filter: [腾讯视频 海外版 WeTv 5.15.0.13210](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1943835)
+append_entries: 3
+Finish: 2024-07-26 14:09:45.644153
