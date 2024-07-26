@@ -3313,3 +3313,9 @@ Summarized using GPT-3.5-turbo
 Append: [Universal Basic Income and Poverty](https://www.lesswrong.com/posts/fPvssZk3AoDzXwfwJ/universal-basic-income-and-poverty)
 append_entries: 1
 Finish: 2024-07-26 18:14:37.294735
+------------------------------------------------------
+Started: 2024-07-26 20:13:46.618945
+Existing_entries: 145
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-07-26 20:13:47.527942
