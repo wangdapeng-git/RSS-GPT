@@ -3319,3 +3319,12 @@ Existing_entries: 145
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-07-26 20:13:47.527942
+------------------------------------------------------
+Started: 2024-07-26 22:11:45.376973
+Existing_entries: 145
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 3172
+Summarized using GPT-3.5-turbo
+Append: [Pacing Outside the Box: RNNs Learn to Plan in Sokoban](https://www.lesswrong.com/posts/CLijBSGKi6bbSHw46/pacing-outside-the-box-rnns-learn-to-plan-in-sokoban)
+append_entries: 1
+Finish: 2024-07-26 22:11:53.125392
