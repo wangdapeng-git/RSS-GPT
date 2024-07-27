@@ -3400,3 +3400,9 @@ Summarized using GPT-3.5-turbo
 Append: [How the AI safety technical landscape has changed in the last year, according to some practitioners](https://www.lesswrong.com/posts/vxwdfK7FEuM8Butr6/how-the-ai-safety-technical-landscape-has-changed-in-the)
 append_entries: 1
 Finish: 2024-07-27 20:11:20.281411
+------------------------------------------------------
+Started: 2024-07-27 22:10:10.103543
+Existing_entries: 148
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-07-27 22:10:11.080142
