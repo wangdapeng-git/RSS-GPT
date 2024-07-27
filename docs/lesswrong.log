@@ -3382,3 +3382,12 @@ Existing_entries: 146
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-07-27 16:13:25.079091
+------------------------------------------------------
+Started: 2024-07-27 18:14:49.230590
+Existing_entries: 146
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 38
+Summarized using GPT-3.5-turbo
+Append: [Caring about excellence](https://www.lesswrong.com/posts/hxX3PBRcrcsoeEAhr/caring-about-excellence)
+append_entries: 1
+Finish: 2024-07-27 18:14:52.934929
