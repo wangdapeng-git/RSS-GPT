@@ -4,6 +4,24 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>使用Python来获取机票最低价吧</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1948093</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1948093</guid>
+<content:encoded><![CDATA[
+
+[md]## 提要
+这个程序修改自论坛@cuterror
+修改内容如下:
+1. 新增配置文件设置，使用config.yaml管理配置
+2. 使用企业微信推送而不是QQ推送
+3. 新增日期范围设置，现在支持了选定日期区间查询范围票价，而不是输出全部
+[/md]
+[mw_shl_code=python,true]from venv ...
+]]></content:encoded>
+<pubDate>Fri, 26 Jul 2024 00:42:32 +0000</pubDate>
+<pubDate>Fri, 26 Jul 2024 00:42:32 +0000</pubDate>
+</item>
 
 <item>
 <title>微信VX多开 免扫码 登录 互斥体 可视化 Exui v1.1 易语言源码</title>
