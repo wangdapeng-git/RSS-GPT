@@ -3391,3 +3391,12 @@ Summarized using GPT-3.5-turbo
 Append: [Caring about excellence](https://www.lesswrong.com/posts/hxX3PBRcrcsoeEAhr/caring-about-excellence)
 append_entries: 1
 Finish: 2024-07-27 18:14:52.934929
+------------------------------------------------------
+Started: 2024-07-27 20:11:15.708893
+Existing_entries: 147
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 3024
+Summarized using GPT-3.5-turbo
+Append: [How the AI safety technical landscape has changed in the last year, according to some practitioners](https://www.lesswrong.com/posts/vxwdfK7FEuM8Butr6/how-the-ai-safety-technical-landscape-has-changed-in-the)
+append_entries: 1
+Finish: 2024-07-27 20:11:20.281411
