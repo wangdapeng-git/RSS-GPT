@@ -4,15 +4,16 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Quiz: Getting Started With Testing in Python</title>
 <link>https://realpython.com/quizzes/testing-python/</link>
 <guid>https://realpython.com/quizzes/testing-python/</guid>
 <content:encoded><![CDATA[
 <div> Python testing, fundamentals, quiz, complexity, application
-<br>
+<br />
 Python测试对于许多人来说可能会有很大的复杂性，但其实并不难。通过几个简单的步骤，您可以开始为应用程序创建简单的测试，然后逐步完善。这个测验可以帮助您检查对Python测试基础知识的理解。祝您好运！
-<br><br>
+<br /><br />
 总结: Python testing的基础知识是本文的重点，通过简单的步骤可以为应用程序创建测试，测试可能存在复杂性，但只要掌握基础知识，便可循序渐进地建立测试。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of <a href="https://realpython.com/python-testing/">testing your Python code</a>.</p>
 <p>Testing in Python is a huge topic and can come with a lot of complexity, but it doesn&rsquo;t need to be hard. You can get started creating simple tests for your application in a few easy steps and then build on it from there.</p>
@@ -20,7 +21,6 @@ Python测试对于许多人来说可能会有很大的复杂性，但其实并�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-25T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -49,10 +49,8 @@ Python测试对于许多人来说可能会有很大的复杂性，但其实并�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-25T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>The Real Python Podcast – Episode #214: Build Captivating Display Tables in Python With Great Tables</title>
 <link>https://realpython.com/podcasts/rpp/214/</link>
