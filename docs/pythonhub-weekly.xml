@@ -4,6 +4,7 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-07-28</title>
 <link>https://pythonhub.dev/digest/2024-07-28/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> Korvus, search SDK, RAG pipeline, Postgres, PyTorch Lightning
 
-总结:<br><br>
+总结:<br /><br />
 Korvus是一个搜索SDK，整合了整个RAG管道在一个数据库查询中。它基于Postgres构建，具有Python、JavaScript、Rust和C的绑定。PyTorch Lightning是一个全面的教程，教你如何简化深度学习模型开发。这篇文章讨论了Python中的时间戳时区陷阱，提供了避免陷阱的几个建议。另外，还介绍了如何在本地生成音频转录服务。文章还探讨了Python生成器中的资源管理和清理行为，以确保在生成器函数中进行正确的清理和资源管理。 <div>
 <div></div>
 
@@ -156,9 +157,7 @@ Korvus是一个搜索SDK，整合了整个RAG管道在一个数据库查询中�
 <hr />
 ]]></content:encoded>
 <pubDate>Sun, 28 Jul 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 28 Jul 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-07-21</title>
 <link>https://pythonhub.dev/digest/2024-07-21/</link>
