@@ -4,6 +4,160 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-07-28</title>
+<link>https://pythonhub.dev/digest/2024-07-28/</link>
+<guid>https://pythonhub.dev/digest/2024-07-28/</guid>
+<content:encoded><![CDATA[
+<div> Korvus, search SDK, RAG pipeline, Postgres, PyTorch Lightning
+
+总结:<br><br>
+Korvus是一个搜索SDK，整合了整个RAG管道在一个数据库查询中。它基于Postgres构建，具有Python、JavaScript、Rust和C的绑定。PyTorch Lightning是一个全面的教程，教你如何简化深度学习模型开发。这篇文章讨论了Python中的时间戳时区陷阱，提供了避免陷阱的几个建议。另外，还介绍了如何在本地生成音频转录服务。文章还探讨了Python生成器中的资源管理和清理行为，以确保在生成器函数中进行正确的清理和资源管理。 <div>
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://www.pypy.org/posts/2024/07/finding-simple-rewrite-rules-jit-z3.html">Finding Simple Rewrite Rules for the JIT with Z3</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/postgresml/korvus">Korvus</a></strong>
+    
+        <br /><span>Korvus is a search SDK that unifies the entire RAG pipeline in a single database query. Built on top of Postgres with bindings for Python, JavaScript, Rust and C.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.datacamp.com/tutorial/pytorch-lightning-tutorial">PyTorch Lightning: A Comprehensive Hands-On Tutorial</a></strong>
+    
+        <br /><span>This comprehensive, hands-on tutorial teaches you how to simplify deep learning model development with PyTorch Lightning. Perfect for beginners and experienced developers alike, it covers environment setup, model training, and practical examples.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/akiani/aidialer">AI Dialer</a></strong>
+    
+        <br /><span>A full stack app for interruptible, low-latency and near-human quality AI phone calls built from stitching LLMs, speech understanding tools, text-to-speech models, and Twilio’s phone API.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://nerderati.com/a-python-epoch-timestamp-timezone-trap/">A Python Epoch Timestamp Timezone Trap</a></strong>
+    
+        <br /><span>This is an article about a Python epoch timestamp timezone trap. It discusses how epoch timestamps can be tricky to work with in Python, especially when dealing with timezones. The author provides a few tips for avoiding the trap.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://www.jeremymorgan.com/tutorials/generative-ai/how-to-transcribe-audio">Transcribing Audio with Python on Your Local Machine</a></strong>
+    
+        <br /><span>If you don't want to pay for a service to transcribe your audio, you can generate it easily on your own machine with a little setup. Here's how.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://samgeo.codes/python-generator-cleanup/">Resource management and generators in Python</a></strong>
+    
+        <br /><span>The article explores resource management and cleanup behavior in Python generators, highlighting unexpected issues when generators are not fully consumed. It demonstrates various scenarios, including the use of context managers and the finally clause, to ensure proper cleanup and resource management in generator functions.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://sigmasd.github.io/blog/debug-story/">Deno-Python – A Debugging Story</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://matt.sh/python-project-structure-2024">Python Practical Package Packing 2024</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://jamesg.blog/2024/07/16/build-a-search-index/">Build a search index in Python</a></strong>
+    
+        <br /><span>How can search engines be so fast? While there are many parts of a search system, one of the key concepts to know is the inverted index.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/zby/LLMEasyTools">A helper for LLM SDKs</a></strong>
+    
+        <br /><span>LLMEasyTools generates tool schemas and executes function calls received from the LLM.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/mem0ai/mem0">mem0ai / mem0</a></strong>
+    
+        <br /><span>The memory layer for Personalized AI</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/snakers4/silero-vad">snakers4 / silero-vad</a></strong>
+    
+        <br /><span>Silero VAD: pre-trained enterprise-grade Voice Activity Detector</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/MervinPraison/PraisonAI">MervinPraison / PraisonAI</a></strong>
+    
+        <br /><span>PraisonAI application combines AutoGen and CrewAI or similar frameworks into a low-code solution for building and managing multi-agent LLM systems, focusing on simplicity, customisation, and efficient human-agent collaboration. Chat with your ENTIRE Codebase.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-07-21/">Python Hub Weekly Digest for 2024-07-21</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/exo-explore/exo">exo</a></strong>
+    
+        <br /><span>Run your own AI cluster at home with everyday devices.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/facebookresearch/MobileLLM">MobileLLM</a></strong>
+    
+        <br /><span>MobileLLM Optimizing Sub-billion Parameter Language Models for On-Device Use Cases. In ICML 2024.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/1yefuwang1/vectorlite">vectorlite</a></strong>
+    
+        <br /><span>A fast and tunable vector search extension for SQLite.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/sauljabin/kaskade">kaskade</a></strong>
+    
+        <br /><span>kaskade is a text user interface for kafka, which allows you to interact and consume topics from your terminal in style!</span>
+    
+    </p>
+
+
+<hr />
+]]></content:encoded>
+<pubDate>Sun, 28 Jul 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 28 Jul 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-07-21</title>
