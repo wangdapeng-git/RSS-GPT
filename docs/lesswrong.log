@@ -3481,3 +3481,9 @@ Summarized using GPT-3.5-turbo
 Append: [Inspired by: Failures in Kindness](https://www.lesswrong.com/posts/SAzrAyJw6LeQ4SAb6/inspired-by-failures-in-kindness)
 append_entries: 1
 Finish: 2024-07-28 22:10:48.373487
+------------------------------------------------------
+Started: 2024-07-29 00:52:13.284586
+Existing_entries: 149
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-07-29 00:52:14.751499
