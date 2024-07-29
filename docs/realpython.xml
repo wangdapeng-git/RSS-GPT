@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Strings and Character Data in Python</title>
 <link>https://realpython.com/python-strings/</link>
 <guid>https://realpython.com/python-strings/</guid>
 <content:encoded><![CDATA[
 <div> 字符串, 操作符, 方法, 索引, 创建
-<br>
+<br />
 Python中的字符串是处理文本数据的数据类型。字符串是由字符序列组成的，可以使用操作符和内置函数处理字符串，用索引和切片访问字符串中的字符，进行字符串插值和格式化，以及使用字符串方法。 Python没有单个字符数据类型，单个字符也是长度为一的字符串。字符串是不可变的，任何修改字符串的操作都会创建一个新的字符串。字符串是有序的，可以通过整数索引访问字符，索引从0开始。创建字符串的方法包括使用字符串字面值和str()函数。字符串字面值有标准字面值、原始字面值和格式化字面值。标准字面值使用单引号或双引号，原始字面值使用r前缀，格式化字面值使用f前缀。总结: 在Python中，你需要了解字符串的基本概念，包括如何创建、操作和使用字符串。字符串是不可变的字符序列，可以通过索引和切片访问其中的字符。使用字符串字面值和str()函数可以创建新的字符串。了解如何利用操作符、内置函数和字符串方法处理文本数据是编程中的基本技能。 <div>
 <div><p>In Python, <strong>string</strong> objects contain sequences of characters that allow you to manipulate textual data. It’s rare to find an application, program, or library that doesn’t need to manipulate strings to some extent. So, processing characters and strings is integral to programming and a fundamental skill for you as a Python programmer.</p>
 <p><strong>In this tutorial, you’ll learn how to:</strong></p>
@@ -163,10 +164,8 @@ Python中的字符串是处理文本数据的数据类型。字符串是由字�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-29T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Quiz: Getting Started With Testing in Python</title>
 <link>https://realpython.com/quizzes/testing-python/</link>
