@@ -4,6 +4,7 @@
 <title>AI at Meta Blog</title>
 <link>https://ai.meta.com/blog/</link>
 
+
 <item>
 <title>Sharing new research, models, and datasets from Meta FAIR</title>
 <link>https://ai.meta.com/blog/meta-fair-research-new-releases/</link>
@@ -12,10 +13,8 @@
 <div> 关键词: 文章 总结 要点 中文 输出
 
 总结: 
-文章提供了关于如何用中文总结一篇文章的方法。首先要提取关键词，然后用简练的语言概括出文章的要点。要点包括提取关键词、同一行输出、换行、写200字内的总结、按顺序列出要点。通过这些步骤，可以清晰地总结文章内容，帮助读者更好地理解和记忆文章的主要信息。<br><br> <div>
-
+文章提供了关于如何用中文总结一篇文章的方法。首先要提取关键词，然后用简练的语言概括出文章的要点。要点包括提取关键词、同一行输出、换行、写200字内的总结、按顺序列出要点。通过这些步骤，可以清晰地总结文章内容，帮助读者更好地理解和记忆文章的主要信息。<br /><br /> <div>
 ]]></content:encoded>
-<pubDate>2024-06-18T00:00:00+00:00</pubDate>
 <pubDate>2024-07-30T03:39:07.950085+00:00</pubDate>
 </item>
 <item>
@@ -24,12 +23,11 @@
 <guid>https://ai.meta.com/blog/saif-check-llama-3-validation-trust/</guid>
 <content:encoded><![CDATA[
 <div> SAIF CHECK、Meta Llama 3、验证、建立信任、AI模型
-<br>
-<br>
+<br />
+<br />
 总结：SAIF CHECK利用Meta Llama 3验证和建立信任AI模型。他们通过使用Meta Llama 3这一工具，对AI模型进行验证，确保其准确性和可靠性，进而增强用户对AI模型的信任度。这种方法有助于提高AI技术在各个领域的应用和发展。 <div>
 How SAIF CHECK is using Meta Llama 3 to validate and build trust in AI models
 ]]></content:encoded>
-<pubDate>2024-06-20T00:00:00+00:00</pubDate>
 <pubDate>2024-07-30T03:39:07.949854+00:00</pubDate>
 </item>
 <item>
@@ -39,10 +37,8 @@ How SAIF CHECK is using Meta Llama 3 to validate and build trust in AI models
 <content:encoded><![CDATA[
 <div> 关键词: 文章, 中文, 总结, 要点, 输出
 
-总结:<br><br>这篇文章使用中文撰写，内容涵盖了关键要点，并在最后进行总结输出。文章全文用中文语言书写，旨在提供简洁清晰的信息。对每个要点进行了分步处理，确保读者可以准确理解文章内容。输出格式规范，每个要点都在新的一行呈现。通过这样的结构和表达方式，读者可以轻松获取到文章中的重要信息。 <div>
-
+总结:<br /><br />这篇文章使用中文撰写，内容涵盖了关键要点，并在最后进行总结输出。文章全文用中文语言书写，旨在提供简洁清晰的信息。对每个要点进行了分步处理，确保读者可以准确理解文章内容。输出格式规范，每个要点都在新的一行呈现。通过这样的结构和表达方式，读者可以轻松获取到文章中的重要信息。 <div>
 ]]></content:encoded>
-<pubDate>2024-07-23T00:00:00+00:00</pubDate>
 <pubDate>2024-07-30T03:39:07.949610+00:00</pubDate>
 </item>
 <item>
@@ -52,12 +48,9 @@ How SAIF CHECK is using Meta Llama 3 to validate and build trust in AI models
 <content:encoded><![CDATA[
 <div> 关键词: 文章, 总结, 中文, 200字, 要点
 总结:
-<br><br>文章中介绍了如何用中文总结一篇文章，并提取关键词进行总结。在输出关键词后，按要点顺序，用中文简洁地总结了全文内容，涵盖了提取5个关键词、同一行输出、换行、200字内写总结和按顺序输出要点的要点。这个方法可以帮助读者更快速地理解文章内容，并加强对文章要点的记忆。 <div>
-
+<br /><br />文章中介绍了如何用中文总结一篇文章，并提取关键词进行总结。在输出关键词后，按要点顺序，用中文简洁地总结了全文内容，涵盖了提取5个关键词、同一行输出、换行、200字内写总结和按顺序输出要点的要点。这个方法可以帮助读者更快速地理解文章内容，并加强对文章要点的记忆。 <div>
 ]]></content:encoded>
-<pubDate>2024-07-29T00:00:00+00:00</pubDate>
 <pubDate>2024-07-30T03:39:07.949256+00:00</pubDate>
 </item>
-
 </channel>
 </rss>
