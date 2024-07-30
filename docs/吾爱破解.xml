@@ -4,6 +4,35 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>屏幕翻译 2.4.7版本  支持屏幕 文本 语音等多种翻译</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1949478</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1949478</guid>
+<content:encoded><![CDATA[
+
+【应用名称】屏幕翻译
+【应用版本】2.4.7
+【软件大小】41.70mb
+【适用型号】安卓
+【应用说明】屏幕翻译是一款专业的翻译翻译软件，支持多种翻译模式，满足不同用户的翻译需求，全部免费提供。是大家翻译语言文字的 ...
+]]></content:encoded>
+<pubDate>Tue, 30 Jul 2024 03:58:26 +0000</pubDate>
+<pubDate>Tue, 30 Jul 2024 03:58:26 +0000</pubDate>
+</item>
+<item>
+<title>系统端口工具 - 查看哪些进程占用了端口</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1947014</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1947014</guid>
+<content:encoded><![CDATA[
+
+[md]# 前言
+虽然端口占用情况使用很简单的`netstat -ano`就能够查看
+但是只能查询到进程的**pid**，但我们往往想要看到的是哪个**进程名**占用了端口，因此还需要去把**pid对应的进程名**找到，这样比较繁琐
+因此我制 ...
+]]></content:encoded>
+<pubDate>Tue, 23 Jul 2024 08:05:21 +0000</pubDate>
+<pubDate>Tue, 23 Jul 2024 08:05:21 +0000</pubDate>
+</item>
 
 <item>
 <title>LANDrop文件传输v2.3.2绿色版</title>
