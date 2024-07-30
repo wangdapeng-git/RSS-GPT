@@ -73,3 +73,4 @@
 - https://nlp.elvissaravia.com/feed -> https://wangdapeng-git.github.io/RSS-GPT/ML-PaperWeekly.xml
 - https://feed.cnblogs.com/blog/u/415579/rss/ -> https://wangdapeng-git.github.io/RSS-GPT/数据科学学习手札.xml
 - https://rss.diffbot.com/atom?url=https://research.google/blog/ -> https://wangdapeng-git.github.io/RSS-GPT/google.research.xml
+- https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/ -> https://wangdapeng-git.github.io/RSS-GPT/meta.ai.xml
