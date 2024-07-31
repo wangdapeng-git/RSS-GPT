@@ -1069,3 +1069,9 @@ Existing_entries: 18
 Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
 append_entries: 0
 Finish: 2024-07-31 08:13:59.685270
+------------------------------------------------------
+Started: 2024-07-31 10:09:58.101808
+Existing_entries: 18
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+append_entries: 0
+Finish: 2024-07-31 10:10:06.268524
