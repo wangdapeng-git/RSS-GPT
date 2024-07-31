@@ -3673,3 +3673,12 @@ Summarized using GPT-3.5-turbo
 Append: [Twitter thread on AI safety evals](https://www.lesswrong.com/posts/bDkqMtCpdSKsJQYc6/twitter-thread-on-ai-safety-evals)
 append_entries: 1
 Finish: 2024-07-31 10:09:55.770645
+------------------------------------------------------
+Started: 2024-07-31 12:20:34.306689
+Existing_entries: 153
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 26452
+Summarized using GPT-3.5-turbo
+Append: [Open Source Automated Interpretability for Sparse Autoencoder Features](https://www.lesswrong.com/posts/AhG3RJ6F5KvmKmAkd/open-source-automated-interpretability-for-sparse)
+append_entries: 1
+Finish: 2024-07-31 12:20:41.458909
