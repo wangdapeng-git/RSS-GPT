@@ -6115,3 +6115,12 @@ Existing_entries: 110
 Fetching from https://rsshub.app/deepmind/blog
 append_entries: 0
 Finish: 2024-07-31 16:13:20.753377
+------------------------------------------------------
+Started: 2024-07-31 18:14:20.312368
+Existing_entries: 110
+Fetching from https://rsshub.app/deepmind/blog
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Gemma Scope: helping the safety community shed light on the inner workings of language models](https://deepmind.google/discover/blog/gemma-scope-helping-the-safety-community-shed-light-on-the-inner-workings-of-language-models/)
+append_entries: 1
+Finish: 2024-07-31 18:14:25.360510

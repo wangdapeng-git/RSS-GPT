@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>How to Write an Installable Django App</title>
 <link>https://realpython.com/installable-django-app/</link>
 <guid>https://realpython.com/installable-django-app/</guid>
 <content:encoded><![CDATA[
 <div> Django, 安装, Python, 应用程序, 打包
-<br>
+<br />
 本教程介绍了如何将Django应用程序打包成可安装的包，并发布到PyPI。首先，您需要了解项目和应用程序之间的区别，然后学习如何创建适用于Django应用程序的pyproject.toml文件。接着，您将学习如何在Django项目外部启动Django以测试您的应用程序，然后使用nox跨多个Python和Django版本进行测试。最后，您将学习如何使用Twine将可安装的Django应用程序发布到PyPI。文章中包含了一个可下载的工作包，来帮助您制作可安装的Django应用程序。文章中通过一个收据应用程序的示例来演示从Django项目到可安装的Django应用程序的转换过程。 <div>
 <div><p>In the <a href="https://realpython.com/get-started-with-django-1/">Django</a> framework, a <strong>project</strong> refers to the collection of configuration files and code for a particular website. Django groups business logic into what it calls <strong>apps</strong>, which are the modules of the Django framework. There’s plenty of documentation on how to structure your projects and the apps within them, but when it comes time to package an installable Django app, information is harder to find.</p>
 <p>In this tutorial, you’ll learn how to take an app out of a <a href="https://realpython.com/django-setup/">Django project</a> and package it so that it’s installable. Once you’ve packaged your app, you can share it on <a href="https://pypi.org/">PyPI</a> so that others can fetch it through <code>pip</code>.</p>
@@ -109,10 +110,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-31T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Simulate a Text File in Python</title>
 <link>https://realpython.com/courses/simulate-text-file/</link>
