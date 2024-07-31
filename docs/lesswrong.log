@@ -3682,3 +3682,9 @@ Summarized using GPT-3.5-turbo
 Append: [Open Source Automated Interpretability for Sparse Autoencoder Features](https://www.lesswrong.com/posts/AhG3RJ6F5KvmKmAkd/open-source-automated-interpretability-for-sparse)
 append_entries: 1
 Finish: 2024-07-31 12:20:41.458909
+------------------------------------------------------
+Started: 2024-07-31 14:11:21.709928
+Existing_entries: 154
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-07-31 14:11:23.032828
