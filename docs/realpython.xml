@@ -4,6 +4,114 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>How to Write an Installable Django App</title>
+<link>https://realpython.com/installable-django-app/</link>
+<guid>https://realpython.com/installable-django-app/</guid>
+<content:encoded><![CDATA[
+<div> Django, 安装, Python, 应用程序, 打包
+<br>
+本教程介绍了如何将Django应用程序打包成可安装的包，并发布到PyPI。首先，您需要了解项目和应用程序之间的区别，然后学习如何创建适用于Django应用程序的pyproject.toml文件。接着，您将学习如何在Django项目外部启动Django以测试您的应用程序，然后使用nox跨多个Python和Django版本进行测试。最后，您将学习如何使用Twine将可安装的Django应用程序发布到PyPI。文章中包含了一个可下载的工作包，来帮助您制作可安装的Django应用程序。文章中通过一个收据应用程序的示例来演示从Django项目到可安装的Django应用程序的转换过程。 <div>
+<div><p>In the <a href="https://realpython.com/get-started-with-django-1/">Django</a> framework, a <strong>project</strong> refers to the collection of configuration files and code for a particular website. Django groups business logic into what it calls <strong>apps</strong>, which are the modules of the Django framework. There’s plenty of documentation on how to structure your projects and the apps within them, but when it comes time to package an installable Django app, information is harder to find.</p>
+<p>In this tutorial, you’ll learn how to take an app out of a <a href="https://realpython.com/django-setup/">Django project</a> and package it so that it’s installable. Once you’ve packaged your app, you can share it on <a href="https://pypi.org/">PyPI</a> so that others can fetch it through <code>pip</code>.</p>
+<p><strong>In this tutorial, you’ll learn:</strong></p>
+<ul>
+<li>What the differences are between writing <strong>stand-alone apps</strong> and writing <strong>apps inside of projects</strong></li>
+<li>How to create a <strong><code>pyproject.toml</code> file</strong> for publishing your Django app</li>
+<li>How to <strong>bootstrap Django</strong> outside of a Django project so you can test your app</li>
+<li>How to test across multiple versions of Python and Django using <strong><code>nox</code></strong></li>
+<li>How to publish your installable Django app to PyPI using <strong>Twine</strong></li>
+</ul>
+<p>This tutorial includes a working package to help guide you through the process of making an installable Django app. You can download the source code by clicking the link below:</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/installable-django-app-update-code/">Click here to download the free sample code</a> that shows you how to write an installable Django app.</p>
+</div>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link"></a></h2>
+<p>This tutorial requires some familiarity with <a href="https://www.djangoproject.com/">Django</a>, <a href="https://pip.pypa.io/"><code>pip</code></a>, <a href="https://pypi.org">PyPI</a>, <a href="https://github.com/pyenv/pyenv"><code>pyenv</code></a>—or an equivalent virtual environment tool—and <a href="https://nox.thea.codes/"><code>nox</code></a>. To learn more about these, you can check out the following resources:</p>
+<ul>
+<li><a href="https://realpython.com/tutorials/django/">Django Tutorials</a></li>
+<li><a href="https://realpython.com/what-is-pip/">Using Python’s pip to Manage Your Projects’ Dependencies</a></li>
+<li><a href="https://realpython.com/pypi-publish-python-package/">How to Publish an Open-Source Python Package to PyPI</a></li>
+<li><a href="https://realpython.com/intro-to-pyenv/">Managing Multiple Python Versions With pyenv</a></li>
+</ul>
+<h2 id="starting-a-sample-django-app-in-a-project">Starting a Sample Django App in a Project<a class="headerlink" href="#starting-a-sample-django-app-in-a-project" title="Permanent link"></a></h2>
+<p>Even if you set out to make your Django app available as a package, you’ll likely start inside a project. In the sample code, you’ll find a <code>000_before</code> directory that shows the code before the app is moved onto its own, demonstrating the process of transitioning from a Django project to an installable Django app.  </p>
+<p>You can also download the finished app at the <a href="https://pypi.org/project/realpython-django-receipts/">PyPI realpython-django-receipts</a> package page, or install the package by running <code>python -m pip install realpython-django-receipts</code>.</p>
+<p>The sample app is a short representation of the line items on a receipt. In the <code>000_before</code> folder, you’ll find a directory named <code>sample_project</code> that contains a working Django project:</p>
+<div class="highlight"><pre><span></span><code>sample_project/
+│
+├── receipts/
+│   ├── fixtures/
+│   │   └── receipts.json
+│   │
+│   ├── migrations/
+│   │   ├── 0001_initial.py
+│   │   └── __init__.py
+│   │
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+│
+├── sample_project/
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+│
+├── db.sqlite3
+├── manage.py
+├── resetdb.sh
+└── runserver.sh
+</code></pre></div>
+<p>This tutorial was written using Django 5.0.7 and it was tested with Python 3.8 through 3.12. All of the steps outlined in this tutorial should be compatible with earlier versions of Django going back to Django 1.8. However, some modifications will be necessary if you’re using Python 2. For simplicity, the examples in this tutorial assume at least Python 3.8 across the code base.</p>
+<h3 id="creating-the-django-project-from-scratch">Creating the Django Project From Scratch<a class="headerlink" href="#creating-the-django-project-from-scratch" title="Permanent link"></a></h3>
+<p>The sample project and receipts app were created using the Django <code>admin</code> command and some small edits. To start, run the following code inside of a clean virtual environment:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Shell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">$ </span>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>Django
+<span class="gp">$ </span>django-admin<span class="w"> </span>startproject<span class="w"> </span>sample_project
+<span class="gp">$ </span><span class="nb">cd</span><span class="w"> </span>sample_project
+<span class="gp">$ </span>python<span class="w"> </span>manage.py<span class="w"> </span>startapp<span class="w"> </span>receipts
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>This creates the <code>sample_project</code> project directory structure and a <code>receipts</code> app subdirectory with template files that you’ll use to create your installable Django app.</p>
+<p>Next, the <code>sample_project/settings.py</code> file needs a few modifications:</p>
+<ul>
+<li>Add <code>"127.0.0.1"</code> to the <code>ALLOWED_HOSTS</code> setting so you can test locally.</li>
+<li>Add <code>"receipts"</code> to the <code>INSTALLED_APPS</code> list.</li>
+</ul>
+<p>You’ll also need to register the <code>receipts</code> app’s URLs in the <code>sample_project/urls.py</code> file. To do so, add <code>path("receipts/", include("receipts.urls"))</code> to the <code>url_patterns</code> list. Note that you’ll need to add the <code>include</code> function as an import from <code>django.urls</code>.</p>
+<h3 id="exploring-the-receipts-sample-app">Exploring the Receipts Sample App<a class="headerlink" href="#exploring-the-receipts-sample-app" title="Permanent link"></a></h3>
+<p>The app consists of two ORM model classes: <code>Item</code> and <code>Receipt</code>. The <code>Item</code> class contains database field declarations for a description and a cost. The cost is contained in a <a href="https://docs.djangoproject.com/en/dev/ref/models/fields/#decimalfield"><code>DecimalField</code></a>. It’s never a good idea to use floating-point numbers to represent money. Instead, you should always use <a href="https://stackoverflow.com/questions/3730019/why-not-use-double-or-float-to-represent-currency">fixed-point numbers</a> when dealing with currencies.</p>
+<p>The <code>Receipt</code> class is a collection point for <code>Item</code> objects. This is achieved with a <code>ForeignKey</code> on <code>Item</code> that points to <code>Receipt</code>. <code>Receipt</code> also includes <code>total()</code> for getting the total cost of <code>Item</code> objects contained in the <code>Receipt</code>:</p>
+</div><h2><a href="https://realpython.com/installable-django-app/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/installable-django-app/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-07-31T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Simulate a Text File in Python</title>
