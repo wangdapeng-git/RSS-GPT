@@ -4,6 +4,18 @@
 <title>Awesome Python Weekly</title>
 <link>https://python.libhunt.com/newsletter</link>
 
+<item>
+<title>🐍 Issue 427 - FastHTML – Modern web applications in pure Python</title>
+<link>https://python.libhunt.com/newsletter/427</link>
+<guid>https://python.libhunt.com/newsletter/427</guid>
+<content:encoded><![CDATA[
+<div> FastHTML, Modern, Web applications, Pure Python, Issue 427
+总结:<br><br>文章介绍了FastHTML这个工具，它可以让开发者使用纯Python来构建现代化的Web应用程序。FastHTML提供了简洁易用的API接口，让开发过程更加高效和简单。开发者可以利用FastHTML快速构建具有现代化特性的Web应用，而无需深入学习JavaScript等前端技术。这使得开发过程更加快速和便捷，同时也减少了学习曲线。通过使用FastHTML，开发者可以专注于Python编程，而不必担心前端技术的繁琐细节，从而提高了开发效率和代码质量。FastHTML的出现为Python开发者带来了新的可能性，让他们可以更轻松地开发出现代化的Web应用程序。 <div>
+🐍 Issue 427 - FastHTML – Modern web applications in pure Python
+]]></content:encoded>
+<pubDate>Thu, 01 Aug 2024 13:42:00 -0800</pubDate>
+<pubDate>Thu, 01 Aug 2024 13:42:00 -0800</pubDate>
+</item>
 
 <item>
 <title>🐍 Issue 426 - Creating a CSV to Graph Generator App Using ToolJet and Python Libraries 🚀</title>

@@ -4030,3 +4030,12 @@ Existing_entries: 20
 Fetching from https://python.libhunt.com/newsletter/feed
 append_entries: 0
 Finish: 2024-08-01 20:12:20.960747
+------------------------------------------------------
+Started: 2024-08-01 22:10:14.258283
+Existing_entries: 20
+Fetching from https://python.libhunt.com/newsletter/feed
+Token length: 63
+Summarized using GPT-3.5-turbo
+Append: [🐍 Issue 427 - FastHTML – Modern web applications in pure Python](https://python.libhunt.com/newsletter/427)
+append_entries: 1
+Finish: 2024-08-01 22:10:19.962331
