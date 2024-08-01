@@ -11491,3 +11491,15 @@ Filter: [双色球根据近120期统计随机生成号码](https://www.52pojie.c
 Filter: [爱奇艺国际版 v6.6.0无广告](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1945246)
 append_entries: 0
 Finish: 2024-07-31 22:10:24.181838
+------------------------------------------------------
+Started: 2024-08-01 00:55:05.915674
+Existing_entries: 702
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [龙卷风收音机 v4.6 去广告版（可定时可录音）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1949741)
+Filter: [指南针pro  1.1.2版本 更全面的指南针app](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1949465)
+Append: [自动滚屏v1.0单文件版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1949131)
+Filter: [天文通 v1.0.24 一款完全免费的天文学习与观星软件](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1948713)
+Filter: [统一游戏运行库 合集v1.1.0 | Unified GameBoost Runtimes](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1946610)
+Filter: [爱奇艺国际版 v6.6.0无广告](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1945246)
+append_entries: 1
+Finish: 2024-08-01 00:55:08.530213
