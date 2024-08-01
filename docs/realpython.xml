@@ -4,23 +4,22 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Quiz: Python's Built-in Exceptions: A Walkthrough With Examples</title>
 <link>https://realpython.com/quizzes/python-built-in-exceptions/</link>
 <guid>https://realpython.com/quizzes/python-built-in-exceptions/</guid>
 <content:encoded><![CDATA[
-<div> 内建异常、Python、处理、调试、代码、理解、常见异常、帮助、核心主题、异常处理、调试代码、处理异常、调试代码、常见内建异常。 <br>
-异常处理是Python中的一个核心主题，理解如何使用一些常见的内置异常可以帮助您调试代码并处理自己的异常。在Python中，异常处理是至关重要的，了解常见异常的用法可以提高代码的质量和可靠性。不仅可以帮助您更好地理解代码的执行流程和可能遇到的问题，还可以使您的代码更加健壮和易于维护。通过合理地处理异常，可以提高代码的稳定性和可读性，使其更易于调试和维护。总结:<br>异常处理是Python中一个重要的核心主题，掌握常见的内建异常可以帮助您更好地处理和调试代码，提高代码的质量和可靠性。 <div>
+<div> 内建异常、Python、处理、调试、代码、理解、常见异常、帮助、核心主题、异常处理、调试代码、处理异常、调试代码、常见内建异常。 <br />
+异常处理是Python中的一个核心主题，理解如何使用一些常见的内置异常可以帮助您调试代码并处理自己的异常。在Python中，异常处理是至关重要的，了解常见异常的用法可以提高代码的质量和可靠性。不仅可以帮助您更好地理解代码的执行流程和可能遇到的问题，还可以使您的代码更加健壮和易于维护。通过合理地处理异常，可以提高代码的稳定性和可读性，使其更易于调试和维护。总结:<br />异常处理是Python中一个重要的核心主题，掌握常见的内建异常可以帮助您更好地处理和调试代码，提高代码的质量和可靠性。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of the most commonly used <a href="https://realpython.com/python-built-in-exceptions/">built-in exceptions in Python</a>.</p>
 <p>Exception handling is a core topic in Python. Knowing how to use some of the most common built-in exceptions can help you to debug your code and handle your own exceptions.</p>
 <p>Good luck!</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-07-31T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>How to Write an Installable Django App</title>
 <link>https://realpython.com/installable-django-app/</link>

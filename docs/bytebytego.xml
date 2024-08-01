@@ -4,13 +4,14 @@
 <title>ByteByteGo Newsletter</title>
 <link>https://blog.bytebytego.com</link>
 
+
 <item>
 <title>A Crash Course on Domain-Driven Design</title>
 <link>https://blog.bytebytego.com/p/a-crash-course-on-domain-driven-design</link>
 <guid>https://blog.bytebytego.com/p/a-crash-course-on-domain-driven-design</guid>
 <content:encoded><![CDATA[
-<div> 领域驱动设计，模型，业务逻辑，软件开发，可维护，可扩展<br>
-领域驱动设计是一种软件开发方法，强调将主要关注点放在核心领域上，并基于该领域的模型构建复杂设计。通过建立技术和领域专家之间的合作关系，可以更好地理解和呈现业务概念、规则和流程。在当今微服务和云计算架构盛行的时代，没有清晰和明确定义的领域模型指导设计的系统容易变成“大球形泥块”。领域驱动设计帮助我们建立与核心领域和业务逻辑相一致的、更具可维护性和可扩展性的系统。 <br><br>总结:领域驱动设计强调将主要关注点放在核心领域上，重视领域模型的建立，促进技术和领域专家的合作，有助于构建更具可维护性和可扩展性的系统。 <div>
+<div> 领域驱动设计，模型，业务逻辑，软件开发，可维护，可扩展<br />
+领域驱动设计是一种软件开发方法，强调将主要关注点放在核心领域上，并基于该领域的模型构建复杂设计。通过建立技术和领域专家之间的合作关系，可以更好地理解和呈现业务概念、规则和流程。在当今微服务和云计算架构盛行的时代，没有清晰和明确定义的领域模型指导设计的系统容易变成“大球形泥块”。领域驱动设计帮助我们建立与核心领域和业务逻辑相一致的、更具可维护性和可扩展性的系统。 <br /><br />总结:领域驱动设计强调将主要关注点放在核心领域上，重视领域模型的建立，促进技术和领域专家的合作，有助于构建更具可维护性和可扩展性的系统。 <div>
 <p>Developing software for complex domains is a challenging task.&nbsp;</p><p>As the complexity of the problem domain grows, it becomes increasingly difficult to create software that accurately represents the business concepts, rules, and processes. Poorly designed software can quickly turn into an incomprehensible tangle of code that is difficult to understand, maintain, and extend.</p><p>Domain-Driven Design (DDD) offers a solution to this problem.</p><p>DDD is an approach to software development that tackles domain complexity by emphasizing the importance of modeling the core domain and business logic and using those models as the foundation for software design.</p><p>At its heart, Domain-Driven Design is about:</p><ul><li><p>Placing the primary focus on the core domain.</p></li><li><p>Basing complex designs on a model of the domain</p></li><li><p>Building collaboration between technical and domain experts.</p></li></ul><p>The need for Domain-Driven Design has become more pressing in recent years. Architectures based on microservices and cloud computing have resulted in systems composed of numerous small components that interact in intricate ways. Without a clear and well-defined model of the domain guiding their design, such systems can quickly become a "big ball of mud".&nbsp;</p><p>In this article, we&#8217;ll understand the basics of Domain-Driven Design and its key concepts that can help us build more maintainable and extensible systems that are aligned with the core domain and business logic.</p><div class="captioned-image-container"><figure><a class="image-link is-viewable-img image2" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F813befc8-72c0-45fc-9568-b9bc5ca9a69d_2250x2840.png" target="_blank"><div class="image2-inset"><source type="image/webp" /><img alt="" class="sizing-normal" height="1838" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F813befc8-72c0-45fc-9568-b9bc5ca9a69d_2250x2840.png" width="1456" /><div class="image-link-expand"><svg class="lucide lucide-maximize2 " fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" x2="14" y1="3" y2="10"></line><line x1="3" x2="10" y1="21" y2="14"></line></svg></div></div></a></figure></div>
       <p>
           <a href="https://blog.bytebytego.com/p/a-crash-course-on-domain-driven-design">
@@ -19,9 +20,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Thu, 01 Aug 2024 15:31:02 GMT</pubDate>
-<pubDate>Thu, 01 Aug 2024 15:31:02 GMT</pubDate>
 </item>
-
 <item>
 <title>EP122: API Gateway 101</title>
 <link>https://blog.bytebytego.com/p/ep122-api-gateway-101</link>
