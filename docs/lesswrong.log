@@ -3823,3 +3823,12 @@ Existing_entries: 155
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-02 10:12:25.084713
+------------------------------------------------------
+Started: 2024-08-02 12:20:24.023120
+Existing_entries: 155
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 3796
+Summarized using GPT-3.5-turbo
+Append: [Dragon Agnosticism](https://www.lesswrong.com/posts/vp9KArish8X5xxvFc/dragon-agnosticism)
+append_entries: 1
+Finish: 2024-08-02 12:20:31.153885
