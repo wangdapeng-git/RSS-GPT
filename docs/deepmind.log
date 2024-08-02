@@ -6259,3 +6259,9 @@ Summarized using GPT-3.5-turbo
 Append: [Mapping the misuse of generative AI](https://deepmind.google/discover/blog/mapping-the-misuse-of-generative-ai/)
 append_entries: 1
 Finish: 2024-08-02 14:10:04.861933
+------------------------------------------------------
+Started: 2024-08-02 16:13:16.923099
+Existing_entries: 112
+Fetching from https://rsshub.app/deepmind/blog
+append_entries: 0
+Finish: 2024-08-02 16:13:17.005187
