@@ -3862,3 +3862,12 @@ Summarized using GPT-3.5-turbo
 Append: [AI Rights for Human Safety](https://www.lesswrong.com/posts/mbebDMCgfGg4BzLMf/ai-rights-for-human-safety)
 append_entries: 2
 Finish: 2024-08-02 20:11:59.563933
+------------------------------------------------------
+Started: 2024-08-02 22:11:21.313522
+Existing_entries: 158
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 35622
+Summarized using GPT-3.5-turbo
+Append: [The ‘strong’ feature hypothesis could be wrong](https://www.lesswrong.com/posts/tojtPCCRpKLSHBdpn/the-strong-feature-hypothesis-could-be-wrong)
+append_entries: 1
+Finish: 2024-08-02 22:11:26.583871
