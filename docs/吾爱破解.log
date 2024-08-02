@@ -11722,3 +11722,16 @@ Filter: [卡巴斯基企业版12.6.0.438](https://www.52pojie.cn/forum.php?mod=v
 Filter: [大乐透根据近120期统计随机生成号码](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1945898)
 append_entries: 2
 Finish: 2024-08-02 12:19:35.697903
+------------------------------------------------------
+Started: 2024-08-02 14:09:57.219139
+Existing_entries: 719
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [ToDesk4.7.4.3自改静默版，无界面、无托盘提示、进程隐藏、仅保留后台进程](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1949896)
+Filter: [龙卷风收音机 v4.6 去广告版（可定时可录音）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1949741)
+Filter: [指南针pro  1.1.2版本 更全面的指南针app](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1949465)
+Filter: [音乐播放器 fooboxV7.31(build 2)——基于foobar2000汉化版的美化整合版(24.8.2更新)](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1947801)
+Filter: [统一游戏运行库 合集v1.1.0 | Unified GameBoost Runtimes](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1946610)
+Filter: [卡巴斯基企业版12.6.0.438](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1946407)
+Filter: [大乐透根据近120期统计随机生成号码](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1945898)
+append_entries: 0
+Finish: 2024-08-02 14:09:59.687512
