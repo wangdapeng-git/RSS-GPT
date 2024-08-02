@@ -3850,3 +3850,15 @@ Existing_entries: 156
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-02 18:14:50.630976
+------------------------------------------------------
+Started: 2024-08-02 20:11:50.063550
+Existing_entries: 156
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 12259
+Summarized using GPT-3.5-turbo
+Append: [A Simple Toy Coherence Theorem](https://www.lesswrong.com/posts/DXxEp3QWzeiyPMM3y/a-simple-toy-coherence-theorem)
+Token length: 2576
+Summarized using GPT-3.5-turbo
+Append: [AI Rights for Human Safety](https://www.lesswrong.com/posts/mbebDMCgfGg4BzLMf/ai-rights-for-human-safety)
+append_entries: 2
+Finish: 2024-08-02 20:11:59.563933
