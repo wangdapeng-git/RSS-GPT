@@ -4,16 +4,17 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-08-04</title>
 <link>https://pythonhub.dev/digest/2024-08-04/</link>
 <guid>https://pythonhub.dev/digest/2024-08-04/</guid>
 <content:encoded><![CDATA[
-<div> Rye Ruff Pyright formatting linting typechecking tools<br>
-Mypy static type checker Python release features performance improvements bug fixes<br>
-REST API design tips standards consistency documentation integration user-friendly efficient strategies<br>
-plotnine visualisation library Grammar of Graphics customised area chart coal production data<br>
-Python module itertools iterators use<br><br>总结:
+<div> Rye Ruff Pyright formatting linting typechecking tools<br />
+Mypy static type checker Python release features performance improvements bug fixes<br />
+REST API design tips standards consistency documentation integration user-friendly efficient strategies<br />
+plotnine visualisation library Grammar of Graphics customised area chart coal production data<br />
+Python module itertools iterators use<br /><br />总结:
 本文介绍了使用Rye、Ruff和Pyright等工具进行Python项目设置的现代方法。同时讨论了Mypy作为Python的静态类型检查器，在新版本中包括的新功能、性能改进和Bug修复。另外还提供了6个关键的REST API设计技巧，涵盖了遵循标准、保持一致性、编写清晰文档、简化集成等方面，帮助创建用户友好且高效的API。此外，也介绍了plotnine可视化库的使用，以及Python模块itertools中可用的迭代器及如何使用。 <div>
 <div></div>
 
@@ -175,9 +176,7 @@ Python module itertools iterators use<br><br>总结:
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 04 Aug 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 04 Aug 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-07-28</title>
 <link>https://pythonhub.dev/digest/2024-07-28/</link>
