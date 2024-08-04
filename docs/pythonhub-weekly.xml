@@ -4,6 +4,179 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-08-04</title>
+<link>https://pythonhub.dev/digest/2024-08-04/</link>
+<guid>https://pythonhub.dev/digest/2024-08-04/</guid>
+<content:encoded><![CDATA[
+<div> Rye Ruff Pyright formatting linting typechecking tools<br>
+Mypy static type checker Python release features performance improvements bug fixes<br>
+REST API design tips standards consistency documentation integration user-friendly efficient strategies<br>
+plotnine visualisation library Grammar of Graphics customised area chart coal production data<br>
+Python module itertools iterators use<br><br>总结:
+本文介绍了使用Rye、Ruff和Pyright等工具进行Python项目设置的现代方法。同时讨论了Mypy作为Python的静态类型检查器，在新版本中包括的新功能、性能改进和Bug修复。另外还提供了6个关键的REST API设计技巧，涵盖了遵循标准、保持一致性、编写清晰文档、简化集成等方面，帮助创建用户友好且高效的API。此外，也介绍了plotnine可视化库的使用，以及Python模块itertools中可用的迭代器及如何使用。 <div>
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://rdrn.me/postmodern-python/">Beyond Hypermodern: Python is easy now</a></strong>
+    
+        <br /><span>This is an article about setting up a modern Python project. It discusses using tools like Rye, Ruff, and Pyright for formatting, linting, and type checking.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/mriale/PyDPainter">A Clone of Deluxe Paint II Written in Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/spipm/Depix">spipm / Depix</a></strong>
+    
+        <br /><span>Recovers passwords from pixelized screenshots</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://mypy-lang.blogspot.com/2024/07/mypy-111-released.html">Mypy 1.11 Released</a></strong>
+    
+        <br /><span>Mypy is a static type checker for Python. This release includes new features, performance improvements and bug fixes.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=SjUQLryotAk">How to Design a REST API That Doesn’t SUCK</a></strong>
+    
+        <br /><span>Learn 6 essential tips for designing a great REST API that even big companies often overlook. From following standards and maintaining consistency to writing clear documentation and simplifying integration, this video covers everything you need to create user-friendly and efficient APIs. Don't miss out on the key strategies for improving your API design!</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://nrennie.rbind.io/blog/plotnine-annotated-area-chart">Annotated area charts with plotnine</a></strong>
+    
+        <br /><span>The `plotnine` visualisation library brings the Grammar of Graphics to Python. This post walks through the process of creating a customised, annotated area chart of coal production data.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://mathspp.com/blog/module-itertools-overview">Module itertools overview</a></strong>
+    
+        <br /><span>This article briefly describes the iterators available in the Python module itertools and how to use them.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://e10v.me/tea-tasting-analysis-of-experiments/">Tea-tasting, a Python package for the statistical analysis of A/B tests</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://bernsteinbear.com/blog/toy-abstract-interpretation/">Abstract interpretation in the Toy Optimizer</a></strong>
+    
+        <br /><span>In this blog post, I’m going to write a small abtract interpreter for the Toy IR and then show how we can use it to do some simple optimizations.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://differ.blog/p/implementing-instant-search-with-flask-and-htmx-2d3a5e">Implementing Instant Search with Flask and HTMX</a></strong>
+    
+        <br /><span>Step-by-step guide to making an interactive search bar with Flask and HTMX.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/igrek51/wat">Wat – Deep inspection of Python objects</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/google-deepmind/treescope">Treescope: Interactive HTML visualization library for Python neural networks</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-07-28/">Python Hub Weekly Digest for 2024-07-28</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://fastht.ml/">FastHTML – Modern web applications in pure Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/apple/ml-4m">apple / ml-4m</a></strong>
+    
+        <br /><span>4M: Massively Multimodal Masked Modeling</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/VigneshVSV/hololinked">hololinked</a></strong>
+    
+        <br /><span>Pythonic data acquisition which is HTTP compatible and beginner friendly</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/caspii/dinkydash">DinkyDash</a></strong>
+    
+        <br /><span>A family dashboard for kids.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://fabridamicelli.github.io/posts/2023-07-13-optimize-fastapi.html">Fast(er)API: Optimizing Processing Time</a></strong>
+    
+        <br /><span>A few simple tips to make your REST API go faster.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/opendatalab/PDF-Extract-Kit">PDF-Extract-Kit</a></strong>
+    
+        <br /><span>A Comprehensive Toolkit for High-Quality PDF Content Extraction.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/christo-olivier/modelsmith">modelsmith</a></strong>
+    
+        <br /><span>Python library that allows you to get structured responses in the form of Pydantic models and Python types from Anthropic, Google Vertex AI and OpenAI models</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/meta-llama/llama-agentic-system">llama-agentic-system</a></strong>
+    
+        <br /><span>Agentic components of the Llama Stack APIs.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1dv811q/flpc_probably_the_fastest_regex_library_for/">flpc: Probably the fastest regex library for Python. Made with Rust 🦀 and PyO3</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 04 Aug 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 04 Aug 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-07-28</title>
