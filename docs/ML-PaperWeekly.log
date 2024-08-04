@@ -2356,3 +2356,12 @@ Existing_entries: 26
 Fetching from https://nlp.elvissaravia.com/feed
 append_entries: 0
 Finish: 2024-08-04 14:10:35.029980
+------------------------------------------------------
+Started: 2024-08-04 16:12:00.771117
+Existing_entries: 26
+Fetching from https://nlp.elvissaravia.com/feed
+Token length: 4380
+Summarized using GPT-3.5-turbo
+Append: [🥇Top ML Papers of the Week](https://nlp.elvissaravia.com/p/top-ml-papers-of-the-week-511)
+append_entries: 1
+Finish: 2024-08-04 16:12:05.480922
