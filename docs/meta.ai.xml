@@ -4,6 +4,7 @@
 <title>AI at Meta Blog</title>
 <link>https://ai.meta.com/blog/</link>
 
+
 <item>
 <title>Call for Applications: Llama 3.1 Impact Grants</title>
 <link>https://ai.meta.com/blog/llama-3-1-impact-grants-call-for-applications/</link>
@@ -11,13 +12,10 @@
 <content:encoded><![CDATA[
 <div> 关键词：文章、总结、中文、要点、提取
 
-总结：<br><br>这篇文章介绍了如何用中文总结文章的方法，首先提取出关键词，然后用这些关键词整理出包含所有要点的总结。提取关键词有助于抓住文章的重点，然后在整理总结时可以按照这些关键词的顺序来写，保证不遗漏重要信息。中文总结是一种有效的学习和记忆方法，能帮助读者更好地理解和消化文章内容。通过提取关键词、整理要点和写总结，读者可以更快速地掌握文章的主旨和核心观点。 <div>
-
+总结：<br /><br />这篇文章介绍了如何用中文总结文章的方法，首先提取出关键词，然后用这些关键词整理出包含所有要点的总结。提取关键词有助于抓住文章的重点，然后在整理总结时可以按照这些关键词的顺序来写，保证不遗漏重要信息。中文总结是一种有效的学习和记忆方法，能帮助读者更好地理解和消化文章内容。通过提取关键词、整理要点和写总结，读者可以更快速地掌握文章的主旨和核心观点。 <div>
 ]]></content:encoded>
-<pubDate>2024-08-05T00:00:00+00:00</pubDate>
 <pubDate>2024-08-05T16:13:49.339943+00:00</pubDate>
 </item>
-
 <item>
 <title>Sharing new research, models, and datasets from Meta FAIR</title>
 <link>https://ai.meta.com/blog/meta-fair-research-new-releases/</link>
