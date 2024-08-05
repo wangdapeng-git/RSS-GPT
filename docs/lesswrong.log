@@ -4090,3 +4090,12 @@ Summarized using GPT-3.5-turbo
 Append: [Near-mode thinking on AI](https://www.lesswrong.com/posts/ASLHfy92vCwduvBRZ/near-mode-thinking-on-ai)
 append_entries: 1
 Finish: 2024-08-05 20:11:37.552182
+------------------------------------------------------
+Started: 2024-08-05 22:10:21.059617
+Existing_entries: 162
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 21897
+Summarized using GPT-3.5-turbo
+Append: [Circular Reasoning](https://www.lesswrong.com/posts/8yuQua2hgSiowv6qp/circular-reasoning)
+append_entries: 1
+Finish: 2024-08-05 22:10:28.206448
