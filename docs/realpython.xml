@@ -4,6 +4,155 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Functional Programming in Python: When and How to Use It</title>
+<link>https://realpython.com/python-functional-programming/</link>
+<guid>https://realpython.com/python-functional-programming/</guid>
+<content:encoded><![CDATA[
+<div> first-class citizens, lambda, map(), filter(), reduce()<br>
+首先，Python中函数是一等公民，支持lambda表达式，map()、filter()、reduce()等函数式编程工具。函数是Python中常见的对象，可以被赋值给变量，作为参数传递给其他函数，甚至可以作为字典的键。函数式编程的主要特点是使用纯函数，避免副作用和可变数据，使得程序透明、高级和可并行化。Python虽然支持函数式编程，但也包含其他编程范式的特征。虽然Python的函数式编程不如其他语言那么深入，但在阅读他人代码或需要时，了解和使用Python的函数式编程能力仍然具有优势。总结：Python函数是一等公民，支持lambda表达式和函数式编程工具，使得函数式编程在Python中实现简单且灵活。 <div>
+<div><p><strong>Functional programming</strong> is a programming paradigm in which the primary method of computation is the evaluation of functions. But how does Python support functional programming?</p>
+<p><strong>In this tutorial, you’ll learn:</strong></p>
+<ul>
+<li>What the <strong>functional programming</strong> paradigm entails</li>
+<li>What it means to say that <strong>functions</strong> are <strong>first-class citizens</strong> in Python</li>
+<li>How to define <strong>anonymous functions</strong> with the <strong><code>lambda</code></strong> keyword</li>
+<li>How to implement functional code using <strong><code>map()</code></strong>, <strong><code>filter()</code></strong>, and <strong><code>reduce()</code></strong></li>
+</ul>
+<p>Functional programming typically plays a minor role in Python code, but it’s still good to be familiar with it. You’ll probably encounter it from time to time when reading code written by others. And you may even find situations where it’s advantageous to use Python’s functional programming capabilities in your own code.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-functional-programming-code/">Click here to download the free sample code</a> that shows you when and how to use  functional programming in Python.</p>
+</div>
+<h2 id="what-is-functional-programming">What Is Functional Programming?<a class="headerlink" href="#what-is-functional-programming" title="Permanent link"></a></h2>
+<p>A <strong>pure function</strong> is a function whose output value follows solely from its input values without any observable <a href="https://realpython.com/defining-your-own-python-function/#side-effects">side effects</a>. In <strong>functional programming</strong>, a program consists primarily of the evaluation of pure functions. Computation proceeds by nested or <a href="https://en.wikipedia.org/wiki/Function_composition_(computer_science)">composed function calls</a> without changes to state or mutable data.</p>
+<p>The functional paradigm is popular because it offers several advantages over other programming paradigms. Functional code is:</p>
+<ul>
+<li><strong>High level:</strong> You describe the result you want rather than explicitly specifying the steps required to get there. Single statements tend to be concise but pack a lot of punch.</li>
+<li><strong>Transparent:</strong> The behavior of a pure function can be described by its inputs and outputs, without intermediary values. This eliminates the possibility of side effects and facilitates <a href="https://realpython.com/python-debugging-pdb/">debugging</a>.</li>
+<li><strong>Parallelizable:</strong> Routines that don’t cause side effects can more easily <a href="https://realpython.com/learning-paths/python-concurrency-parallel-programming/">run in parallel</a> with one another.</li>
+</ul>
+<p>Many programming languages support some degree of functional programming. In some languages, virtually all code follows the functional paradigm. <a href="https://www.haskell.org">Haskell</a> is one such example. Python, by contrast, does support functional programming but contains features of other programming models as well.</p>
+<p>While it’s true that an in-depth description of <a href="https://en.wikipedia.org/wiki/Functional_programming">functional programming</a> is somewhat complex, the goal here isn’t to present a rigorous definition but to show you what you can do by way of functional programming in Python.</p>
+<h2 id="how-well-does-python-support-functional-programming">How Well Does Python Support Functional Programming?<a class="headerlink" href="#how-well-does-python-support-functional-programming" title="Permanent link"></a></h2>
+<p>To support functional programming, it’s beneficial if a <a href="https://realpython.com/defining-your-own-python-function/">function</a> in a given programming language can do these two things:</p>
+<ol>
+<li>Take another function as an argument</li>
+<li>Return another function to its caller</li>
+</ol>
+<p>Python plays nicely in both respects. Everything in Python is an <a href="https://realpython.com/python-variables/#object-references">object</a>, and all objects in Python have more or less equal stature. Functions are no exception.</p>
+<p>In Python, functions are <strong>first-class citizens</strong>. This means that functions have the same characteristics as values like <a href="https://realpython.com/python-strings/">strings</a> and <a href="https://realpython.com/python-numbers/">numbers</a>. Anything you would expect to be able to do with a string or number, you can also do with a function.</p>
+<p>For example, you can assign a function to a variable. You can then use that variable the same way you would use the function itself:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="linenos"> 1</span><span class="gp">&gt;&gt;&gt; </span><span class="k">def</span> <span class="nf">func</span><span class="p">():</span>
+<span class="linenos"> 2</span><span class="gp">... </span>    <span class="nb">print</span><span class="p">(</span><span class="s2">"I am function func()!"</span><span class="p">)</span>
+<span class="linenos"> 3</span><span class="gp">...</span>
+<span class="linenos"> 4</span>
+<span class="linenos"> 5</span><span class="gp">&gt;&gt;&gt; </span><span class="n">func</span><span class="p">()</span>
+<span class="linenos"> 6</span><span class="go">I am function func()!</span>
+<span class="linenos"> 7</span>
+<span class="hll"><span class="linenos"> 8</span><span class="gp">&gt;&gt;&gt; </span><span class="n">another_name</span> <span class="o">=</span> <span class="n">func</span>
+</span><span class="linenos"> 9</span><span class="gp">&gt;&gt;&gt; </span><span class="n">another_name</span><span class="p">()</span>
+<span class="linenos">10</span><span class="go">I am function func()!</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The assignment <code>another_name = func</code> on line 8 creates a new reference to <code>func()</code> named <code>another_name</code>. You can then call the function by either of the two names, <code>func</code> or <code>another_name</code>, as shown on lines 5 and 9.</p>
+<p>You can display a function to the console with <a href="https://realpython.com/python-print/"><code>print()</code></a>, include it as an element in a composite data object like a <a href="https://realpython.com/python-lists-tuples/">list</a>, or even use it as a <a href="https://realpython.com/python-dicts/">dictionary</a> key:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="k">def</span> <span class="nf">func</span><span class="p">():</span>
+<span class="gp">... </span>    <span class="nb">print</span><span class="p">(</span><span class="s2">"I am function func()!"</span><span class="p">)</span>
+<span class="gp">...</span>
+
+<span class="hll"><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">"cat"</span><span class="p">,</span> <span class="n">func</span><span class="p">,</span> <span class="mi">42</span><span class="p">)</span>
+</span><span class="go">cat &lt;function func at 0x7f81b4d29bf8&gt; 42</span>
+
+<span class="hll"><span class="gp">&gt;&gt;&gt; </span><span class="n">objects</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"cat"</span><span class="p">,</span> <span class="n">func</span><span class="p">,</span> <span class="mi">42</span><span class="p">]</span>
+</span><span class="gp">&gt;&gt;&gt; </span><span class="n">objects</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="go">&lt;function func at 0x7f81b4d29bf8&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">objects</span><span class="p">[</span><span class="mi">1</span><span class="p">]()</span>
+<span class="go">I am function func()!</span>
+
+<span class="hll"><span class="gp">&gt;&gt;&gt; </span><span class="n">d</span> <span class="o">=</span> <span class="p">{</span><span class="s2">"cat"</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="n">func</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">42</span><span class="p">:</span> <span class="mi">3</span><span class="p">}</span>
+</span><span class="gp">&gt;&gt;&gt; </span><span class="n">d</span><span class="p">[</span><span class="n">func</span><span class="p">]</span>
+<span class="go">2</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this example, <code>func()</code> appears in all the same contexts as the values <code>"cat"</code> and <code>42</code>, and the interpreter handles it just fine.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> What you can or can’t do with an object in Python depends to some extent on context. Some operations work for certain object types but not for others. </p>
+<p>For example, you can add two integer objects or <a href="https://realpython.com/python-string-concatenation/">concatenate</a> two string objects with the plus operator (<code>+</code>), but the plus operator isn’t defined for function objects.</p>
+</div>
+<p>For present purposes, what matters is that functions in Python satisfy the two criteria beneficial for functional programming listed above. You can pass a function to another function as an argument:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="linenos"> 1</span><span class="gp">&gt;&gt;&gt; </span><span class="k">def</span> <span class="nf">inner</span><span class="p">():</span>
+<span class="linenos"> 2</span><span class="gp">... </span>    <span class="nb">print</span><span class="p">(</span><span class="s2">"I am function inner()!"</span><span class="p">)</span>
+<span class="linenos"> 3</span><span class="gp">...</span>
+<span class="linenos"> 4</span>
+<span class="linenos"> 5</span><span class="gp">&gt;&gt;&gt; </span><span class="k">def</span> <span class="nf">outer</span><span class="p">(</span><span class="n">function</span><span class="p">):</span>
+<span class="linenos"> 6</span><span class="gp">... </span>    <span class="n">function</span><span class="p">()</span>
+<span class="linenos"> 7</span><span class="gp">...</span>
+<span class="linenos"> 8</span>
+<span class="hll"><span class="linenos"> 9</span><span class="gp">&gt;&gt;&gt; </span><span class="n">outer</span><span class="p">(</span><span class="n">inner</span><span class="p">)</span>
+</span><span class="linenos">10</span><span class="go">I am function inner()!</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+</div><h2><a href="https://realpython.com/python-functional-programming/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-functional-programming/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-08-05T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>The Real Python Podcast – Episode #215: Fetching Graph Data in Django With Strawberry &amp; Prototype Purgatory</title>
