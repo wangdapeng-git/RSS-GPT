@@ -5199,3 +5199,9 @@ Summarized using GPT-3.5-turbo
 Append: [Interacting With REST APIs and Python](https://realpython.com/courses/interacting-rest-apis-python/)
 append_entries: 1
 Finish: 2024-08-06 16:13:53.113287
+------------------------------------------------------
+Started: 2024-08-06 18:15:28.922085
+Existing_entries: 119
+Fetching from https://realpython.com/atom.xml
+append_entries: 0
+Finish: 2024-08-06 18:15:29.254321

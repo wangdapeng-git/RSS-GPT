@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Interacting With REST APIs and Python</title>
 <link>https://realpython.com/courses/interacting-rest-apis-python/</link>
 <guid>https://realpython.com/courses/interacting-rest-apis-python/</guid>
 <content:encoded><![CDATA[
 <div> REST architecture, REST APIs, requests library, build a REST API, Python tools
-<br>
+<br />
 REST architecture 是一种常用的编程风格，通过 REST API 可以访问 Web 数据。使用 requests 库可以从 REST API 消费数据，而构建 REST API 需要遵循一定步骤。Python 提供了一些优秀的工具用于构建 REST API。总结: REST architecture 提供了访问 web 数据的方式，可以通过 requests 库获取 REST API 数据，同时可以使用 Python 工具构建自己的 REST API。 <div>
 <p>There&rsquo;s an amazing amount of data available on the Web. Many <strong>web services</strong>, like YouTube and GitHub, make their data accessible to third-party applications through an <strong>application programming interface (API)</strong>. One of the most popular ways to build APIs is the <strong>REST</strong> architecture style. Python provides some great tools not only to get data from REST APIs but also to build your own Python REST APIs.</p>
 <p><strong>In this video course, you&rsquo;ll learn:</strong></p>
@@ -24,10 +25,8 @@ REST architecture 是一种常用的编程风格，通过 REST API 可以访问 
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-08-06T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Quiz: Functional Programming in Python: When and How to Use It</title>
 <link>https://realpython.com/quizzes/python-functional-programming/</link>
