@@ -4099,3 +4099,12 @@ Summarized using GPT-3.5-turbo
 Append: [Circular Reasoning](https://www.lesswrong.com/posts/8yuQua2hgSiowv6qp/circular-reasoning)
 append_entries: 1
 Finish: 2024-08-05 22:10:28.206448
+------------------------------------------------------
+Started: 2024-08-06 00:51:52.879271
+Existing_entries: 163
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 12092
+Summarized using GPT-3.5-turbo
+Append: [Fear of centralized power vs. fear of misaligned AGI: Vitalik Buterin on 80,000 Hours](https://www.lesswrong.com/posts/6iJrd8c9jxRstxJyE/fear-of-centralized-power-vs-fear-of-misaligned-agi-vitalik)
+append_entries: 1
+Finish: 2024-08-06 00:51:59.119477
