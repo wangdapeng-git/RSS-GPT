@@ -12217,3 +12217,14 @@ Filter: [更新知乎盐选小说下载脚本](https://www.52pojie.cn/forum.php?
 Filter: [双色球根据近120期统计随机生成号码](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1947627)
 append_entries: 1
 Finish: 2024-08-06 06:16:57.503579
+------------------------------------------------------
+Started: 2024-08-06 08:13:36.849101
+Existing_entries: 747
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [极速端口扫描工具rustscan2.3.0](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1951524)
+Filter: [某听书小程序升级了，分享破解思路](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1949927)
+Filter: [指南针pro  1.1.2版本 更全面的指南针app](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1949465)
+Filter: [更新知乎盐选小说下载脚本](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1948774)
+Filter: [双色球根据近120期统计随机生成号码](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1947627)
+append_entries: 0
+Finish: 2024-08-06 08:13:38.671398
