@@ -4108,3 +4108,9 @@ Summarized using GPT-3.5-turbo
 Append: [Fear of centralized power vs. fear of misaligned AGI: Vitalik Buterin on 80,000 Hours](https://www.lesswrong.com/posts/6iJrd8c9jxRstxJyE/fear-of-centralized-power-vs-fear-of-misaligned-agi-vitalik)
 append_entries: 1
 Finish: 2024-08-06 00:51:59.119477
+------------------------------------------------------
+Started: 2024-08-06 02:31:36.615030
+Existing_entries: 164
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-08-06 02:31:36.915225
