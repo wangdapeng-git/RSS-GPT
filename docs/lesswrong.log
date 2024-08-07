@@ -4186,3 +4186,12 @@ Existing_entries: 166
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-07 00:51:50.498255
+------------------------------------------------------
+Started: 2024-08-07 02:33:47.461607
+Existing_entries: 166
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 34759
+Summarized using GPT-3.5-turbo
+Append: [WTH is Cerebrolysin, actually?](https://www.lesswrong.com/posts/ZznBxPdZEB6ETeZvS/wth-is-cerebrolysin-actually)
+append_entries: 1
+Finish: 2024-08-07 02:33:51.914912
