@@ -4228,3 +4228,9 @@ Summarized using GPT-3.5-turbo
 Append: [Self-explaining SAE features](https://www.lesswrong.com/posts/8ev6coxChSWcxCDy8/self-explaining-sae-features)
 append_entries: 1
 Finish: 2024-08-07 12:21:13.041829
+------------------------------------------------------
+Started: 2024-08-07 14:10:46.983196
+Existing_entries: 168
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-08-07 14:10:47.496805
