@@ -4,6 +4,101 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Asynchronous Iterators and Iterables in Python</title>
+<link>https://realpython.com/python-async-iterators/</link>
+<guid>https://realpython.com/python-async-iterators/</guid>
+<content:encoded><![CDATA[
+<div> async iterators, async iterables, Python, .__aiter__(), .__anext__()
+
+异步迭代器和可迭代对象是Python中的重要概念。异步迭代器用于控制异步for循环，而异步可迭代对象是可以使用异步for循环进行迭代的对象。它们允许您在不阻塞代码的情况下迭代异步对象，从而实现异步执行不同的任务。异步迭代器要实现.__aiter__()和.__anext__()方法，返回的下一个对象必须是awaitable对象。在迭代器到达末尾时，要通过引发StopAsyncIteration异常来结束异步迭代过程。通过实现异步函数，可以快速地创建等待对象。整个概念中，异步迭代器和可迭代对象在异步编程中扮演着重要角色，使得在Python中进行异步迭代变得更加灵活。<br><br>总结: 异步迭代器和异步可迭代对象是Python中的重要概念，它们允许在异步编程中进行迭代操作。异步迭代器必须实现.__aiter__()和.__anext__()方法，返回的对象必须是awaitable对象。在异步编程中，异步迭代器和可迭代对象支持异步for循环，使得异步任务的执行更加灵活和高效。 <div>
+<div><p>When you write asynchronous code in Python, you’ll likely need to create asynchronous iterators and iterables at some point. Asynchronous iterators are what Python uses to control <code>async for</code> loops, while asynchronous iterables are objects that you can iterate over using <code>async for</code> loops.</p>
+<p>Both tools allow you to iterate over awaitable objects without blocking your code. This way, you can perform different tasks asynchronously.</p>
+<p><strong>In this tutorial, you’ll:</strong></p>
+<ul>
+<li>Learn what <strong>async iterators</strong> and <strong>iterables</strong> are in Python</li>
+<li>Create async <strong>generator expressions</strong> and <strong>generator iterators</strong></li>
+<li>Code async iterators and iterables with the <strong><code>.__aiter__()</code></strong> and <strong><code>.__anext__()</code></strong> methods</li>
+<li>Use async iterators in <strong>async loops</strong> and <strong>comprehensions</strong></li>
+</ul>
+<p>To get the most out of this tutorial, you should know the basics of Python’s <a href="https://realpython.com/python-iterators-iterables/">iterators and iterables</a>. You should also know about Python’s <a href="https://realpython.com/python-async-features/">asynchronous features</a> and <a href="https://realpython.com/async-io-python/">tools</a>.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-async-iterators/">Click here to download the free sample code</a> that you’ll use to learn about asynchronous iterators and iterables in Python.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Asynchronous Iterators and Iterables in Python” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/python-async-iterators/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="Asynchronous Iterators and Iterables in Python" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Asynchronous-Iterators-and-Iterables-in-Python_Watermarked.c7ed7ce35df8.jpg" style="background: #b9abe6;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/python-async-iterators/"><span class="my-0 h4">Asynchronous Iterators and Iterables in Python</span></a> 
+      <p class="text-muted mb-0 small">Take this quiz to test your understanding of how to create and use Python async iterators and iterables in the context of asynchronous code.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="getting-to-know-async-iterators-and-iterables-in-python">Getting to Know Async Iterators and Iterables in Python<a class="headerlink" href="#getting-to-know-async-iterators-and-iterables-in-python" title="Permanent link"></a></h2>
+<p>Iterators and iterables are fundamental components in Python. You’ll use them in almost all your programs where you iterate over data streams using a <a href="https://realpython.com/python-for-loop/"><code>for</code> loop</a>. Iterators power and control the iteration process, while iterables typically hold data that you want to iterate over.</p>
+<p>Python iterators implement the <a href="https://en.wikipedia.org/wiki/Iterator_pattern">iterator design pattern</a>, which allows you to traverse a container and access its elements. To implement this pattern, iterators need the <code>.__iter__()</code> and <code>.__next__()</code> <a href="https://realpython.com/python-magic-methods/">special methods</a>. Similarly, iterables are typically data containers that implement the <code>.__iter__()</code> method.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> To dive deeper into iterators and iterables, check out the <a href="https://realpython.com/python-iterators-iterables/">Iterators and Iterables in Python: Run Efficient Iterations</a> tutorial.</p>
+</div>
+<p>Python has extended the concept of iterators and iterables to <strong>asynchronous programming</strong> with the <code>asyncio</code> module and the <a href="https://realpython.com/python-keywords/#asynchronous-programming-keywords-async-await"><code>async</code> and <code>await</code></a> keywords. In this scenario, asynchronous iterators drive the <strong>asynchronous iteration process</strong>, mainly powered by <code>async for</code> loops and <a href="#asynchronous-comprehensions-and-generator-expressions">comprehensions</a>.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> In this tutorial, you won’t dive into the intricacies of Python’s asynchronous programming. So, you should be familiar with the related concepts. If you’re not, then you can check out the following tutorials:</p>
+<ul>
+<li><a href="https://realpython.com/python-async-features/">Getting Started With Async Features in Python</a></li>
+<li><a href="https://realpython.com/async-io-python/">Async IO in Python: A Complete Walkthrough</a></li>
+</ul>
+<p>In these tutorials, you’ll gain the required background to prepare for exploring asynchronous iterators and iterables in more depth.</p>
+</div>
+<p>In the following sections, you’ll briefly examine the concepts of asynchronous iterators and iterables in Python.</p>
+<h3 id="async-iterators">Async Iterators<a class="headerlink" href="#async-iterators" title="Permanent link"></a></h3>
+<p>Python’s documentation defines <strong>asynchronous iterators</strong>, or <em>async iterators</em> for short, as the following:</p>
+<blockquote>
+<p>An object that implements the <a href="https://docs.python.org/3/reference/datamodel.html#object.__aiter__"><code>.__aiter__()</code></a> and <a href="https://docs.python.org/3/reference/datamodel.html#object.__anext__"><code>.__anext__()</code></a> [special] methods. <code>.__anext__()</code> must return an <a href="https://docs.python.org/3/glossary.html#term-awaitable">awaitable</a> object. [An] <a href="https://docs.python.org/3/reference/compound_stmts.html#async-for"><code>async for</code></a> [loop] resolves the awaitables returned by an asynchronous iterator’s <code>.__anext__()</code> method until it raises a <a href="https://docs.python.org/3/library/exceptions.html#StopAsyncIteration"><code>StopAsyncIteration</code></a> exception. (<a href="https://docs.python.org/3/glossary.html#term-asynchronous-iterator">Source</a>)</p>
+</blockquote>
+<p>Similar to regular iterators that must implement <code>.__iter__()</code> and <code>.__next__()</code>, async iterators must implement <code>.__aiter__()</code> and <code>.__anext__()</code>. In regular iterators, the <code>.__iter__()</code> method usually returns the iterator itself. This is also true for async iterators.</p>
+<p>To continue with this parallelism, in regular iterators, the <code>.__next__()</code> method must return the next object for the iteration. In async iterators, the <code>.__anext__()</code> method must return the next object, which must be awaitable.</p>
+<p>Python defines awaitable objects as described in the quote below:</p>
+<blockquote>
+<p>An object that can be used in an <a href="https://docs.python.org/3/reference/expressions.html#await"><code>await</code></a> expression. [It] can be a <a href="https://docs.python.org/3/glossary.html#term-coroutine">coroutine</a> or an object with an <a href="https://docs.python.org/3/reference/datamodel.html#object.__await__"><code>.__await__()</code></a> method. (<a href="https://docs.python.org/3/glossary.html#term-awaitable">Source</a>)</p>
+</blockquote>
+<p>In practice, a quick way to make an awaitable object in Python is to call an asynchronous function. You define this type of function with the <a href="https://docs.python.org/3/reference/compound_stmts.html#async-def"><code>async def</code></a> keyword construct. This call creates a <strong>coroutine object</strong>.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> You can also create awaitable objects by implementing the <code>.__await__()</code> special method in a custom class. This method must return an <a href="https://docs.python.org/3/glossary.html#term-iterator">iterator</a> that yields control back to the <a href="https://docs.python.org/3/library/asyncio-eventloop.html">event loop</a> until the awaited result is ready. This topic is beyond the scope of this tutorial.</p>
+</div>
+<p>When the data stream runs out of data, the method must raise a <code>StopAsyncIteration</code> exception to end the asynchronous iteration process.</p>
+<p>Here’s an example of an async iterator that allows iterating over a range of numbers asynchronously:</p>
+</div><h2><a href="https://realpython.com/python-async-iterators/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-async-iterators/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-08-07T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Quiz: Asynchronous Iterators and Iterables in Python</title>

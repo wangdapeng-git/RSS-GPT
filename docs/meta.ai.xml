@@ -4,17 +4,16 @@
 <title>AI at Meta Blog</title>
 <link>https://ai.meta.com/blog/</link>
 
+
 <item>
 <title>Methods for adapting large language models</title>
 <link>https://ai.meta.com/blog/adapting-large-language-models-llms/</link>
 <guid>https://ai.meta.com/blog/adapting-large-language-models-llms/</guid>
 <content:encoded><![CDATA[
-<div> 关键词: 文章 总结 关键词 中文 提取<br>
-总结:<br>
+<div> 关键词: 文章 总结 关键词 中文 提取<br />
+总结:<br />
 这篇文章提供了关于如何用中文总结一篇文章的指导。首先要提取出关键词，然后用这些关键词来写一个简洁且包含要点的总结。这个过程可以帮助读者更快地理解文章的内容，提炼出重要信息。通过总结，读者可以更好地掌握文章的主旨和要点，提高阅读效率。在写总结时，要对文章内容进行概括和归纳，确保覆盖到所有关键信息。总结应该简洁明了，让读者能够快速了解文章的主要内容和结论。 <div>
-
 ]]></content:encoded>
-<pubDate>2024-08-07T00:00:00+00:00</pubDate>
 <pubDate>2024-08-07T14:10:56.795681+00:00</pubDate>
 </item>
 <item>
@@ -24,10 +23,8 @@
 <content:encoded><![CDATA[
 <div> 关键词: 文章、总结、中文、关键词、200字
 
-总结：<br><br>通过提取5个关键词并用中文写出文章内容的总结，可以有效地概括文章的要点。文章讲述了如何利用关键词总结一篇文献，并在200字内用中文写出文章的要点，从而帮助读者更快速地了解文章内容。这种总结方法简洁明了，使读者能够在较短的篇幅内快速获取到文章的核心信息，有助于提高阅读效率和理解能力。<br><br>总结: <div>
-
+总结：<br /><br />通过提取5个关键词并用中文写出文章内容的总结，可以有效地概括文章的要点。文章讲述了如何利用关键词总结一篇文献，并在200字内用中文写出文章的要点，从而帮助读者更快速地了解文章内容。这种总结方法简洁明了，使读者能够在较短的篇幅内快速获取到文章的核心信息，有助于提高阅读效率和理解能力。<br /><br />总结: <div>
 ]]></content:encoded>
-<pubDate>2024-08-07T00:00:00+00:00</pubDate>
 <pubDate>2024-08-07T14:10:56.795494+00:00</pubDate>
 </item>
 <item>
@@ -37,13 +34,10 @@
 <content:encoded><![CDATA[
 <div> 关键词: 文章 总结 关键词 中文 要点
 
-总结:<br><br>本文是关于如何用中文总结一篇文章的说明。首先要提取出5个关键词，然后在同一行内输出。接着用中文写一个200字内的总结，包含所有要点。按照顺序分别输出关键词、总结、关键词、中文、要点。这个过程有助于提炼核心信息，总结文章内容。 <div>
-
+总结:<br /><br />本文是关于如何用中文总结一篇文章的说明。首先要提取出5个关键词，然后在同一行内输出。接着用中文写一个200字内的总结，包含所有要点。按照顺序分别输出关键词、总结、关键词、中文、要点。这个过程有助于提炼核心信息，总结文章内容。 <div>
 ]]></content:encoded>
-<pubDate>2024-08-07T00:00:00+00:00</pubDate>
 <pubDate>2024-08-07T14:10:56.795249+00:00</pubDate>
 </item>
-
 <item>
 <title>Call for Applications: Llama 3.1 Impact Grants</title>
 <link>https://ai.meta.com/blog/llama-3-1-impact-grants-call-for-applications/</link>
