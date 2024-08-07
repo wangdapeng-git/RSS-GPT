@@ -4,6 +4,21 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Quiz: Asynchronous Iterators and Iterables in Python</title>
+<link>https://realpython.com/quizzes/python-async-iterators/</link>
+<guid>https://realpython.com/quizzes/python-async-iterators/</guid>
+<content:encoded><![CDATA[
+<div> async iterators, iterables, asynchronous code, Python, quiz
+总结:<br><br>本文介绍了如何在Python中创建和使用异步迭代器和可迭代对象。首先介绍了异步迭代器和异步可迭代对象的概念，并且解释了它们在异步代码中的作用。接着详细介绍了如何使用async关键字和__aiter__、__anext__方法来定义异步迭代器。然后讲解了如何使用async for循环来遍历异步可迭代对象。最后，提供了一个测试的小测验，帮助读者加深对异步迭代器和可迭代对象的理解。通过本文的学习，读者可以更好地理解和运用Python中的异步编程技巧。 <div>
+<p>Test your understanding of how to create and use Python async iterators and iterables in the context of asynchronous code.</p>
+<p>You can take this quiz after reading the <a href="https://realpython.com/python-async-iterators/">Asynchronous Iterators and Iterables in Python</a> tutorial.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-08-07T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Interacting With REST APIs and Python</title>
