@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Asynchronous Iterators and Iterables in Python</title>
 <link>https://realpython.com/python-async-iterators/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> async iterators, async iterables, Python, .__aiter__(), .__anext__()
 
-异步迭代器和可迭代对象是Python中的重要概念。异步迭代器用于控制异步for循环，而异步可迭代对象是可以使用异步for循环进行迭代的对象。它们允许您在不阻塞代码的情况下迭代异步对象，从而实现异步执行不同的任务。异步迭代器要实现.__aiter__()和.__anext__()方法，返回的下一个对象必须是awaitable对象。在迭代器到达末尾时，要通过引发StopAsyncIteration异常来结束异步迭代过程。通过实现异步函数，可以快速地创建等待对象。整个概念中，异步迭代器和可迭代对象在异步编程中扮演着重要角色，使得在Python中进行异步迭代变得更加灵活。<br><br>总结: 异步迭代器和异步可迭代对象是Python中的重要概念，它们允许在异步编程中进行迭代操作。异步迭代器必须实现.__aiter__()和.__anext__()方法，返回的对象必须是awaitable对象。在异步编程中，异步迭代器和可迭代对象支持异步for循环，使得异步任务的执行更加灵活和高效。 <div>
+异步迭代器和可迭代对象是Python中的重要概念。异步迭代器用于控制异步for循环，而异步可迭代对象是可以使用异步for循环进行迭代的对象。它们允许您在不阻塞代码的情况下迭代异步对象，从而实现异步执行不同的任务。异步迭代器要实现.__aiter__()和.__anext__()方法，返回的下一个对象必须是awaitable对象。在迭代器到达末尾时，要通过引发StopAsyncIteration异常来结束异步迭代过程。通过实现异步函数，可以快速地创建等待对象。整个概念中，异步迭代器和可迭代对象在异步编程中扮演着重要角色，使得在Python中进行异步迭代变得更加灵活。<br /><br />总结: 异步迭代器和异步可迭代对象是Python中的重要概念，它们允许在异步编程中进行迭代操作。异步迭代器必须实现.__aiter__()和.__anext__()方法，返回的对象必须是awaitable对象。在异步编程中，异步迭代器和可迭代对象支持异步for循环，使得异步任务的执行更加灵活和高效。 <div>
 <div><p>When you write asynchronous code in Python, you’ll likely need to create asynchronous iterators and iterables at some point. Asynchronous iterators are what Python uses to control <code>async for</code> loops, while asynchronous iterables are objects that you can iterate over using <code>async for</code> loops.</p>
 <p>Both tools allow you to iterate over awaitable objects without blocking your code. This way, you can perform different tasks asynchronously.</p>
 <p><strong>In this tutorial, you’ll:</strong></p>
@@ -96,10 +97,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-08-07T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Quiz: Asynchronous Iterators and Iterables in Python</title>
 <link>https://realpython.com/quizzes/python-async-iterators/</link>
