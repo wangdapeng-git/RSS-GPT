@@ -12575,3 +12575,14 @@ Filter: [ToDesk4.7.4.3自改静默版，无界面、无托盘提示、进程隐�
 Filter: [【安卓/iOS】首都图书馆 v3.4.9 免费看书查资料听音乐等](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1948519)
 append_entries: 2
 Finish: 2024-08-08 12:20:07.745679
+------------------------------------------------------
+Started: 2024-08-08 14:10:21.866434
+Existing_entries: 760
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [批量自动校正图片、PDF文档方向](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1952529)
+Filter: [【Excel/WPS】表格插件 — 方方格子Excel工具箱 v4.0.0.0](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1952457)
+Filter: [某音乐VIP-领取调试](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1950804)
+Filter: [ToDesk4.7.4.3自改静默版，无界面、无托盘提示、进程隐藏、仅保留后台进程](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1949896)
+Filter: [【安卓/iOS】首都图书馆 v3.4.9 免费看书查资料听音乐等](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1948519)
+append_entries: 0
+Finish: 2024-08-08 14:10:24.131376
