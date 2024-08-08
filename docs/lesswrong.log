@@ -4312,3 +4312,12 @@ Existing_entries: 168
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-08 16:13:53.213801
+------------------------------------------------------
+Started: 2024-08-08 18:15:21.606772
+Existing_entries: 168
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 14747
+Summarized using GPT-3.5-turbo
+Append: [It's time for a self-reproducing machine](https://www.lesswrong.com/posts/rQxrSRPJGmksGjK8z/it-s-time-for-a-self-reproducing-machine)
+append_entries: 1
+Finish: 2024-08-08 18:15:29.960690

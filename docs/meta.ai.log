@@ -722,3 +722,12 @@ Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
 Fetch failed from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
 append_entries: 0
 error when rendering xml, skip docs/meta.ai
+------------------------------------------------------
+Started: 2024-08-08 18:15:36.416525
+Existing_entries: 8
+Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+Token length: 60
+Summarized using GPT-3.5-turbo
+Append: [Large Language Model](https://ai.meta.com/blog/lyrise-hiring-ai-talent-meta-llama/)
+append_entries: 1
+Finish: 2024-08-08 18:15:43.344095
