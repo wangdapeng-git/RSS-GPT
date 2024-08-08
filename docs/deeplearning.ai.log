@@ -6445,3 +6445,12 @@ Existing_entries: 30
 Fetching from https://rsshub.app/deeplearning/thebatch
 append_entries: 0
 Finish: 2024-08-07 22:10:47.420999
+------------------------------------------------------
+Started: 2024-08-08 00:51:35.192703
+Existing_entries: 30
+Fetching from https://rsshub.app/deeplearning/thebatch
+Token length: 15566
+Summarized using GPT-3.5-turbo
+Append: [Google Gets Character.AI Co-Founders, Ukraine's Aquatic Drones, AI Recruiting Tools Fuel Arms Race, ASCII Art Defeats LLM Guardrails](https://www.deeplearning.ai/the-batch/issue-261)
+append_entries: 1
+Finish: 2024-08-08 00:51:39.711987
