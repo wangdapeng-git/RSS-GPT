@@ -4321,3 +4321,9 @@ Summarized using GPT-3.5-turbo
 Append: [It's time for a self-reproducing machine](https://www.lesswrong.com/posts/rQxrSRPJGmksGjK8z/it-s-time-for-a-self-reproducing-machine)
 append_entries: 1
 Finish: 2024-08-08 18:15:29.960690
+------------------------------------------------------
+Started: 2024-08-08 20:12:51.246243
+Existing_entries: 169
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-08-08 20:12:51.657654

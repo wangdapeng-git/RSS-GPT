@@ -4,19 +4,18 @@
 <title>AI at Meta Blog</title>
 <link>https://ai.meta.com/blog/</link>
 
+
 <item>
 <title>Large Language Model</title>
 <link>https://ai.meta.com/blog/lyrise-hiring-ai-talent-meta-llama/</link>
 <guid>https://ai.meta.com/blog/lyrise-hiring-ai-talent-meta-llama/</guid>
 <content:encoded><![CDATA[
 <div> LyRise、Meta Llama、匹配、候选人、AI职业
-总结:<br><br>LyRise利用Meta Llama来将候选人与人工智能职业进行匹配。他们通过Meta Llama的技术和算法，分析候选人的技能和背景，然后将其与人工智能领域的相关职业进行匹配。这种方法可以确保候选人与他们的职业目标更加适配，提高了招聘的效率和准确性。LyRise的利用Meta Llama的方式展示了他们在利用人工智能技术来优化招聘流程，并为候选人提供更好的职业机会。 <div>
+总结:<br /><br />LyRise利用Meta Llama来将候选人与人工智能职业进行匹配。他们通过Meta Llama的技术和算法，分析候选人的技能和背景，然后将其与人工智能领域的相关职业进行匹配。这种方法可以确保候选人与他们的职业目标更加适配，提高了招聘的效率和准确性。LyRise的利用Meta Llama的方式展示了他们在利用人工智能技术来优化招聘流程，并为候选人提供更好的职业机会。 <div>
 How LyRise uses Meta Llama to match candidates to AI careers
 ]]></content:encoded>
-<pubDate>2024-08-08T00:00:00+00:00</pubDate>
 <pubDate>2024-08-08T18:15:39.308095+00:00</pubDate>
 </item>
-
 <item>
 <title>Methods for adapting large language models</title>
 <link>https://ai.meta.com/blog/adapting-large-language-models-llms/</link>
