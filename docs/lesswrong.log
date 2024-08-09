@@ -4360,3 +4360,9 @@ Summarized using GPT-3.5-turbo
 Append: [You can remove GPT2’s LayerNorm by fine-tuning for an hour](https://www.lesswrong.com/posts/THzcKKQd4oWkg4dSP/you-can-remove-gpt2-s-layernorm-by-fine-tuning-for-an-hour)
 append_entries: 1
 Finish: 2024-08-09 06:16:36.111647
+------------------------------------------------------
+Started: 2024-08-09 08:14:36.842689
+Existing_entries: 170
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-08-09 08:14:37.654414
