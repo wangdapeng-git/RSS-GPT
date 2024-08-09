@@ -4,6 +4,22 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>The Real Python Podcast – Episode #216: Learning Through Building the Black Python Devs Community</title>
+<link>https://realpython.com/podcasts/rpp/216/</link>
+<guid>https://realpython.com/podcasts/rpp/216/</guid>
+<content:encoded><![CDATA[
+<div> Black Python Devs, International organization, Hurdles, Empower others, Sharing responsibilities
+<br>
+国际组织，成立障碍，共享责任，赋予他人力量，Black Python Devs
+<br><br>总结: 本期节目中，我们与Jay Miller讨论了Black Python Devs，这是一个国际组织。在创立国际组织时，需要克服一些障碍，如文化差异、法律规定等。通过分享责任，可以赋予社区中的其他人力量，从而建立合作和团队精神。Black Python Devs致力于通过Python技巧和知识传播，为其他开发者提供帮助和支持。 <div>
+<p>What hurdles must be cleared when starting an international organization? How do you empower others in a community by sharing responsibilities? This week on the show, we speak with Jay Miller about Black Python Devs.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-08-09T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Asynchronous Iterators and Iterables in Python</title>
