@@ -4351,3 +4351,12 @@ Existing_entries: 169
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-09 04:13:52.674315
+------------------------------------------------------
+Started: 2024-08-09 06:16:31.088995
+Existing_entries: 169
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 17483
+Summarized using GPT-3.5-turbo
+Append: [You can remove GPT2’s LayerNorm by fine-tuning for an hour](https://www.lesswrong.com/posts/THzcKKQd4oWkg4dSP/you-can-remove-gpt2-s-layernorm-by-fine-tuning-for-an-hour)
+append_entries: 1
+Finish: 2024-08-09 06:16:36.111647
