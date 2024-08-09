@@ -5412,3 +5412,9 @@ Summarized using GPT-3.5-turbo
 Append: [The Real Python Podcast – Episode #216: Learning Through Building the Black Python Devs Community](https://realpython.com/podcasts/rpp/216/)
 append_entries: 1
 Finish: 2024-08-09 12:20:59.158312
+------------------------------------------------------
+Started: 2024-08-09 14:10:48.657338
+Existing_entries: 122
+Fetching from https://realpython.com/atom.xml
+append_entries: 0
+Finish: 2024-08-09 14:10:48.878072
