@@ -12740,3 +12740,13 @@ Filter: [同花顺至尊版10.94.03，谷歌商店更新(炒股软件，不是�
 Filter: [天文通 v1.0.24 一款完全免费的天文学习与观星软件](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1948713)
 append_entries: 0
 Finish: 2024-08-09 16:13:23.640706
+------------------------------------------------------
+Started: 2024-08-09 18:14:27.476923
+Existing_entries: 766
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [闲鱼谷歌商店版google play-v7.8.49](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1950939)
+Append: [auto-ncmdump—实现自动将网易云的ncm格式转换为mp3或flac格式](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1950317)
+Filter: [微软官方免费工具- PowerToys 0.82.1](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1948750)
+Filter: [天文通 v1.0.24 一款完全免费的天文学习与观星软件](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1948713)
+append_entries: 1
+Finish: 2024-08-09 18:14:29.113615
