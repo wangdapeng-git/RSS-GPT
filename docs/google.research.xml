@@ -4,6 +4,7 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+
 <item>
 <title>HALVA: Hallucination Attenuated Language and Vision Assistant</title>
 <link>https://research.google/blog/halva-hallucination-attenuated-language-and-vision-assistant/</link>
@@ -11,13 +12,10 @@
 <content:encoded><![CDATA[
 <div> 关键词: 文章、总结、关键词、中文、要点
 
-总结:<br><br>这篇文章通过提取关键词和用中文进行总结的方式，把文章内容概括出来。文章中的要点清晰明了，内容有条理，易于理解。整个过程中，重点突出，让读者能够迅速了解文章内容的核心信息。通过总结这种方式，有效地提炼了文章的主旨，为读者提供了方便快捷的阅读体验。 <div>
-
+总结:<br /><br />这篇文章通过提取关键词和用中文进行总结的方式，把文章内容概括出来。文章中的要点清晰明了，内容有条理，易于理解。整个过程中，重点突出，让读者能够迅速了解文章内容的核心信息。通过总结这种方式，有效地提炼了文章的主旨，为读者提供了方便快捷的阅读体验。 <div>
 ]]></content:encoded>
-<pubDate>2024-08-09T00:00:00+00:00</pubDate>
 <pubDate>2024-08-09T18:14:55.167447+00:00</pubDate>
 </item>
-
 <item>
 <title>Smoothly editing material properties of objects with text-to-image models and synthetic data</title>
 <link>https://research.google/blog/smoothly-editing-material-properties-of-objects-with-text-to-image-models-and-synthetic-data/</link>

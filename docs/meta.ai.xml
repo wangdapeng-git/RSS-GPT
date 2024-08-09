@@ -4,6 +4,7 @@
 <title>AI at Meta Blog</title>
 <link>https://ai.meta.com/blog/</link>
 
+
 <item>
 <title>Zoom leverages Llama in its federated approach to AI</title>
 <link>https://ai.meta.com/blog/llama-zoom-ai-companion/</link>
@@ -11,13 +12,10 @@
 <content:encoded><![CDATA[
 <div> 关键词: 文章, 总结, 关键词, 中文, 要点
 
-总结:<br><br>文章中提到了关键词提取的方法，通过关键词总结文章内容，然后用中文写一个包含所有要点的200字总结。文章内容包括关键词和总结两个重要部分，其中关键词提取和总结写作是重点内容。通过提取关键词并用中文总结文章，可以帮助读者更快地了解文章主要内容。这种方法在写作和阅读中都具有重要意义。<Article end> <div>
-
+总结:<br /><br />文章中提到了关键词提取的方法，通过关键词总结文章内容，然后用中文写一个包含所有要点的200字总结。文章内容包括关键词和总结两个重要部分，其中关键词提取和总结写作是重点内容。通过提取关键词并用中文总结文章，可以帮助读者更快地了解文章主要内容。这种方法在写作和阅读中都具有重要意义。<article end="end"> <div>
 ]]></content:encoded>
-<pubDate>2024-08-09T00:00:00+00:00</pubDate>
 <pubDate>2024-08-09T18:15:02.489089+00:00</pubDate>
 </item>
-
 <item>
 <title>Large Language Model</title>
 <link>https://ai.meta.com/blog/lyrise-hiring-ai-talent-meta-llama/</link>
