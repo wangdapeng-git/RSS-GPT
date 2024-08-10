@@ -4442,3 +4442,9 @@ Summarized using GPT-3.5-turbo
 Append: [FarmKind's Illusory Offer](https://www.lesswrong.com/posts/4bCoQmYgrwL34LqJe/farmkind-s-illusory-offer)
 append_entries: 1
 Finish: 2024-08-10 08:13:51.789902
+------------------------------------------------------
+Started: 2024-08-10 10:12:43.597863
+Existing_entries: 173
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-08-10 10:12:44.205870
