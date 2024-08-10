@@ -4472,3 +4472,12 @@ Existing_entries: 173
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-10 18:13:39.069036
+------------------------------------------------------
+Started: 2024-08-10 20:11:41.605722
+Existing_entries: 173
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 2747
+Summarized using GPT-3.5-turbo
+Append: [Outrage Bonding](https://www.lesswrong.com/posts/END5KLXJG7iGQnAKN/outrage-bonding)
+append_entries: 1
+Finish: 2024-08-10 20:11:46.382013
