@@ -2866,3 +2866,9 @@ Summarized using GPT-3.5-turbo
 Append: [🥇Top ML Papers of the Week](https://nlp.elvissaravia.com/p/top-ml-papers-of-the-week-a62)
 append_entries: 1
 Finish: 2024-08-11 16:13:17.521093
+------------------------------------------------------
+Started: 2024-08-11 18:15:50.596479
+Existing_entries: 28
+Fetching from https://nlp.elvissaravia.com/feed
+append_entries: 0
+Finish: 2024-08-11 18:15:50.816702

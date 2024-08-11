@@ -4,6 +4,162 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-08-11</title>
+<link>https://pythonhub.dev/digest/2024-08-11/</link>
+<guid>https://pythonhub.dev/digest/2024-08-11/</guid>
+<content:encoded><![CDATA[
+<div> git log -L, Python file, code changes, debugging, .gitattributes
+<br>
+git log -L命令可以追踪Python文件中特定函数的演变，提供了对代码变化随时间变化的更专注的视图。本文以Authlib软件包中的示例演示了这一过程，强调了为Python文件设置.gitattributes的重要性，并展示了这种方法在调试和理解代码时的帮助。
+<br><br>
+总结:git log -L命令可追踪Python文件中特定函数的演变，提供专注的代码变化视图。强调设置.gitattributes文件重要性，展示此方法在调试和理解代码时的帮助。 <div>
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://nerderati.com/tracing-the-evolution-of-a-python-function-with-git-log/">Tracing the evolution of a Python function with git log</a></strong>
+    
+        <br /><span>The article explains how to use the git log -L command to trace the evolution of a specific function in a Python file, providing a more focused view of code changes over time. It demonstrates the process using an example from the Authlib package, highlighting the importance of setting up .gitattributes for Python files and showcasing how this method can help in debugging and understandin...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Dicklesworthstone/visual_astar_python">Visual a* Pathfinding and Maze Generation in Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/mraza007/python-file-analyzer">A simply utility script which allows you to analyze your Python file</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.reddit.com/r/learnpython/comments/1ejazki/vs_code_extensions_for_python/">VS Code Extensions for Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://huyenchip.com//2024/07/25/genai-platform.html">Building A Generative AI Platform</a></strong>
+    
+        <br /><span>The article outlines the common components and architecture of a generative AI platform, discussing how to enhance context input, implement guardrails, add model routing and gateways, optimize with caching, and incorporate complex logic and write actions. It provides a comprehensive guide for building and scaling AI applications, emphasizing the importance of observability and orchestrat...</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://questdb.io/blog/debugging-distributed-database-mysteries-with-rust-pcap-and-polars/">Debugging distributed database mysteries with Rust, packet capture and Polars</a></strong>
+    
+        <br /><span>Unravel a mysterious network bandwidth issue in QuestDB's primary-replica replication was identified and resolved. Learn about the tools and techniques used, including Rust for packet capture and Python with Polars for data analysis, to optimize network performance.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=8_yp3UqdKjk">React + Django Ninja: Full-Stack Auth (in 15 Mins)</a></strong>
+    
+        <br /><span>We'll create a full-stack application using React.js frontend and a Django REST API, using the awesome Django Ninja (Much nicer than Django REST framework), including user authentication.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://leandojo.org/">LeanDojo</a></strong>
+    
+        <br /><span>Theorem Proving in Lean using Language Models.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.philipzucker.com/state_o_knuck/">Knuckledragger, a Semi-Automated Python Proof Assistant</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.pynerds.com/visualize/">Visualize Execution of Python code step by step</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/lipku/metahuman-stream">lipku / metahuman-stream</a></strong>
+    
+        <br /><span>Real time interactive streaming digital human</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-08-04/">Python Hub Weekly Digest for 2024-08-04</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/datoviz/datoviz">Datoviz – Vulkan-based GPU scientific visualization (C/C++/Python)</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/frdel/agent-zero">agent-zero</a></strong>
+    
+        <br /><span>Agent Zero is an AI framework designed for creating general-purpose assistants capable of handling a wide range of tasks through a highly customizable and extensible system. It emphasizes dynamic learning, multi-agent cooperation, and the use of computer tools to accomplish tasks, all while being open-source and adaptable to user needs.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/usnistgov/dioptra">Dioptra</a></strong>
+    
+        <br /><span>Dioptra is a software test platform for assessing the trustworthy characteristics of artificial intelligence (AI).</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/patched-codes/patchwork">patchwork</a></strong>
+    
+        <br /><span>Automate development gruntwork like code reviews, patching and documentation with LLM workflows.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/pytorch/torchchat">torchchat</a></strong>
+    
+        <br /><span>Run PyTorch LLMs locally on servers, desktop and mobile.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/opslane/opslane">Opslane</a></strong>
+    
+        <br /><span>Reducing alert fatigue for on-call engineers.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/iterative/datachain">DataChain</a></strong>
+    
+        <br /><span>Process and curate unstructured data using local ML models and LLM calls.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1ef1ym0/do_you_feel_like_pythons_type_hinting_got_stable/">Do you feel like Python's type hinting got &quot;stable&quot;?</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 11 Aug 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 11 Aug 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-08-04</title>
