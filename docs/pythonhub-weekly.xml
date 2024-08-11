@@ -4,15 +4,16 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-08-11</title>
 <link>https://pythonhub.dev/digest/2024-08-11/</link>
 <guid>https://pythonhub.dev/digest/2024-08-11/</guid>
 <content:encoded><![CDATA[
 <div> git log -L, Python file, code changes, debugging, .gitattributes
-<br>
+<br />
 git log -L命令可以追踪Python文件中特定函数的演变，提供了对代码变化随时间变化的更专注的视图。本文以Authlib软件包中的示例演示了这一过程，强调了为Python文件设置.gitattributes的重要性，并展示了这种方法在调试和理解代码时的帮助。
-<br><br>
+<br /><br />
 总结:git log -L命令可追踪Python文件中特定函数的演变，提供专注的代码变化视图。强调设置.gitattributes文件重要性，展示此方法在调试和理解代码时的帮助。 <div>
 <div></div>
 
@@ -158,9 +159,7 @@ git log -L命令可以追踪Python文件中特定函数的演变，提供了对�
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 11 Aug 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 11 Aug 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-08-04</title>
 <link>https://pythonhub.dev/digest/2024-08-04/</link>
