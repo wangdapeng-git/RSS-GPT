@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Python News Roundup: August 2024</title>
 <link>https://realpython.com/python-news-august-2024/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> Python, 3.13.0b4, 3.13.0rc1, PSF, PyOhio 2024
 
-Python语言的核心开发团队发布了3.13.0b4和3.13.0rc1版本，其中3.13.0b4标志着测试阶段的结束。该版本引入了改进的交互式解释器，提供了许多新功能，如带颜色的提示、保留历史记录的多行编辑等。此外，Python软件基金会（PSF）也发布了令人振奋的消息。PyOhio 2024和整个Python生态系统也有了重大进展。总的来说，Python社区有很多激动人心的新闻，让人期待未来的发展。<br><br>总结: Python 3.13版本的测试阶段结束，引入了改进的交互式解释器，PSF发布了重要消息，PyOhio 2024和Python生态系统有了进步。 <div>
+Python语言的核心开发团队发布了3.13.0b4和3.13.0rc1版本，其中3.13.0b4标志着测试阶段的结束。该版本引入了改进的交互式解释器，提供了许多新功能，如带颜色的提示、保留历史记录的多行编辑等。此外，Python软件基金会（PSF）也发布了令人振奋的消息。PyOhio 2024和整个Python生态系统也有了重大进展。总的来说，Python社区有很多激动人心的新闻，让人期待未来的发展。<br /><br />总结: Python 3.13版本的测试阶段结束，引入了改进的交互式解释器，PSF发布了重要消息，PyOhio 2024和Python生态系统有了进步。 <div>
 <div><p>In July, there was some exciting news for the Python community as the Python core development team released versions 3.13.0b4 and 3.13.0rc1 of the language. The 3.13.0b4 release marked the end of the beta phase and paved the way for the release candidate phase.</p>
 <p>Note that 3.13.0rc1 is a pre-release, so you shouldn’t use it for production environments. However, it provides a great way to try some new and exciting language features.</p>
 <p>There’s also great some news from the Python Software Foundation, PyOhio 2024, and the Python ecosystem.</p>
@@ -39,10 +40,8 @@ Python语言的核心开发团队发布了3.13.0b4和3.13.0rc1版本，其中3.1
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-08-12T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>The Real Python Podcast – Episode #216: Learning Through Building the Black Python Devs Community</title>
 <link>https://realpython.com/podcasts/rpp/216/</link>
