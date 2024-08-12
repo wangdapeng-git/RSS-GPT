@@ -4,6 +4,44 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Python News Roundup: August 2024</title>
+<link>https://realpython.com/python-news-august-2024/</link>
+<guid>https://realpython.com/python-news-august-2024/</guid>
+<content:encoded><![CDATA[
+<div> Python, 3.13.0b4, 3.13.0rc1, PSF, PyOhio 2024
+
+Python语言的核心开发团队发布了3.13.0b4和3.13.0rc1版本，其中3.13.0b4标志着测试阶段的结束。该版本引入了改进的交互式解释器，提供了许多新功能，如带颜色的提示、保留历史记录的多行编辑等。此外，Python软件基金会（PSF）也发布了令人振奋的消息。PyOhio 2024和整个Python生态系统也有了重大进展。总的来说，Python社区有很多激动人心的新闻，让人期待未来的发展。<br><br>总结: Python 3.13版本的测试阶段结束，引入了改进的交互式解释器，PSF发布了重要消息，PyOhio 2024和Python生态系统有了进步。 <div>
+<div><p>In July, there was some exciting news for the Python community as the Python core development team released versions 3.13.0b4 and 3.13.0rc1 of the language. The 3.13.0b4 release marked the end of the beta phase and paved the way for the release candidate phase.</p>
+<p>Note that 3.13.0rc1 is a pre-release, so you shouldn’t use it for production environments. However, it provides a great way to try some new and exciting language features.</p>
+<p>There’s also great some news from the Python Software Foundation, PyOhio 2024, and the Python ecosystem.</p>
+<p>Let’s dive into the most exciting <strong>Python news</strong> from last month!</p>
+<h2 id="python-3130b4-and-3130rc1">Python 3.13.0b4 and 3.13.0rc1<a class="headerlink" href="#python-3130b4-and-3130rc1" title="Permanent link"></a></h2>
+<p>Python 3.13 has reached its fourth beta release, marking the end of the beta phase. Beta releases serve to test new features and bug fixes. However, it’s important to note that this is a preview release and it isn’t recommended for use in production environments.</p>
+<p>If you’re a library maintainer, you’re encouraged to test your code with this new version so you can prepare it to support the latest features of the language.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> To learn more about pre-releases, check out the <a href="https://realpython.com/python-pre-release/">How Can You Install a Pre-Release Version of Python?</a> tutorial.</p>
+</div>
+<p>One of the most significant new features of Python 3.13 is the improved interactive interpreter or <a href="https://realpython.com/python-repl/">REPL</a>, which now provides several cool features, including:</p>
+<ul>
+<li>Colorized prompts</li>
+<li>Multiline editing with history preservation</li>
+<li>Interactive help browsing with <span class="keys"><kbd class="key-f1">F1</kbd></span> and a separate command history</li>
+<li>History browsing with <span class="keys"><kbd class="key-f2">F2</kbd></span></li>
+<li>Paste mode for larger blocks of code with <span class="keys"><kbd class="key-f3">F3</kbd></span></li>
+<li>REPL-specific commands like <code>help</code>, <code>exit</code>, and <code>quit</code> without the call parentheses</li>
+</ul>
+<p>This is exciting news! The standard REPL up until Python 3.13 was lacking, and sometimes it was necessary to install a third-party tool like <a href="https://realpython.com/bpython-alternative-python-repl/">bpython</a> or <a href="https://realpython.com/ipython-interactive-python-shell/">IPython</a> to compensate.</p>
+<p>Again, with this release, the beta phase has officially ended, and the first release candidate—3.13.0rc1—is considered the penultimate release preview. In this release candidate phase, only bug fixes are allowed.</p>
+<p>The second candidate, which is the last planned release preview, should be out on September 3, 2024, and the official release of 3.13 should be ready on October 1, 2024. Only more excitement lies ahead! </p>
+<h2 id="the-python-software-foundation-psf-shares-great-news">The Python Software Foundation (PSF) Shares Great News<a class="headerlink" href="#the-python-software-foundation-psf-shares-great-news" title="Permanent link"></a></h2>
+</div><h2><a href="https://realpython.com/python-news-august-2024/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-news-august-2024/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-08-12T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>The Real Python Podcast – Episode #216: Learning Through Building the Black Python Devs Community</title>
