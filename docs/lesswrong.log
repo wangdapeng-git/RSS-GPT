@@ -4700,3 +4700,9 @@ Summarized using GPT-3.5-turbo
 Append: [[LDSL#0] Some epistemological conundrums](https://www.lesswrong.com/posts/X98LpnHSDWG3FEC5e/ldsl-0-some-epistemological-conundrums)
 append_entries: 1
 Finish: 2024-08-13 18:15:32.821590
+------------------------------------------------------
+Started: 2024-08-13 20:12:05.095719
+Existing_entries: 177
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-08-13 20:12:06.233739
