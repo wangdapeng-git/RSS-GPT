@@ -4706,3 +4706,12 @@ Existing_entries: 177
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-13 20:12:06.233739
+------------------------------------------------------
+Started: 2024-08-13 22:11:06.462002
+Existing_entries: 177
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 12423
+Summarized using GPT-3.5-turbo
+Append: [Ten arguments that AI is an existential risk](https://www.lesswrong.com/posts/r5rfmZBmj2w4eCh7Q/ten-arguments-that-ai-is-an-existential-risk)
+append_entries: 1
+Finish: 2024-08-13 22:11:12.876479
