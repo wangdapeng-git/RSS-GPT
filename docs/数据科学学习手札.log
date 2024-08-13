@@ -1964,3 +1964,9 @@ Fetching from https://feed.cnblogs.com/blog/u/415579/rss/
 Append: [Python网页应用开发神器fac 0.3.0全新版本发布 - 费弗里](https://www.cnblogs.com/feffery/p/18357343)
 append_entries: 1
 Finish: 2024-08-13 10:12:42.073612
+------------------------------------------------------
+Started: 2024-08-13 12:21:41.830176
+Existing_entries: 22
+Fetching from https://feed.cnblogs.com/blog/u/415579/rss/
+append_entries: 0
+Finish: 2024-08-13 12:21:42.866693

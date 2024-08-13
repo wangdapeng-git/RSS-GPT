@@ -2,20 +2,18 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>博客园 - 费弗里</title>
-<link>uuid:0a75ddf1-c050-403f-937c-cf7790585fb1;id=8281878</link>
+<link>uuid:0a75ddf1-c050-403f-937c-cf7790585fb1;id=8302029</link>
+
 
 <item>
 <title>Python网页应用开发神器fac 0.3.0全新版本发布 - 费弗里</title>
 <link>https://www.cnblogs.com/feffery/p/18357343</link>
 <guid>https://www.cnblogs.com/feffery/p/18357343</guid>
 <content:encoded><![CDATA[
-
 【摘要】大家好我是费老师，在Python生态中，有很多以Python为主要开发语言，实现网页应用开发的框架，其中最为知名的有Dash、flet、streamlit、gradio、nicegui等。 如果综合考虑流行度、开发效率、开发自由度、相关生态成熟度、可拓展性、安全性等各方面的能力，Dash是其中天花板 <a href="https://www.cnblogs.com/feffery/p/18357343" target="_blank">阅读全文</a>
 ]]></content:encoded>
 <pubDate>2024-08-13T09:00:00Z</pubDate>
-<pubDate>2024-08-13T09:00:00Z</pubDate>
 </item>
-
 <item>
 <title>（数据科学学习手札163）ibis：极具潜力的Python数据分析框架 - 费弗里</title>
 <link>https://www.cnblogs.com/feffery/p/18347233</link>
