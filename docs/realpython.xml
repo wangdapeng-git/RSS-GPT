@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Sorting Dictionaries in Python: Keys, Values, and More</title>
 <link>https://realpython.com/courses/sorting-dictionaries-keys-values-more/</link>
 <guid>https://realpython.com/courses/sorting-dictionaries-keys-values-more/</guid>
 <content:encoded><![CDATA[
 <div> sorted()函数, dictionary views, 字典转换为列表, 指定排序键, 字典解析, 备用数据结构
-<br><br>
+<br /><br />
 总结: 在本视频课程中，我们学习了如何使用sorted()函数对字典进行排序。通过使用字典视图来进行迭代，了解了字典在排序过程中如何转换为列表。学会了如何通过值、键或嵌套属性来指定排序键进行排序。同时复习了字典解析和使用dict()构造函数来重建字典。最后考虑了备用数据结构来存储键值数据。通过这些内容，我们可以更好地处理和排序Python的字典数据。 <div>
 <p>You&rsquo;ve got a <a href="https://realpython.com/python-dicts/">dictionary</a>, but you&rsquo;d like to sort the key-value pairs. Perhaps you&rsquo;ve tried passing a dictionary to the <code>sorted()</code> <a href="https://realpython.com/defining-your-own-python-function/">function</a> but didn&rsquo;t receive the results you expected. In this video course, you&rsquo;ll go over everything you need to know to sort dictionaries in Python.</p>
 <p><strong>In this video course, you&rsquo;ll</strong>:</p>
@@ -25,10 +26,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-08-13T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Python News Roundup: August 2024</title>
 <link>https://realpython.com/python-news-august-2024/</link>
