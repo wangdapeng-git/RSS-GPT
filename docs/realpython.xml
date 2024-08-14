@@ -4,6 +4,117 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>The Walrus Operator: Python's Assignment Expressions</title>
+<link>https://realpython.com/python-walrus-operator/</link>
+<guid>https://realpython.com/python-walrus-operator/</guid>
+<content:encoded><![CDATA[
+<div> assignment expressions, walrus operator, Python 3.8, PEP 572, syntax update
+assignment expressions的引入是Python 3.8版本中的最大变化，引入了walrus operator（海象操作符）的新语法。这篇文章介绍了walrus operator的意义以及用法，让你了解为什么需要这种语法更新以及如何避免重复的代码。此外，还介绍了PEP 572中描述了assignment expressions的动机和语法细节，以及walrus operator的实现和演变过程。总结:assignment expressions的引入是Python 3.8的一项重大变化，通过PEP 572提出的walrus operator（海象操作符）更新了Python语法，使得代码更加简洁和高效。 <div>
+<div><p>Each new version of Python adds new features to the language. Back when Python 3.8 was released, the biggest change was the addition of <strong>assignment expressions</strong>. Specifically, the <code>:=</code> operator gave you a new syntax for assigning variables in the middle of expressions. This operator is colloquially known as the <strong>walrus operator</strong>.</p>
+<p>This tutorial is an in-depth introduction to the walrus operator. You’ll learn some of the motivations for the syntax update and explore examples where assignment expressions can be useful.</p>
+<p><strong>In this tutorial, you’ll learn how to:</strong></p>
+<ul>
+<li>Identify <strong>the walrus operator</strong> and understand its meaning</li>
+<li>Understand <strong>use cases</strong> for the walrus operator</li>
+<li><strong>Avoid repetitive code</strong> by using the walrus operator</li>
+<li>Convert between code using the walrus operator and code using <strong>other assignment methods</strong></li>
+<li>Use appropriate <strong>style</strong> in your assignment expressions</li>
+</ul>
+<p>Note that all walrus operator examples in this tutorial require <a href="https://realpython.com/python38-new-features/">Python 3.8</a> or later to work.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-walrus-operator-code/">Click here to download the free sample code</a> that shows you how to use Python’s walrus operator.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “The Walrus Operator: Python's Assignment Expressions” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/python-walrus-operator/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="The Walrus Operator: Python's Assignment Expressions" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/The-Walrus-Operator-in-Python-3.8-UPDATE_Watermarked.d7eee1fde3ea.jpg" style="background: #ff7e74;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/python-walrus-operator/"><span class="my-0 h4">The Walrus Operator: Python's Assignment Expressions</span></a> 
+      <p class="text-muted mb-0 small">In this quiz, you'll test your understanding of the Python Walrus Operator. This operator was introduced in Python 3.8, and understanding it can help you write more concise and efficient code.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="walrus-operator-fundamentals">Walrus Operator Fundamentals<a class="headerlink" href="#walrus-operator-fundamentals" title="Permanent link"></a></h2>
+<p>First, look at some different terms that programmers use to refer to this new syntax. You’ve already seen a few in this tutorial.</p>
+<p>The <code>:=</code> operator is officially known as the <strong>assignment expression operator</strong>. During early discussions, it was dubbed the <strong>walrus operator</strong> because the <code>:=</code> syntax resembles the eyes and tusks of a <a href="https://en.wikipedia.org/wiki/Walrus">walrus</a> lying on its side. You may also see the <code>:=</code> operator referred to as the <strong>colon equals operator</strong>. Yet another term used for assignment expressions is <strong>named expressions</strong>.</p>
+<h3 id="hello-walrus">Hello, Walrus!<a class="headerlink" href="#hello-walrus" title="Permanent link"></a></h3>
+<p>To get a first impression of what assignment expressions are all about, start your <a href="https://realpython.com/python-repl/">REPL</a> and play around with the following code:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="linenos"> 1</span><span class="gp">&gt;&gt;&gt; </span><span class="n">walrus</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="linenos"> 2</span><span class="gp">&gt;&gt;&gt; </span><span class="n">walrus</span>
+<span class="linenos"> 3</span><span class="go">False</span>
+<span class="linenos"> 4</span>
+<span class="linenos"> 5</span><span class="gp">&gt;&gt;&gt; </span><span class="p">(</span><span class="n">walrus</span> <span class="o">:=</span> <span class="kc">True</span><span class="p">)</span>
+<span class="linenos"> 6</span><span class="go">True</span>
+<span class="linenos"> 7</span><span class="gp">&gt;&gt;&gt; </span><span class="n">walrus</span>
+<span class="linenos"> 8</span><span class="go">True</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Line 1 shows a traditional <a href="https://docs.python.org/3/reference/simple_stmts.html#assignment-statements">assignment statement</a> where the value <code>False</code> is assigned to <code>walrus</code>. Next, on line 5, you use an assignment expression to assign the value <code>True</code> to <code>walrus</code>. After both lines 1 and 5, you can refer to the assigned values by using the <a href="https://realpython.com/python-variables/">variable</a> name <code>walrus</code>.</p>
+<p>You might be wondering why you’re using parentheses on line 5, and you’ll learn why the parentheses are needed <a href="#walrus-operator-syntax">later on in this tutorial</a>.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> A <strong>statement</strong> in Python is a unit of code. An <strong>expression</strong> is a special statement that can be evaluated to some value.</p>
+<p>For example, <code>1 + 2</code> is an expression that evaluates to the value <code>3</code>, while <code>number = 1 + 2</code> is an assignment statement that doesn’t evaluate to a value. Although running the statement <code>number = 1 + 2</code> doesn’t evaluate to <code>3</code>, it does <em>assign</em> the value <code>3</code> to <code>number</code>.</p>
+<p>In Python, you often see <a href="https://docs.python.org/3/reference/simple_stmts.html">simple statements</a> like <a href="https://realpython.com/python-return-statement/"><code>return</code> statements</a> and <a href="https://realpython.com/python-import/"><code>import</code> statements</a>, as well as <a href="https://docs.python.org/3/reference/compound_stmts.html">compound statements</a> like <a href="https://realpython.com/python-conditional-statements/"><code>if</code> statements</a> and <a href="https://realpython.com/defining-your-own-python-function/">function definitions</a>. These are all statements, not expressions.</p>
+</div>
+<p>There’s a subtle—but important—difference between the two types of assignments with the <code>walrus</code> variable. An assignment expression returns the value, while a traditional assignment doesn’t. You can see this in action when the REPL doesn’t print any value after <code>walrus = False</code> on line 1 but prints out <code>True</code> after the assignment expression on line 5.</p>
+<p>You can see another important aspect about walrus operators in this example. Though it might look new, the <code>:=</code> operator does <em>not</em> do anything that isn’t possible without it. It only makes certain constructs more convenient and can sometimes communicate the intent of your code more clearly.</p>
+<p>Now you have a basic idea of what the <code>:=</code> operator is and what it can do. It’s an operator used in assignment expressions, which can return the value being assigned, unlike traditional assignment statements. To get deeper and really learn about the walrus operator, continue reading to see where you should and shouldn’t use it.</p>
+<h3 id="implementation">Implementation<a class="headerlink" href="#implementation" title="Permanent link"></a></h3>
+<p>Like most new features in Python, assignment expressions were introduced through a <strong>Python Enhancement Proposal</strong> (PEP). <a href="https://www.python.org/dev/peps/pep-0572">PEP 572</a> describes the motivation for introducing the walrus operator, the details of the syntax, and examples where the <code>:=</code> operator can be used to improve your code.</p>
+<p>This PEP was <a href="https://mail.python.org/archives/list/python-ideas@python.org/message/H64ZNZ3T4RRJKMXR6UFNX3FK62IRPVOT/">originally</a> written by <a href="https://twitter.com/Rosuav">Chris Angelico</a> in February 2018. Following some heated discussion, PEP 572 was <a href="https://mail.python.org/archives/list/python-dev@python.org/message/J6EBK6ZEHZXTVWYSUO5N5XCUS45UQSB3/">accepted</a> by <a href="https://twitter.com/gvanrossum">Guido van Rossum</a> in July 2018.</p>
+<p>Since then, Guido <a href="https://mail.python.org/archives/list/python-committers@python.org/message/GQONAGWBBFRHVRUPU7RNBM75MHKGUFJN/">announced</a> that he was stepping down from his role as <a href="https://en.wikipedia.org/wiki/Benevolent_dictator_for_life">benevolent dictator for life (BDFL)</a>. Since early 2019, the Python language has been <a href="https://www.python.org/dev/peps/pep-0013/">governed</a> by an elected <a href="https://realpython.com/python38-new-features/#the-python-steering-council">steering council</a> instead.</p>
+<p>The walrus operator was implemented by <a href="https://realpython.com/interview-emily-morehouse/">Emily Morehouse</a>, and made available in the first <a href="https://www.python.org/downloads/release/python-380a1/">alpha release</a> of Python 3.8.</p>
+<h3 id="motivation">Motivation<a class="headerlink" href="#motivation" title="Permanent link"></a></h3>
+</div><h2><a href="https://realpython.com/python-walrus-operator/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-walrus-operator/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-08-14T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Sorting Dictionaries in Python: Keys, Values, and More</title>
