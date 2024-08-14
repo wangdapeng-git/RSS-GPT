@@ -1100,3 +1100,10 @@ Existing_entries: 10
 Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
 append_entries: 0
 Finish: 2024-08-13 22:11:23.004764
+------------------------------------------------------
+Started: 2024-08-14 00:53:10.189080
+Existing_entries: 10
+Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+Fetch failed from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+append_entries: 0
+error when rendering xml, skip docs/meta.ai
