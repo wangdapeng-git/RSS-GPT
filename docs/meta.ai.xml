@@ -4,6 +4,20 @@
 <title>AI at Meta Blog</title>
 <link>https://ai.meta.com/blog/</link>
 
+<item>
+<title>Large Language Model</title>
+<link>https://ai.meta.com/blog/nvidia-llama/</link>
+<guid>https://ai.meta.com/blog/nvidia-llama/</guid>
+<content:encoded><![CDATA[
+<div> structured weight pruning、knowledge distillation、NVIDIA、Llama models、building<br>
+<br>
+总结:<br>
+NVIDIA利用结构化权重剪枝和知识蒸馏技术构建新的Llama模型。他们通过对模型权重进行精细的剪枝，降低了模型的复杂度，同时采用知识蒸馏帮助模型学习更有效的知识表示。这些技术帮助NVIDIA建立更高效的Llama模型，提升了模型性能和计算效率。 <div>
+How NVIDIA is using structured weight pruning and knowledge distillation to build new Llama models
+]]></content:encoded>
+<pubDate>2024-08-14T00:00:00+00:00</pubDate>
+<pubDate>2024-08-14T18:15:07.024527+00:00</pubDate>
+</item>
 
 <item>
 <title>Zoom leverages Llama in its federated approach to AI</title>
