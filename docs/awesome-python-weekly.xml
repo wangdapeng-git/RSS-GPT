@@ -4,6 +4,19 @@
 <title>Awesome Python Weekly</title>
 <link>https://python.libhunt.com/newsletter</link>
 
+<item>
+<title>🐍 Issue 429 - GIL Become Optional in Python 3.13</title>
+<link>https://python.libhunt.com/newsletter/429</link>
+<guid>https://python.libhunt.com/newsletter/429</guid>
+<content:encoded><![CDATA[
+<div> Python, GIL, Optional, 3.13, Issue
+
+Python 3.13 版本中，Global Interpreter Lock (GIL) 变得可选。这意味着开发人员可以选择是否启用 GIL，从而提高多线程性能。在过去的版本中，GIL 是 Python 的限制因素之一，导致多线程程序性能不佳。但在新版中，用户有权决定是否需要 GIL，这将为开发人员提供更多灵活性。这一变化将带来更好的并发性能，并使得 Python 在处理多线程时更具竞争力。这对于需要高性能并发操作的应用程序将是一个重大的改进。<br><br>总结: 在 Python 3.13 中，开发人员可以选择启用或禁用 GIL，从而提高多线程性能，为应用程序的并发操作带来更大的灵活性。 <div>
+🐍 Issue 429 - GIL Become Optional in Python 3.13
+]]></content:encoded>
+<pubDate>Thu, 15 Aug 2024 13:42:00 -0800</pubDate>
+<pubDate>Thu, 15 Aug 2024 13:42:00 -0800</pubDate>
+</item>
 
 <item>
 <title>🐍 Issue 428 - 🚀 Ship Code 10x Faster with these Open-source AI Tools 🛠️</title>
