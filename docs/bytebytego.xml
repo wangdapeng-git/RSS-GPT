@@ -4,13 +4,14 @@
 <title>ByteByteGo Newsletter</title>
 <link>https://blog.bytebytego.com</link>
 
+
 <item>
 <title>A Crash Course on Architectural Scalability</title>
 <link>https://blog.bytebytego.com/p/a-crash-course-on-architectural-scalability</link>
 <guid>https://blog.bytebytego.com/p/a-crash-course-on-architectural-scalability</guid>
 <content:encoded><![CDATA[
 <div> 关键词: 软件应用，全球范围，可伸缩性，应对突发流量，建设架构
-总结:<br><br>
+总结:<br /><br />
 软件应用在今天的互连世界中拥有全球用户，需要具备可伸缩的架构以适应突发流量的挑战。可伸缩性能够动态调整应用程序以适应不断变化的工作负载需求，确保性能和可用性不受影响。设计和建设具有可伸缩性的架构是开发团队的重要任务，以应对突发用户需求带来的压力，同时确保良好的用户体验。这篇文章深入探讨了可伸缩性的真正含义和各种技术原则，为后续深入研究应用架构各层和组件的可伸缩性做好准备。 <div>
 <p>In today's interconnected world, software applications have a global reach, serving users from diverse geographical locations.&nbsp;</p><p>With the rapid growth of social media and viral content, a single tweet or post can lead to a sudden and massive surge in traffic to an application. The importance of building applications with scalable architecture from the ground up has never been higher.&nbsp;</p><p>Being prepared for unexpected traffic spikes is indispensable for development teams building applications. A sudden increase in user demand may be just around the corner. Not being prepared for it can put immense pressure on the application's infrastructure. It not only causes performance degradation but can also, in some cases, result in a complete system failure.&nbsp;</p><p>To mitigate these risks and ensure a good user experience, teams must proactively design and build scalable architectures.</p><p>But what makes scalability such a desirable characteristic?</p><p>Scalability allows the application to dynamically adapt to changing workload requirements without compromising performance or availability.</p><p>In this post, we&#8217;ll understand the true meaning of scalability from different perspectives followed by the various techniques and principles that can help you scale the application&#8217;s architecture. Also, in subsequent posts in the coming weeks, we&#8217;ll take deeper dives into the scalability of each layer and component of a typical architecture.</p><div class="captioned-image-container"><figure><a class="image-link is-viewable-img image2" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4b1af0d4-fcea-4dc4-9296-dbd752b536b3_2250x2720.png" target="_blank"><div class="image2-inset"><source type="image/webp" /><img alt="" class="sizing-normal" height="1760" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4b1af0d4-fcea-4dc4-9296-dbd752b536b3_2250x2720.png" width="1456" /><div class="image-link-expand"><svg class="lucide lucide-maximize2 " fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" x2="14" y1="3" y2="10"></line><line x1="3" x2="10" y1="21" y2="14"></line></svg></div></div></a></figure></div><h2>What is Scalability?</h2>
       <p>
@@ -20,9 +21,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Thu, 15 Aug 2024 15:30:52 GMT</pubDate>
-<pubDate>Thu, 15 Aug 2024 15:30:52 GMT</pubDate>
 </item>
-
 <item>
 <title>Counting Billions of Content Usage at Canva</title>
 <link>https://blog.bytebytego.com/p/counting-billions-of-content-usage</link>
