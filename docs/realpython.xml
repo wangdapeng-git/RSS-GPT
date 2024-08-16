@@ -4,18 +4,18 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>The Real Python Podcast – Episode #217: Packaging Data Analyses &amp; Using pandas GroupBy</title>
 <link>https://realpython.com/podcasts/rpp/217/</link>
 <guid>https://realpython.com/podcasts/rpp/217/</guid>
 <content:encoded><![CDATA[
-<div> Python、数据分析项目、最佳实践、包中心方法、优势<br>
-数据分析项目在Python中的最佳实践包括组织良好的代码结构、使用版本控制、编写清晰的文档、以及进行单元测试等。采用包中心方法进行数据科学可以提高代码的复用性、可维护性和可扩展性，使得数据分析项目更加规范和高效。Christopher Trudeau本周再次带来PyCoder's Weekly的文章和项目，分享了相关主题和实践经验。<br><br>总结: 数据分析项目可以通过遵循最佳实践和采用包中心方法来提高效率和质量，Christopher Trudeau分享了相关经验和资源。 <div>
+<div> Python、数据分析项目、最佳实践、包中心方法、优势<br />
+数据分析项目在Python中的最佳实践包括组织良好的代码结构、使用版本控制、编写清晰的文档、以及进行单元测试等。采用包中心方法进行数据科学可以提高代码的复用性、可维护性和可扩展性，使得数据分析项目更加规范和高效。Christopher Trudeau本周再次带来PyCoder's Weekly的文章和项目，分享了相关主题和实践经验。<br /><br />总结: 数据分析项目可以通过遵循最佳实践和采用包中心方法来提高效率和质量，Christopher Trudeau分享了相关经验和资源。 <div>
 <p>What are the best practices for organizing data analysis projects in Python? What are the advantages of a more package-centric approach to data science? Christopher Trudeau is back on the show this week, bringing another batch of PyCoder's Weekly articles and projects.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-08-16T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -23,8 +23,8 @@
 <link>https://realpython.com/quizzes/web-scraping-with-scrapy-and-mongodb/</link>
 <guid>https://realpython.com/quizzes/web-scraping-with-scrapy-and-mongodb/</guid>
 <content:encoded><![CDATA[
-<div> Scrapy, web scraper, selectors, MongoDB, test<br>
-<br>
+<div> Scrapy, web scraper, selectors, MongoDB, test<br />
+<br />
 提到在本文中，我们将测试对Scrapy项目的理解。我们将学习如何设置Scrapy项目，构建一个功能性的网络爬虫，使用选择器从网站提取数据，将抓取数据存储在MongoDB数据库中，以及测试和调试Scrapy网络爬虫。总结: 通过本文，您将学习设置Scrapy项目、构建网络爬虫、使用选择器提取数据、将数据存储在MongoDB中，并测试和调试网络爬虫。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of
 <a href="https://realpython.com/web-scraping-with-scrapy-and-mongodb/">Web Scraping with Scrapy and MongoDB</a>.</p>
@@ -32,7 +32,6 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-08-16T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -41,16 +40,14 @@
 <guid>https://realpython.com/quizzes/python-walrus-operator/</guid>
 <content:encoded><![CDATA[
 <div> Python 3.8, assignment expressions, operator, variables, values
-<br>
+<br />
 Python 3.8引入的赋值表达式操作符可在表达式中用于给变量赋值。这个操作符使得在表达式中进行赋值操作更加简洁和方便。通过这个操作符，可以在一行代码中同时完成赋值和表达式操作，提高代码的可读性和简洁性。Python 3.8版本后提供了这一特性，使得代码编写更加高效和易于理解。总结: 使用Python 3.8的赋值表达式操作符可以简洁、高效地给变量赋值，提升代码的可读性和简洁性。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of the <a href="https://realpython.com/python-walrus-operator/">Python Walrus Operator</a>. This operator, used for assignment expressions, was introduced in Python 3.8 and can be used to assign values to variables as part of an expression.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-08-14T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>The Walrus Operator: Python's Assignment Expressions</title>
 <link>https://realpython.com/python-walrus-operator/</link>
