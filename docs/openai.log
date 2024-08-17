@@ -7571,3 +7571,10 @@ Existing_entries: 21
 Fetching from https://rsshub.app/openai/blog
 append_entries: 0
 Finish: 2024-08-17 20:11:43.025081
+------------------------------------------------------
+Started: 2024-08-17 22:09:29.548791
+Existing_entries: 21
+Fetching from https://rsshub.app/openai/blog
+Fetch failed from https://rsshub.app/openai/blog
+append_entries: 0
+error when rendering xml, skip docs/openai

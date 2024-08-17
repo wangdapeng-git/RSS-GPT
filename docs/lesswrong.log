@@ -5004,3 +5004,12 @@ Existing_entries: 180
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-17 20:11:50.498955
+------------------------------------------------------
+Started: 2024-08-17 22:10:18.016366
+Existing_entries: 180
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 11765
+Summarized using GPT-3.5-turbo
+Append: [Release: Optimal Weave (P1): A Prototype Cohabitive Game](https://www.lesswrong.com/posts/xY3A8xy6ox5jzmCAm/release-optimal-weave-p1-a-prototype-cohabitive-game)
+append_entries: 1
+Finish: 2024-08-17 22:10:22.850036
