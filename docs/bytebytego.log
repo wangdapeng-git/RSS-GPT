@@ -3350,3 +3350,12 @@ Existing_entries: 45
 Fetching from https://blog.bytebytego.com/feed
 append_entries: 0
 Finish: 2024-08-17 14:11:45.169808
+------------------------------------------------------
+Started: 2024-08-17 16:14:33.364621
+Existing_entries: 45
+Fetching from https://blog.bytebytego.com/feed
+Token length: 5659
+Summarized using GPT-3.5-turbo
+Append: [EP125: How does Garbage Collection work?](https://blog.bytebytego.com/p/ep125-how-does-garbage-collection)
+append_entries: 1
+Finish: 2024-08-17 16:14:38.640724
