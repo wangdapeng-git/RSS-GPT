@@ -5079,3 +5079,9 @@ Summarized using GPT-3.5-turbo
 Append: [Rationalists are missing a core piece for agent-like structure (energy vs information overload)](https://www.lesswrong.com/posts/YZvyQn2dAw4tL2xQY/rationalists-are-missing-a-core-piece-for-agent-like)
 append_entries: 1
 Finish: 2024-08-18 18:13:35.850229
+------------------------------------------------------
+Started: 2024-08-18 20:11:11.418396
+Existing_entries: 183
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-08-18 20:11:11.908331

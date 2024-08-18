@@ -3380,3 +3380,9 @@ Summarized using GPT-3.5-turbo
 Append: [🥇Top ML Papers of the Week](https://nlp.elvissaravia.com/p/top-ml-papers-of-the-week-afb)
 append_entries: 1
 Finish: 2024-08-18 18:13:40.142696
+------------------------------------------------------
+Started: 2024-08-18 20:11:12.644009
+Existing_entries: 29
+Fetching from https://nlp.elvissaravia.com/feed
+append_entries: 0
+Finish: 2024-08-18 20:11:12.889451

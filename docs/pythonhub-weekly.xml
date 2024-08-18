@@ -4,13 +4,14 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-08-18</title>
 <link>https://pythonhub.dev/digest/2024-08-18/</link>
 <guid>https://pythonhub.dev/digest/2024-08-18/</guid>
 <content:encoded><![CDATA[
 <div> Self-hosted, YouTube downloader, Djeno database, natural language, SQL queries
-<br>
+<br />
 总结:
 本文介绍了自托管的YouTube下载器，使用Djeno数据库进行自然语言到SQL查询的演示。重点是语义搜索和与Django的集成。文章讨论了如何在Python ASGI应用程序中实现日志上下文传播，使用中间件自动为日志消息添加上下文信息，如用户ID和平台。最后，讨论了使用“Knownbits”抽象域来优化整数操作，追踪变量的每个位以优化性能。 <div>
 <div></div>
@@ -163,9 +164,7 @@
 <hr />
 ]]></content:encoded>
 <pubDate>Sun, 18 Aug 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 18 Aug 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-08-11</title>
 <link>https://pythonhub.dev/digest/2024-08-11/</link>
