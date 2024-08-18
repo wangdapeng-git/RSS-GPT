@@ -4,6 +4,167 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-08-18</title>
+<link>https://pythonhub.dev/digest/2024-08-18/</link>
+<guid>https://pythonhub.dev/digest/2024-08-18/</guid>
+<content:encoded><![CDATA[
+<div> Self-hosted, YouTube downloader, Djeno database, natural language, SQL queries
+<br>
+总结:
+本文介绍了自托管的YouTube下载器，使用Djeno数据库进行自然语言到SQL查询的演示。重点是语义搜索和与Django的集成。文章讨论了如何在Python ASGI应用程序中实现日志上下文传播，使用中间件自动为日志消息添加上下文信息，如用户ID和平台。最后，讨论了使用“Knownbits”抽象域来优化整数操作，追踪变量的每个位以优化性能。 <div>
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://www.djangoproject.com/weblog/2024/aug/07/django-51-released/">Django 5.1 released</a></strong>
+    
+        <br /><span>Django 5.1 introduces LoginRequiredMiddleware for easier authentication enforcement, accessibility enhancements like improved screen reader support and better HTML semantics, and a new querystring template tag for simpler URL handling in templates.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.gauge.sh/blog/python-extensions-should-be-lazy">Python extensions should be lazy</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=zWPe_CUR4yU">FINALLY Python is Getting Rid of the GIL!</a></strong>
+    
+        <br /><span>This video discusses how Python 3.13 is revolutionizing performance by making the Global Interpreter Lock (GIL) optional! Learn what the GIL is, why it exists, and the potential impacts of its removal on your Python projects.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=ea2W8IogX80">RAG Fundamentals and Advanced Techniques</a></strong>
+    
+        <br /><span>This course will guide you through the basics of Retrieval-Augmented Generation (RAG), starting with its fundamental concepts and components. You'll learn how to build a RAG system for chatting with documents, explore advanced techniques, and understand the pitfalls of naive RAG.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/deepdub-ai/audiosample">AudioSample</a></strong>
+    
+        <br /><span>AudioSample is an optimized numpy-like audio manipulation library, created for researchers, used by developers.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://github.com/alexta69/metube">alexta69 / metube</a></strong>
+    
+        <br /><span>Self-hosted YouTube downloader (web UI for youtube-dl / yt-dlp)</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=GfDJ-Sxn4dE">Talk to Django with natural language. Text to SQL and more.</a></strong>
+    
+        <br /><span>The video demonstrates using Djeno database for natural language to SQL queries via embeddings, emphasizing semantic search, and integration with Django. It covers setting up PostgreSQL, creating Django models, embedding for efficient search, and caching for performance, while addressing bugs and customizing prompts in the SQL engine.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://rednafi.com/python/log_context_propagation/">Log context propagation in Python ASGI apps</a></strong>
+    
+        <br /><span>The article explains how to implement log context propagation in Python ASGI applications using middleware to automatically tag log messages with contextual information like user ID and platform. This approach simplifies logging by eliminating the need for manual context passing across different layers of an application, ensuring all logs within a request-response cycle are consistently ...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.gauge.sh/blog/the-trouble-with-all">The trouble with __all__</a></strong>
+    
+        <br /><span>This article discusses the limitations and pitfalls of using the __all__ attribute in Python for defining public APIs, emphasizing how it fails to enforce module boundaries and can lead to tightly coupled codebases. The author proposes an alternative solution involving a custom import hook to ensure stricter module interface enforcement.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.codingconfessions.com/p/are-function-calls-still-slow-in-python">Recent Performance Improvements in Function Calls in CPython</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://geekpython.in/gil-become-optional-in-python">GIL Become Optional in Python 3.13</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pypy.org/posts/2024/08/toy-knownbits.html">A Knownbits Abstract Domain for the Toy Optimizer, Correctly</a></strong>
+    
+        <br /><span>The article discusses the implementation of a "Knownbits" abstract domain for the Toy optimizer, which tracks individual bits of a variable as "known zero," "known one," or "unknown" to optimize integer operations. It details the construction of the domain, transfer functions, and correctness proofs using property-based testing and automated proofs, with plans to apply a more complex ver...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-08-11/">Python Hub Weekly Digest for 2024-08-11</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/curvedinf/dir-assistant/">dir-assistant</a></strong>
+    
+        <br /><span>Chat with your current directory's files using a local or API LLM.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/OpenAdaptAI/OpenAdapt">OpenAdapt</a></strong>
+    
+        <br /><span>AI-First Process Automation with Large Multimodal Models (LMMs).</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/InternLM/MindSearch">MindSearch</a></strong>
+    
+        <br /><span>An LLM-based Multi-agent Framework of Web Search Engine (like Perplexity.ai Pro and SearchGPT)</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/asg017/sqlite-vec">sqlite-vec</a></strong>
+    
+        <br /><span>A vector search SQLite extension that runs anywhere!</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/karpathy/nano-llama31">nano-llama31</a></strong>
+    
+        <br /><span>nanoGPT style version of Llama 3.1</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/facebookresearch/DCPerf">DCPerf</a></strong>
+    
+        <br /><span>DCPerf benchmark suite for hyperscale cloud applications,</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/deedy/formy">Formy</a></strong>
+    
+        <br /><span>Generate dynamic UI forms from text using OpenAI's structured output API.</span>
+    
+    </p>
+
+
+<hr />
+]]></content:encoded>
+<pubDate>Sun, 18 Aug 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 18 Aug 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-08-11</title>
