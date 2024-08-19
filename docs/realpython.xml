@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Python Classes: The Power of Object-Oriented Programming</title>
 <link>https://realpython.com/python-classes/</link>
@@ -14,7 +15,7 @@
 Python中的类是面向对象编程的重要组成部分，使用class关键字来定义类。类包括属性和方法，属性用于存储数据，方法提供行为。通过继承可以建立类的层次结构，实现代码重用。可以使用类来建模现实世界的对象，例如人、动物、车辆等。类也可以用于构建虚拟对象，如Web服务器、聊天机器人等。定义类时，需要使用class关键字，然后在类体中定义属性和方法。初始化方法__init__()用于设置对象的初始值。通过学习本教程，你将了解如何利用Python的类来解决复杂的编程问题。
 
 
-<br><br>
+<br /><br />
 总结: 
 - Python中的类使用class关键字来定义，包括属性和方法。
 - 属性用于存储数据，方法提供行为。
@@ -137,10 +138,8 @@ Python中的类是面向对象编程的重要组成部分，使用class关键字
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-08-19T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>The Real Python Podcast – Episode #217: Packaging Data Analyses &amp; Using pandas GroupBy</title>
 <link>https://realpython.com/podcasts/rpp/217/</link>
