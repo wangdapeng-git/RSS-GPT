@@ -5118,3 +5118,15 @@ Existing_entries: 184
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-19 06:16:12.763180
+------------------------------------------------------
+Started: 2024-08-19 08:15:29.462599
+Existing_entries: 184
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 7563
+Summarized using GPT-3.5-turbo
+Append: [Why you should be using a retinoid](https://www.lesswrong.com/posts/qqh4Kg7qyn96BgbNj/why-you-should-be-using-a-retinoid)
+Token length: 8194
+Summarized using GPT-3.5-turbo
+Append: [Liability regimes for AI](https://www.lesswrong.com/posts/vQF4Jspzi7ZjpnJbv/liability-regimes-for-ai)
+append_entries: 2
+Finish: 2024-08-19 08:15:41.970772
