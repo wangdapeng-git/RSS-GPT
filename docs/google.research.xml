@@ -4,6 +4,7 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+
 <item>
 <title>Transformers in music recommendation</title>
 <link>https://research.google/blog/transformers-in-music-recommendation/</link>
@@ -11,13 +12,11 @@
 <content:encoded><![CDATA[
 <div> Data Mining, Modeling, Machine Intelligence, Product
 
-总结:<br><br>这篇文章主要讨论了数据挖掘、建模、机器智能和产品之间的关系。数据挖掘是通过分析大量数据来发现有用信息和模式的过程，建模则是根据数据建立模型来预测未来趋势。机器智能则是利用算法和技术使计算机具有类似人类智能的能力。产品开发过程中，数据挖掘和建模可以帮助企业更好地了解市场需求和用户行为，而机器智能技术能够提高产品的智能化水平，从而提升用户体验和产品竞争力。数据挖掘、建模、机器智能三者相互结合，将有助于企业更好地开发和推广出色的产品。 <div>
+总结:<br /><br />这篇文章主要讨论了数据挖掘、建模、机器智能和产品之间的关系。数据挖掘是通过分析大量数据来发现有用信息和模式的过程，建模则是根据数据建立模型来预测未来趋势。机器智能则是利用算法和技术使计算机具有类似人类智能的能力。产品开发过程中，数据挖掘和建模可以帮助企业更好地了解市场需求和用户行为，而机器智能技术能够提高产品的智能化水平，从而提升用户体验和产品竞争力。数据挖掘、建模、机器智能三者相互结合，将有助于企业更好地开发和推广出色的产品。 <div>
 Data Mining & Modeling · Machine Intelligence · Product
 ]]></content:encoded>
-<pubDate>2024-08-16T00:00:00+00:00</pubDate>
 <pubDate>2024-08-19T20:12:46.567798+00:00</pubDate>
 </item>
-
 <item>
 <title>HALVA: Hallucination Attenuated Language and Vision Assistant</title>
 <link>https://research.google/blog/halva-hallucination-attenuated-language-and-vision-assistant/</link>
