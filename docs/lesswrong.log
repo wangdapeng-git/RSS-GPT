@@ -5157,3 +5157,9 @@ Summarized using GPT-3.5-turbo
 Append: [Quick look: applications of chaos theory](https://www.lesswrong.com/posts/b65s2pLqnyP89jEmj/quick-look-applications-of-chaos-theory)
 append_entries: 1
 Finish: 2024-08-19 16:14:24.126323
+------------------------------------------------------
+Started: 2024-08-19 18:14:46.856300
+Existing_entries: 187
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-08-19 18:14:47.197462
