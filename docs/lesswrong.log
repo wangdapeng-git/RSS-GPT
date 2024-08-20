@@ -5214,3 +5214,9 @@ Summarized using GPT-3.5-turbo
 Append: [What is "True Love"?](https://www.lesswrong.com/posts/4KawdpAfFZzhFccMi/what-is-true-love)
 append_entries: 2
 Finish: 2024-08-20 08:15:55.048128
+------------------------------------------------------
+Started: 2024-08-20 10:13:17.160986
+Existing_entries: 190
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-08-20 10:13:17.832833
