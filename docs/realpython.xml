@@ -4,6 +4,35 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Exploring Astrophysics in Python With pandas and Matplotlib</title>
+<link>https://realpython.com/courses/astrophysics-pandas-matplotlib/</link>
+<guid>https://realpython.com/courses/astrophysics-pandas-matplotlib/</guid>
+<content:encoded><![CDATA[
+<div> Astro-physics, Python, pandas, Matplotlib, datascience  
+Astro-physics的入门知识、pandas中的数据框架操作、科学单位的代码编写、Matplotlib中的信息可视化。  
+
+<br><br>总结:  
+本课程利用三个常见的初级天文物理问题在Python中进行演示。在学习过程中，您将了解一些天文知识，以及如何使用各种数据科学库，如NumPy、Matplotlib、pandas和pint。
+您将学习以下内容：
+- 初级天文物理主题
+- 在pandas中操作数据框
+- 编写使用科学单位的代码
+- 使用Matplotlib可视化信息 <div>
+<p>This course uses three problems often covered in introductory astro-physics courses to play in Python. Along the way you&rsquo;ll learn some astronomy, and how to use a variety of datascience libraries like NumPy, Matplotlib, pandas, and pint.</p>
+<p><strong>In this video course you&rsquo;ll learn about</strong>:</p>
+<ul>
+<li>Introductory astrophysics topics</li>
+<li>Working with dataframes in pandas</li>
+<li>Writing code that uses scientific units</li>
+<li>Visualizing information with Matplotlib</li>
+</ul>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-08-20T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Python Classes: The Power of Object-Oriented Programming</title>
