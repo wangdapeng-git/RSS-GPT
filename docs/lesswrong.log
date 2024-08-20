@@ -5202,3 +5202,15 @@ Existing_entries: 188
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-20 06:15:45.799091
+------------------------------------------------------
+Started: 2024-08-20 08:15:44.260087
+Existing_entries: 188
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 19838
+Summarized using GPT-3.5-turbo
+Append: [A primer on why computational predictive toxicology is hard](https://www.lesswrong.com/posts/TsHPJ7fixmGdKZNZq/a-primer-on-why-computational-predictive-toxicology-is-hard)
+Token length: 2193
+Summarized using GPT-3.5-turbo
+Append: [What is "True Love"?](https://www.lesswrong.com/posts/4KawdpAfFZzhFccMi/what-is-true-love)
+append_entries: 2
+Finish: 2024-08-20 08:15:55.048128
