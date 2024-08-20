@@ -5254,3 +5254,9 @@ Append: [AGI Safety and Alignment at Google DeepMind:
 A Summary of Recent Work](https://www.lesswrong.com/posts/79BPxvSsjzBkiSyTq/agi-safety-and-alignment-at-google-deepmind-a-summary-of)
 append_entries: 1
 Finish: 2024-08-20 18:14:56.514216
+------------------------------------------------------
+Started: 2024-08-20 20:13:41.101592
+Existing_entries: 193
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-08-20 20:13:41.568565
