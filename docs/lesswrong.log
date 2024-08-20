@@ -5244,3 +5244,13 @@ Summarized using GPT-3.5-turbo
 Append: [LLM Applications I Want To See](https://www.lesswrong.com/posts/Paxpr2EkNzBEJTDoF/llm-applications-i-want-to-see)
 append_entries: 2
 Finish: 2024-08-20 16:13:26.366536
+------------------------------------------------------
+Started: 2024-08-20 18:14:49.633507
+Existing_entries: 192
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 16145
+Summarized using GPT-3.5-turbo
+Append: [AGI Safety and Alignment at Google DeepMind:
+A Summary of Recent Work](https://www.lesswrong.com/posts/79BPxvSsjzBkiSyTq/agi-safety-and-alignment-at-google-deepmind-a-summary-of)
+append_entries: 1
+Finish: 2024-08-20 18:14:56.514216
