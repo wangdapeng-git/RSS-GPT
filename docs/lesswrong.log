@@ -5266,3 +5266,12 @@ Existing_entries: 193
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-20 22:10:37.498793
+------------------------------------------------------
+Started: 2024-08-21 00:51:44.809501
+Existing_entries: 193
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 13825
+Summarized using GPT-3.5-turbo
+Append: [Defining alignment research](https://www.lesswrong.com/posts/67fNBeHrjdrZZNDDK/defining-alignment-research)
+append_entries: 1
+Finish: 2024-08-21 00:51:51.110966
