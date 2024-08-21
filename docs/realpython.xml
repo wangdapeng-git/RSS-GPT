@@ -4,6 +4,23 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Quiz: Primer on Jinja Templating</title>
+<link>https://realpython.com/quizzes/primer-on-jinja-templating/</link>
+<guid>https://realpython.com/quizzes/primer-on-jinja-templating/</guid>
+<content:encoded><![CDATA[
+<div> Jinja, Python, 模板, web 应用, 文本文件
+<br><br>总结:
+Jinja 是 Python 中强大的模板工具，用于在 web 应用中构建丰富的模板，也可以用于创建具有程序化内容的文本文件。Jinja 可以帮助我们在 Python 网络应用程序中快速生成动态内容，提高开发效率。该工具可以利用模板来自动生成文本文件，实现内容的自定义和个性化。通过学习 Jinja 模板语法和用法，可以更好地理解和掌握 Python 中的模板化技术。 <div>
+<p>In this quiz, you&rsquo;ll test your understanding of Jinja templating.
+Jinja is a powerful tool for building rich templates in Python web applications,
+and it can also be used to create text files with programmatic content.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-08-21T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Exploring Astrophysics in Python With pandas and Matplotlib</title>
