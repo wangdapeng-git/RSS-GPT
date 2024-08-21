@@ -5311,3 +5311,12 @@ Existing_entries: 194
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-21 12:20:31.593118
+------------------------------------------------------
+Started: 2024-08-21 14:12:44.449471
+Existing_entries: 194
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 9520
+Summarized using GPT-3.5-turbo
+Append: [the Giga Press was a mistake](https://www.lesswrong.com/posts/nZcb9TTyneFbxiDav/the-giga-press-was-a-mistake)
+append_entries: 1
+Finish: 2024-08-21 14:12:52.165349
