@@ -5329,3 +5329,9 @@ Summarized using GPT-3.5-turbo
 Append: [Thiel on AI & Racing with China](https://www.lesswrong.com/posts/xbpig7TcsEktyykNF/thiel-on-ai-and-racing-with-china)
 append_entries: 1
 Finish: 2024-08-21 16:15:22.730645
+------------------------------------------------------
+Started: 2024-08-21 18:14:44.217375
+Existing_entries: 196
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-08-21 18:14:45.254963

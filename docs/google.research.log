@@ -2615,3 +2615,12 @@ Existing_entries: 20
 Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
 append_entries: 0
 Finish: 2024-08-21 16:15:29.746301
+------------------------------------------------------
+Started: 2024-08-21 18:14:47.315255
+Existing_entries: 20
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Speculative RAG: Enhancing retrieval augmented generation through drafting](https://research.google/blog/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting/)
+append_entries: 1
+Finish: 2024-08-21 18:14:54.516143

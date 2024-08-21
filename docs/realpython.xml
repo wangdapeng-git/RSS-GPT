@@ -4,12 +4,13 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Primer on Jinja Templating</title>
 <link>https://realpython.com/primer-on-jinja-templating/</link>
 <guid>https://realpython.com/primer-on-jinja-templating/</guid>
 <content:encoded><![CDATA[
-<div> Jinja, templates, Python, web development, Flask<br><br>总结: 本文介绍了如何在Python的全栈Web开发中使用Jinja模板引擎。Jinja可以帮助构建丰富的模板，驱动Python Web应用程序的前端。无需使用Web框架即可体验Jinja的功能，可以创建具有程序内容的文本文件。通过本教程，学习了安装Jinja模板引擎、创建模板、在Flask中呈现模板、使用for循环和条件语句、嵌套Jinja模板、使用过滤器修改变量、使用宏添加前端功能等内容。完成后会有互动测验来检验对Jinja模板的理解。 <div>
+<div> Jinja, templates, Python, web development, Flask<br /><br />总结: 本文介绍了如何在Python的全栈Web开发中使用Jinja模板引擎。Jinja可以帮助构建丰富的模板，驱动Python Web应用程序的前端。无需使用Web框架即可体验Jinja的功能，可以创建具有程序内容的文本文件。通过本教程，学习了安装Jinja模板引擎、创建模板、在Flask中呈现模板、使用for循环和条件语句、嵌套Jinja模板、使用过滤器修改变量、使用宏添加前端功能等内容。完成后会有互动测验来检验对Jinja模板的理解。 <div>
 <div><p>Templates are an essential ingredient in full-stack web development.
 With <strong>Jinja</strong>, you can build rich templates that power the front end of your Python web applications.</p>
 <p>But you don’t need to use a web framework to experience the capabilities of Jinja.
@@ -201,10 +202,8 @@ Try it out by opening the <a href="https://realpython.com/interacting-with-pytho
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-08-21T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Quiz: Primer on Jinja Templating</title>
 <link>https://realpython.com/quizzes/primer-on-jinja-templating/</link>

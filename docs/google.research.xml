@@ -4,6 +4,19 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+<item>
+<title>Speculative RAG: Enhancing retrieval augmented generation through drafting</title>
+<link>https://research.google/blog/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting/</link>
+<guid>https://research.google/blog/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 文章、总结、关键词、中文、要点
+
+总结:<br><br>这篇文章要求提取出5个关键词，并用中文撰写一个含有所有要点的总结。文章内容包括如何提取关键词、总结要点，并要求总结长度不超过200字。根据要求，先提取关键词，然后使用中文写出总结，按要点顺序输出，确保达到要求。 <div>
+
+]]></content:encoded>
+<pubDate>2024-08-21T00:00:00+00:00</pubDate>
+<pubDate>2024-08-21T18:14:51.267448+00:00</pubDate>
+</item>
 
 <item>
 <title>Transformers in music recommendation</title>
