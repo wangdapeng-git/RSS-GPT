@@ -5320,3 +5320,12 @@ Summarized using GPT-3.5-turbo
 Append: [the Giga Press was a mistake](https://www.lesswrong.com/posts/nZcb9TTyneFbxiDav/the-giga-press-was-a-mistake)
 append_entries: 1
 Finish: 2024-08-21 14:12:52.165349
+------------------------------------------------------
+Started: 2024-08-21 16:15:16.969207
+Existing_entries: 195
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 19652
+Summarized using GPT-3.5-turbo
+Append: [Thiel on AI & Racing with China](https://www.lesswrong.com/posts/xbpig7TcsEktyykNF/thiel-on-ai-and-racing-with-china)
+append_entries: 1
+Finish: 2024-08-21 16:15:22.730645
