@@ -7945,3 +7945,10 @@ Fetching from https://rsshub.app/openai/blog
 Fetch failed from https://rsshub.app/openai/blog
 append_entries: 0
 error when rendering xml, skip docs/openai
+------------------------------------------------------
+Started: 2024-08-22 10:12:45.363283
+Existing_entries: 21
+Fetching from https://rsshub.app/openai/blog
+Fetch failed from https://rsshub.app/openai/blog
+append_entries: 0
+error when rendering xml, skip docs/openai
