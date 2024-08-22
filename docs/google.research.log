@@ -2705,3 +2705,12 @@ Existing_entries: 22
 Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
 append_entries: 0
 Finish: 2024-08-22 20:13:04.935311
+------------------------------------------------------
+Started: 2024-08-22 22:11:52.373230
+Existing_entries: 22
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+Token length: 76
+Summarized using GPT-3.5-turbo
+Append: [Unlocking 7B+ language models in your browser: A deep dive with Google AI Edge's MediaPipe](https://research.google/blog/unlocking-7b-language-models-in-your-browser-a-deep-dive-with-google-ai-edges-mediapipe/)
+append_entries: 1
+Finish: 2024-08-22 22:12:03.316595

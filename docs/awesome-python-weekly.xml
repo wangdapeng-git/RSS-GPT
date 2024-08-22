@@ -4,6 +4,26 @@
 <title>Awesome Python Weekly</title>
 <link>https://python.libhunt.com/newsletter</link>
 
+<item>
+<title>🐍 Issue 430 - Rye and Uv: August Is Harvest Season for Python Packaging</title>
+<link>https://python.libhunt.com/newsletter/430</link>
+<guid>https://python.libhunt.com/newsletter/430</guid>
+<content:encoded><![CDATA[
+<div> Python, packaging, repositories, dependencies, harvest season
+<br>
+Python打包工具在8月是收获季节。文章介绍了Rye和Uv这两个Python包管理工具，它们可以帮助Python开发者更有效地管理和发布他们的软件包。8月是Python包管理工具的收获季节，许多包管理工具维护者都会在这个时候更新他们的软件包，以确保它们与最新的Python版本兼容。开发者们也可以通过Python的包管理工具来管理软件包的依赖关系，从而更轻松地构建和部署他们的项目。总之，Python的包管理工具在8月是非常活跃的，开发者们可以借此机会更新和优化他们的软件包。 
+<br>
+总结: 
+1. 介绍了Python包管理工具Rye和Uv；
+2. 8月是Python包管理工具的收获季节；
+3. 更新软件包以与最新Python版本兼容；
+4. 管理软件包的依赖关系；
+5. 提供构建和部署项目的便利。 <div>
+🐍 Issue 430 - Rye and Uv: August Is Harvest Season for Python Packaging
+]]></content:encoded>
+<pubDate>Thu, 22 Aug 2024 13:42:00 -0800</pubDate>
+<pubDate>Thu, 22 Aug 2024 13:42:00 -0800</pubDate>
+</item>
 
 <item>
 <title>🐍 Issue 429 - GIL Become Optional in Python 3.13</title>
