@@ -4,6 +4,7 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+
 <item>
 <title>Restoring speaker voices with zero-shot cross-lingual voice transfer for TTS</title>
 <link>https://research.google/blog/restoring-speaker-voices-with-zero-shot-cross-lingual-voice-transfer-for-tts/</link>
@@ -12,13 +13,10 @@
 <div> 关键词：文章、总结、中文、要点、输出
 
 总结：
-文章中提到了如何用中文总结一篇文章，首先需要提取关键词，然后用中文写一个紧凑的总结。关键词的提取和总结的撰写都需要遵循一定的格式和要求，保证信息准确传达。整篇文章强调了总结的重要性，以及如何通过简明扼要的方式有效地表达文章的要点。通过细致的总结，读者能够快速了解文章的内容和重点，提高阅读效率。<br><br>总结:文章中强调了用中文总结文章的方法，重点在于提取关键词并撰写紧凑的总结，确保快速传达文章要点。 <div>
-
+文章中提到了如何用中文总结一篇文章，首先需要提取关键词，然后用中文写一个紧凑的总结。关键词的提取和总结的撰写都需要遵循一定的格式和要求，保证信息准确传达。整篇文章强调了总结的重要性，以及如何通过简明扼要的方式有效地表达文章的要点。通过细致的总结，读者能够快速了解文章的内容和重点，提高阅读效率。<br /><br />总结:文章中强调了用中文总结文章的方法，重点在于提取关键词并撰写紧凑的总结，确保快速传达文章要点。 <div>
 ]]></content:encoded>
-<pubDate>2024-08-21T00:00:00+00:00</pubDate>
 <pubDate>2024-08-21T22:11:03.352917+00:00</pubDate>
 </item>
-
 <item>
 <title>Speculative RAG: Enhancing retrieval augmented generation through drafting</title>
 <link>https://research.google/blog/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting/</link>
