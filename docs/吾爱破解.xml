@@ -4,6 +4,27 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>Excel数据批量转Word</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1953983</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1953983</guid>
+<content:encoded><![CDATA[
+
+去年写的一个小工具，今天来分享给大家。一个可以快速的将excel数据批量按照word模板进行转换的小工具。
+
+
+
+技术栈：
+aardio+react
+
+更新记录：
+2024-08-21
+更新内容：
+1、支持excel中包含图片地址转换到word。 ...
+]]></content:encoded>
+<pubDate>Tue, 13 Aug 2024 01:47:38 +0000</pubDate>
+<pubDate>Tue, 13 Aug 2024 01:47:38 +0000</pubDate>
+</item>
 
 <item>
 <title>（转）【批处理】PDF分割、合并、加密、删除密码的工具（基于qpdf11.9.1）20240821</title>
