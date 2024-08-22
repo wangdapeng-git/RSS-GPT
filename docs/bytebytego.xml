@@ -4,14 +4,15 @@
 <title>ByteByteGo Newsletter</title>
 <link>https://blog.bytebytego.com</link>
 
+
 <item>
 <title>A Crash Course on Scaling the API Layer</title>
 <link>https://blog.bytebytego.com/p/a-crash-course-on-scaling-the-api</link>
 <guid>https://blog.bytebytego.com/p/a-crash-course-on-scaling-the-api</guid>
 <content:encoded><![CDATA[
 <div> API、通信、后端服务、功能和数据、扩展性
-<br>
-API层是现代互联网应用程序中客户端和后端服务之间通信的基础。它作为客户端访问应用程序提供的功能和数据的主要接口。API层在应用程序架构中起着关键作用，对应用程序的扩展性至关重要。提升API层的扩展性对于处理负载和流量峰值、提供更好的用户体验以及优化成本和资源利用至关重要。需要理解关键概念，使用测试过的扩展策略和最佳实践来实现API层的扩展。<br><br>总结:API层是应用程序的关键接口，扩展性对于处理负载和提供用户体验至关重要，需要理解关键概念，使用扩展策略和最佳实践来实现API层的扩展。 <div>
+<br />
+API层是现代互联网应用程序中客户端和后端服务之间通信的基础。它作为客户端访问应用程序提供的功能和数据的主要接口。API层在应用程序架构中起着关键作用，对应用程序的扩展性至关重要。提升API层的扩展性对于处理负载和流量峰值、提供更好的用户体验以及优化成本和资源利用至关重要。需要理解关键概念，使用测试过的扩展策略和最佳实践来实现API层的扩展。<br /><br />总结:API层是应用程序的关键接口，扩展性对于处理负载和提供用户体验至关重要，需要理解关键概念，使用扩展策略和最佳实践来实现API层的扩展。 <div>
 <p>The API (Application Programming Interface) layer serves as the backbone for communication between clients and the backend services in modern internet-based applications.</p><p>It acts as the primary interface through which clients, such as web or mobile applications, access the functionality and data provided by the application. The API Layer of any application has several key responsibilities such as:</p><ul><li><p>Process incoming requests from clients based on the defined API contract.</p></li><li><p>Enforce security mechanisms and protocols by authenticating and authorizing clients based on their credentials or access tokens.</p></li><li><p>Orchestrate interactions between various backend services and aggregate the responses received from them.</p></li><li><p>Handle responses by formatting and returning the result to the client.</p></li></ul><p>Due to the central role APIs play in the application architecture, they become critical for the application scalability.</p><p>The scalability of the API layer is crucial due to the following reasons:</p><ul><li><p><strong>Handling Load and Traffic Spikes: </strong>As applications become popular, they encounter increased traffic and sudden spikes in user demand. A scalable API can manage the increased load efficiently.</p></li><li><p><strong>Better User Experience:</strong> The bar for user expectation has gone up. Most users these days expect fast and responsive applications. A scalable API ensures that the application can support a high number of users without compromising performance.</p></li><li><p><strong>Cost and Resource Optimization: </strong>Scalable APIs unlock the path to better resource utilization. Rather than provisioning the infrastructure upfront for the highest demand level, instances are added and removed based on demand, resulting in reduced operational costs.</p></li></ul><p>In this article, we&#8217;ll learn the key concepts a developer must understand for API scalability. We will also look at some tried and tested strategies for scaling the API layer with basic code examples for clarity. Lastly, we will also look at some best practices that can help with scaling the API layer.</p><div class="captioned-image-container"><figure><a class="image-link is-viewable-img image2" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e469dc6-af33-408b-acc5-e11f57fd9aca_1437x1600.png" target="_blank"><div class="image2-inset"><source type="image/webp" /><img alt="" class="sizing-normal" height="1600" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e469dc6-af33-408b-acc5-e11f57fd9aca_1437x1600.png" width="1437" /><div class="image-link-expand"><svg class="lucide lucide-maximize2 " fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" x2="14" y1="3" y2="10"></line><line x1="3" x2="10" y1="21" y2="14"></line></svg></div></div></a></figure></div>
       <p>
           <a href="https://blog.bytebytego.com/p/a-crash-course-on-scaling-the-api">
@@ -20,9 +21,7 @@ API层是现代互联网应用程序中客户端和后端服务之间通信的�
       </p>
 ]]></content:encoded>
 <pubDate>Thu, 22 Aug 2024 15:30:14 GMT</pubDate>
-<pubDate>Thu, 22 Aug 2024 15:30:14 GMT</pubDate>
 </item>
-
 <item>
 <title>Trillions of Indexes: How Uber’s LedgerStore Supports Such Massive Scale</title>
 <link>https://blog.bytebytego.com/p/trillions-of-indexes-how-ubers-ledgerstore</link>
