@@ -7774,3 +7774,9 @@ Summarized using GPT-3.5-turbo
 Append: [FermiNet: Quantum physics and chemistry from first principles](https://deepmind.google/discover/blog/ferminet-quantum-physics-and-chemistry-from-first-principles/)
 append_entries: 1
 Finish: 2024-08-23 12:20:17.814983
+------------------------------------------------------
+Started: 2024-08-23 14:11:44.658514
+Existing_entries: 117
+Fetching from https://rsshub.app/deepmind/blog
+append_entries: 0
+Finish: 2024-08-23 14:11:44.754347

@@ -5467,3 +5467,9 @@ Summarized using GPT-3.5-turbo
 Append: [The economics of space tethers](https://www.lesswrong.com/posts/DvGe4debuZvDKBsEm/the-economics-of-space-tethers)
 append_entries: 1
 Finish: 2024-08-23 12:21:05.017515
+------------------------------------------------------
+Started: 2024-08-23 14:12:21.960964
+Existing_entries: 198
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-08-23 14:12:22.471739
