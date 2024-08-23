@@ -15100,3 +15100,21 @@ Existing_entries: 860
 Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
 append_entries: 0
 Finish: 2024-08-23 10:11:45.715303
+------------------------------------------------------
+Started: 2024-08-23 12:20:10.179732
+Existing_entries: 860
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Append: [Windows 10/11 系统优化工具 Optimizer 16.7](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1957342)
+Append: [AI无损放大工具 AI lossless zoomer 3.1.0.0](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1957293)
+Append: [无重复随机姓名生成器V0.1](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1957228)
+Filter: [【安卓13+设备通用】达芬奇相机 Blackmagic Camera 1.2.0024版本](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1957209)
+Filter: [京东谷歌版 12.10版本 更流畅一些](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1956768)
+Filter: [PDF转换工具官方最新版solidconverterpdf【10.1.18108.10736】](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1956336)
+Filter: [福利彩票查询](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1955978)
+Filter: [什么垃圾APP V3.4](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1955632)
+Append: [使用Python查询任意地区历史天气并生成气温走势折线图](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1955525)
+Filter: [【BitTorrent Pro】8.2.5 汉化完整版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1954802)
+Filter: [Office AI 助手 v0.3.05(免费,2024-08-14 支持大量功能调用）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1954633)
+Filter: [微软常用运行库合集 2024.08.14](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1954517)
+append_entries: 4
+Finish: 2024-08-23 12:20:12.741221

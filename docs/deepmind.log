@@ -7765,3 +7765,12 @@ Existing_entries: 116
 Fetching from https://rsshub.app/deepmind/blog
 append_entries: 0
 Finish: 2024-08-23 10:11:45.847334
+------------------------------------------------------
+Started: 2024-08-23 12:20:12.781937
+Existing_entries: 116
+Fetching from https://rsshub.app/deepmind/blog
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [FermiNet: Quantum physics and chemistry from first principles](https://deepmind.google/discover/blog/ferminet-quantum-physics-and-chemistry-from-first-principles/)
+append_entries: 1
+Finish: 2024-08-23 12:20:17.814983

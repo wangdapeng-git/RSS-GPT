@@ -4,6 +4,21 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>The Real Python Podcast – Episode #218: Exploring Robotics and Python Through Electronic Projects</title>
+<link>https://realpython.com/podcasts/rpp/218/</link>
+<guid>https://realpython.com/podcasts/rpp/218/</guid>
+<content:encoded><![CDATA[
+<div> Python, robotics, electronics, projects, coding
+<br>
+Python程序设计与机器人技术结合，通过电子项目激发孩子对编程的兴趣。本周节目中我们与作者Marwan Alsabbagh讨论了他的著作《用Python、CRICKIT和树莓派构建你自己的机器人》。这本书将Python编程与机器人制作、CRICKIT控制板和树莓派相结合，为孩子们提供了学习机器人技术的机会，同时培养了他们对编程的兴趣。建议家长和老师可以通过这样的实践项目，激发孩子们对编程和科技的热情，让他们在实践中体会到编程的乐趣。总结：这本书提供了一种创新的学习方式，将Python编程与机器人制作相结合，帮助孩子们在实践中掌握编程技能，培养他们对科技的兴趣。 <div>
+<p>Are you interested in learning robotics with Python? Can physical electronics-based projects grow a child's interest in coding? This week on the show, we speak with author Marwan Alsabbagh about his book "Build Your Own Robot - Using Python, CRICKIT, and Raspberry Pi."</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-08-23T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Primer on Jinja Templating</title>

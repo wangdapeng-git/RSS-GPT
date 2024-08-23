@@ -5458,3 +5458,12 @@ Existing_entries: 197
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-23 10:12:52.290377
+------------------------------------------------------
+Started: 2024-08-23 12:20:59.601245
+Existing_entries: 197
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 22601
+Summarized using GPT-3.5-turbo
+Append: [The economics of space tethers](https://www.lesswrong.com/posts/DvGe4debuZvDKBsEm/the-economics-of-space-tethers)
+append_entries: 1
+Finish: 2024-08-23 12:21:05.017515
