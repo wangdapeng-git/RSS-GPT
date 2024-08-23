@@ -4,21 +4,20 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+
 <item>
 <title>Unlocking 7B+ language models in your browser: A deep dive with Google AI Edge's MediaPipe</title>
 <link>https://research.google/blog/unlocking-7b-language-models-in-your-browser-a-deep-dive-with-google-ai-edges-mediapipe/</link>
 <guid>https://research.google/blog/unlocking-7b-language-models-in-your-browser-a-deep-dive-with-google-ai-edges-mediapipe/</guid>
 <content:encoded><![CDATA[
 <div> 生成AI 自然语言处理 软件系统 工程
-<br>
-<br>
+<br />
+<br />
 总结: 这篇文章主要讨论了生成式人工智能、自然语言处理以及软件系统与工程之间的关系。生成式人工智能技术在自然语言处理领域发挥重要作用，有助于开发智能软件系统。工程师们需要在软件系统开发过程中充分利用生成AI技术，提高系统的智能化和自动化程度。通过不断优化和迭代，可以实现更高水平的软件工程实践，为用户带来更好的产品体验。 <div>
 Generative AI · Natural Language Processing · Software Systems & Engineering
 ]]></content:encoded>
-<pubDate>2024-08-22T00:00:00+00:00</pubDate>
 <pubDate>2024-08-22T22:11:59.137226+00:00</pubDate>
 </item>
-
 <item>
 <title>Restoring speaker voices with zero-shot cross-lingual voice transfer for TTS</title>
 <link>https://research.google/blog/restoring-speaker-voices-with-zero-shot-cross-lingual-voice-transfer-for-tts/</link>
