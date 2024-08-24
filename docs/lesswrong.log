@@ -5569,3 +5569,18 @@ Existing_entries: 200
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-24 20:12:18.011232
+------------------------------------------------------
+Started: 2024-08-24 22:10:12.154671
+Existing_entries: 200
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 30332
+Summarized using GPT-3.5-turbo
+Append: [Showing SAE Latents Are Not Atomic Using Meta-SAEs](https://www.lesswrong.com/posts/TMAmHh4DdMr4nCSr5/showing-sae-latents-are-not-atomic-using-meta-saes)
+Token length: 6607
+Summarized using GPT-3.5-turbo
+Append: ["Can AI Scaling Continue Through 2030?", Epoch AI (yes)](https://www.lesswrong.com/posts/SoWperLCkunB9ijGq/can-ai-scaling-continue-through-2030-epoch-ai-yes)
+Token length: 9087
+Summarized using GPT-3.5-turbo
+Append: [Owain Evans on Situational Awareness and Out-of-Context Reasoning in LLMs](https://www.lesswrong.com/posts/PPDuLtqCtpqmGzEzH/owain-evans-on-situational-awareness-and-out-of-context)
+append_entries: 3
+Finish: 2024-08-24 22:10:26.937027
