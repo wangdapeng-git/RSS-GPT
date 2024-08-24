@@ -5554,3 +5554,12 @@ Existing_entries: 199
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-24 16:12:36.325732
+------------------------------------------------------
+Started: 2024-08-24 18:13:19.787358
+Existing_entries: 199
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 5365
+Summarized using GPT-3.5-turbo
+Append: [If we solve alignment, do we die anyway?](https://www.lesswrong.com/posts/kLpFvEBisPagBLTtM/if-we-solve-alignment-do-we-die-anyway-1)
+append_entries: 1
+Finish: 2024-08-24 18:13:24.496817
