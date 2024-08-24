@@ -5497,3 +5497,12 @@ Existing_entries: 198
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-23 22:10:38.365106
+------------------------------------------------------
+Started: 2024-08-24 00:51:04.098183
+Existing_entries: 198
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 21199
+Summarized using GPT-3.5-turbo
+Append: [Measuring Structure Development in Algorithmic Transformers](https://www.lesswrong.com/posts/ooAao2RYdFSd77qfp/measuring-structure-development-in-algorithmic-transformers)
+append_entries: 1
+Finish: 2024-08-24 00:51:10.275809
