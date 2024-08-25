@@ -4,15 +4,16 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-08-25</title>
 <link>https://pythonhub.dev/digest/2024-08-25/</link>
 <guid>https://pythonhub.dev/digest/2024-08-25/</guid>
 <content:encoded><![CDATA[
 <div> DeltaDB, polars, deltalake, emval, Rust
-<br>
+<br />
 教你如何使用Scrapy和Playwright在Python中爬取无限滚动网站。提供设置过程，实现自定义下载中间件处理JavaScript渲染，提取动态加载内容的数据。介绍如何处理现代Web应用程序带来的网页抓取挑战。
-<br><br>
+<br /><br />
 总结: 本文介绍了如何使用Scrapy和Playwright在Python中有效地爬取无限滚动网站。提供了设置过程和实施自定义下载中间件来处理JavaScript渲染的方法，同时演示了如何提取动态加载内容的数据，为解决现代Web应用程序带来的网页抓取挑战提供了实用解决方案。 <div>
 <div></div>
 
@@ -171,9 +172,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 25 Aug 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 25 Aug 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-08-18</title>
 <link>https://pythonhub.dev/digest/2024-08-18/</link>
