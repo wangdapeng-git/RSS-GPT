@@ -4,6 +4,175 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-08-25</title>
+<link>https://pythonhub.dev/digest/2024-08-25/</link>
+<guid>https://pythonhub.dev/digest/2024-08-25/</guid>
+<content:encoded><![CDATA[
+<div> DeltaDB, polars, deltalake, emval, Rust
+<br>
+教你如何使用Scrapy和Playwright在Python中爬取无限滚动网站。提供设置过程，实现自定义下载中间件处理JavaScript渲染，提取动态加载内容的数据。介绍如何处理现代Web应用程序带来的网页抓取挑战。
+<br><br>
+总结: 本文介绍了如何使用Scrapy和Playwright在Python中有效地爬取无限滚动网站。提供了设置过程和实施自定义下载中间件来处理JavaScript渲染的方法，同时演示了如何提取动态加载内容的数据，为解决现代Web应用程序带来的网页抓取挑战提供了实用解决方案。 <div>
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://github.com/uname-n/deltadb">DeltaDB</a></strong>
+    
+        <br /><span>DeltaDB is a lightweight, fast, and scalable database built on polars and deltalake.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/erivlis/mappingtools">Some more batteries to do stuff with Mapping related data structures</a></strong>
+    
+        <br /><span>This library provides utility functions for manipulating and transforming data structures which have or include Mapping-like characteristics.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://mveg.es/posts/optimizing-pytorch-docker-images-cut-size-by-60percent/">Optimizing PyTorch Docker images: how to cut size by 60%</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/bnkc/emval">emval</a></strong>
+    
+        <br /><span>emval is a blazingly fast Python email validator written in Rust.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=DvdZv_DD0DY">From Boring Object-Oriented to INSANE Functional Code</a></strong>
+    
+        <br /><span>This video demonstrates that there's a place for both object-oriented and functional code. In Python, these two approaches can be combined effectively, allowing you to leverage the strengths of each for the best results.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-08-18/">Python Hub Weekly Digest for 2024-08-18</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pytorch.org/blog/flexattention/">FlexAttention: The Flexibility of PyTorch with the Performance of FlashAttention</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.xiegerts.com/post/infinite-scroll-scrapy-playwright/">Crawling Pages with Infinite Scroll using Scrapy and Playwright</a></strong>
+    
+        <br /><span>This post provides a detailed guide on how to scrape infinite scroll websites using Scrapy and Playwright in Python. It covers the setup process, explains how to implement a custom downloader middleware to handle JavaScript rendering, and demonstrates how to extract data from dynamically loaded content, offering a practical solution for web scraping challenges posed by modern web applica...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://matthodges.com/posts/2024-08-12-csv-bad-dsv-good/">CSVs Are Kinda Bad. DSVs Are Kinda Good.</a></strong>
+    
+        <br /><span>The article argues that CSVs (Comma-Separated Values) are problematic due to various edge cases involving delimiters, quotes, and newlines, and proposes using Delimiter-Separated Values (DSV) with ASCII control characters as a more robust alternative. It demonstrates how DSVs can handle complex data without escaping or quoting issues, but acknowledges that the lack of widespread tool sup...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://trebledj.me/posts/automating-boolean-sql-injection-with-python/">Automating Boolean-Based SQL Injection with Python</a></strong>
+    
+        <br /><span>How to be efficiently lazy at finding hidden gems in predictable places – Database Edition.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=VU3MAN1gs1s">Cloudflare R2 x Django. Static Files. User uploads, css, images, js and more. Production-ready.</a></strong>
+    
+        <br /><span>The video covers setting up and managing Django files, including static and user-uploaded files, using Cloudflare's R2 object storage. It emphasizes best practices for configuring environment variables, securing API keys, and managing static and media files in Django with advanced validation and customization options.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://adamj.eu/tech/2024/08/14/django-management-command-sub-commands/">Django: create sub-commands within a management command</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/goauthentik/authentik">goauthentik / authentik</a></strong>
+    
+        <br /><span>The authentication glue you need.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/hacksider/Deep-Live-Cam">Deep-Live-Cam</a></strong>
+    
+        <br /><span>Real time face swap and one-click video deepfake with only a single image.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/feder-cr/linkedIn_auto_jobs_applier_with_AI">LinkedIn_AIHawk</a></strong>
+    
+        <br /><span>LinkedIn_AIHawk is a tool that automates the jobs application process on LinkedIn. Utilizing artificial intelligence, it enables users to apply for multiple job offers in an automated and personalized way.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Dicklesworthstone/llm_aided_ocr">llm_aided_ocr</a></strong>
+    
+        <br /><span>Enhance Tesseract OCR output for scanned PDFs by applying Large Language Model (LLM) corrections.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/timescale/pgai">pgai</a></strong>
+    
+        <br /><span>Bring AI models closer to your PostgreSQL data.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Zipstack/unstract">Unstract</a></strong>
+    
+        <br /><span>No-code LLM Platform to launch APIs and ETL Pipelines to structure unstructured documents.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/mikekelly/AgentK">AgentK</a></strong>
+    
+        <br /><span>An autoagentic AGI that is self-evolving and modular.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/expectedparrot/edsl">EDSL</a></strong>
+    
+        <br /><span>Design, conduct and analyze results of AI-powered surveys and experiments. Simulate social science and market research with large numbers of AI agents and LLMs.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/learnpython/comments/1ev5195/what_are_data_structures_anyway/">What are data structures anyway?</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 25 Aug 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 25 Aug 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-08-18</title>
