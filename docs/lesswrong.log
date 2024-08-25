@@ -5620,3 +5620,9 @@ Summarized using GPT-3.5-turbo
 Append: [Perplexity wins my AI race](https://www.lesswrong.com/posts/CcJ2YWPqcMsWg8vGt/perplexity-wins-my-ai-race-1)
 append_entries: 1
 Finish: 2024-08-25 08:14:02.588844
+------------------------------------------------------
+Started: 2024-08-25 10:12:21.133867
+Existing_entries: 205
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-08-25 10:12:21.675911
