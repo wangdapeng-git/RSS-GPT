@@ -5611,3 +5611,12 @@ Existing_entries: 204
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-25 06:15:03.122154
+------------------------------------------------------
+Started: 2024-08-25 08:13:55.342894
+Existing_entries: 204
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 18028
+Summarized using GPT-3.5-turbo
+Append: [Perplexity wins my AI race](https://www.lesswrong.com/posts/CcJ2YWPqcMsWg8vGt/perplexity-wins-my-ai-race-1)
+append_entries: 1
+Finish: 2024-08-25 08:14:02.588844
