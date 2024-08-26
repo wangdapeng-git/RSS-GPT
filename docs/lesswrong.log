@@ -5680,3 +5680,15 @@ Existing_entries: 205
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-26 04:14:50.002881
+------------------------------------------------------
+Started: 2024-08-26 06:16:29.702574
+Existing_entries: 205
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 32384
+Summarized using GPT-3.5-turbo
+Append: [Secular interpretations of core perennialist claims](https://www.lesswrong.com/posts/WvpNKpL6hJB89cMNe/secular-interpretations-of-core-perennialist-claims)
+Token length: 9578
+Summarized using GPT-3.5-turbo
+Append: [Referendum Mechanics in a Marketplace of Ideas](https://www.lesswrong.com/posts/CixJcx8yrjBQhBiks/referendum-mechanics-in-a-marketplace-of-ideas)
+append_entries: 2
+Finish: 2024-08-26 06:16:41.725866
