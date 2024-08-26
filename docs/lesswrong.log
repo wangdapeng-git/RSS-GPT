@@ -5722,3 +5722,15 @@ Existing_entries: 207
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-26 16:16:02.557370
+------------------------------------------------------
+Started: 2024-08-26 18:15:26.591299
+Existing_entries: 207
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 6577
+Summarized using GPT-3.5-turbo
+Append: [Would catching your AIs trying to escape convince AI developers to slow down or undeploy?](https://www.lesswrong.com/posts/YTZAmJKydD5hdRSeG/would-catching-your-ais-trying-to-escape-convince-ai)
+Token length: 20308
+Summarized using GPT-3.5-turbo
+Append: [Darwinian Traps and Existential Risks](https://www.lesswrong.com/posts/q3YmKemEzyrcphAeP/darwinian-traps-and-existential-risks)
+append_entries: 2
+Finish: 2024-08-26 18:15:41.921028
