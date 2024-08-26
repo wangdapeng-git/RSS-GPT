@@ -5734,3 +5734,9 @@ Summarized using GPT-3.5-turbo
 Append: [Darwinian Traps and Existential Risks](https://www.lesswrong.com/posts/q3YmKemEzyrcphAeP/darwinian-traps-and-existential-risks)
 append_entries: 2
 Finish: 2024-08-26 18:15:41.921028
+------------------------------------------------------
+Started: 2024-08-26 20:13:31.691832
+Existing_entries: 209
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-08-26 20:13:31.970470
