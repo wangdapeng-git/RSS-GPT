@@ -4,6 +4,136 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>How to Install Python on Your System: A Guide</title>
+<link>https://realpython.com/installing-python/</link>
+<guid>https://realpython.com/installing-python/</guid>
+<content:encoded><![CDATA[
+<div> Windows, macOS, Linux, Python, installation
+<br>
+<br>
+总结: 本文介绍了如何在Windows、macOS、Linux等操作系统上安装或更新Python，包括检查当前系统是否已安装Python、安装最新版本Python的步骤及选项，以及如何在移动设备上安装Python。同时还介绍了使用在线解释器在浏览器上运行Python的方法。文章提供了对Python最新版本在不同操作系统上安装的详细指导，并强调了在Windows上检查和获取Python的方法。 <div>
+<div><p>Installing the latest version of Python on your computer could be a common requirement for you as a Python programmer. Fortunately, you’ll have a multitude of installation options. For example, you can download the <strong>official Python installer</strong> from <a href="https://python.org">Python.org</a>, use your operating system’s package manager or app store, and more.</p>
+<p>In this tutorial, you’ll focus on official <a href="https://realpython.com/cpython-source-code-guide/">CPython</a> distributions, which are generally the best option for learning to program with the language. However, you’ll also learn about a few other distributions, like the one available on Homebrew for macOS users.</p>
+<p><strong>In this tutorial, you’ll learn how to:</strong></p>
+<ul>
+<li>Check whether a <strong>version</strong> of Python is installed on your system</li>
+<li>Install or update to the latest Python on <strong>Windows</strong>, <strong>macOS</strong>, and <strong>Linux</strong></li>
+<li>Install Python on <strong>mobile devices</strong> like phones or tablets</li>
+<li>Use Python on your browser with <strong>online interpreters</strong></li>
+</ul>
+<p>This tutorial covers installing the latest Python on the most important platforms or operating systems, such as Windows, macOS, Linux, iOS, and Android. However, it doesn’t cover all the existing Linux distributions, which would be a huge task. Anyway, you’ll find instructions for the most popular distros nowadays.</p>
+<p>To get the most out of this tutorial, you should be comfortable using your operating system’s <a href="https://realpython.com/terminal-commands/">terminal</a> or command line.</p>
+<div class="alert alert-warning"><p><strong>Free Bonus:</strong> <a class="alert-link" href="">Click here to get a Python Cheat Sheet</a> and learn the basics of Python 3, like working with data types, dictionaries, lists, and Python functions.</p></div>
+
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Python Installation and Setup” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/python-installation-and-setup/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="Python 3 Installation &amp; Setup Guide" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Python-3-Installation--Setup-Guide_Watermarked.62f654dcab67.jpg" style="background: #b9abe6;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/python-installation-and-setup/"><span class="my-0 h4">Python Installation and Setup</span></a> 
+      <p class="text-muted mb-0 small">In this quiz, you'll test your understanding of how to install or update Python on your computer. With this knowledge, you'll be able to set up Python on various operating systems, including Windows, macOS, and Linux.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="windows-how-to-check-or-get-python">Windows: How to Check or Get Python<a class="headerlink" href="#windows-how-to-check-or-get-python" title="Permanent link"></a></h2>
+<p>In this section, you’ll learn to check whether Python is installed on your Windows operating system (OS) and which version you have. You’ll also explore three installation options that you can use on Windows.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> In this tutorial, you’ll focus on installing the latest version of Python in your current operating system (OS) rather than on installing multiple versions of Python. If you want to install several versions of Python in your OS, then check out the <a href="https://realpython.com/intro-to-pyenv/">Managing Multiple Python Versions With <code>pyenv</code></a> tutorial. Note that on Windows machines, you’d have to use <a href="https://github.com/pyenv-win/pyenv-win"><code>pyenv-win</code></a> instead of <code>pyenv</code>.</p>
+</div>
+<p>For a more comprehensive guide on setting up a Windows machine for Python programming, check out <a href="https://realpython.com/python-coding-setup-windows/">Your Python Coding Environment on Windows: Setup Guide</a>.</p>
+<h3 id="checking-the-python-version-on-windows">Checking the Python Version on Windows<a class="headerlink" href="#checking-the-python-version-on-windows" title="Permanent link"></a></h3>
+<p>To check whether you already have Python on your Windows machine, open a command-line application like <a href="https://realpython.com/python-coding-setup-windows/#installing-powershell-core">PowerShell</a> or the <a href="https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab">Windows Terminal</a>.</p>
+<p>Follow the steps below to open PowerShell on Windows:</p>
+<ol>
+<li>Press the <span class="keys"><kbd class="key-windows">Win</kbd></span> key.</li>
+<li>Type <code>PowerShell</code>.</li>
+<li>Press <span class="keys"><kbd class="key-enter">Enter</kbd></span>.</li>
+</ol>
+<p>Alternatively, you can right-click the <em>Start</em> button and select <em>Windows PowerShell</em> or <em>Windows PowerShell (Admin)</em>. In some versions of Windows, you’ll find <em>Terminal</em> or <em>Terminal (admin)</em>.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> To learn more about your options for the Windows terminal, check out <a href="https://realpython.com/courses/using-terminal-windows/">Using the Terminal on Windows</a>.</p>
+</div>
+<p>With the command line open, type in the following command and press the <span class="keys"><kbd class="key-enter">Enter</kbd></span> key:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Windows PowerShell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">PS&gt; </span><span class="n">python</span> <span class="p">-</span><span class="n">-version</span>
+<span class="go">Python 3.x.z</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Using the <code>--version</code> switch will show you the installed version. Note that the <code>3.x.z</code> part is a placeholder here. In your machine, <code>x</code> and <code>z</code> will be numbers corresponding to the specific version you have installed.</p>
+<p>Alternatively, you can use the <code>-V</code> switch:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Windows PowerShell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">PS&gt; </span><span class="n">python</span> <span class="n">-V</span>
+<span class="go">Python 3.x.z</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Using the <code>python -V</code> or <code>python—-version</code> command, you can check whether Python is installed on your system and learn what version you have. If Python isn’t installed on your OS, you’ll get an error message.</p>
+<h3 id="knowing-the-python-installation-options-on-windows">Knowing the Python Installation Options on Windows<a class="headerlink" href="#knowing-the-python-installation-options-on-windows" title="Permanent link"></a></h3>
+</div><h2><a href="https://realpython.com/installing-python/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/installing-python/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-08-26T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>The Real Python Podcast – Episode #218: Exploring Robotics and Python Through Electronic Projects</title>
