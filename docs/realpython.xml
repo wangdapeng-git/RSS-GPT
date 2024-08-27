@@ -4,6 +4,33 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Using Astropy for Astronomy With Python</title>
+<link>https://realpython.com/courses/astropy-astronomy/</link>
+<guid>https://realpython.com/courses/astropy-astronomy/</guid>
+<content:encoded><![CDATA[
+<div> Astronomy, Python libraries, Astropy, pandas, Matplotlib  
+<br>  
+通过本课程学习的是初级天文学中的两个问题，使用Python库来处理。您将使用Astropy、NumPy、Matplotlib和pandas来查找行星的合相，以及绘制最佳观看星星的时间。课程涵盖了以下内容：天文学中的合相和最佳观看时间的概念，Python包Astropy的使用，使用pandas处理数据，使用Matplotlib构建图表，以及Python的警告模块。  
+<br>  
+要点: Astronomy concepts of conjunction and optimal viewing, The Python package Astropy, Using pandas to process data, Building graphs with Matplotlib, Python’s warning module  
+<br>  
+总结: 本课程介绍了如何使用Python库处理初级天文学中的问题，包括如何查找行星的合相和绘制最佳观看时间的星星。学习了Astropy、NumPy、Matplotlib和pandas等库的使用，以及如何构建图表和处理数据。同时还了解了Python的警告模块。 <div>
+<p>This course covers two problems from introductory astronomy to help you play with some Python libraries. You&rsquo;ll use Astropy, NumPy, Matplotlib, and pandas to find planet conjunctions, and graph the best viewing times for a star.</p>
+<p><strong>In this course you&rsquo;ll learn about</strong>:</p>
+<ul>
+<li>Astronomy concepts of conjunction and optimal viewing</li>
+<li>The Python package Astropy </li>
+<li>Using pandas to process data</li>
+<li>Building graphs with Matplotlib</li>
+<li>Python&rsquo;s warning module</li>
+</ul>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-08-27T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>How to Install Python on Your System: A Guide</title>

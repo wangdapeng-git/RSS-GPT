@@ -5788,3 +5788,12 @@ Existing_entries: 209
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-27 12:21:01.256717
+------------------------------------------------------
+Started: 2024-08-27 14:11:14.021121
+Existing_entries: 209
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 7880
+Summarized using GPT-3.5-turbo
+Append: [... Wait, our models of semantics should inform fluid mechanics?!?](https://www.lesswrong.com/posts/QsstSjDqa7tmjQfnq/wait-our-models-of-semantics-should-inform-fluid-mechanics)
+append_entries: 1
+Finish: 2024-08-27 14:11:18.995711

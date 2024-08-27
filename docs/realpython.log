@@ -6738,3 +6738,12 @@ Existing_entries: 134
 Fetching from https://realpython.com/atom.xml
 append_entries: 0
 Finish: 2024-08-27 12:20:55.754452
+------------------------------------------------------
+Started: 2024-08-27 14:11:02.656100
+Existing_entries: 134
+Fetching from https://realpython.com/atom.xml
+Token length: 562
+Summarized using GPT-3.5-turbo
+Append: [Using Astropy for Astronomy With Python](https://realpython.com/courses/astropy-astronomy/)
+append_entries: 1
+Finish: 2024-08-27 14:11:08.665743
