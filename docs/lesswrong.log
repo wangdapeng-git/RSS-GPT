@@ -5809,3 +5809,15 @@ Existing_entries: 210
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-27 18:15:16.663246
+------------------------------------------------------
+Started: 2024-08-27 20:12:42.154379
+Existing_entries: 210
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 23405
+Summarized using GPT-3.5-turbo
+Append: [Why Large Bureaucratic Organizations?](https://www.lesswrong.com/posts/hsqKp56whpPEQns3Z/why-large-bureaucratic-organizations)
+Token length: 40868
+Summarized using GPT-3.5-turbo
+Append: [Soft Nationalization: How the US Government Will Control AI Labs](https://www.lesswrong.com/posts/BueeGgwJHt9D5bAsE/soft-nationalization-how-the-us-government-will-control-ai)
+append_entries: 2
+Finish: 2024-08-27 20:12:53.230028
