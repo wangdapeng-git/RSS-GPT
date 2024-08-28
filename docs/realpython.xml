@@ -4,6 +4,171 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Web Scraping With Scrapy and MongoDB</title>
+<link>https://realpython.com/web-scraping-with-scrapy-and-mongodb/</link>
+<guid>https://realpython.com/web-scraping-with-scrapy-and-mongodb/</guid>
+<content:encoded><![CDATA[
+<div> Scrapy, Python, web scraping, MongoDB, tutorial
+总结:<br><br>本教程介绍了如何使用Scrapy和MongoDB进行网页抓取。首先学习了如何设置和配置Scrapy项目，构建一个功能性的网页抓取器，提取网站数据使用选择器，将抓取的数据存储在MongoDB数据库中，并测试和调试Scrapy网页抓取器。在学习过程中，建立了一个完整的网页抓取项目，并探索了Scrapy提供的稳健结构。通过安装Scrapy包，创建Scrapy项目，和学习Scrapy的基本功能和工作流程，了解了如何使用Scrapy和MongoDB进行灵活和可扩展的网页抓取。 <div>
+<div><p><strong>Scrapy</strong> is a robust Python web scraping framework that can manage requests asynchronously, follow links, and parse site content. To store scraped data, you can use <strong>MongoDB</strong>, a scalable NoSQL database, that stores data in a JSON-like format. Combining Scrapy with MongoDB offers a powerful solution for web scraping projects, leveraging Scrapy’s efficiency and MongoDB’s flexible data storage.</p>
+<p><strong>In this tutorial, you’ll learn how to:</strong></p>
+<ul>
+<li>Set up and configure a <strong>Scrapy project</strong></li>
+<li>Build a <strong>functional web scraper</strong> with Scrapy</li>
+<li><strong>Extract data</strong> from websites using <strong>selectors</strong></li>
+<li><strong>Store</strong> scraped data in a <strong>MongoDB</strong> database</li>
+<li><strong>Test</strong> and <strong>debug</strong> your Scrapy web scraper</li>
+</ul>
+<p>If you’re new to web scraping and you’re looking for flexible and scalable tooling, then this is the right tutorial for you. You’ll also benefit from learning this tool kit if you’ve scraped sites before, but the complexity of your project has outgrown using <a href="https://realpython.com/beautiful-soup-web-scraper-python/">Beautiful Soup</a> and <a href="https://realpython.com/python-requests/">Requests</a>.</p>
+<p>To get the most out of this tutorial, you should have basic Python programming knowledge, understand <a href="https://realpython.com/python3-object-oriented-programming/">object-oriented programming</a>, comfortably work with <a href="https://realpython.com/what-is-pip/">third-party packages</a>, and be familiar with <a href="https://realpython.com/html-css-python/">HTML and CSS</a>.</p>
+<p>By the end, you’ll know how to get, parse, and store static data from the Internet, and you’ll be familiar with several useful tools that allow you to go much deeper.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/web-scraping-with-scrapy-and-mongodb-code/">Click here to download the free code</a> that shows you how to gather Web data with Scrapy and MongoDB.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Web Scraping With Scrapy and MongoDB” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/web-scraping-with-scrapy-and-mongodb/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="Web Scraping With Scrapy and MongoDB" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Web-Scraping-with-Scrapy-and-MongoDB-Part-1_Watermarked.f246d4df4b36.jpg" style="background: #e5c6aa;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/web-scraping-with-scrapy-and-mongodb/"><span class="my-0 h4">Web Scraping With Scrapy and MongoDB</span></a> 
+      <p class="text-muted mb-0 small">In this quiz, you'll test your understanding of web scraping with Scrapy and MongoDB. You'll revisit how to set up a Scrapy project, build a functional web scraper, extract data from websites, store scraped data in MongoDB, and test and debug your Scrapy web scraper.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="prepare-the-scraper-scaffolding">Prepare the Scraper Scaffolding<a class="headerlink" href="#prepare-the-scraper-scaffolding" title="Permanent link"></a></h2>
+<p>You’ll start by setting up the necessary tools and creating a basic project structure that will serve as the backbone for your scraping tasks.</p>
+<p>While working through the tutorial, you’ll build a complete web scraping project, approaching it as an <a href="https://en.wikipedia.org/wiki/Extract,_transform,_load">ETL (Extract, Transform, Load)</a> process:</p>
+<ul>
+<li><strong>Extract</strong> data from the website using a Scrapy spider as your <a href="https://en.wikipedia.org/wiki/Web_crawler">web crawler</a>.</li>
+<li><strong>Transform</strong> this data, for example by cleaning or validating it, using an item pipeline.</li>
+<li><strong>Load</strong> the transformed data into a storage system like MongoDB with an item pipeline.</li>
+</ul>
+<p>Scrapy provides scaffolding for all of these processes, and you’ll tap into that scaffolding to learn web scraping following the robust structure that Scrapy provides and that numerous enterprise-scale web scraping projects rely on.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> In a Scrapy web scraping project, a <strong>spider</strong> is a Python class that defines how to crawl a specific website or a group of websites. It contains the logic for making requests, parsing responses, and extracting the desired data.</p>
+</div>
+<p>First, you’ll install Scrapy and create a new Scrapy project, then explore the auto-generated project structure to ensure that you’re well-equipped to proceed with building a performant web scraper.</p>
+<h3 id="install-the-scrapy-package">Install the Scrapy Package<a class="headerlink" href="#install-the-scrapy-package" title="Permanent link"></a></h3>
+<p>To get started with Scrapy, you first need to install it using <code>pip</code>. Create and activate a <a href="https://realpython.com/python-virtual-environments-a-primer/">virtual environment</a> to keep the installation separate from your global Python installation. Then, you can install Scrapy:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Shell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp gp-VirtualEnv">(venv)</span> <span class="gp">$ </span>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>scrapy
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>After the installation is complete, you can verify it by running the <code>scrapy</code> command and viewing the output:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Shell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp gp-VirtualEnv">(venv)</span> <span class="gp">$ </span>scrapy
+<span class="go">Scrapy 2.11.2 - no active project</span>
+
+<span class="go">Usage:</span>
+<span class="go">  scrapy &lt;command&gt; [options] [args]</span>
+
+<span class="go">Available commands:</span>
+<span class="go">  bench         Run quick benchmark test</span>
+<span class="go">  fetch         Fetch a URL using the Scrapy downloader</span>
+<span class="go">  genspider     Generate new spider using pre-defined templates</span>
+<span class="go">  runspider     Run a self-contained spider (without creating a project)</span>
+<span class="go">  settings      Get settings values</span>
+<span class="go">  shell         Interactive scraping console</span>
+<span class="hll"><span class="go">  startproject  Create new project</span>
+</span><span class="go">  version       Print Scrapy version</span>
+<span class="go">  view          Open URL in browser, as seen by Scrapy</span>
+
+<span class="go">  [ more ]      More commands available when run from project directory</span>
+
+<span class="go">Use "scrapy &lt;command&gt; -h" to see more info about a command</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The <a href="https://realpython.com/command-line-interfaces-python-argparse/">command-line (CLI)</a> program should display the help text of Scrapy. This confirms that you installed the package correctly. You’ll next run the highlighted <code>startproject</code> command to create a project.</p>
+<h3 id="create-a-scrapy-project">Create a Scrapy Project<a class="headerlink" href="#create-a-scrapy-project" title="Permanent link"></a></h3>
+<p>Scrapy is built around <strong>projects</strong>. Generally, you’ll create a new project for each web scraping project that you’re working on. In this tutorial, you’ll work on scraping a website called <a href="https://books.toscrape.com/">Books to Scrape</a>, so you can call your project <em>books</em>.</p>
+<p>As you may have already identified in the help text, the framework provides a command to create a new project:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Shell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp gp-VirtualEnv">(venv)</span> <span class="gp">$ </span>scrapy<span class="w"> </span>startproject<span class="w"> </span>books
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+</div><h2><a href="https://realpython.com/web-scraping-with-scrapy-and-mongodb/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/web-scraping-with-scrapy-and-mongodb/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-08-28T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Using Astropy for Astronomy With Python</title>

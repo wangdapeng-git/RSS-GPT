@@ -6819,3 +6819,12 @@ Existing_entries: 135
 Fetching from https://realpython.com/atom.xml
 append_entries: 0
 Finish: 2024-08-28 14:11:17.536973
+------------------------------------------------------
+Started: 2024-08-28 16:14:50.526224
+Existing_entries: 135
+Fetching from https://realpython.com/atom.xml
+Token length: 4805
+Summarized using GPT-3.5-turbo
+Append: [Web Scraping With Scrapy and MongoDB](https://realpython.com/web-scraping-with-scrapy-and-mongodb/)
+append_entries: 1
+Finish: 2024-08-28 16:14:55.318877
