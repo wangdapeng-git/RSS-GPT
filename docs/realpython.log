@@ -6828,3 +6828,9 @@ Summarized using GPT-3.5-turbo
 Append: [Web Scraping With Scrapy and MongoDB](https://realpython.com/web-scraping-with-scrapy-and-mongodb/)
 append_entries: 1
 Finish: 2024-08-28 16:14:55.318877
+------------------------------------------------------
+Started: 2024-08-28 18:14:47.482949
+Existing_entries: 136
+Fetching from https://realpython.com/atom.xml
+append_entries: 0
+Finish: 2024-08-28 18:14:47.695770
