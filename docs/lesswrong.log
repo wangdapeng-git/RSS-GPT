@@ -5902,3 +5902,12 @@ Existing_entries: 215
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-28 20:13:11.741663
+------------------------------------------------------
+Started: 2024-08-28 22:11:12.797715
+Existing_entries: 215
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 3386
+Summarized using GPT-3.5-turbo
+Append: [things that confuse me about the current AI market.](https://www.lesswrong.com/posts/yRjLY3z3GQBJaDuoY/things-that-confuse-me-about-the-current-ai-market)
+append_entries: 1
+Finish: 2024-08-28 22:11:19.158511
