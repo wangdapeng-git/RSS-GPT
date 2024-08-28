@@ -5848,3 +5848,9 @@ Summarized using GPT-3.5-turbo
 Append: [Am I confused about the "malign universal prior" argument?](https://www.lesswrong.com/posts/Xmqnuq5eo9inywS7T/am-i-confused-about-the-malign-universal-prior-argument)
 append_entries: 1
 Finish: 2024-08-28 04:14:58.226547
+------------------------------------------------------
+Started: 2024-08-28 06:16:10.561580
+Existing_entries: 213
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-08-28 06:16:11.051826
