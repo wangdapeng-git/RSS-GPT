@@ -4,12 +4,12 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>Android各种抓包情景</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1958914</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1958914</guid>
 <content:encoded><![CDATA[
-
 [md]@[TOC](在抓包的路上一去不返)
 
 # Android抓包
@@ -20,14 +20,12 @@ Android抓包无非就是三种情况：
 对于前期工作，导入证 ...
 ]]></content:encoded>
 <pubDate>Wed, 28 Aug 2024 03:17:15 +0000</pubDate>
-<pubDate>Wed, 28 Aug 2024 03:17:15 +0000</pubDate>
 </item>
 <item>
 <title>python调用微信OCR</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1958424</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1958424</guid>
 <content:encoded><![CDATA[
-
 [md]## 一、写在前面
 &gt; 1.关于调用本地微信的OCR功能的小工具，本论坛已经有好几个。但似乎还没有直接用python调用本地微信的OCR功能的，现在分享一下。用途应该还是很多的
 &gt; 2.代码源于网络，感谢原作者的付出
@@ -35,14 +33,12 @@ Android抓包无非就是三种情况：
 ##  ...
 ]]></content:encoded>
 <pubDate>Mon, 26 Aug 2024 15:59:04 +0000</pubDate>
-<pubDate>Mon, 26 Aug 2024 15:59:04 +0000</pubDate>
 </item>
 <item>
 <title>记录自己的第一次红队钓鱼样本分析</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1956543</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1956543</guid>
 <content:encoded><![CDATA[
-
 [md]# 记录自己的第一次红队钓鱼样本分析
 
 ## 前言
@@ -52,20 +48,16 @@ HVV 遇到了邮件钓鱼，有个样本挺有趣，自己又没分析过样本�
 ##  ...
 ]]></content:encoded>
 <pubDate>Tue, 20 Aug 2024 14:50:43 +0000</pubDate>
-<pubDate>Tue, 20 Aug 2024 14:50:43 +0000</pubDate>
 </item>
 <item>
 <title>“李鬼”软件暗设后门，对抗杀软侵蚀系统</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1956375</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1956375</guid>
 <content:encoded><![CDATA[
-
 近期，火绒威胁情报中心监测到伪装成有道翻译安装包的样本存在恶意行为，火绒安全工程师第一时间提取样本进行分析。分析中发现该样本使用白加黑、反射加载 DLL 进行免杀，最终下载后门代码实现对受害者主机的控制。同时， ...
 ]]></content:encoded>
 <pubDate>Tue, 20 Aug 2024 10:00:34 +0000</pubDate>
-<pubDate>Tue, 20 Aug 2024 10:00:34 +0000</pubDate>
 </item>
-
 <item>
 <title>VeraCrypt 磁盘加密 1.26.14 单文件版</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1958891</link>
