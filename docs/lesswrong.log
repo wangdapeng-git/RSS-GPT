@@ -5911,3 +5911,9 @@ Summarized using GPT-3.5-turbo
 Append: [things that confuse me about the current AI market.](https://www.lesswrong.com/posts/yRjLY3z3GQBJaDuoY/things-that-confuse-me-about-the-current-ai-market)
 append_entries: 1
 Finish: 2024-08-28 22:11:19.158511
+------------------------------------------------------
+Started: 2024-08-29 00:53:37.567562
+Existing_entries: 216
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-08-29 00:53:37.990809
