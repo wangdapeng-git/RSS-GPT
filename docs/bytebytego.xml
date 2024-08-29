@@ -4,6 +4,7 @@
 <title>ByteByteGo Newsletter</title>
 <link>https://blog.bytebytego.com</link>
 
+
 <item>
 <title>A Crash Course on Load Balancers for Scaling</title>
 <link>https://blog.bytebytego.com/p/a-crash-course-on-load-balancers</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> 关键词: load balancers, system architecture, network traffic, multiple servers, horizontal scalability
 
-总结:<br><br>
+总结:<br /><br />
 load balancers在系统架构中扮演关键角色，像酒店前台接待员一样，分配来自网络的流量到多台服务器上。通过有效地分担工作负荷，load balancers帮助系统在高峰期保持性能稳定。这样系统可以水平扩展，保证了系统的可靠性和性能。 <div>
 <p>Over the years, load balancers have become a crucial component of system architecture, acting as the front-line gatekeepers that distribute incoming network traffic across multiple servers.&nbsp;</p><p>Much like a hotel receptionist who greets guests, checks their documents, and directs them to specific rooms, load balancers manage the data flow within a system to ensure that the system is horizontally scalable.</p><p>By effectively distributing the workload across multiple servers, load balancers help maintain system performance, even during peak usage.</p><div class="captioned-image-container"><figure><a class="image-link is-viewable-img image2" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53ec7e8b-12a1-403f-aecb-cc370ee7e837_2250x2840.png" target="_blank"><div class="image2-inset"><source type="image/webp" /><img alt="" class="sizing-normal" height="1838" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53ec7e8b-12a1-403f-aecb-cc370ee7e837_2250x2840.png" width="1456" /><div class="image-link-expand"><svg class="lucide lucide-maximize2 " fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" x2="14" y1="3" y2="10"></line><line x1="3" x2="10" y1="21" y2="14"></line></svg></div></div></a></figure></div>
       <p>
@@ -21,9 +22,7 @@ load balancers在系统架构中扮演关键角色，像酒店前台接待员一
       </p>
 ]]></content:encoded>
 <pubDate>Thu, 29 Aug 2024 15:30:30 GMT</pubDate>
-<pubDate>Thu, 29 Aug 2024 15:30:30 GMT</pubDate>
 </item>
-
 <item>
 <title>EP126: The Ultimate Kafka 101 You Cannot Miss</title>
 <link>https://blog.bytebytego.com/p/ep126-the-ultimate-kafka-101-you</link>
