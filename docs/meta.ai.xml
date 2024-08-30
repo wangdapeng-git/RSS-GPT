@@ -4,6 +4,7 @@
 <title>AI at Meta Blog</title>
 <link>https://ai.meta.com/blog/</link>
 
+
 <item>
 <title>Get the latest from AI at Meta in your inbox</title>
 <link>https://ai.facebook.com/subscribe/</link>
@@ -11,13 +12,10 @@
 <content:encoded><![CDATA[
 <div> 关键词：文章、总结、提取、要点、格式
 
-总结：文章通过提取5个关键词来总结，然后用中文写了一个含有所有要点的总结，在总结部分按要点顺序输出，并按照指定格式输出。<br><br>总结: 文章通过提取5个关键词来总结，用中文写了一个含有所有要点的总结，并按照指定格式输出。 <div>
-
+总结：文章通过提取5个关键词来总结，然后用中文写了一个含有所有要点的总结，在总结部分按要点顺序输出，并按照指定格式输出。<br /><br />总结: 文章通过提取5个关键词来总结，用中文写了一个含有所有要点的总结，并按照指定格式输出。 <div>
 ]]></content:encoded>
-
 <pubDate>2024-08-29T22:11:29.611052+00:00</pubDate>
 </item>
-
 <item>
 <title>With 10x growth since 2023, Llama is the leading engine of AI innovation</title>
 <link>https://ai.meta.com/blog/llama-usage-doubled-may-through-july-2024/</link>

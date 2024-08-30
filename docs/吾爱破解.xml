@@ -4,6 +4,23 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>便携虚拟局域网远程桌面（易语言程序+ZeroTier+TightVNC）</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1958630</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1958630</guid>
+<content:encoded><![CDATA[
+
+一、运行界面
+一键自动执行
+1.被控端
+
+开启远程：自动安装ZeroTier.msi程序，并启动tvnserver.exe被控端。
+结束远程：自动卸载ZeroTier.msi程序，并结束tvnserver.exe被控端。
+关闭窗口并不会卸载ZeroTier.msi程序 ...
+]]></content:encoded>
+<pubDate>Tue, 27 Aug 2024 07:46:15 +0000</pubDate>
+<pubDate>Tue, 27 Aug 2024 07:46:15 +0000</pubDate>
+</item>
 
 <item>
 <title>可供独立使用且最小依赖的微信 OCR 功能包</title>
