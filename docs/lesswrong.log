@@ -6043,3 +6043,9 @@ Summarized using GPT-3.5-turbo
 Append: [Nursing doubts](https://www.lesswrong.com/posts/p7x3vvPR59WHuoQ2A/nursing-doubts)
 append_entries: 1
 Finish: 2024-08-30 16:14:12.015676
+------------------------------------------------------
+Started: 2024-08-30 18:15:06.251610
+Existing_entries: 218
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-08-30 18:15:06.839577
