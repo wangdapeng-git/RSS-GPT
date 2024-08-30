@@ -6019,3 +6019,12 @@ Existing_entries: 216
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-30 10:13:25.902236
+------------------------------------------------------
+Started: 2024-08-30 12:21:07.606159
+Existing_entries: 216
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 13315
+Summarized using GPT-3.5-turbo
+Append: [Solving adversarial attacks in computer vision as a baby version of general AI alignment](https://www.lesswrong.com/posts/oPnFzfZtaoWrqTP4H/solving-adversarial-attacks-in-computer-vision-as-a-baby)
+append_entries: 1
+Finish: 2024-08-30 12:21:17.235752
