@@ -6061,3 +6061,15 @@ Existing_entries: 218
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-08-30 22:10:57.849971
+------------------------------------------------------
+Started: 2024-08-31 00:54:06.921843
+Existing_entries: 218
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 25228
+Summarized using GPT-3.5-turbo
+Append: [Singular learning theory: exercises](https://www.lesswrong.com/posts/3HYqTAi4kD35G3BzQ/singular-learning-theory-exercises)
+Token length: 29886
+Summarized using GPT-3.5-turbo
+Append: [Principles for the AGI Race](https://www.lesswrong.com/posts/aRciQsjgErCf5Y7D9/principles-for-the-agi-race)
+append_entries: 2
+Finish: 2024-08-31 00:54:18.387286
