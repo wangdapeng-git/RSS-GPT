@@ -3317,3 +3317,10 @@ Existing_entries: 23
 Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
 append_entries: 0
 Finish: 2024-08-31 06:15:22.443323
+------------------------------------------------------
+Started: 2024-08-31 08:14:41.493904
+Existing_entries: 23
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+Fetch failed from https://rss.diffbot.com/atom?url=https://research.google/blog/
+append_entries: 0
+error when rendering xml, skip docs/google.research
