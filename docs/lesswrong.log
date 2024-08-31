@@ -6073,3 +6073,9 @@ Summarized using GPT-3.5-turbo
 Append: [Principles for the AGI Race](https://www.lesswrong.com/posts/aRciQsjgErCf5Y7D9/principles-for-the-agi-race)
 append_entries: 2
 Finish: 2024-08-31 00:54:18.387286
+------------------------------------------------------
+Started: 2024-08-31 02:37:07.204451
+Existing_entries: 220
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-08-31 02:37:08.077277
