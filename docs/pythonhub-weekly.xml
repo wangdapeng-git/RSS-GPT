@@ -4,6 +4,158 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-09-01</title>
+<link>https://pythonhub.dev/digest/2024-09-01/</link>
+<guid>https://pythonhub.dev/digest/2024-09-01/</guid>
+<content:encoded><![CDATA[
+<div> Python, Gemma 2 language model, custom query language, PromptMage, Scrapy PostgreSQL integration<br>
+<br>
+提及Python具有最佳的预处理器，视频演示了使用Python、Jupyter和OpenAI设置Lang chain来自定义数据集的步骤，包括API创建、嵌入模型和向量数据库集成。另外讨论了在FastAPI应用程序中实现速率限制以及设置查询和处理数据的代理。<br>
+文章展示了如何在Dataflow流水线中集成Google的Gemma 2语言模型，用于实时情感分析和客户支持聊天中的响应生成。还讨论了构建自定义查询语言的复杂性和挑战，以及PromptMage的设计和用途。最后介绍了如何将Scrapy扩展到直接将爬行统计数据保存到PostgreSQL数据库中。总结: <div>
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://github.com/taichi-dev/taichi">Taichi: Productive, portable, and performant GPU programming in Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="http://py5coding.org/index.html">Py5, a Python version of Processing for your creative coding projects</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pydong.org/posts/PythonsPreprocessor/">Python's Preprocessor</a></strong>
+    
+        <br /><span>Every now and then you hear outrageous claims such as “Python has no preprocessor”. This is simply not true. In fact, Python has the best preprocessor of all languages - it quite literally allows us to do whatever we want, and a lot more. It’s just a little tricky to (ab)use.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=FjKMnszG8Dk">Try LangChain with Python and Upstash Vector</a></strong>
+    
+        <br /><span>The video covers setting up a Lang chain for custom data sets using a variety of tools like Python, Jupyter, and OpenAI, demonstrating API creation, embedding models, and vector database integration. It also discusses implementing rate limiting in a FastAPI application and setting up agents for querying and handling data.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/gauge-sh/pare">Pare</a></strong>
+    
+        <br /><span>Pare is the easiest way to deploy Python Lambdas alongside your primary web application.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://developers.googleblog.com/en/gemma-for-streaming-ml-with-dataflow/">Gemma for Streaming ML with Dataflow</a></strong>
+    
+        <br /><span>The article demonstrates how to integrate Google's Gemma 2 language model into a Dataflow pipeline for real-time sentiment analysis and response generation in customer support chats. It provides a practical example of using Gemma to process streaming data, including code snippets for creating prompts, running inference, and handling model outputs within a scalable data processing framework.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-08-25/">Python Hub Weekly Digest for 2024-08-25</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://jamesg.blog/2024/08/17/build-a-query-language/">How to build a query language in Python</a></strong>
+    
+        <br /><span>The article discusses the complexities and challenges of building a custom query language, highlighting key considerations such as syntax design, parsing, and execution. It provides insights and practical tips for developers looking to create or improve their own query languages.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://lucumr.pocoo.org/2024/8/21/harvest-season/">Rye and Uv: August Is Harvest Season for Python Packaging</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/tsterbak/promptmage">PromptMage - simplifies the process of creating and managing LLM workflows</a></strong>
+    
+        <br /><span>"PromptMage" is designed to offer an intuitive interface that simplifies the process of creating and managing LLM workflows. It facilitates prompt testing and comparison, and version control.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/OpenBB-finance/OpenBB">OpenBB-finance / OpenBB</a></strong>
+    
+        <br /><span>Investment Research for Everyone, Everywhere.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=vAmKB7iPkWw">Coding a Multimodal (Vision) Language Model from scratch in PyTorch with full explanation</a></strong>
+    
+        <br /><span>The video explains how to code a visual language model from scratch using PyTorch, covering topics such as vision transformers, contrastive learning, and language models. It provides a detailed walkthrough of implementing various components, including the vision encoder, language model, and how to combine image and text embeddings, with explanations of key concepts like attention mechani...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.xiegerts.com/post/scrapy-extension-save-crawlstats-postgres/">Saving Scrapy Crawl Stats to PostgreSQL with a Custom Extension and SQLAlchemy</a></strong>
+    
+        <br /><span>The post explains how to extend Scrapy to save crawl statistics directly into a PostgreSQL database, detailing the implementation process and configuration needed. It provides a guide for integrating Scrapy with PostgreSQL to enhance data management and analysis.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/gsmecher/awaitless">awaitless</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/NirDiamant/RAG_Techniques">RAG_Techniques</a></strong>
+    
+        <br /><span>This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/opendatalab/labelU">LabelU</a></strong>
+    
+        <br /><span>Data annotation toolbox supports image, audio and video data.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Opus10/qik">Qik</a></strong>
+    
+        <br /><span>Qik is a command runner that understands the import graph, allowing you to cache commands and only run the things that matter. Can dramatically speed up CI/dev in large monorepos.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/badgeir/llmio">llmio</a></strong>
+    
+        <br /><span>A Lightweight Library for LLM I/O.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1f07c7d/i_switched_from_full_stack_to_streamlitpython_and/">I switched from full stack to streamlit/python and it reduced my development time to 2 weeks !</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 01 Sep 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 01 Sep 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-08-25</title>
