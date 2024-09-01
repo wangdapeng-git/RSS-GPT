@@ -4,14 +4,15 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-09-01</title>
 <link>https://pythonhub.dev/digest/2024-09-01/</link>
 <guid>https://pythonhub.dev/digest/2024-09-01/</guid>
 <content:encoded><![CDATA[
-<div> Python, Gemma 2 language model, custom query language, PromptMage, Scrapy PostgreSQL integration<br>
-<br>
-提及Python具有最佳的预处理器，视频演示了使用Python、Jupyter和OpenAI设置Lang chain来自定义数据集的步骤，包括API创建、嵌入模型和向量数据库集成。另外讨论了在FastAPI应用程序中实现速率限制以及设置查询和处理数据的代理。<br>
+<div> Python, Gemma 2 language model, custom query language, PromptMage, Scrapy PostgreSQL integration<br />
+<br />
+提及Python具有最佳的预处理器，视频演示了使用Python、Jupyter和OpenAI设置Lang chain来自定义数据集的步骤，包括API创建、嵌入模型和向量数据库集成。另外讨论了在FastAPI应用程序中实现速率限制以及设置查询和处理数据的代理。<br />
 文章展示了如何在Dataflow流水线中集成Google的Gemma 2语言模型，用于实时情感分析和客户支持聊天中的响应生成。还讨论了构建自定义查询语言的复杂性和挑战，以及PromptMage的设计和用途。最后介绍了如何将Scrapy扩展到直接将爬行统计数据保存到PostgreSQL数据库中。总结: <div>
 <div></div>
 
@@ -154,9 +155,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 01 Sep 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 01 Sep 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-08-25</title>
 <link>https://pythonhub.dev/digest/2024-08-25/</link>
