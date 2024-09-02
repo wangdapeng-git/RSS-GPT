@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Quiz: Generate Images With DALL·E and the OpenAI API</title>
 <link>https://realpython.com/quizzes/generate-images-with-dalle-and-openai-api/</link>
 <guid>https://realpython.com/quizzes/generate-images-with-dalle-and-openai-api/</guid>
 <content:encoded><![CDATA[
 <div> OpenAI Python library, API calls, image generation, text prompts, Base64 strings
-<br>
+<br />
 通过本文，您将复习如何使用OpenAI Python库进行API调用，生成图像，根据文本提示创建图像，生成图像的变体，并将Base64字符串转换为PNG图像文件。总结：本文讨论了如何使用OpenAI Python库进行图像生成，包括API调用，文本提示生成图像，生成图像的变体和将Base64字符串转换为PNG图像文件。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of
 <a href="https://realpython.com/generate-images-with-dalle-openai-api/">generating images with DALL·E by OpenAI API using Python</a>.</p>
@@ -18,10 +19,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-09-02T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Web Scraping With Scrapy and MongoDB</title>
 <link>https://realpython.com/web-scraping-with-scrapy-and-mongodb/</link>
