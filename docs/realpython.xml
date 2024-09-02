@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Generate Images With DALL·E and the OpenAI API</title>
 <link>https://realpython.com/generate-images-with-dalle-openai-api/</link>
@@ -216,7 +217,6 @@ OpenAI Python库 API keys 图像生成环境变量
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-09-02T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -226,7 +226,7 @@ OpenAI Python库 API keys 图像生成环境变量
 <content:encoded><![CDATA[
 <div> 提取关键词：quiz, understanding, tutorial, research, exploration
 
-总结：<br><br>本文主要是关于测试对Python的理解，通过回答问题巩固从教程中学到的知识，并深入了解更多内容。在回答问题时，需要做一些教程之外的研究。挑战自己，探索可以让你获得宝贵的学习经验。 <div>
+总结：<br /><br />本文主要是关于测试对Python的理解，通过回答问题巩固从教程中学到的知识，并深入了解更多内容。在回答问题时，需要做一些教程之外的研究。挑战自己，探索可以让你获得宝贵的学习经验。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of
 <a href="https://realpython.com/numpy-where-conditional-expressions/">How to Use Conditional Expressions With NumPy <code>where()</code></a>.</p>
 <p>By working through the questions, you&rsquo;ll consolidate the knowledge you gained from the tutorial and take yourself beyond what you learned. </p>
@@ -234,10 +234,8 @@ OpenAI Python库 API keys 图像生成环境变量
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-09-02T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Quiz: Generate Images With DALL·E and the OpenAI API</title>
 <link>https://realpython.com/quizzes/generate-images-with-dalle-and-openai-api/</link>
