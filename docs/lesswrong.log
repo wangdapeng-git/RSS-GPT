@@ -6292,3 +6292,9 @@ Summarized using GPT-3.5-turbo
 Append: [Survey: How Do Elite Chinese Students Feel About the Risks of AI?](https://www.lesswrong.com/posts/gxCGKHpX8G8D8aWy5/survey-how-do-elite-chinese-students-feel-about-the-risks-of)
 append_entries: 1
 Finish: 2024-09-02 22:11:46.296646
+------------------------------------------------------
+Started: 2024-09-03 00:53:53.540822
+Existing_entries: 223
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-09-03 00:53:54.366247
