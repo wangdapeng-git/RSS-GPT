@@ -2616,3 +2616,10 @@ Existing_entries: 14
 Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
 append_entries: 0
 Finish: 2024-09-03 16:15:36.892601
+------------------------------------------------------
+Started: 2024-09-03 18:15:59.021417
+Existing_entries: 14
+Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+Fetch failed from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+append_entries: 0
+error when rendering xml, skip docs/meta.ai

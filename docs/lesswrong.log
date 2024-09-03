@@ -6346,3 +6346,12 @@ Existing_entries: 223
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-03 16:15:20.924131
+------------------------------------------------------
+Started: 2024-09-03 18:15:46.995804
+Existing_entries: 223
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 1879
+Summarized using GPT-3.5-turbo
+Append: [How I got 3.2 million Youtube views without making a single video](https://www.lesswrong.com/posts/rS3jWvoX7JaxqYDJG/how-i-got-3-2-million-youtube-views-without-making-a-single)
+append_entries: 1
+Finish: 2024-09-03 18:15:53.011969
