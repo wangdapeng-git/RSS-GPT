@@ -4,6 +4,198 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Lists vs Tuples in Python</title>
+<link>https://realpython.com/python-lists-tuples/</link>
+<guid>https://realpython.com/python-lists-tuples/</guid>
+<content:encoded><![CDATA[
+<div> lists, tuples, ordering, mutability, indexing<br>
+<br>
+lists和tuples是Python中常用的数据类型，分别表示列表和元组。它们都是有序的序列，可以包含任意对象，并且支持索引和切片操作。然而，lists是可变的，而tuples是不可变的。在使用lists时，通常存储同质数据，而在使用tuples时，通常存储异质数据。lists使用方括号[]表示，tuples使用括号()表示。lists可以随意修改其内容，而tuples在创建后不可更改。Lists和tuples都是灵活而强大的数据结构，在编写Python程序时经常用到。总结: Lists和tuples都是有序的数据类型，区别在于lists是可变的，tuples是不可变的。Lists适用于同质数据，tuples适用于异质数据。 <div>
+<div><p>In Python, <strong>lists</strong> and <strong>tuples</strong> are versatile and useful <a href="https://realpython.com/python-data-types/">data types</a> that allow you to store data in a sequence. You’ll find them in virtually every nontrivial Python program. Learning about them is a core skill for you as a Python developer.</p>
+<p><strong>In this tutorial, you’ll:</strong></p>
+<ul>
+<li>Get to know <strong>lists</strong> and <strong>tuples</strong></li>
+<li>Explore the <strong>core characteristics</strong> of lists and tuples</li>
+<li>Learn how to <strong>define</strong> and <strong>manipulate</strong> lists and tuples</li>
+<li>Decide <strong>when to use</strong> lists or tuples in your code</li>
+</ul>
+<p>To get the most out of this tutorial, you should know the basics of Python programming, including how to define variables.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-lists-tuples-code/">Click here to download the free sample code</a> that shows you how to work with lists and tuples in Python.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Lists vs Tuples in Python” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/python-lists-tuples-update/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="Lists vs Tuples in Python" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Lists-and-Tuples-in-Python_Watermarked.a52798070b3e.jpg" style="background: #fe7e73;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/python-lists-tuples-update/"><span class="my-0 h4">Lists vs Tuples in Python</span></a> 
+      <p class="text-muted mb-0 small">Challenge yourself with this quiz to evaluate and deepen your understanding of Python lists and tuples. You'll explore key concepts, such as how to create, access, and manipulate these data types, while also learning best practices for using them efficiently in your code.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="getting-started-with-python-lists-and-tuples">Getting Started With Python Lists and Tuples<a class="headerlink" href="#getting-started-with-python-lists-and-tuples" title="Permanent link"></a></h2>
+<p>In Python, a list is a collection of arbitrary objects, somewhat akin to an <a href="https://en.wikipedia.org/wiki/Array_(data_structure)">array</a> in many other programming languages but more flexible. To define a list, you typically enclose a comma-separated sequence of objects in square brackets (<code>[]</code>), as shown below:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">colors</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"red"</span><span class="p">,</span> <span class="s2">"green"</span><span class="p">,</span> <span class="s2">"blue"</span><span class="p">,</span> <span class="s2">"yellow"</span><span class="p">]</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">colors</span>
+<span class="go">['red', 'green', 'blue', 'yellow']</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this code snippet, you define a list of colors using <a href="https://realpython.com/python-strings/">string</a> objects separated by commas and enclose them in square brackets.</p>
+<p>Similarly, tuples are also collections of arbitrary objects. To define a tuple, you’ll enclose a comma-separated sequence of objects in parentheses (<code>()</code>), as shown below:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">person</span> <span class="o">=</span> <span class="p">(</span><span class="s2">"Jane Doe"</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="s2">"Python Developer"</span><span class="p">,</span> <span class="s2">"Canada"</span><span class="p">)</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">person</span>
+<span class="go">('Jane Doe', 25, 'Python Developer', 'Canada')</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this example, you define a tuple with data for a given person, including their name, age, job, and base country.</p>
+<p>Up to this point, it may seem that lists and tuples are mostly the same. However, there’s an important difference:</p>
+<div class="table-responsive">
+<table class="table table-hover">
+<thead>
+<tr>
+<th>Feature</th>
+<th class="text-center">List</th>
+<th class="text-center">Tuple</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Is an ordered sequence</td>
+<td class="text-center">✅</td>
+<td class="text-center">✅</td>
+</tr>
+<tr>
+<td>Can contain arbitrary objects</td>
+<td class="text-center">✅</td>
+<td class="text-center">✅</td>
+</tr>
+<tr>
+<td>Can be indexed and sliced</td>
+<td class="text-center">✅</td>
+<td class="text-center">✅</td>
+</tr>
+<tr>
+<td>Can be nested</td>
+<td class="text-center">✅</td>
+<td class="text-center">✅</td>
+</tr>
+<tr>
+<td>Is mutable</td>
+<td class="text-center">✅</td>
+<td class="text-center">❌</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Both lists and tuples are <a href="https://realpython.com/python-sequences/">sequence</a> data types, which means they can contain objects arranged in order. You can access those objects using an integer index that represents their position in the sequence.</p>
+<p>Even though both data types can contain arbitrary and heterogeneous objects, you’ll commonly use lists to store homogeneous objects and tuples to store heterogeneous objects.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> In this tutorial, you’ll see the terms homogeneous and heterogeneous used to express the following ideas:</p>
+<ul>
+<li><strong>Homogeneous</strong>: Objects of the same data type or the same semantic meaning, like a series of animals, fruits, colors, and so on.</li>
+<li><strong>Heterogeneous</strong>: Objects of different data types or different semantic meanings, like the attributes of a car: model, color, make, year, fuel type, and so on.</li>
+</ul>
+</div>
+<p>You can perform indexing and slicing operations on both lists and tuples. You can also have nested lists and nested tuples or a combination of them, like a list of tuples.</p>
+<p>The most notable difference between lists and tuples is that lists are mutable, while tuples are immutable. This feature distinguishes them and drives their specific use cases.</p>
+<p>Essentially, a list doesn’t have a fixed length since it’s immutable. Therefore, it’s natural to use homogeneous elements to have some structure in the list. A tuple, on the other hand, has a fixed length so the position of elements can have meaning, supporting heterogeneous data.</p>
+<h3 id="creating-lists-in-python">Creating Lists in Python<a class="headerlink" href="#creating-lists-in-python" title="Permanent link"></a></h3>
+<p>In many situations, you’ll define a <code>list</code> object using a <a href="https://docs.python.org/3/reference/lexical_analysis.html#literals">literal</a>. A list literal is a comma-separated sequence of objects enclosed in square brackets:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">countries</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"United States"</span><span class="p">,</span> <span class="s2">"Canada"</span><span class="p">,</span> <span class="s2">"Poland"</span><span class="p">,</span> <span class="s2">"Germany"</span><span class="p">,</span> <span class="s2">"Austria"</span><span class="p">]</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">countries</span>
+<span class="go">['United States', 'Canada', 'Poland', 'Germany', 'Austria']</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this example, you create a list of countries represented by string objects. Because lists are ordered sequences, the values retain the insertion order.</p>
+</div><h2><a href="https://realpython.com/python-lists-tuples/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-lists-tuples/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-09-04T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Using Pydantic to Simplify Python Data Validation</title>
