@@ -6436,3 +6436,12 @@ Existing_entries: 225
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-04 20:13:06.319291
+------------------------------------------------------
+Started: 2024-09-04 22:11:12.714409
+Existing_entries: 225
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 5615
+Summarized using GPT-3.5-turbo
+Append: [What happens if you present 500 people with an argument that AI is risky?](https://www.lesswrong.com/posts/vfaCvXuQHj8ztibCG/what-happens-if-you-present-500-people-with-an-argument-that)
+append_entries: 1
+Finish: 2024-09-04 22:11:19.837410
