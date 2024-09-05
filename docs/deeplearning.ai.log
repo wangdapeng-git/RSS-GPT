@@ -8474,3 +8474,12 @@ Existing_entries: 34
 Fetching from https://rsshub.app/deeplearning/thebatch
 append_entries: 0
 Finish: 2024-09-05 00:54:40.546178
+------------------------------------------------------
+Started: 2024-09-05 02:39:05.224996
+Existing_entries: 34
+Fetching from https://rsshub.app/deeplearning/thebatch
+Token length: 18346
+Summarized using GPT-3.5-turbo
+Append: [Hallucination Index, AI-Powered Policing Goes National, Explainable LLMs, Faster Processing for Longer Inputs](https://www.deeplearning.ai/the-batch/issue-265)
+append_entries: 1
+Finish: 2024-09-05 02:39:11.796701

@@ -4,15 +4,14 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>【图形化界面完活啦】第三方全网视频电视剧全网电影解析多线程下载</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1961220</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1961220</guid>
 <content:encoded><![CDATA[
-
 琢磨了几天pyqt5，总算画出来了，界面配合协程，期间不会卡死，可随时查看动态（线程可能偶尔会崩溃，长时间下载无反应，退出重新打开即可，因为刚接触协程没两天，很多方面细节不懂，），附上界面版源码，功能源码在 ...
 ]]></content:encoded>
-<pubDate>Wed, 04 Sep 2024 02:26:24 +0000</pubDate>
 <pubDate>Wed, 04 Sep 2024 02:26:24 +0000</pubDate>
 </item>
 <item>
@@ -20,15 +19,12 @@
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1959631</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1959631</guid>
 <content:encoded><![CDATA[
-
 【工具特色】
 一，之前发布过一次，被认定为二次开发不算原创，无法通过审核，无奈之下，只好重新研究大神的代码然后全新开发。
 二，解决痛点：常见的微信多开工具，启动后还得多显示一步界面，然后需要点击按钮才能启 ...
 ]]></content:encoded>
 <pubDate>Fri, 30 Aug 2024 02:43:47 +0000</pubDate>
-<pubDate>Fri, 30 Aug 2024 02:43:47 +0000</pubDate>
 </item>
-
 <item>
 <title>wxdown-v1.0.4 公众号离线文章保存</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1960591</link>
