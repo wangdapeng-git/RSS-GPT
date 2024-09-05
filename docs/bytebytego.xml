@@ -4,6 +4,24 @@
 <title>ByteByteGo Newsletter</title>
 <link>https://blog.bytebytego.com</link>
 
+<item>
+<title>A Crash Course on Scaling the Data Layer</title>
+<link>https://blog.bytebytego.com/p/a-crash-course-on-scaling-the-data</link>
+<guid>https://blog.bytebytego.com/p/a-crash-course-on-scaling-the-data</guid>
+<content:encoded><![CDATA[
+<div> 关键词: scalability, data layer, horizontally scaling, techniques, advantages and disadvantages
+
+总结:<br><br>总结:本文讨论了系统的可扩展性与数据层密切相关，无论API或应用层如何努力扩展，都受到数据层扩展的限制。水平扩展数据层，即“横向扩展”，涉及将数据和负载分布到多个服务器或节点上，适合处理大量数据和高流量负载。然而，这种方法增加了复杂度，引起许多涉及事务和一致性的问题。文章探讨了水平扩展数据层的主要技术及其优缺点，并提供了例子。读者可根据需要选择合适的方法。 <div>
+<p>The scalability of a system is heavily dependent on the data layer.&nbsp;</p><p>No matter how much effort is made to scale the API or the application layer, it is limited by the scalability of the data layer. Also, scaling the data layer is often the most difficult task during application design.</p><p>Horizontally scaling the data layer of an application, also known as &#8220;scaling out&#8221;, involves distributing the data and load across multiple servers or nodes.&nbsp;</p><p>This approach is particularly effective for handling large volumes of data and high traffic loads, but it also adds multiple orders of complexity. Since the data is distributed, many issues regarding transactions and consistency that don&#8217;t appear in monolithic databases become quite common.</p><p>Several techniques are available for horizontally scaling the data layer, each having pros and cons with specific nuances worth considering.</p><p>In this post, we&#8217;ll explore the major techniques for scaling the data layer horizontally along with examples. Also, we will understand the advantages and disadvantages of each technique to get a better idea of when to use a particular approach over another choice.</p><div class="captioned-image-container"><figure><a class="image-link image2" href="https://blog.bytebytego.com/subscribe" target="_blank"><div class="image2-inset"><source type="image/webp" /><img alt="" class="sizing-normal" height="1543" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F02b2ef61-cf3f-4c17-bc08-c370d9199f01_3679x3900.png" width="1456" /><div></div></div></a></figure></div>
+      <p>
+          <a href="https://blog.bytebytego.com/p/a-crash-course-on-scaling-the-data">
+              Read more
+          </a>
+      </p>
+]]></content:encoded>
+<pubDate>Thu, 05 Sep 2024 15:30:43 GMT</pubDate>
+<pubDate>Thu, 05 Sep 2024 15:30:43 GMT</pubDate>
+</item>
 
 <item>
 <title>Millions of Requests Per Hour: SoundCloud’s Microservices Evolution</title>
