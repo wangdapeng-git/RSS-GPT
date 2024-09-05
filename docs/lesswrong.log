@@ -6487,3 +6487,12 @@ Existing_entries: 226
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-05 12:22:08.214246
+------------------------------------------------------
+Started: 2024-09-05 14:11:36.338414
+Existing_entries: 226
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 7871
+Summarized using GPT-3.5-turbo
+Append: [Executable philosophy as a failed totalizing meta-worldview](https://www.lesswrong.com/posts/Bi4yt7onyttmroRZb/executable-philosophy-as-a-failed-totalizing-meta-worldview)
+append_entries: 1
+Finish: 2024-09-05 14:11:43.971468
