@@ -3608,3 +3608,10 @@ Existing_entries: 22
 Fetching from https://feed.cnblogs.com/blog/u/415579/rss/
 append_entries: 0
 Finish: 2024-09-05 06:16:36.402426
+------------------------------------------------------
+Started: 2024-09-05 08:15:55.677932
+Existing_entries: 22
+Fetching from https://feed.cnblogs.com/blog/u/415579/rss/
+Append: [Dash 2.18版本新特性介绍 - 费弗里](https://www.cnblogs.com/feffery/p/18398460)
+append_entries: 1
+Finish: 2024-09-05 08:15:56.971635
