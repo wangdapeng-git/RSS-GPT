@@ -4,6 +4,35 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>The Real Python Podcast – Episode #219: Astrophysics and Astronomy With Python &amp; PyCon Africa 2024</title>
+<link>https://realpython.com/podcasts/rpp/219/</link>
+<guid>https://realpython.com/podcasts/rpp/219/</guid>
+<content:encoded><![CDATA[
+<div> Python, astrophysics, astronomy, problems, Christopher Trudeau
+总结:<br><br>本文介绍了如何利用Python来解决天体物理和天文学问题，作者Christopher Trudeau带来了一系列PyCoder's Weekly的文章和项目。这些文章和项目不仅帮助读者提高Python编程技能，还能学习如何解决与天体物理和天文学相关的问题。通过实践这些项目，读者可以更好地理解Python编程语言，并深入研究天体物理学和天文学。如果您对提高Python编程技能、解决天体物理和天文学问题感兴趣，这些资源将是非常有用的。Christopher Trudeau是本文作者，通过他的分享，读者可以获得更多实用的知识和技巧。 <div>
+<p>Are you interested in practicing your Python skills while learning how to solve astrophysics and astronomy problems? Christopher Trudeau is back on the show this week, bringing another batch of PyCoder's Weekly articles and projects.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-09-06T12:00:00+00:00</pubDate>
+</item>
+<item>
+<title>Quiz: Lists vs Tuples in Python</title>
+<link>https://realpython.com/quizzes/python-lists-tuples/</link>
+<guid>https://realpython.com/quizzes/python-lists-tuples/</guid>
+<content:encoded><![CDATA[
+<div> Python, 列表, 元组, 概念, 最佳实践
+总结:<br><br>本文介绍了Python中列表和元组的关键概念，包括如何创建和操作这些数据类型，以及在代码中有效使用它们的最佳实践。通过挑战性的测验，读者可以评估和加深对列表和元组的理解。阅读完教程后，可以通过这个测验来提升Python编程技能。 <div>
+<p>Challenge yourself with this quiz to evaluate and deepen your understanding of Python lists and tuples. You&rsquo;ll explore key concepts, such as how to create and manipulate these data types, while also learning best practices for using them efficiently in your code.</p>
+<p>You can take this quiz after reading the <a href="https://realpython.com/python-lists-tuples/">Lists vs Tuples in Python</a> tutorial.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-09-04T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Lists vs Tuples in Python</title>
