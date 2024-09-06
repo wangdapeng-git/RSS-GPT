@@ -2789,3 +2789,10 @@ Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
 Fetch failed from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
 append_entries: 0
 error when rendering xml, skip docs/meta.ai
+------------------------------------------------------
+Started: 2024-09-06 02:38:48.829158
+Existing_entries: 14
+Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+Fetch failed from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+append_entries: 0
+error when rendering xml, skip docs/meta.ai
