@@ -6577,3 +6577,9 @@ Summarized using GPT-3.5-turbo
 Append: [What is SB 1047 *for*?](https://www.lesswrong.com/posts/ehYuLsnoFch5QcaWD/what-is-sb-1047-for)
 append_entries: 1
 Finish: 2024-09-06 14:12:35.392397
+------------------------------------------------------
+Started: 2024-09-06 16:14:18.895604
+Existing_entries: 230
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-09-06 16:14:19.689650
