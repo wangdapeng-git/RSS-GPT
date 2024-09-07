@@ -6607,3 +6607,15 @@ Existing_entries: 230
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-07 00:53:44.230641
+------------------------------------------------------
+Started: 2024-09-07 02:36:33.630297
+Existing_entries: 230
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 16031
+Summarized using GPT-3.5-turbo
+Append: [Backdoors as an analogy for deceptive alignment](https://www.lesswrong.com/posts/efwcZ35LwS6HgFcN8/backdoors-as-an-analogy-for-deceptive-alignment)
+Token length: 2647
+Summarized using GPT-3.5-turbo
+Append: [Michael Dickens' Caffeine Tolerance Research](https://www.lesswrong.com/posts/3bmoxXgJpfcoZpmcJ/michael-dickens-caffeine-tolerance-research)
+append_entries: 2
+Finish: 2024-09-07 02:36:44.982611
