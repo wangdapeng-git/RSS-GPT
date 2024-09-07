@@ -6664,3 +6664,9 @@ Summarized using GPT-3.5-turbo
 Append: [Excerpts from "A Reader's Manifesto"](https://www.lesswrong.com/posts/NiTuqw6LRFifqzRRH/excerpts-from-a-reader-s-manifesto)
 append_entries: 1
 Finish: 2024-09-07 14:10:30.045087
+------------------------------------------------------
+Started: 2024-09-07 16:13:03.966289
+Existing_entries: 235
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-09-07 16:13:04.320663
