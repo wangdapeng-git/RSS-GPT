@@ -6640,3 +6640,12 @@ Existing_entries: 233
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-07 08:13:50.443773
+------------------------------------------------------
+Started: 2024-09-07 10:11:51.094107
+Existing_entries: 233
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 6930
+Summarized using GPT-3.5-turbo
+Append: [Adam Optimizer Causes Privileged Basis in Transformer Language Models](https://www.lesswrong.com/posts/yrhu6MeFddnGRSLtQ/adam-optimizer-causes-privileged-basis-in-transformer)
+append_entries: 1
+Finish: 2024-09-07 10:11:56.324211
