@@ -17732,3 +17732,9 @@ Filter: [腾讯QQ 9.7.23去广告优化绿色版（经典版非新架构）](htt
 Filter: [高德地图车机版 AUTO V8.1.0](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1958129)
 append_entries: 0
 Finish: 2024-09-07 06:14:49.367219
+------------------------------------------------------
+Started: 2024-09-07 08:13:01.222260
+Existing_entries: 952
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+append_entries: 0
+error when rendering xml, skip docs/吾爱破解
