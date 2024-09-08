@@ -4,13 +4,14 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-09-08</title>
 <link>https://pythonhub.dev/digest/2024-09-08/</link>
 <guid>https://pythonhub.dev/digest/2024-09-08/</guid>
 <content:encoded><![CDATA[
 <div> Elixir, Python, functional programming, concurrency, comparison
-<br>
+<br />
 Elixir是一种功能性编程语言，本文介绍了Elixir与Python之间的语法和概念差异，包括模式匹配、并发模型等特点。提供了实用示例和比较帮助Python开发者过渡到Elixir编程。讨论了如何利用LangChain让聊天机器人与LLMs交互，构建一个能提供准确、相关回答的上下文感知的聊天机器人。如果不希望API因请求过多而崩溃，请使用速率限制，并在FastAPI中实现。介绍了现代LLMs的训练方法以及PyTorch对LLM生命周期各个方面的增强。作者的Google Summer of Code项目旨在为CPython实现编译器加固选项，以加强内存安全性。第一部分使用Django，htmx和Stripe创建一个单产品电子商务网站。披露了流行的Python框架（Gradio、Jupyter Server和Streamlit）中的漏洞，可能导致Windows系统中NTLMv2散列盗窃。 <div>
 <div></div>
 
@@ -219,9 +220,7 @@ Elixir是一种功能性编程语言，本文介绍了Elixir与Python之间的�
 <hr />
 ]]></content:encoded>
 <pubDate>Sun, 08 Sep 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 08 Sep 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-09-01</title>
 <link>https://pythonhub.dev/digest/2024-09-01/</link>

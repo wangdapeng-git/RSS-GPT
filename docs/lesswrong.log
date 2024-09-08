@@ -6754,3 +6754,9 @@ Summarized using GPT-3.5-turbo
 Append: [My Number 1 Epistemology Book Recommendation: Inventing Temperature](https://www.lesswrong.com/posts/TbaCa7sY3GxHBcXTd/my-number-1-epistemology-book-recommendation-inventing)
 append_entries: 1
 Finish: 2024-09-08 18:15:15.411707
+------------------------------------------------------
+Started: 2024-09-08 20:11:47.291396
+Existing_entries: 237
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-09-08 20:11:47.652794
