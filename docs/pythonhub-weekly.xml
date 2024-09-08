@@ -4,6 +4,223 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-09-08</title>
+<link>https://pythonhub.dev/digest/2024-09-08/</link>
+<guid>https://pythonhub.dev/digest/2024-09-08/</guid>
+<content:encoded><![CDATA[
+<div> Elixir, Python, functional programming, concurrency, comparison
+<br>
+Elixir是一种功能性编程语言，本文介绍了Elixir与Python之间的语法和概念差异，包括模式匹配、并发模型等特点。提供了实用示例和比较帮助Python开发者过渡到Elixir编程。讨论了如何利用LangChain让聊天机器人与LLMs交互，构建一个能提供准确、相关回答的上下文感知的聊天机器人。如果不希望API因请求过多而崩溃，请使用速率限制，并在FastAPI中实现。介绍了现代LLMs的训练方法以及PyTorch对LLM生命周期各个方面的增强。作者的Google Summer of Code项目旨在为CPython实现编译器加固选项，以加强内存安全性。第一部分使用Django，htmx和Stripe创建一个单产品电子商务网站。披露了流行的Python框架（Gradio、Jupyter Server和Streamlit）中的漏洞，可能导致Windows系统中NTLMv2散列盗窃。 <div>
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://github.com/LucaCappelletti94/csv_trimming">csv_trimming</a></strong>
+    
+        <br /><span>Python package to remove common ugliness from a csv-like file</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/thuml/Time-Series-Library">thuml / Time-Series-Library</a></strong>
+    
+        <br /><span>A Library for Advanced Deep Time Series Models.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.codingconfessions.com/p/cpython-vm-internals">The Design and Implementation of the CPython Virtual Machine</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/jpmorganchase/python-training">JPMorgan's Python training for business analysts and traders</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://gogacodes.notion.site/Elixir-basics-for-Pythonistas-8afc4245034d4df9a3bc6fd646d739bf">Elixir basics for Pythonistas</a></strong>
+    
+        <br /><span>The article provides a comprehensive introduction to Elixir for Python developers, covering key concepts and syntax differences between the two languages. It explores Elixir's functional programming paradigm, pattern matching, concurrency model, and other distinctive features, offering practical examples and comparisons to help Pythonistas transition to Elixir programming.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://izzys.casa/2024/08/463-python-interpreters/">500 Python Interpreters</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/home-assistant/operating-system">home-assistant / operating-system</a></strong>
+    
+        <br /><span>🔰 Home Assistant Operating System</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.mattlayman.com/blog/2024/layman-guide-python-built-in-functions/">Layman's Guide to Python Built-in Functions</a></strong>
+    
+        <br /><span>This is a plain language guide to every built-in function in Python, paired with a simple example that shows each function in action.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.jetbrains.com/pycharm/2024/08/how-to-build-chatbots-with-langchain/">How to Build Chatbots With LangChain</a></strong>
+    
+        <br /><span>Discover how LangChain lets chatbots interact with LLMs, and follow this guide to build a context-aware chatbot that delivers accurate, relevant responses.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://wondrousnet.blogspot.com/2024/03/solution-to-puzzle-cat-walk.html">Solving the labyrinth puzzle from the university quest using Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://paulromer.net/escaping-from-anaconda/">Escaping from Anaconda (Python)</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://ieeexplore.ieee.org/abstract/document/10440590">PyRoboCOP: Python-Based Robotic Control and Optimization Package</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=pZunzLJ1qcQ">Quick and Easy Rate Limiting for FastAPI</a></strong>
+    
+        <br /><span>If you don’t want your API to crash due to too many requests, use rate limiting! This video covers how rate limiting works, what types of rate limiting you can do, how to implement it in FastAPI, and what you need to be mindful of.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://magazine.sebastianraschka.com/p/new-llm-pre-training-and-post-training">New LLM Pre-training and Post-training Paradigms</a></strong>
+    
+        <br /><span>A Look at How Modern LLMs Are Trained.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="http://nohlson.com/blog/CPython-Compiler-Hardening-Summer-Retrospective/">CPython Compiler Hardening</a></strong>
+    
+        <br /><span>The article details the author's Google Summer of Code project to implement compiler hardening options for CPython, following recommendations from the OpenSSF Memory Safety SIG. It covers the process of selecting and testing compiler options, addressing challenges with benchmarking and cross-platform compatibility, and developing tooling to track and manage warnings generated by the new ...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=96VIEJfhUBg">How Pytorch Powers Training Inference</a></strong>
+    
+        <br /><span>Learn about new PyTorch advancements for LLMs and how PyTorch is enhancing every aspect of the LLM lifecycle.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.appsignal.com/2024/08/28/build-a-one-product-shop-with-the-python-django-framework-and-htmx.html">Build a One-Product Shop With the Python Django Framework and Htmx</a></strong>
+    
+        <br /><span>This is the first of a two-part series using Django, htmx, and Stripe to create a one-product e-commerce website. In this part, we'll start our Django project and integrate it with htmx.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.horizon3.ai/attack-research/disclosures/ntlm-credential-theft-in-python-windows-applications/">NTLM Credential Theft in Python Windows Applications</a></strong>
+    
+        <br /><span>The article discloses vulnerabilities in popular Python frameworks (Gradio, Jupyter Server, and Streamlit) that can lead to NTLMv2 hash theft on Windows systems through exploitation of file system operations. It explains how these vulnerabilities can be exploited, potentially leading to credential theft or remote code execution, and emphasizes the increased risk as Python applications be...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-09-01/">Python Hub Weekly Digest for 2024-09-01</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/electronicarts/gigi">Gigi</a></strong>
+    
+        <br /><span>A framework for rapid prototyping and development of real-time rendering techniques.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/getzep/graphiti">graphiti</a></strong>
+    
+        <br /><span>Build dynamic, temporally-aware knowledge graphs.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/wrabit/django-cotton">django-cotton</a></strong>
+    
+        <br /><span>Bringing component based design to Django templates.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/facebookresearch/sapiens">Sapiens</a></strong>
+    
+        <br /><span>High-resolution models for human tasks.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/tarasko/picows">picows</a></strong>
+    
+        <br /><span>Fast websocket client and server for asyncio.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/launchflow/launchflow">LaunchFlow</a></strong>
+    
+        <br /><span>Deploy production grade application to AWS and GCP in minutes.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/TonnoBelloSnello/microrabbit">MicroRabbit</a></strong>
+    
+        <br /><span>A lightweight, asynchronous Python framework for RabbitMQ that simplifies building microservices and distributed systems. Features include easy message routing, plugin support, and intuitive client configuration.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Lightning-AI/LitServe">LitServe</a></strong>
+    
+        <br /><span>Lightning-fast serving engine for AI models. Flexible. Easy. Enterprise-scale.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/SylphAI-Inc/AdalFlow">AdalFlow</a></strong>
+    
+        <br /><span>The Library to Build and Auto-optimize LLM Applications.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/linkedin/Liger-Kernel">Liger-Kernel</a></strong>
+    
+        <br /><span>Efficient Triton Kernels for LLM Training.</span>
+    
+    </p>
+
+
+<hr />
+]]></content:encoded>
+<pubDate>Sun, 08 Sep 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 08 Sep 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-09-01</title>

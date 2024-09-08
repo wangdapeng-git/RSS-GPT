@@ -6745,3 +6745,12 @@ Existing_entries: 236
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-08 16:14:30.583469
+------------------------------------------------------
+Started: 2024-09-08 18:15:08.639337
+Existing_entries: 236
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 5476
+Summarized using GPT-3.5-turbo
+Append: [My Number 1 Epistemology Book Recommendation: Inventing Temperature](https://www.lesswrong.com/posts/TbaCa7sY3GxHBcXTd/my-number-1-epistemology-book-recommendation-inventing)
+append_entries: 1
+Finish: 2024-09-08 18:15:15.411707
