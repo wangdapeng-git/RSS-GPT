@@ -4,6 +4,37 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Python News Roundup: September 2024</title>
+<link>https://realpython.com/python-news-september-2024/</link>
+<guid>https://realpython.com/python-news-september-2024/</guid>
+<content:encoded><![CDATA[
+<div> Python, 3.12.5, 发布, 安全, 文档更新
+
+总结：<br><br>Python 3.12.5 作为 Python 系列的第五个维护更新发布，包含了250多个 bug 修复、性能改进和文档更新。重点包括标准库和核心 Python 的多个模块更新，安全性提升，新增测试用例，以及文档更新。此外，Python 3.12.5 默认使用内置的 SSL 证书，加强了对第三方包管理和安装时的安全措施。                               <div>
+<div><p>As the autumn leaves start to fall, signaling the transition to cooler weather, the Python community has warmed up to a series of noteworthy developments. Last month, a new maintenance release of <strong>Python 3.12.5</strong> was introduced, reinforcing the language’s ongoing commitment to stability and security.</p>
+<p>On a parallel note, Python continues its reign as the <strong>top programming language</strong> according to IEEE Spectrum’s annual rankings. This sentiment is echoed by the <strong>Python Developers Survey 2023</strong> results, which reveal intriguing trends and preferences within the community.</p>
+<p>Looking ahead, <strong>PEP 750</strong> has proposed the addition of <strong>tag strings</strong> in Python 3.14, inspired by JavaScript’s tagged template literals. This feature aims to enhance string processing, offering developers more control and expressiveness.</p>
+<p>Furthermore, <strong>EuroSciPy 2024</strong> recently concluded in Poland after successfully fostering cross-disciplinary collaboration and learning. The event featured insightful talks and hands-on tutorials, spotlighting innovative tools and libraries that are advancing scientific computing with Python.</p>
+<p>Let’s dive into the most significant Python news from the past month!</p>
+<h2 id="python-3125-released">Python 3.12.5 Released<a class="headerlink" href="#python-3125-released" title="Permanent link"></a></h2>
+<p>Early last month, <a href="https://www.python.org/downloads/release/python-3125/">Python 3.12.5</a> was released as the fifth maintenance update for the <a href="https://realpython.com/python312-new-features/">3.12</a> series. Since the previous patch update in June, this release packs over 250 bug fixes, performance improvements, and documentation enhancements.</p>
+<p>Here are the most important highlights:</p>
+<ul>
+<li><strong>Standard Library</strong>: Many modules in the standard library received crucial updates, such as fixes for crashes in <code>ssl</code> when the main interpreter restarts, and various corrections for error-handling mechanisms.</li>
+<li><strong>Core Python</strong>: The core Python runtime has several enhancements, including improvements to dictionary watchers, error messages, and fixes for edge-case crashes involving f-strings and multithreading.</li>
+<li><strong>Security</strong>: Key security improvements include the addition of missing audit events for interactive Python use and socket connection authentication within a fallback implementation on platforms such as Windows, where Unix inter-process communication is unavailable.</li>
+<li><strong>Tests</strong>: New test cases have been added and bug fixes have been applied to prevent random memory leaks during testing.</li>
+<li><strong>Documentation:</strong> Python documentation has been updated to remove discrepancies and clarify edge cases in multithreaded queues.</li>
+</ul>
+<p>Additionally, Python 3.12.5 comes equipped with <a href="https://discuss.python.org/t/announcement-pip-24-2-release/59402">pip 24.2</a> by default, bringing a slew of significant improvements to enhance security, efficiency, and functionality. One of the most notable upgrades is that pip now defaults to using system certificates, bolstering security measures when managing and installing third-party packages.</p>
+</div><h2><a href="https://realpython.com/python-news-september-2024/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-news-september-2024/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-09-09T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>The Real Python Podcast – Episode #219: Astrophysics and Astronomy With Python &amp; PyCon Africa 2024</title>
