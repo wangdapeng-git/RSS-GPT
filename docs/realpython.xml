@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Python News Roundup: September 2024</title>
 <link>https://realpython.com/python-news-september-2024/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> Python, 3.12.5, 发布, 安全, 文档更新
 
-总结：<br><br>Python 3.12.5 作为 Python 系列的第五个维护更新发布，包含了250多个 bug 修复、性能改进和文档更新。重点包括标准库和核心 Python 的多个模块更新，安全性提升，新增测试用例，以及文档更新。此外，Python 3.12.5 默认使用内置的 SSL 证书，加强了对第三方包管理和安装时的安全措施。                               <div>
+总结：<br /><br />Python 3.12.5 作为 Python 系列的第五个维护更新发布，包含了250多个 bug 修复、性能改进和文档更新。重点包括标准库和核心 Python 的多个模块更新，安全性提升，新增测试用例，以及文档更新。此外，Python 3.12.5 默认使用内置的 SSL 证书，加强了对第三方包管理和安装时的安全措施。                               <div>
 <div><p>As the autumn leaves start to fall, signaling the transition to cooler weather, the Python community has warmed up to a series of noteworthy developments. Last month, a new maintenance release of <strong>Python 3.12.5</strong> was introduced, reinforcing the language’s ongoing commitment to stability and security.</p>
 <p>On a parallel note, Python continues its reign as the <strong>top programming language</strong> according to IEEE Spectrum’s annual rankings. This sentiment is echoed by the <strong>Python Developers Survey 2023</strong> results, which reveal intriguing trends and preferences within the community.</p>
 <p>Looking ahead, <strong>PEP 750</strong> has proposed the addition of <strong>tag strings</strong> in Python 3.14, inspired by JavaScript’s tagged template literals. This feature aims to enhance string processing, offering developers more control and expressiveness.</p>
@@ -32,10 +33,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-09-09T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>The Real Python Podcast – Episode #219: Astrophysics and Astronomy With Python &amp; PyCon Africa 2024</title>
 <link>https://realpython.com/podcasts/rpp/219/</link>
