@@ -6775,3 +6775,9 @@ Summarized using GPT-3.5-turbo
 Append: [Adam Optimizer Causes Privileged Basis in Transformer LM Residual Stream](https://www.lesswrong.com/posts/yrhu6MeFddnGRSLtQ/adam-optimizer-causes-privileged-basis-in-transformer-lm)
 append_entries: 1
 Finish: 2024-09-09 00:56:07.999988
+------------------------------------------------------
+Started: 2024-09-09 02:42:32.804379
+Existing_entries: 238
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-09-09 02:42:33.197149
