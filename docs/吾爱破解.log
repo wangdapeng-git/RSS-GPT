@@ -18082,3 +18082,9 @@ Filter: [央视频TV版 V6.4.1 CCTV1直播等免费看](https://www.52pojie.cn/f
 Filter: [IOPaint 1.0一个超级好用的万能AI小工具，抠图，擦除，扩图，形状替换，环境感知等](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1958936)
 append_entries: 0
 Finish: 2024-09-08 22:10:05.196681
+------------------------------------------------------
+Started: 2024-09-09 00:55:46.714019
+Existing_entries: 959
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+append_entries: 0
+error when rendering xml, skip docs/吾爱破解
