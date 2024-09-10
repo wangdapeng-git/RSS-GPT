@@ -18438,3 +18438,10 @@ Filter: [央视频TV版 V6.4.1 CCTV1直播等免费看](https://www.52pojie.cn/f
 Filter: [息屏后台录像机 v1.3.0.4](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1958959)
 append_entries: 0
 Finish: 2024-09-10 14:11:31.601645
+------------------------------------------------------
+Started: 2024-09-10 16:13:38.218242
+Existing_entries: 971
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Fetch failed from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+append_entries: 0
+error when rendering xml, skip docs/吾爱破解

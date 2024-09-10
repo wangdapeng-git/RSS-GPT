@@ -4,6 +4,24 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>When to Use .__repr__() vs .__str__() in Python</title>
+<link>https://realpython.com/courses/repr-vs-str/</link>
+<guid>https://realpython.com/courses/repr-vs-str/</guid>
+<content:encoded><![CDATA[
+<div> Python, .__repr__(), .__str__(), classes, programmer 
+
+Python中的特殊方法.__repr__()和.__str__()用于控制对象在不同情况下的字符串表示。.__repr__()会返回给程序员更详细的描述以便于调试和维护代码，.__str__()则返回给用户更简单的描述信息。通过定义这些特殊方法，可以提高代码的可读性，使得类更易于调试和维护。在选择Python的.__repr__()和.__str__()时，需要根据输出的需求来决定，是给程序员看还是给用户看。通过本课程，您可以学习如何区分和使用.__repr__()和.__str__()，从而更好地控制对象的输出形式。<br><br>总结: Python中的.__repr__()和.__str__()方法可帮助程序员控制对象的字符串表示，通过合理定义这些方法可以提高代码可读性和维护性。 <div>
+<p>One of the most common tasks that a computer program performs is to <strong>display data</strong>. The program often displays this information to the program&rsquo;s user. However, a program also needs to show information to the programmer developing and maintaining it. The information a programmer needs about an object differs from how the program should display the same object for the user, and that&rsquo;s where <code>.__repr__()</code> vs <code>.__str__()</code> comes in.</p>
+<p>A Python object has several special methods that provide specific behavior. There are two similar <strong>special methods</strong> that describe the object using a string representation. These methods are <code>.__repr__()</code> and <code>.__str__()</code>. The <code>.__repr__()</code> method returns a <strong>detailed description</strong> for a programmer who needs to maintain and debug the code. The <code>.__str__()</code> method returns a <strong>simpler description</strong> with information for the user of the program.</p>
+<p>The <code>.__repr__()</code> and <code>.__str__()</code> methods are two of the special methods that you can define for any class. They allow you to control how a program displays an object in several common forms of output, such as what you get from the <code>print()</code> function, formatted strings, and interactive environments.</p>
+<p>In this video course, you&rsquo;ll learn how to differentiate <code>.__repr__()</code> vs <code>.__str__()</code> and how to use these special methods in the classes you define. Defining these methods effectively makes the classes that you write more readable and easier to debug and maintain. So, <strong>when should you choose Python&rsquo;s <code>.__repr__()</code> vs <code>.__str__</code>?</strong></p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-09-10T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Python News Roundup: September 2024</title>
