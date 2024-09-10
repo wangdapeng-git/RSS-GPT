@@ -6916,3 +6916,9 @@ Summarized using GPT-3.5-turbo
 Append: [The Best Lay Argument is not a Simple English Yud Essay](https://www.lesswrong.com/posts/CZQYP7BBY4r9bdxtY/the-best-lay-argument-is-not-a-simple-english-yud-essay)
 append_entries: 1
 Finish: 2024-09-10 20:13:46.442733
+------------------------------------------------------
+Started: 2024-09-10 22:11:23.527410
+Existing_entries: 241
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-09-10 22:11:24.461873
