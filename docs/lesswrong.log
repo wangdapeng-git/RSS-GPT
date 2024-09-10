@@ -6850,3 +6850,12 @@ Summarized using GPT-3.5-turbo
 Append: [Pollsters Should Publish Question Translations](https://www.lesswrong.com/posts/28eyDuZ6FKrHpQ2FK/pollsters-should-publish-question-translations)
 append_entries: 1
 Finish: 2024-09-10 00:55:09.928121
+------------------------------------------------------
+Started: 2024-09-10 02:40:21.180759
+Existing_entries: 239
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 20963
+Summarized using GPT-3.5-turbo
+Append: [AI and the Technological Richter Scale](https://www.lesswrong.com/posts/oAy72fcqDHsCvLBKz/ai-and-the-technological-richter-scale)
+append_entries: 1
+Finish: 2024-09-10 02:40:26.675432
