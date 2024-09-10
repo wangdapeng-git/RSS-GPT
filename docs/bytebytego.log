@@ -5114,3 +5114,9 @@ Summarized using GPT-3.5-turbo
 Append: [How Shopify Manages its Petabyte Scale MySQL Database](https://blog.bytebytego.com/p/how-shopify-manages-its-petabyte)
 append_entries: 1
 Finish: 2024-09-10 16:14:42.829286
+------------------------------------------------------
+Started: 2024-09-10 18:15:35.343524
+Existing_entries: 55
+Fetching from https://blog.bytebytego.com/feed
+append_entries: 0
+Finish: 2024-09-10 18:15:35.702233
