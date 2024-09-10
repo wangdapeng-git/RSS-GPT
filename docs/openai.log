@@ -9548,3 +9548,10 @@ Existing_entries: 21
 Fetching from https://rsshub.app/openai/blog
 append_entries: 0
 Finish: 2024-09-10 18:15:26.471522
+------------------------------------------------------
+Started: 2024-09-10 20:13:01.046706
+Existing_entries: 21
+Fetching from https://rsshub.app/openai/blog
+Fetch failed from https://rsshub.app/openai/blog
+append_entries: 0
+error when rendering xml, skip docs/openai
