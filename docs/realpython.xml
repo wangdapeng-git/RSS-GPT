@@ -4,6 +4,186 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>How to Use Conditional Expressions With NumPy where()</title>
+<link>https://realpython.com/numpy-where-conditional-expressions/</link>
+<guid>https://realpython.com/numpy-where-conditional-expressions/</guid>
+<content:encoded><![CDATA[
+<div> NumPy, where(), array, condition, replacement<br>
+NumPy的where()函数能够通过条件语句来过滤数组元素，根据条件对数组元素进行不同的操作，通常提供三个参数：条件、满足条件时的操作、不满足条件时的操作。当需要根据数组元素的值进行不同操作时，可以使用where()函数，比如将负数替换为正数。通过条件构建布尔数组，只包含True和False，满足条件为True，不满足为False。使用np.abs()函数可以替代where()函数来实现同样的效果。更深入了解where()函数的使用方法和Bool型数组的生成方式，能更好地理解和应用该函数。<br><br>总结: <div>
+<div><p>The NumPy <code>where()</code> function is a powerful tool for filtering array elements in lists, tuples, and NumPy arrays. It works by using a conditional predicate, similar to the logic used in the WHERE or HAVING clauses in <a href="https://realpython.com/python-sql-libraries/">SQL</a> queries. It’s okay if you’re not familiar with SQL—you don’t need to know it to follow along with this tutorial.</p>
+<p>You would typically use <code>np.where()</code> when you have an array and need to analyze its elements differently depending on their values. For example, you might need to replace negative numbers with zeros or replace missing values such as <code>None</code> or <code>np.nan</code> with something more meaningful. When you run <code>where()</code>, you’ll produce a new array containing the results of your analysis.</p>
+<p>You generally supply three parameters when using <code>where()</code>. First, you provide a <strong>condition</strong> against which each element of your original array is matched. Then, you provide two additional parameters: the first defines what you want to do if an element <em>matches</em> your condition, while the second defines what you want to do <em>if it doesn’t</em>.</p>
+<p>If you think this all sounds similar to Python’s <a href="https://realpython.com/python-conditional-statements/#conditional-expressions-pythons-ternary-operator">ternary operator</a>, you’re correct. The logic is the same.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> In this tutorial, you’ll work with two-dimensional arrays. However, the same principles can be applied to arrays of any dimension.</p>
+</div>
+<p>Before you start, you should familiarize yourself with <a href="https://realpython.com/numpy-tutorial/">NumPy arrays</a> and how to use them. It will also be helpful if you understand the subject of <a href="https://numpy.org/doc/stable/user/basics.broadcasting.html">broadcasting</a>, particularly for the latter part of this tutorial.</p>
+<p>In addition, you may want to use the data analysis tool <a href="https://realpython.com/jupyter-notebook-introduction/">Jupyter Notebook</a> as you work through the examples in this tutorial. Alternatively, <a href="https://realpython.com/using-jupyterlab/">JupyterLab</a> will give you an enhanced notebook experience, but feel free to use any Python environment.</p>
+<p>The NumPy library is not part of core Python, so you’ll need to install it. If you’re using a Jupyter Notebook, create a new code cell and type <code>!python -m pip install numpy</code> into it. When you run the cell, the library will install. If you’re working at the command line, use the same command, only without the exclamation point (!).</p>
+<p>With these preliminaries out of the way, you’re now good to go.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/numpy-where-conditional-expressions-code/">Click here to download the free sample code</a> that shows you how to use conditional expressions with NumPy where().</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “How to Use Conditional Expressions With NumPy where()” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/numpy-where-conditional-expressions/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="How to Use Conditional Expressions With NumPy where()" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/How-to-Write-Conditional-Expressions-With-np.where-in-NumPy_Watermarked.a1b7c35f4084.jpg" style="background: #b8aae5;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/numpy-where-conditional-expressions/"><span class="my-0 h4">How to Use Conditional Expressions With NumPy where()</span></a> 
+      <p class="text-muted mb-0 small">This quiz aims to test your understanding of the np.where() function. You won't find all the answers in the tutorial, so you'll need to do additional research. It's recommended that you make sure you can do all the exercises in the tutorial before tackling this quiz. Enjoy!</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="how-to-write-conditional-expressions-with-numpy-where">How to Write Conditional Expressions With NumPy <code>where()</code><a class="headerlink" href="#how-to-write-conditional-expressions-with-numpy-where" title="Permanent link"></a></h2>
+<p>One of the most common scenarios for using <code>where()</code> is when you need to replace certain elements in a NumPy array with other values depending on some condition.</p>
+<p>Consider the following array:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">test_array</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span>
+<span class="gp">... </span>    <span class="p">[</span>
+<span class="gp">... </span>        <span class="p">[</span><span class="mf">3.1688358</span><span class="p">,</span> <span class="mf">3.9091694</span><span class="p">,</span> <span class="mf">1.66405549</span><span class="p">,</span> <span class="o">-</span><span class="mf">3.61976783</span><span class="p">],</span>
+<span class="gp">... </span>        <span class="p">[</span><span class="mf">7.33400434</span><span class="p">,</span> <span class="o">-</span><span class="mf">3.25797286</span><span class="p">,</span> <span class="o">-</span><span class="mf">9.65148913</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.76115911</span><span class="p">],</span>
+<span class="gp">... </span>        <span class="p">[</span><span class="mf">2.71053173</span><span class="p">,</span> <span class="o">-</span><span class="mf">6.02410179</span><span class="p">,</span> <span class="mf">7.46355805</span><span class="p">,</span> <span class="mf">1.30949485</span><span class="p">],</span>
+<span class="gp">... </span>    <span class="p">]</span>
+<span class="gp">... </span><span class="p">)</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>To begin with, you need to <a href="https://realpython.com/python-import/">import</a> the NumPy library into your program. It’s standard practice to do so using the alias <code>np</code>, which allows you to refer to the library using this abbreviated form.</p>
+<p>The resulting array has a shape of three rows and four columns, each containing a <a href="https://realpython.com/python-data-types/#floating-point-numbers">floating-point number</a>.</p>
+<p>Now suppose you wanted to replace all the negative numbers with their positive equivalents:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span>
+<span class="gp">... </span>    <span class="n">test_array</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="n">test_array</span> <span class="o">*</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="n">test_array</span><span class="p">,</span>
+<span class="gp">... </span><span class="p">)</span>
+<span class="go">array([[3.1688358 , 3.9091694 , 1.66405549, 3.61976783],</span>
+<span class="go">       [7.33400434, 3.25797286, 9.65148913, 0.76115911],</span>
+<span class="go">       [2.71053173, 6.02410179, 7.46355805, 1.30949485]])</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The result is a new NumPy array with the negative numbers replaced by positives. Look carefully at the original <code>test_array</code> and then at the corresponding elements of the new <code>all_positives</code> array, and you’ll see that the result is exactly what you wanted.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> The above example gives you an idea of how the <code>where()</code> function works. If you were doing this in practice, you’d most likely use either the <code>np.abs()</code> or <code>np.absolute()</code> functions instead. Both do the same thing because the former is shorthand for the latter:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">test_array</span><span class="p">)</span>
+<span class="go">array([[3.1688358 , 3.9091694 , 1.66405549, 3.61976783],</span>
+<span class="go">       [7.33400434, 3.25797286, 9.65148913, 0.76115911],</span>
+<span class="go">       [2.71053173, 6.02410179, 7.46355805, 1.30949485]])</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Once more, all negative values have been removed.</p>
+</div>
+<p>Before moving on to other use cases of <code>where()</code>, you’ll take a closer look at how this all works. To achieve your aim in the previous example, you passed in <code>test_array &lt; 0</code> as the condition. In NumPy, this creates a Boolean array that <code>where()</code> uses:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">test_array</span> <span class="o">&lt;</span> <span class="mi">0</span>
+<span class="go">array([[False, False, False,  True],</span>
+<span class="go">       [False,  True,  True,  True],</span>
+<span class="go">       [False,  True, False, False]])</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The Boolean array, often called the <strong>mask</strong>, consists only of elements that are either <code>True</code> or <code>False</code>. If an element matches the condition, the corresponding element in the Boolean array will be <code>True</code>. Otherwise, it’ll be <code>False</code>.</p>
+</div><h2><a href="https://realpython.com/numpy-where-conditional-expressions/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/numpy-where-conditional-expressions/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-09-11T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>When to Use .__repr__() vs .__str__() in Python</title>

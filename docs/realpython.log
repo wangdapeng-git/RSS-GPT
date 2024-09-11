@@ -7857,3 +7857,12 @@ Existing_entries: 145
 Fetching from https://realpython.com/atom.xml
 append_entries: 0
 Finish: 2024-09-11 14:11:19.854546
+------------------------------------------------------
+Started: 2024-09-11 16:14:44.160806
+Existing_entries: 145
+Fetching from https://realpython.com/atom.xml
+Token length: 5382
+Summarized using GPT-3.5-turbo
+Append: [How to Use Conditional Expressions With NumPy where()](https://realpython.com/numpy-where-conditional-expressions/)
+append_entries: 1
+Finish: 2024-09-11 16:14:50.782010
