@@ -4,6 +4,7 @@
 <title>AI at Meta Blog</title>
 <link>https://ai.meta.com/blog/</link>
 
+
 <item>
 <title>How one Kenyan startup is working to solve local challenges with Llama</title>
 <link>https://ai.meta.com/blog/upeo-labs-llama/</link>
@@ -11,13 +12,10 @@
 <content:encoded><![CDATA[
 <div> 关键词：文章、总结、中文、要点、200字内
 
-总结：<br><br>文章讨论了如何用中文总结一篇文章，提取关键词、写出关键句，最终形成一个简洁准确的总结。首先要提取关键词，然后用这些关键词构建总结要点，确保包含所有重要信息，并保持在200字内。总结时要注意顺序和逻辑性，确保每个要点都得到了充分的体现。通过这种方法，读者可以快速了解文章的内容和主要论点，达到快速获取信息的目的。 <div>
-
+总结：<br /><br />文章讨论了如何用中文总结一篇文章，提取关键词、写出关键句，最终形成一个简洁准确的总结。首先要提取关键词，然后用这些关键词构建总结要点，确保包含所有重要信息，并保持在200字内。总结时要注意顺序和逻辑性，确保每个要点都得到了充分的体现。通过这种方法，读者可以快速了解文章的内容和主要论点，达到快速获取信息的目的。 <div>
 ]]></content:encoded>
-<pubDate>2024-09-11T00:00:00+00:00</pubDate>
 <pubDate>2024-09-11T16:15:06.862146+00:00</pubDate>
 </item>
-
 <item>
 <title>Get the latest from AI at Meta in your inbox</title>
 <link>https://ai.facebook.com/subscribe/</link>

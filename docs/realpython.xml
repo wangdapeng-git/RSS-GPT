@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>How to Use Conditional Expressions With NumPy where()</title>
 <link>https://realpython.com/numpy-where-conditional-expressions/</link>
 <guid>https://realpython.com/numpy-where-conditional-expressions/</guid>
 <content:encoded><![CDATA[
-<div> NumPy, where(), array, condition, replacement<br>
-NumPy的where()函数能够通过条件语句来过滤数组元素，根据条件对数组元素进行不同的操作，通常提供三个参数：条件、满足条件时的操作、不满足条件时的操作。当需要根据数组元素的值进行不同操作时，可以使用where()函数，比如将负数替换为正数。通过条件构建布尔数组，只包含True和False，满足条件为True，不满足为False。使用np.abs()函数可以替代where()函数来实现同样的效果。更深入了解where()函数的使用方法和Bool型数组的生成方式，能更好地理解和应用该函数。<br><br>总结: <div>
+<div> NumPy, where(), array, condition, replacement<br />
+NumPy的where()函数能够通过条件语句来过滤数组元素，根据条件对数组元素进行不同的操作，通常提供三个参数：条件、满足条件时的操作、不满足条件时的操作。当需要根据数组元素的值进行不同操作时，可以使用where()函数，比如将负数替换为正数。通过条件构建布尔数组，只包含True和False，满足条件为True，不满足为False。使用np.abs()函数可以替代where()函数来实现同样的效果。更深入了解where()函数的使用方法和Bool型数组的生成方式，能更好地理解和应用该函数。<br /><br />总结: <div>
 <div><p>The NumPy <code>where()</code> function is a powerful tool for filtering array elements in lists, tuples, and NumPy arrays. It works by using a conditional predicate, similar to the logic used in the WHERE or HAVING clauses in <a href="https://realpython.com/python-sql-libraries/">SQL</a> queries. It’s okay if you’re not familiar with SQL—you don’t need to know it to follow along with this tutorial.</p>
 <p>You would typically use <code>np.where()</code> when you have an array and need to analyze its elements differently depending on their values. For example, you might need to replace negative numbers with zeros or replace missing values such as <code>None</code> or <code>np.nan</code> with something more meaningful. When you run <code>where()</code>, you’ll produce a new array containing the results of your analysis.</p>
 <p>You generally supply three parameters when using <code>where()</code>. First, you provide a <strong>condition</strong> against which each element of your original array is matched. Then, you provide two additional parameters: the first defines what you want to do if an element <em>matches</em> your condition, while the second defines what you want to do <em>if it doesn’t</em>.</p>
@@ -181,10 +182,8 @@ NumPy的where()函数能够通过条件语句来过滤数组元素，根据条�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-09-11T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>When to Use .__repr__() vs .__str__() in Python</title>
 <link>https://realpython.com/courses/repr-vs-str/</link>
