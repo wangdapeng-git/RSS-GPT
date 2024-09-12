@@ -6997,3 +6997,12 @@ Existing_entries: 242
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-11 22:10:45.975671
+------------------------------------------------------
+Started: 2024-09-12 00:55:04.923432
+Existing_entries: 242
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 5577
+Summarized using GPT-3.5-turbo
+Append: [Refactoring cryonics as structural brain preservation](https://www.lesswrong.com/posts/PG4D4CSBHhijYDvSz/refactoring-cryonics-as-structural-brain-preservation)
+append_entries: 1
+Finish: 2024-09-12 00:55:08.075293
