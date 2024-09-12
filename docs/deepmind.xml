@@ -4,6 +4,7 @@
 <title>Google DeepMind Blog</title>
 <link>https://deepmind.google/discover/blog//blog</link>
 
+
 <item>
 <title>Our latest advances in robot dexterity</title>
 <link>https://deepmind.google/discover/blog/advances-in-robot-dexterity/</link>
@@ -13,12 +14,9 @@
 
 总结: 
 文章提供了关于总结中文文章的指导，包括提取关键词和写总结。首先，要提取关键词，可以帮助读者快速了解文章内容。其次，写总结时要简洁明了，概括文章的要点。最后，输出总结时需按照指定格式进行，保留两个HTML换行符。这些方法可以帮助读者更有效地理解和记忆文章内容。 <div>
-
 ]]></content:encoded>
 <pubDate>Thu, 12 Sep 2024 14:00:05 GMT</pubDate>
-<pubDate>Thu, 12 Sep 2024 14:00:05 GMT</pubDate>
 </item>
-
 <item>
 <title>AlphaProteo generates novel proteins for biology and health research</title>
 <link>https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/</link>

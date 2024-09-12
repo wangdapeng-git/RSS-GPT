@@ -9233,3 +9233,9 @@ Summarized using GPT-3.5-turbo
 Append: [Our latest advances in robot dexterity](https://deepmind.google/discover/blog/advances-in-robot-dexterity/)
 append_entries: 1
 Finish: 2024-09-12 16:13:55.406565
+------------------------------------------------------
+Started: 2024-09-12 18:16:25.117994
+Existing_entries: 119
+Fetching from https://rsshub.app/deepmind/blog
+append_entries: 0
+Finish: 2024-09-12 18:16:25.211182
