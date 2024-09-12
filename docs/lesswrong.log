@@ -7006,3 +7006,9 @@ Summarized using GPT-3.5-turbo
 Append: [Refactoring cryonics as structural brain preservation](https://www.lesswrong.com/posts/PG4D4CSBHhijYDvSz/refactoring-cryonics-as-structural-brain-preservation)
 append_entries: 1
 Finish: 2024-09-12 00:55:08.075293
+------------------------------------------------------
+Started: 2024-09-12 02:39:31.581138
+Existing_entries: 243
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-09-12 02:39:32.628761
