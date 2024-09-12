@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Quiz: Python 3.13: Free-Threading and a JIT Compiler</title>
 <link>https://realpython.com/quizzes/python313-free-threading-jit/</link>
@@ -11,14 +12,13 @@
 <content:encoded><![CDATA[
 <div> Python 3.13、新功能、编译、全局解释器锁、性能改进
 
-总结:<br><br>
+总结:<br /><br />
 本文介绍了Python 3.13中的新功能，包括如何编译自定义Python版本、禁用全局解释器锁（GIL）、启用即时（JIT）编译器、在运行时确定新功能的可用性、评估Python 3.13中的性能改进，并制作一个针对Python新ABI的C扩展模块。文章全面探讨了Python 3.13的一系列新特性，为读者深入了解Python编程语言的最新发展提供了重要参考。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of the new features in Python 3.13.</p>
 <p>By working through this quiz, you&rsquo;ll revisit how to compile a <strong>custom Python build</strong>, disable the <strong>Global Interpreter Lock (GIL)</strong>, enable the <strong>Just-In-Time (JIT)</strong> compiler, determine the availability of new features at runtime, assess the <strong>performance improvements</strong> in Python 3.13, and make a <strong>C extension module</strong> targeting Python&rsquo;s new ABI.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-09-12T12:00:00+00:00</pubDate>
 </item>
 <item>
@@ -26,17 +26,15 @@
 <link>https://realpython.com/quizzes/python-virtual-environments-a-primer/</link>
 <guid>https://realpython.com/quizzes/python-virtual-environments-a-primer/</guid>
 <content:encoded><![CDATA[
-<div> 模块、装饰器、Lambda函数、迭代器、生成器 <br>
-总结:<br>
+<div> 模块、装饰器、Lambda函数、迭代器、生成器 <br />
+总结:<br />
 本教程介绍了几种 Python 编程技巧，包括如何使用模块来封装代码并提高可维护性，装饰器可以在不改变原函数结构的情况下添加额外功能，Lambda函数可以用于创建简洁的匿名函数，迭代器可以遍历可迭代对象并在需要时生成数据，生成器可以按需生成数据而不是一次性生成所有数据。掌握这些技巧可以让 Python 编程更加高效和优雅。 <div>
 <p>So you&rsquo;ve been <a href="https://realpython.com/python-virtual-environments-a-primer/">primed on Python virtual environments</a>! Test your understanding of the tutorial here.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-09-11T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>How to Use Conditional Expressions With NumPy where()</title>
 <link>https://realpython.com/numpy-where-conditional-expressions/</link>
