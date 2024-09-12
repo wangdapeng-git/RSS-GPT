@@ -4,6 +4,24 @@
 <title>ByteByteGo Newsletter</title>
 <link>https://blog.bytebytego.com</link>
 
+<item>
+<title>Infrastructure as Code</title>
+<link>https://blog.bytebytego.com/p/infrastructure-as-code</link>
+<guid>https://blog.bytebytego.com/p/infrastructure-as-code</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 可伸缩基础设施管理, 可用性, 应用性能, 服务质量, 成本效率
+
+总结:<br><br>可伸缩基础设施管理对于现代企业至关重要，能够确保应用在任何时候都保持运行，并根据需求动态调整资源，以维持最佳性能水平。它提高了可用性、应用性能和服务质量，提高了客户满意度和忠诚度，并提供了成本优化的机会。然而，管理和配置可伸缩基础设施可能变得复杂，需要有效的方法来应对不断增长的代码库和潜在的错误风险。综上所述，有效的基础设施管理和配置是确保现代应用基础设施顺利运行的关键。 <div>
+<p>It is difficult to imagine modern businesses operating without a scalable process to provision and manage the infrastructure.&nbsp;</p><p>Scalable infrastructure management is critical for businesses to adapt quickly to fluctuating workloads and user demands without compromising performance or incurring excessive costs. It offers several key benefits from multiple perspectives:</p><ul><li><p><strong>Availability:</strong> Scalable infrastructure management ensures that the application remains up and running at all times. It minimizes downtime and enables continuous service availability by dynamically adjusting resources based on demand.</p></li><li><p><strong>Application Performance:</strong> Scalable infrastructure ensures that application performance is not affected by changes in workload. It allows for the seamless addition or removal of resources to maintain optimal performance levels, even during peak periods.</p></li><li><p><strong>Better Quality of Service:</strong> By enhancing availability and application performance, scalable infrastructure management allows businesses to offer better service quality to their customers. This improved service quality can lead to higher customer satisfaction and loyalty.</p></li><li><p><strong>Cost Efficiency:</strong> Scalable infrastructure management provides opportunities for cost optimization by scaling down resources during idle times.&nbsp;</p></li></ul><p>Modern cloud-based infrastructure is particularly adept at scaling to support millions of users.&nbsp;</p><p>However, while it may seem effortless, managing scalability beyond simple autoscaling groups and load balancers can become complex.</p><p>As the codebase grows due to the involvement of numerous engineers, the potential for mistakes also increases. While minor issues like syntax errors or forgotten comments can be mitigated quickly, more serious mistakes such as leaked security keys, improper storage security settings, or open security groups can have disastrous consequences.</p><p>Therefore, it is crucial to formulate effective ways to manage and provision the infrastructure.</p><p>In this post, we&#8217;ll explore the most important ways of scaling the provisioning and management of modern application infrastructure.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-imag" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3a28aee2-6cef-4a3b-8bb2-5ee2d54059ed_1451x1600.png" target="_blank"><div class="image2-inset"><source type="image/webp" /><img alt="" class="sizing-normal" height="1600" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3a28aee2-6cef-4a3b-8bb2-5ee2d54059ed_1451x1600.png" width="1451" /><div class="image-link-expand"><svg class="lucide lucide-maximize2 " fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" x2="14" y1="3" y2="10"></line><line x1="3" x2="10" y1="21" y2="14"></line></svg></div></div></a></figure></div><h2>What is Non-Scalable Infrastructure?</h2>
+      <p>
+          <a href="https://blog.bytebytego.com/p/infrastructure-as-code">
+              Read more
+          </a>
+      </p>
+]]></content:encoded>
+<pubDate>Thu, 12 Sep 2024 15:30:10 GMT</pubDate>
+<pubDate>Thu, 12 Sep 2024 15:30:10 GMT</pubDate>
+</item>
 
 <item>
 <title>How Shopify Manages its Petabyte Scale MySQL Database</title>

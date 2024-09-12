@@ -9700,3 +9700,9 @@ Fetching from https://rsshub.app/openai/blog
 Fetch failed from https://rsshub.app/openai/blog
 append_entries: 0
 error when rendering xml, skip docs/openai
+------------------------------------------------------
+Started: 2024-09-12 16:13:55.577048
+Existing_entries: 21
+Fetching from https://rsshub.app/openai/blog
+append_entries: 0
+Finish: 2024-09-12 16:14:02.362795

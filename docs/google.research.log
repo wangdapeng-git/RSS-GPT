@@ -4214,3 +4214,12 @@ Existing_entries: 23
 Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
 append_entries: 0
 Finish: 2024-09-12 14:12:33.353125
+------------------------------------------------------
+Started: 2024-09-12 16:14:18.103298
+Existing_entries: 23
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Grounding AI in reality with a little help from Data Commons](https://research.google/blog/grounding-ai-in-reality-with-a-little-help-from-data-commons/)
+append_entries: 1
+Finish: 2024-09-12 16:14:27.566958
