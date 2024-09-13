@@ -7078,3 +7078,9 @@ Summarized using GPT-3.5-turbo
 Append: [Contra papers claiming superhuman AI forecasting](https://www.lesswrong.com/posts/uGkRcHqatmPkvpGLq/contra-papers-claiming-superhuman-ai-forecasting)
 append_entries: 1
 Finish: 2024-09-12 22:13:12.059627
+------------------------------------------------------
+Started: 2024-09-13 00:56:14.455338
+Existing_entries: 245
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-09-13 00:56:15.002795
