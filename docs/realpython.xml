@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>The Real Python Podcast – Episode #220: Configuring Git Pre-Commit Hooks &amp; Estimating Software Projects</title>
 <link>https://realpython.com/podcasts/rpp/220/</link>
@@ -11,15 +12,13 @@
 <content:encoded><![CDATA[
 <div> Git pre-commit hooks, custom rules, checks, Python, Christopher Trudeau
 
-总结:<br><br>本文介绍了如何充分利用Git的pre-commit hooks功能，在每次提交代码时运行自定义的软件检查和规则。作者Christopher Trudeau分享了PyCoder's Weekly的文章和项目。文章详细探讨了如何利用Git的pre-commit hooks功能，在代码提交前运行自定义的检查和规则，以确保代码质量和一致性。通过编写Python脚本和配置相应的Git钩子，开发人员可以轻松实现自动化的代码检查，并及时发现和解决潜在问题。通过本文的指导，读者可以提高代码质量，并提升开发效率。 <div>
+总结:<br /><br />本文介绍了如何充分利用Git的pre-commit hooks功能，在每次提交代码时运行自定义的软件检查和规则。作者Christopher Trudeau分享了PyCoder's Weekly的文章和项目。文章详细探讨了如何利用Git的pre-commit hooks功能，在代码提交前运行自定义的检查和规则，以确保代码质量和一致性。通过编写Python脚本和配置相应的Git钩子，开发人员可以轻松实现自动化的代码检查，并及时发现和解决潜在问题。通过本文的指导，读者可以提高代码质量，并提升开发效率。 <div>
 <p>How do you take advantage of Git pre-commit hooks? How do you build custom software checks and rules that run every time you commit your code? Christopher Trudeau is back on the show this week, bringing another batch of PyCoder's Weekly articles and projects.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-09-13T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Quiz: Python 3.13: Free-Threading and a JIT Compiler</title>
 <link>https://realpython.com/quizzes/python313-free-threading-jit/</link>
