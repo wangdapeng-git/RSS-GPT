@@ -4,6 +4,7 @@
 <title>AI at Meta Blog</title>
 <link>https://ai.meta.com/blog/</link>
 
+
 <item>
 <title>Media artist Refik Anadol fine-tunes Llama for ‘Large Nature Model’</title>
 <link>https://ai.meta.com/blog/refik-anadol-llama/</link>
@@ -11,14 +12,11 @@
 <content:encoded><![CDATA[
 <div> 关键词: 文章, 中文, 总结, 提取, 要点
 
-总结:<br><br>
+总结:<br /><br />
 文章主要讲述了如何用中文对文章进行总结，并提取关键词。通过提取关键词，可以更快速地了解文章内容，然后用中文写出简洁的总结。在总结中要包含所有要点，并按顺序输出。这种方法可以帮助读者快速了解文章的主要内容，提高阅读效率。 <div>
-
 ]]></content:encoded>
-<pubDate>2024-09-13T00:00:00+00:00</pubDate>
 <pubDate>2024-09-13T16:14:43.319805+00:00</pubDate>
 </item>
-
 <item>
 <title>How one Kenyan startup is working to solve local challenges with Llama</title>
 <link>https://ai.meta.com/blog/upeo-labs-llama/</link>
