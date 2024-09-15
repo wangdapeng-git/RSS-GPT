@@ -7297,3 +7297,12 @@ Existing_entries: 248
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-15 20:13:46.475652
+------------------------------------------------------
+Started: 2024-09-15 22:12:03.475401
+Existing_entries: 248
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 2810
+Summarized using GPT-3.5-turbo
+Append: [OpenAI o1, Llama 4, and AlphaZero of LLMs](https://www.lesswrong.com/posts/Rpc9ACd6zCy3FssTj/openai-o1-llama-4-and-alphazero-of-llms)
+append_entries: 1
+Finish: 2024-09-15 22:12:10.998392
