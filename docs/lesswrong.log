@@ -7231,3 +7231,9 @@ Summarized using GPT-3.5-turbo
 Append: [Estimating Tail Risk in Neural Networks](https://www.lesswrong.com/posts/xj5nzResmDZDqLuLo/estimating-tail-risk-in-neural-networks)
 append_entries: 1
 Finish: 2024-09-14 22:12:58.436311
+------------------------------------------------------
+Started: 2024-09-15 01:01:25.387629
+Existing_entries: 248
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-09-15 01:01:25.958429
