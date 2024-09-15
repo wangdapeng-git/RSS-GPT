@@ -4,6 +4,217 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-09-15</title>
+<link>https://pythonhub.dev/digest/2024-09-15/</link>
+<guid>https://pythonhub.dev/digest/2024-09-15/</guid>
+<content:encoded><![CDATA[
+<div> 机器学习、PDF分类、XGBoost、深度学习、Python虚拟环境
+<br>
+文章讨论了使用不同的机器学习技术对包含840万份PDF文件的庞大数据集进行分类的尝试。作者尝试了不同的方法，包括深度学习模型和传统的机器学习方法，如XGBoost，在使用嵌入训练的XGBoost模型上达到了最佳性能，准确率为85.26%。文章主张在Docker容器中使用Python虚拟环境，认为虚拟环境提供了一种一致、易于理解的Python应用程序结构，让团队间的沟通和部署更加简单。 <div>
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=3-4qAkFRpAk">Multimodal Data Analysis with LLMs and Python – Tutorial</a></strong>
+    
+        <br /><span>The tutorial teaches how to analyze multimodal data using Large Language Models (LLMs) and Python, covering text classification, image-based question answering, audio transcription, and creating a natural language query interface for SQL databases.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Cinnamon/kotaemon">kotaemon</a></strong>
+    
+        <br /><span>An open-source RAG-based tool for chatting with your documents.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://snats.xyz/pages/articles/classifying_a_bunch_of_pdfs.html">Classifying all of the pdfs on the internet</a></strong>
+    
+        <br /><span>The article describes an attempt to classify a massive dataset of 8.4 million PDFs from Common Crawl using various machine learning techniques. The author experiments with different approaches, including deep learning models and traditional machine learning methods like XGBoost, ultimately achieving the best performance with an XGBoost model trained on embeddings, reaching 85.26% accurac...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://hynek.me/articles/docker-virtualenv/">Why I Still Use Python Virtual Environments in Docker</a></strong>
+    
+        <br /><span>The article argues for using Python virtual environments in Docker containers, citing benefits like predictability, standardization, and easier debugging. The author contends that virtual environments provide a consistent, well-understood structure for Python applications, making communication and deployment across teams more straightforward, while also simplifying Python's import behavior.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.trickster.dev/post/lesser-known-parts-of-python-standard-library/">Lesser known parts of Python standard library – Trickster Dev</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=quh7z1q7-uc">Building LLMs from the Ground Up</a></strong>
+    
+        <br /><span>This tutorial guides coders through the fundamentals of large language models (LLMs), explaining how they work and how to build them from scratch in PyTorch. It covers coding a small GPT-like model, its data pipeline, architecture, pretraining, and fine-tuning using open-source libraries.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.davidhang.com/blog/2024-09-01-taming-the-django-orm/">Taming the beast that is the Django ORM - An introduction</a></strong>
+    
+        <br /><span>The Django ORM, how it compares to raw SQL and gotchas that you should be aware of when using it</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://stefaniemolin.com/articles/devx/pre-commit/hook-creation-guide/">How to Create a Pre-Commit Hook</a></strong>
+    
+        <br /><span>A step-by-step guide to developing your own pre-commit hook.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://towardsdatascience.com/maximizing-python-code-efficiency-strategies-to-overcome-common-performance-hurdles-c6292610d785">Maximizing Python Code Efficiency: Strategies to Overcome Common Performance Hurdles</a></strong>
+    
+        <br /><span>This article talks about performance issues caused by nested loops and memory allocation issues. It provides strategies to overcome these issues while improving efficiency.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=YA0Wq1rcs6U">My Favorite Error Handling Technique</a></strong>
+    
+        <br /><span>This video presents a surprising “Let it burn” approach to error handling, demonstrating how allowing code to fail fast can result in simpler, clearer, and more robust software. Discover the benefits of this method and its impact on improving overall code quality.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://rednafi.com/python/testing_http_requests/">Shades of testing HTTP requests in Python</a></strong>
+    
+        <br /><span>The post discusses various approaches to testing HTTP requests in Python applications, focusing on mocking external API calls during unit and integration testing.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=NuNaI__4xiU">Pure Python: Build a full stack ChatGPT-like UI. Reflex, Neon Postgres. Deploy with Docker to a VM</a></strong>
+    
+        <br /><span>This video tutorial demonstrates how to build a full-stack ChatGPT-like UI using Reflex, a Python framework for web development, integrating it with Neon Postgres database and OpenAI. It covers the entire process from setting up the development environment to deploying the application using Docker, GitHub Actions, and Ansible on a virtual machine.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blancas.io/blog/ai-web-scraper/">Using GPT-4o for web scraping</a></strong>
+    
+        <br /><span>The article discusses using GPT-4 with OpenAI's structured outputs feature to create an AI-assisted web scraper, exploring its capabilities in parsing complex tables and generating XPaths. While the author found GPT-4 effective at extracting data from various HTML tables, they also noted challenges with merged rows, high API costs, and the need for further refinements to improve accuracy...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/harsxv/tinystatus">Tinystatus: A tiny status page generated by a Python script</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.appsignal.com/2024/09/04/integrating-stripe-into-a-one-product-django-python-shop.html">Integrating Stripe Into A One-Product Django Python Shop</a></strong>
+    
+        <br /><span>In the first part of this series, we created a Django online shop with htmx. In this second part, we'll handle orders using Stripe.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://py.cafe">Create &amp; Share Streamlit, Dash and Python Apps Online.</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-09-08/">Python Hub Weekly Digest for 2024-09-08</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.vangemert.dev/#/blog/lessons-learnt-backlooper">Lessons learnt building a real-time audio application in Python</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/pipefunc/pipefunc">pipefunc</a></strong>
+    
+        <br /><span>Lightweight function pipeline (DAG) creation in pure Python for scientific workflows.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/skeskinen/smartcut">smartcut</a></strong>
+    
+        <br /><span>Cut video files with minimal recoding.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/JUSTSUJAY/nlp-zero-to-hero">nlp-zero-to-hero</a></strong>
+    
+        <br /><span>A comprehensive resource for learning Natural Language Processing (NLP) from the basics to advanced topics. It contains Jupyter notebooks covering various NLP concepts, techniques, and implementations, making it a valuable guide for beginners and intermediate learners in the field of NLP.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/fpgmaas/cookiecutter-uv">cookiecutter-uv</a></strong>
+    
+        <br /><span>A modern cookiecutter template for Python projects that use uv for dependency management.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/gpt-omni/mini-omni">Mini-Omni</a></strong>
+    
+        <br /><span>Mini-Omni is an open-source multimodel large language model that can hear, talk while thinking. Featuring real-time end-to-end speech input and streaming audio output conversational capabilities.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/henrywoo/kazam">kazam</a></strong>
+    
+        <br /><span>Linux Screen Recorder, Broadcaster, Capture and OCR with AI in mind.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/mljar/supertree">supertree</a></strong>
+    
+        <br /><span>supertree is a Python package designed to visualize decision trees in an interactive and user-friendly way within Jupyter Notebooks, Jupyter Lab, Google Colab, and any other notebooks that support HTML rendering.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/koaning/uvtrick">uvtrick</a></strong>
+    
+        <br /><span>A fun party trick to run Python code from another venv into this one.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1f29mo0/used_python_to_create_publicdomain_us_maps_that/">Used Python to create public-domain US maps that can serve as desktop backgrounds</a></strong>
+      </p>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/learnpython/comments/1fcj0ci/why_hash_tables_are_faster/">Why hash tables are faster?</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 15 Sep 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 15 Sep 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-09-08</title>
