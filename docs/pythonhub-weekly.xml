@@ -4,13 +4,14 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-09-15</title>
 <link>https://pythonhub.dev/digest/2024-09-15/</link>
 <guid>https://pythonhub.dev/digest/2024-09-15/</guid>
 <content:encoded><![CDATA[
 <div> 机器学习、PDF分类、XGBoost、深度学习、Python虚拟环境
-<br>
+<br />
 文章讨论了使用不同的机器学习技术对包含840万份PDF文件的庞大数据集进行分类的尝试。作者尝试了不同的方法，包括深度学习模型和传统的机器学习方法，如XGBoost，在使用嵌入训练的XGBoost模型上达到了最佳性能，准确率为85.26%。文章主张在Docker容器中使用Python虚拟环境，认为虚拟环境提供了一种一致、易于理解的Python应用程序结构，让团队间的沟通和部署更加简单。 <div>
 <div></div>
 
@@ -213,9 +214,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 15 Sep 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 15 Sep 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-09-08</title>
 <link>https://pythonhub.dev/digest/2024-09-08/</link>
