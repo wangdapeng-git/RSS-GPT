@@ -3485,3 +3485,10 @@ Existing_entries: 16
 Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
 append_entries: 0
 Finish: 2024-09-15 10:12:40.289592
+------------------------------------------------------
+Started: 2024-09-15 12:21:18.948441
+Existing_entries: 16
+Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+Fetch failed from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+append_entries: 0
+error when rendering xml, skip docs/meta.ai
