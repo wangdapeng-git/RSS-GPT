@@ -4,6 +4,141 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Using Python's pip to Manage Your Projects' Dependencies</title>
+<link>https://realpython.com/what-is-pip/</link>
+<guid>https://realpython.com/what-is-pip/</guid>
+<content:encoded><![CDATA[
+<div> pip、Python、package manager、install、virtual environment
+<br>
+pip是Python的标准包管理器，可以用于安装和管理Python库和依赖项。在安装Python时，pip通常会自动包含在内。如果在系统中找不到pip，可以通过在Python模块中运行pip来确保使用系统默认的Python版本。此外，为了限制包的范围，可以在Python虚拟环境中运行pip。通过本教程，您可以学习如何设置pip、解决与pip相关的常见错误、使用pip安装和卸载包以及在requirements文件中管理项目的依赖关系。总结: <br><br>pip是Python的标准包管理器，安装Python时通常会自动安装pip。通过在Python模块中运行pip可以确保使用系统默认Python版本。在Python虚拟环境中运行pip可以限制包的范围。通过本教程可以学习设置pip、解决常见错误、安装和卸载包以及管理项目依赖的方法。 <div>
+<div><p>The standard package manager for <a href="https://www.python.org/">Python</a> is <a href="https://pip.pypa.io/en/stable/"><code>pip</code></a>. It allows you to install and manage packages that aren’t part of the <a href="https://docs.python.org/3/py-modindex.html">Python standard library</a>. If you’re looking for an introduction to <code>pip</code>, then you’ve come to the right place!</p>
+<p><strong>In this tutorial, you’ll learn how to:</strong></p>
+<ul>
+<li><strong>Set up <code>pip</code></strong> in your working environment</li>
+<li>Fix <strong>common errors</strong> related to working with <code>pip</code></li>
+<li><strong>Install and uninstall packages</strong> with <code>pip</code></li>
+<li>Manage projects’ dependencies using <strong>requirements files</strong></li>
+</ul>
+<p>You can do a lot with <code>pip</code>, but the Python community is very active and has created some neat alternatives to <code>pip</code>. You’ll learn about those later in this tutorial.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Cheat Sheet:</strong> <a class="alert-link" href="https://realpython.com/bonus/what-is-pip-pdf/">Click here to download a free pip cheat sheet</a> that summarizes the most important pip commands.</p>
+</div>
+<h2 id="getting-started-with-pip">Getting Started With <code>pip</code><a class="headerlink" href="#getting-started-with-pip" title="Permanent link"></a></h2>
+<p>So, what exactly does <code>pip</code> do? <a href="https://pip.pypa.io/en/stable/"><code>pip</code></a> is a <strong>package manager</strong> for Python. That means it’s a tool that allows you to install and manage libraries and dependencies that aren’t distributed as part of the standard library. The name <strong>pip</strong> was introduced by Ian Bicking in 2008:</p>
+<blockquote>
+<p>I’ve finished renaming pyinstall to its new name: pip. The name pip is [an] acronym and declaration: pip installs packages. (<a href="https://www.ianbicking.org/blog/2008/10/pyinstall-is-dead-long-live-pip.html">Source</a>)</p>
+</blockquote>
+<p>Package management is so important that Python’s installers have included <code>pip</code> since versions 3.4 and 2.7.9, for Python 3 and Python 2, respectively. Many Python projects use <code>pip</code>, which makes it an essential tool for every Pythonista.</p>
+<p>The concept of a package manager might be familiar to you if you’re coming from another programming language. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a> uses <a href="https://www.npmjs.com/">npm</a> for package management, <a href="https://www.ruby-lang.org/en/">Ruby</a> uses <a href="https://rubygems.org/">gem</a>, and the <a href="https://dotnet.microsoft.com/languages">.NET platform</a> uses <a href="https://www.nuget.org/">NuGet</a>. In Python, <code>pip</code> has become the standard package manager.</p>
+<h3 id="finding-pip-on-your-system">Finding <code>pip</code> on Your System<a class="headerlink" href="#finding-pip-on-your-system" title="Permanent link"></a></h3>
+<p>The Python installer gives you the option to install <code>pip</code> when installing Python on your system. In fact, the option to install <code>pip</code> with Python is checked by default, so <code>pip</code> should be ready for you to use after installing Python.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> On some Linux (Unix) systems like Ubuntu, <code>pip</code> comes in a separate package called <code>python3-pip</code>, which you need to install with <code>sudo apt install python3-pip</code>. It’s not installed by default with the interpreter.</p>
+</div>
+<p>You can verify that <code>pip</code> is available by looking for the <code>pip3</code> executable on your system. Select your operating system below and use your platform-specific command accordingly:</p>
+<ul class="nav nav-tabs justify-content-end js-platform-widget-tabs">
+
+  <li class="nav-item mb-0 js-platform-widget-tab-windows">
+    <a class="nav-link link-unstyled text-body active small" href="#windows-1" id="windows-tab-1"><span class="icon baseline text-muted mr-1"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Windows</a>
+  </li>
+
+
+
+
+  <li class="nav-item mb-0 js-platform-widget-tab-linuxmacos">
+    <a class="nav-link link-unstyled text-body small" href="#linux-macos-1" id="macos-tab-1"><span class="icon baseline text-muted"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span class="icon baseline text-muted mr-1"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Linux + macOS</a>
+  </li>
+
+</ul>
+<div class="tab-content mt-2 mb-0 js-platform-widget-content">
+<div class="tab-pane fade show active" id="windows-1">
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Windows PowerShell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">PS&gt; </span><span class="nb">where </span><span class="n">pip3</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The <code>where</code> command on Windows will show you where you can find the executable of <code>pip3</code>. If Windows can’t find an executable named <code>pip3</code>, then you can also try looking for <code>pip</code> without the three (<code>3</code>) at the end.</p>
+</div>
+<div class="tab-pane fade " id="linux-macos-1">
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Shell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">$ </span>which<span class="w"> </span>pip3
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The <code>which</code> command on Linux systems and macOS shows you where the <code>pip3</code> binary file is located.</p>
+</div>
+</div>
+<p>On Windows and Unix systems, <code>pip3</code> may be found in more than one location. This can happen when you have multiple Python versions installed. If you can’t find <code>pip</code> in any location on your system, then you may consider <a href="#reinstalling-pip-when-errors-occur">reinstalling pip</a>.</p>
+<p>Instead of running your system <code>pip</code> directly, you can also run it as a Python module. In the next section, you’ll learn how.</p>
+<h3 id="running-pip-as-a-module">Running <code>pip</code> as a Module<a class="headerlink" href="#running-pip-as-a-module" title="Permanent link"></a></h3>
+<p>When you run your system <code>pip</code> directly, the command itself doesn’t reveal which Python version <code>pip</code> belongs to. This unfortunately means that you could use <code>pip</code> to install a package into the site-packages of an old Python version without noticing. To prevent this from happening, you should run <code>pip</code> as a Python module:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Shell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">$ </span>python<span class="w"> </span>-m<span class="w"> </span>pip
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Notice that you use <code>python -m</code> to run <code>pip</code>. The <code>-m</code> switch tells Python to run a module as an executable of the <code>python</code> interpreter. This way, you can ensure that your system default Python version runs the <code>pip</code> command. If you want to learn more about this way of running <code>pip</code>, then you can read Brett Cannon’s insightful article about <a href="https://snarky.ca/why-you-should-use-python-m-pip/">the advantages of using <code>python -m pip</code></a>.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> Depending on how you installed Python, your Python executable may have a different name than <code>python</code>. You’ll see <code>python</code> used in this tutorial, but you may have to adapt the commands to use something like <code>py</code> or <code>python3</code> instead.</p>
+</div>
+<p>Sometimes you may want to be more explicit and limit packages to a specific project. In situations like this, you should run <code>pip</code> inside a <strong>virtual environment</strong>.</p>
+<h3 id="using-pip-in-a-python-virtual-environment">Using <code>pip</code> in a Python Virtual Environment<a class="headerlink" href="#using-pip-in-a-python-virtual-environment" title="Permanent link"></a></h3>
+</div><h2><a href="https://realpython.com/what-is-pip/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/what-is-pip/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-09-16T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>The Real Python Podcast – Episode #220: Configuring Git Pre-Commit Hooks &amp; Estimating Software Projects</title>
