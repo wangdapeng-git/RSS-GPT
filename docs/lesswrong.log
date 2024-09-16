@@ -7324,3 +7324,9 @@ Summarized using GPT-3.5-turbo
 Append: [Evidence against Learned Search in a Chess-Playing Neural Network](https://www.lesswrong.com/posts/hPGw7hWYbYyvDcqYK/evidence-against-learned-search-in-a-chess-playing-neural)
 append_entries: 4
 Finish: 2024-09-16 00:59:18.531324
+------------------------------------------------------
+Started: 2024-09-16 02:50:11.171046
+Existing_entries: 253
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-09-16 02:50:11.996832
