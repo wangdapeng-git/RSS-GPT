@@ -4544,3 +4544,9 @@ Summarized using GPT-3.5-turbo
 Append: [Neptune: The long orbit to benchmarking long video understanding](https://research.google/blog/neptune-the-long-orbit-to-benchmarking-long-video-understanding/)
 append_entries: 1
 Finish: 2024-09-17 00:45:26.638579
+------------------------------------------------------
+Started: 2024-09-17 02:20:04.220183
+Existing_entries: 25
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+append_entries: 0
+Finish: 2024-09-17 02:20:09.054868
