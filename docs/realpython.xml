@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Customizing VS Code Through Color Themes</title>
 <link>https://realpython.com/courses/custom-vs-code-color-themes/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> Themes, VS Code, Color Theme, Install, Adjustments
 
-总结:<br><br>在这个Code Conversation中，Philipp Ascany会逐步指导您如何在VS Code中找到、安装和调整颜色主题。你将探索VS Code中的各种选项，并学习如何进行微调，创造出适合个人喜好的设置。通过本视频课程，您将学习关于VS Code中主题的知识，找到适合自己的颜色主题，安装并进行额外调整。最终，您将拥有一个不仅外观优美，而且能提升编码体验的编程环境。 <div>
+总结:<br /><br />在这个Code Conversation中，Philipp Ascany会逐步指导您如何在VS Code中找到、安装和调整颜色主题。你将探索VS Code中的各种选项，并学习如何进行微调，创造出适合个人喜好的设置。通过本视频课程，您将学习关于VS Code中主题的知识，找到适合自己的颜色主题，安装并进行额外调整。最终，您将拥有一个不仅外观优美，而且能提升编码体验的编程环境。 <div>
 <p>A well-designed coding environment not only enhances your focus and productivity but also makes coding sessions more enjoyable. In this <strong>Code Conversation</strong>, your instructor Philipp Ascany will guide you step-by-step through the process of finding, installing, and adjusting color themes in VS Code. You&rsquo;ll explore the various options available in VS Code and learn how to make fine adjustments to create a setup that suits your personal preferences.</p>
 <p><strong>In this video course, you&rsquo;ll</strong>:</p>
 <ul>
@@ -25,10 +26,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-09-17T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Using Python's pip to Manage Your Projects' Dependencies</title>
 <link>https://realpython.com/what-is-pip/</link>
