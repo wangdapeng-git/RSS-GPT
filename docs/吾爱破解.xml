@@ -4,6 +4,22 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>VMware Workstation Pro 16.1.2 Build 17966106 PC&amp;PE 精简注册版</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1965033</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1965033</guid>
+<content:encoded><![CDATA[
+
+VM16.1.2是完美版，之后的版本，官方允许磁盘映射一次，再映射就报错了
+VM17 砍掉了虚拟磁盘映射功能，如果你要用这个功能的话建议使用 VM16.1.2
+
+主要特色：
+-修改添加 DELL SLIC2.5 + MSDM + SLP + Virtual PC XP
+ ...
+]]></content:encoded>
+<pubDate>Mon, 16 Sep 2024 08:34:22 +0000</pubDate>
+<pubDate>Mon, 16 Sep 2024 08:34:22 +0000</pubDate>
+</item>
 
 <item>
 <title>【吾爱首发】吾爱记账号—V0.8.1 Beta1 build20240917（个人网络账号台账管理工具）</title>
