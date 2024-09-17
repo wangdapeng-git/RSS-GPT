@@ -9711,3 +9711,9 @@ Fetching from https://rsshub.app/paulgraham/articles
 Fetch failed from https://rsshub.app/paulgraham/articles
 append_entries: 0
 error when rendering xml, skip docs/paul-graham
+------------------------------------------------------
+Started: 2024-09-17 12:21:39.241611
+Existing_entries: 35
+Fetching from https://rsshub.app/paulgraham/articles
+append_entries: 0
+Finish: 2024-09-17 12:21:47.651830
