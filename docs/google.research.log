@@ -4592,3 +4592,45 @@ Existing_entries: 25
 Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
 append_entries: 0
 Finish: 2024-09-17 16:15:54.506404
+------------------------------------------------------
+Started: 2024-09-17 18:17:13.111592
+Existing_entries: 25
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Accelerating code migrations with AI](https://storage.googleapis.com/gweb-research2023-media/original_images/AI_code_migrations-img1.jpg)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Harnessing hidden genetic information in clinical data with REGLE](https://storage.googleapis.com/gweb-research2023-media/original_images/REGLE-img1.png)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Fast, accurate climate modeling with NeuralGCM](https://storage.googleapis.com/gweb-research2023-media/original_images/NeuralGCM-img2.png)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [A step towards making heart health screening accessible for billions with PPG signals](https://storage.googleapis.com/gweb-research2023-media/original_images/PPGs-2-Illustration.gif)
+Token length: 92
+Summarized using GPT-3.5-turbo
+Append: [July 26, 2024](https://storage.googleapis.com/gweb-research2023-media/original_images/Alchemist-img2-.png)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [HALVA: Hallucination Attenuated Language and Vision Assistant](https://storage.googleapis.com/gweb-research2023-media/original_images/HALVA-image5.png)
+Token length: 55
+Summarized using GPT-3.5-turbo
+Append: [Transformers in music recommendation](https://storage.googleapis.com/gweb-research2023-media/original_images/TransformerMusic4-Hero.png)
+Token length: 66
+Summarized using GPT-3.5-turbo
+Append: [Speculative RAG: Enhancing retrieval augmented generation through drafting](https://storage.googleapis.com/gweb-research2023-media/original_images/Speculative_RAG_img1.png)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Restoring speaker voices with zero-shot cross-lingual voice transfer for TTS](https://storage.googleapis.com/gweb-research2023-media/original_images/0ShotVT-1.png)
+Token length: 76
+Summarized using GPT-3.5-turbo
+Append: [Unlocking 7B+ language models in your browser: A deep dive with Google AI Edge's MediaPipe](https://storage.googleapis.com/gweb-research2023-media/original_images/MediaPipeLLM2-HeroArchitecture.png)
+Token length: 60
+Summarized using GPT-3.5-turbo
+Append: [September 12, 2024](https://storage.googleapis.com/gweb-research2023-media/original_images/DataGemma-0-Hero.original.png)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Neptune: The long orbit to benchmarking long video understanding](https://storage.googleapis.com/gweb-research2023-media/original_images/Neptune-1-Pipeline.jpg)
+append_entries: 12
+Finish: 2024-09-17 18:18:08.997743

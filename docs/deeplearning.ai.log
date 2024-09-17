@@ -9426,3 +9426,10 @@ Existing_entries: 36
 Fetching from https://rsshub.app/deeplearning/thebatch
 append_entries: 0
 Finish: 2024-09-17 16:15:35.269515
+------------------------------------------------------
+Started: 2024-09-17 18:16:32.776572
+Existing_entries: 36
+Fetching from https://rsshub.app/deeplearning/thebatch
+Fetch failed from https://rsshub.app/deeplearning/thebatch
+append_entries: 0
+error when rendering xml, skip docs/deeplearning.ai
