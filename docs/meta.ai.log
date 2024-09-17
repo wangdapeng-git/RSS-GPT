@@ -3669,3 +3669,10 @@ Summarized using GPT-3.5-turbo
 Append: [Media artist Refik Anadol fine-tunes Llama for ‘Large Nature Model’](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/459478190_1056325638722098_1809999194616943204_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=H5bMvA8obwoQ7kNvgFbBDEK&_nc_ht=scontent-sjc3-1.xx&_nc_gid=AI8X78WDXtfe0gUHx46l6ji&oh=00_AYDSb2AhV7Tmyr_7zJvL60paLzikxH91jk_ABMVMZ8wO1Q&oe=67040E0A)
 append_entries: 3
 Finish: 2024-09-17 18:18:28.109918
+------------------------------------------------------
+Started: 2024-09-17 20:14:11.893945
+Existing_entries: 19
+Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+Fetch failed from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+append_entries: 0
+error when rendering xml, skip docs/meta.ai

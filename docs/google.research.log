@@ -4634,3 +4634,10 @@ Summarized using GPT-3.5-turbo
 Append: [Neptune: The long orbit to benchmarking long video understanding](https://storage.googleapis.com/gweb-research2023-media/original_images/Neptune-1-Pipeline.jpg)
 append_entries: 12
 Finish: 2024-09-17 18:18:08.997743
+------------------------------------------------------
+Started: 2024-09-17 20:14:11.756180
+Existing_entries: 37
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+Fetch failed from https://rss.diffbot.com/atom?url=https://research.google/blog/
+append_entries: 0
+error when rendering xml, skip docs/google.research
