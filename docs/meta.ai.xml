@@ -6,15 +6,54 @@
 
 <item>
 <title>Media artist Refik Anadol fine-tunes Llama for ‘Large Nature Model’</title>
+<link>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/459478190_1056325638722098_1809999194616943204_n.jpg?_nc_cat=110&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=H5bMvA8obwoQ7kNvgFtKA_q&amp;_nc_ht=scontent-sjc3-1.xx&amp;_nc_gid=A_yAtxZ-SXGLd8VxxAIjWSD&amp;oh=00_AYATr_1ltojVotI34p7YJn6UBZsZMI1iv1ovsVR3WfRA1w&amp;oe=6704EF0A</link>
+<guid>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/459478190_1056325638722098_1809999194616943204_n.jpg?_nc_cat=110&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=H5bMvA8obwoQ7kNvgFtKA_q&amp;_nc_ht=scontent-sjc3-1.xx&amp;_nc_gid=A_yAtxZ-SXGLd8VxxAIjWSD&amp;oh=00_AYATr_1ltojVotI34p7YJn6UBZsZMI1iv1ovsVR3WfRA1w&amp;oe=6704EF0A</guid>
+<content:encoded><![CDATA[
+<div> 关键词：文章、总结、中文、要点、输出
+
+总结：<br><br>
+这篇文章主要讨论了如何用中文总结文章内容，首先提取出关键词，然后用这些关键词串联起一个包含所有要点的总结。重要的是按照顺序输出要点，并确保输出格式的准确性。通过这样的方法，读者可以快速了解文章内容的核心，同时也提高了阅读效率。 <div>
+
+]]></content:encoded>
+<pubDate>2024-09-13T00:00:00+00:00</pubDate>
+<pubDate>2024-09-18T12:23:06.481121+00:00</pubDate>
+</item>
+<item>
+<title>How one Kenyan startup is working to solve local challenges with Llama</title>
+<link>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/459148050_734650368800501_3468812096062118926_n.png?_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=KiCnkxmOFbwQ7kNvgHX5vav&amp;_nc_ht=scontent-sjc3-1.xx&amp;_nc_gid=A_yAtxZ-SXGLd8VxxAIjWSD&amp;oh=00_AYBiC3O8C4_6ySYLS8Omd79fH-WyDmvxGAYyUtwPfsv5Tw&amp;oe=6704F8D7</link>
+<guid>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/459148050_734650368800501_3468812096062118926_n.png?_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=KiCnkxmOFbwQ7kNvgHX5vav&amp;_nc_ht=scontent-sjc3-1.xx&amp;_nc_gid=A_yAtxZ-SXGLd8VxxAIjWSD&amp;oh=00_AYBiC3O8C4_6ySYLS8Omd79fH-WyDmvxGAYyUtwPfsv5Tw&amp;oe=6704F8D7</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 文章、总结、关键词、提取、要点
+
+总结:<br><br>文章中提取出关键词并用中文总结。要点包括：提取关键词、总结文章内容、用中文表达、保留关键信息。通过提取关键词，可以更快了解文章内容，更方便快速总结文章要点，提高信息的获取效率。这种方法有助于整理信息、提炼核心内容，是提高阅读和理解能力的有效工具。<br><br>总结: <div>
+
+]]></content:encoded>
+<pubDate>2024-09-11T00:00:00+00:00</pubDate>
+<pubDate>2024-09-18T12:23:06.480706+00:00</pubDate>
+</item>
+<item>
+<title>Large Language Model</title>
+<link>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/439645618_745665614390489_272535049175550402_n.png?_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=-zAoFYLx_M0Q7kNvgHfYYax&amp;_nc_ht=scontent-sjc3-1.xx&amp;_nc_gid=A_yAtxZ-SXGLd8VxxAIjWSD&amp;oh=00_AYBSCVIPJ09NWD_myjgk5wVOFf7afu263Vp4XXZ1hpey6Q&amp;oe=6704ED42</link>
+<guid>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/439645618_745665614390489_272535049175550402_n.png?_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=-zAoFYLx_M0Q7kNvgHfYYax&amp;_nc_ht=scontent-sjc3-1.xx&amp;_nc_gid=A_yAtxZ-SXGLd8VxxAIjWSD&amp;oh=00_AYBSCVIPJ09NWD_myjgk5wVOFf7afu263Vp4XXZ1hpey6Q&amp;oe=6704ED42</guid>
+<content:encoded><![CDATA[
+<div> structured weight pruning, knowledge distillation, NVIDIA, Llama models, new
+
+总结:<br><br> NVIDIA正在使用结构化权重剪枝和知识蒸馏来构建新的Llama模型。结构化权重剪枝通过精心设计的模式删除网络中的权重，以减少模型大小和计算需求。知识蒸馏则是将一个复杂模型的知识转移到一个更简单的模型中，以提高推理速度和准确性。这种结合使用的方法可以有效地优化模型性能，提升在边缘设备上的效率和速度。通过结构化权重剪枝和知识蒸馏，NVIDIA创建了更高效、更精简的Llama模型，为机器学习和人工智能领域带来了新的突破和进展。 <div>
+How NVIDIA is using structured weight pruning and knowledge distillation to build new Llama models
+]]></content:encoded>
+<pubDate>2024-08-14T00:00:00+00:00</pubDate>
+<pubDate>2024-09-18T12:23:06.480238+00:00</pubDate>
+</item>
+
+<item>
+<title>Media artist Refik Anadol fine-tunes Llama for ‘Large Nature Model’</title>
 <link>https://scontent-sea1-1.xx.fbcdn.net/v/t39.2365-6/459478190_1056325638722098_1809999194616943204_n.jpg?_nc_cat=110&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=H5bMvA8obwoQ7kNvgGjECbD&amp;_nc_ht=scontent-sea1-1.xx&amp;oh=00_AYAT_ydPqz8Y4bo85foe5WM1208yYPv8WGVdzqfv1qXnwQ&amp;oe=6704EF0A</link>
 <guid>https://scontent-sea1-1.xx.fbcdn.net/v/t39.2365-6/459478190_1056325638722098_1809999194616943204_n.jpg?_nc_cat=110&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=H5bMvA8obwoQ7kNvgGjECbD&amp;_nc_ht=scontent-sea1-1.xx&amp;oh=00_AYAT_ydPqz8Y4bo85foe5WM1208yYPv8WGVdzqfv1qXnwQ&amp;oe=6704EF0A</guid>
 <content:encoded><![CDATA[
 <div> 关键词：文章、总结、中文、要点、输出
 
-文章提供了关于如何用中文总结一篇文章的方法。首先要提取关键词，并按顺序整理要点，输出中文总结。在总结中，需要包含所有的关键要点，并且按照提取的顺序逐点概括文章内容。这种方法可帮助读者快速理解文章的主要内容，提高阅读效率。<br><br>总结:文章提供了一种用中文总结文章的方法，首先提取关键词，整理要点，按顺序输出总结，有助于快速理解文章内容。 <div>
-
+文章提供了关于如何用中文总结一篇文章的方法。首先要提取关键词，并按顺序整理要点，输出中文总结。在总结中，需要包含所有的关键要点，并且按照提取的顺序逐点概括文章内容。这种方法可帮助读者快速理解文章的主要内容，提高阅读效率。<br /><br />总结:文章提供了一种用中文总结文章的方法，首先提取关键词，整理要点，按顺序输出总结，有助于快速理解文章内容。 <div>
 ]]></content:encoded>
-<pubDate>2024-09-13T00:00:00+00:00</pubDate>
 <pubDate>2024-09-18T10:13:51.551048+00:00</pubDate>
 </item>
 <item>
@@ -26,9 +65,7 @@
 
 总结:
 文章介绍了如何用中文总结一篇文章，首先提取关键词，然后用这些关键词来撰写包含所有要点的文章总结。通过这种方法，可以帮助读者快速了解文章的主要内容和重点。这种方法可以应用于各种类型的文章，从新闻报道到学术论文。通过提取关键词和清晰地表达要点，读者可以更好地理解文章的主题和结构，从而更有效地获取知识。 <div>
-
 ]]></content:encoded>
-<pubDate>2024-09-11T00:00:00+00:00</pubDate>
 <pubDate>2024-09-18T10:13:51.550699+00:00</pubDate>
 </item>
 <item>
@@ -38,14 +75,12 @@
 <content:encoded><![CDATA[
 <div> structured weight pruning, knowledge distillation, NVIDIA, Llama models, new models
 
-总结:<br><br>
+总结:<br /><br />
 NVIDIA利用结构化权重剪枝和知识蒸馏构建新的Llama模型。他们通过对模型进行结构化的权重剪枝来减小模型的体积，提高模型的运行效率。同时，他们还利用知识蒸馏的方法将复杂的模型知识传递给更简单的模型，以提高模型的泛化能力和效率。这些方法的综合应用使得NVIDIA能够构建出更加高效和性能优越的Llama模型，为机器学习领域带来了新的突破和创新。 <div>
 How NVIDIA is using structured weight pruning and knowledge distillation to build new Llama models
 ]]></content:encoded>
-<pubDate>2024-08-14T00:00:00+00:00</pubDate>
 <pubDate>2024-09-18T10:13:51.550329+00:00</pubDate>
 </item>
-
 <item>
 <title>Media artist Refik Anadol fine-tunes Llama for ‘Large Nature Model’</title>
 <link>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/459478190_1056325638722098_1809999194616943204_n.jpg?_nc_cat=110&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=H5bMvA8obwoQ7kNvgExTy7F&amp;_nc_ht=scontent-sjc3-1.xx&amp;_nc_gid=A7NcEn-M7JLmzGWsQnGXWrC&amp;oh=00_AYByEgR8Y5BEoCC6mO36mdh4sgzd_dNkfxRtJAa-VfNHDQ&amp;oe=6704B6CA</link>
