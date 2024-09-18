@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Python 3.13 Preview: Free Threading and a JIT Compiler</title>
 <link>https://realpython.com/python313-free-threading-jit/</link>
 <guid>https://realpython.com/python313-free-threading-jit/</guid>
 <content:encoded><![CDATA[
-<div> Docker Python 编译 JIT compiler GIL <br>
-Python 3.13 带来了自由线程和 JIT 编译器等新功能，这些功能旨在提升代码性能。自由线程试图移除 GIL，使得并行处理任务不再受限于单一线程。JIT 编译器则将 Python 代码编译成机器码，提升执行速度。这些功能目前还处于实验阶段，需要用户在构建 Python 时额外设置。Python 3.13 中的这些功能可能会对现有代码造成不兼容性，因此官方并未将其默认启用。总体而言，这些新功能为 Python 的性能和并行处理能力带来了重大改善，但在生产环境中使用时需要谨慎。Python 发展团队还在评估这些功能的稳定性和实用性，未来可能会有进一步调整。<br><br>总结: Python 3.13 引入了自由线程和 JIT 编译器功能，旨在提升并行性能和执行速度。这些功能仍处于实验阶段，需要用户额外配置以启用。虽然有潜在优势，但在生产环境中需要谨慎使用并等待进一步稳定性验证。 <div>
+<div> Docker Python 编译 JIT compiler GIL <br />
+Python 3.13 带来了自由线程和 JIT 编译器等新功能，这些功能旨在提升代码性能。自由线程试图移除 GIL，使得并行处理任务不再受限于单一线程。JIT 编译器则将 Python 代码编译成机器码，提升执行速度。这些功能目前还处于实验阶段，需要用户在构建 Python 时额外设置。Python 3.13 中的这些功能可能会对现有代码造成不兼容性，因此官方并未将其默认启用。总体而言，这些新功能为 Python 的性能和并行处理能力带来了重大改善，但在生产环境中使用时需要谨慎。Python 发展团队还在评估这些功能的稳定性和实用性，未来可能会有进一步调整。<br /><br />总结: Python 3.13 引入了自由线程和 JIT 编译器功能，旨在提升并行性能和执行速度。这些功能仍处于实验阶段，需要用户额外配置以启用。虽然有潜在优势，但在生产环境中需要谨慎使用并等待进一步稳定性验证。 <div>
 <div><p>Although the final release of Python 3.13 is <a href="https://peps.python.org/pep-0719/">scheduled for October 2024</a>, you can download and install a preview version today to explore the new features. Notably, the introduction of <strong>free threading</strong> and a <strong>just-in-time (JIT)</strong> compiler are among the most exciting enhancements, both designed to give your code a significant performance boost.</p>
 <p><strong>In this tutorial, you’ll:</strong></p>
 <ul>
@@ -92,7 +93,6 @@ Python 3.13 带来了自由线程和 JIT 编译器等新功能，这些功能旨
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-09-18T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -102,15 +102,13 @@ Python 3.13 带来了自由线程和 JIT 编译器等新功能，这些功能旨
 <content:encoded><![CDATA[
 <div> pip, Python, package manager, commands, install
 
-总结:<br><br>本文介绍了Python的标准包管理器pip，包括pip的概念、重要命令以及如何安装包。通过本篇文章你可以测试自己对pip的理解，回顾pip背后的概念、重要命令和如何安装包。阅读本文可以帮助你更好地了解和使用Python的标准包管理器pip。 <div>
+总结:<br /><br />本文介绍了Python的标准包管理器pip，包括pip的概念、重要命令以及如何安装包。通过本篇文章你可以测试自己对pip的理解，回顾pip背后的概念、重要命令和如何安装包。阅读本文可以帮助你更好地了解和使用Python的标准包管理器pip。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of Python&rsquo;s standard package manager, <code>pip</code>. You&rsquo;ll revisit the concepts behind <code>pip</code>, important commands, and how to install packages.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-09-17T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Customizing VS Code Through Color Themes</title>
 <link>https://realpython.com/courses/custom-vs-code-color-themes/</link>
