@@ -4,6 +4,112 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Python 3.13 Preview: Free Threading and a JIT Compiler</title>
+<link>https://realpython.com/python313-free-threading-jit/</link>
+<guid>https://realpython.com/python313-free-threading-jit/</guid>
+<content:encoded><![CDATA[
+<div> Docker Python 编译 JIT compiler GIL <br>
+Python 3.13 带来了自由线程和 JIT 编译器等新功能，这些功能旨在提升代码性能。自由线程试图移除 GIL，使得并行处理任务不再受限于单一线程。JIT 编译器则将 Python 代码编译成机器码，提升执行速度。这些功能目前还处于实验阶段，需要用户在构建 Python 时额外设置。Python 3.13 中的这些功能可能会对现有代码造成不兼容性，因此官方并未将其默认启用。总体而言，这些新功能为 Python 的性能和并行处理能力带来了重大改善，但在生产环境中使用时需要谨慎。Python 发展团队还在评估这些功能的稳定性和实用性，未来可能会有进一步调整。<br><br>总结: Python 3.13 引入了自由线程和 JIT 编译器功能，旨在提升并行性能和执行速度。这些功能仍处于实验阶段，需要用户额外配置以启用。虽然有潜在优势，但在生产环境中需要谨慎使用并等待进一步稳定性验证。 <div>
+<div><p>Although the final release of Python 3.13 is <a href="https://peps.python.org/pep-0719/">scheduled for October 2024</a>, you can download and install a preview version today to explore the new features. Notably, the introduction of <strong>free threading</strong> and a <strong>just-in-time (JIT)</strong> compiler are among the most exciting enhancements, both designed to give your code a significant performance boost.</p>
+<p><strong>In this tutorial, you’ll:</strong></p>
+<ul>
+<li>Compile a <strong>custom Python build</strong> from source using Docker</li>
+<li>Disable the <strong>Global Interpreter Lock (GIL)</strong> in Python</li>
+<li>Enable the <strong>Just-In-Time (JIT)</strong> compiler for Python code</li>
+<li>Determine the <strong>availability of new features</strong> at runtime</li>
+<li>Assess the <strong>performance improvements</strong> in Python 3.13</li>
+<li>Make a <strong>C extension module</strong> targeting Python’s new ABI</li>
+</ul>
+<p>Check out <a href="https://docs.python.org/3.13/whatsnew/3.13.html">what’s new</a> in the Python changelog for a complete list of the upcoming features and improvements. This document contains a quick summary of the release highlights as well as a detailed breakdown of the planned changes.</p>
+<p>To download the sample code and other resources accompanying this tutorial, click the link below:</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python313-free-threading-jit-code/">Click here to download the free sample code</a> that shows you how to work with the experimental free threading and JIT compiler in Python 3.13.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Python 3.13: Free-Threading and a JIT Compiler” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/python313-free-threading-jit/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="Python 3.13 Preview: Free Threading and a JIT Compiler" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Python-3.13-Preview-1-Free-threading-and-JIT_Watermarked.a5ebf956c5ba.jpg" style="background: #aae4b1;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/python313-free-threading-jit/"><span class="my-0 h4">Python 3.13: Free-Threading and a JIT Compiler</span></a> 
+      <p class="text-muted mb-0 small">In this quiz, you'll test your understanding of the new features in Python 3.13. You'll revisit how to compile a custom Python build, disable the Global Interpreter Lock (GIL), enable the Just-In-Time (JIT) compiler, and more.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="free-threading-and-jit-in-python-313-whats-the-fuss">Free Threading and JIT in Python 3.13: What’s the Fuss?<a class="headerlink" href="#free-threading-and-jit-in-python-313-whats-the-fuss" title="Permanent link"></a></h2>
+<p>Before going any further, it’s important to note that the majority of improvements in Python 3.13 will remain invisible to the average Joe. This includes free threading (<a href="https://peps.python.org/pep-0703/">PEP 703</a>) and the JIT compiler (<a href="https://peps.python.org/pep-0744/">PEP 744</a>), which have already sparked a lot of excitement in the Python community.</p>
+<p>Keep in mind that they’re both <strong>experimental features</strong> aimed at power users, who must take extra steps to enable them at Python’s build time. None of the official channels will distribute Python 3.13 with these additional features enabled by default. This is to maintain backward compatibility and to prevent potential glitches, which should be expected.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> Don’t try to use Python 3.13 with the experimental features in a production environment! It may cause unexpected problems, and the <a href="https://realpython.com/python38-new-features/#the-python-steering-council">Python Steering Council</a> reserves the right to remove these features entirely from future Python releases if they prove to be unstable. Treat them as an experiment to gather real-world data.</p>
+</div>
+<p>In this section, you’ll get a birds-eye view of these experimental features so you can set the right expectations. You’ll find detailed explanations on how to enable them and evaluate their impact on Python’s performance in the remainder of this tutorial.</p>
+<h3 id="free-threading-makes-the-gil-optional">Free Threading Makes the GIL Optional<a class="headerlink" href="#free-threading-makes-the-gil-optional" title="Permanent link"></a></h3>
+<p>Free threading is an attempt to remove the <a href="https://realpython.com/python-gil/">Global Interpreter Lock (GIL)</a> from <a href="https://realpython.com/cpython-source-code-guide/">CPython</a>, which has traditionally been the biggest obstacle to achieving <a href="https://realpython.com/intro-to-python-threading/">thread-based</a> parallelism when performing <a href="https://en.wikipedia.org/wiki/CPU-bound">CPU-bound</a> tasks. In short, the GIL allows only one thread of execution to run at any given time, regardless of how many cores your CPU is equipped with. This prevents Python from leveraging the available computing power effectively.</p>
+<p>There have been many attempts in the past to bypass the GIL in Python, each with varying levels of success. You can read about these attempts in the tutorial on <a href="https://realpython.com/python-parallel-processing/">bypassing the GIL</a>. While previous attempts were made by third parties, this is the first time that the core Python development team has taken similar steps with the permission of the steering council, even if some reservations remain.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> <a href="https://realpython.com/python312-new-features/">Python 3.12</a> approached the GIL obstacle from a different angle by allowing the individual <a href="https://realpython.com/python312-subinterpreters/">subinterpreters</a> to have their independent GILs. This can improve <a href="https://realpython.com/python-concurrency/">Python’s concurrency</a> by letting you run different tasks in parallel, but without the ability to share data cheaply between them due to isolated memory spaces. In Python 3.13, you’ll be able to combine <a href="https://www.youtube.com/watch?v=lCjsy7tb420">subinterpreters with free threading</a>.</p>
+</div>
+<p>The removal of the GIL would have significant implications for the Python interpreter itself and especially for the large body of third-party code that relies on it. Because free threading essentially breaks backward compatibility, the long-term plan for its implementation is as follows:</p>
+<ol>
+<li><strong>Experimental:</strong> Free threading is introduced as an experimental feature and isn’t a part of the official Python distribution. You must make a custom Python build to disable the GIL.</li>
+<li><strong>Enabled:</strong> The GIL becomes optional in the official Python distribution but remains enabled by default to allow for a transition period.</li>
+<li><strong>Disabled:</strong> The GIL is disabled by default, but you can still enable it if needed for compatibility reasons.</li>
+</ol>
+<p>There are no plans to completely remove the GIL from the official Python distribution at the moment, as that would cause significant disruption to legacy codebases and libraries. Note that the steps outlined above are just a proposal subject to change. Also, free threading may not pan out at all if it makes single-threaded Python run slower than without it.</p>
+<p>Until the GIL becomes optional in the official Python distribution, which may take a few more years, the Python development team will maintain two incompatible interpreter versions. The vanilla Python build won’t support free threading, while the special free-threaded flavor will have a slightly different <a href="https://en.wikipedia.org/wiki/Application_binary_interface">Application Binary Interface (ABI)</a> tagged with the letter “t” for threading.</p>
+<p>This means that <a href="https://realpython.com/build-python-c-extension-module/">C extension modules</a> built for stock Python won’t be compatible with the free-threaded version and the other way around. Maintainers of those external modules will be expected to distribute two packages with each release. If you’re one of them, and you use the <a href="https://docs.python.org/3/c-api/index.html">Python/C API</a>, then you’ll learn how to target CPython’s new ABI in the final section of this tutorial.</p>
+<h3 id="jit-compiles-python-to-machine-code">JIT Compiles Python to Machine Code<a class="headerlink" href="#jit-compiles-python-to-machine-code" title="Permanent link"></a></h3>
+<p>As an <a href="https://en.wikipedia.org/wiki/Interpreter_(computing)">interpreted language</a>, Python takes your high-level code and executes it on the fly without the need for prior compilation. This has both pros and cons. Some of the biggest advantages of interpreted languages include better portability across different hardware architectures and a quick development time due to the lack of a compilation step. At the same time, interpretation is much slower than directly executing code native to your machine.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> To be more precise, Python interprets <a href="https://en.wikipedia.org/wiki/Bytecode">bytecode instructions</a>, an intermediate binary representation between pure Python and <a href="https://en.wikipedia.org/wiki/Machine_code">machine code</a>. The Python interpreter compiles your code to bytecode when you import a module and stores the resulting bytecode in the <a href="https://realpython.com/python-pycache/"><code>__pycache__</code></a> folder. This doesn’t inherently make your Python scripts run faster, but loading a pre-processed bytecode can indeed speed up their startup time.</p>
+</div>
+<p>Languages like <a href="https://realpython.com/c-for-python-programmers/">C</a> and <a href="https://realpython.com/python-vs-cpp/">C++</a> leverage <a href="https://en.wikipedia.org/wiki/Ahead-of-time_compilation">Ahead-of-Time (AOT)</a> compilation to translate your high-level code into machine code before you ship your software. The benefit of this is faster execution since the code is already in the computer’s mother tongue. While you no longer need a separate program to interpret the code, you must compile it separately for <em>all</em> target platforms that you want supported. You should also handle platform-specific differences yourself.</p>
+</div><h2><a href="https://realpython.com/python313-free-threading-jit/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python313-free-threading-jit/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-09-18T14:00:00+00:00</pubDate>
+</item>
+<item>
+<title>Quiz: Using Python's pip to Manage Your Projects' Dependencies</title>
+<link>https://realpython.com/quizzes/what-is-pip/</link>
+<guid>https://realpython.com/quizzes/what-is-pip/</guid>
+<content:encoded><![CDATA[
+<div> pip, Python, package manager, commands, install
+
+总结:<br><br>本文介绍了Python的标准包管理器pip，包括pip的概念、重要命令以及如何安装包。通过本篇文章你可以测试自己对pip的理解，回顾pip背后的概念、重要命令和如何安装包。阅读本文可以帮助你更好地了解和使用Python的标准包管理器pip。 <div>
+<p>In this quiz, you&rsquo;ll test your understanding of Python&rsquo;s standard package manager, <code>pip</code>. You&rsquo;ll revisit the concepts behind <code>pip</code>, important commands, and how to install packages.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-09-17T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Customizing VS Code Through Color Themes</title>
