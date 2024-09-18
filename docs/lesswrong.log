@@ -7468,3 +7468,9 @@ Summarized using GPT-3.5-turbo
 Append: [Book review: Xenosystems](https://www.lesswrong.com/posts/cfw7L22oLAm7Zcmff/book-review-xenosystems)
 append_entries: 1
 Finish: 2024-09-17 22:12:41.363475
+------------------------------------------------------
+Started: 2024-09-18 00:56:09.264899
+Existing_entries: 255
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-09-18 00:56:09.951313
