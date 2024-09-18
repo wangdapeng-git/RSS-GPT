@@ -7531,3 +7531,12 @@ Existing_entries: 256
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-18 18:17:03.265689
+------------------------------------------------------
+Started: 2024-09-18 20:13:54.408759
+Existing_entries: 256
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 43
+Summarized using GPT-3.5-turbo
+Append: [Is "superhuman" AI forecasting BS? Some experiments on the "539" bot from the Centre for AI Safety](https://www.lesswrong.com/posts/ZhqEShJMMbASxzfEL/is-superhuman-ai-forecasting-bs-some-experiments-on-the-539)
+append_entries: 1
+Finish: 2024-09-18 20:13:58.034652
