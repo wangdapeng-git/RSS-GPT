@@ -4,6 +4,7 @@
 <title>ByteByteGo Newsletter</title>
 <link>https://blog.bytebytego.com</link>
 
+
 <item>
 <title>The Saga Pattern</title>
 <link>https://blog.bytebytego.com/p/the-saga-pattern</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> Spring framework, transaction management, microservices, Saga pattern, multiple databases
 
-<br><br>总结:
+<br /><br />总结:
 在企业应用程序中，每个请求几乎都在数据库事务中执行。Spring框架等使用特殊的注解来简化事务管理，但在涉及多个数据库和消息代理的情况下，传统的事务处理方法变得复杂。微服务架构中涉及多个服务和数据库，传统事务管理方法不再适用，因此需要采用更复杂的Saga模式来管理事务。Saga模式为微服务架构提供了一种更有效的事务管理机制。 <div>
 <p>In enterprise applications, nearly every request is executed within a database transaction.&nbsp;</p><p>Developers often use frameworks and libraries with declarative mechanisms to simplify transaction management.</p><p>The Spring framework, for example, uses a special annotation to arrange for method invocations to be automatically executed within a transaction. This annotation simplifies writing transactional business logic, making it easier to manage transactions in a monolithic application that accesses a single database.</p><p>However, while transaction management is relatively straightforward in a monolithic application accessing a single database, it becomes more complex in scenarios involving multiple databases and message brokers.&nbsp;</p><p>For example, in a microservice architecture, business transactions span multiple services, each with its database. This complexity makes the traditional transaction approach impractical. Instead, microservices-based applications must adopt alternative mechanisms to manage transactions effectively.</p><p>In this post, we&#8217;ll learn why microservices-based applications require a more sophisticated approach to transaction management, such as using the Saga pattern. We&#8217;ll also understand the different approaches to implementing the Saga pattern in an application.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-imag" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ead610b-d0c7-41a6-aa16-4ad86534f65f_1503x1600.png" target="_blank"><div class="image2-inset"><source type="image/webp" /><img alt="" class="sizing-normal" height="1550" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ead610b-d0c7-41a6-aa16-4ad86534f65f_1503x1600.png" width="1456" /><div class="image-link-expand"><svg class="lucide lucide-maximize2 " fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" x2="14" y1="3" y2="10"></line><line x1="3" x2="10" y1="21" y2="14"></line></svg></div></div></a></figure></div><h2>The Need for Saga Pattern</h2>
       <p>
@@ -21,9 +22,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Thu, 19 Sep 2024 15:30:53 GMT</pubDate>
-<pubDate>Thu, 19 Sep 2024 15:30:53 GMT</pubDate>
 </item>
-
 <item>
 <title>How Netflix Warms Petabytes of Cache Data</title>
 <link>https://blog.bytebytego.com/p/how-netflix-warms-petabytes-of-cache</link>
