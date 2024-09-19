@@ -7588,3 +7588,12 @@ Existing_entries: 257
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-19 12:23:16.687150
+------------------------------------------------------
+Started: 2024-09-19 14:12:11.587804
+Existing_entries: 257
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 14973
+Summarized using GPT-3.5-turbo
+Append: [The case for a negative alignment tax](https://www.lesswrong.com/posts/xhLopzaJHtdkz9siQ/the-case-for-a-negative-alignment-tax)
+append_entries: 1
+Finish: 2024-09-19 14:12:18.189788
