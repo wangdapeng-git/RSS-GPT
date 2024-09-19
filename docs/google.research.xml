@@ -4,6 +4,7 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+
 <item>
 <title>Open Buildings 2.5D Temporal dataset tracks building changes across the Global South</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/Temporal-New-Cairo-Egypt-img.png</link>
@@ -11,13 +12,10 @@
 <content:encoded><![CDATA[
 <div> 关键词: 文章、总结、关键词、中文、要点
 
-总结:<br><br>这篇文章介绍了如何用中文总结一篇文章。在提取出关键词后，可以通过这些关键词来写一个简洁的总结。总结要包含所有要点，清晰地表达文章内容的主题和要点。在总结中，需要按照顺序列出要点，确保关键信息被准确地呈现给读者。通过这种方式，读者可以快速了解文章的主要内容，为进一步阅读提供一个概览。 <div>
-
+总结:<br /><br />这篇文章介绍了如何用中文总结一篇文章。在提取出关键词后，可以通过这些关键词来写一个简洁的总结。总结要包含所有要点，清晰地表达文章内容的主题和要点。在总结中，需要按照顺序列出要点，确保关键信息被准确地呈现给读者。通过这种方式，读者可以快速了解文章的主要内容，为进一步阅读提供一个概览。 <div>
 ]]></content:encoded>
-<pubDate>2024-09-19T00:00:00+00:00</pubDate>
 <pubDate>2024-09-19T14:12:24.856297+00:00</pubDate>
 </item>
-
 <item>
 <title>Whistles, songs, boings, and biotwangs: Recognizing whale vocalizations with AI</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/WhaleBioacoustics-7-Brydes.jpg</link>
