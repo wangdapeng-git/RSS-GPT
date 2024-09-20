@@ -7639,3 +7639,12 @@ Existing_entries: 260
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-20 02:42:36.680549
+------------------------------------------------------
+Started: 2024-09-20 04:15:18.850725
+Existing_entries: 260
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 13882
+Summarized using GPT-3.5-turbo
+Append: [Laziness death spirals](https://www.lesswrong.com/posts/JBR6AF9Gusv4u6Fwo/laziness-death-spirals)
+append_entries: 1
+Finish: 2024-09-20 04:15:23.097656
