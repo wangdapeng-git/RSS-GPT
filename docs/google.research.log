@@ -4869,3 +4869,12 @@ Existing_entries: 39
 Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
 append_entries: 0
 Finish: 2024-09-20 20:14:39.355527
+------------------------------------------------------
+Started: 2024-09-20 22:14:32.851577
+Existing_entries: 39
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Scaling up linear programming with PDLP](https://storage.googleapis.com/gweb-research2023-media/original_images/BiscoHero-Spiral.png)
+append_entries: 1
+Finish: 2024-09-20 22:14:40.894966

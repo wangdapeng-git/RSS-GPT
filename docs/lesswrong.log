@@ -7702,3 +7702,12 @@ Summarized using GPT-3.5-turbo
 Append: [o1-preview is pretty good at doing ML on an unknown dataset](https://www.lesswrong.com/posts/vLB4tkLWYmQrJstCA/o1-preview-is-pretty-good-at-doing-ml-on-an-unknown-dataset)
 append_entries: 1
 Finish: 2024-09-20 20:14:32.555269
+------------------------------------------------------
+Started: 2024-09-20 22:14:26.073490
+Existing_entries: 263
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 9056
+Summarized using GPT-3.5-turbo
+Append: [We Don't Know Our Own Values, but Reward Bridges The Is-Ought Gap](https://www.lesswrong.com/posts/YgaPhcrkqnLrTzQPG/we-don-t-know-our-own-values-but-reward-bridges-the-is-ought)
+append_entries: 1
+Finish: 2024-09-20 22:14:30.435731
