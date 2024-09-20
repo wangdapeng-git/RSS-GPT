@@ -7648,3 +7648,9 @@ Summarized using GPT-3.5-turbo
 Append: [Laziness death spirals](https://www.lesswrong.com/posts/JBR6AF9Gusv4u6Fwo/laziness-death-spirals)
 append_entries: 1
 Finish: 2024-09-20 04:15:23.097656
+------------------------------------------------------
+Started: 2024-09-20 06:18:18.815893
+Existing_entries: 261
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-09-20 06:18:19.831541
