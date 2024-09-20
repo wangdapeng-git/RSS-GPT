@@ -4028,3 +4028,21 @@ Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
 Fetch failed from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
 append_entries: 0
 error when rendering xml, skip docs/meta.ai
+------------------------------------------------------
+Started: 2024-09-20 00:56:52.680733
+Existing_entries: 84
+Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Generate an entire app from a prompt using Together AI’s LlamaCoder](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/460055422_2744099152427826_2112966215088891339_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=wkS3AGb8_foQ7kNvgFZtFtQ&_nc_ht=scontent-sjc3-1.xx&_nc_gid=AvzzW61nq1zf2l7bpdjKFy7&oh=00_AYBxePoUjoYVEF9FvngJs1gjsH-japwKCi8IGltKAb1LdQ&oe=67071591)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Media artist Refik Anadol fine-tunes Llama for ‘Large Nature Model’](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/459478190_1056325638722098_1809999194616943204_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=H5bMvA8obwoQ7kNvgFbBDEK&_nc_ht=scontent-sjc3-1.xx&_nc_gid=AvzzW61nq1zf2l7bpdjKFy7&oh=00_AYBUhPmORqMF8p7oEMc3RGguGr018coZkebXzT__9W_zhQ&oe=6707218A)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [How one Kenyan startup is working to solve local challenges with Llama](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/459148050_734650368800501_3468812096062118926_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=5spRKy_egcsQ7kNvgEFiKCd&_nc_ht=scontent-sjc3-1.xx&_nc_gid=AvzzW61nq1zf2l7bpdjKFy7&oh=00_AYBnWAEuD-nUx1O4_nWRd8xh4ptPCAGWpm9i56IaTtS-zw&oe=6706F317)
+Token length: 98
+Summarized using GPT-3.5-turbo
+Append: [Large Language Model](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/439645618_745665614390489_272535049175550402_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=4yOpkleWqv8Q7kNvgGwLvdt&_nc_ht=scontent-sjc3-1.xx&_nc_gid=AvzzW61nq1zf2l7bpdjKFy7&oh=00_AYCx77j89jQ-7En-rc63Ylb_dmGUol07cdtYI7VFpgz2HA&oe=67071FC2)
+append_entries: 4
+Finish: 2024-09-20 00:57:09.034421

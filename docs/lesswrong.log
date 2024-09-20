@@ -7624,3 +7624,12 @@ Existing_entries: 259
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-19 22:12:19.938712
+------------------------------------------------------
+Started: 2024-09-20 00:56:38.725619
+Existing_entries: 259
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 32622
+Summarized using GPT-3.5-turbo
+Append: [The Obliqueness Thesis](https://www.lesswrong.com/posts/vdATCfuxdtdqM2wh9/the-obliqueness-thesis)
+append_entries: 1
+Finish: 2024-09-20 00:56:45.583555
