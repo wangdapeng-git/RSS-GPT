@@ -8526,3 +8526,9 @@ Summarized using GPT-3.5-turbo
 Append: [The Real Python Podcast – Episode #221: Thriving as a Developer With ADHD](https://realpython.com/podcasts/rpp/221/)
 append_entries: 1
 Finish: 2024-09-20 12:23:22.922661
+------------------------------------------------------
+Started: 2024-09-20 14:13:13.696106
+Existing_entries: 154
+Fetching from https://realpython.com/atom.xml
+append_entries: 0
+Finish: 2024-09-20 14:13:13.931799
