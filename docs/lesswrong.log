@@ -7693,3 +7693,12 @@ Summarized using GPT-3.5-turbo
 Append: [[Intuitive self-models] 1. Preliminaries](https://www.lesswrong.com/posts/FtwMA5fenkHeomz52/intuitive-self-models-1-preliminaries)
 append_entries: 1
 Finish: 2024-09-20 18:17:09.414982
+------------------------------------------------------
+Started: 2024-09-20 20:14:26.303790
+Existing_entries: 262
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 2997
+Summarized using GPT-3.5-turbo
+Append: [o1-preview is pretty good at doing ML on an unknown dataset](https://www.lesswrong.com/posts/vLB4tkLWYmQrJstCA/o1-preview-is-pretty-good-at-doing-ml-on-an-unknown-dataset)
+append_entries: 1
+Finish: 2024-09-20 20:14:32.555269
