@@ -4,6 +4,117 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>修改电脑网络名称的小软件1.0</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1966130</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1966130</guid>
+<content:encoded><![CDATA[
+
+软件介绍：
+windows10右下角网络名称，会随着连接的网络越来越多而变得不可预测；
+或者是因为有强迫症倾向，想把名称改回来。
+
+这样是不是就显得好看了。
+软件运行：
+
+在win10下测试正常，其它系统没有测试，应该 ...
+]]></content:encoded>
+<pubDate>Fri, 20 Sep 2024 07:26:01 +0000</pubDate>
+<pubDate>Fri, 20 Sep 2024 07:26:01 +0000</pubDate>
+</item>
+<item>
+<title>开屏跳过 2023.9.12版本 自动跳过广告</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1965653</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1965653</guid>
+<content:encoded><![CDATA[
+
+【应用名称】开屏跳过
+【应用版本】2023.09.12
+【软件大小】1mb
+【适用平台】安卓
+【应用简介】开屏跳过最新版本是一款便捷的帮助用户们自动的跳过开屏广告的软件，用户们可以通过简单的设置之后就进行广告的跳 ...
+]]></content:encoded>
+<pubDate>Thu, 19 Sep 2024 01:11:03 +0000</pubDate>
+<pubDate>Thu, 19 Sep 2024 01:11:03 +0000</pubDate>
+</item>
+<item>
+<title>We, Mod WeMod（WeMod破解工具）</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1965591</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1965591</guid>
+<content:encoded><![CDATA[
+
+[md]
+## 介绍
+
+
+
+[wemod](https://www.wemod.com/) VIP 修改工具，理论上支持检查更新和通杀破解。
+
+## 致谢
+
+首先感谢 [@涛之雨](url=home.php?mod=space&amp;uid=879080) (也就是我自己)在[`WeMod 本地 VIP 简单 ...
+]]></content:encoded>
+<pubDate>Wed, 18 Sep 2024 14:32:30 +0000</pubDate>
+<pubDate>Wed, 18 Sep 2024 14:32:30 +0000</pubDate>
+</item>
+<item>
+<title>Android app三种常见抓包场景及案例分析</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1964908</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1964908</guid>
+<content:encoded><![CDATA[
+
+[md]## 一、未校验：配置证书就能抓
+1.这种情况是最简单的情况，Android 7.0之前的设备，直接配置用户证书，就能进行抓包，Android 7.0之后的设备，需要获取root权限1后，把用户证书移到系统证书目录下，或者配置系统强制信任用户证书。
+对于移动用户证书到系统证书目 ...
+]]></content:encoded>
+<pubDate>Sun, 15 Sep 2024 14:45:33 +0000</pubDate>
+<pubDate>Sun, 15 Sep 2024 14:45:33 +0000</pubDate>
+</item>
+<item>
+<title>某团新版Web mtgsig1.2 算法解析</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1964578</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1964578</guid>
+<content:encoded><![CDATA[
+
+[md]``` markmap
+# 前言
+# 声明
+# 流程
+# a3
+# a5
+# a6
+```
+
+# 前言
+最近工作有点小忙。没空更新，现在简单更新一下美团的吧
+算法和环境更新了一下。某些接口请求几次就强校验了。今天简单来看看。
+
+# 声明
+本文章中所有内容仅供学习交流，抓包内容、敏感 ...
+]]></content:encoded>
+<pubDate>Sat, 14 Sep 2024 07:03:11 +0000</pubDate>
+<pubDate>Sat, 14 Sep 2024 07:03:11 +0000</pubDate>
+</item>
+<item>
+<title>《坚韧挑战者：20秒真男人》复刻版支持网络排行榜</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1963629</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1963629</guid>
+<content:encoded><![CDATA[
+
+2024/9/14 更新：
+
+[*]开始界面添加了操作说明
+[*]点击X可以关闭窗口了
+[*]添加了网络排行榜，按F12可以查看
+
+
+关于网络排行榜说明：
+
+[*]在分数达到本机TOP5时，才会将成绩提交到服务器，未到达本机TOP5的成绩 ...
+]]></content:encoded>
+<pubDate>Wed, 11 Sep 2024 10:23:57 +0000</pubDate>
+<pubDate>Wed, 11 Sep 2024 10:23:57 +0000</pubDate>
+</item>
 
 <item>
 <title>一款局域网文件共享工具</title>
