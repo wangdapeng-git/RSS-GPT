@@ -5921,3 +5921,9 @@ Summarized using GPT-3.5-turbo
 Append: [EP130: Design a System Like YouTube](https://blog.bytebytego.com/p/ep130-design-a-system-like-youtube)
 append_entries: 1
 Finish: 2024-09-21 16:15:56.376778
+------------------------------------------------------
+Started: 2024-09-21 18:16:01.779341
+Existing_entries: 60
+Fetching from https://blog.bytebytego.com/feed
+append_entries: 0
+Finish: 2024-09-21 18:16:02.099053
