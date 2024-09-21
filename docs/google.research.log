@@ -4878,3 +4878,9 @@ Summarized using GPT-3.5-turbo
 Append: [Scaling up linear programming with PDLP](https://storage.googleapis.com/gweb-research2023-media/original_images/BiscoHero-Spiral.png)
 append_entries: 1
 Finish: 2024-09-20 22:14:40.894966
+------------------------------------------------------
+Started: 2024-09-21 00:56:15.867090
+Existing_entries: 40
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+append_entries: 0
+Finish: 2024-09-21 00:56:20.353998
