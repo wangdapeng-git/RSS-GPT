@@ -4,6 +4,197 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-09-22</title>
+<link>https://pythonhub.dev/digest/2024-09-22/</link>
+<guid>https://pythonhub.dev/digest/2024-09-22/</guid>
+<content:encoded><![CDATA[
+<div> Python, features, OOP, cirron, testing
+
+Python 3.13带来了许多新功能，对比3.12版本。视频讨论了Python面向对象编程中常见的坏习惯，并介绍了如何避免它们，包括不必要地使用类代替函数，过度使用混入，以及过度封装，提供了实际示例和改进代码结构和可读性的替代方法。文章介绍了一个名为Cirron的Python和Ruby库，允许开发人员注入系统调用故障进行测试。它演示了如何使用Cirron模拟各种错误条件，如磁盘空间问题和网络超时，通过修改系统调用行为实现对软件中错误处理的更加稳健的测试方法。学习如何使用pytest高效测试您的Flask应用程序，以确保代码健壮且无错误。创建一个零设置、易于使用的Python文档存储。 <br><br>总结: Python 3.13带来了许多新功能，视频讨论了Python面向对象编程中的坏习惯和解决方法，文章介绍了Cirron库用于测试，学习如何使用pytest测试Flask应用程序，以及创建零设置的Python文档存储。 <div>
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://docs.python.org/3.13/whatsnew/3.13.html">What’s New In Python 3.13</a></strong>
+    
+        <br /><span>This article explains the new features in Python 3.13, compared to 3.12. Python 3.13 will be released on October 1, 2024.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=yFLY0SVutgM">Avoid These 7 Common OOP Mistakes in Python</a></strong>
+    
+        <br /><span>The video discusses common bad practices in Python object-oriented programming and how to avoid them. It covers issues like using classes unnecessarily instead of functions, overusing mixins, and excessive encapsulation, while providing practical examples and alternatives to improve code structure and readability.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.mattstuchlik.com/2024/09/08/injecting-syscall-faults.html">Injecting syscall faults in Python and Ruby</a></strong>
+    
+        <br /><span>The post introduces a Python and Ruby library called Cirron that allows developers to inject syscall faults for testing purposes. It demonstrates how to use Cirron to simulate various error conditions, such as disk space issues and network timeouts, by modifying syscall behavior, enabling more robust testing of error handling in software.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.digitalocean.com/community/tutorials/unit-test-in-flask">How To Perform Unit Testing in Flask</a></strong>
+    
+        <br /><span>Learn how to efficiently test your Flask applications using pytest to ensure robust and error-free code.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/senko/dante">Dante</a></strong>
+    
+        <br /><span>A zero-setup, easy to use document store for Python.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://lucumr.pocoo.org/2024/9/9/multiversion-python/">Multiversion Python Thoughts</a></strong>
+    
+        <br /><span>A braindump on how to make multi version in Python work.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://techcommunity.microsoft.com/t5/excel-blog/python-in-excel-available-now/ba-p/4240212">Python in Excel – Available Now</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.singlestore.com/blog/how-we-made-notebooks-load-10-times-faster/">How We Made Jupyter Notebooks Load 10 Times Faster</a></strong>
+    
+        <br /><span>When we received feedback our Notebooks UI was taking too long too load, our engineers dove into ways to improve the developer experience — bringing some load times from 30 seconds down to less than one.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.pythonguis.com/examples/translator-app-tkinter-ai-chatgpt/">Build a Translation Application Using Tkinter and OpenAI</a></strong>
+    
+        <br /><span>In this tutorial, we'll build a desktop translator application to translate natural language using ChatGPT APIs. We'll be building the UI using the Tkinter library from the Python standard library.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-09-15/">Python Hub Weekly Digest for 2024-09-15</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.graalvm.org/python/">GraalPy – A high-performance embeddable Python 3 runtime for Java</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.robopenguins.com/pypi-proxy/">PyPI Proxying for Docker Builds</a></strong>
+    
+        <br /><span>I wanted to improve our CI system by caching PyPI data locally. I saw that there’s a project to do this, but I didn’t see any good examples actually using it.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Amourspirit/python_libre_pythonista_ext">LibrePythonista allows running IPython code in a LibreOffice spreadsheet</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://dataengineeringcentral.substack.com/p/rust-for-the-small-things">Rust for the small things? but what about Python?</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/dbos-inc/dbos-transact-py">DBOS transact – Ultra-lightweight durable execution in Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/ostris/ai-toolkit">ostris / ai-toolkit</a></strong>
+    
+        <br /><span>Various AI scripts. Mostly Stable Diffusion stuff.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.glyph.im/2024/09/python-macos-framework-builds.html">Python macOS Framework Builds</a></strong>
+    
+        <br /><span>Building Python with --enable-framework changes some stuff around; should you care?</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.speakeasy.com/post/python-http-clients-requests-vs-httpx-vs-aiohttp">Python HTTP Clients: Requests vs. HTTPX vs. AIOHTTP</a></strong>
+    
+        <br /><span>Learn about the differences between Requests, HTTPX, and AIOHTTP, and when to use each library for your Python projects.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://jfrog.com/blog/revival-hijack-pypi-hijack-technique-exploited-22k-packages-at-risk/">Revival Hijack – PyPI hijack technique exploited in the wild, puts 22K packages at risk</a></strong>
+    
+        <br /><span>The article discusses a PyPI supply chain attack technique called "Revival Hijack," where attackers can hijack removed packages by re-registering them. JFrog's research team found that this technique could potentially affect 22,000 existing PyPI packages, leading to hundreds of thousands of malicious downloads, and they took proactive measures to protect the PyPI community by safely rese...</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/MadcowD/ell">ell</a></strong>
+    
+        <br /><span>A language model programming framework.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/KenKundert/nestedtext">NestedText</a></strong>
+    
+        <br /><span>Human readable and writable data interchange format.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/feizc/FluxMusic">FluxMusic</a></strong>
+    
+        <br /><span>Text-to-Music Generation with Rectified Flow Transformers.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/evangelosmeklis/peepdb">peepDB</a></strong>
+    
+        <br /><span>open-source CLI tool and python library to quickly view MySQL, PostgreSQL, MariaDB database tables.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/iklobato/LightAPI">LightAPI</a></strong>
+    
+        <br /><span>LightApi is a lightweight API framework designed for rapid development of RESTful APIs in Python. It provides a simple and intuitive interface for defining endpoints and handling HTTP requests without the need for complex configuration or dependencies.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/learnpython/comments/1faltb1/what_do_you_think_about_harvard_cs50s/">What do you think about Harvard CS50’s Introduction to Programming with Python – Full University Course?</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 22 Sep 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 22 Sep 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-09-15</title>

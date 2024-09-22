@@ -7843,3 +7843,9 @@ Summarized using GPT-3.5-turbo
 Append: [Investigating an insurance-for-AI startup](https://www.lesswrong.com/posts/WFHg6ecDthErtuAJj/investigating-an-insurance-for-ai-startup)
 append_entries: 1
 Finish: 2024-09-22 16:14:24.847067
+------------------------------------------------------
+Started: 2024-09-22 18:15:52.213964
+Existing_entries: 266
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-09-22 18:15:52.566151
