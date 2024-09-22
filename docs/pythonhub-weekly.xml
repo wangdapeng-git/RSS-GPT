@@ -4,6 +4,7 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-09-22</title>
 <link>https://pythonhub.dev/digest/2024-09-22/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> Python, features, OOP, cirron, testing
 
-Python 3.13带来了许多新功能，对比3.12版本。视频讨论了Python面向对象编程中常见的坏习惯，并介绍了如何避免它们，包括不必要地使用类代替函数，过度使用混入，以及过度封装，提供了实际示例和改进代码结构和可读性的替代方法。文章介绍了一个名为Cirron的Python和Ruby库，允许开发人员注入系统调用故障进行测试。它演示了如何使用Cirron模拟各种错误条件，如磁盘空间问题和网络超时，通过修改系统调用行为实现对软件中错误处理的更加稳健的测试方法。学习如何使用pytest高效测试您的Flask应用程序，以确保代码健壮且无错误。创建一个零设置、易于使用的Python文档存储。 <br><br>总结: Python 3.13带来了许多新功能，视频讨论了Python面向对象编程中的坏习惯和解决方法，文章介绍了Cirron库用于测试，学习如何使用pytest测试Flask应用程序，以及创建零设置的Python文档存储。 <div>
+Python 3.13带来了许多新功能，对比3.12版本。视频讨论了Python面向对象编程中常见的坏习惯，并介绍了如何避免它们，包括不必要地使用类代替函数，过度使用混入，以及过度封装，提供了实际示例和改进代码结构和可读性的替代方法。文章介绍了一个名为Cirron的Python和Ruby库，允许开发人员注入系统调用故障进行测试。它演示了如何使用Cirron模拟各种错误条件，如磁盘空间问题和网络超时，通过修改系统调用行为实现对软件中错误处理的更加稳健的测试方法。学习如何使用pytest高效测试您的Flask应用程序，以确保代码健壮且无错误。创建一个零设置、易于使用的Python文档存储。 <br /><br />总结: Python 3.13带来了许多新功能，视频讨论了Python面向对象编程中的坏习惯和解决方法，文章介绍了Cirron库用于测试，学习如何使用pytest测试Flask应用程序，以及创建零设置的Python文档存储。 <div>
 <div></div>
 
 <h2>💖 Most Popular</h2>
@@ -193,9 +194,7 @@ Python 3.13带来了许多新功能，对比3.12版本。视频讨论了Python�
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 22 Sep 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 22 Sep 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-09-15</title>
 <link>https://pythonhub.dev/digest/2024-09-15/</link>
