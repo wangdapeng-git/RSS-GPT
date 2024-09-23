@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Python Virtual Environments: A Primer</title>
 <link>https://realpython.com/python-virtual-environments-a-primer/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> Python, virtual environment, venv, create, activate
 
-创建和管理Python项目的虚拟环境是很重要的。使用venv模块可以在项目中使用不同版本的包依赖和Python版本。通过本教程，你将学会如何创建和激活虚拟环境，为什么需要隔离外部依赖，以及如何自定义虚拟环境。最后，你将了解如何停用和删除虚拟环境，以及选择额外工具来管理Python版本和虚拟环境。学习虚拟环境的工作原理和重要性，可以帮助你掌握Python编程工作流程。总之，创建虚拟环境并激活它是创建Python项目的关键步骤，可以避免依赖冲突，并帮助其他开发者复制你的开发环境。 <br><br>总结: <div>
+创建和管理Python项目的虚拟环境是很重要的。使用venv模块可以在项目中使用不同版本的包依赖和Python版本。通过本教程，你将学会如何创建和激活虚拟环境，为什么需要隔离外部依赖，以及如何自定义虚拟环境。最后，你将了解如何停用和删除虚拟环境，以及选择额外工具来管理Python版本和虚拟环境。学习虚拟环境的工作原理和重要性，可以帮助你掌握Python编程工作流程。总之，创建虚拟环境并激活它是创建Python项目的关键步骤，可以避免依赖冲突，并帮助其他开发者复制你的开发环境。 <br /><br />总结: <div>
 <div><p>In this tutorial, you’ll learn how to work with <a href="https://docs.python.org/3/library/venv.html">Python’s <code>venv</code> module</a> to create and manage separate <a href="https://docs.python.org/3/library/venv.html#venv-def">virtual environments</a> for your Python projects. Each environment can use different versions of package dependencies and different versions of Python.</p>
 <p>Once you’ve learned to work with virtual environments, you’ll be able to help other programmers reproduce your development setup and make sure that your projects never create dependency conflicts.</p>
 <p><strong>By the end of this tutorial, you’ll know how to:</strong></p>
@@ -280,10 +281,8 @@ you might accidentally start up the outdated system Python interpreter.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-09-23T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>The Real Python Podcast – Episode #221: Thriving as a Developer With ADHD</title>
 <link>https://realpython.com/podcasts/rpp/221/</link>
