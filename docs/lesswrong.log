@@ -7921,3 +7921,12 @@ Summarized using GPT-3.5-turbo
 Append: [My 10-year retrospective on trying SSRIs](https://www.lesswrong.com/posts/FRZCDBbSNDHz3ZzaD/my-10-year-retrospective-on-trying-ssris)
 append_entries: 2
 Finish: 2024-09-23 14:13:16.093188
+------------------------------------------------------
+Started: 2024-09-23 16:15:03.870158
+Existing_entries: 270
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 18083
+Summarized using GPT-3.5-turbo
+Append: [ASIs will not leave just a little sunlight for Earth](https://www.lesswrong.com/posts/F8sfrbPjCQj4KwJqn/asis-will-not-leave-just-a-little-sunlight-for-earth)
+append_entries: 1
+Finish: 2024-09-23 16:15:10.171972

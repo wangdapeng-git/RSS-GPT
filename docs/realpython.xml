@@ -4,6 +4,285 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Python Virtual Environments: A Primer</title>
+<link>https://realpython.com/python-virtual-environments-a-primer/</link>
+<guid>https://realpython.com/python-virtual-environments-a-primer/</guid>
+<content:encoded><![CDATA[
+<div> Python, virtual environment, venv, create, activate
+
+创建和管理Python项目的虚拟环境是很重要的。使用venv模块可以在项目中使用不同版本的包依赖和Python版本。通过本教程，你将学会如何创建和激活虚拟环境，为什么需要隔离外部依赖，以及如何自定义虚拟环境。最后，你将了解如何停用和删除虚拟环境，以及选择额外工具来管理Python版本和虚拟环境。学习虚拟环境的工作原理和重要性，可以帮助你掌握Python编程工作流程。总之，创建虚拟环境并激活它是创建Python项目的关键步骤，可以避免依赖冲突，并帮助其他开发者复制你的开发环境。 <br><br>总结: <div>
+<div><p>In this tutorial, you’ll learn how to work with <a href="https://docs.python.org/3/library/venv.html">Python’s <code>venv</code> module</a> to create and manage separate <a href="https://docs.python.org/3/library/venv.html#venv-def">virtual environments</a> for your Python projects. Each environment can use different versions of package dependencies and different versions of Python.</p>
+<p>Once you’ve learned to work with virtual environments, you’ll be able to help other programmers reproduce your development setup and make sure that your projects never create dependency conflicts.</p>
+<p><strong>By the end of this tutorial, you’ll know how to:</strong></p>
+<ul>
+<li><strong>Create</strong> and <strong>activate</strong> a <strong>Python virtual environment</strong></li>
+<li>Explain <strong>why</strong> you want to <strong>isolate external dependencies</strong></li>
+<li><strong>Visualize what Python does</strong> when you create a virtual environment</li>
+<li><strong>Customize</strong> your virtual environments using <strong>optional arguments</strong> to <code>venv</code></li>
+<li><strong>Deactivate</strong> and <strong>remove</strong> virtual environments</li>
+<li>Choose <strong>additional tools for managing</strong> your Python versions and virtual environments</li>
+</ul>
+<p>Working with virtual environments is a common and effective technique used in Python development. Gaining a better understanding of how they work, why you need them, and what you can do with them will help you master your Python programming workflow.</p>
+<p>Throughout the tutorial, you can select code examples for either Windows, Ubuntu Linux, or macOS. Pick your platform at the top right of the relevant code blocks to get the commands that you need, and feel free to switch between them if you want to learn how to work with virtual environments on other operating systems.</p>
+<div class="alert alert-warning">
+<p><strong>Free Bonus:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-virtual-environments-a-primer-pdf/">Click here to download a free cheat sheet</a> that summarizes the main venv commands you’ll learn about in this tutorial.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Python Virtual Environments: A Primer” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/python-virtual-environments-a-primer/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="Python Virtual Environments (venv)" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Python-Virtual-Environments_Watermarked.4c787192d42f.jpg" style="background: #abe5b2;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/python-virtual-environments-a-primer/"><span class="my-0 h4">Python Virtual Environments: A Primer</span></a> 
+      <p class="text-muted mb-0 small">In this quiz, you'll test your understanding of Python virtual environments. With this knowledge, you'll be able to avoid dependency conflicts and help other developers reproduce your development environment.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="how-can-you-work-with-a-python-virtual-environment">How Can You Work With a Python Virtual Environment?<a class="headerlink" href="#how-can-you-work-with-a-python-virtual-environment" title="Permanent link"></a></h2>
+<p>If you just need to get a virtual environment up and running to continue working on your favorite project, then this section is for you.</p>
+<p>This tutorial uses <a href="https://docs.python.org/3/library/venv.html">Python’s <code>venv</code> module</a> to create virtual environments. This module is part of Python’s standard library, and it’s been the <a href="https://docs.python.org/3/library/venv.html#creating-virtual-environments">officially recommended</a> way to create virtual environments since Python 3.5.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> There are other great third-party tools for creating virtual environments,
+such as <a href="#the-conda-package-and-environment-manager">conda</a> and <a href="#the-virtualenv-project">virtualenv</a>,
+that you’ll learn more about later in this tutorial.
+Either of these tools can help you set up a virtual environment and also go beyond just that.</p>
+</div>
+<p>For basic usage, <code>venv</code> is an excellent choice because it already comes packaged with your Python installation. With that in mind, you’re ready to create your first virtual environment.</p>
+<h3 id="create-it">Create It<a class="headerlink" href="#create-it" title="Permanent link"></a></h3>
+<p>Any time you’re working on a Python project that uses external dependencies you’re <a href="https://realpython.com/what-is-pip/">installing with <code>pip</code></a>,
+it’s best to first create a virtual environment:</p>
+<ul class="nav nav-tabs justify-content-end js-platform-widget-tabs">
+
+  <li class="nav-item mb-0 js-platform-widget-tab-windows">
+    <a class="nav-link link-unstyled text-body active small" href="#windows-1" id="windows-tab-1"><span class="icon baseline text-muted mr-1"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Windows</a>
+  </li>
+
+
+  <li class="nav-item mb-0 js-platform-widget-tab-linux">
+    <a class="nav-link link-unstyled text-body small " href="#linux-1" id="linux-tab-1"><span class="icon baseline text-muted mr-1"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Linux</a>
+  </li>
+
+
+  <li class="nav-item mb-0 js-platform-widget-tab-macos">
+    <a class="nav-link link-unstyled text-body small" href="#macos-1" id="macos-tab-1"><span class="icon baseline text-muted mr-1"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>macOS</a>
+  </li>
+
+
+</ul>
+<div class="tab-content mt-2 mb-0 js-platform-widget-content">
+<div class="tab-pane fade show active" id="windows-1">
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Windows PowerShell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">PS&gt; </span><span class="n">py</span> <span class="n">-m</span> <span class="n">venv</span> <span class="n">venv</span><span class="p">\</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>This command allows the <a href="https://docs.python.org/3/using/windows.html#launcher">Python launcher for Windows</a> to select an appropriate version of Python to execute. It comes bundled with the official installation and is the most convenient way to execute <a href="https://realpython.com/python-coding-setup-windows/">Python on Windows</a>.</p>
+<p>You can bypass the launcher and run the Python executable directly using the <code>python</code> command, but if you haven’t configured the <code>PATH</code> and <code>PATHEXT</code> variables,
+then you might need to provide the full path:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Windows PowerShell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">PS&gt; </span><span class="n">C</span><span class="p">:\</span><span class="n">Users</span><span class="p">\</span><span class="n">Name</span><span class="p">\</span><span class="n">AppData</span><span class="p">\</span><span class="n">Local</span><span class="p">\</span><span class="n">Programs</span><span class="p">\</span><span class="n">Python</span><span class="p">\</span><span class="n">Python312</span><span class="p">\</span><span class="n">python</span> <span class="n">-m</span> <span class="n">venv</span> <span class="n">venv</span><span class="p">\</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The system path shown above assumes that you installed Python 3.12 using the Windows installer provided by the <a href="https://www.python.org/downloads/">Python downloads page</a>. The path to the Python executable on your system might be different. Working with PowerShell, you can find the path using the <code>where.exe python</code> command.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> You don’t need to include the backslash (<code>\</code>) at the end of the name of your virtual environment, but it’s a helpful reminder that you’re creating a folder.</p>
+</div>
+</div>
+<div class="tab-pane fade " id="linux-1">
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Shell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">$ </span>python3<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>venv/
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Many Linux operating systems ship with a version of Python 3.
+If <code>python3</code> doesn’t work, then you’ll have to first <a href="https://realpython.com/installing-python/">install Python</a> and you may need to use the specific name of the executable version that you installed, for example, <code>python3.12</code> for Python 3.12.x. If that’s the case for you, remember to replace mentions of <code>python3</code> in the code blocks with your specific version number.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> You don’t need to include the slash (<code>/</code>) at the end of the name of your virtual environment, but it’s a helpful reminder that you’re creating a folder.</p>
+</div>
+</div>
+<div class="tab-pane fade " id="macos-1">
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Shell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">$ </span>python3<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>venv/
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Older versions of macOS come with a system installation of Python 2.7.x that you should <em>never</em> use to run your scripts. If you’re working on macOS &lt; 12.3 and invoke the Python interpreter with <code>python</code> instead of <code>python3</code>, then
+you might accidentally start up the outdated system Python interpreter.</p>
+<p>If running <code>python3</code> doesn’t work, then you’ll have to first <a href="https://realpython.com/installing-python/">install a modern version of Python</a>.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> You don’t need to include the slash (<code>/</code>) at the end of the name of your virtual environment, but it’s a helpful reminder that you’re creating a folder.</p>
+</div>
+</div>
+</div>
+<p>This command creates a new virtual environment named <em>venv</em> using Python’s built-in <code>venv</code> module. The first <code>venv</code> that you use in the command specifies the module, and the second <code>venv/</code> sets the name for your virtual environment. You could name it differently, but calling it <em>venv</em> is a good practice for consistency.</p>
+<h3 id="activate-it">Activate It<a class="headerlink" href="#activate-it" title="Permanent link"></a></h3>
+<p>Great! Your project now has its own virtual environment. Generally, before you start to use it, you’ll <strong>activate</strong> the environment by executing a script that comes with the installation:</p>
+<ul class="nav nav-tabs justify-content-end js-platform-widget-tabs">
+
+  <li class="nav-item mb-0 js-platform-widget-tab-windows">
+    <a class="nav-link link-unstyled text-body active small" href="#windows-2" id="windows-tab-2"><span class="icon baseline text-muted mr-1"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Windows</a>
+  </li>
+
+
+
+
+  <li class="nav-item mb-0 js-platform-widget-tab-linuxmacos">
+    <a class="nav-link link-unstyled text-body small" href="#linux-macos-2" id="macos-tab-2"><span class="icon baseline text-muted"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span class="icon baseline text-muted mr-1"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Linux + macOS</a>
+  </li>
+
+</ul>
+<div class="tab-content mt-2 mb-0 js-platform-widget-content">
+<div class="tab-pane fade show active" id="windows-2">
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Windows PowerShell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">PS&gt; </span><span class="n">venv</span><span class="p">\</span><span class="n">Scripts</span><span class="p">\</span><span class="n">activate</span>
+<span class="gp gp-VirtualEnv">(venv)</span> <span class="gp">PS&gt;</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>If your attempt to run this command produces an error, then you’ll first have to <a href="https://realpython.com/python-coding-setup-windows/#loosening-your-execution-policy">loosen the execution policy</a>.</p>
+</div>
+<div class="tab-pane fade " id="linux-macos-2">
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Shell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">$ </span><span class="nb">source</span><span class="w"> </span>venv/bin/activate
+<span class="gp gp-VirtualEnv">(venv)</span> <span class="gp">$</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+</div>
+</div>
+<p>Before you run this command, make sure that you’re in the folder containing the virtual environment you just created. If you’ve named your virtual environment something other than <em>venv</em>, then you’ll have to use that name in the path instead of <em>venv</em> when you source the activation script.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> You can also work with your virtual environment without activating it. To do this, you <a href="#it-runs-from-anywhere-with-absolute-paths">provide the full path</a> to its Python interpreter when executing a command. However, you’ll likely want to activate the virtual environment after you create it to save yourself the effort of having to repeatedly type long pathnames.</p>
+</div>
+<p>Once you can see the name of your virtual environment in your command prompt—in this case <code>(venv)</code>—then you’ll know that your virtual environment is active. Now you’re all set and ready to install your external packages!</p>
+</div><h2><a href="https://realpython.com/python-virtual-environments-a-primer/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-virtual-environments-a-primer/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-09-23T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>The Real Python Podcast – Episode #221: Thriving as a Developer With ADHD</title>
