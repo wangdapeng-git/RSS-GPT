@@ -7909,3 +7909,15 @@ Summarized using GPT-3.5-turbo
 Append: [Another argument against utility-centric alignment paradigms](https://www.lesswrong.com/posts/8A6wXarDpr6ckMmTn/another-argument-against-utility-centric-alignment-paradigms)
 append_entries: 1
 Finish: 2024-09-23 12:24:26.754845
+------------------------------------------------------
+Started: 2024-09-23 14:13:05.045027
+Existing_entries: 268
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 9441
+Summarized using GPT-3.5-turbo
+Append: [On the Role of Proto-Languages](https://www.lesswrong.com/posts/hKmaxDgPbX9koRwx5/on-the-role-of-proto-languages)
+Token length: 3807
+Summarized using GPT-3.5-turbo
+Append: [My 10-year retrospective on trying SSRIs](https://www.lesswrong.com/posts/FRZCDBbSNDHz3ZzaD/my-10-year-retrospective-on-trying-ssris)
+append_entries: 2
+Finish: 2024-09-23 14:13:16.093188
