@@ -7861,3 +7861,12 @@ Existing_entries: 266
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-22 22:13:01.418991
+------------------------------------------------------
+Started: 2024-09-23 00:58:06.017408
+Existing_entries: 266
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 28632
+Summarized using GPT-3.5-turbo
+Append: [Making Eggs Without Ovaries](https://www.lesswrong.com/posts/BhPQTrTRiLLWcbQiH/making-eggs-without-ovaries)
+append_entries: 1
+Finish: 2024-09-23 00:58:11.418468
