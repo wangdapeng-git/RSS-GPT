@@ -4847,3 +4847,21 @@ Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
 Fetch failed from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
 append_entries: 0
 error when rendering xml, skip docs/meta.ai
+------------------------------------------------------
+Started: 2024-09-24 06:18:38.165388
+Existing_entries: 252
+Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Generate an entire app from a prompt using Together AI’s LlamaCoder](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/460055422_2744099152427826_2112966215088891339_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=JYMkrqWIJCwQ7kNvgGdPS35&_nc_ht=scontent-sjc3-1.xx&_nc_gid=A3pAR624UvjOlridS5N_uIe&oh=00_AYAUzS4-NWtnyBglsC-4OtlKhBZFmtuzTp4JJ9qnRCoMag&oe=670C93D1)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Media artist Refik Anadol fine-tunes Llama for ‘Large Nature Model’](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/459478190_1056325638722098_1809999194616943204_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=IMnjp3OTxkUQ7kNvgHV9jv_&_nc_ht=scontent-sjc3-1.xx&_nc_gid=A3pAR624UvjOlridS5N_uIe&oh=00_AYCq3uJQAGWapgCIZD_J60D0ivGWI2JxHnQ54c8Yc4v9vA&oe=670C9FCA)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [How one Kenyan startup is working to solve local challenges with Llama](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/459148050_734650368800501_3468812096062118926_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=FKjSyJYLuxYQ7kNvgEqFp48&_nc_ht=scontent-sjc3-1.xx&_nc_gid=A3pAR624UvjOlridS5N_uIe&oh=00_AYCIybtpFXAjQ4rEV3Ys2IVu0L60MlGsOpHaL6t7kYJnDg&oe=670CA997)
+Token length: 98
+Summarized using GPT-3.5-turbo
+Append: [Large Language Model](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/439645618_745665614390489_272535049175550402_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=sXz0IdEGfwMQ7kNvgFibC9m&_nc_ht=scontent-sjc3-1.xx&_nc_gid=A3pAR624UvjOlridS5N_uIe&oh=00_AYBkebpl7s-Bl8GPm2AY21SKQos_DcmJxQxUIW8p0ok84A&oe=670C9E02)
+append_entries: 4
+Finish: 2024-09-24 06:18:54.257850

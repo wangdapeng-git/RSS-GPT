@@ -7969,3 +7969,15 @@ Existing_entries: 272
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-24 04:16:01.160798
+------------------------------------------------------
+Started: 2024-09-24 06:18:18.815255
+Existing_entries: 272
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 53296
+Summarized using GPT-3.5-turbo
+Append: [What are the best arguments for/against AIs being "slightly 'nice'"?](https://www.lesswrong.com/posts/xvBZPEccSfM8Fsobt/what-are-the-best-arguments-for-against-ais-being-slightly)
+Token length: 11842
+Summarized using GPT-3.5-turbo
+Append: [Struggling like a Shadowmoth](https://www.lesswrong.com/posts/hvj9NGodhva9pKGTj/struggling-like-a-shadowmoth)
+append_entries: 2
+Finish: 2024-09-24 06:18:31.309212
