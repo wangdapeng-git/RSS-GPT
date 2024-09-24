@@ -4840,3 +4840,10 @@ Summarized using GPT-3.5-turbo
 Append: [Large Language Model](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/439645618_745665614390489_272535049175550402_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=sXz0IdEGfwMQ7kNvgGOqjkS&_nc_ht=scontent-sjc3-1.xx&_nc_gid=A9T_7mOizDotaGMcFBpt7bU&oh=00_AYBXO7lNtaGjlJvdZu9MLQIRctvk5gHTK3ZY1kp1KSB7ug&oe=670C65C2)
 append_entries: 4
 Finish: 2024-09-24 02:46:25.233736
+------------------------------------------------------
+Started: 2024-09-24 04:16:08.222534
+Existing_entries: 252
+Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+Fetch failed from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+append_entries: 0
+error when rendering xml, skip docs/meta.ai
