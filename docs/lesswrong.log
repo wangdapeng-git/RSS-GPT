@@ -8023,3 +8023,9 @@ Summarized using GPT-3.5-turbo
 Append: [The Sun is big, but superintelligences will not spare Earth a little sunlight](https://www.lesswrong.com/posts/F8sfrbPjCQj4KwJqn/the-sun-is-big-but-superintelligences-will-not-spare-earth-a)
 append_entries: 2
 Finish: 2024-09-24 18:17:31.518142
+------------------------------------------------------
+Started: 2024-09-24 20:15:08.154672
+Existing_entries: 276
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-09-24 20:15:08.670684
