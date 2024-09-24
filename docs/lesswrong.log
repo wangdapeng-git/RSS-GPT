@@ -7981,3 +7981,9 @@ Summarized using GPT-3.5-turbo
 Append: [Struggling like a Shadowmoth](https://www.lesswrong.com/posts/hvj9NGodhva9pKGTj/struggling-like-a-shadowmoth)
 append_entries: 2
 Finish: 2024-09-24 06:18:31.309212
+------------------------------------------------------
+Started: 2024-09-24 08:17:46.623323
+Existing_entries: 274
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-09-24 08:17:47.588459

@@ -4,12 +4,12 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>【小黄鸟】用小黄鸟注入某考研政治刷题库小程序</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1966666</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1966666</guid>
 <content:encoded><![CDATA[
-
 [md]
 
 前言
@@ -22,9 +22,7 @@
 工具：HttpCanar ...
 ]]></content:encoded>
 <pubDate>Sun, 22 Sep 2024 12:41:34 +0000</pubDate>
-<pubDate>Sun, 22 Sep 2024 12:41:34 +0000</pubDate>
 </item>
-
 <item>
 <title>极简版录屏小工具-原创</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1966797</link>
@@ -13911,16 +13909,6 @@ mpv是一个自由开源的媒体播放器，日前更新了0.38.0 release
  ...
 ]]></content:encoded>
 <pubDate>Sun, 21 Apr 2024 07:07:27 +0000</pubDate>
-</item>
-<item>
-<title>极简人声伴奏分离 vocal separate/人声分离 0.0.4</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1915942</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1915942</guid>
-<content:encoded><![CDATA[
-这是一个极简的人声和背景音乐分离工具，本地化网页操作，无需连接外网，使用 2stems/4stems/5stems 模型。
-将一首歌曲或者含有背景音乐的音视频文件，拖拽到本地网页中，即可将其中的人声和音乐声分离为单独的音频wav ...
-]]></content:encoded>
-<pubDate>Sat, 20 Apr 2024 16:25:27 +0000</pubDate>
 </item>
 </channel>
 </rss>
