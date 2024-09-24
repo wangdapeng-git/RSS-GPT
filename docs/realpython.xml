@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Advanced Python import Techniques</title>
 <link>https://realpython.com/courses/advanced-import-techniques/</link>
 <guid>https://realpython.com/courses/advanced-import-techniques/</guid>
 <content:encoded><![CDATA[
-<div> import, modules, packages, namespace, dynamic <br>
-总结:<br>
+<div> import, modules, packages, namespace, dynamic <br />
+总结:<br />
 Python中使用import关键字将一个模块中的代码引入到另一个模块中，对于代码结构的有效组织和提高生产力非常重要。这个视频课程详细介绍了Python的import语句及其工作原理，教会如何利用import系统的强大功能。课程涵盖了模块、包、命名空间包的使用，管理命名空间、避免阴影效应、避免循环引用，以及在运行时动态导入模块等内容。通过大量的代码示例，教授如何定制Python的import系统，让项目更易维护且代码可以重复利用。 <div>
 <p>In Python, you use the <strong><code>import</code></strong> keyword to make code in one <strong>module</strong> available in another. Imports in Python are important for <strong>structuring your code</strong> effectively. Using imports properly will make you more productive, allowing you to reuse code while keeping your projects maintainable.</p>
 <p>This video course provides a comprehensive overview of Python&rsquo;s <code>import</code> statement and how it works. The import system is powerful, and this course will teach you how to harness this power. While you&rsquo;ll cover many of the concepts behind Python&rsquo;s import system, this video course is mostly example driven, so you&rsquo;ll learn from the numerous code examples shared throughout.</p>
@@ -25,10 +26,8 @@ Python中使用import关键字将一个模块中的代码引入到另一个模�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-09-24T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Python Virtual Environments: A Primer</title>
 <link>https://realpython.com/python-virtual-environments-a-primer/</link>

@@ -8011,3 +8011,15 @@ Existing_entries: 274
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-24 16:16:47.682490
+------------------------------------------------------
+Started: 2024-09-24 18:17:22.326729
+Existing_entries: 274
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 10220
+Summarized using GPT-3.5-turbo
+Append: [Model evals for dangerous capabilities](https://www.lesswrong.com/posts/x2yFrppX7RGz59LZF/model-evals-for-dangerous-capabilities)
+Token length: 23301
+Summarized using GPT-3.5-turbo
+Append: [The Sun is big, but superintelligences will not spare Earth a little sunlight](https://www.lesswrong.com/posts/F8sfrbPjCQj4KwJqn/the-sun-is-big-but-superintelligences-will-not-spare-earth-a)
+append_entries: 2
+Finish: 2024-09-24 18:17:31.518142
