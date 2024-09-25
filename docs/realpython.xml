@@ -4,6 +4,145 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Python 3.13 Preview: A Modern REPL</title>
+<link>https://realpython.com/python313-repl/</link>
+<guid>https://realpython.com/python313-repl/</guid>
+<content:encoded><![CDATA[
+<div> REPL, Python 3.13, interactive interpreter, improvements, alternative interpreters
+
+<br><br>总结:
+Python 3.13带来了新的交互式解释器（REPL），加入了许多重要的改进，包括支持颜色、更方便的特殊命令（如exit或quit）、终止会话等。这个新的REPL是Python的一个重要特点，安装的时候会自动带上，方便开发者在交互式环境中快速进行计算和实验。虽然新的REPL不如一些第三方替代品功能强大，但是因为它与Python一起安装，所以始终可以使用。这对于在某些情况下无法或不想安装第三方库的开发者来说是一大优点。 <div>
+<div><p>One of Python’s strong points is its interactive capabilities. By running <code>python</code> you start the interactive interpreter, or REPL, which allows you to perform quick calculations or explore and experiment with your code. In Python 3.13, the interactive interpreter has been completely redesigned with new modern features.</p>
+<p>Python’s REPL has remained largely unchanged for decades. Instead, alternative interpreters like <a href="https://realpython.com/ipython-interactive-python-shell/">IPython</a>, <a href="https://realpython.com/bpython-alternative-python-repl/">bpython</a>, and <a href="https://realpython.com/ptpython-shell/">ptpython</a> have addressed some of the built-in REPL’s shortcomings, providing more convenient interactive workflows for developers. As you’re about to learn, Python 3.13 brings many significant improvements to the interactive interpreter.</p>
+<p><strong>In this tutorial, you’ll:</strong></p>
+<ul>
+<li>Run Python 3.13 and explore the <strong>new REPL</strong></li>
+<li>Browse through the <strong>help system</strong></li>
+<li>Work with <strong>multiline statements</strong></li>
+<li><strong>Paste code</strong> into your REPL session</li>
+<li>Navigate through your <strong>interpreter history</strong></li>
+</ul>
+<p>The upgraded REPL is just one of the new features coming in Python 3.13. You can read about all the changes in the <a href="https://docs.python.org/3.13/whatsnew/3.13.html">what’s new</a> section of Python’s changelog. Additionally, you can dig deeper into the work done on <a href="https://realpython.com/python313-free-threading-jit/">free threading and a Just-In-Time compiler</a>.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python313-repl-code/">Click here to download the free sample code</a> that shows you how to use some of the new features in Python 3.13.</p>
+</div>
+<h2 id="a-new-interactive-interpreter-repl-in-python-313">A New Interactive Interpreter (REPL) in Python 3.13<a class="headerlink" href="#a-new-interactive-interpreter-repl-in-python-313" title="Permanent link"></a></h2>
+<p>To try out the new REPL for yourself, you need to get your hands on a version of Python 3.13. Before the official release in October 2024, you can <a href="https://realpython.com/python-pre-release/">install a pre-release version</a>. After October 2024, you should be able to install Python 3.13 through any of the <a href="https://realpython.com/installing-python/">regular channels</a>.</p>
+<p>A REPL, or a <strong>Read-Eval-Print Loop</strong>, is a program that allows you to work with code interactively. The REPL <strong>reads</strong> your input, <strong>evaluates</strong> it, and <strong>prints</strong> the result before <strong>looping</strong> back and doing the same thing again.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> To learn about the built-in REPL in Python and how it works in general, check out <a href="https://realpython.com/python-repl/">The Python Standard REPL: Try Out Code and Ideas Quickly</a>.</p>
+</div>
+<p>In any version of Python, you can start this interactive shell by typing the name of your Python executable in your terminal. Typically, this will be <code>python</code>, but depending on your operating system and your setup, you may have to use something like <code>py</code> or <code>python3</code> instead.</p>
+<p>Once you start the REPL in Python 3.13, you’ll see a small but noticeable difference. The familiar Python interactive shell prompt, consisting of three right angle brackets (<code>&gt;&gt;&gt;</code>), is now colored differently from the rest of the text:</p>
+<figure class="js-lightbox"><a href="https://files.realpython.com/media/colored_repl.93b1d9952ebb.png" target="_blank"><img alt="The new REPL in Python 3.13 shows a colored prompt" class="img-fluid mx-auto d-block " height="797" src="https://files.realpython.com/media/colored_repl.93b1d9952ebb.png" width="1972" /></a></figure>
+
+<p>The color difference indicates that the shell now supports color. In the new shell, color is mainly used to highlight output in tracebacks. If your terminal doesn’t display color, then the new REPL will automatically detect this and fall back to its plain, colorless display.</p>
+<p>If you prefer to keep your interpreter free of color even when it’s supported, you can <a href="https://docs.python.org/3.13/using/cmdline.html#controlling-color">disable this new feature</a>. One option is to set the new environment variable <a href="https://docs.python.org/3.13/using/cmdline.html#envvar-PYTHON_COLORS"><code>PYTHON_COLORS</code></a> to <code>0</code>:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Shell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="hll"><span class="gp">$ </span><span class="nv">PYTHON_COLORS</span><span class="o">=</span><span class="m">0</span><span class="w"> </span>python
+</span><span class="go">Python 3.13.0rc2 (main, Sep 13 2024, 17:09:27) [GCC 9.4.0] on linux</span>
+<span class="go">Type "help", "copyright", "credits" or "license" for more information.</span>
+<span class="go">&gt;&gt;&gt;</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Setting <code>PYTHON_COLORS=0</code> disables color in the REPL. If you set the environment variable to <code>1</code>, you’ll get the colored prompt and output. However, since it’s the default, this is rarely necessary.</p>
+<p>Before going any further, you’ll exit the REPL. As you may know, the old REPL, that you’ve used on Python 3.12 and earlier, has been widely commented on for the following idiosyncrasy:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">exit</span>
+<span class="go">Use exit() or Ctrl-D (i.e. EOF) to exit</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The shell clearly understands your intention to end the session. Still, it makes you jump through hoops and add parentheses to your command. In Python 3.13, the REPL now understands special commands that you can write without any parentheses:</p>
+<ul>
+<li><strong><code>exit</code></strong> or <strong><code>quit</code></strong>: Exit the interpreter</li>
+<li><strong><code>help</code></strong> or <span class="keys"><kbd class="key-f1">F1</kbd></span>: Access the help system</li>
+<li><strong><code>clear</code></strong>: Clear the screen</li>
+</ul>
+<p>Having these commands more easily available is a small thing, but it removes some friction when using the interactive interpreter. You can still use parentheses and type something like <code>exit()</code> if you prefer. These commands are not reserved though. That means that you could shadow them with variable assignments:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">exit</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">exit</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">exit</span><span class="p">()</span>
+<span class="gt">Traceback (most recent call last):</span>
+<span class="w">  </span><span class="c">...</span>
+<span class="gr">TypeError</span>: <span class="n">'bool' object is not callable</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="k">del</span> <span class="n">exit</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">exit</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Here you create a variable named <code>exit</code>, effectively disabling the <code>exit</code> command. To end your REPL session, you can either delete the <code>exit</code> variable or use one of the alternative ways to exit the interpreter.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> Even with the new improvements, the built-in REPL is not as powerful as some of the third-party alternatives. If you’re already using any of these, there’s no immediate reason to revert back to the standard interactive interpreter.</p>
+<p>The main advantage of the new REPL is that it’s installed together with Python. In other words, it’ll always be available for you. This is great if you find yourself in a situation where you can’t or don’t want to install a third-party library.</p>
+<p>You can learn more about the alternative interactive interpreters in the following tutorials:</p>
+<ul>
+<li><a href="https://realpython.com/ipython-interactive-python-shell/">Unlock IPython’s Magical Toolbox for Your Coding Journey</a></li>
+<li><a href="https://realpython.com/bpython-alternative-python-repl/">Discover bpython: A Python REPL With IDE-Like Features</a></li>
+<li><a href="https://realpython.com/ptpython-shell/">Boost Your Coding Productivity With Ptpython</a></li>
+</ul>
+<p>You can also read more about alternative REPLs in the <a href="https://realpython.com/python-repl/#using-an-alternative-repl">guide to the standard REPL</a>.</p>
+</div>
+</div><h2><a href="https://realpython.com/python313-repl/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python313-repl/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-09-25T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Advanced Python import Techniques</title>
