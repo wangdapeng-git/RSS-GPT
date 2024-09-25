@@ -8059,3 +8059,9 @@ Summarized using GPT-3.5-turbo
 Append: [Book Review: On the Edge: The Fundamentals](https://www.lesswrong.com/posts/JmxYNqHcr6fFzJ33u/book-review-on-the-edge-the-fundamentals)
 append_entries: 1
 Finish: 2024-09-25 04:16:27.860073
+------------------------------------------------------
+Started: 2024-09-25 06:18:45.412639
+Existing_entries: 278
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-09-25 06:18:45.853398
