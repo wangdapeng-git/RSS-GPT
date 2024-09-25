@@ -8050,3 +8050,12 @@ Existing_entries: 277
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-25 02:47:56.509150
+------------------------------------------------------
+Started: 2024-09-25 04:16:15.707636
+Existing_entries: 277
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 52516
+Summarized using GPT-3.5-turbo
+Append: [Book Review: On the Edge: The Fundamentals](https://www.lesswrong.com/posts/JmxYNqHcr6fFzJ33u/book-review-on-the-edge-the-fundamentals)
+append_entries: 1
+Finish: 2024-09-25 04:16:27.860073
