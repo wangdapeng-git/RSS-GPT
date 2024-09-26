@@ -8140,3 +8140,12 @@ Existing_entries: 279
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-26 06:18:44.514153
+------------------------------------------------------
+Started: 2024-09-26 08:17:41.172416
+Existing_entries: 279
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 45417
+Summarized using GPT-3.5-turbo
+Append: [How to prevent collusion when using untrusted models to monitor each other](https://www.lesswrong.com/posts/GCqoks9eZDfpL8L3Q/how-to-prevent-collusion-when-using-untrusted-models-to)
+append_entries: 1
+Finish: 2024-09-26 08:17:49.453243
