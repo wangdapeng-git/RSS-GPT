@@ -8182,3 +8182,10 @@ Existing_entries: 281
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-26 18:16:41.729875
+------------------------------------------------------
+Started: 2024-09-26 20:14:42.326628
+Existing_entries: 281
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Fetch failed from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+error when rendering xml, skip docs/lesswrong
