@@ -8164,3 +8164,9 @@ Summarized using GPT-3.5-turbo
 Append: [The 2024 Petrov Day Scenario](https://www.lesswrong.com/posts/6LJ6xcHEjKF9zWKzs/the-2024-petrov-day-scenario)
 append_entries: 1
 Finish: 2024-09-26 12:24:51.029923
+------------------------------------------------------
+Started: 2024-09-26 14:12:30.676835
+Existing_entries: 281
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-09-26 14:12:31.132552
