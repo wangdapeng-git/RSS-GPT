@@ -8113,3 +8113,12 @@ Existing_entries: 278
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-25 22:12:42.184886
+------------------------------------------------------
+Started: 2024-09-26 00:58:02.278472
+Existing_entries: 278
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 5936
+Summarized using GPT-3.5-turbo
+Append: [[Paper] A is for Absorption: Studying Feature Splitting and Absorption in Sparse Autoencoders](https://www.lesswrong.com/posts/3zBsxeZzd3cvuueMJ/paper-a-is-for-absorption-studying-feature-splitting-and)
+append_entries: 1
+Finish: 2024-09-26 00:58:09.505194
