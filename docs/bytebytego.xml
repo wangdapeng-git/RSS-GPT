@@ -4,14 +4,15 @@
 <title>ByteByteGo Newsletter</title>
 <link>https://blog.bytebytego.com</link>
 
+
 <item>
 <title>Software Architecture Patterns</title>
 <link>https://blog.bytebytego.com/p/software-architecture-patterns</link>
 <guid>https://blog.bytebytego.com/p/software-architecture-patterns</guid>
 <content:encoded><![CDATA[
 <div> client-server, architectural patterns, productivity, code quality, communication
-<br>
-<br>
+<br />
+<br />
 总结: 软件架构师经常在其职业生涯中不断遇到类似的目标和问题，而建筑模式提供了解决这些常见设计挑战的系统化方法。这些模式捕捉了各种系统和软件元素的核心设计结构，允许它们在不同项目和场景中得以重复使用。了解关于架构模式的关键好处包括提高生产力，改善代码质量，促进沟通，加快开发周期。其中，客户端-服务器模式是一种广泛使用的网络通信模型，在该模型中，客户端向服务器发送请求，并服务器响应请求。 <div>
 <p>Software architects often encounter similar goals and problems repeatedly throughout their careers. These challenges can arise within a single project, across multiple projects within a company, or even throughout an architect's career.&nbsp;</p><p>Architectural patterns provide a systematic approach to solving these recurring design issues.</p><p>In essence, architectural patterns are reusable approaches to building software that address common design challenges. These patterns capture the core design structures of various systems and software elements, allowing them to be reused across different projects and scenarios.</p><p>Some key benefits of knowing about architectural patterns are as follows:</p><ul><li><p><strong>Increased productivity:</strong> Instead of reinventing the wheel for each project, architects can rely on established patterns to guide design decisions while saving time and effort. The productivity increase allows teams to focus on the unique aspects of their projects rather than reinventing solutions for recurring issues.</p></li><li><p><strong>Improved code quality:</strong> By following standard patterns, developers can produce higher-quality code that is more maintainable, scalable, and easier to understand.</p></li><li><p><strong>Better communication:</strong> Patterns provide a common language and vocabulary making it easy to discuss and communicate design decisions.</p></li><li><p><strong>Faster development cycles:</strong> With the help of established patterns, development teams can accelerate their development cycles.</p></li></ul><p>In this post, we&#8217;ll look at the most popular software architecture patterns used by developers and architects across organizations and systems.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-imag" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86fdda13-d57b-4d9c-b868-ac35d3c52569_1600x1582.png" target="_blank"><div class="image2-inset"><source type="image/webp" /><img alt="" class="sizing-normal" height="1440" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86fdda13-d57b-4d9c-b868-ac35d3c52569_1600x1582.png" width="1456" /><div class="image-link-expand"><svg class="lucide lucide-maximize2 " fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" x2="14" y1="3" y2="10"></line><line x1="3" x2="10" y1="21" y2="14"></line></svg></div></div></a></figure></div><h2>Client-Server Pattern</h2><p>Client-server architecture is a widely used model for network communication, where a client (user or application) sends requests to a server, and the server responds with the requested data or service. This architecture can be implemented on a single machine or across different machines connected through a network.</p><p>See the diagram below for a typical client-server setup.</p>
       <p>
@@ -21,9 +22,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Thu, 26 Sep 2024 15:31:31 GMT</pubDate>
-<pubDate>Thu, 26 Sep 2024 15:31:31 GMT</pubDate>
 </item>
-
 <item>
 <title>How Uber Scaled Cassandra for Tens of Millions of Queries Per Second?</title>
 <link>https://blog.bytebytego.com/p/how-uber-scaled-cassandra-for-tens</link>
