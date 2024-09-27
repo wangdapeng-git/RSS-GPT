@@ -5474,3 +5474,10 @@ Summarized using GPT-3.5-turbo
 Append: [Generate an entire app from a prompt using Together AI’s LlamaCoder](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/460055422_2744099152427826_2112966215088891339_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=N_kNd0WYoyYQ7kNvgF7ImUG&_nc_ht=scontent-sjc3-1.xx&_nc_gid=A-Sl8X2t25S0QPsxxrSYbbG&oh=00_AYCuDJIfP_6n271yxppdJWlYuDKExOlI3xQeDE7dWuZBPQ&oe=6710C091)
 append_entries: 4
 Finish: 2024-09-27 08:17:54.457970
+------------------------------------------------------
+Started: 2024-09-27 10:14:56.224061
+Existing_entries: 384
+Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+Fetch failed from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+append_entries: 0
+error when rendering xml, skip docs/meta.ai
