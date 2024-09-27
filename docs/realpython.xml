@@ -4,6 +4,21 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>The Real Python Podcast – Episode #222: Using Virtual Environments in Docker &amp; Comparing Python Dev Tools</title>
+<link>https://realpython.com/podcasts/rpp/222/</link>
+<guid>https://realpython.com/podcasts/rpp/222/</guid>
+<content:encoded><![CDATA[
+<div> Python, virtual environment, Docker container, development practices, advantages
+
+虚拟环境是Python开发中常用的工具，能够帮助隔离项目所需的依赖包，避免版本冲突问题。在Docker容器中使用虚拟环境可以更好地管理项目的依赖和运行环境，确保项目的可移植性和一致性。同时，保持本地开发和容器内开发一致的开发实践能够简化部署流程，减少潜在的问题并提高开发效率。总结: 使用Python虚拟环境在Docker容器中能够更好地管理项目依赖和环境，保持一致的开发实践有助于简化部署流程和提高开发效率。 <div>
+<p>Should you use a Python virtual environment in a Docker container? What are the advantages of using the same development practices locally and inside a container? Christopher Trudeau is back on the show this week, bringing another batch of PyCoder's Weekly articles and projects.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-09-27T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Python 3.13 Preview: A Modern REPL</title>
