@@ -5456,3 +5456,21 @@ Summarized using GPT-3.5-turbo
 Append: [Generate an entire app from a prompt using Together AI’s LlamaCoder](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/460055422_2744099152427826_2112966215088891339_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=N_kNd0WYoyYQ7kNvgHsbbfV&_nc_ht=scontent-sjc3-1.xx&oh=00_AYDt9t0DaogGq9ykei2psrmVD2Z1z2QbhuesF5C-0JP-OA&oe=67108851)
 append_entries: 4
 Finish: 2024-09-27 06:20:06.711384
+------------------------------------------------------
+Started: 2024-09-27 08:17:38.120142
+Existing_entries: 380
+Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+Token length: 68
+Summarized using GPT-3.5-turbo
+Append: [Responsible AI](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/460981187_554072500307898_6342706179093701619_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=jYZ10AxDbkMQ7kNvgEreVFF&_nc_ht=scontent-sjc3-1.xx&_nc_gid=A-Sl8X2t25S0QPsxxrSYbbG&oh=00_AYA4a9pXF6fmoG27mS8cr6s36bQyZnEDeb-yRGpxxs5onQ&oe=6710980B)
+Token length: 76
+Summarized using GPT-3.5-turbo
+Append: [FEATURED](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/461179924_892945479558448_4846394290454647920_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=ctgDrAUHffkQ7kNvgEsCfA4&_nc_ht=scontent-sjc3-1.xx&_nc_gid=A-Sl8X2t25S0QPsxxrSYbbG&oh=00_AYAHWKcOFQg8NBNzFTA-pZliyxnLoXMpRepHZC9UqlyAYg&oe=6710A210)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Announcing the inaugural Llama Impact Grant and Llama Impact Innovation Award recipients](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/461064483_1627994734423245_651665879882084447_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=jupUfj3gVHMQ7kNvgFq_sgv&_nc_ht=scontent-sjc3-1.xx&_nc_gid=A-Sl8X2t25S0QPsxxrSYbbG&oh=00_AYBtd1IoQWikff87T_s77XGkJscAEBAfxDIXCag4FKFPWw&oe=6710A2B6)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Generate an entire app from a prompt using Together AI’s LlamaCoder](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/460055422_2744099152427826_2112966215088891339_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=N_kNd0WYoyYQ7kNvgF7ImUG&_nc_ht=scontent-sjc3-1.xx&_nc_gid=A-Sl8X2t25S0QPsxxrSYbbG&oh=00_AYCuDJIfP_6n271yxppdJWlYuDKExOlI3xQeDE7dWuZBPQ&oe=6710C091)
+append_entries: 4
+Finish: 2024-09-27 08:17:54.457970

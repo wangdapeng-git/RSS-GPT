@@ -21288,3 +21288,9 @@ Filter: [网络检测工具InternetTest v8.6.0.2409 单文件版，支持IP/DNS�
 Filter: [高考真题3.0.0 【08-24年高考真题+解析+英语音频】](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1964338)
 append_entries: 0
 Finish: 2024-09-27 06:18:32.545211
+------------------------------------------------------
+Started: 2024-09-27 08:16:18.986471
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+append_entries: 0
+error when rendering xml, skip docs/吾爱破解
