@@ -4,6 +4,37 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Quiz: Syntactic Sugar: Why Python Is Sweet and Pythonic</title>
+<link>https://realpython.com/quizzes/syntactic-sugar-python/</link>
+<guid>https://realpython.com/quizzes/syntactic-sugar-python/</guid>
+<content:encoded><![CDATA[
+<div> 关键词提取：Pythonic, syntactic sugar, readability, quiz, tutorial
+总结：<br><br>本教程介绍了Python中常见的语法糖，以及它们如何使代码更Pythonic和易读。语法糖是一种简洁的语法形式，可以让代码更具可读性，这篇文章还提供了一个测试来检验读者对于Python语法糖的理解程度。读者还可以通过阅读本教程进一步了解如何通过一些小技巧提高自己的Python编程水平。<br>总结: <div>
+<p>Test your understanding of Python&rsquo;s most common pieces of syntactic sugar and how they make your code more Pythonic and readable.</p>
+<p>Take this quiz after reading our <a href="https://realpython.com/syntactic-sugar-python/">Syntactic Sugar: Why Python is Sweet and Pythonic</a> tutorial.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-09-28T12:00:00+00:00</pubDate>
+</item>
+<item>
+<title>Quiz: Python 3.13: Cool New Features for You to Try</title>
+<link>https://realpython.com/quizzes/python313-new-features/</link>
+<guid>https://realpython.com/quizzes/python313-new-features/</guid>
+<content:encoded><![CDATA[
+<div> Python 3.10, updates, improvements, key, review
+
+Python 3.10版本带来了许多更新和改进，通过这篇文章可以测试你对这个版本的理解。在这个版本中，有一些关键的更新和改进，包括新的语法和功能。例如，添加了新的字符串方法和通用匹配模式。此外，还改进了类型提示和错误消息。Python 3.10还引入了一些新的库和模块，增强了语言的功能性。总体而言，Python 3.10为开发人员提供了更强大和易用的工具，帮助他们更高效地编写代码。总结: Python 3.10带来了许多关键的更新和改进，包括新的语法和功能，改进了类型提示和错误消息，并引入了新的库和模块，为开发人员提供了更强大和易用的工具。 <div>
+<p>In this quiz, you&rsquo;ll test your understanding of
+<a href="https://realpython.com/python313-new-features/">Python 3.13: Cool New Features for You to Try</a>. By working through this quiz, you&rsquo;ll review the key updates and improvements in this version of Python.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-09-28T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>The Real Python Podcast – Episode #222: Using Virtual Environments in Docker &amp; Comparing Python Dev Tools</title>
