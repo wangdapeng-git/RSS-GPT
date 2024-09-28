@@ -4,6 +4,39 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>Office 2013-2024 C2R Install Lite 7.7.7.7 r17</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1968313</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1968313</guid>
+<content:encoded><![CDATA[
+
+原贴已锁定，另发一贴。
+
+Office 2013-2024 C2R Install Lite v7.7.7.7 r17
+https://pan.lanzoub.com/isWsd2b16epa
+
+查毒网扫描情况：
+https://www.virscan.org/report/4 ... ff359e10c3eb9a76e6c
+不信任可不采用 ...
+]]></content:encoded>
+<pubDate>Fri, 27 Sep 2024 23:48:52 +0000</pubDate>
+<pubDate>Fri, 27 Sep 2024 23:48:52 +0000</pubDate>
+</item>
+<item>
+<title>Typora 1.0.4版本破解复现</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1968245</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1968245</guid>
+<content:encoded><![CDATA[
+
+[md]
+## 1. 找到app.asar文件解包得到License.js加密代码
+
+根据火绒剑在系统日志里监控Typore的启动，找到可疑的asar文件，程序访问并读取了该文件，并启动了其中的main.node模块，疑似开发者对加密源代码的解密过程
+ ...
+]]></content:encoded>
+<pubDate>Fri, 27 Sep 2024 10:24:03 +0000</pubDate>
+<pubDate>Fri, 27 Sep 2024 10:24:03 +0000</pubDate>
+</item>
 
 <item>
 <title>《安卓逆向这档事》第二十一课、抓包学得好，牢饭吃得饱(中)</title>
