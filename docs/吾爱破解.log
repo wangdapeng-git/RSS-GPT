@@ -21572,3 +21572,14 @@ Filter: [抖音爬虫 V20240922.1 批量解析主页|喜欢|合集 视频|图片
 Filter: [爱奇艺国际版 V6.8.0 无广告 可看短剧等](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1965657)
 append_entries: 0
 Finish: 2024-09-29 14:10:30.301757
+------------------------------------------------------
+Started: 2024-09-29 16:14:20.585370
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [鲜艺AI抠图 v2.4（支持 AI消除+二次编辑，可离线）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968516)
+Append: [【pdfsam-basic5.2.6绿色中文版】按照书签分割pdf的pdf工具](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968079)
+Filter: [抖音下载工具v2.1 支持点赞下载 下载博主主页合集 自己的喜欢列表收藏列表](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1967648)
+Filter: [抖音爬虫 V20240922.1 批量解析主页|喜欢|合集 视频|图片](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1966714)
+Filter: [爱奇艺国际版 V6.8.0 无广告 可看短剧等](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1965657)
+append_entries: 1
+Finish: 2024-09-29 16:14:27.262284
