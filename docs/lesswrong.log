@@ -8363,3 +8363,12 @@ Existing_entries: 287
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-29 01:03:01.727280
+------------------------------------------------------
+Started: 2024-09-29 02:52:34.986536
+Existing_entries: 287
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 2712
+Summarized using GPT-3.5-turbo
+Append: ["Slow" takeoff is a terrible term for "maybe even faster takeoff, actually"](https://www.lesswrong.com/posts/6svEwNBhokQ83qMBz/slow-takeoff-is-a-terrible-term-for-maybe-even-faster)
+append_entries: 1
+Finish: 2024-09-29 02:52:39.302417
