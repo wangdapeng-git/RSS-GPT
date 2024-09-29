@@ -4,6 +4,185 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-09-29</title>
+<link>https://pythonhub.dev/digest/2024-09-29/</link>
+<guid>https://pythonhub.dev/digest/2024-09-29/</guid>
+<content:encoded><![CDATA[
+<div> Python, Rust extension, full stack development, deep learning compilers, e-graphs
+
+Python编程的13个特殊方面，Rust扩展提速，全栈开发FARM栈，深度学习编译器讨论，e-graphs优化。总结:Python编程有许多特殊方面，可以通过Rust扩展加快速度，全栈开发涵盖FastAPI、React和MongoDB，深度学习编译器涉及优化和部署，e-graphs在编译器中的应用备受关注。 <div>
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=eufjIfVOm8s">13 Python Quirks That Will Surprise You</a></strong>
+    
+        <br /><span>This video presents 13 peculiar aspects of Python programming, with the final example being particularly confusing for newcomers to the language. Each quirk is demonstrated through code examples, accompanied by explanations for their existence and behavior.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/hylang/hy/discussions/2608">Hy 1.0.0, the Lisp dialect for Python, has been released</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonspeed.com/articles/intro-rust-python-extensions/">Let’s build and optimize a Rust extension for Python</a></strong>
+    
+        <br /><span>Python code too slow? You can quickly create a Rust extension to speed it up.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=PWG7NlUDVaA">FARM Stack Course – Full Stack Development with FastAPI, React MongoDB</a></strong>
+    
+        <br /><span>Learn full stack stack development with the FARM stack. You will learn to quickly create an application using FastAPI, React, and MongoDB.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Dan-wanna-M/formatron">Formatron</a></strong>
+    
+        <br /><span>Formatron empowers everyone to control the format of language models' output with minimal overhead.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://www.timescale.com/blog/rag-is-more-than-just-vector-search/">RAG Is More Than Just Vector Search</a></strong>
+    
+        <br /><span>Go beyond vector search. Learn how to improve your RAG system with Text2SQL, filtered search, structured extraction, and eval-driven development.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/playlist?list=PLaMu-SDt_RB7ImARcTT_Wjypwx2vBIBen">Deep learning compilers and how the sausage is made</a></strong>
+    
+        <br /><span>A series of discussions focused on deep learning compilers and machine learning. It covers how deep learning models are optimized and deployed for practical use cases. The content dives into topics relevant for developers and engineers working with AI frameworks and model performance optimization.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://news.ycombinator.com/item?id=41584157">Ask HN: Kotlin SpringBoot vs. Python Django for Min Viable Product</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-09-22/">Python Hub Weekly Digest for 2024-09-22</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://bernsteinbear.com/blog/whats-in-an-egraph/">What's in an e-graph?</a></strong>
+    
+        <br /><span>The article explains e-graphs by incrementally building from union-find to a full e-graph implementation, highlighting key features like equivalence class discovery, pattern matching, and extraction. It demonstrates how e-graphs can be used in compilers for optimizations, offering a more flexible alternative to traditional find-and-replace methods while discussing trade-offs and variatio...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.mongodb.com/developer/products/atlas/advanced-rag-self-querying-retrieval">Building an Advanced RAG System With Self-Querying Retrieval</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=jXWIxk2brfk">Some tricks with UV</a></strong>
+    
+        <br /><span>UV can be seen as an alternative to pip, but that might be a limiting way to think about the tool. Instead of looking at faster builds, which are still super nice, it might also make sense to rethink the stuff that we might be able to do from Python going forward.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://marimo.io/blog/sandboxed-notebooks">Serializing package requirements in marimo notebooks</a></strong>
+    
+        <br /><span>Marimo now allows notebooks to serialize their package requirements as top-level comments, enabling users to run notebooks in isolated virtual environments with a single command. This feature, powered by the uv package manager, enhances reproducibility and sharing of notebooks by eliminating the need for separate requirements files and preventing environment pollution.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://simonwillison.net/2024/Sep/18/board-of-the-python-software-foundation/">Things I've learned serving on the board of the Python Software Foundation</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/djc/pyrtls">pyrtls</a></strong>
+    
+        <br /><span>rustls-based modern TLS for Python.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/facebookincubator/ft_utils">ft_utils</a></strong>
+    
+        <br /><span>A library of utilities to support efficient, scalable Python development leveraging Free Threaded Python.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://dylancastillo.co/posts/deploy-a-django-app-with-kamal-aws-ecr-and-github-actions.html">Deploying a Django app with Kamal, AWS ECR, and Github Actions</a></strong>
+    
+        <br /><span>The article provides a comprehensive guide on deploying a Django app using Kamal, AWS ECR, and GitHub Actions, offering a streamlined approach to containerized deployment. It covers setting up a VPS, creating a Dockerfile, configuring AWS ECR, setting up Kamal, and automating the deployment process with GitHub Actions, aiming to simplify the deployment workflow for developers.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/dleemiller/WordLlama">WordLlama</a></strong>
+    
+        <br /><span>Things you can do with the token embeddings of an LLM.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/ictnlp/LLaMA-Omni">LLaMA-Omni</a></strong>
+    
+        <br /><span>LLaMA-Omni is a low-latency and high-quality end-to-end speech interaction model built upon Llama-3.1-8B-Instruct, aiming to achieve speech capabilities at the GPT-4o level.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/HengyiWang/spann3r">spann3r</a></strong>
+    
+        <br /><span>3D Reconstruction with Spatial Memory.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/NICUP14/MiniLang">MiniLang</a></strong>
+    
+        <br /><span>A type-safe C successor that compiles directly to various platforms.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/airtai/fastagency">FastAgency</a></strong>
+    
+        <br /><span>The fastest way to bring multi-agent workflows to production.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/learnpython/comments/1fmqke0/totally_blown_away_by_python_core_libraries/">Totally blown away by python core libraries</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 29 Sep 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 29 Sep 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-09-22</title>
