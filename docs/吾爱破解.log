@@ -21532,3 +21532,11 @@ Filter: [WPS Office 18.11国际版](https://www.52pojie.cn/forum.php?mod=viewthr
 Filter: [抖音爬虫 V20240922.1 批量解析主页|喜欢|合集 视频|图片](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1966714)
 append_entries: 0
 Finish: 2024-09-29 06:16:10.036674
+------------------------------------------------------
+Started: 2024-09-29 08:15:21.820815
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [WPS Office 18.11国际版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1966975)
+Filter: [抖音爬虫 V20240922.1 批量解析主页|喜欢|合集 视频|图片](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1966714)
+append_entries: 0
+Finish: 2024-09-29 08:15:23.990231
