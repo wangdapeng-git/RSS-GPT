@@ -21661,3 +21661,11 @@ Append: [文本转语音Mac端+Win端](https://www.52pojie.cn/forum.php?mod=view
 Filter: [抖音爬虫 V20240922.1 批量解析主页|喜欢|合集 视频|图片](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1966714)
 append_entries: 1
 Finish: 2024-09-30 08:18:11.073466
+------------------------------------------------------
+Started: 2024-09-30 10:14:23.753272
+Existing_entries: 1001
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [抖音下载工具v2.1 支持点赞下载 下载博主主页合集 自己的喜欢列表收藏列表](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1967648)
+Filter: [抖音爬虫 V20240922.1 批量解析主页|喜欢|合集 视频|图片](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1966714)
+append_entries: 0
+Finish: 2024-09-30 10:14:26.732897

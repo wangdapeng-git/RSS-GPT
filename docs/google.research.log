@@ -5565,3 +5565,10 @@ Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
 Fetch failed from https://rss.diffbot.com/atom?url=https://research.google/blog/
 append_entries: 0
 error when rendering xml, skip docs/google.research
+------------------------------------------------------
+Started: 2024-09-30 10:15:38.569710
+Existing_entries: 41
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+Fetch failed from https://rss.diffbot.com/atom?url=https://research.google/blog/
+append_entries: 0
+error when rendering xml, skip docs/google.research
