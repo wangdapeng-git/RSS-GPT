@@ -21684,3 +21684,10 @@ Filter: [抖音爬虫 V20240922.1 批量解析主页|喜欢|合集 视频|图片
 Filter: [自动点击器v2.8.5](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1965806)
 append_entries: 2
 Finish: 2024-09-30 12:25:17.011065
+------------------------------------------------------
+Started: 2024-09-30 14:12:23.610796
+Existing_entries: 1002
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Fetch failed from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+append_entries: 0
+error when rendering xml, skip docs/吾爱破解

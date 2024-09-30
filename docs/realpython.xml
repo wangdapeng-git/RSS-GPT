@@ -4,6 +4,134 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Python 3.13: Cool New Features for You to Try</title>
+<link>https://realpython.com/python313-new-features/</link>
+<guid>https://realpython.com/python313-new-features/</guid>
+<content:encoded><![CDATA[
+<div> Python 3.13, 版本更新, REPL, 多行编辑, 粘贴代码, 交互式界面
+
+<br><br>
+总结:Python 3.13发布了，提供了一些新功能和改进，包括改进交互式解释器（REPL），提供更清晰的错误消息，支持多行编辑和轻松粘贴代码。此外，还对全局解释器锁（GIL）做出了改进，使Python可以并行执行。新版本还引入了实验性的即时编译器（JIT），对静态类型系统进行了一系列小的升级。这些改进和功能将提高Python的效率和可用性。 <div>
+<div><p>Python 3.13 will be published on <a href="https://peps.python.org/pep-0719/">October 1, 2024</a>. <!-- <a href="https://www.python.org/downloads/release/python-3120/">Python 3.13</a> was published on <a href="https://peps.python.org/pep-0719/">October 1, 2024</a>. --> This new version is a major step forward for the language, although several of the biggest changes are happening under the hood and won’t be immediately visible to you.</p>
+<p>In a sense, Python 3.13 is laying the groundwork for some future improvements, especially to the language’s performance. As you read on, you’ll learn more about the background for this and dive into some new features that are fully available now.</p>
+<p><strong>In this tutorial, you’ll learn about some of the improvements in the new version, including:</strong></p>
+<ul>
+<li>Improvements made to the <strong>interactive interpreter (REPL)</strong></li>
+<li><strong>Clearer error messages</strong> that can help you fix common mistakes</li>
+<li>Advancements done in <strong>removing the global interpreter lock (GIL)</strong> and making Python free-threaded</li>
+<li>The implementation of an <strong>experimental Just-In-Time (JIT) compiler</strong></li>
+<li>A host of minor upgrades to <strong>Python’s static type system</strong></li>
+</ul>
+<p>If you want to try any of the examples in this tutorial, then you’ll need to use Python 3.13. The tutorials <a href="https://realpython.com/installing-python/">Python 3 Installation &amp; Setup Guide</a> and <a href="https://realpython.com/python-pre-release/">How Can You Install a Pre-Release Version of Python?</a> walk you through several options for adding a new version of Python to your system.</p>
+<p>In addition to learning more about the new features coming to the language, you’ll also get some <a href="#so-should-you-upgrade-to-python-313">advice</a> about what to consider before upgrading to the new version. Click the link below to download code examples demonstrating the new capabilities of Python 3.13:</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python313-new-features-code/">Click here to download the free sample code</a> that shows you how to use the new features in Python 3.13.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Python 3.13: Cool New Features for You to Try” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/python313-new-features/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="Python 3.13: Cool New Features for You to Try" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Python-3.13-Cool-New-Features_Watermarked.ed26902959b6.jpg" style="background: #abe0e6;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/python313-new-features/"><span class="my-0 h4">Python 3.13: Cool New Features for You to Try</span></a> 
+      <p class="text-muted mb-0 small">In this quiz, you'll test your understanding of the new features introduced in Python 3.13. By working through this quiz, you'll review the key updates and improvements in this version of Python.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="an-improved-interactive-interpreter-repl">An Improved Interactive Interpreter (REPL)<a class="headerlink" href="#an-improved-interactive-interpreter-repl" title="Permanent link"></a></h2>
+<p>If you run Python without specifying any script or code, you’ll find yourself inside <a href="https://realpython.com/python-repl/">Python’s interactive interpreter</a>. This interpreter is informally called the REPL because it’s based on a read-evaluate-print loop. The REPL <strong>reads</strong> your input, <strong>evaluates</strong> it, and <strong>prints</strong> the result before <strong>looping</strong> back and doing the same thing again.</p>
+<p>The Python REPL has been around for decades, and it supports an explorative workflow that makes Python a beginner-friendly language. Unfortunately, the interpreter has been missing several features you may have come to expect, including multiline editing and efficient pasting of code.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> Experienced Python developers often install a third-party interactive interpreter instead of relying on the built-in REPL. You can learn more about the alternatives in these tutorials:</p>
+<ul>
+<li><a href="https://realpython.com/ipython-interactive-python-shell/">Unlock IPython’s Magical Toolbox for Your Coding Journey</a></li>
+<li><a href="https://realpython.com/bpython-alternative-python-repl/">Discover bpython: A Python REPL With IDE-Like Features</a></li>
+<li><a href="https://realpython.com/ptpython-shell/">Boost Your Coding Productivity With Ptpython</a></li>
+</ul>
+<p>You can also read more about alternative REPLs in the <a href="https://realpython.com/python-repl/#using-an-alternative-repl">guide to the standard REPL</a>.</p>
+</div>
+<p>Begin by starting the REPL. You can do this by typing <code>python</code> in your <a href="https://realpython.com/terminal-commands/">terminal</a>. Depending on your setup, you may have to write <code>py</code>, <code>python3</code>, or even <code>python3.13</code> instead. One way to recognize that you’re using the new interpreter shipping with Python 3.13 is that the prompt consisting of three chevrons (<code>&gt;&gt;&gt;</code>) is subtly colored:</p>
+<figure class="js-lightbox"><a href="https://files.realpython.com/media/colored_repl.93b1d9952ebb.png" target="_blank"><img alt="The new REPL in Python 3.13 shows a colored prompt" class="img-fluid mx-auto d-block " height="797" src="https://files.realpython.com/media/colored_repl.93b1d9952ebb.png" width="1972" /></a></figure>
+
+<p>One improvement is that you can now use REPL-specific commands without calling them with parentheses as if they are Python functions. Here are some of the commands and keyboard shortcuts you can use:</p>
+<ul>
+<li><strong><code>exit</code></strong> or <strong><code>quit</code></strong>: Exit the interpreter</li>
+<li><strong><code>clear</code></strong>: Clear the screen</li>
+<li><strong><code>help</code></strong> or <span class="keys"><kbd class="key-f1">F1</kbd></span>: Access the help system</li>
+<li><span class="keys"><kbd class="key-f2">F2</kbd></span>: Open the history browser</li>
+<li><span class="keys"><kbd class="key-f3">F3</kbd></span>: Enter paste mode</li>
+</ul>
+<p>You can learn more about these options in <a href="https://realpython.com/python313-repl/">Python 3.13 Preview: A Modern REPL</a>.</p>
+<p>Recalling code you’ve written earlier has been cumbersome in the REPL before Python 3.13, especially if you’re working with a block of code spanning several lines. Traditionally, you’ve had to bring back each line one by one by repeatedly pressing <span class="keys"><kbd class="key-arrow-up">Up</kbd></span>. Now in 3.13, you can bring back the whole block of code with a single <span class="keys"><kbd class="key-arrow-up">Up</kbd></span> keystroke.</p>
+<p>To try this for yourself, enter the following code in your REPL:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">13</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="p">[</span>
+<span class="gp">... </span>    <span class="p">(</span><span class="n">number</span> <span class="o">-</span> <span class="mi">3</span><span class="p">)</span><span class="o">**</span><span class="mi">3</span> <span class="k">for</span> <span class="n">number</span> <span class="ow">in</span> <span class="n">numbers</span>
+<span class="gp">... </span>    <span class="k">if</span> <span class="n">number</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">1</span>
+<span class="gp">... </span><span class="p">]</span>
+<span class="go">[0, 8, 64, 216, 512]</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>You’re creating a somewhat complex <a href="https://realpython.com/list-comprehension-python/">list comprehension</a> that calculates an offset cube of a range of numbers, but only if the numbers are odd. The important part is that for readability, you split the list comprehension over several lines. Now try hitting that <span class="keys"><kbd class="key-arrow-up">Up</kbd></span> key! The interpreter recalls all four lines at once, and you can continue to use your arrow keys to move around inside of the expression.</p>
+<p>You can make changes to your code and run it again. To execute the updated code, you need to move your cursor to the end of the last line in the code block. If you press <span class="keys"><kbd class="key-enter">Enter</kbd></span> inside the expression, you’ll create a new empty line instead:</p>
+<figure>
+  <div class="embed-responsive embed-responsive-16by9 rounded mb-3 ">
+    
+  </div>
+
+</figure>
+
+<p>The ability to recall and edit multiline statements is a huge time-saver and will make you more efficient when working with the REPL.</p>
+<p>Another convenience coming in Python 3.13 is proper support for pasting code. In Python 3.12 and earlier, you’d need to make sure that your code doesn’t contain any blank lines before you could copy and paste it. In the new version, pasted code is treated as a unit and executes just as it would inside a script.</p>
+</div><h2><a href="https://realpython.com/python313-new-features/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python313-new-features/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-09-30T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Quiz: Syntactic Sugar: Why Python Is Sweet and Pythonic</title>
