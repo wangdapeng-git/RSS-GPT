@@ -21652,3 +21652,12 @@ Filter: [抖音下载工具v2.1 支持点赞下载 下载博主主页合集 自�
 Filter: [爱奇艺国际版 V6.8.0 无广告 可看短剧等](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1965657)
 append_entries: 0
 Finish: 2024-09-30 06:18:25.996725
+------------------------------------------------------
+Started: 2024-09-30 08:18:09.046786
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [抖音下载工具v2.1 支持点赞下载 下载博主主页合集 自己的喜欢列表收藏列表](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1967648)
+Append: [文本转语音Mac端+Win端](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1967638)
+Filter: [抖音爬虫 V20240922.1 批量解析主页|喜欢|合集 视频|图片](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1966714)
+append_entries: 1
+Finish: 2024-09-30 08:18:11.073466
