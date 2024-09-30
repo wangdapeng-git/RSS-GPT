@@ -8504,3 +8504,12 @@ Summarized using GPT-3.5-turbo
 Append: [Base LLMs refuse too](https://www.lesswrong.com/posts/YWo2cKJgL7Lg8xWjj/base-llms-refuse-too)
 append_entries: 1
 Finish: 2024-09-30 18:17:51.213454
+------------------------------------------------------
+Started: 2024-09-30 20:15:06.891941
+Existing_entries: 292
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 19916
+Summarized using GPT-3.5-turbo
+Append: [the case for CoT unfaithfulness is overstated](https://www.lesswrong.com/posts/HQyWGE2BummDCc2Cx/the-case-for-cot-unfaithfulness-is-overstated)
+append_entries: 1
+Finish: 2024-09-30 20:15:12.752054
