@@ -8459,3 +8459,9 @@ Summarized using GPT-3.5-turbo
 Append: [You can, in fact, bamboozle an unaligned AI into sparing your life](https://www.lesswrong.com/posts/ZLAnH5epD8TmotZHj/you-can-in-fact-bamboozle-an-unaligned-ai-into-sparing-your)
 append_entries: 1
 Finish: 2024-09-30 04:17:02.728277
+------------------------------------------------------
+Started: 2024-09-30 06:19:34.772722
+Existing_entries: 291
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-09-30 06:19:35.394199
