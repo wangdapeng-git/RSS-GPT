@@ -21623,3 +21623,14 @@ Filter: [抖音爬虫 V20240922.1 批量解析主页|喜欢|合集 视频|图片
 Filter: [爱奇艺国际版 V6.8.0 无广告 可看短剧等](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1965657)
 append_entries: 0
 Finish: 2024-09-30 00:59:35.307003
+------------------------------------------------------
+Started: 2024-09-30 02:52:28.721480
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Append: [完美解码PureCodec20240924官方版&绿色版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968690)
+Append: [B站视频下载工具 Bilidown 1.2.0](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968643)
+Filter: [鲜艺AI抠图 v2.4（支持 AI消除+二次编辑，可离线）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968516)
+Filter: [抖音下载工具v2.1 支持点赞下载 下载博主主页合集 自己的喜欢列表收藏列表](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1967648)
+Filter: [爱奇艺国际版 V6.8.0 无广告 可看短剧等](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1965657)
+append_entries: 2
+Finish: 2024-09-30 02:52:34.883382
