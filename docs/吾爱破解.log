@@ -21669,3 +21669,18 @@ Filter: [抖音下载工具v2.1 支持点赞下载 下载博主主页合集 自�
 Filter: [抖音爬虫 V20240922.1 批量解析主页|喜欢|合集 视频|图片](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1966714)
 append_entries: 0
 Finish: 2024-09-30 10:14:26.732897
+------------------------------------------------------
+Started: 2024-09-30 12:25:14.063257
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Append: [MicroSoft Office LTSC Professional Plus 2024 官方安装部署工具](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968907)
+Append: [图吧工具箱（2024.9月版）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968889)
+Filter: [应用管家TV版v1.4.6——电视应用+文件实用管理器（亦支持车机+平板）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968836)
+Filter: [微信/QQ/TIM 防撤回多开补丁 RevokeMsgPatcher v1.9 绿色开源版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968828)
+Filter: [鲜艺AI抠图 v2.4（支持 AI消除+二次编辑，可离线）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968516)
+Filter: [抖音下载工具v2.2 支持点赞下载 下载博主主页合集 自己的喜欢列表收藏列表](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1967648)
+Filter: [WPS Office 18.11国际版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1966975)
+Filter: [抖音爬虫 V20240922.1 批量解析主页|喜欢|合集 视频|图片](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1966714)
+Filter: [自动点击器v2.8.5](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1965806)
+append_entries: 2
+Finish: 2024-09-30 12:25:17.011065
