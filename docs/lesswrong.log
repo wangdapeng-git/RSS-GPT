@@ -8495,3 +8495,12 @@ Existing_entries: 291
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-30 16:16:59.743275
+------------------------------------------------------
+Started: 2024-09-30 18:17:45.573081
+Existing_entries: 291
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 18828
+Summarized using GPT-3.5-turbo
+Append: [Base LLMs refuse too](https://www.lesswrong.com/posts/YWo2cKJgL7Lg8xWjj/base-llms-refuse-too)
+append_entries: 1
+Finish: 2024-09-30 18:17:51.213454
