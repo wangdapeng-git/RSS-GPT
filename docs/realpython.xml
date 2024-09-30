@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Python 3.13: Cool New Features for You to Try</title>
 <link>https://realpython.com/python313-new-features/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> Python 3.13, 版本更新, REPL, 多行编辑, 粘贴代码, 交互式界面
 
-<br><br>
+<br /><br />
 总结:Python 3.13发布了，提供了一些新功能和改进，包括改进交互式解释器（REPL），提供更清晰的错误消息，支持多行编辑和轻松粘贴代码。此外，还对全局解释器锁（GIL）做出了改进，使Python可以并行执行。新版本还引入了实验性的即时编译器（JIT），对静态类型系统进行了一系列小的升级。这些改进和功能将提高Python的效率和可用性。 <div>
 <div><p>Python 3.13 will be published on <a href="https://peps.python.org/pep-0719/">October 1, 2024</a>. <!-- <a href="https://www.python.org/downloads/release/python-3120/">Python 3.13</a> was published on <a href="https://peps.python.org/pep-0719/">October 1, 2024</a>. --> This new version is a major step forward for the language, although several of the biggest changes are happening under the hood and won’t be immediately visible to you.</p>
 <p>In a sense, Python 3.13 is laying the groundwork for some future improvements, especially to the language’s performance. As you read on, you’ll learn more about the background for this and dive into some new features that are fully available now.</p>
@@ -129,10 +130,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-09-30T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Quiz: Syntactic Sugar: Why Python Is Sweet and Pythonic</title>
 <link>https://realpython.com/quizzes/syntactic-sugar-python/</link>
