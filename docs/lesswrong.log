@@ -8450,3 +8450,12 @@ Existing_entries: 290
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-09-30 02:53:44.320120
+------------------------------------------------------
+Started: 2024-09-30 04:16:56.975233
+Existing_entries: 290
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 53750
+Summarized using GPT-3.5-turbo
+Append: [You can, in fact, bamboozle an unaligned AI into sparing your life](https://www.lesswrong.com/posts/ZLAnH5epD8TmotZHj/you-can-in-fact-bamboozle-an-unaligned-ai-into-sparing-your)
+append_entries: 1
+Finish: 2024-09-30 04:17:02.728277
