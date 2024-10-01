@@ -8522,3 +8522,9 @@ Summarized using GPT-3.5-turbo
 Append: [MATS Alumni Impact Analysis](https://www.lesswrong.com/posts/jeBkx6agMuBCQW94C/mats-alumni-impact-analysis)
 append_entries: 1
 Finish: 2024-09-30 22:13:24.509976
+------------------------------------------------------
+Started: 2024-10-01 01:04:06.850615
+Existing_entries: 294
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-10-01 01:04:07.809958
