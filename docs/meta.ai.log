@@ -6325,3 +6325,10 @@ Summarized using GPT-3.5-turbo
 Append: [Announcing the inaugural Llama Impact Grant and Llama Impact Innovation Award recipients](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/461064483_1627994734423245_651665879882084447_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=CGUDbzY9MIoQ7kNvgGoOmYc&_nc_ht=scontent-sjc3-1.xx&_nc_gid=A-7EKNstREvB0su8lInMYlC&oh=00_AYAw6cUo7FQ5Zcj3j9oUI7qEnVzkTKr76J2dbrJlvibGqw&oe=67165936)
 append_entries: 4
 Finish: 2024-10-01 14:13:53.423605
+------------------------------------------------------
+Started: 2024-10-01 16:17:29.817191
+Existing_entries: 564
+Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+Fetch failed from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+append_entries: 0
+error when rendering xml, skip docs/meta.ai
