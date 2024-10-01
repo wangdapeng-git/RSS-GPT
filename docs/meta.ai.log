@@ -6332,3 +6332,21 @@ Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
 Fetch failed from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
 append_entries: 0
 error when rendering xml, skip docs/meta.ai
+------------------------------------------------------
+Started: 2024-10-01 18:17:54.471269
+Existing_entries: 564
+Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Introducing the Digital Twin Catalog from Reality Labs Research](https://scontent-lax3-1.xx.fbcdn.net/v/t39.2365-6/461679311_1535803197306975_1457654727555132372_n.gif?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=BeRorwEkWTYQ7kNvgHE3MfV&_nc_ht=scontent-lax3-1.xx&oh=00_AYCDhY-DyOU5AYUf9McDg2f96Y42u_1m8jidYLGrvVWJvQ&oe=67168C30)
+Token length: 68
+Summarized using GPT-3.5-turbo
+Append: [Responsible AI](https://scontent-lax3-1.xx.fbcdn.net/v/t39.2365-6/460981187_554072500307898_6342706179093701619_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=UEAEYG5JKjkQ7kNvgGeFkTY&_nc_ht=scontent-lax3-1.xx&oh=00_AYCIexhtltxDtbtrBVtyq9ZpVKy6_wISXunUCzbhH8KU8g&oe=671686CB)
+Token length: 76
+Summarized using GPT-3.5-turbo
+Append: [FEATURED](https://scontent-lax3-1.xx.fbcdn.net/v/t39.2365-6/461179924_892945479558448_4846394290454647920_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=dyUgEYOy6JoQ7kNvgFvIOie&_nc_ht=scontent-lax3-1.xx&oh=00_AYCbpbn7i72XNwABopxszCaqqD7UyTzrwtKQeum029--DQ&oe=671690D0)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Announcing the inaugural Llama Impact Grant and Llama Impact Innovation Award recipients](https://scontent-lax3-2.xx.fbcdn.net/v/t39.2365-6/461064483_1627994734423245_651665879882084447_n.png?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=CGUDbzY9MIoQ7kNvgHxSJLv&_nc_ht=scontent-lax3-2.xx&oh=00_AYBUn282qEVssNyci_Ax5JmW5n2fm7o3cmu7JP7Y6SpdLA&oe=67169176)
+append_entries: 4
+Finish: 2024-10-01 18:18:16.136445
