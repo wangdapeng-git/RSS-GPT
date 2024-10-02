@@ -4,23 +4,22 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Quiz: A Guide to Modern Python String Formatting Tools</title>
 <link>https://realpython.com/quizzes/python-formatted-output/</link>
 <guid>https://realpython.com/quizzes/python-formatted-output/</guid>
 <content:encoded><![CDATA[
 <div> f-strings, .format(), string formatting, Python, quiz
-<br>
+<br />
 Python中提供了多种字符串格式化工具，如f-strings和.format()方法。本文介绍了这些工具的用法和示例，并设计了一份关于字符串格式化的测验。通过阅读本文和完成测验，读者可以更好地理解和掌握Python中的字符串格式化技巧。同时，通过订阅Python技巧邮件，读者还可以定期收到有关Python的实用技巧和建议。总结：Python提供了丰富的字符串格式化工具，包括f-strings和.format()方法，通过阅读本文和完成测验，读者可以掌握这些工具的用法。 <div>
 <p>Test your understanding of Python&rsquo;s tools for string formatting, including f-strings and the <code>.format()</code> method.</p>
 <p>Take this quiz after reading our <a href="https://realpython.com/python-formatted-output/">A Guide to Modern Python String Formatting Tools</a> tutorial.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-10-02T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Differences Between Python's Mutable and Immutable Types</title>
 <link>https://realpython.com/courses/differences-mutable-immutable-types/</link>
