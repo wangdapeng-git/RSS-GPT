@@ -8627,3 +8627,9 @@ Summarized using GPT-3.5-turbo
 Append: [Three Subtle Examples of Data Leakage](https://www.lesswrong.com/posts/rzyHbLZHuqHq6KM65/three-subtle-examples-of-data-leakage)
 append_entries: 1
 Finish: 2024-10-02 06:18:45.394201
+------------------------------------------------------
+Started: 2024-10-02 08:17:22.261973
+Existing_entries: 297
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-10-02 08:17:22.611109
