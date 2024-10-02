@@ -8600,3 +8600,12 @@ Existing_entries: 294
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-02 00:58:30.023780
+------------------------------------------------------
+Started: 2024-10-02 02:45:09.659041
+Existing_entries: 294
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 9840
+Summarized using GPT-3.5-turbo
+Append: [on bacteria, on teeth](https://www.lesswrong.com/posts/5QFGBFt7wXv4ekWKh/on-bacteria-on-teeth)
+append_entries: 1
+Finish: 2024-10-02 02:45:16.026598
