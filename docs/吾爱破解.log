@@ -21934,3 +21934,10 @@ Existing_entries: 1000
 Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
 append_entries: 0
 error when rendering xml, skip docs/吾爱破解
+------------------------------------------------------
+Started: 2024-10-02 16:15:23.912412
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Fetch failed from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+append_entries: 0
+error when rendering xml, skip docs/吾爱破解

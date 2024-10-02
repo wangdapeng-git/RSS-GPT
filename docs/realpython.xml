@@ -4,6 +4,172 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>A Guide to Modern Python String Formatting Tools</title>
+<link>https://realpython.com/python-formatted-output/</link>
+<guid>https://realpython.com/python-formatted-output/</guid>
+<content:encoded><![CDATA[
+<div> f-strings, .format(), string interpolation, string formatting, Python<br>
+<br>
+f-strings 是 Python 中一种用于字符串插值和格式化的工具，通过在字符串前加上 f 或 F 来创建，可以直接插入变量或表达式。通过使用替换字段，可以将变量插入到原始字符串中。 .format() 方法是另一种字符串格式化工具，适用于旧版本的 Python 或传统代码。学习使用这些现代的字符串格式化工具可以帮助你更有效地处理字符串操作。 <div>
+<div><p>When working with strings in Python, you may need to interpolate values into your string and format these values to create new strings dynamically. In modern Python, you have f-strings and the <code>.format()</code> method to approach the tasks of interpolating and formatting strings.</p>
+<p><strong>In this tutorial, you’ll learn how to:</strong></p>
+<ul>
+<li>Use <strong>f-strings</strong> and the <strong><code>.format()</code></strong> method for string interpolation</li>
+<li><strong>Format</strong> the interpolated values using replacement fields</li>
+<li>Create <strong>custom format specifiers</strong> to format your strings</li>
+</ul>
+<p>To get the most out of this tutorial, you should know the basics of Python programming and the <a href="https://realpython.com/python-strings/">string</a> data type.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-formatted-output-code/">Click here to download the free sample code</a> that shows you how to use modern string formatting tools in Python.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “A Guide to Modern Python String Formatting Tools” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/python-formatted-output/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="A Guide to Modern Python String Formatting Tools" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/UPDATE-A-Guide-to-the-Newer-Python-String-Format-Techniques_Watermarked-2.f985e287c6ef.jpg" style="background: #fe7e73;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/python-formatted-output/"><span class="my-0 h4">A Guide to Modern Python String Formatting Tools</span></a> 
+      <p class="text-muted mb-0 small">You can take this quiz to test your understanding of modern tools for string formatting in Python. These tools include f-strings and the .format() method.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="getting-to-know-string-interpolation-and-formatting-in-python">Getting to Know String Interpolation and Formatting in Python<a class="headerlink" href="#getting-to-know-string-interpolation-and-formatting-in-python" title="Permanent link"></a></h2>
+<p>Python has developed different string interpolation and formatting tools over the years. If you’re getting started with Python and looking for a quick way to format your strings, then you should use <a href="https://realpython.com/python-f-strings/">Python’s f-strings</a>.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> To learn more about string interpolation, check out the <a href="https://realpython.com/python-string-interpolation/">String Interpolation in Python: Exploring Available Tools</a> tutorial.</p>
+</div>
+<p>If you need to work with older versions of Python or legacy code, then it’s a good idea to learn about the other formatting tools, such as the <code>.format()</code> method.</p>
+<p>In this tutorial, you’ll learn how to format your strings using f-strings and the <code>.format()</code> method. You’ll start with f-strings to kick things off, which are quite popular in modern Python code.</p>
+<h2 id="using-f-strings-for-string-interpolation">Using F-Strings for String Interpolation<a class="headerlink" href="#using-f-strings-for-string-interpolation" title="Permanent link"></a></h2>
+<p>Python has a string formatting tool called <strong>f-strings</strong>, which stands for <strong>formatted string literals</strong>. F-strings are string literals that you can create by prepending an <code>f</code> or <code>F</code> to the literal. They allow you to do string interpolation and formatting by inserting variables or expressions directly into the literal.</p>
+<h3 id="creating-f-string-literals">Creating F-String Literals<a class="headerlink" href="#creating-f-string-literals" title="Permanent link"></a></h3>
+<p>Here you’ll take a look at how you can create an f-string by prepending the string literal with an <code>f</code> or <code>F</code>:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="go">   👇</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="sa">f</span><span class="s2">"Hello, Pythonista!"</span>
+<span class="go">'Hello, Pythonista!'</span>
+
+<span class="go">   👇</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="sa">F</span><span class="s2">"Hello, Pythonista!"</span>
+<span class="go">'Hello, Pythonista!'</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Using either <code>f</code> or <code>F</code> has the same effect. However, it’s a more common practice to use a lowercase <code>f</code> to create f-strings.</p>
+<p>Just like with regular string literals, you can use single, double, or triple quotes to define an f-string:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="go">    👇</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="sa">f</span><span class="s1">'Single-line f-string with single quotes'</span>
+<span class="go">'Single-line f-string with single quotes'</span>
+
+<span class="go">    👇</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="sa">f</span><span class="s2">"Single-line f-string with double quotes"</span>
+<span class="go">'Single-line f-string with single quotes'</span>
+<span class="go">     👇</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="sa">f</span><span class="s1">'''Multiline triple-quoted f-string</span>
+<span class="gp">... </span><span class="s1">with single quotes'''</span>
+<span class="go">'Multiline triple-quoted f-string\nwith single quotes'</span>
+
+<span class="go">     👇</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="sa">f</span><span class="s2">"""Multiline triple-quoted f-string</span>
+<span class="gp">... </span><span class="s2">with double quotes"""</span>
+<span class="go">'Multiline triple-quoted f-string\nwith double quotes'</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Up to this point, your f-strings look pretty much the same as regular strings. However, if you create f-strings like those in the examples above, you’ll get complaints from your code <a href="https://realpython.com/python-code-quality/#linters">linter</a> if you have one.</p>
+<p>The remarkable feature of f-strings is that you can embed Python <a href="https://realpython.com/python-variables/">variables</a> or <a href="https://realpython.com/python-operators-expressions/">expressions</a> directly inside them. To insert the variable or expression, you must use a <strong>replacement field</strong>, which you create using a pair of curly braces.</p>
+<h3 id="interpolating-variables-into-f-strings">Interpolating Variables Into F-Strings<a class="headerlink" href="#interpolating-variables-into-f-strings" title="Permanent link"></a></h3>
+<p>The variable that you insert in a replacement field is evaluated and converted to its <a href="https://realpython.com/python-repr-vs-str/">string representation</a>. The result is interpolated into the original string at the replacement field’s location:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">site</span> <span class="o">=</span> <span class="s2">"Real Python"</span>
+
+<span class="go">                   👇</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="sa">f</span><span class="s2">"Welcome to </span><span class="si">{</span><span class="n">site</span><span class="si">}</span><span class="s2">!"</span>
+<span class="go">'Welcome to Real Python!'</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this example, you’ve interpolated the <code>site</code> variable into your string. Note that Python treats anything outside the curly braces as a regular string.</p>
+</div><h2><a href="https://realpython.com/python-formatted-output/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-formatted-output/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-02T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Quiz: A Guide to Modern Python String Formatting Tools</title>
