@@ -21921,3 +21921,10 @@ Filter: [中考真题 1.00 历年中考真题及解析](https://www.52pojie.cn/f
 Filter: [爱奇艺国际版 V6.8.0 无广告 可看短剧等](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1965657)
 append_entries: 0
 Finish: 2024-10-02 10:13:25.252711
+------------------------------------------------------
+Started: 2024-10-02 12:23:25.754797
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Fetch failed from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+append_entries: 0
+error when rendering xml, skip docs/吾爱破解
