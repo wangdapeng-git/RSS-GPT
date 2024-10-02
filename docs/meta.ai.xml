@@ -4,6 +4,7 @@
 <title>AI at Meta Blog</title>
 <link>https://ai.meta.com/blog/</link>
 
+
 <item>
 <title>Introducing the Digital Twin Catalog from Reality Labs Research</title>
 <link>https://scontent-lax3-1.xx.fbcdn.net/v/t39.2365-6/461679311_1535803197306975_1457654727555132372_n.gif?_nc_cat=109&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=BeRorwEkWTYQ7kNvgGUv3OG&amp;_nc_ht=scontent-lax3-1.xx&amp;oh=00_AYCz5Ca12RyyCtevshRlw0A9fxO5XCeHRNW-mqOJR3S6Hw&amp;oe=671734F0</link>
@@ -11,10 +12,8 @@
 <content:encoded><![CDATA[
 <div> 关键词：文章、中文、总结、要点、输出
 
-总结:<br><br>这篇文章主要讲述了如何用中文对一篇文章进行总结，首先提取关键词，然后按照要点进行输出。通过提取关键词和逐个总结要点的方式，能够有效地概括一篇文章的内容。这种总结方法有助于整理思路，提炼核心信息，也方便读者快速了解文章的要点。在写总结时，需要清晰明了地表达每个要点，让读者能够轻松理解文章的主旨。通过这种方式进行中文总结，能够提高阅读和理解能力，也有助于提高文章的整体质量。 <div>
-
+总结:<br /><br />这篇文章主要讲述了如何用中文对一篇文章进行总结，首先提取关键词，然后按照要点进行输出。通过提取关键词和逐个总结要点的方式，能够有效地概括一篇文章的内容。这种总结方法有助于整理思路，提炼核心信息，也方便读者快速了解文章的要点。在写总结时，需要清晰明了地表达每个要点，让读者能够轻松理解文章的主旨。通过这种方式进行中文总结，能够提高阅读和理解能力，也有助于提高文章的整体质量。 <div>
 ]]></content:encoded>
-<pubDate>2024-09-30T00:00:00+00:00</pubDate>
 <pubDate>2024-10-02T08:17:34.763871+00:00</pubDate>
 </item>
 <item>
@@ -24,10 +23,9 @@
 <content:encoded><![CDATA[
 <div> 关键词: Connect 2024, responsible approach, generative AI
 总结:
-Connect 2024介绍了他们在处理生成式人工智能时采取的负责任态度。文章强调了在开发和使用AI技术时需要重视伦理、隐私和社会影响。同时还强调了数据隐私保护和透明度的重要性。他们致力于创造一个更可靠、更安全的AI环境，保护用户数据，避免偏见和歧视。通过这些方法，Connect 2024希望在AI发展的道路上走得更加稳健和负责任。<br><br>总结: Connect 2024负责任处理生成式AI，重视伦理、透明度和数据隐私，致力于创造更安全的AI环境。 <div>
+Connect 2024介绍了他们在处理生成式人工智能时采取的负责任态度。文章强调了在开发和使用AI技术时需要重视伦理、隐私和社会影响。同时还强调了数据隐私保护和透明度的重要性。他们致力于创造一个更可靠、更安全的AI环境，保护用户数据，避免偏见和歧视。通过这些方法，Connect 2024希望在AI发展的道路上走得更加稳健和负责任。<br /><br />总结: Connect 2024负责任处理生成式AI，重视伦理、透明度和数据隐私，致力于创造更安全的AI环境。 <div>
 Connect 2024: The responsible approach we’re taking to generative AI
 ]]></content:encoded>
-<pubDate>2024-09-25T00:00:00+00:00</pubDate>
 <pubDate>2024-10-02T08:17:34.763607+00:00</pubDate>
 </item>
 <item>
@@ -35,12 +33,11 @@ Connect 2024: The responsible approach we’re taking to generative AI
 <link>https://scontent-lax3-1.xx.fbcdn.net/v/t39.2365-6/461179924_892945479558448_4846394290454647920_n.png?_nc_cat=105&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=dyUgEYOy6JoQ7kNvgH_MO4L&amp;_nc_ht=scontent-lax3-1.xx&amp;oh=00_AYBSSy2ngJ6qeyt5ahS0CAUx-NnD26jgx4QRI7EcMdngyA&amp;oe=67173990</link>
 <guid>https://scontent-lax3-1.xx.fbcdn.net/v/t39.2365-6/461179924_892945479558448_4846394290454647920_n.png?_nc_cat=105&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=dyUgEYOy6JoQ7kNvgH_MO4L&amp;_nc_ht=scontent-lax3-1.xx&amp;oh=00_AYBSSy2ngJ6qeyt5ahS0CAUx-NnD26jgx4QRI7EcMdngyA&amp;oe=67173990</guid>
 <content:encoded><![CDATA[
-<div> 关键词: Llama 3.2, edge AI, vision, 开放模型, 可定制<br>
-总结:<br>
+<div> 关键词: Llama 3.2, edge AI, vision, 开放模型, 可定制<br />
+总结:<br />
 Llama 3.2推出了一种革命性的边缘人工智能和视觉技术，通过开放和可定制的模型，实现了颠覆性的进步。这个创新产品不仅提供了强大的边缘AI功能，还支持用户根据自身需求进行定制。开放模型的使用使得整个系统更具灵活性和可扩展性，同时也为用户提供了更多的自主权。通过Llama 3.2，边缘人工智能和视觉技术得以更好地发展，为用户提供了更多可能性。 <div>
 Llama 3.2: Revolutionizing edge AI and vision with open, customizable models
 ]]></content:encoded>
-<pubDate>2024-09-25T00:00:00+00:00</pubDate>
 <pubDate>2024-10-02T08:17:34.763363+00:00</pubDate>
 </item>
 <item>
@@ -51,14 +48,11 @@ Llama 3.2: Revolutionizing edge AI and vision with open, customizable models
 <div> 关键词: 文章、总结、关键词、中文、要点
 
 总结:
-<br>
+<br />
 文章中提到了关键词的重要性，用中文总结这篇文章是很有必要的。在总结中，需要提取关键要点，并以清晰的语言表达出来，帮助读者更好地理解文章的内容。总结应该包含文章中的重点内容，以便读者能够快速了解文章的主旨，提炼出文章的核心观点，并用简洁明了的语言进行概括。通过总结，可以帮助读者更好地吸收和理解文章的内容，为进一步讨论和研究提供重要的参考依据。 <div>
-
 ]]></content:encoded>
-<pubDate>2024-09-24T00:00:00+00:00</pubDate>
 <pubDate>2024-10-02T08:17:34.763026+00:00</pubDate>
 </item>
-
 <item>
 <title>Introducing the Digital Twin Catalog from Reality Labs Research</title>
 <link>https://scontent-sea1-1.xx.fbcdn.net/v/t39.2365-6/461679311_1535803197306975_1457654727555132372_n.gif?_nc_cat=109&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=BeRorwEkWTYQ7kNvgEGAX5L&amp;_nc_ht=scontent-sea1-1.xx&amp;_nc_gid=AI6o55HIoIlBJA9tN8LYVaw&amp;oh=00_AYAEmGRUCzodm0niOUz2qN4Kb9Vmb0KwWJCAD6G5rXZ7mg&amp;oe=671734F0</link>
