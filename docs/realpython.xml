@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>A Guide to Modern Python String Formatting Tools</title>
 <link>https://realpython.com/python-formatted-output/</link>
 <guid>https://realpython.com/python-formatted-output/</guid>
 <content:encoded><![CDATA[
-<div> f-strings, .format(), string interpolation, string formatting, Python<br>
-<br>
+<div> f-strings, .format(), string interpolation, string formatting, Python<br />
+<br />
 f-strings 是 Python 中一种用于字符串插值和格式化的工具，通过在字符串前加上 f 或 F 来创建，可以直接插入变量或表达式。通过使用替换字段，可以将变量插入到原始字符串中。 .format() 方法是另一种字符串格式化工具，适用于旧版本的 Python 或传统代码。学习使用这些现代的字符串格式化工具可以帮助你更有效地处理字符串操作。 <div>
 <div><p>When working with strings in Python, you may need to interpolate values into your string and format these values to create new strings dynamically. In modern Python, you have f-strings and the <code>.format()</code> method to approach the tasks of interpolating and formatting strings.</p>
 <p><strong>In this tutorial, you’ll learn how to:</strong></p>
@@ -167,10 +168,8 @@ f-strings 是 Python 中一种用于字符串插值和格式化的工具，通�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-10-02T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Quiz: A Guide to Modern Python String Formatting Tools</title>
 <link>https://realpython.com/quizzes/python-formatted-output/</link>
