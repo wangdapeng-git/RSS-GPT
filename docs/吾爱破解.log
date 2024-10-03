@@ -21998,3 +21998,16 @@ Filter: [抖音爬虫 V20240922.1 批量解析主页|喜欢|合集 视频|图片
 Filter: [中考真题 1.00 历年中考真题及解析](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1966063)
 append_entries: 4
 Finish: 2024-10-03 06:17:39.815509
+------------------------------------------------------
+Started: 2024-10-03 08:16:25.690640
+Existing_entries: 1004
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [应用管家TV版v1.4.6——电视应用+文件实用管理器（亦支持车机+平板）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968836)
+Filter: [微信/QQ/TIM 防撤回多开补丁 RevokeMsgPatcher v1.9 绿色开源版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968828)
+Filter: [鲜艺AI抠图 v2.4（支持 AI消除+二次编辑，可离线）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968516)
+Filter: [抖音下载工具v2.3 支持点赞下载 下载博主主页合集 自己的喜欢列表收藏列表](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1967648)
+Filter: [WPS Office 18.11国际版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1966975)
+Filter: [抖音爬虫 V20240922.1 批量解析主页|喜欢|合集 视频|图片](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1966714)
+Filter: [中考真题 1.00 历年中考真题及解析](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1966063)
+append_entries: 0
+Finish: 2024-10-03 08:16:28.708710
