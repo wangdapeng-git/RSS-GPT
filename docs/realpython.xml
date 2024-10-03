@@ -4,6 +4,27 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Quiz: When to Use a List Comprehension in Python</title>
+<link>https://realpython.com/quizzes/list-comprehension-python/</link>
+<guid>https://realpython.com/quizzes/list-comprehension-python/</guid>
+<content:encoded><![CDATA[
+<div> list comprehensions, loops, conditional logic, performance, Python
+
+<br>
+list comprehensions 是一种简洁的重写循环的方式，可以使代码更简洁易读。在选择使用 list comprehensions 时，需要考虑代码的清晰度和性能。可以在 comprehensions 中使用条件逻辑来筛选元素，使代码更灵活。为了解决性能问题，可以使用性能分析工具对代码进行优化。总结: list comprehensions 提供了简洁的方式重写循环，结合条件逻辑使用可以使代码更灵活，优化代码性能可以提高运行效率。 <div>
+<p>In this quiz, you&rsquo;ll test your understanding of
+<a href="https://realpython.com/list-comprehension-python/">List Comprehension in Python</a>.</p>
+<p>By working through this quiz, you&rsquo;ll revisit how to rewrite loops as list comprehensions,
+how to choose when to use list comprehensions,
+how you can use conditional logic in your comprehensions,
+and how to profile your code to resolve performance questions.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-01T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>A Guide to Modern Python String Formatting Tools</title>

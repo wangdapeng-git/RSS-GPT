@@ -4,6 +4,24 @@
 <title>ByteByteGo Newsletter</title>
 <link>https://blog.bytebytego.com</link>
 
+<item>
+<title>API Gateway</title>
+<link>https://blog.bytebytego.com/p/api-gateway</link>
+<guid>https://blog.bytebytego.com/p/api-gateway</guid>
+<content:encoded><![CDATA[
+<div> API Gateway, modern software architectures, microservices-based systems, single entry point, API requests
+
+总结:<br><br>API Gateway在现代软件架构中起着至关重要的作用，特别是在基于微服务的系统中。它们作为所有API请求的单一入口点，提供统一的接口来访问各种服务和数据。通过将客户端应用程序与后端微服务解耦，API Gateway简化了API管理，并增强了系统的整体性能和安全性。API Gateway有助于在构建可扩展和可维护的系统时提升开发人员体验。通过使用API Gateway，组织可以更好地控制其API景观。随着软件系统复杂性的持续增长，API Gateway将在促进服务和客户端之间有效通信和集成方面发挥越来越重要的作用。 <div>
+<p>API Gateways are essential components in modern software architectures, particularly microservices-based systems.</p><p>They act as a single entry point for all API requests, providing a unified interface for accessing various services and data. By decoupling client applications from backend microservices, API Gateways simplify API management and enhance the overall performance and security of the system.</p><p>API Gateways help enhance the developer experience while building scalable and maintainable systems. Organizations can achieve better control over their API landscape by using API Gateways.</p><p>As the complexity of software systems continues to grow, API Gateways will play an increasingly important role in enabling effective communication and integration between services and clients.</p><p>In this post, we&#8217;ll explore the various aspects of API Gateways in detail.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-imag" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5d572a6-c679-43d9-affa-54cc711a4b75_2250x2504.png" target="_blank"><div class="image2-inset"><source type="image/webp" /><img alt="" class="sizing-normal" height="1620" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5d572a6-c679-43d9-affa-54cc711a4b75_2250x2504.png" width="1456" /><div class="image-link-expand"><svg class="lucide lucide-maximize2 " fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" x2="14" y1="3" y2="10"></line><line x1="3" x2="10" y1="21" y2="14"></line></svg></div></div></a></figure></div><h2>What is an API Gateway</h2>
+      <p>
+          <a href="https://blog.bytebytego.com/p/api-gateway">
+              Read more
+          </a>
+      </p>
+]]></content:encoded>
+<pubDate>Thu, 03 Oct 2024 15:30:42 GMT</pubDate>
+<pubDate>Thu, 03 Oct 2024 15:30:42 GMT</pubDate>
+</item>
 
 <item>
 <title>The Trillion Message Kafka Setup at Walmart</title>
