@@ -4,6 +4,7 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+
 <item>
 <title>Augmented object intelligence with XR-Objects</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/XR-Objects_user_prompt.png</link>
@@ -11,13 +12,10 @@
 <content:encoded><![CDATA[
 <div> 关键词: 文章, 内容, 总结, 中文, 要点
 
-总结:<br><br>这篇文章内容为提取关键词，包含5个关键词，要点包括提取关键词, 输出同一行, 换行写总结, 中文写总结, 总结包含关键词。 <div>
-
+总结:<br /><br />这篇文章内容为提取关键词，包含5个关键词，要点包括提取关键词, 输出同一行, 换行写总结, 中文写总结, 总结包含关键词。 <div>
 ]]></content:encoded>
-<pubDate>2024-10-01T00:00:00+00:00</pubDate>
 <pubDate>2024-10-03T18:17:54.440830+00:00</pubDate>
 </item>
-
 <item>
 <title>Predicting fetal well-being from cardiotocography signals using AI</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/Maternal-Health-hero.jpg</link>

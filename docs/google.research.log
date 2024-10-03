@@ -5820,3 +5820,9 @@ Summarized using GPT-3.5-turbo
 Append: [Augmented object intelligence with XR-Objects](https://storage.googleapis.com/gweb-research2023-media/original_images/XR-Objects_user_prompt.png)
 append_entries: 1
 Finish: 2024-10-03 18:17:58.122703
+------------------------------------------------------
+Started: 2024-10-03 20:14:42.760474
+Existing_entries: 42
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+append_entries: 0
+Finish: 2024-10-03 20:14:46.955765
