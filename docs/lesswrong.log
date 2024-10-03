@@ -8687,3 +8687,12 @@ Existing_entries: 297
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-03 02:46:03.100774
+------------------------------------------------------
+Started: 2024-10-03 04:16:58.247493
+Existing_entries: 297
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 3611
+Summarized using GPT-3.5-turbo
+Append: [Self-Help Corner: Loop Detection](https://www.lesswrong.com/posts/vYuhBAqSLyXehqaaL/self-help-corner-loop-detection)
+append_entries: 1
+Finish: 2024-10-03 04:17:03.423508
