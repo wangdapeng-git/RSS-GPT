@@ -11143,3 +11143,10 @@ Fetching from http://rssfeeds.webmd.com/rss/rss.aspx
 Fetch failed from http://rssfeeds.webmd.com/rss/rss.aspx
 append_entries: 0
 error when rendering xml, skip docs/WebMD 健康
+------------------------------------------------------
+Started: 2024-10-04 10:13:48.144541
+Existing_entries: 69
+Fetching from http://rssfeeds.webmd.com/rss/rss.aspx
+Fetch failed from http://rssfeeds.webmd.com/rss/rss.aspx
+append_entries: 0
+error when rendering xml, skip docs/WebMD 健康
