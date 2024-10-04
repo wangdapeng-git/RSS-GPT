@@ -6740,3 +6740,10 @@ Summarized using GPT-3.5-turbo
 Append: [FEATURED](https://scontent-lax3-1.xx.fbcdn.net/v/t39.2365-6/461179924_892945479558448_4846394290454647920_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=MnE9gMG_lPwQ7kNvgEJZCr7&_nc_ht=scontent-lax3-1.xx&_nc_gid=Ab09Lmx6cCgt9rWJySaYNTd&oh=00_AYA-czEi7cC4anJfLo-TcuJKjAkiCaXyxzfjKbILp-TltQ&oe=67196C10)
 append_entries: 4
 Finish: 2024-10-03 22:14:10.070928
+------------------------------------------------------
+Started: 2024-10-04 00:58:20.229903
+Existing_entries: 644
+Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+Fetch failed from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+append_entries: 0
+error when rendering xml, skip docs/meta.ai

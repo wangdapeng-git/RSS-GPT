@@ -4,6 +4,7 @@
 <title>Awesome Python Weekly</title>
 <link>https://python.libhunt.com/newsletter</link>
 
+
 <item>
 <title>🐍 Issue 436 - Everything you need to know about Python 3.13 – JIT and GIL went up the hill</title>
 <link>https://python.libhunt.com/newsletter/436</link>
@@ -20,13 +21,11 @@ Python 3.13推出了全新的JIT编译器，用于提高性能，同时对全局
 4. 通过优化GIL，Python 3.13能更好地利用多核处理器的性能。
 5. Python 3.13的性能和并发能力有望得到显著提升。
 
-总结:<br><br>Python 3.13引入了即时编译器（JIT）和优化的全局解释器锁（GIL），通过JIT编译器提高性能，同时改善多线程支持，使Python能更好地利用多核处理器，提升性能和并发能力。 <div>
+总结:<br /><br />Python 3.13引入了即时编译器（JIT）和优化的全局解释器锁（GIL），通过JIT编译器提高性能，同时改善多线程支持，使Python能更好地利用多核处理器，提升性能和并发能力。 <div>
 🐍 Issue 436 - Everything you need to know about Python 3.13 – JIT and GIL went up the hill
 ]]></content:encoded>
 <pubDate>Thu, 03 Oct 2024 13:42:00 -0800</pubDate>
-<pubDate>Thu, 03 Oct 2024 13:42:00 -0800</pubDate>
 </item>
-
 <item>
 <title>🐍 Issue 435 - The Python Package Index Should Get Rid of Its Training Wheels</title>
 <link>https://python.libhunt.com/newsletter/435</link>
