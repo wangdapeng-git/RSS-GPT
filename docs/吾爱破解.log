@@ -22218,3 +22218,13 @@ Filter: [WPS Office 18.11国际版](https://www.52pojie.cn/forum.php?mod=viewthr
 Filter: [抖音爬虫 V20240922.1 批量解析主页|喜欢|合集 视频|图片](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1966714)
 append_entries: 0
 Finish: 2024-10-04 16:15:26.330519
+------------------------------------------------------
+Started: 2024-10-04 18:16:09.138972
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Append: [有道词典旧版本V10.0.10](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1969297)
+Filter: [微信/QQ/TIM 防撤回多开补丁 RevokeMsgPatcher v1.9 绿色开源版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968828)
+Filter: [WPS Office 18.11国际版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1966975)
+Filter: [抖音爬虫 V20240922.1 批量解析主页|喜欢|合集 视频|图片](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1966714)
+append_entries: 1
+Finish: 2024-10-04 18:16:11.499165
