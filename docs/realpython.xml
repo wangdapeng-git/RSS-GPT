@@ -4,6 +4,23 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Quiz: Iterators and Iterables in Python: Run Efficient Iterations</title>
+<link>https://realpython.com/quizzes/python-iterators-iterables/</link>
+<guid>https://realpython.com/quizzes/python-iterators-iterables/</guid>
+<content:encoded><![CDATA[
+<div> iterators iterables generator functions yield statement differences<br>
+<br>
+迭代器和可迭代对象是Python中重要的概念，迭代器是一个对象，它实现了`__next__`方法来逐个返回元素，可迭代对象是一组数据的容器，支持使用迭代器来访问。生成器函数是一种特殊的函数，使用`yield`语句可以暂停函数执行并返回一个值，方便按需生成数据。区别在于，生成器函数是一种特殊的迭代器，更方便、简洁地实现迭代器。要熟练使用迭代器和可迭代对象，理解生成器函数和`yield`语句的用法是必不可少的。总结: 在Python中，迭代器、可迭代对象、生成器函数、以及`yield`语句是帮助实现迭代和按需生成数据的关键概念。通过理解它们之间的区别和如何使用，能够更加灵活、高效地处理数据。 <div>
+<p>In this quiz, you&rsquo;ll test your understanding of
+<a href="https://realpython.com/python-iterators-iterables/">Python&rsquo;s Iterators and Iterables</a>.</p>
+<p>By working through this quiz, you&rsquo;ll revisit how to create and work with iterators and iterables, understand the differences between them, and review how to use generator functions and the <code>yield</code> statement.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-04T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Quiz: Python import: Advanced Techniques and Tips</title>
