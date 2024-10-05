@@ -4,15 +4,14 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>聚合AI、犀利猫等通达信MPV1.2</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1969564</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1969564</guid>
 <content:encoded><![CDATA[
-
 也分享一个自用的通达信聚合版，聚合了近期众多老师的原创成果【分析家611、书溧、琨仑、复利小妖老师等。。。。。。】，均线系统、资讯系统、自定义版面等模板内容，可以按照自己的喜好设置，纯属娱乐，反正是玩，大家 ...
 ]]></content:encoded>
-<pubDate>Fri, 04 Oct 2024 00:44:24 +0000</pubDate>
 <pubDate>Fri, 04 Oct 2024 00:44:24 +0000</pubDate>
 </item>
 <item>
@@ -20,13 +19,10 @@
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1969517</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1969517</guid>
 <content:encoded><![CDATA[
-
 [md]**Cppcryptfs** 是一个用 C++ 为 Windows 实现的类似于 gocryptfs 的&amp;#128272;加密文件系统程序；它使用AES256-GCM（推荐）或 AES256-SIV（RFC 5297）在虚拟文件系统中对文件和文件名进行即时、静态加密，已加密的文 ...
 ]]></content:encoded>
 <pubDate>Thu, 03 Oct 2024 14:15:59 +0000</pubDate>
-<pubDate>Thu, 03 Oct 2024 14:15:59 +0000</pubDate>
 </item>
-
 <item>
 <title>有道词典旧版本V10.0.10</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1969297</link>
@@ -13966,33 +13962,6 @@ WingetUI是一款开源的Windows软件管理工具,支持winget、scoop、Choco
 完美解码是一款能实现流行音视频、高清及4K等多媒文件软硬解播放的影音解码包，集成多媒体播放器PotPlayer、MPC-HC、MPC-BE，分离器解码器套件LAV Filters，高画质渲染器madVR，支持中英文语言平台下安装，是高清爱好者的 ...
 ]]></content:encoded>
 <pubDate>Thu, 02 May 2024 10:47:37 +0000</pubDate>
-</item>
-<item>
-<title>[2024-04-22] 西瓜视频的视频下载链接变动</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1917707</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1917707</guid>
-<content:encoded><![CDATA[
-[md]本次就不修仙了，也没什么好分析的（大都是运气）。另外，本文只给出思路，不提供程序。
-
-# 前言
-
-在 `2024-04-22` 西瓜视频的视频下载链接变化了。
-
--   比如访问西瓜视频的视频播放页 `https://www.ixigua.c ...
-]]></content:encoded>
-<pubDate>Thu, 25 Apr 2024 08:41:04 +0000</pubDate>
-</item>
-<item>
-<title>手机WIFI扫描枪 - Barcode to PC：Wi-Fi Scanner v4.6.3</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1916862</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1916862</guid>
-<content:encoded><![CDATA[
-之前发过一个基于蓝牙的手机扫码枪，但可能是我的蓝牙模块有问题，有时偶尔连接不上，又找到了一个基于WIFI实现的手机扫码枪软件，这里分享给大家。
-
-介绍：
-Barcode to PC：Wi-Fi Scanner是一款手机扫描条形码到计算 ...
-]]></content:encoded>
-<pubDate>Tue, 23 Apr 2024 08:04:34 +0000</pubDate>
 </item>
 </channel>
 </rss>
