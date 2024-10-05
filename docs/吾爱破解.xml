@@ -4,12 +4,12 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>油猴脚本【52破解自动签到】</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1969700</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1969700</guid>
 <content:encoded><![CDATA[
-
 [mw_shl_code=JavaScript,true]// ==UserScript==
 // @name         52pojie自动签到
 // @namespace    http://tampermonkey.net/
@@ -19,22 +19,18 @@
 // @grant    ...
 ]]></content:encoded>
 <pubDate>Fri, 04 Oct 2024 12:34:42 +0000</pubDate>
-<pubDate>Fri, 04 Oct 2024 12:34:42 +0000</pubDate>
 </item>
 <item>
 <title>久坐提醒软件</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1968687</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1968687</guid>
 <content:encoded><![CDATA[
-
 如果用一串数字，来量化“久坐”的后果，大概是这样的.……
 澳大利亚昆士兰大学研究发现：久坐1小时的危害~抽2根烟减寿22分钟。
 美国癌症协会在对12.8万人进行了21年的跟踪研究后发现：久座会拉升14种疾病的死亡风险： ...
 ]]></content:encoded>
 <pubDate>Sun, 29 Sep 2024 07:31:47 +0000</pubDate>
-<pubDate>Sun, 29 Sep 2024 07:31:47 +0000</pubDate>
 </item>
-
 <item>
 <title>《文件名管理器》文件更名利器，可整理文件 V2.0.0【2024-10-04】</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1969625</link>
@@ -13970,30 +13966,6 @@ JetBrains 是一家全球性软件公司，专门为软件开发者和团队打�
 - ...
 ]]></content:encoded>
 <pubDate>Mon, 29 Apr 2024 09:29:42 +0000</pubDate>
-</item>
-<item>
-<title>一键定时自动化任务神器 zTasker v1.88.1，支持语音报时+定时计划执行（打工人必备）</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1920144</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1920144</guid>
-<content:encoded><![CDATA[
-zTasker（详情请戳  官网）是一款完全免费支持定时、热键或条件触发的方式执行多种自动化任务的小工具，支持win7-11。其支持超过100种任务类型，50+种定时/条件执行方法，而且任务列表可以随意编辑、排列、移动、更改类 ...
-]]></content:encoded>
-<pubDate>Fri, 03 May 2024 08:30:56 +0000</pubDate>
-</item>
-<item>
-<title>Windows软件管理软件 WingetUI  3.0.2</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1919793</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1919793</guid>
-<content:encoded><![CDATA[
-WingetUI是一款开源的Windows软件管理工具,支持winget、scoop、Chocolatey等主流包管理器,还能管理pip、npm等编程语言的包。有了它,你就可以通过友好的图形界面,轻松搜索、安装、更新、卸载各种Windows软件,告别命令行的折腾。
-
-
-来看看WingetUI的特点:
-
-
-[*]精美 ...
-]]></content:encoded>
-<pubDate>Thu, 02 May 2024 01:59:45 +0000</pubDate>
 </item>
 </channel>
 </rss>
