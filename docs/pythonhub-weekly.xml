@@ -4,6 +4,205 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-10-06</title>
+<link>https://pythonhub.dev/digest/2024-10-06/</link>
+<guid>https://pythonhub.dev/digest/2024-10-06/</guid>
+<content:encoded><![CDATA[
+<div> 多维稀疏数组, 科学计算, 大数据集, 内存优化, 计算性能
+
+关于多维稀疏数组在科学计算中的实现和效率，主要是处理大部分元素为空或为零值的大数据集的效率。强调了稀疏数组在内存优化和计算性能方面的优势。
+
+<br><br>总结: 
+多维稀疏数组在科学计算中起到重要作用，通过优化内存和提高计算性能来处理大数据集。其实现方法能有效应对大部分元素为空或为零值的情况，为数据密集型应用提供了便利。 <div>
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://labs.quansight.org/blog/multi-dimensional-sparse-arrays">Multi-dimensional Sparse Arrays in SciPy</a></strong>
+    
+        <br /><span>The article explores multi-dimensional sparse arrays and their implementation in scientific computing, focusing on their efficiency in handling large datasets with mostly empty or zero-valued elements. It emphasizes the benefits of sparse arrays for memory optimization and computational performance in various data-heavy applications.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=WI6CqykFbDc">How to Design an AWESOME Function Signature in Python</a></strong>
+    
+        <br /><span>This video demonstrates how to design a great function header in Python, highlighting aspects that are often overlooked but can significantly impact the quality of the code. Important considerations will be discussed to enhance coding practices and improve overall functionality.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://jackevans.bearblog.dev/refactoring-python-with-tree-sitter-jedi/">Refactoring Python with Tree-sitter and Jedi</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://drew.silcock.dev/blog/everything-you-need-to-know-about-python-3-13/">Everything you need to know about Python 3.13 – JIT and GIL went up the hill</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/itsthejoker/spiderweb">Spiderweb</a></strong>
+    
+        <br /><span>A small web framework, just big enough for a spider. Also check an</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://medium.com/techtofreedom/7-new-typing-features-in-python-3-13-58caae5f2f10?sk=6ee66766ba372ea1f62b44a0ef08012d">7 New Typing Features in Python 3.13</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://anyblockers.com/posts/building-rag-with-postgres">Building RAG with Postgres</a></strong>
+    
+        <br /><span>A step by step guide to building a RAG system with Postgres.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://engineering.fb.com/2024/09/17/data-infrastructure/inside-bento-jupyter-notebooks-at-meta/">Inside Bento: Jupyter Notebooks at Meta</a></strong>
+    
+        <br /><span>Meta has developed Bento, an internal platform that enhances Jupyter notebooks with features like version control, collaborative editing, and automated dependency management. This system, which handles over 150,000 notebooks and supports 18,000 monthly active users, aims to improve productivity and collaboration for data scientists and engineers across Meta's various teams and projects.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://myscale.com/blog/what-is-contrastive-learning">An In-Depth Guide to Contrastive Learning: Techniques, Models, and Applications</a></strong>
+    
+        <br /><span>Discover the fundamentals of contrastive learning, including key techniques like SimCLR, MoCo, and CLIP. Learn how contrastive learning improves unsupervised learning and its practical applications.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.answer.ai/posts/2024-09-16-rerankers.html">rerankers: A Lightweight Python Library to Unify Ranking Methods</a></strong>
+    
+        <br /><span>Re-ranking is an integral component of many retrieval pipelines; however, there exist numerous approaches to it, all with different implementation methods. To mitigate this, we propose rerankers, a Python library which provides a simple, easy-to-use interface to all commonly used re-ranking approaches.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/simonw/llm">simonw / llm</a></strong>
+    
+        <br /><span>Access large language models from the command-line</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/NeilBotelho/turboAsync">Bringing multithreading to Python's async event loop</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://samagra.me/wtf/2024/09/27/gateway-interfaces.html">WTF is ASGI and WSGI in python apps?</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/cle-b/httpdbg">Httpdbg – A tool to trace the HTTP requests sent by your Python code</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/meta-llama/llama-stack">meta-llama / llama-stack</a></strong>
+    
+        <br /><span>Model components of the Llama Stack APIs</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/unclecode/crawl4ai">unclecode / crawl4ai</a></strong>
+    
+        <br /><span>🔥🕷️ Crawl4AI: Open-source LLM Friendly Web Crawler & Scrapper</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.jetbrains.com/pycharm/2024/09/how-to-use-fastapi-for-machine-learning/">How to Use FastAPI for Machine Learning</a></strong>
+    
+        <br /><span>Learn how to use FastAPI for machine learning. Explore the framework's benefits and why it's popular, and understand how to integrate it into your ML workflows.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-09-29/">Python Hub Weekly Digest for 2024-09-29</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/lds133/weather_landscape">weather_landscape</a></strong>
+    
+        <br /><span>Visualizing Weather Forecasts Through Landscape Imagery.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/skrub-data/skrub/">skrub</a></strong>
+    
+        <br /><span>A Python library that facilitates prepping your tables for machine learning.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/kyutai-labs/moshi">Moshi</a></strong>
+    
+        <br /><span>A speech-text foundation model for real time dialogue.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/qhjqhj00/MemoRAG">MemoRAG</a></strong>
+    
+        <br /><span>Empowering RAG with a memory-based data interface for all-purpose applications!</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/ebonnal/streamable">streamable</a></strong>
+    
+        <br /><span>Stream-like manipulation of Python iterables: fluent, typed, lazy, concurrent.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/TianxingChen/RoboTwin">RoboTwin</a></strong>
+    
+        <br /><span>Dual-Arm Robot Benchmark with Generative Digital Twins.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/MODSetter/SurfSense">SurfSense</a></strong>
+    
+        <br /><span>Personal AI Assistant for World Wide Web Surfers. Research &amp; Never forget anything you see on the Internet.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/learnpython/comments/1fsol3z/what_are_some_wellknown_universally_understood/">What are some well-known, universally understood things that a self learner might miss?</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 06 Oct 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 06 Oct 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-09-29</title>
