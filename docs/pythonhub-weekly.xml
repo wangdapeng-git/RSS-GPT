@@ -4,6 +4,7 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-10-06</title>
 <link>https://pythonhub.dev/digest/2024-10-06/</link>
@@ -13,7 +14,7 @@
 
 关于多维稀疏数组在科学计算中的实现和效率，主要是处理大部分元素为空或为零值的大数据集的效率。强调了稀疏数组在内存优化和计算性能方面的优势。
 
-<br><br>总结: 
+<br /><br />总结: 
 多维稀疏数组在科学计算中起到重要作用，通过优化内存和提高计算性能来处理大数据集。其实现方法能有效应对大部分元素为空或为零值的情况，为数据密集型应用提供了便利。 <div>
 <div></div>
 
@@ -201,9 +202,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 06 Oct 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 06 Oct 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-09-29</title>
 <link>https://pythonhub.dev/digest/2024-09-29/</link>

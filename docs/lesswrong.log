@@ -8960,3 +8960,12 @@ Existing_entries: 300
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-06 18:16:05.964795
+------------------------------------------------------
+Started: 2024-10-06 20:13:40.632190
+Existing_entries: 300
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 16712
+Summarized using GPT-3.5-turbo
+Append: [Why I’m not a Bayesian](https://www.lesswrong.com/posts/TyusAoBMjYzGN3eZS/why-i-m-not-a-bayesian)
+append_entries: 1
+Finish: 2024-10-06 20:13:48.076106
