@@ -22505,3 +22505,15 @@ Filter: [【24/10/04】抖音下载工具v2.5 支持点赞下载 下载博主主
 Filter: [抖音爬虫 V20240922.1 批量解析主页|喜欢|合集 视频|图片](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1966714)
 append_entries: 0
 Finish: 2024-10-06 12:21:04.891017
+------------------------------------------------------
+Started: 2024-10-06 14:10:26.441425
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Append: [Windows 11 LTSC 2024来啦](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1969627)
+Filter: [应用管家TV版v1.4.6——电视应用+文件实用管理器（亦支持车机+平板）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968836)
+Filter: [微信/QQ/TIM 防撤回多开补丁 RevokeMsgPatcher v1.9 绿色开源版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968828)
+Filter: [【24/10/04】抖音下载工具v2.5 支持点赞下载 下载博主主页合集 自己的喜欢列表收藏...](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1967648)
+Filter: [WPS Office 18.11国际版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1966975)
+Filter: [抖音爬虫 V20240922.1 批量解析主页|喜欢|合集 视频|图片](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1966714)
+append_entries: 1
+Finish: 2024-10-06 14:10:28.664060
