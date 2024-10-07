@@ -4,12 +4,12 @@
 <title>吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>首发最新猎人多功能工具箱 PRO 2.0</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1970272</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1970272</guid>
 <content:encoded><![CDATA[
-
 谁懂这玩意的含金量？？？？？？？？？？？
 【最新猎人多功能工具箱2.0】！！！！！！！
 
@@ -21,17 +21,14 @@
 现在找 ...
 ]]></content:encoded>
 <pubDate>Mon, 07 Oct 2024 11:36:07 +0000</pubDate>
-<pubDate>Mon, 07 Oct 2024 11:36:07 +0000</pubDate>
 </item>
 <item>
 <title>科学计算器 Qalculate v5.2.0 （2024.7.1更新）超多计算换算功能 大量修复更新</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1970162</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1970162</guid>
 <content:encoded><![CDATA[
-
 Qalculate 科学计算！是一个多用途的跨平台桌面计算器。它使用简单，但提供了通常为复杂数学软件包保留的功能和多功能性，以及满足日常需求的有用工具（如货币转换和百分比计算）。功能包括一个大型的可定制函数库、单位计算和转换、物理常数、符号计算（包括积分和方程 ...
 ]]></content:encoded>
-<pubDate>Mon, 07 Oct 2024 02:14:58 +0000</pubDate>
 <pubDate>Mon, 07 Oct 2024 02:14:58 +0000</pubDate>
 </item>
 <item>
@@ -39,14 +36,11 @@ Qalculate 科学计算！是一个多用途的跨平台桌面计算器。它使�
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1970143</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1970143</guid>
 <content:encoded><![CDATA[
-
 众所周知，如果在淘宝买东西，之前付款的时候，需要用支付宝支付，对于没有或少用支付宝的不太友好，现如今，淘宝买东西终于可以使用微信支付来付款了。
 经测试，支持90%以上店铺。版本需要在10.40.11或以上。建议去应 ...
 ]]></content:encoded>
 <pubDate>Mon, 07 Oct 2024 00:22:47 +0000</pubDate>
-<pubDate>Mon, 07 Oct 2024 00:22:47 +0000</pubDate>
 </item>
-
 <item>
 <title>iRead爱读书2.799和iRead爱读书3.0993制作电子书工具和教程</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1969956</link>
@@ -13972,54 +13966,6 @@ EdgeLockMouse最快快捷键，是一款基于鼠标位置的一键式快捷键�
 Optimizer，采用 GPL-3.0 协议，是一款开源免费的Windows优化器，旨在增强您在Windows上的隐私和安全性。强烈建议在全新安装Windows后使用此工具，以实现最大的隐私和安全优势。根据您的Windows版本，优化器还 ...
 ]]></content:encoded>
 <pubDate>Sun, 05 May 2024 06:44:18 +0000</pubDate>
-</item>
-<item>
-<title>微信数据库解密的一点经验</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1920425</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1920425</guid>
-<content:encoded><![CDATA[
-[md]## #微信 #数据库 #SQL #SQLCipher 
-## #安卓
-# EnMicroMsg.db 
-### 数据库中的`rcontact`表中含有联系人信息
-### 联系人 Type 把这个数字转换成二进制去看
-
-|数字|二进制|意义|
-|---|---|---|
-|0|0|微信运动 ...
-]]></content:encoded>
-<pubDate>Sat, 04 May 2024 10:41:30 +0000</pubDate>
-</item>
-<item>
-<title>PC个人微信+企业微信多开程序，并支持多开后窗口平铺排列</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1919503</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1919503</guid>
-<content:encoded><![CDATA[
-前言：
-因为我这边有个人微信和企业微信多开的需求，但是论坛上面发布的总是差点意思；
-要么只支持个人微信，要么只支持企业微信，并且还需要个人填写路径，这让我很不爽，好不容易找到了一个符合我需求的，一看还只有 ...
-]]></content:encoded>
-<pubDate>Tue, 30 Apr 2024 12:06:13 +0000</pubDate>
-</item>
-<item>
-<title>Question图形化文本编辑</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1919675</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1919675</guid>
-<content:encoded><![CDATA[
-[md]# Question图形化文本编辑器
-
-## 它能做什么？
-
-- 批量处理一段的文本中要保留的文字
-  
-- 批量处理一段的文本中要删除的文字
-  
-
-## 为什么设计这样一款软件？
-
-设计一款什么样的软件才能提升自己的文字 ...
-]]></content:encoded>
-<pubDate>Thu, 02 May 2024 02:18:53 +0000</pubDate>
 </item>
 </channel>
 </rss>

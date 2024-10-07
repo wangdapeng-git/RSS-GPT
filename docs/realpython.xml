@@ -4,12 +4,13 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Python News Roundup: October 2024</title>
 <link>https://realpython.com/python-news-october-2024/</link>
 <guid>https://realpython.com/python-news-october-2024/</guid>
 <content:encoded><![CDATA[
-<div> 版本发布 延迟 垃圾回收 互动解释器 静态类型系统 REPL 错误信息 JIT 编译器 并发<br><br>总结:Python 3.13版本发布时被延迟，主要是因为增量GC实现的性能问题。在新版本中包含了新的交互式解释器（REPL）、带颜色的回溯和改进的错误信息、无全局解释器锁（GIL）的独立线程版本、实验性的即时编译（JIT）编译器以及多项静态类型系统改进。新增的自由线程和JIT编译器需要使用特殊构建标志来编译Python。值得注意的是，Python 3.13版本处理延迟发布的问题时采取了负责任的态度，确保新功能的稳定性和性能。 <div>
+<div> 版本发布 延迟 垃圾回收 互动解释器 静态类型系统 REPL 错误信息 JIT 编译器 并发<br /><br />总结:Python 3.13版本发布时被延迟，主要是因为增量GC实现的性能问题。在新版本中包含了新的交互式解释器（REPL）、带颜色的回溯和改进的错误信息、无全局解释器锁（GIL）的独立线程版本、实验性的即时编译（JIT）编译器以及多项静态类型系统改进。新增的自由线程和JIT编译器需要使用特殊构建标志来编译Python。值得注意的是，Python 3.13版本处理延迟发布的问题时采取了负责任的态度，确保新功能的稳定性和性能。 <div>
 <div><p>October is always an important month for Python, as this is when a new major version is released. <strong>Python 3.13</strong> is the new version this year, and it brings several new features that lay the groundwork for other changes in the future. As one version of Python comes to life, another is put to rest. <strong>Python 3.8</strong> is already five years old, which means that this version won’t be supported any longer.</p>
 <p>There are also exciting developments happening in the wider Python community. In this newsletter, you can read about <strong>Polars’</strong> improved support for <strong>plotting</strong>, as well as how Django developers gathered for the annual <strong>DjangoCon US</strong> conference.</p>
 <p>Time to jump in and read about what’s happening in the world of Python!</p>
@@ -36,10 +37,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-10-07T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Quiz: Iterators and Iterables in Python: Run Efficient Iterations</title>
 <link>https://realpython.com/quizzes/python-iterators-iterables/</link>
