@@ -9041,3 +9041,15 @@ Existing_entries: 301
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-07 20:16:10.530081
+------------------------------------------------------
+Started: 2024-10-07 22:13:21.943081
+Existing_entries: 301
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 42327
+Summarized using GPT-3.5-turbo
+Append: [Research update: Towards a Law of Iterated Expectations for Heuristic Estimators](https://www.lesswrong.com/posts/QA3cmgNtNriMpxQgo/research-update-towards-a-law-of-iterated-expectations-for)
+Token length: 3015
+Summarized using GPT-3.5-turbo
+Append: [A Narrow Path: a plan to deal with AI extinction risk](https://www.lesswrong.com/posts/Z8bthnjW52uTCFGku/a-narrow-path-a-plan-to-deal-with-ai-extinction-risk)
+append_entries: 2
+Finish: 2024-10-07 22:13:34.005780
