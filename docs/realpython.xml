@@ -4,6 +4,41 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Python News Roundup: October 2024</title>
+<link>https://realpython.com/python-news-october-2024/</link>
+<guid>https://realpython.com/python-news-october-2024/</guid>
+<content:encoded><![CDATA[
+<div> 版本发布 延迟 垃圾回收 互动解释器 静态类型系统 REPL 错误信息 JIT 编译器 并发<br><br>总结:Python 3.13版本发布时被延迟，主要是因为增量GC实现的性能问题。在新版本中包含了新的交互式解释器（REPL）、带颜色的回溯和改进的错误信息、无全局解释器锁（GIL）的独立线程版本、实验性的即时编译（JIT）编译器以及多项静态类型系统改进。新增的自由线程和JIT编译器需要使用特殊构建标志来编译Python。值得注意的是，Python 3.13版本处理延迟发布的问题时采取了负责任的态度，确保新功能的稳定性和性能。 <div>
+<div><p>October is always an important month for Python, as this is when a new major version is released. <strong>Python 3.13</strong> is the new version this year, and it brings several new features that lay the groundwork for other changes in the future. As one version of Python comes to life, another is put to rest. <strong>Python 3.8</strong> is already five years old, which means that this version won’t be supported any longer.</p>
+<p>There are also exciting developments happening in the wider Python community. In this newsletter, you can read about <strong>Polars’</strong> improved support for <strong>plotting</strong>, as well as how Django developers gathered for the annual <strong>DjangoCon US</strong> conference.</p>
+<p>Time to jump in and read about what’s happening in the world of Python!</p>
+<h2 id="python-313-release-slightly-delayed">Python 3.13 Release Slightly Delayed<a class="headerlink" href="#python-313-release-slightly-delayed" title="Permanent link"></a></h2>
+<p>The release of Python 3.13, the newest version of Python, was originally scheduled for October 1, 2024. However, a few days before that date, release manager Thomas Wouters decided to postpone the release until <strong>October 7, 2024</strong>:</p>
+<blockquote>
+<p>I’m a little concerned with the impact of the incremental GC change in 3.13, which recently <a href="https://github.com/python/cpython/issues/124567">showed up</a>. It’s not clear that the incremental GC provides significant improvements (although the smaller pauses are probably desirable), it clearly has slightly more overhead in common cases, and we’re still discovering pathological cases.</p>
+<p>I don’t think we should release 3.13.0 with the incremental GC. (<a href="https://discuss.python.org/t/incremental-gc-and-pushing-back-the-3-13-0-release/65285">Source</a>)</p>
+</blockquote>
+<p>The incremental <a href="https://realpython.com/python-memory-management/#garbage-collection">garbage collector</a> was a small improvement slated for Python 3.13. In many cases, the new garbage collection algorithm improves performance. Unfortunately, it was found to slow down Python significantly in some rare cases.</p>
+<p>As a result, the core developers decided to revert the implementation and use the traditional garbage collector in Python 3.13. At the same time, the new implementation is being scrutinized and currently the goal is to include incremental garbage collection in Python 3.14.</p>
+<p>Delaying a major Python release is never an easy choice. However, erring on the side of caution is a good approach, and it’s great to see that the Python 3.13 release is being handled responsibly.</p>
+<h2 id="python-313-highlights">Python 3.13 Highlights<a class="headerlink" href="#python-313-highlights" title="Permanent link"></a></h2>
+<p>As always, a new Python release brings many improvements and new features. You can explore these in-depth in <a href="https://realpython.com/python313-new-features/">Python 3.13: Cool New Features for You to Try</a>. In particular, the new release includes:</p>
+<ul>
+<li>A brand new interactive interpreter (REPL)</li>
+<li>Colored tracebacks and improved error messages</li>
+<li>A separate, free-threaded version of Python that runs without the global interpreter lock (GIL)</li>
+<li>An experimental just-in-time (JIT) compiler</li>
+<li>Several improvements to Python’s static type system</li>
+</ul>
+<p>For free threading and the JIT compiler, you need to compile Python with special build flags. Read <a href="https://realpython.com/python313-free-threading-jit/">Python 3.13 Preview: Free Threading and a JIT Compiler</a> to learn more about how to explore these two new features. Additionally, <a href="https://realpython.com/python313-repl/">Python 3.13 Preview: A Modern REPL</a> provides more detail on the new REPL.</p>
+</div><h2><a href="https://realpython.com/python-news-october-2024/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-news-october-2024/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-07T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Quiz: Iterators and Iterables in Python: Run Efficient Iterations</title>
