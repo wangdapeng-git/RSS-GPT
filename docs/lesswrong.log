@@ -9122,3 +9122,12 @@ Summarized using GPT-3.5-turbo
 Append: [Advice for journalists](https://www.lesswrong.com/posts/LfCnivp8qhp6BZZox/advice-for-journalists)
 append_entries: 1
 Finish: 2024-10-08 20:12:37.288867
+------------------------------------------------------
+Started: 2024-10-08 22:12:38.644129
+Existing_entries: 304
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 18956
+Summarized using GPT-3.5-turbo
+Append: [Overview of strong human intelligence amplification methods](https://www.lesswrong.com/posts/jTiSWHKAtnyA723LE/overview-of-strong-human-intelligence-amplification-methods)
+append_entries: 1
+Finish: 2024-10-08 22:12:44.311757
