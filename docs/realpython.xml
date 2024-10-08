@@ -4,6 +4,33 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>What's New in Python 3.13</title>
+<link>https://realpython.com/courses/new-features-python-313/</link>
+<guid>https://realpython.com/courses/new-features-python-313/</guid>
+<content:encoded><![CDATA[
+<div> Python 3.13, 版本更新, 改进, 交互式解释器, 错误消息, GIL, JIT 编译器, 静态类型系统  
+<br>  
+Python 3.13 是一次重大的更新，虽然大部分变化在内部进行，不会立即展示给用户。这个版本为未来性能改进奠定了基础。课程将介绍这些背景并探讨一些全新功能。罗列了此版本的改进项目，涵盖了交互式解释器、错误信息、GIL 移除与 Python 自由线程、JIT 编译器实验性实现、静态类型系统细微提升。通过课程，您将发现这些变化，并了解 Python 3.13 如何为您效力。如果想尝试课程中的示例，需要使用 Python 3.13。相关文档可指导您在系统中安装新版本的 Python。  
+<br><br>总结: Python 3.13 版本带来了多项改进，包括交互式解释器、错误消息、GIL 的移除、JIT 编译器的实验性实现以及静态类型系统的更新。这些改进为未来性能提升奠定了基础，带来更好的用户体验和开发效率。 <div>
+<p><a href="https://www.python.org/downloads/release/python-3120/">Python 3.13</a> was published on <a href="https://peps.python.org/pep-0719/">October 7, 2024</a>. This new version is a major step forward for the language, although several of the biggest changes are happening under the hood and won&rsquo;t be immediately visible to you.</p>
+<p>In a sense, Python 3.13 is laying the groundwork for some future improvements, especially to the language&rsquo;s performance. As you watch the course, you&rsquo;ll learn more about the background for this and dive into some new features that are fully available now.</p>
+<p><strong>In this video course, you&rsquo;ll learn about some of the improvements in the new version, including:</strong></p>
+<ul>
+<li>Improvements made to the <strong>interactive interpreter (REPL)</strong></li>
+<li><strong>Clearer error messages</strong> that can help you fix common mistakes</li>
+<li>Advancements done in <strong>removing the global interpreter lock (GIL)</strong> and making Python free-threaded</li>
+<li>The implementation of an <strong>experimental Just-In-Time (JIT) compiler</strong></li>
+<li>A host of minor upgrades to <strong>Python&rsquo;s static type system</strong></li>
+</ul>
+<p>In this video course, you&rsquo;ll explore these changes and see how this new version of Python can work for you.</p>
+<p>If you want to try any of the examples in this video course, then you&rsquo;ll need to use Python 3.13. The <a href="https://realpython.com/installing-python/">Python 3 Installation &amp; Setup Guide</a> and <a href="https://realpython.com/python-pre-release/">How Can You Install a Pre-Release Version of Python?</a> walk you through several options for adding a new version of Python to your system.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-08T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Python News Roundup: October 2024</title>
