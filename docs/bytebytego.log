@@ -7157,3 +7157,12 @@ Existing_entries: 66
 Fetching from https://blog.bytebytego.com/feed
 append_entries: 0
 Finish: 2024-10-08 14:15:40.645443
+------------------------------------------------------
+Started: 2024-10-08 16:16:34.440623
+Existing_entries: 66
+Fetching from https://blog.bytebytego.com/feed
+Token length: 10334
+Summarized using GPT-3.5-turbo
+Append: [How TikTok Manages A 200K File MonoRepo with Sparo](https://blog.bytebytego.com/p/how-tiktok-manages-a-200k-file-monorepo)
+append_entries: 1
+Finish: 2024-10-08 16:16:39.449125
