@@ -4,6 +4,110 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Build a Contact Book App With Python, Textual, and SQLite</title>
+<link>https://realpython.com/contact-book-python-textual/</link>
+<guid>https://realpython.com/contact-book-python-textual/</guid>
+<content:encoded><![CDATA[
+<div> Python, Textual, SQLite, Contact book, TUI
+
+要点:
+- 使用Python， Textual和SQLite构建联系簿应用程序
+- 创建TUI联系簿应用程序
+- 使用SQLite处理数据库操作
+- 连接TUI和数据库代码，使应用程序功能正常
+
+<br><br>总结:
+本教程将教你如何使用Python，Textual和SQLite构建联系簿应用程序。通过创建TUI联系簿应用程序并处理数据库操作，你将学会如何将应用程序连接到数据库代码并使其正常运行。这将让你建立一个功能齐全的联系簿应用程序，可以存储和管理你的联系信息。 <div>
+<div><p>Building <a href="https://realpython.com/intermediate-python-project-ideas/">projects</a> is a great way to learn programming and have fun at the same time. When you work on a project, you apply different coding skills simultaneously, which is good practice for what you’ll do in a real-life project. In this tutorial, you’ll create a contact book application with a <a href="https://en.wikipedia.org/wiki/Text-based_user_interface">text-based interface (TUI)</a> based on Python and Textual. To store the contact data, your app will use an SQLite database. </p>
+<p><strong>In this tutorial, you’ll learn how to:</strong></p>
+<ul>
+<li>Create the <strong>contact book app’s TUI</strong> using Textual</li>
+<li>Handle the database operations using <strong>SQLite</strong></li>
+<li><strong>Connect</strong> the app’s TUI with the database code and make it functional</li>
+</ul>
+<p>At the end of this project, you’ll have a functional contact book application that will allow you to store and manage your contact information.</p>
+<p>To get the complete source code for the application and the code for every step in this tutorial, click the link below:</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/contact-book-python-textual-code/">Click here to download the free sample code</a> you’ll use to build a contact book app with Python, Textual, and SQLite.</p>
+</div>
+<h2 id="demo-a-contact-book-built-with-python-and-textual">Demo: A Contact Book Built With Python and Textual<a class="headerlink" href="#demo-a-contact-book-built-with-python-and-textual" title="Permanent link"></a></h2>
+<p>Contact or address books are a widely used type of application. They can be found on phones and computers, allowing users to store and manage contact information for family, friends, coworkers, and so on.</p>
+<p>In this tutorial, you’ll code a contact book TUI app with Python, <a href="https://textual.textualize.io/">Textual</a>, and <a href="https://www.sqlite.org/about.html">SQLite</a>. Here’s a demo of how your contact book will look once you’ve followed all the steps:</p>
+<figure>
+  <div class="embed-responsive embed-responsive-16by9 rounded mb-3 ">
+    
+  </div>
+
+</figure>
+
+<p>Your contact book will provide a basic set of features for this type of application, and you’ll be able to display, add, and remove the information in your contacts list.</p>
+<h2 id="project-overview">Project Overview<a class="headerlink" href="#project-overview" title="Permanent link"></a></h2>
+<p>To build your contact book app, you’ll organize the code in a few modules under a package. In this tutorial, you’ll use the following directory structure:</p>
+<div class="highlight"><pre><span></span><code>rpcontacts_project/
+│
+├── rpcontacts/
+│   ├── __init__.py
+│   ├── __main__.py
+│   ├── database.py
+│   ├── rpcontacts.tcss
+│   └── tui.py
+│
+├── README.md
+└── requirements.txt
+</code></pre></div>
+<p>The root directory of your project is <code>rpcontacts_project/</code>. Inside, there’s an <code>rpcontacts/</code> subdirectory that holds the application’s main package.</p>
+<p>You’ll cover the content of each file in this tutorial. The name of each file will give you an idea of its role in the application.</p>
+<p>For example, <code>__main__.py</code> will host the application, and <code>database.py</code> will provide database-related code. Similarly, <code>rpcontacts.tcss</code> is a <a href="https://textual.textualize.io/guide/CSS/">CSS</a> file that will allow you to tweak the visual style of your Textual app. Finally, <code>tui.py</code> will contain the code to generate the app’s TUI, including the main screen and a couple of auxiliary screens or dialogs.</p>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link"></a></h2>
+<p>To get the most out of this project, you should have some previous knowledge of how to lay out a Python project and work with <a href="https://realpython.com/python-sql-libraries/#sqlite">SQLite</a> databases. You should also know the basics of working with Python classes. Some knowledge about writing CSS code would also be a plus.</p>
+<p>To satisfy these knowledge requirements, you can take a look at the following resources:</p>
+<ul>
+<li><a href="https://realpython.com/python-application-layouts/">Python Application Layouts: A Reference</a></li>
+<li><a href="https://realpython.com/python-sql-libraries/">Introduction to Python SQL Libraries</a></li>
+<li><a href="https://realpython.com/python-sqlite-sqlalchemy/">Data Management With Python, SQLite, and SQLAlchemy</a></li>
+<li><a href="https://realpython.com/html-css-python/">HTML and CSS for Python Developers</a></li>
+</ul>
+<p>Don’t worry if you don’t have all of the prerequisite knowledge before starting this tutorial—that’s completely okay! You’ll learn through the process of getting your hands dirty as you build the project. If you get stuck, then take some time to review the resources linked above. Then, get back to the code.</p>
+<p>The contact book application you’ll build in this tutorial has a single external dependency, which is <a href="https://textual.textualize.io/">Textual</a>. This library provides a rapid application development framework that allows you to create apps you can run in your terminal and browser.</p>
+<p>To follow best practices in your development process, you can start by creating a <a href="https://realpython.com/python-virtual-environments-a-primer/">virtual environment</a> and then <a href="https://textual.textualize.io/getting_started/#installation">install Textual</a> using <a href="https://realpython.com/what-is-pip/"><code>pip</code></a>:</p>
+<ul class="nav nav-tabs justify-content-end js-platform-widget-tabs">
+
+  <li class="nav-item mb-0 js-platform-widget-tab-windows">
+    <a class="nav-link link-unstyled text-body active small" href="#windows-1" id="windows-tab-1"><span class="icon baseline text-muted mr-1"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Windows</a>
+  </li>
+
+
+
+
+  <li class="nav-item mb-0 js-platform-widget-tab-linuxmacos">
+    <a class="nav-link link-unstyled text-body small" href="#linux-macos-1" id="macos-tab-1"><span class="icon baseline text-muted"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span class="icon baseline text-muted mr-1"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Linux + macOS</a>
+  </li>
+
+</ul>
+</div><h2><a href="https://realpython.com/contact-book-python-textual/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/contact-book-python-textual/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-09T14:00:00+00:00</pubDate>
+</item>
+<item>
+<title>Quiz: Python Closures: Common Use Cases and Examples</title>
+<link>https://realpython.com/quizzes/python-closure/</link>
+<guid>https://realpython.com/quizzes/python-closure/</guid>
+<content:encoded><![CDATA[
+<div> Python、closures、functional programming languages、decorators、quiz
+<br>
+Python的闭包是函数式编程语言中的常见特性，特别受到Python程序员的喜爱，因为它们允许创建基于函数的装饰器。本篇文章主要介绍了Python闭包的概念和用法，并通过一道测验来测试对闭包的理解。闭包在编程中起着重要作用，特别是在函数式编程中。同时，闭包也可以用于创建装饰器，实现对函数的增强功能。读者可以通过此篇文章了解闭包的基本概念和在Python中的应用。通过阅读本文和完成测验，读者可以加深对Python闭包的理解。总结: Python闭包在函数式编程中具有重要作用，可以用于创建装饰器，是Python编程中常用的技术。Br/> <div>
+<p>In this quiz, you&rsquo;ll test your understanding of Python closures. Closures are a common feature in functional programming languages and are particularly popular in Python because they allow you to create function-based decorators.</p>
+<p>Take this quiz after reading our <a href="https://realpython.com/python-closure/">Python Closures: Common Use Cases and Examples</a> tutorial.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-08T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>What's New in Python 3.13</title>
