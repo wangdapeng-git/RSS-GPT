@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Build a Contact Book App With Python, Textual, and SQLite</title>
 <link>https://realpython.com/contact-book-python-textual/</link>
@@ -17,7 +18,7 @@
 - 使用SQLite处理数据库操作
 - 连接TUI和数据库代码，使应用程序功能正常
 
-<br><br>总结:
+<br /><br />总结:
 本教程将教你如何使用Python，Textual和SQLite构建联系簿应用程序。通过创建TUI联系簿应用程序并处理数据库操作，你将学会如何将应用程序连接到数据库代码并使其正常运行。这将让你建立一个功能齐全的联系簿应用程序，可以存储和管理你的联系信息。 <div>
 <div><p>Building <a href="https://realpython.com/intermediate-python-project-ideas/">projects</a> is a great way to learn programming and have fun at the same time. When you work on a project, you apply different coding skills simultaneously, which is good practice for what you’ll do in a real-life project. In this tutorial, you’ll create a contact book application with a <a href="https://en.wikipedia.org/wiki/Text-based_user_interface">text-based interface (TUI)</a> based on Python and Textual. To store the contact data, your app will use an SQLite database. </p>
 <p><strong>In this tutorial, you’ll learn how to:</strong></p>
@@ -89,7 +90,6 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-10-09T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -98,17 +98,15 @@
 <guid>https://realpython.com/quizzes/python-closure/</guid>
 <content:encoded><![CDATA[
 <div> Python、closures、functional programming languages、decorators、quiz
-<br>
+<br />
 Python的闭包是函数式编程语言中的常见特性，特别受到Python程序员的喜爱，因为它们允许创建基于函数的装饰器。本篇文章主要介绍了Python闭包的概念和用法，并通过一道测验来测试对闭包的理解。闭包在编程中起着重要作用，特别是在函数式编程中。同时，闭包也可以用于创建装饰器，实现对函数的增强功能。读者可以通过此篇文章了解闭包的基本概念和在Python中的应用。通过阅读本文和完成测验，读者可以加深对Python闭包的理解。总结: Python闭包在函数式编程中具有重要作用，可以用于创建装饰器，是Python编程中常用的技术。Br/> <div>
 <p>In this quiz, you&rsquo;ll test your understanding of Python closures. Closures are a common feature in functional programming languages and are particularly popular in Python because they allow you to create function-based decorators.</p>
 <p>Take this quiz after reading our <a href="https://realpython.com/python-closure/">Python Closures: Common Use Cases and Examples</a> tutorial.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-10-08T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>What's New in Python 3.13</title>
 <link>https://realpython.com/courses/new-features-python-313/</link>
