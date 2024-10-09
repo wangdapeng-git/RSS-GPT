@@ -9161,3 +9161,12 @@ Existing_entries: 307
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-09 06:19:23.943266
+------------------------------------------------------
+Started: 2024-10-09 08:16:54.519187
+Existing_entries: 307
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 24800
+Summarized using GPT-3.5-turbo
+Append: [Schelling game evaluations for AI control](https://www.lesswrong.com/posts/n2c62YS8RJtD4Aqhh/schelling-game-evaluations-for-ai-control)
+append_entries: 1
+Finish: 2024-10-09 08:17:01.296569
