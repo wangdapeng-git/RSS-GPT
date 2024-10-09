@@ -9140,3 +9140,9 @@ Summarized using GPT-3.5-turbo
 Append: [There is a globe in your LLM](https://www.lesswrong.com/posts/guNzr32FC6DYCaSgJ/there-is-a-globe-in-your-llm)
 append_entries: 1
 Finish: 2024-10-09 00:58:25.192363
+------------------------------------------------------
+Started: 2024-10-09 02:45:51.711983
+Existing_entries: 306
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-10-09 02:45:52.678100
