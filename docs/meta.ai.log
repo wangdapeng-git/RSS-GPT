@@ -7888,3 +7888,21 @@ Existing_entries: 884
 Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
 append_entries: 0
 Finish: 2024-10-09 18:17:03.035798
+------------------------------------------------------
+Started: 2024-10-09 20:14:57.801711
+Existing_entries: 884
+Fetching from https://rss.diffbot.com/atom?url=https://ai.meta.com/blog/
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [How Neuromnia is transforming ABA therapy with Llama 3.1](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/462336374_921213146539106_6352504978516370528_n.png?_nc_cat=103&ccb=1-7&_nc_sid=e280be&_nc_ohc=60q2RzMINGsQ7kNvgHPAJ1_&_nc_ht=scontent-sjc3-1.xx&_nc_gid=AyoH7Wc2eXzeVd6ytCMGJGB&oh=00_AYBIvL6nUFbQTSIU8LfCKZAZVjr56PtNc8jHfcqMdtBrkQ&oe=672126CC)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Making data science more accessible to enterprises with Llama](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/461418089_823749236589991_6798648621973345181_n.png?_nc_cat=107&ccb=1-7&_nc_sid=e280be&_nc_ohc=i1SytUBuYRAQ7kNvgFTNMSh&_nc_ht=scontent-sjc3-1.xx&_nc_gid=AyoH7Wc2eXzeVd6ytCMGJGB&oh=00_AYCUZl3xXNzC3-px3gDVZuuQEuh7JnBofIH3QSW8OffAvQ&oe=672119E8)
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Introducing the Digital Twin Catalog from Reality Labs Research](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/461679311_1535803197306975_1457654727555132372_n.gif?_nc_cat=109&ccb=1-7&_nc_sid=e280be&_nc_ohc=ixlinh2EvmcQ7kNvgEkfehp&_nc_ht=scontent-sjc3-1.xx&_nc_gid=AyoH7Wc2eXzeVd6ytCMGJGB&oh=00_AYCKgxvY8FLnNoEoHxnTTLWZgI6emjKvYWf3KAzO13u87A&oe=67211830)
+Token length: 68
+Summarized using GPT-3.5-turbo
+Append: [Responsible AI](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/460981187_554072500307898_6342706179093701619_n.png?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=K58_xY8X0_AQ7kNvgFzMKY5&_nc_ht=scontent-sjc3-1.xx&_nc_gid=AyoH7Wc2eXzeVd6ytCMGJGB&oh=00_AYD-_OhGSzEXDPkHJLn2GiLa_HpMmpNL4MKf8CWJZlOMHw&oe=672112CB)
+append_entries: 4
+Finish: 2024-10-09 20:15:41.772291
