@@ -9155,3 +9155,9 @@ Summarized using GPT-3.5-turbo
 Append: [Evaluating the truth of statements in a world of ambiguous language.](https://www.lesswrong.com/posts/22pLa3S2E9rDJ6Yjh/evaluating-the-truth-of-statements-in-a-world-of-ambiguous)
 append_entries: 1
 Finish: 2024-10-09 04:16:17.130142
+------------------------------------------------------
+Started: 2024-10-09 06:19:23.034504
+Existing_entries: 307
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-10-09 06:19:23.943266
