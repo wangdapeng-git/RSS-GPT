@@ -6,19 +6,77 @@
 
 <item>
 <title>Making data science more accessible to enterprises with Llama</title>
-<link>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/461418089_823749236589991_6798648621973345181_n.png?_nc_cat=107&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=i1SytUBuYRAQ7kNvgHdYvRo&amp;_nc_ht=scontent-sjc3-1.xx&amp;_nc_gid=AD-l_vkTaLV-OHEEEOrQ7vy&amp;oh=00_AYBKF-jPbYk9Hhkp5P2YVhpuPF7l1i8xF7Orbm0gdYGN7A&amp;oe=6720A968</link>
-<guid>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/461418089_823749236589991_6798648621973345181_n.png?_nc_cat=107&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=i1SytUBuYRAQ7kNvgHdYvRo&amp;_nc_ht=scontent-sjc3-1.xx&amp;_nc_gid=AD-l_vkTaLV-OHEEEOrQ7vy&amp;oh=00_AYBKF-jPbYk9Hhkp5P2YVhpuPF7l1i8xF7Orbm0gdYGN7A&amp;oe=6720A968</guid>
+<link>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/461418089_823749236589991_6798648621973345181_n.png?_nc_cat=107&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=i1SytUBuYRAQ7kNvgEtp3QY&amp;_nc_ht=scontent-sjc3-1.xx&amp;_nc_gid=AfQx5xPEi348D7iqNoNVHsW&amp;oh=00_AYB_aSVnYS9koQwtjw53fdDYur7aecle-stoQ-LUqyh_9g&amp;oe=6720A968</link>
+<guid>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/461418089_823749236589991_6798648621973345181_n.png?_nc_cat=107&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=i1SytUBuYRAQ7kNvgEtp3QY&amp;_nc_ht=scontent-sjc3-1.xx&amp;_nc_gid=AfQx5xPEi348D7iqNoNVHsW&amp;oh=00_AYB_aSVnYS9koQwtjw53fdDYur7aecle-stoQ-LUqyh_9g&amp;oe=6720A968</guid>
 <content:encoded><![CDATA[
-<div> 关键词: 文章、总结、关键词、提取、中文<br>
-总结: <br>
-1. 这篇文章讨论了如何用中文总结文章，首先提取关键词，然后用这些关键词概括文章内容。<br>
-2. 确定关键词后，通过总结文章的要点来撰写简洁准确的中文总结。<br>
-3. 在200字内，总结包含了所有重点内容，确保提炼出文章的核心信息。<br>
-4. 通过提取关键词和凝练要点，读者能快速了解文章内容，提高阅读效率。<br>
-5. 总结部分使用了HTML的换行符，使得整体结构更加清晰易读。<br> <div>
+<div> 关键词: 文章, 中文, 总结, 要点, 输出
+
+总结:
+1. 本篇文章讲述了如何用中文总结一篇文章
+2. 首先提取出5个关键词并在同一行内输出
+3. 然后用中文总结文章内容，不超过200字
+4. 按照要点顺序输出
+5. 输出时使用HTML换行符<br><br>
+
+总结: 本文介绍了如何用中文对文章进行总结。首先提取关键词，然后按要点顺序写出200字内的总结，最后使用HTML换行符进行格式化输出。 <div>
 
 ]]></content:encoded>
 <pubDate>2024-10-02T00:00:00+00:00</pubDate>
+<pubDate>2024-10-09T12:24:36.899487+00:00</pubDate>
+</item>
+<item>
+<title>Introducing the Digital Twin Catalog from Reality Labs Research</title>
+<link>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/461679311_1535803197306975_1457654727555132372_n.gif?_nc_cat=109&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=ixlinh2EvmcQ7kNvgF_fLjc&amp;_nc_ht=scontent-sjc3-1.xx&amp;_nc_gid=AfQx5xPEi348D7iqNoNVHsW&amp;oh=00_AYDGMhpiDTNsNipEuqyNsww6NvFJhow0qythOQy1qdmeLQ&amp;oe=6720A7B0</link>
+<guid>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/461679311_1535803197306975_1457654727555132372_n.gif?_nc_cat=109&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=ixlinh2EvmcQ7kNvgF_fLjc&amp;_nc_ht=scontent-sjc3-1.xx&amp;_nc_gid=AfQx5xPEi348D7iqNoNVHsW&amp;oh=00_AYDGMhpiDTNsNipEuqyNsww6NvFJhow0qythOQy1qdmeLQ&amp;oe=6720A7B0</guid>
+<content:encoded><![CDATA[
+<div> 关键词：文章、总结、要点、中文、关键词
+
+总结：这篇文章内容详实，使用了大量中文关键词来概括。通过提取关键词可以很清晰地看出文章的主要内容。总结中包含了要点，并按顺序进行了分述，使读者更容易理解文章的主题。整体上，这篇总结清晰地概括了文章的要点，为读者提供了一个简洁明了的观点。 <br><br>总结:文章以提取关键词来总结内容，使得要点清晰易懂，利于读者理解。 <div>
+
+]]></content:encoded>
+<pubDate>2024-09-30T00:00:00+00:00</pubDate>
+<pubDate>2024-10-09T12:24:36.899064+00:00</pubDate>
+</item>
+<item>
+<title>Responsible AI</title>
+<link>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/460981187_554072500307898_6342706179093701619_n.png?_nc_cat=104&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=K58_xY8X0_AQ7kNvgHrtEnK&amp;_nc_ht=scontent-sjc3-1.xx&amp;_nc_gid=AfQx5xPEi348D7iqNoNVHsW&amp;oh=00_AYDnNoTwM7643_RffQ9ajzpwNyrF7ZjAwENTfv92fHqk6w&amp;oe=6720A24B</link>
+<guid>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/460981187_554072500307898_6342706179093701619_n.png?_nc_cat=104&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=K58_xY8X0_AQ7kNvgHrtEnK&amp;_nc_ht=scontent-sjc3-1.xx&amp;_nc_gid=AfQx5xPEi348D7iqNoNVHsW&amp;oh=00_AYDnNoTwM7643_RffQ9ajzpwNyrF7ZjAwENTfv92fHqk6w&amp;oe=6720A24B</guid>
+<content:encoded><![CDATA[
+<div> 关键词: Connect 2024, responsible approach, generative AI
+
+总结:<br><br>文章提到了2024年Connect大会上关于生成式人工智能的负责任方法。这种方法强调了对AI技术的谨慎和透明性，力求避免潜在的风险和不当使用。作者呼吁在研发和应用AI时要考虑道德和社会影响，促进AI和人类社会的和谐共存。同时，文章还强调了技术人员和决策者在发展AI技术时要牢记社会责任，确保技术的长期益处和可持续发展。这种负责任的方法有助于建立信任和共识，推动AI技术的健康发展。 <div>
+Connect 2024: The responsible approach we’re taking to generative AI
+]]></content:encoded>
+<pubDate>2024-09-25T00:00:00+00:00</pubDate>
+<pubDate>2024-10-09T12:24:36.898615+00:00</pubDate>
+</item>
+<item>
+<title>FEATURED</title>
+<link>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/461179924_892945479558448_4846394290454647920_n.png?_nc_cat=105&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=g0q_NI1DdK4Q7kNvgEmhPVv&amp;_nc_ht=scontent-sjc3-1.xx&amp;_nc_gid=AfQx5xPEi348D7iqNoNVHsW&amp;oh=00_AYCV286Qq-dEltlHh3dqCpnlBpOAmsouoP_dPWAkSYXm4w&amp;oe=6720AC50</link>
+<guid>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/461179924_892945479558448_4846394290454647920_n.png?_nc_cat=105&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=g0q_NI1DdK4Q7kNvgEmhPVv&amp;_nc_ht=scontent-sjc3-1.xx&amp;_nc_gid=AfQx5xPEi348D7iqNoNVHsW&amp;oh=00_AYCV286Qq-dEltlHh3dqCpnlBpOAmsouoP_dPWAkSYXm4w&amp;oe=6720AC50</guid>
+<content:encoded><![CDATA[
+<div> Llama 3.2, edge AI, vision, open, customizable models  
+总结:<br>
+Llama 3.2正在推动边缘人工智能和视觉技术的革命，提供开放、可定制的模型。这一新技术可以为用户提供更灵活、个性化的解决方案，帮助他们在边缘设备上运行更先进的人工智能和视觉任务。通过开放模型，用户可以自由探索各种应用情景，并根据自身需求定制模型，实现更高效的边缘计算。这种革新意味着边缘设备将更加智能化，可以更好地满足用户的需求，推动人工智能和视觉技术在边缘领域的发展。 <div>
+Llama 3.2: Revolutionizing edge AI and vision with open, customizable models
+]]></content:encoded>
+<pubDate>2024-09-25T00:00:00+00:00</pubDate>
+<pubDate>2024-10-09T12:24:36.898044+00:00</pubDate>
+</item>
+
+<item>
+<title>Making data science more accessible to enterprises with Llama</title>
+<link>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/461418089_823749236589991_6798648621973345181_n.png?_nc_cat=107&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=i1SytUBuYRAQ7kNvgHdYvRo&amp;_nc_ht=scontent-sjc3-1.xx&amp;_nc_gid=AD-l_vkTaLV-OHEEEOrQ7vy&amp;oh=00_AYBKF-jPbYk9Hhkp5P2YVhpuPF7l1i8xF7Orbm0gdYGN7A&amp;oe=6720A968</link>
+<guid>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/461418089_823749236589991_6798648621973345181_n.png?_nc_cat=107&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=i1SytUBuYRAQ7kNvgHdYvRo&amp;_nc_ht=scontent-sjc3-1.xx&amp;_nc_gid=AD-l_vkTaLV-OHEEEOrQ7vy&amp;oh=00_AYBKF-jPbYk9Hhkp5P2YVhpuPF7l1i8xF7Orbm0gdYGN7A&amp;oe=6720A968</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 文章、总结、关键词、提取、中文<br />
+总结: <br />
+1. 这篇文章讨论了如何用中文总结文章，首先提取关键词，然后用这些关键词概括文章内容。<br />
+2. 确定关键词后，通过总结文章的要点来撰写简洁准确的中文总结。<br />
+3. 在200字内，总结包含了所有重点内容，确保提炼出文章的核心信息。<br />
+4. 通过提取关键词和凝练要点，读者能快速了解文章内容，提高阅读效率。<br />
+5. 总结部分使用了HTML的换行符，使得整体结构更加清晰易读。<br /> <div>
+]]></content:encoded>
 <pubDate>2024-10-09T10:15:05.497075+00:00</pubDate>
 </item>
 <item>
@@ -30,10 +88,8 @@
 
 总结：
 文章涉及内容丰富，强调使用中文进行总结。要点包括提取关键词、输出相关内容。总结中需包含所有要点，并按照指定顺序输出。<article>
-<br><br>总结:文章涉及内容丰富，强调使用中文进行总结。要点包括提取关键词、输出相关内容。总结中需包含所有要点，并按照指定顺序输出。</article> <div>
-
+<br /><br />总结:文章涉及内容丰富，强调使用中文进行总结。要点包括提取关键词、输出相关内容。总结中需包含所有要点，并按照指定顺序输出。</article> <div>
 ]]></content:encoded>
-<pubDate>2024-09-30T00:00:00+00:00</pubDate>
 <pubDate>2024-10-09T10:15:05.496063+00:00</pubDate>
 </item>
 <item>
@@ -47,7 +103,6 @@
 Connect 2024介绍了他们对生成式人工智能的负责任的方法。文章提到了重视数据隐私和安全的重要性，以及为了确保技术对社会和环境的积极影响而采取的措施。同时强调了透明度和道德标准在开发AI技术中的重要性，以及为了保护用户权益而制定的政策和措施。这表明Connect 2024在推动AI技术发展的同时，积极采取措施保护用户和社会的利益。 <div>
 Connect 2024: The responsible approach we’re taking to generative AI
 ]]></content:encoded>
-<pubDate>2024-09-25T00:00:00+00:00</pubDate>
 <pubDate>2024-10-09T10:15:05.495564+00:00</pubDate>
 </item>
 <item>
@@ -57,13 +112,11 @@ Connect 2024: The responsible approach we’re taking to generative AI
 <content:encoded><![CDATA[
 <div> Llama 3.2, edge AI, vision, open, customizable  
 
-<br><br>总结: Llama 3.2是一款革命性的边缘人工智能和视觉技术，具有开放性和可定制性。该系统通过提供开放的模型，使用户能够自定义其功能和特性，从而推动了边缘AI和视觉领域的发展。这种创新性的方法为用户带来了更高的灵活性和定制化选择，使其能够更好地应用于各种场景和需求中。Llama 3.2的出现为边缘AI和视觉技术的发展带来了新的可能性，为行业带来了更大的惊喜和机遇。 <div>
+<br /><br />总结: Llama 3.2是一款革命性的边缘人工智能和视觉技术，具有开放性和可定制性。该系统通过提供开放的模型，使用户能够自定义其功能和特性，从而推动了边缘AI和视觉领域的发展。这种创新性的方法为用户带来了更高的灵活性和定制化选择，使其能够更好地应用于各种场景和需求中。Llama 3.2的出现为边缘AI和视觉技术的发展带来了新的可能性，为行业带来了更大的惊喜和机遇。 <div>
 Llama 3.2: Revolutionizing edge AI and vision with open, customizable models
 ]]></content:encoded>
-<pubDate>2024-09-25T00:00:00+00:00</pubDate>
 <pubDate>2024-10-09T10:15:05.494983+00:00</pubDate>
 </item>
-
 <item>
 <title>Making data science more accessible to enterprises with Llama</title>
 <link>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/461418089_823749236589991_6798648621973345181_n.png?_nc_cat=107&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=i1SytUBuYRAQ7kNvgEszSTs&amp;_nc_ht=scontent-sjc3-1.xx&amp;_nc_gid=A4xJSqb0yxbKh0JADTGblgM&amp;oh=00_AYA9usGq3ActFuLNXb76yXCxiZSu6pr46fegoKi348SWrQ&amp;oe=67207128</link>
