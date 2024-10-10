@@ -4,6 +4,26 @@
 <title>ByteByteGo Newsletter</title>
 <link>https://blog.bytebytego.com</link>
 
+<item>
+<title>CAP, PACELC, ACID, BASE - Essential Concepts for an Architect’s Toolkit</title>
+<link>https://blog.bytebytego.com/p/cap-pacelc-acid-base-essential-concepts</link>
+<guid>https://blog.bytebytego.com/p/cap-pacelc-acid-base-essential-concepts</guid>
+<content:encoded><![CDATA[
+<div> 分布式系统、CAP定理、PACELC定理、ACID模型、BASE模型
+<br>
+CAP定理是分布式系统设计的基本原则，指导架构师在一致性、可用性和分区容忍之间做出权衡。PACELC定理对CAP进行了扩展，更细致地解释了在正常操作和网络分区中一致性和可用性之间的权衡。ACID和BASE模型则提供了设计事务性系统和处理分布式数据库一致性挑战的指导。通过仔细考虑CAP、PACELC、ACID和BASE模型的影响，架构师可以做出符合应用特定要求和约束的明智选择。 
+<br><br>总结: 
+CAP定理指导分布式系统设计权衡一致性、可用性和分区容忍。PACELC定理扩展CAP，解释了一致性和可用性的权衡。ACID和BASE模型提供了处理事务和分布式数据库一致性挑战的指导。架构师应谨慎考虑这些模型的影响，并根据特定要求和约束做出明智选择。 <div>
+<p>In today's world, distributed systems have become ubiquitous, powering everything from social media platforms and e-commerce websites to financial systems and healthcare applications.&nbsp;</p><p>As these systems grow in complexity and scale, it becomes increasingly important for software architects and developers to understand the inherent trade-offs and challenges associated with designing and building such systems.&nbsp;</p><p>One of the key challenges in distributed systems is ensuring data consistency, availability, and partition tolerance. These properties are often in tension with one another, and achieving all three simultaneously is impossible, as stated by the famous CAP theorem. This theorem has become a fundamental principle in distributed systems design, guiding architects in making informed decisions about the trade-offs between consistency, availability, and partition tolerance.</p><p>Building upon the CAP theorem, other frameworks and models have emerged to help reason about the trade-offs in distributed systems. The PACELC theorem extends the CAP theorem to provide a more nuanced understanding of the trade-offs between consistency and availability during normal operations and network partitions.</p><p>In addition to CAP and PACELC, the ACID (Atomicity, Consistency, Isolation, Durability) and BASE (Basically Available, Soft-state, Eventually Consistent) models provide guidance for designing transactional systems and dealing with the challenges of eventual consistency in distributed databases.</p><p>By carefully considering the implications of CAP, PACELC, ACID, and BASE, architects can make informed choices that align with the specific requirements and constraints of their applications.</p><p>In this article, we will dive deep into these concepts, exploring their definitions and implications. We will also discuss the limitations of these models and the factors to consider when choosing the right approach for a given use case.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-imag" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F732e86b8-f57e-4e0a-941f-5c6e15c2a53d_1591x1600.png" target="_blank"><div class="image2-inset"><source type="image/webp" /><img alt="" class="sizing-normal" height="1464" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F732e86b8-f57e-4e0a-941f-5c6e15c2a53d_1591x1600.png" width="1456" /><div class="image-link-expand"><svg class="lucide lucide-maximize2 " fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" x2="14" y1="3" y2="10"></line><line x1="3" x2="10" y1="21" y2="14"></line></svg></div></div></a></figure></div><h2>The CAP Theorem</h2>
+      <p>
+          <a href="https://blog.bytebytego.com/p/cap-pacelc-acid-base-essential-concepts">
+              Read more
+          </a>
+      </p>
+]]></content:encoded>
+<pubDate>Thu, 10 Oct 2024 15:32:49 GMT</pubDate>
+<pubDate>Thu, 10 Oct 2024 15:32:49 GMT</pubDate>
+</item>
 
 <item>
 <title>How TikTok Manages A 200K File MonoRepo with Sparo</title>
