@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Quiz: Structural Pattern Matching</title>
 <link>https://realpython.com/quizzes/structural-pattern-matching/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> 关键词: match statement, case clauses, patterns, guards, name binding
 
-总结:<br><br>本文讨论了Python中match语句和case子句的语法，介绍了各种类型的模式支持，同时也深入探讨了守卫、联合、别名和名称绑定的概念。这些内容有助于提高对Python中匹配操作的理解，使代码更加简洁和可读。在阅读本文后，读者可以更好地利用Python中的匹配功能，提高代码的效率和质量。 <div>
+总结:<br /><br />本文讨论了Python中match语句和case子句的语法，介绍了各种类型的模式支持，同时也深入探讨了守卫、联合、别名和名称绑定的概念。这些内容有助于提高对Python中匹配操作的理解，使代码更加简洁和可读。在阅读本文后，读者可以更好地利用Python中的匹配功能，提高代码的效率和质量。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of
 <a href="https://realpython.com/structural-pattern-matching/">Structural Pattern Matching in Python</a>.</p>
 <p>You&rsquo;ll revisit the syntax of the <code>match</code> statement and <code>case</code> clauses,
@@ -20,10 +21,8 @@ and learn about guards, unions, aliases, and name binding.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-10-10T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Build a Contact Book App With Python, Textual, and SQLite</title>
 <link>https://realpython.com/contact-book-python-textual/</link>

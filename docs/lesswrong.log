@@ -9272,3 +9272,15 @@ Existing_entries: 310
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-10 16:16:28.633993
+------------------------------------------------------
+Started: 2024-10-10 18:17:28.943148
+Existing_entries: 310
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 33628
+Summarized using GPT-3.5-turbo
+Append: [Safe Predictive Agents with Joint Scoring Rules](https://www.lesswrong.com/posts/FFCDWx6qBdBds6jvL/safe-predictive-agents-with-joint-scoring-rules)
+Token length: 1677
+Summarized using GPT-3.5-turbo
+Append: [Demis Hassabis and Geoffrey Hinton Awarded Nobel Prizes](https://www.lesswrong.com/posts/CJ2FyyYSEwvwNAKuw/demis-hassabis-and-geoffrey-hinton-awarded-nobel-prizes)
+append_entries: 2
+Finish: 2024-10-10 18:17:43.451009

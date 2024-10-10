@@ -4,12 +4,12 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>HWTools解绑工具支持鸿蒙系统</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1970762</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1970762</guid>
 <content:encoded><![CDATA[
-
 1、点击平台（读取信息）选择对应CPU机型选择
 
 2、点击平台（fastboot备份参数）等待平台执行完成后，打开备份的路径文件，做保留后面要用
@@ -17,14 +17,12 @@
 3、点击平台（fastboot写入REC）等待平台执行完成后，打开备份的路 ...
 ]]></content:encoded>
 <pubDate>Wed, 09 Oct 2024 04:53:26 +0000</pubDate>
-<pubDate>Wed, 09 Oct 2024 04:53:26 +0000</pubDate>
 </item>
 <item>
 <title>foobar20002.1.6汉化版(更新)</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1970363</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1970363</guid>
 <content:encoded><![CDATA[
-
 foobar20002.1.6汉化版 是一款音乐播放转换的一款免费软件 这款汉化版由asion汉化  
 
 
@@ -34,9 +32,7 @@ foobar20002.1.6汉化版 是一款音乐播放转换的一款免费软件 这款
 更新主程序https://wwzl.lanzouw.com/iXPCx2c0ensf密码:fpov
 ]]></content:encoded>
 <pubDate>Tue, 08 Oct 2024 01:49:07 +0000</pubDate>
-<pubDate>Tue, 08 Oct 2024 01:49:07 +0000</pubDate>
 </item>
-
 <item>
 <title>MIUI 工具下载器---自动获取最新版本</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1970965</link>
@@ -13965,27 +13961,6 @@ Wi-Fi Filter Tool是一款电脑WiFi过滤工具。其主要功能在于帮助�
 图集欣赏： ...
 ]]></content:encoded>
 <pubDate>Fri, 03 May 2024 04:24:12 +0000</pubDate>
-</item>
-<item>
-<title>小椒学算术3.0</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1918663</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1918663</guid>
-<content:encoded><![CDATA[
-小椒学算术是我15年前用vfp写的一个小程序，是帮助女儿自主学习算术的。本软件为绿色便携带，解压后运行主程序即可使用。支持WIN98/WINXP/WIN2K/WIN10/WIN11等各平台。支持儿童自主学习，支持语音播报错误原因，支持随机 ...
-]]></content:encoded>
-<pubDate>Sun, 28 Apr 2024 06:48:51 +0000</pubDate>
-</item>
-<item>
-<title>文件快速复制工具FastCopy V5.7.10丨2024.5.5日更新（测试16.8g文件秒复制）</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1921363</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1921363</guid>
-<content:encoded><![CDATA[
-FastCopy文件快速复制工具。Windows平台上最快的文件复制、删除软件！功能强劲，性能优越！
-它是源于日本的高效文件复制加速软件，支持拖拽操作，三种不同HDD模式；支持通配符，任务管理/命令行
-
-实测16.8个G文件几十 ...
-]]></content:encoded>
-<pubDate>Tue, 07 May 2024 08:28:12 +0000</pubDate>
 </item>
 </channel>
 </rss>
