@@ -23066,3 +23066,16 @@ Filter: [鲜艺AI抠图 v2.4（支持 AI消除+二次编辑，可离线）](http
 Filter: [【原创力文档下载工具】升级python下载原创力文档](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968226)
 append_entries: 0
 Finish: 2024-10-10 00:56:30.531336
+------------------------------------------------------
+Started: 2024-10-10 02:45:04.255486
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Append: [歌词批量一键下载程序，支持从网易云、酷狗、QQ音乐、酷我搜索](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1969926)
+Filter: [TailorV0.47 AI视频剪辑工具，超多黑科技功能，完全免费](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1969543)
+Filter: [应用管家TV版v1.4.6——电视应用+文件实用管理器（亦支持车机+平板）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968836)
+Filter: [微信/QQ/TIM 防撤回多开补丁 RevokeMsgPatcher v1.9 绿色开源版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968828)
+Filter: [鲜艺AI抠图 v2.4（支持 AI消除+二次编辑，可离线）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968516)
+Append: [截图小工具-原创](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968392)
+Filter: [【原创力文档下载工具】升级python下载原创力文档](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968226)
+append_entries: 2
+Finish: 2024-10-10 02:45:07.197499
