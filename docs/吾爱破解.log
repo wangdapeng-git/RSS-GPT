@@ -23196,3 +23196,16 @@ Filter: [微信/QQ/TIM 防撤回多开补丁 RevokeMsgPatcher v1.9 绿色开源�
 Filter: [鲜艺AI抠图 v2.4（支持 AI消除+二次编辑，可离线）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968516)
 append_entries: 0
 Finish: 2024-10-10 20:13:30.860493
+------------------------------------------------------
+Started: 2024-10-10 22:12:20.958464
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Append: [关于实时接收PC微信消息(Hook)的研究](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1970822)
+Filter: [【文件感染病毒】桌面整理软件 Stardock Fences 5.84](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1970338)
+Filter: [百度地图19.6.0.1335，无更新无开屏广告](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1970176)
+Filter: [MOJi辞書版本：8.4.2解锁永久会员（保姆级教程）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1970081)
+Filter: [TailorV0.47 AI视频剪辑工具，超多黑科技功能，完全免费](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1969543)
+Filter: [微信/QQ/TIM 防撤回多开补丁 RevokeMsgPatcher v1.9 绿色开源版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968828)
+Filter: [鲜艺AI抠图 v2.4（支持 AI消除+二次编辑，可离线）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1968516)
+append_entries: 1
+Finish: 2024-10-10 22:12:23.133982

@@ -4,6 +4,21 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>关于实时接收PC微信消息(Hook)的研究</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1970822</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1970822</guid>
+<content:encoded><![CDATA[
+
+逆向新手，少有需要逆向的情况，难得发一次贴。更多还是基于前人的研究做的研究，有些地方可能比较笨拙，请多多包涵。
+
+[md]## 前言
+
+我最近有读取自己的个人收款记录的需求，整理成 csv 表格，让程序对数据进行处理 ...
+]]></content:encoded>
+<pubDate>Wed, 09 Oct 2024 07:52:12 +0000</pubDate>
+<pubDate>Wed, 09 Oct 2024 07:52:12 +0000</pubDate>
+</item>
 
 <item>
 <title>HWTools解绑工具支持鸿蒙系统</title>

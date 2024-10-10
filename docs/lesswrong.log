@@ -9293,3 +9293,12 @@ Summarized using GPT-3.5-turbo
 Append: [Values Are Real Like Harry Potter](https://www.lesswrong.com/posts/a5hpPfABQnrkfGGxb/values-are-real-like-harry-potter)
 append_entries: 1
 Finish: 2024-10-10 20:14:46.927582
+------------------------------------------------------
+Started: 2024-10-10 22:13:36.900240
+Existing_entries: 313
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 22879
+Summarized using GPT-3.5-turbo
+Append: [Behavioral red-teaming is unlikely to produce clear, strong evidence that models aren't scheming](https://www.lesswrong.com/posts/vYWDEtJ2b8tkbG7Rv/behavioral-red-teaming-is-unlikely-to-produce-clear-strong)
+append_entries: 1
+Finish: 2024-10-10 22:13:42.576789
