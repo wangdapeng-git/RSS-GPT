@@ -4,6 +4,7 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+
 <item>
 <title>Validating random circuit sampling as a benchmark for measuring quantum progress</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/RCS_Quantum_2.png</link>
@@ -12,13 +13,10 @@
 <div> 关键词: 文章, 总结, 中文, 关键词, 要点
 
 总结: 
-<br>本文主要讨论了如何用中文总结一篇文章。首先，提取出文中的关键词是很重要的，这可以帮助我们更好地理解文章内容。然后，按照关键词提炼出要点，并用简洁的方式进行总结。通过这种方法，我们可以快速地抓住文章的主旨及重要内容，并加深对文中知识的理解。总之，用中文总结一篇文章是一种高效的学习方法，有助于提高阅读和理解能力。 <div>
-
+<br />本文主要讨论了如何用中文总结一篇文章。首先，提取出文中的关键词是很重要的，这可以帮助我们更好地理解文章内容。然后，按照关键词提炼出要点，并用简洁的方式进行总结。通过这种方法，我们可以快速地抓住文章的主旨及重要内容，并加深对文中知识的理解。总之，用中文总结一篇文章是一种高效的学习方法，有助于提高阅读和理解能力。 <div>
 ]]></content:encoded>
-<pubDate>2024-10-10T00:00:00+00:00</pubDate>
 <pubDate>2024-10-10T18:17:49.400548+00:00</pubDate>
 </item>
-
 <item>
 <title>Tx-LLM: Supporting therapeutic development with large language models</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/TxLLM-1b-UseCases.png</link>

@@ -9284,3 +9284,12 @@ Summarized using GPT-3.5-turbo
 Append: [Demis Hassabis and Geoffrey Hinton Awarded Nobel Prizes](https://www.lesswrong.com/posts/CJ2FyyYSEwvwNAKuw/demis-hassabis-and-geoffrey-hinton-awarded-nobel-prizes)
 append_entries: 2
 Finish: 2024-10-10 18:17:43.451009
+------------------------------------------------------
+Started: 2024-10-10 20:14:40.303865
+Existing_entries: 312
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 9472
+Summarized using GPT-3.5-turbo
+Append: [Values Are Real Like Harry Potter](https://www.lesswrong.com/posts/a5hpPfABQnrkfGGxb/values-are-real-like-harry-potter)
+append_entries: 1
+Finish: 2024-10-10 20:14:46.927582
