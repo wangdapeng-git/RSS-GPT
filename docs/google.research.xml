@@ -4,6 +4,7 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+
 <item>
 <title>Tx-LLM: Supporting therapeutic development with large language models</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/TxLLM-1b-UseCases.png</link>
@@ -12,14 +13,11 @@
 <div> 关键词: 文章, 中文, 总结, 关键词, 要点
 
 总结:
-<br>
+<br />
 本文探讨了中文文章总结的方法，提取关键词是其中关键的一步，可以让读者快速了解文章内容。在总结文章时，要点要清晰明了，按顺序分别提出，确保包含所有关键信息。中文文章总结应简洁明了，展现出作者的思想和主要论点。通过提取关键词和清晰阐述要点，读者能够更好地理解和掌握文章内容，为进一步深入阅读提供了指引。 <div>
-
 ]]></content:encoded>
-<pubDate>2024-10-09T00:00:00+00:00</pubDate>
 <pubDate>2024-10-09T22:13:07.313843+00:00</pubDate>
 </item>
-
 <item>
 <title>Augmented object intelligence with XR-Objects</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/XR-Objects_user_prompt.png</link>
