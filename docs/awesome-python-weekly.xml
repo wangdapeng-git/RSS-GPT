@@ -4,19 +4,18 @@
 <title>Awesome Python Weekly</title>
 <link>https://python.libhunt.com/newsletter</link>
 
+
 <item>
 <title>🐍 Issue 437 - 9 must-know open-source tools that will make you better than 99% of developers</title>
 <link>https://python.libhunt.com/newsletter/437</link>
 <guid>https://python.libhunt.com/newsletter/437</guid>
 <content:encoded><![CDATA[
-<div> 开源工具、开发者、技能、提高、代码 <br>
+<div> 开源工具、开发者、技能、提高、代码 <br />
 这篇文章介绍了9款开源工具，使用这些工具可以帮助开发者提升技能水平，超过99%的开发者。这些工具包括Git、VS Code、Docker等，能够提高代码质量、提升效率。通过学习和使用这些工具，开发者可以更好地完成项目任务，提升自己的开发能力。文章强调了开源工具在开发过程中的重要性，鼓励开发者积极学习和使用这些工具，以提高自己的专业技能。 <div>
 🐍 Issue 437 - 9 must-know open-source tools that will make you better than 99% of developers
 ]]></content:encoded>
 <pubDate>Thu, 10 Oct 2024 13:42:00 -0800</pubDate>
-<pubDate>Thu, 10 Oct 2024 13:42:00 -0800</pubDate>
 </item>
-
 <item>
 <title>🐍 Issue 436 - Everything you need to know about Python 3.13 – JIT and GIL went up the hill</title>
 <link>https://python.libhunt.com/newsletter/436</link>
