@@ -9314,3 +9314,12 @@ Existing_entries: 314
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-11 02:45:19.737587
+------------------------------------------------------
+Started: 2024-10-11 04:16:05.676322
+Existing_entries: 314
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 30422
+Summarized using GPT-3.5-turbo
+Append: [Scaffolding for "Noticing Metacognition"](https://www.lesswrong.com/posts/XHnAakZtcEktEGvYJ/scaffolding-for-noticing-metacognition)
+append_entries: 1
+Finish: 2024-10-11 04:16:11.406163
