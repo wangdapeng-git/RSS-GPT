@@ -9323,3 +9323,9 @@ Summarized using GPT-3.5-turbo
 Append: [Scaffolding for "Noticing Metacognition"](https://www.lesswrong.com/posts/XHnAakZtcEktEGvYJ/scaffolding-for-noticing-metacognition)
 append_entries: 1
 Finish: 2024-10-11 04:16:11.406163
+------------------------------------------------------
+Started: 2024-10-11 06:18:57.067732
+Existing_entries: 315
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-10-11 06:18:57.916745
