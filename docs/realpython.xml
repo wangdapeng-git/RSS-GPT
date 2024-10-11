@@ -4,21 +4,20 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>The Real Python Podcast – Episode #223: Exploring the New Features of Python 3.13</title>
 <link>https://realpython.com/podcasts/rpp/223/</link>
 <guid>https://realpython.com/podcasts/rpp/223/</guid>
 <content:encoded><![CDATA[
-<div> Python 3.13, Geir Arne Hjelle, Christopher Trudeau, 新功能, 文章预览 <br>
+<div> Python 3.13, Geir Arne Hjelle, Christopher Trudeau, 新功能, 文章预览 <br />
 Python 3.13发布了，Geir Arne Hjelle和Christopher Trudeau回顾了这个新版本。Geir Arne与Real Python团队成员协作了一系列预览文章，还有一个展示教程"Python 3.13: Cool New Features for You to Try"。Christopher的视频课程"What's New in Python 3.13"涵盖了文章中的主题，并展示了新功能的实际操作。总结: Python 3.13发布了，Geir Arne和Christopher介绍了新版本的一些关键功能，包括预览文章和视频课程。 <div>
 <p>Python 3.13 is here! Our regular guests, Geir Arne Hjelle and Christopher Trudeau, return to discuss the new version. This year, Geir Arne coordinated a series of preview articles with members of the Real Python team and a showcase tutorial, "Python 3.13: Cool New Features for You to Try." Christopher's video course "What's New in Python 3.13" covers the topics from the article and shows the new features in action.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-10-11T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Quiz: Structural Pattern Matching</title>
 <link>https://realpython.com/quizzes/structural-pattern-matching/</link>
