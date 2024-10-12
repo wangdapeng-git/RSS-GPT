@@ -9428,3 +9428,12 @@ Existing_entries: 316
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-12 14:11:58.613162
+------------------------------------------------------
+Started: 2024-10-12 16:15:47.701045
+Existing_entries: 316
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 11223
+Summarized using GPT-3.5-turbo
+Append: [EIS XIV: Is mechanistic interpretability about to be practically useful?](https://www.lesswrong.com/posts/Es2qzCxhJ8QYsckaA/eis-xiv-is-mechanistic-interpretability-about-to-be)
+append_entries: 1
+Finish: 2024-10-12 16:15:53.556562
