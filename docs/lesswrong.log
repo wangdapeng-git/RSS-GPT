@@ -9377,3 +9377,12 @@ Existing_entries: 315
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-11 22:12:54.335795
+------------------------------------------------------
+Started: 2024-10-12 00:57:18.010001
+Existing_entries: 315
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 1562
+Summarized using GPT-3.5-turbo
+Append: [Rationality Quotes - Fall 2024](https://www.lesswrong.com/posts/BiHTjes9Ptgzwy3h5/rationality-quotes-fall-2024)
+append_entries: 1
+Finish: 2024-10-12 00:57:22.110215
