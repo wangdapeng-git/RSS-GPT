@@ -9446,3 +9446,9 @@ Summarized using GPT-3.5-turbo
 Append: [My theory of change for working in AI healthtech](https://www.lesswrong.com/posts/Kobbt3nQgv3yn29pr/my-theory-of-change-for-working-in-ai-healthtech)
 append_entries: 1
 Finish: 2024-10-12 18:15:55.081922
+------------------------------------------------------
+Started: 2024-10-12 20:13:52.965976
+Existing_entries: 318
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-10-12 20:13:53.445076
