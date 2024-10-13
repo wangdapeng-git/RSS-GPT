@@ -4,15 +4,14 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>Shadow Defender 1.5.0.726 简体中文完全汉化免注册版【支持Windows 11 24H2】</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1971663</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1971663</guid>
 <content:encoded><![CDATA[
-
 Windows 11 24H2-26100.1586是最后一个能正常安装官方版Shadow Defender的Windows 11 24H2 系统版本，之后的Windows 11 24H2 系统版本都不能正常安装官方版Shadow Defender，现分享本人制作的能在Windows 11 24H2 系统上 ...
 ]]></content:encoded>
-<pubDate>Sat, 12 Oct 2024 01:53:22 +0000</pubDate>
 <pubDate>Sat, 12 Oct 2024 01:53:22 +0000</pubDate>
 </item>
 <item>
@@ -20,13 +19,11 @@ Windows 11 24H2-26100.1586是最后一个能正常安装官方版Shadow Defender
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1971409</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1971409</guid>
 <content:encoded><![CDATA[
-
 FastStone Capture 一个极简主义的应用程序
 支持屏幕录制、滚动截图、高清长图、图片编辑、图片转PDF格式、屏幕取色、OCR文字识别、屏幕钉图
 
 FastStone Capture是一款功能强大、轻巧但功能齐全的 屏幕捕获工具和屏幕 ...
 ]]></content:encoded>
-<pubDate>Fri, 11 Oct 2024 03:44:13 +0000</pubDate>
 <pubDate>Fri, 11 Oct 2024 03:44:13 +0000</pubDate>
 </item>
 <item>
@@ -34,7 +31,6 @@ FastStone Capture是一款功能强大、轻巧但功能齐全的 屏幕捕获�
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1971333</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1971333</guid>
 <content:encoded><![CDATA[
-
 [md]## 新增
 
 根据网络消息 4.x 版本微信qt写了？ 就像QQ换Electron一样
@@ -44,14 +40,12 @@ FastStone Capture是一款功能强大、轻巧但功能齐全的 屏幕捕获�
 ~~登录内容来自网络，俺也没有内测权限~~，有兴趣的试试看看有没有权限 ...
 ]]></content:encoded>
 <pubDate>Fri, 11 Oct 2024 01:21:45 +0000</pubDate>
-<pubDate>Fri, 11 Oct 2024 01:21:45 +0000</pubDate>
 </item>
 <item>
 <title>911投屏1.0.0.5</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1970236</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1970236</guid>
 <content:encoded><![CDATA[
-
 911投屏是基于 FFmpeg/Scrcpy 框架构建的一款高性能的安卓设备投屏管理工具。
 
 支持的投屏方式有：USB，WIFIADB，OTG，投屏之前需要开启开发者选项里面的USB调试。
@@ -61,9 +55,7 @@ FastStone Capture是一款功能强大、轻巧但功能齐全的 屏幕捕获�
 2.支 ...
 ]]></content:encoded>
 <pubDate>Mon, 07 Oct 2024 08:20:55 +0000</pubDate>
-<pubDate>Mon, 07 Oct 2024 08:20:55 +0000</pubDate>
 </item>
-
 <item>
 <title>联想QuickFix 2.2.24.0829  Windows实用工具</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1971680</link>
@@ -13950,81 +13942,6 @@ https://www.lanzoub.com/b00vnde9g
 目前，本软件还处于研发阶段，有很多功能还不完善，仅供喜欢尝鲜的小伙伴下载试用，可能会有各种BUG,介意的请勿下载，后续相应功能会持续 ...
 ]]></content:encoded>
 <pubDate>Mon, 06 May 2024 03:28:29 +0000</pubDate>
-</item>
-<item>
-<title>【痕迹】QQ+微信朋友圈和聊天记录分析工具1.0.4，最新</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1921143</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1921143</guid>
-<content:encoded><![CDATA[
-演示：https://www.bilibili.com/video/BV1dZ421j7Rp/
-
-
-
----2024-5-8 debug---
-
-重新打包，解决list超出范围问题；
-将pandas，numpy直接打包，避免C++报错；
-增加QQ群统计的QQ邮箱表格下载CSV按钮，类似于QQ群会员提取的功能。
-
----update----
-
-【痕迹】 ...
-]]></content:encoded>
-<pubDate>Tue, 07 May 2024 01:03:24 +0000</pubDate>
-</item>
-<item>
-<title>【多平台】imFile v1.0.8  复刻停更的Motrix并长期维护更新的BT下载器、</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1919176</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1919176</guid>
-<content:encoded><![CDATA[
-Motrix已经很久没有更新了，已经积累了大量的问题。imFile就是基于Motrix Fork 并对其进行了长时间的维护和更新版。
-
-imFile 是一个功能齐全的下载管理器，支持下载 HTTP、FTP、BitTorrent、Magnet 等。
-
-
-
-
-
-
- ...
-]]></content:encoded>
-<pubDate>Mon, 29 Apr 2024 14:37:05 +0000</pubDate>
-</item>
-<item>
-<title>一键关闭 Win11烦人广告 OFGB V0.3汉化版</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1922216</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1922216</guid>
-<content:encoded><![CDATA[
-OFGB是一款开源删除 Win11 各处广告的 GUI 工具
-
-它是通过修改 Windows 注册表 来关闭 Windows 11 分散各处的广告设置。
-软件是用 C# 编写的，界面用 WPF 制作。
-
-
-
-
-
-
-软件简单易用，修改后重启即可生效
-使 ...
-]]></content:encoded>
-<pubDate>Thu, 09 May 2024 09:17:43 +0000</pubDate>
-</item>
-<item>
-<title>CapCut v3.8.0 剪映国际PC版</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1921785</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1921785</guid>
-<content:encoded><![CDATA[
-剪印国际版_PC版本
-目前最新版是v3.8.0 
-
-
-
-链接: https://pan.baidu.com/s/197_Ne_Irtr9U-FRcRxt0cQ?pwd=52pj 提取码: 52pj 复制这段内容后打开百度网盘手机App，操作更方便哦 
---来自百度网盘超级会员v8的分享
- ...
-]]></content:encoded>
-<pubDate>Wed, 08 May 2024 08:33:59 +0000</pubDate>
 </item>
 </channel>
 </rss>
