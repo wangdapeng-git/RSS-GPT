@@ -4,6 +4,7 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-10-13</title>
 <link>https://pythonhub.dev/digest/2024-10-13/</link>
@@ -13,7 +14,7 @@
 
 自动转换系统、同步Python代码、异步代码、抽象语法树、自定义转换
 
-总结：<br><br>文章介绍了Psycopg 3如何实现了一个自动转换系统，通过使用抽象语法树（AST）将异步代码转换为等效的同步代码，减少了代码重复和维护工作。该过程涉及使用自定义转换和辅助函数来处理复杂情况。Kir本管理员花了一年时间开发了一个使用LLM和扩散模型的AI视频编辑器，旨在为可定制内容创建动态，生成工具以增强视频工作流程。本帖展示了如何使用Postgres，CLIP（一个预训练的AI模型）和pgvector扩展构建基本的图像搜索引擎，解释了生成图像和文本的嵌入式的过程，并使用图像和文本查询执行相似性搜索。学习如何从头开始构建一个课程平台。主持基于视频的课程，管理缩略图，限制仅对确认电子邮件访问，优化缩略图，自定义Django管理员等。<br>建立Numpy的新数据类型，提供四倍精度的跨平台支持。本文解释了如何使用Streamlit和PropelAuth构建内部AI工具，以进行用户身份验证。设置安全用户身份验证，轻松建立面向公司内部使用的AI驱动Web应用程序。 <div>
+总结：<br /><br />文章介绍了Psycopg 3如何实现了一个自动转换系统，通过使用抽象语法树（AST）将异步代码转换为等效的同步代码，减少了代码重复和维护工作。该过程涉及使用自定义转换和辅助函数来处理复杂情况。Kir本管理员花了一年时间开发了一个使用LLM和扩散模型的AI视频编辑器，旨在为可定制内容创建动态，生成工具以增强视频工作流程。本帖展示了如何使用Postgres，CLIP（一个预训练的AI模型）和pgvector扩展构建基本的图像搜索引擎，解释了生成图像和文本的嵌入式的过程，并使用图像和文本查询执行相似性搜索。学习如何从头开始构建一个课程平台。主持基于视频的课程，管理缩略图，限制仅对确认电子邮件访问，优化缩略图，自定义Django管理员等。<br />建立Numpy的新数据类型，提供四倍精度的跨平台支持。本文解释了如何使用Streamlit和PropelAuth构建内部AI工具，以进行用户身份验证。设置安全用户身份验证，轻松建立面向公司内部使用的AI驱动Web应用程序。 <div>
 <div></div>
 
 <h2>💖 Most Popular</h2>
@@ -184,9 +185,7 @@ And if ...</span>
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 13 Oct 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 13 Oct 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-10-06</title>
 <link>https://pythonhub.dev/digest/2024-10-06/</link>
