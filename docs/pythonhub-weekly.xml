@@ -4,6 +4,188 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-10-13</title>
+<link>https://pythonhub.dev/digest/2024-10-13/</link>
+<guid>https://pythonhub.dev/digest/2024-10-13/</guid>
+<content:encoded><![CDATA[
+<div> automatic conversion system, synchronous Python code, asynchronous code, Abstract Syntax Trees, custom transformations
+
+自动转换系统、同步Python代码、异步代码、抽象语法树、自定义转换
+
+总结：<br><br>文章介绍了Psycopg 3如何实现了一个自动转换系统，通过使用抽象语法树（AST）将异步代码转换为等效的同步代码，减少了代码重复和维护工作。该过程涉及使用自定义转换和辅助函数来处理复杂情况。Kir本管理员花了一年时间开发了一个使用LLM和扩散模型的AI视频编辑器，旨在为可定制内容创建动态，生成工具以增强视频工作流程。本帖展示了如何使用Postgres，CLIP（一个预训练的AI模型）和pgvector扩展构建基本的图像搜索引擎，解释了生成图像和文本的嵌入式的过程，并使用图像和文本查询执行相似性搜索。学习如何从头开始构建一个课程平台。主持基于视频的课程，管理缩略图，限制仅对确认电子邮件访问，优化缩略图，自定义Django管理员等。<br>建立Numpy的新数据类型，提供四倍精度的跨平台支持。本文解释了如何使用Streamlit和PropelAuth构建内部AI工具，以进行用户身份验证。设置安全用户身份验证，轻松建立面向公司内部使用的AI驱动Web应用程序。 <div>
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://www.thepythoncodingstack.com/p/coffee-machine-python-function-analogy">What Can a Coffee Machine Teach You About Python's Functions?</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/PaulleDemon/PyUIBuilder">PyUIBuilder</a></strong>
+    
+        <br /><span>The Webflow of Python GUIs.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://hpyproject.org/">HPy – A better C API for Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonspeed.com/articles/upgrade-python-3.13/">When should you upgrade to Python 3.13?</a></strong>
+    
+        <br /><span>Python 3.13 will be out October 1, 2024&mdash;but should you switch to it immediately?
+And if ...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.miguelgrinberg.com/post/the-ultimate-guide-to-error-handling-in-python">The Ultimate Guide to Error Handling in Python</a></strong>
+    
+        <br /><span>I often come across developers who know the mechanics of Python error handling well, yet when I ...</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://www.psycopg.org/articles/2024/09/23/async-to-sync/">Automatic async to sync code conversion</a></strong>
+    
+        <br /><span>The article describes how Psycopg 3 implemented an automatic conversion system to generate synchronous Python code from asynchronous code, reducing code duplication and maintenance efforts. The process involves using Abstract Syntax Trees (AST) to transform async code into equivalent sync code, with custom transformations and helper functions to handle complex cases.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.makeartwithpython.com/blog/a-year-of-showing-up/">What I’ve Learned in the Past Year Spent Building an AI Video Editor</a></strong>
+    
+        <br /><span>Kirk Kaiser spent a year developing an AI video editor using LLMs and Diffusion models to enhance video workflows. His journey explored the intersection of AI and video editing, aiming to create dynamic, generative tools for customizable content.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.yellowduck.be/posts/implementing-a-python-singleton-with-decorators">Implementing a Python Singleton with Decorators</a></strong>
+    
+        <br /><span>In this post, we'll discuss a Python implementation of the singleton pattern using a decorator. We'll walk through the code and explain how it works, focusing on the _SingletonWrapper class and the singleton decorator function.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://tembo.io/blog/image-search">Building an image search engine on Postgres</a></strong>
+    
+        <br /><span>This post demonstrates how to build a basic image search engine using Postgres, CLIP (a pre-trained AI model), and the pgvector extension. It explains the process of generating embeddings for images and text, storing them in Postgres, and performing similarity searches using both image and text queries1</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=I_IchaIdmnA">Python Tutorial: Build a Course Platform with Django, HTMX, TailwindCSS and Cloudinary</a></strong>
+    
+        <br /><span>Learn how to build a Course Platform from scratch. Host video-based courses, manage thumbnails, restrict access to confirmed emails only, optimize thumbnails, customize the Django admin and much more.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://coe.psu.ac.th/ad/invhyper/">Python for Inversive and Hyperbolic Geometry</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://labs.quansight.org/blog/numpy-quaddtype-blog">Numpy QuadDType: Quadruple Precision for Everyone</a></strong>
+    
+        <br /><span>Introducing the new data-type for Numpy providing cross-platform support of quadruple precision.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.propelauth.com/post/internal-ai-tools-with-streamlit">Building internal AI tools with Streamlit</a></strong>
+    
+        <br /><span>The article explains how to build internal AI tools using Streamlit and PropelAuth for authentication. It walks through setting up secure user authentication and integrating with AI models, making it easier to build AI-driven web apps for internal company use.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-10-06/">Python Hub Weekly Digest for 2024-10-06</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/gabrielchua/open-notebooklm">open-notebooklm</a></strong>
+    
+        <br /><span>Convert any PDF into a podcast episode!</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/uname-n/deltabase">DeltaBase</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/zipnn/zipnn">ZipNN</a></strong>
+    
+        <br /><span>A Lossless Compression Library for AI pipelines.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/google-research/circuit_training">AlphaChip</a></strong>
+    
+        <br /><span>An open-source framework for generating chip floorplans with distributed deep reinforcement learning.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/adamchainz/djade">Djade</a></strong>
+    
+        <br /><span>A Django template formatter.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/dynamiq-ai/dynamiq">Dynamiq</a></strong>
+    
+        <br /><span>Dynamiq is an orchestration framework for agentic AI and LLM applications.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/google/langfun">Langfun</a></strong>
+    
+        <br /><span>Langfun, powered by PyGlove, makes working with language models (LM) more intuitive by treating language as functions. Using Object-Oriented Prompting, it enables users to prompt LLMs with objects and types, enhancing control and simplifying agent development.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/hyperknot/openfreemap">OpenFreeMap</a></strong>
+    
+        <br /><span>Free and open-source map hosting solution with custom styles for websites and apps, using OpenStreetMap data.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1fyeo1g/python_313s_best_new_features/">Python 3.13's best new features</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 13 Oct 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 13 Oct 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-10-06</title>
