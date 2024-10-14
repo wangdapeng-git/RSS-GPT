@@ -4,6 +4,167 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Syntactic Sugar: Why Python Is Sweet and Pythonic</title>
+<link>https://realpython.com/syntactic-sugar-python/</link>
+<guid>https://realpython.com/syntactic-sugar-python/</guid>
+<content:encoded><![CDATA[
+<div> syntactic sugar, Python, operators, assignment expressions, for loops<br>
+<br>
+syntactic sugar指的是简化代码的语法，使代码更易读、更简洁。Python使用syntactic sugar来使代码更Pythonic和易读，包括操作符、赋值表达式、for循环以及其他构造。Python中的运算符由特殊方法支持，每个操作符都对应一个特殊方法。了解这些syntactic sugar可以帮助你更好地理解Python的内部工作方式。在某些情况下，使用desugared版本可能更适合。知道给定语法糖的替代代码是一个很好的技能。总结: <div>
+<div><p>Python has several pieces of syntax that are <strong>syntactic sugar</strong>. This sugar is syntax that isn’t strictly necessary but gives Python some of its flavor as a readable, beginner-friendly, and powerful language. In this tutorial, you’ll explore some of Python’s most used pieces of syntactic sugar.</p>
+<p>In practice, you already use most of these pieces of syntax, as they include many well-known Pythonic constructs. As you read on, you’ll see how Python works under the hood and learn how to use the language efficiently and securely.</p>
+<p><strong>In this tutorial, you’ll learn:</strong></p>
+<ul>
+<li>What <strong>syntactic sugar</strong> is</li>
+<li>How syntactic sugar applies to <strong>operators</strong></li>
+<li>How <strong>assignment expressions</strong> are syntactic sugar</li>
+<li>How <strong><code>for</code> loops</strong> and <strong>comprehensions</strong> are syntactic sugar</li>
+<li>How other Python <strong>constructs</strong> are also syntactic sugar</li>
+</ul>
+<p>To get the most out of this tutorial, you should be familiar with the basics of Python, including <a href="https://realpython.com/python-operators-expressions/">operators, expressions</a>, <a href="https://realpython.com/python-for-loop/">loops</a>, <a href="https://realpython.com/primer-on-python-decorators/">decorators</a>, <a href="https://realpython.com/python-classes/">classes</a>, <a href="https://realpython.com/python-with-statement/">context managers</a>, and more.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/syntactic-sugar-python-code/">Click here to download the free sample code</a> that shows you how to use syntactic sugar in Python.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Syntactic Sugar: Why Python Is Sweet and Pythonic” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/syntactic-sugar-python/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="Syntactic Sugar: Why Python Is Sweet and Pythonic" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Syntactic-Sugar-in-Python_Watermarked-3.d721e975bba6.jpg" style="background: #e5c5ac;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/syntactic-sugar-python/"><span class="my-0 h4">Syntactic Sugar: Why Python Is Sweet and Pythonic</span></a> 
+      <p class="text-muted mb-0 small">You can take this quiz to test your understanding of Python's most common pieces of syntactic sugar and how they make your code more Pythonic and readable.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="syntactic-sugar">Syntactic Sugar<a class="headerlink" href="#syntactic-sugar" title="Permanent link"></a></h2>
+<p>In programming, <strong>syntactic sugar</strong> refers to pieces of syntax that simplify the code and make it more readable or concise. Syntactic sugar lets you express things in a clearer and more readable way.</p>
+<blockquote>
+<p>It makes the language <em>sweeter</em> for human use: things can be expressed more clearly, more concisely, or in an alternative style that some may prefer. (<a href="https://en.wikipedia.org/wiki/Syntactic_sugar">Source</a>)</p>
+</blockquote>
+<p>However, syntactic sugar is something that you may not need in practice because you can get the same result using a different, and often more involved, construct.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> This tutorial is slightly inspired by <a href="https://realpython.com/podcasts/rpp/92/">Brett Cannon’s</a> series of posts about <a href="https://snarky.ca/tag/syntactic-sugar/">unraveling syntactic sugar</a> in Python. In that series, Brett goes deep into each piece of syntactic sugar. You can check out the series if you’d like a detailed discussion of the syntax constructs covered in this tutorial and others.</p>
+</div>
+<p>Python has many pieces of syntactic sugar that you’ll regularly use in your code. These syntax constructs make Python more readable, quicker to write, and user-friendly. Understanding these syntactic sugar pieces and their significance will help you better understand the inner workings of Python.</p>
+<p>In rare situations, you’ll find that desugared versions of a given piece of syntactic sugar can better fulfill your needs. So, knowing about the alternative code to a given sugar can be a good skill to have.</p>
+<h2 id="operators-in-python">Operators in Python<a class="headerlink" href="#operators-in-python" title="Permanent link"></a></h2>
+<p>As with most programming languages, Python makes extensive use of operators. You’ll find several categories of operators, including arithmetic, assignment, augmented assignment, comparison, <a href="https://realpython.com/python-boolean/">Boolean</a>, and membership operators. All these operators are part of Python’s syntactic sugar constructs because they let you write expressions in a quick and readable way.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> To dive deeper into Python operators, check out the <a href="https://realpython.com/python-operators-expressions/">Operators and Expressions in Python</a> tutorial.</p>
+</div>
+<p>For example, arithmetic operators allow you to create math expressions that are quick to write and read because they look pretty similar to what you learned in math class:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="mi">5</span> <span class="o">+</span> <span class="mi">7</span>
+<span class="go">12</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="mi">10</span> <span class="o">-</span> <span class="mi">4</span>
+<span class="go">6</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="mi">2</span> <span class="o">*</span> <span class="mi">4</span>
+<span class="go">8</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="mi">20</span> <span class="o">/</span> <span class="mi">2</span>
+<span class="go">10</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In the first example, you use the plus operator (<code>+</code>) to add two numbers. In the second example, you use the subtraction operator (<code>-</code>) to subtract two numbers. The final two examples perform multiplication and division.</p>
+<p>Python supports its arithmetic operators through <strong>special methods</strong>. Here’s a quick summary:</p>
+<div class="table-responsive">
+<table class="table table-hover">
+<thead>
+<tr>
+<th class="text-center">Operator</th>
+<th>Operation</th>
+<th>Method</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="text-center"><code>+</code></td>
+<td>Addition</td>
+<td><a href="https://docs.python.org/3/reference/datamodel.html#object.__add__"><code>.__add__()</code></a></td>
+</tr>
+<tr>
+<td class="text-center"><code>-</code></td>
+<td>Subtraction</td>
+<td><a href="https://docs.python.org/3/reference/datamodel.html#object.__sub__"><code>.__sub__()</code></a></td>
+</tr>
+<tr>
+<td class="text-center"><code>*</code></td>
+<td>Multiplication</td>
+<td><a href="https://docs.python.org/3/reference/datamodel.html#object.__mul__"><code>.__mul__()</code></a></td>
+</tr>
+<tr>
+<td class="text-center"><code>/</code></td>
+<td>Division</td>
+<td><a href="https://docs.python.org/3/reference/datamodel.html#object.__truediv__"><code>.__truediv__()</code></a></td>
+</tr>
+<tr>
+<td class="text-center"><code>//</code></td>
+<td>Integer division</td>
+<td><a href="https://docs.python.org/3/reference/datamodel.html#object.__floordiv__"><code>.__floordiv__()</code></a></td>
+</tr>
+<tr>
+<td class="text-center"><code>**</code></td>
+<td>Exponentiation</td>
+<td><a href="https://docs.python.org/3/reference/datamodel.html#object.__pow__"><code>.__pow__()</code></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>What does it mean to say Python supports its operators through special methods? It means that every time you use an operator, Python calls the corresponding special method under the hood.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> To learn more about special methods, also known as magic or dunder methods, check out <a href="https://realpython.com/python-magic-methods/">Python’s Magic Methods: Leverage Their Power in Your Classes</a>.</p>
+</div>
+<p>To illustrate, here’s how you can express the arithmetic operations you wrote earlier using the appropriate special methods:</p>
+</div><h2><a href="https://realpython.com/syntactic-sugar-python/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/syntactic-sugar-python/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-14T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Quiz: Python Thread Safety: Using a Lock and Other Techniques</title>
