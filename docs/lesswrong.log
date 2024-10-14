@@ -9551,3 +9551,12 @@ Summarized using GPT-3.5-turbo
 Append: [Prices are Bounties](https://www.lesswrong.com/posts/pghgLk9jYWtpcnsDG/prices-are-bounties)
 append_entries: 1
 Finish: 2024-10-14 02:50:51.208275
+------------------------------------------------------
+Started: 2024-10-14 04:16:42.072220
+Existing_entries: 321
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 16572
+Summarized using GPT-3.5-turbo
+Append: [The AGI Entente Delusion](https://www.lesswrong.com/posts/oJQnRDbgSS8i6DwNu/the-agi-entente-delusion)
+append_entries: 1
+Finish: 2024-10-14 04:16:47.373300
