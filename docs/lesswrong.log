@@ -9560,3 +9560,9 @@ Summarized using GPT-3.5-turbo
 Append: [The AGI Entente Delusion](https://www.lesswrong.com/posts/oJQnRDbgSS8i6DwNu/the-agi-entente-delusion)
 append_entries: 1
 Finish: 2024-10-14 04:16:47.373300
+------------------------------------------------------
+Started: 2024-10-14 06:19:41.665013
+Existing_entries: 322
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-10-14 06:19:42.878836

@@ -4,6 +4,21 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Quiz: Python Thread Safety: Using a Lock and Other Techniques</title>
+<link>https://realpython.com/quizzes/python-thread-lock/</link>
+<guid>https://realpython.com/quizzes/python-thread-lock/</guid>
+<content:encoded><![CDATA[
+<div> Python、threading、race conditions、thread safety、synchronization primitives
+<br>
+Python中的多线程编程非常重要，需要了解race conditions、thread safety和synchronization primitives等概念。在使用Python的threading模块和ThreadPoolExecutor时，需要注意线程安全和同步的问题。通过本文，可以检验对Python中的多线程以及相关概念的理解，包括避免竞争条件、线程安全问题和使用同步原语来保证代码的正确执行。通过不断练习和掌握这些概念，能够更好地应用多线程编程来提高Python代码的效率和性能。<br><br>总结: 本文重点讲解了Python中的多线程编程及相关概念，包括竞争条件、线程安全和同步原语。掌握这些知识对于有效使用Python的threading模块和ThreadPoolExecutor至关重要。 <div>
+<p>In this quiz, you&rsquo;ll test your understanding of Python threading and <a href="https://realpython.com/python-thread-lock/">thread safety</a>. You&rsquo;ll revisit concepts such as race conditions, thread safety issues, and synchronization primitives in the <code>threading</code> module. This knowledge is crucial when working with multithreaded code using Python&rsquo;s <code>threading</code> module and <code>ThreadPoolExecutor</code>.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-13T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>The Real Python Podcast – Episode #223: Exploring the New Features of Python 3.13</title>
