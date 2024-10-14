@@ -9602,3 +9602,15 @@ Existing_entries: 322
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-14 18:17:41.504694
+------------------------------------------------------
+Started: 2024-10-14 20:15:38.604984
+Existing_entries: 322
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 22536
+Summarized using GPT-3.5-turbo
+Append: [Circuits in Superposition: Compressing many small neural networks into one](https://www.lesswrong.com/posts/roE7SHjFWEoMcGZKd/circuits-in-superposition-compressing-many-small-neural)
+Token length: 11248
+Summarized using GPT-3.5-turbo
+Append: [The case for unlearning that removes information from LLM weights](https://www.lesswrong.com/posts/9AbYkAy8s9LvB7dT5/the-case-for-unlearning-that-removes-information-from-llm)
+append_entries: 2
+Finish: 2024-10-14 20:15:52.400644
