@@ -9635,3 +9635,12 @@ Existing_entries: 325
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-15 02:48:38.018404
+------------------------------------------------------
+Started: 2024-10-15 04:16:59.061290
+Existing_entries: 325
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 22217
+Summarized using GPT-3.5-turbo
+Append: [AI Alignment via Slow Substrates: Early Empirical Results With StarCraft II](https://www.lesswrong.com/posts/qhhRwxsef7P2yC2Do/ai-alignment-via-slow-substrates-early-empirical-results)
+append_entries: 1
+Finish: 2024-10-15 04:17:06.317117
