@@ -4,6 +4,24 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Using Type Hints for Multiple Return Types in Python</title>
+<link>https://realpython.com/courses/type-hints-multiple-return-types/</link>
+<guid>https://realpython.com/courses/type-hints-multiple-return-types/</guid>
+<content:encoded><![CDATA[
+<div> Python, type hints, multiple return types, function, callback functions
+<br>
+该文章介绍了在Python中使用类型提示来指定函数具有多个返回类型的情况。通过对解析电子邮件地址字符串以获取域名的函数进行示例，展示了如何指定多个返回类型。此外，还展示了如何为回调函数或接受另一个函数作为输入的函数指定类型提示。通过这些示例，读者可以了解如何在函数式编程中表达类型提示。
+<br><br>总结: 该文章介绍了类型提示在Python中的重要性，以及如何指定函数的多个返回类型和回调函数的类型提示。通过实例介绍了在编写灵活应用时如何使代码更健壮和适应不同情况。 <div>
+<p>In Python, <strong>type hinting</strong> is an optional yet useful feature for making your code easier to read, reason about, and debug. With type hints, you let other developers know the expected data types for variables, function arguments, and return values. As you write code for applications that require greater flexibility, you may need to specify <strong>multiple return types</strong> to make your code more robust and adaptable to different situations.</p>
+<p>You&rsquo;ll encounter different use cases where you may want to annotate multiple return types within a single function in Python. In other words, the data returned can vary in type. In this video course, you&rsquo;ll walk through examples of how to specify multiple return types for a function that parses a string from an email address to grab the domain name.</p>
+<p>In addition, you&rsquo;ll see examples of how to specify type hints for callback functions or functions that take another function as input. With these examples, you&rsquo;ll be ready to express type hints in functional programming.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-15T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Syntactic Sugar: Why Python Is Sweet and Pythonic</title>

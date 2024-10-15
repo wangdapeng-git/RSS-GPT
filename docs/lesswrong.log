@@ -9668,3 +9668,12 @@ Existing_entries: 326
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-15 12:25:03.777989
+------------------------------------------------------
+Started: 2024-10-15 14:13:26.144212
+Existing_entries: 326
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 16572
+Summarized using GPT-3.5-turbo
+Append: [The Hopium Wars: the AGI Entente Delusion](https://www.lesswrong.com/posts/oJQnRDbgSS8i6DwNu/the-hopium-wars-the-agi-entente-delusion)
+append_entries: 1
+Finish: 2024-10-15 14:13:31.230071
