@@ -9629,3 +9629,9 @@ Summarized using GPT-3.5-turbo
 Append: [Can AI Outpredict Humans? Results From Metaculus's Q3 AI Forecasting Benchmark](https://www.lesswrong.com/posts/LHdNtJCm93pxNHJKb/can-ai-outpredict-humans-results-from-metaculus-s-q3-ai)
 append_entries: 1
 Finish: 2024-10-15 00:59:23.020129
+------------------------------------------------------
+Started: 2024-10-15 02:48:36.821496
+Existing_entries: 325
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-10-15 02:48:38.018404
