@@ -4,6 +4,7 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+
 <item>
 <title>HDR photo editing with machine learning</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/HDREditing12-HeroNew.png</link>
@@ -11,13 +12,10 @@
 <content:encoded><![CDATA[
 <div> 关键词：文章、中文、总结、要点、格式
 
-总结：<br><br>本文介绍了如何用中文对一篇文章进行总结，先提取关键词，然后按顺序列出要点并用合适的格式输出。通过提取关键词可以抓住文章的主要内容，然后用简洁的语言将要点逐一概括，最后按格式输出总结。这种方法可以帮助读者迅速了解文章内容，提高阅读效率。 <div>
-
+总结：<br /><br />本文介绍了如何用中文对一篇文章进行总结，先提取关键词，然后按顺序列出要点并用合适的格式输出。通过提取关键词可以抓住文章的主要内容，然后用简洁的语言将要点逐一概括，最后按格式输出总结。这种方法可以帮助读者迅速了解文章内容，提高阅读效率。 <div>
 ]]></content:encoded>
-<pubDate>2024-10-16T00:00:00+00:00</pubDate>
 <pubDate>2024-10-16T20:15:03.336553+00:00</pubDate>
 </item>
-
 <item>
 <title>Validating random circuit sampling as a benchmark for measuring quantum progress</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/RCS_Quantum_2.png</link>
