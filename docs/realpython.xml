@@ -4,6 +4,187 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Structural Pattern Matching in Python</title>
+<link>https://realpython.com/structural-pattern-matching/</link>
+<guid>https://realpython.com/structural-pattern-matching/</guid>
+<content:encoded><![CDATA[
+<div> pattern matching, Python, structural, syntax, features
+<br>
+Python 3.10 在其发布版本中引入了结构模式匹配，这是一种强大的控制流构造，为按声明式代码风格编写提供了简洁可读的语法。模式匹配可以使代码更加优雅、简洁，并且使用match语句和case子句来比较值。模式匹配通过条件语句和对象解构的组合，能够更灵活地控制代码流程。这种特性在编译型函数式语言中首次出现，而在动态类型的 Python 中面临挑战。结构模式匹配的使用需要了解Python基础知识，包括条件语句、循环和内置函数。<article>总结:</article> <div>
+<div><p>Structural pattern matching is a powerful <strong>control flow construct</strong> invented decades ago that’s traditionally used by compiled languages, especially within the <a href="https://realpython.com/python-functional-programming/">functional programming paradigm</a>. </p>
+<p>Most mainstream programming languages have since adopted some form of pattern matching, which offers concise and readable syntax while promoting a declarative code style. Although Python was late to join the party, it introduced structural pattern matching in the <a href="https://realpython.com/python310-new-features/">3.10</a> release.</p>
+<p><strong>In this tutorial, you’ll:</strong></p>
+<ul>
+<li>Master the <strong>syntax</strong> of the <code>match</code> statement and <code>case</code> clauses</li>
+<li>Explore various <strong>types of patterns</strong> supported by Python</li>
+<li>Learn about <strong>guards</strong>, <strong>unions</strong>, <strong>aliases</strong>, and <strong>name binding</strong></li>
+<li>Extract values from deeply nested <strong>hierarchical data structures</strong></li>
+<li>Customize pattern matching for <strong>user-defined classes</strong></li>
+<li>Identify and avoid <strong>common pitfalls</strong> in Python’s pattern matching</li>
+</ul>
+<p>To get the most out of this tutorial, you should have a basic understanding of <a href="https://realpython.com/python-conditional-statements/">conditional statements</a>, <a href="https://realpython.com/python-for-loop/">loops</a>, <a href="https://realpython.com/defining-your-own-python-function/">functions</a>, and <a href="https://realpython.com/python-classes/">classes</a> in Python. Additionally, familiarity with Python’s built-in <a href="https://realpython.com/python-data-structures/">data structures</a>, such as <a href="https://realpython.com/python-tuple/">tuples</a>, <a href="https://realpython.com/python-list/">lists</a>, and <a href="https://realpython.com/python-dicts/">dictionaries</a>, will be beneficial.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Free Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/structural-pattern-matching-code/">Click here to download the free sample code</a> that shows you how to use structural pattern matching in Python.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Structural Pattern Matching” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/structural-pattern-matching/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="Structural Pattern Matching in Python" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Structural-Pattern-Matching-in-Python-3.10_Watermarked-2.085d2bfb1940.jpg" style="background: #abe5b2;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/structural-pattern-matching/"><span class="my-0 h4">Structural Pattern Matching</span></a> 
+      <p class="text-muted mb-0 small">In this quiz, you'll test your understanding of structural pattern matching in Python. This powerful control flow construct, introduced in Python 3.10, offers concise and readable syntax while promoting a declarative code style.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="getting-to-know-structural-pattern-matching">Getting to Know Structural Pattern Matching<a class="headerlink" href="#getting-to-know-structural-pattern-matching" title="Permanent link"></a></h2>
+<p>Before taking advantage of structural pattern matching in your code, make sure that you’re running <strong>Python 3.10</strong> or later, as you won’t be able to use it in earlier Python versions. Note that although the name <strong>structural pattern matching</strong> is often shortened to just <strong>pattern matching</strong>, the qualifier <em>structural</em> is crucial to understanding the use cases for this feature. In this section, you’ll get a high-level overview of structural pattern matching.</p>
+<h3 id="what-is-pattern-matching">What Is Pattern Matching?<a class="headerlink" href="#what-is-pattern-matching" title="Permanent link"></a></h3>
+<p>You can think of pattern matching as a form of <a href="https://realpython.com/syntactic-sugar-python/">syntactic sugar</a> built on top of existing language constructs, including <a href="https://realpython.com/python-conditional-statements/">conditional statements</a> and <a href="https://realpython.com/python-tuple/#packing-and-unpacking-tuples">tuple unpacking</a>. While you can absolutely live without pattern matching, it gives you new superpowers, making this feature more convenient than the conventional syntax in some situations.</p>
+<p>Pattern matching often leads to more elegant, concise, and readable code written in a <a href="https://en.wikipedia.org/wiki/Declarative_programming">declarative</a> style. To get a taste of it, take a quick look at the following example without trying to fully understand how it works just yet:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="kn">import</span> <span class="nn">json</span>
+
+<span class="k">def</span> <span class="nf">log</span><span class="p">(</span><span class="n">event</span><span class="p">):</span>
+    <span class="k">match</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">event</span><span class="p">):</span>
+        <span class="k">case</span> <span class="p">{</span><span class="s2">"keyboard"</span><span class="p">:</span> <span class="p">{</span><span class="s2">"key"</span><span class="p">:</span> <span class="p">{</span><span class="s2">"code"</span><span class="p">:</span> <span class="n">code</span><span class="p">}}}:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Key pressed: </span><span class="si">{</span><span class="n">code</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="k">case</span> <span class="p">{</span><span class="s2">"mouse"</span><span class="p">:</span> <span class="p">{</span><span class="s2">"cursor"</span><span class="p">:</span> <span class="p">{</span><span class="s2">"screen"</span><span class="p">:</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">]}}}:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Mouse cursor: </span><span class="si">{</span><span class="n">x</span><span class="si">=}</span><span class="s2">, </span><span class="si">{</span><span class="n">y</span><span class="si">=}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="k">case</span><span class="w"> </span><span class="k">_</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">"Unknown event type"</span><span class="p">)</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The <code>match</code> statement takes a <strong>subject</strong>, which can be any valid Python expression, such as a string literal or a function call, and compares the resulting value to one or more <strong>patterns</strong> listed in the <code>case</code> clauses. The first pattern that matches the given subject will trigger the corresponding <code>case</code> block to run. You’ll learn more about the <code>match</code> statement and <code>case</code> clauses later in this tutorial.</p>
+<p>At first glance, the syntax of structural pattern matching in Python looks a bit like the <a href="https://en.wikipedia.org/wiki/Switch_statement"><code>switch</code> statement</a> found in the <a href="https://en.wikipedia.org/wiki/List_of_C-family_programming_languages">C-family</a> programming languages if you squint your eyes:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--purple">
+    <span class="mr-2 noselect">C</span>
+    
+    <div class="noselect">
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="kt">void</span><span class="w"> </span><span class="nf">log_event</span><span class="p">(</span><span class="k">enum</span><span class="w"> </span><span class="n">Event</span><span class="w"> </span><span class="n">event</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">event</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">case</span><span class="w"> </span><span class="no">KEYBOARD</span><span class="p">:</span>
+<span class="w">            </span><span class="n">printf</span><span class="p">(</span><span class="s">"Keyboard event</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+<span class="w">            </span><span class="k">break</span><span class="p">;</span>
+<span class="w">        </span><span class="k">case</span><span class="w"> </span><span class="no">MOUSE</span><span class="p">:</span>
+<span class="w">            </span><span class="n">printf</span><span class="p">(</span><span class="s">"Mouse event</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+<span class="w">            </span><span class="k">break</span><span class="p">;</span>
+<span class="w">        </span><span class="k">default</span><span class="o">:</span>
+<span class="w">            </span><span class="n">printf</span><span class="p">(</span><span class="s">"Unknown event</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>This resemblance is deceptive, though. The classic <code>switch</code> statement controls the execution flow based on the <strong>exact value</strong> stored in a variable. It effectively works as a chained sequence of mutually exclusive <code>if..elif...</code> equality comparisons, but with a more succinct and readable syntax.</p>
+<p>Although you can use pattern matching this way, you’d be missing out on its true power and flexibility. Structural pattern matching was designed to go beyond value comparisons. In particular, it combines <strong>conditional statements</strong> or branching based on a logical predicate with <strong>destructuring</strong> or object deconstruction, which is the inverse of object construction. You’ll see examples of destructuring in the next section.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> Because pattern matching does two things at once, the Python interpreter can take advantage of this to optimize the underlying bytecode with specialized opcodes, making the code run slightly faster.</p>
+</div>
+<p>The brief code snippet above merely scratches the surface of what you can achieve with pattern matching, but it already shows you its expressiveness, especially when you compare it with the traditional <code>if...elif...</code> statements and <a href="https://docs.python.org/3/library/functions.html#isinstance"><code>isinstance()</code></a> checks. Here’s one of the many ways you can implement the equivalent logic using standard Python:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="kn">import</span> <span class="nn">json</span>
+
+<span class="k">def</span> <span class="nf">log</span><span class="p">(</span><span class="n">event</span><span class="p">):</span>
+    <span class="n">parsed_event</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">event</span><span class="p">)</span>
+    <span class="k">if</span> <span class="p">(</span>
+        <span class="s2">"keyboard"</span> <span class="ow">in</span> <span class="n">parsed_event</span> <span class="ow">and</span>
+        <span class="s2">"key"</span> <span class="ow">in</span> <span class="n">parsed_event</span><span class="p">[</span><span class="s2">"keyboard"</span><span class="p">]</span> <span class="ow">and</span>
+        <span class="s2">"code"</span> <span class="ow">in</span> <span class="n">parsed_event</span><span class="p">[</span><span class="s2">"keyboard"</span><span class="p">][</span><span class="s2">"key"</span><span class="p">]</span>
+    <span class="p">):</span>
+        <span class="n">code</span> <span class="o">=</span> <span class="n">parsed_event</span><span class="p">[</span><span class="s2">"keyboard"</span><span class="p">][</span><span class="s2">"key"</span><span class="p">][</span><span class="s2">"code"</span><span class="p">]</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Key pressed: </span><span class="si">{</span><span class="n">code</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="p">(</span>
+        <span class="s2">"mouse"</span> <span class="ow">in</span> <span class="n">parsed_event</span> <span class="ow">and</span>
+        <span class="s2">"cursor"</span> <span class="ow">in</span> <span class="n">parsed_event</span><span class="p">[</span><span class="s2">"mouse"</span><span class="p">]</span> <span class="ow">and</span>
+        <span class="s2">"screen"</span> <span class="ow">in</span> <span class="n">parsed_event</span><span class="p">[</span><span class="s2">"mouse"</span><span class="p">][</span><span class="s2">"cursor"</span><span class="p">]</span>
+    <span class="p">):</span>
+        <span class="n">screen</span> <span class="o">=</span> <span class="n">parsed_event</span><span class="p">[</span><span class="s2">"mouse"</span><span class="p">][</span><span class="s2">"cursor"</span><span class="p">][</span><span class="s2">"screen"</span><span class="p">]</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">screen</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">screen</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
+            <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">screen</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Mouse cursor: x=</span><span class="si">{</span><span class="n">x</span><span class="si">}</span><span class="s2">, y=</span><span class="si">{</span><span class="n">y</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">"Unknown event type"</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Unknown event type"</span><span class="p">)</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>This code is functionally identical to the previous version but is longer and has more indentation levels than before. Additionally, it looks more verbose and <a href="https://en.wikipedia.org/wiki/Imperative_programming">imperative</a> in style, describing not only <em>what</em> to do but also <em>how</em> to perform the individual steps. Granted, you could try making it slightly shorter by using the <a href="https://realpython.com/python-walrus-operator/">Walrus operator</a> and following the <a href="https://realpython.com/python-lbyl-vs-eafp/">EAFP principle</a> without explicit checks, but it’d remain somewhat convoluted.</p>
+<p>It’s worth noting that structural pattern matching first emerged in compiled functional languages with static typing. The attempt to implement it in Python, which is a <a href="https://en.wikipedia.org/wiki/Dynamic_programming_language">dynamic language</a>, presented completely new and unique challenges. You can read more about them in the paper entitled <a href="https://gvanrossum.github.io/docs/PyPatternMatching.pdf">Dynamic Pattern Matching with Python</a>, which was co-authored by <a href="https://en.wikipedia.org/wiki/Guido_van_Rossum">Guido van Rossum</a> and published in the proceedings of the Dynamic Languages Symposium in 2020.</p>
+<p>Now that you’ve seen the most basic form of pattern matching in Python, it’s time to unravel the meaning of a structural pattern.</p>
+<h3 id="what-is-a-structural-pattern">What Is a Structural Pattern?<a class="headerlink" href="#what-is-a-structural-pattern" title="Permanent link"></a></h3>
+</div><h2><a href="https://realpython.com/structural-pattern-matching/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/structural-pattern-matching/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-16T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Using Type Hints for Multiple Return Types in Python</title>
