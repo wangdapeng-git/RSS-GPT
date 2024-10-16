@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Structural Pattern Matching in Python</title>
 <link>https://realpython.com/structural-pattern-matching/</link>
 <guid>https://realpython.com/structural-pattern-matching/</guid>
 <content:encoded><![CDATA[
 <div> pattern matching, Python, structural, syntax, features
-<br>
+<br />
 Python 3.10 在其发布版本中引入了结构模式匹配，这是一种强大的控制流构造，为按声明式代码风格编写提供了简洁可读的语法。模式匹配可以使代码更加优雅、简洁，并且使用match语句和case子句来比较值。模式匹配通过条件语句和对象解构的组合，能够更灵活地控制代码流程。这种特性在编译型函数式语言中首次出现，而在动态类型的 Python 中面临挑战。结构模式匹配的使用需要了解Python基础知识，包括条件语句、循环和内置函数。<article>总结:</article> <div>
 <div><p>Structural pattern matching is a powerful <strong>control flow construct</strong> invented decades ago that’s traditionally used by compiled languages, especially within the <a href="https://realpython.com/python-functional-programming/">functional programming paradigm</a>. </p>
 <p>Most mainstream programming languages have since adopted some form of pattern matching, which offers concise and readable syntax while promoting a declarative code style. Although Python was late to join the party, it introduced structural pattern matching in the <a href="https://realpython.com/python310-new-features/">3.10</a> release.</p>
@@ -182,10 +183,8 @@ Python 3.10 在其发布版本中引入了结构模式匹配，这是一种强�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-10-16T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Using Type Hints for Multiple Return Types in Python</title>
 <link>https://realpython.com/courses/type-hints-multiple-return-types/</link>
