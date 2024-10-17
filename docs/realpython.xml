@@ -4,6 +4,24 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Quiz: Getting Started With Async Features in Python</title>
+<link>https://realpython.com/quizzes/python-async-features/</link>
+<guid>https://realpython.com/quizzes/python-async-features/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: synchronous, asynchronous, Python async features, programs, benefits
+
+总结:<br><br>本文讨论了同步和异步程序的概念，以及为什么要编写异步程序以及如何使用Python的异步功能。同步程序是按照顺序执行的，而异步程序可以同时执行多个任务。Python的异步特性可以帮助提高程序的性能和效率，特别是在处理I/O密集型任务时。通过使用async和await关键字，可以编写更具有响应性的程序。因此，了解并掌握异步程序编写是很重要的，可以帮助提高编程技能和程序的执行效率。 <div>
+<p>In this quiz, you&rsquo;ll test your understanding of
+<a href="https://realpython.com/python-async-features/">Asynchronous Programming in Python</a>.</p>
+<p>By working through this quiz, you&rsquo;ll revisit the concepts of synchronous and asynchronous programs,
+why you might want to write an asynchronous program, and how to use Python async features.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-15T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Structural Pattern Matching in Python</title>
