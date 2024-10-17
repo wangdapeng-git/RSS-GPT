@@ -9812,3 +9812,9 @@ Summarized using GPT-3.5-turbo
 Append: [Bitter lessons about lucid dreaming](https://www.lesswrong.com/posts/AAz8rng2JpFYpEzH9/bitter-lessons-about-lucid-dreaming)
 append_entries: 1
 Finish: 2024-10-17 08:17:56.870602
+------------------------------------------------------
+Started: 2024-10-17 10:14:33.914636
+Existing_entries: 330
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-10-17 10:14:34.666022
