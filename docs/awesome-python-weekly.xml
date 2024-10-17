@@ -4,6 +4,19 @@
 <title>Awesome Python Weekly</title>
 <link>https://python.libhunt.com/newsletter</link>
 
+<item>
+<title>🐍 Issue 438 - Python client for the $20 Colmi R02 smart ring</title>
+<link>https://python.libhunt.com/newsletter/438</link>
+<guid>https://python.libhunt.com/newsletter/438</guid>
+<content:encoded><![CDATA[
+<div> Colmi R02, Python client, smart ring, $20, issue
+
+Python client for the $20 Colmi R02 smart ring介绍了一款售价仅为20美元的Colmi R02智能戒指，以及针对该智能戒指开发的Python客户端。这篇文章详细介绍了如何使用Python客户端来与Colmi R02智能戒指进行通信和控制，包括连接设备、发送命令、接收数据等操作。通过Python客户端，用户可以方便地与这款便宜且实用的智能戒指进行交互，实现更多个性化的功能和定制化的操作。总的来说，这篇文章为想要了解和使用Colmi R02智能戒指的用户提供了有用的指南和参考信息。<br><br>总结: Colmi R02是一款售价仅为20美元的智能戒指，本文介绍了针对该智能戒指开发的Python客户端，帮助用户更好地控制和使用该产品。 <div>
+🐍 Issue 438 - Python client for the $20 Colmi R02 smart ring
+]]></content:encoded>
+<pubDate>Thu, 17 Oct 2024 13:42:00 -0800</pubDate>
+<pubDate>Thu, 17 Oct 2024 13:42:00 -0800</pubDate>
+</item>
 
 <item>
 <title>🐍 Issue 437 - 9 must-know open-source tools that will make you better than 99% of developers</title>
