@@ -11718,3 +11718,10 @@ Existing_entries: 123
 Fetching from https://rsshub.app/deepmind/blog
 append_entries: 0
 Finish: 2024-10-17 00:57:33.007831
+------------------------------------------------------
+Started: 2024-10-17 02:45:36.267994
+Existing_entries: 123
+Fetching from https://rsshub.app/deepmind/blog
+Fetch failed from https://rsshub.app/deepmind/blog
+append_entries: 0
+error when rendering xml, skip docs/deepmind

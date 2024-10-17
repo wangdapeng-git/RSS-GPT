@@ -4,6 +4,7 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+
 <item>
 <title>HDR photo editing with machine learning</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/HDREditing13-HeroFinal.png</link>
@@ -11,13 +12,10 @@
 <content:encoded><![CDATA[
 <div> 关键词：文章、总结、中文、要点、输出
 
-总结：<br><br>这篇文章总结了一种方法，可以在使用中文进行总结时提取关键词、输出要点，以便更清晰地展现文章内容。通过该方法，可以方便读者快速了解文章主题，并准确掌握重要信息。提取关键词、输出要点是重要的总结技巧，能够帮助读者更好地理解文章内容，并从中获得有价值的信息。通过这种方式，读者可以更好地掌握文章的要点，提高总结的准确度和效率。文章通过示范提取关键词、输出要点的方法，展示了如何用简洁明了的方式总结文章内容，为读者提供了一种有效的总结工具。<br><br>总结: <div>
-
+总结：<br /><br />这篇文章总结了一种方法，可以在使用中文进行总结时提取关键词、输出要点，以便更清晰地展现文章内容。通过该方法，可以方便读者快速了解文章主题，并准确掌握重要信息。提取关键词、输出要点是重要的总结技巧，能够帮助读者更好地理解文章内容，并从中获得有价值的信息。通过这种方式，读者可以更好地掌握文章的要点，提高总结的准确度和效率。文章通过示范提取关键词、输出要点的方法，展示了如何用简洁明了的方式总结文章内容，为读者提供了一种有效的总结工具。<br /><br />总结: <div>
 ]]></content:encoded>
-<pubDate>2024-10-16T00:00:00+00:00</pubDate>
 <pubDate>2024-10-17T00:58:50.333755+00:00</pubDate>
 </item>
-
 <item>
 <title>HDR photo editing with machine learning</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/HDREditing12-HeroNew.png</link>
