@@ -4,13 +4,14 @@
 <title>ByteByteGo Newsletter</title>
 <link>https://blog.bytebytego.com</link>
 
+
 <item>
 <title>Data Sharing Between Microservices</title>
 <link>https://blog.bytebytego.com/p/data-sharing-between-microservices</link>
 <guid>https://blog.bytebytego.com/p/data-sharing-between-microservices</guid>
 <content:encoded><![CDATA[
-<div> 微服务架构、数据管理、数据共享、优缺点、方法<br>
-<br>总结：<br>微服务架构是构建复杂、可扩展软件系统的流行架构风格。每个微服务专注于特定的业务能力，并可以独立进行开发、部署和扩展。其中一个基本原则是让每个服务拥有和管理自己的数据，以确保松散耦合和自治。虽然不鼓励在服务之间共享数据源（例如数据库），但在服务之间共享数据通常是必要和可接受的。文章探讨了在微服务之间共享数据的不同方式以及具体方法的优缺点。 <div>
+<div> 微服务架构、数据管理、数据共享、优缺点、方法<br />
+<br />总结：<br />微服务架构是构建复杂、可扩展软件系统的流行架构风格。每个微服务专注于特定的业务能力，并可以独立进行开发、部署和扩展。其中一个基本原则是让每个服务拥有和管理自己的数据，以确保松散耦合和自治。虽然不鼓励在服务之间共享数据源（例如数据库），但在服务之间共享数据通常是必要和可接受的。文章探讨了在微服务之间共享数据的不同方式以及具体方法的优缺点。 <div>
 <p>Microservices architecture has become popular for building complex, scalable software systems.</p><p>This architectural style structures an application as a collection of loosely coupled, independently deployable services. Each microservice is focused on a specific business capability and can be developed, deployed, and scaled independently.</p><p>While microservices offer numerous benefits, such as improved scalability, flexibility, and faster time to market, they also introduce significant challenges in terms of data management.</p><p>One of the fundamental principles of microservices architecture is that each service should own and manage its data. This principle is often expressed as "don't share databases between services&#8221; and it aims to ensure loose coupling and autonomy among services, allowing them to evolve independently.&nbsp;</p><p>However, it's crucial to distinguish between sharing a data source and sharing data itself. While sharing a data source (e.g., a database) between services is discouraged, sharing data between services is often necessary and acceptable.</p><p>In this post, we&#8217;ll look at different ways of sharing data between microservices and the various advantages and disadvantages of specific approaches.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-imag" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F111e893a-29b4-45c8-b8fd-d5bee6f21a86_1444x1600.png" target="_blank"><div class="image2-inset"><source type="image/webp" /><img alt="" class="sizing-normal" height="1600" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F111e893a-29b4-45c8-b8fd-d5bee6f21a86_1444x1600.png" width="1444" /><div class="image-link-expand"><svg class="lucide lucide-maximize2 " fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" x2="14" y1="3" y2="10"></line><line x1="3" x2="10" y1="21" y2="14"></line></svg></div></div></a></figure></div>
       <p>
           <a href="https://blog.bytebytego.com/p/data-sharing-between-microservices">
@@ -19,9 +20,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Thu, 17 Oct 2024 15:31:06 GMT</pubDate>
-<pubDate>Thu, 17 Oct 2024 15:31:06 GMT</pubDate>
 </item>
-
 <item>
 <title>How Uber Manages Petabytes of Real-Time Data</title>
 <link>https://blog.bytebytego.com/p/how-uber-manages-petabytes-of-real</link>

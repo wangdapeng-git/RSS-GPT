@@ -9836,3 +9836,12 @@ Existing_entries: 330
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-17 16:17:16.442555
+------------------------------------------------------
+Started: 2024-10-17 18:16:22.827017
+Existing_entries: 330
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 16892
+Summarized using GPT-3.5-turbo
+Append: [An Opinionated Evals Reading List](https://www.lesswrong.com/posts/Cur4n3gRGaqysKf5b/an-opinionated-evals-reading-list)
+append_entries: 1
+Finish: 2024-10-17 18:16:28.285670
