@@ -24374,3 +24374,15 @@ Filter: [【文件感染病毒】桌面整理软件 Stardock Fences 5.84](https:
 Filter: [百度地图19.6.0.1335，无更新无开屏广告](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1970176)
 append_entries: 1
 Finish: 2024-10-18 10:14:33.497492
+------------------------------------------------------
+Started: 2024-10-18 12:22:53.606856
+Existing_entries: 1001
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [最好的文件备份和同步工具 Syncovery 10.16.2 官方中文版本](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1972456)
+Filter: [UC浏览器国际版V13.6.01315-清爽无广告-视频无门槛加速看剧神器](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1972210)
+Filter: [NFC Tools PRO v8.8 模拟公交卡 门禁卡 电梯卡等](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1971318)
+Filter: [汉王扫描王 v2.5.11.64 比全能扫描王更好用](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1971274)
+Filter: [【文件感染病毒】桌面整理软件 Stardock Fences 5.84](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1970338)
+Filter: [百度地图19.6.0.1335，无更新无开屏广告](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1970176)
+append_entries: 0
+Finish: 2024-10-18 12:22:56.580527

@@ -10608,3 +10608,12 @@ Existing_entries: 178
 Fetching from https://realpython.com/atom.xml
 append_entries: 0
 Finish: 2024-10-18 10:15:36.067988
+------------------------------------------------------
+Started: 2024-10-18 12:23:58.882840
+Existing_entries: 178
+Fetching from https://realpython.com/atom.xml
+Token length: 391
+Summarized using GPT-3.5-turbo
+Append: [The Real Python Podcast – Episode #224: Narwhals: Expanding DataFrame Compatibility Between Libraries](https://realpython.com/podcasts/rpp/224/)
+append_entries: 1
+Finish: 2024-10-18 12:24:04.646860
