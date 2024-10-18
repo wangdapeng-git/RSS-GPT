@@ -10617,3 +10617,9 @@ Summarized using GPT-3.5-turbo
 Append: [The Real Python Podcast – Episode #224: Narwhals: Expanding DataFrame Compatibility Between Libraries](https://realpython.com/podcasts/rpp/224/)
 append_entries: 1
 Finish: 2024-10-18 12:24:04.646860
+------------------------------------------------------
+Started: 2024-10-18 14:13:04.738492
+Existing_entries: 179
+Fetching from https://realpython.com/atom.xml
+append_entries: 0
+Finish: 2024-10-18 14:13:04.964482

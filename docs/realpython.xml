@@ -4,21 +4,20 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>The Real Python Podcast – Episode #224: Narwhals: Expanding DataFrame Compatibility Between Libraries</title>
 <link>https://realpython.com/podcasts/rpp/224/</link>
 <guid>https://realpython.com/podcasts/rpp/224/</guid>
 <content:encoded><![CDATA[
-<div> Narwhals, Python工具, DataFrames, 兼容性, Polars, PyArrow<br>
-Narwhals 是一个 Python 工具，支持所有类型的 DataFrames 及其各种功能。该工具使用轻量级库来添加对新格式（如 Polars 或 PyArrow）的兼容性。Marco Gorelli 在本周节目中分享了关于他的项目 Narwhals 的内容。Narwhals 能够帮助用户处理各种类型的 DataFrames，并且可以轻松地适配新的数据格式，提高数据处理的灵活性和效率。<br><br>总结: <br>Python工具Narwhals支持各种DataFrames及其功能，使用轻量级库提供对新格式的兼容性。Marco Gorelli介绍了该项目，展示了其能够处理不同类型的数据框，并且能够快速适配新的数据格式，提高数据处理的效率。 <div>
+<div> Narwhals, Python工具, DataFrames, 兼容性, Polars, PyArrow<br />
+Narwhals 是一个 Python 工具，支持所有类型的 DataFrames 及其各种功能。该工具使用轻量级库来添加对新格式（如 Polars 或 PyArrow）的兼容性。Marco Gorelli 在本周节目中分享了关于他的项目 Narwhals 的内容。Narwhals 能够帮助用户处理各种类型的 DataFrames，并且可以轻松地适配新的数据格式，提高数据处理的灵活性和效率。<br /><br />总结: <br />Python工具Narwhals支持各种DataFrames及其功能，使用轻量级库提供对新格式的兼容性。Marco Gorelli介绍了该项目，展示了其能够处理不同类型的数据框，并且能够快速适配新的数据格式，提高数据处理的效率。 <div>
 <p>How does a Python tool support all types of DataFrames and their various features? Could a lightweight library be used to add compatibility for newer formats like Polars or PyArrow? This week on the show, we speak with Marco Gorelli about his project, Narwhals.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-10-18T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Quiz: Getting Started With Async Features in Python</title>
 <link>https://realpython.com/quizzes/python-async-features/</link>
