@@ -9926,3 +9926,15 @@ Existing_entries: 332
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-18 20:14:43.431155
+------------------------------------------------------
+Started: 2024-10-18 22:12:49.122911
+Existing_entries: 332
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 10361
+Summarized using GPT-3.5-turbo
+Append: [Optimizing crop planting with mixed integer linear programming in Stardew Valley](https://www.lesswrong.com/posts/rEZqP7K4MG6waC2zf/optimizing-crop-planting-with-mixed-integer-linear)
+Token length: 16194
+Summarized using GPT-3.5-turbo
+Append: [LLMs can learn about themselves by introspection](https://www.lesswrong.com/posts/L3aYFT4RDJYHbbsup/llms-can-learn-about-themselves-by-introspection)
+append_entries: 2
+Finish: 2024-10-18 22:13:03.017088
