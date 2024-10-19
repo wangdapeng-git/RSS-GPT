@@ -9947,3 +9947,9 @@ Summarized using GPT-3.5-turbo
 Append: [Interest in Leetcode, but for Rationality?](https://www.lesswrong.com/posts/hv7Ekg5sdJvZyFK6R/interest-in-leetcode-but-for-rationality)
 append_entries: 1
 Finish: 2024-10-19 00:58:16.782565
+------------------------------------------------------
+Started: 2024-10-19 02:44:31.037290
+Existing_entries: 335
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-10-19 02:44:32.358224
