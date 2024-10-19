@@ -4,22 +4,21 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Quiz: Single and Double Underscores in Python Names</title>
 <link>https://realpython.com/quizzes/python-double-underscore/</link>
 <guid>https://realpython.com/quizzes/python-double-underscore/</guid>
 <content:encoded><![CDATA[
 <div> Python, naming conventions, underscores, public names, name mangling
-<br><br>总结: Python中的命名规范依赖于使用下划线（_），通过使用单个前导下划线来区分公共和非公共名称，使用双前导下划线在Python类中利用名称混淆，以及其他在Python名称中使用下划线的常见用法。 <div>
+<br /><br />总结: Python中的命名规范依赖于使用下划线（_），通过使用单个前导下划线来区分公共和非公共名称，使用双前导下划线在Python类中利用名称混淆，以及其他在Python名称中使用下划线的常见用法。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of <a href="https://realpython.com/python-double-underscore/">Single and Double Underscores in Python Names</a>.</p>
 <p>By working through this quiz, you&rsquo;ll revisit Python naming conventions that rely on using underscores (<code>_</code>), how to differentiate public and non-public names by using a single leading underscore, how to use double leading underscores to leverage name mangling in Python classes, and other common uses of underscores in Python names.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-10-17T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>The Real Python Podcast – Episode #224: Narwhals: Expanding DataFrame Compatibility Between Libraries</title>
 <link>https://realpython.com/podcasts/rpp/224/</link>
