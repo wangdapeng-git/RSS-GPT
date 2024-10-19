@@ -4,6 +4,25 @@
 <title>NLP Newsletter</title>
 <link>https://nlp.elvissaravia.com</link>
 
+<item>
+<title>🐝 AI Agents Weekly: MLE-bench, Agent S, TEN Agent, AgentUI, Swarm,...</title>
+<link>https://nlp.elvissaravia.com/p/ai-agents-weekly-mle-bench-agent</link>
+<guid>https://nlp.elvissaravia.com/p/ai-agents-weekly-mle-bench-agent</guid>
+<content:encoded><![CDATA[
+<div> OpenAI, multi-agent orchestration, agentic framework, Lenovo AI Agent, real-time multimodal agent<br>
+<br>
+总结:<br>
+本期AI Agents Weekly报道了多个重要事件。首先，OpenAI推出了一款轻量级框架，用于多智能体协作。其次，研究人员开源了一个仿人类行为的智能框架。联想发布了搭载Llama 3.1的本地AI Agent。OpenAI研究人员介绍了一种全新的实时多模态智能体，并评估了其最大似然估计能力。这些新闻展示了人工智能领域的不断进步和创新。 <div>
+<p>Welcome to the first edition of AI Agents Weekly. In today&#8217;s issue:</p><ul><li><p>OpenAI launches <a href="https://github.com/openai/swarm">Swarm</a>, a lightweight framework for multi-agent orchestration.</p></li><li><p>Researchers open-source <a href="https://github.com/simular-ai/Agent-S">Agent S</a>, an agentic framework that uses computers like a human.</p></li><li><p>Lenovo <a href="https://news.lenovo.com/pressroom/press-releases/smarter-ai-for-all-comprehensive-devices-solutions-concepts-tech-world-2024/">announces</a> their new local AI Agent powered by Llama 3.1.</p></li><li><p>OpenAI researchers introduce <a href="https://arxiv.org/abs/2410.07095">MLE-bench</a> and measure the MLE capabilities of o1. </p></li><li><p><a href="https://github.com/TEN-framework/TEN-Agent">TEN Agent</a>: a new real-time multimodal agent that integrates OpenAI&#8217;s Realtime API. </p></li><li><p>&#8230; and much more.</p></li></ul>
+      <p>
+          <a href="https://nlp.elvissaravia.com/p/ai-agents-weekly-mle-bench-agent">
+              Read more
+          </a>
+      </p>
+]]></content:encoded>
+<pubDate>Sat, 19 Oct 2024 18:49:54 GMT</pubDate>
+<pubDate>Sat, 19 Oct 2024 18:49:54 GMT</pubDate>
+</item>
 
 <item>
 <title>🥇Top ML Papers of the Week</title>
