@@ -4,6 +4,185 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-10-20</title>
+<link>https://pythonhub.dev/digest/2024-10-20/</link>
+<guid>https://pythonhub.dev/digest/2024-10-20/</guid>
+<content:encoded><![CDATA[
+<div> Pyinstrument, Otter Wiki, Python ctypes, CSnakes, Niquests <br>
+Pyinstrument发布了v5.0版本，提供了Python的火焰图功能，Otter Wiki是一个使用Python、Markdown和git开发的简约维基，Python的ctypes可用于封装SystemV共享内存函数，CSnakes是一个将Python嵌入.NET项目的工具，Niquests是一个简单而优雅的HTTP库。这周的Python更新包括Python 3.13.0的发布，引入了改进的交互式解释器、实验性的自由线程构建模式和初步的JIT。Python社区还讨论了未来的Python打包方式和Python 3.13的新功能。总结：本周Python社区讨论了Pyinstrument v5.0发布、Otter Wiki的开发、Python ctypes的使用、CSnakes工具和Niquests库，以及Python 3.13.0的更新内容。 <div>
+<p class="summary">This week in Python, popular topics included the release of Pyinstrument v5.0, which provides flamegraphs for Python, and Otter Wiki, a minimalistic wiki developed using Python, Markdown, and git. Other highlights were the articles on how to use Python's ctypes for SystemV shared memory functions, and the introduction of CSnakes, a tool for embedding Python into .NET projects. 
+
+Niquests, a new yet elegant HTTP library that serves as a drop-in replacement for Requests, was also introduced. In terms of Python updates, the latest major release, Python 3.13.0, features an improved interactive interpreter, an experimental free-threaded build mode, and a preliminary JIT.
+
+The Python community also shared insights on the future of Python packaging with the recent release of UV 0.3.0, and discussed exciting new features in Python 3.13. Other</p>
+
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://www.reddit.com/r/Python/comments/1g1az6i/pyinstrument_v50_flamegraphs_for_python/">Pyinstrument v5.0 - flamegraphs for Python!</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://otterwiki.com/">Otter Wiki: A minimalistic wiki powered by Python, Markdown and git</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://euroquis.nl/blabla/2024/10/08/shm.html">Python and SysV shared memory</a></strong>
+    
+        <br /><span>The article explains how to use Python's ctypes to wrap SystemV shared memory functions (like shmat, shmget) for interprocess communication on systems restricted to Python 3.7. The author demonstrates creating, reading, writing, and destroying shared memory segments through Python, noting that while this approach isn't needed in Python 3.8+ due to built-in abstractions, it's useful in re...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/tonybaloney/csnakes">CSnakes</a></strong>
+    
+        <br /><span>A tool for embedding Python into .NET projects.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/jawah/niquests">Niquests</a></strong>
+    
+        <br /><span>Niquests is a simple, yet elegant, HTTP library. It is a drop-in replacement for Requests, which is under feature freeze.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://www.python.org/downloads/release/python-3130/">Python 3.13.0</a></strong>
+    
+        <br /><span>The newest major release of Python introduces several new features including an improved interactive interpreter, an experimental free-threaded build mode, and a preliminary JIT, along with various optimizations and changes to the standard library.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-10-13/">Python Hub Weekly Digest for 2024-10-13</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://zverok.space/blog/2024-10-06-poetry.html">Programming and poetry (not Python's tool)</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=8UuW8o4bHbw">uv IS the Future of Python Packaging</a></strong>
+    
+        <br /><span>The video discusses the recent release of UV 0.3.0, a Python packaging tool that aims to streamline the development workflow by integrating features that allow it to serve as a comprehensive solution for managing Python projects. The presenter highlights its speed, ease of use, and potential to replace existing tools, while also addressing current limitations and areas for improvement in...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/live/GPwYSf1t8Lw">Python 3.13 and the Latest Trends: A Developer’s Guide to 2025</a></strong>
+    
+        <br /><span>Learn about the exciting new features in Python 3.13. Get insider insights into the latest updates and learn about the plans for Python 3.14.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pgilmartin.substack.com/p/django-postgres-the-hunt-for-long">Django + Postgres: The Hunt for Long Running Queries</a></strong>
+    
+        <br /><span>Using django-pgactivity for application-level monitoring of database queries.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.changs.co.uk/typeddicts-are-better-than-you-think.html">TypedDicts are better than you think</a></strong>
+    
+        <br /><span>This post explains how Python’s TypedDict can enhance code clarity and maintainability by enabling more precise type annotations in dictionaries. It discusses how TypedDict ensures type safety and helps with early error detection in dynamic programming environments.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/hypy13/django-daisy/">Django dashboard</a></strong>
+    
+        <br /><span>give your django dashboard a new modern skin with new features,
+Mobile responsive and customizable on top of tailwindcss</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://huggingface.co/blog/dask-scaling">Scaling AI-Based Data Processing with Hugging Face + Dask</a></strong>
+    
+        <br /><span>The article demonstrates how to scale AI-based data processing using Hugging Face and Dask, progressing from processing 100 rows locally with pandas to handling 211 million rows across multiple GPUs in the cloud. It showcases the use of Dask for distributed computing, enabling efficient data loading, preprocessing of large datasets, and parallel model inference, with a practical example ...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://sumercip.com/posts/making-python-fitter-and-faster/">In the Making of Python Fitter and Faster</a></strong>
+    
+        <br /><span>How Python's recent performance improvements work under the hood.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://tahnok.github.io/colmi_r02_client/colmi_r02_client.html">Python client for the $20 Colmi R02 smart ring</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://treyhunner.com/2024/10/switching-from-virtualenvwrapper-to-direnv-starship-and-uv/">Switching from virtualenvwrapper to direnv, Starship, and uv</a></strong>
+    
+        <br /><span>Earlier this week I considered whether I should finally switch away from virtualenvwrapper to using ...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://adamj.eu/tech/2024/09/26/django-introducing-djade/">Django: Introducing Djade, a template formatter</a></strong>
+    
+        <br /><span>Happy DjangoCon US 2024 to you.
+Whilst I am not there, I have adopted the spirit of the season and ...</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/ErikBjare/gptme">gptme</a></strong>
+    
+        <br /><span>Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web, vision.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Zeutschler/nanocube">NanoCube</a></strong>
+    
+        <br /><span>Lightning fast OLAP-style point queries on Pandas DataFrames.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/moj-analytical-services/splink">Splink</a></strong>
+    
+        <br /><span>Fast, accurate and scalable probabilistic data linkage with support for multiple SQL backends.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1g1uuyc/i_understand_machine_learning_with_numpy_and/">I Understand Machine Learning with Numpy and PyTorch Better Since I Started Focusing on the Basics</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 20 Oct 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 20 Oct 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-10-13</title>
