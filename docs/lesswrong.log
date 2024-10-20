@@ -10037,3 +10037,12 @@ Existing_entries: 337
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-20 04:16:23.042063
+------------------------------------------------------
+Started: 2024-10-20 06:18:25.032914
+Existing_entries: 337
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 41
+Summarized using GPT-3.5-turbo
+Append: [If far-UV is so great, why isn't it everywhere?](https://www.lesswrong.com/posts/XCKg2e39J2iMZKC5K/if-far-uv-is-so-great-why-isn-t-it-everywhere)
+append_entries: 1
+Finish: 2024-10-20 06:18:30.053576
