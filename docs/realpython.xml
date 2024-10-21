@@ -4,6 +4,162 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Python's property(): Add Managed Attributes to Your Classes</title>
+<link>https://realpython.com/python-property/</link>
+<guid>https://realpython.com/python-property/</guid>
+<content:encoded><![CDATA[
+<div> property, managed attributes, Pythonic, getter, setter
+
+属性管理在Python类中很重要，通过使用property()函数可以创建受控属性，保持稳定的API接口，避免破坏用户代码。使用属性可以提供更Pythonic的方式创建受控属性，而不是使用getter和setter方法。在Python中，避免直接暴露属性，而是提供getter和setter方法。通过这种方式，可以动态改变属性的内部实现，而不需要改变API。Getter和setter方法在Python中是可行的，但并非推荐使用方式。属性名前加下划线(_)可以表示非公开属性，但并不强制限制访问。总结: 属性管理在Python中是重要的，通过使用property()函数可以创建受控属性，提供稳定API接口，避免破坏用户代码。使用属性可以更Pythonic地管理属性，而不是使用getter和setter方法来访问和设置属性的值。在Python中，推荐避免直接暴露属性，而是提供getter和setter方法，以实现动态改变内部实现的需求。Getter和setter方法在Python中是可行的，但并非推荐的方式。属性名前加下划线(_)可以表示非公开属性，但并不强制限制访问。 <div>
+<div><p>With Python’s <a href="https://docs.python.org/3/library/functions.html#property"><code>property()</code></a>, you can create <strong>managed attributes</strong> in your classes. You can use managed attributes when you need to modify an attribute’s internal implementation and don’t want to change the class’s public <a href="https://en.wikipedia.org/wiki/API">API</a>. Providing stable APIs will prevent you from breaking your users’ code when they rely on <em>your code</em>.</p>
+<p><strong>Properties</strong> are arguably the most popular way to create managed attributes quickly and in the purest <a href="https://realpython.com/learning-paths/writing-pythonic-code/">Pythonic</a> style.</p>
+<p><strong>In this tutorial, you’ll learn how to:</strong></p>
+<ul>
+<li>Create <strong>managed attributes</strong> or <strong>properties</strong> in your classes</li>
+<li>Perform <strong>lazy attribute evaluation</strong> and provide <strong>computed attributes</strong></li>
+<li>Make your classes Pythonic using properties instead of <strong>setter</strong> and <strong>getter</strong> methods </li>
+<li>Create <strong>read-only</strong> and <strong>read-write</strong> properties</li>
+<li>Create consistent and <strong>backward-compatible APIs</strong> for your classes</li>
+</ul>
+<p>You’ll also write practical examples that use <code>property()</code> for validating input data, computing attribute values dynamically, logging your code, and more. To get the most out of this tutorial, you should know the basics of <a href="https://realpython.com/python3-object-oriented-programming/">object-oriented programming</a>, <a href="https://realpython.com/python-classes/">classes</a>, and <a href="https://realpython.com/primer-on-python-decorators/">decorators</a> in Python.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-property-code/">Click here to download the free sample code</a> that shows you how to use Python’s property() to add managed attributes to your classes.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Python's property(): Add Managed Attributes to Your Classes” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/python-property/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="Python's property(): Add Managed Attributes to Your Classes" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Pythons-property_Watermarked.a888a85a9cd8.jpg" style="background: #b9abe6;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/python-property/"><span class="my-0 h4">Python's property(): Add Managed Attributes to Your Classes</span></a> 
+      <p class="text-muted mb-0 small">In this quiz, you'll test your understanding of Python's property(). With this knowledge, you'll be able to create managed attributes in your classes, perform lazy attribute evaluation, provide computed attributes, and more.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="managing-attributes-in-your-classes">Managing Attributes in Your Classes<a class="headerlink" href="#managing-attributes-in-your-classes" title="Permanent link"></a></h2>
+<p>When you define a <a href="https://realpython.com/python-classes/">class</a> in an <a href="https://en.wikipedia.org/wiki/Object-oriented_programming">object-oriented</a> programming language, you’ll probably end up with some instance and class <a href="https://realpython.com/python3-object-oriented-programming/#class-and-instance-attributes">attributes</a>. In other words, you’ll end up with variables that are accessible through the instance, class, or even both, depending on the language. Attributes represent and hold the internal <a href="https://en.wikipedia.org/wiki/State_(computer_science)">state</a> of a given object, which you’ll often need to access and mutate.</p>
+<p>Typically, you have at least two ways to access and mutate an attribute. Either you can access and mutate the attribute directly or you can use methods. Methods are <a href="https://realpython.com/python-built-in-functions/">functions</a> attached to a given class. They provide the behaviors and actions that an object can perform with its internal data and attributes.</p>
+<p>If you expose attributes to the user, then they become part of the class’s public <a href="https://realpython.com/python-api/">API</a>. This means that your users will access and mutate them directly in their code. The problem comes when you need to change the internal implementation of a given attribute.</p>
+<p>Say you’re working on a <code>Circle</code> class and add an attribute called <code>.radius</code>, making it public. You finish coding the class and ship it to your end users. They start using <code>Circle</code> in their code to create a lot of awesome projects and applications. Good job!</p>
+<p>Now suppose that you have an important user that comes to you with a new requirement. They don’t want <code>Circle</code> to store the radius any longer. Instead, they want a public <code>.diameter</code> attribute.</p>
+<p>At this point, removing <code>.radius</code> to start using <code>.diameter</code> could break the code of some of your other users. You need to manage this situation in a way other than removing <code>.radius</code>.</p>
+<p>Programming languages such as <a href="https://realpython.com/oop-in-python-vs-java/">Java</a> and <a href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a> encourage you to never expose your attributes to avoid this kind of problem. Instead, you should provide <a href="https://realpython.com/python-getter-setter/">getter and setter</a> methods, also known as <a href="https://en.wikipedia.org/wiki/Accessor_method">accessors</a> and <a href="https://en.wikipedia.org/wiki/Mutator_method">mutators</a>, respectively. These methods offer a way to change the internal implementation of your attributes without changing your public API.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> Getter and setter methods are often considered an <a href="https://en.wikipedia.org/wiki/Anti-pattern">anti-pattern</a> and a signal of poor object-oriented design. The main argument behind this proposition is that these methods break <a href="https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)">encapsulation</a>. They allow you to access and mutate the components of your objects from the outside.</p>
+</div>
+<p>These programming languages need getter and setter methods because they don’t have a suitable way to change an attribute’s internal implementation when a given requirement changes. Changing the internal implementation would require an API modification, which can break your end users’ code.</p>
+<h3 id="the-getter-and-setter-approach-in-python">The Getter and Setter Approach in Python<a class="headerlink" href="#the-getter-and-setter-approach-in-python" title="Permanent link"></a></h3>
+<p>Technically, there’s nothing that stops you from using getter and setter <a href="https://realpython.com/python3-object-oriented-programming/#instance-methods">methods</a> in Python. Here’s a quick example that shows how this approach would look:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    <span class="mr-2"><code style="color: inherit;">point_v1.py</code></span>
+    <div class="noselect">
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="k">class</span> <span class="nc">Point</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_x</span> <span class="o">=</span> <span class="n">x</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_y</span> <span class="o">=</span> <span class="n">y</span>
+
+    <span class="k">def</span> <span class="nf">get_x</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_x</span>
+
+    <span class="k">def</span> <span class="nf">set_x</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_x</span> <span class="o">=</span> <span class="n">value</span>
+
+    <span class="k">def</span> <span class="nf">get_y</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_y</span>
+
+    <span class="k">def</span> <span class="nf">set_y</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_y</span> <span class="o">=</span> <span class="n">value</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this example, you create a <code>Point</code> class with two <a href="https://realpython.com/python-double-underscore/#creating-public-and-non-public-names-in-python">non-public</a> attributes <code>._x</code> and <code>._y</code> to hold the <a href="https://en.wikipedia.org/wiki/Cartesian_coordinate_system">Cartesian coordinates</a> of the point at hand.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> Python doesn’t have the notion of <a href="https://en.wikipedia.org/wiki/Access_modifiers">access modifiers</a>, such as <code>private</code>, <code>protected</code>, and <code>public</code>, to restrict access to attributes and methods. In Python, the distinction is between <strong>public</strong> and <strong>non-public</strong> class members.</p>
+<p>If you want to signal that a given attribute or method is non-public, then you have to use the well-known Python <a href="https://www.python.org/dev/peps/pep-0008/#method-names-and-instance-variables">convention</a> of prefixing the name with an <a href="https://realpython.com/python-double-underscore/">underscore</a> (<code>_</code>). That’s the reason behind the naming of the attributes <code>._x</code> and <code>._y</code>.</p>
+<p>Note that this is just a convention. It doesn’t stop you and other programmers from accessing the attributes using <strong>dot notation</strong>, as in <code>obj._attr</code>. However, it’s bad practice to violate this convention.</p>
+</div>
+<p>To access and mutate the value of either <code>._x</code> or <code>._y</code>, you can use the corresponding getter and setter methods. Go ahead and save the above definition of <code>Point</code> in a Python <a href="https://realpython.com/python-modules-packages/">module</a> and <a href="https://realpython.com/python-import/">import</a> the class into an <a href="https://realpython.com/interacting-with-python/">interactive session</a>. Then run the following code:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">point_v1</span> <span class="kn">import</span> <span class="n">Point</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">point</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">point</span><span class="o">.</span><span class="n">get_x</span><span class="p">()</span>
+<span class="go">12</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">point</span><span class="o">.</span><span class="n">get_y</span><span class="p">()</span>
+<span class="go">5</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">point</span><span class="o">.</span><span class="n">set_x</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">point</span><span class="o">.</span><span class="n">get_x</span><span class="p">()</span>
+<span class="go">42</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># Non-public attributes are still accessible</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">point</span><span class="o">.</span><span class="n">_x</span>
+<span class="go">42</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">point</span><span class="o">.</span><span class="n">_y</span>
+<span class="go">5</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>With <code>.get_x()</code> and <code>.get_y()</code>, you can access the current values of <code>._x</code> and <code>._y</code>. You can use the setter method to store a new value in the corresponding managed attribute. From the two final examples, you can confirm that Python doesn’t restrict access to non-public attributes. Whether or not you access them directly is up to you.</p>
+</div><h2><a href="https://realpython.com/python-property/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-property/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-21T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Quiz: Single and Double Underscores in Python Names</title>
