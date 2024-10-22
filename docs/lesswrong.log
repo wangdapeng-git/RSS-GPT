@@ -10205,3 +10205,9 @@ Summarized using GPT-3.5-turbo
 Append: [Automation collapse](https://www.lesswrong.com/posts/2Gy9tfjmKwkYbF9BY/automation-collapse)
 append_entries: 1
 Finish: 2024-10-22 06:18:55.639068
+------------------------------------------------------
+Started: 2024-10-22 08:18:00.606369
+Existing_entries: 343
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-10-22 08:18:01.316330
