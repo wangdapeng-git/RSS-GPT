@@ -4,6 +4,44 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Understanding Python's Global Interpreter Lock (GIL)</title>
+<link>https://realpython.com/courses/understanding-global-interpreter-lock-gil/</link>
+<guid>https://realpython.com/courses/understanding-global-interpreter-lock-gil/</guid>
+<content:encoded><![CDATA[
+<div> Global Interpreter Lock, mutex, Python, performance bottleneck, multi-threaded architecture
+<br>
+Python的全局解释器锁（GIL）是一个锁，它只允许一个线程控制Python解释器。这意味着在任何时间点只有一个线程可以处于执行状态。GIL对于单线程程序的开发者来说影响不明显，但在CPU密集和多线程代码中会成为性能瓶颈。即使在具有多个CPU核心的多线程架构中，GIL也只允许一个线程执行。因此，GIL被认为是Python的“臭名昭著”特性之一。在这个视频课程中，你将学习到GIL对Python程序性能的影响，以及如何减轻它对代码可能产生的影响。
+<br><br>总结: Python的全局解释器锁（GIL）是一个中心控制锁，限制了多线程程序的性能，尤其是在CPU密集和多线程代码中。只有一个线程可以执行，即使在多核CPU架构下也是如此。开发者可以通过其他方式来缓解GIL可能带来的影响。 <div>
+<p>The Python Global Interpreter Lock or <a href="https://wiki.python.org/moin/GlobalInterpreterLock">GIL</a>, in simple words, is a mutex (or a lock) that allows only one <a href="https://realpython.com/intro-to-python-threading/">thread</a> to hold the control of the Python interpreter. </p>
+<p>This means that only one thread can be in a state of execution at any point in time. The impact of the GIL isn&rsquo;t visible to developers who execute single-threaded programs, but it can be a performance bottleneck in CPU-bound and multi-threaded code.</p>
+<p>Since the GIL allows only one thread to execute at a time even in a multi-threaded architecture with more than one CPU core, the GIL has gained a reputation as an &ldquo;infamous&rdquo; feature of Python.</p>
+<p><strong>In this video course you&rsquo;ll learn</strong> how the GIL affects the performance of your Python programs, and how you can mitigate the impact it might have on your code.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-22T14:00:00+00:00</pubDate>
+</item>
+<item>
+<title>Quiz: Pydantic: Simplifying Data Validation in Python</title>
+<link>https://realpython.com/quizzes/python-pydantic/</link>
+<guid>https://realpython.com/quizzes/python-pydantic/</guid>
+<content:encoded><![CDATA[
+<div> Pydantic, data validation, Python, BaseModel, custom validators
+<br>
+Pydantic是Python的强大数据验证库，可用于数据模式与BaseModel。通过学习此quiz，可以了解如何编写自定义验证器以处理复杂情况，以及使用@validate_call验证函数参数。同时，pydantic-settings用于管理设置和配置应用程序。通过这篇文章，可以全面了解Pydantic和相关的应用场景，提升Python编程技能。<br><br>总结: Pydantic是Python的数据验证库，通过BaseModel定义数据模式，自定义验证器处理复杂情况，@validate_call验证函数参数，pydantic-settings管理设置配置应用。 <div>
+<p>In this quiz, you&rsquo;ll test your understanding of
+<a href="https://realpython.com/python-pydantic/">Pydantic</a>. Pydantic is a powerful data validation library for Python. You can also use a related library, <code>pydantic-settings</code>, for settings management.</p>
+<p>By working through this quiz, you&rsquo;ll revisit how to work with data schemas with Pydantic&rsquo;s <code>BaseModel</code>,
+write custom validators for complex use cases, validate function arguments with Pydantic&rsquo;s <code>@validate_call</code>,
+and manage settings and configure applications with <code>pydantic-settings</code>.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-20T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Python's property(): Add Managed Attributes to Your Classes</title>
