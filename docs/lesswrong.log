@@ -10211,3 +10211,12 @@ Existing_entries: 343
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-22 08:18:01.316330
+------------------------------------------------------
+Started: 2024-10-22 10:14:24.152000
+Existing_entries: 343
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 20669
+Summarized using GPT-3.5-turbo
+Append: [Could randomly choosing people to serve as representatives lead to better government?](https://www.lesswrong.com/posts/veebprDdTbq2Xmnyj/could-randomly-choosing-people-to-serve-as-representatives)
+append_entries: 1
+Finish: 2024-10-22 10:14:29.975489
