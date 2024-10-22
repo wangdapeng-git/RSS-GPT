@@ -4,6 +4,7 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+
 <item>
 <title>Evaluating and enhancing probabilistic reasoning in language models</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/probabilistic-reasoning-img-1.png</link>
@@ -13,12 +14,9 @@
 
 总结:
 本文介绍了如何用中文总结一篇文章，首先提取出5个关键词，然后用这些关键词来写一个包含所有要点的总结。通过提取关键词和重点内容的方式，可以帮助读者快速了解文章的主题和要点。这个方法可以应用于各种文章和资料的总结和概括中，有助于提高阅读和理解效率。通过这种方式，读者可以快速地获取到文章的主要信息，避免遗漏重要内容。 <div>
-
 ]]></content:encoded>
-<pubDate>2024-10-21T00:00:00+00:00</pubDate>
 <pubDate>2024-10-21T22:12:49.098351+00:00</pubDate>
 </item>
-
 <item>
 <title>Taking medical imaging embeddings 3D</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/CT-Foundations-CT-hero.png</link>
