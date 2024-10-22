@@ -10196,3 +10196,12 @@ Existing_entries: 342
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-22 04:17:23.925958
+------------------------------------------------------
+Started: 2024-10-22 06:18:50.814920
+Existing_entries: 342
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 13459
+Summarized using GPT-3.5-turbo
+Append: [Automation collapse](https://www.lesswrong.com/posts/2Gy9tfjmKwkYbF9BY/automation-collapse)
+append_entries: 1
+Finish: 2024-10-22 06:18:55.639068
