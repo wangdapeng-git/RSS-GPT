@@ -4,6 +4,172 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Python Thread Safety: Using a Lock and Other Techniques</title>
+<link>https://realpython.com/python-thread-lock/</link>
+<guid>https://realpython.com/python-thread-lock/</guid>
+<content:encoded><![CDATA[
+<div> thread safety, race conditions, synchronization primitives, Python threading, ThreadPoolExecutor
+<br><br>总结: 本教程介绍了Python中的线程安全概念，以及如何通过使用锁等同步原语来避免竞争条件。在讨论Python中的线程之前，重点澄清了并发和并行的概念。通过示例代码展示了如何在Python中使用ThreadPoolExecutor创建并运行多个线程，以及讨论了上下文切换的机制。最后介绍了如何检查Python解释器的上下文切换间隔。通过本教程，您将学会识别线程安全问题，并使用同步原语使代码线程安全。 <div>
+<div><p>Python threading allows you to run parts of your code concurrently, making the code more efficient. However, when you introduce threading to your code without knowing about thread safety, you may run into issues such as race conditions. You solve these with tools like locks, semaphores, events, conditions, and barriers.</p>
+<p>By the end of this tutorial, you’ll be able to identify safety issues and prevent them by using the synchronization primitives in Python’s <code>threading</code> module to make your code thread-safe.</p>
+<p><strong>In this tutorial, you’ll learn:</strong></p>
+<ul>
+<li>What <strong>thread safety</strong> is</li>
+<li>What <strong>race conditions</strong> are and how to avoid them</li>
+<li>How to identify <strong>thread safety issues</strong> in your code</li>
+<li>What different <strong>synchronization primitives</strong> exist in the <code>threading</code> module</li>
+<li>How to use synchronization primitives to <strong>make your code thread-safe</strong></li>
+</ul>
+<p>To get the most out of this tutorial, you’ll need to have basic experience working with multithreaded code using Python’s <code>threading</code> module and <code>ThreadPoolExecutor</code>.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-thread-lock-code/">Click here to download the free sample code</a> that you’ll use to learn about thread safety techniques in Python.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Python Thread Safety: Using a Lock and Other Techniques” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/python-thread-lock/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="Python Thread Safety: Using a Lock and Other Techniques" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Thread-Safety-in-Python_Watermarked.434d0dbc3127.jpg" style="background: #e5c5ac;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/python-thread-lock/"><span class="my-0 h4">Python Thread Safety: Using a Lock and Other Techniques</span></a> 
+      <p class="text-muted mb-0 small">In this quiz, you'll test your understanding of Python thread safety. You'll revisit the concepts of race conditions, locks, and other synchronization primitives in the threading module. By working through this quiz, you'll reinforce your knowledge about how to make your Python code thread-safe.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="threading-in-python">Threading in Python<a class="headerlink" href="#threading-in-python" title="Permanent link"></a></h2>
+<p>In this section, you’ll get a general overview of how Python handles threading. Before discussing threading in Python, it’s important to revisit two related terms that you may have heard about in this context:</p>
+<ul>
+<li><strong>Concurrency</strong>: The ability of a system to handle multiple tasks by allowing their execution to overlap in time but not necessarily happen simultaneously.</li>
+<li><strong>Parallelism</strong>: The simultaneous execution of multiple tasks that run at the same time to leverage multiple processing units, typically multiple CPU cores.</li>
+</ul>
+<p>Python’s <a href="https://realpython.com/intro-to-python-threading/#what-is-a-thread">threading</a> is a <a href="https://realpython.com/python-concurrency/">concurrency framework</a> that allows you to spin up multiple threads that run concurrently, each executing pieces of code. This improves the efficiency and responsiveness of your application. When running multiple threads, the Python interpreter switches between them, handing the control of execution over to each thread. </p>
+<p>By running the script below, you can observe the creation of four threads:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    <span class="mr-2"><code style="color: inherit;">threading_example.py</code></span>
+    <div class="noselect">
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="kn">import</span> <span class="nn">threading</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">from</span> <span class="nn">concurrent.futures</span> <span class="kn">import</span> <span class="n">ThreadPoolExecutor</span>
+
+<span class="k">def</span> <span class="nf">threaded_function</span><span class="p">():</span>
+    <span class="k">for</span> <span class="n">number</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Printing from </span><span class="si">{</span><span class="n">threading</span><span class="o">.</span><span class="n">current_thread</span><span class="p">()</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">. </span><span class="si">{</span><span class="n">number</span><span class="si">=}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.1</span><span class="p">)</span>
+
+<span class="k">with</span> <span class="n">ThreadPoolExecutor</span><span class="p">(</span><span class="n">max_workers</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">thread_name_prefix</span><span class="o">=</span><span class="s2">"Worker"</span><span class="p">)</span> <span class="k">as</span> <span class="n">executor</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">):</span>
+        <span class="n">executor</span><span class="o">.</span><span class="n">submit</span><span class="p">(</span><span class="n">threaded_function</span><span class="p">)</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this example, <code>threaded_function</code> prints the values zero to two that your <code>for</code> loop assigns to the loop variable <code>number</code>. Using a <code>ThreadPoolExecutor</code>, four threads are created to execute the threaded function. <code>ThreadPoolExecutor</code> is configured to run a maximum of four threads concurrently with <code>max_workers=4</code>, and each worker thread is named with a “Worker” prefix, as in <code>thread_name_prefix="Worker"</code>. </p>
+<p>In <code>print()</code>, the <code>.name</code> attribute on <code>threading.current_thread()</code> is used to get the name of the current thread. This will help you identify which thread is executed each time. A call to <code>sleep()</code> is added inside the threaded function to increase the likelihood of a context switch.</p>
+<p>You’ll learn what a context switch is in just a moment. First, run the script and take a look at the output:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Shell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">$ </span>python<span class="w"> </span>threading_example.py
+<span class="go">Printing from Worker_0. number=0</span>
+<span class="go">Printing from Worker_1. number=0</span>
+<span class="go">Printing from Worker_2. number=0</span>
+<span class="go">Printing from Worker_3. number=0</span>
+<span class="go">Printing from Worker_0. number=1</span>
+<span class="go">Printing from Worker_2. number=1</span>
+<span class="go">Printing from Worker_1. number=1</span>
+<span class="go">Printing from Worker_3. number=1</span>
+<span class="go">Printing from Worker_0. number=2</span>
+<span class="go">Printing from Worker_2. number=2</span>
+<span class="go">Printing from Worker_1. number=2</span>
+<span class="go">Printing from Worker_3. number=2</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Each line in the output represents a <code>print()</code> call from a worker thread, identified by <code>Worker_0</code>, <code>Worker_1</code>, <code>Worker_2</code>, and <code>Worker_3</code>. The number that follows the worker thread name shows the current iteration of the loop each thread is executing. Each thread takes turns executing the <code>threaded_function</code>, and the execution happens in a concurrent rather than sequential manner. </p>
+<p>For example, after <code>Worker_0</code> prints <code>number=0</code>, it’s not immediately followed by <code>Worker_0</code> printing <code>number=1</code>. Instead, you see outputs from <code>Worker_1</code>, <code>Worker_2</code>, and <code>Worker_3</code> printing <code>number=0</code> before <code>Worker_0</code> proceeds to <code>number=1</code>. You’ll notice from these interleaved outputs that multiple threads are running at the same time, taking turns to execute their part of the code.</p>
+<p>This happens because the Python interpreter performs a <a href="https://en.wikipedia.org/wiki/Context_switch">context switch</a>. This means that Python pauses the execution state of the current thread and passes control to another thread. When the context switches, Python saves the current execution state so that it can resume later. By switching the control of execution at specific intervals, multiple threads can execute code concurrently.</p>
+<p>You can check the context switch interval of your Python interpreter by typing the following in the REPL:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">sys</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">sys</span><span class="o">.</span><span class="n">getswitchinterval</span><span class="p">()</span>
+<span class="go">0.005</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The output of calling the <code>getswitchinterval()</code> is a number in seconds that represents the context switch interval of your Python interpreter. In this case, it’s 0.005 seconds or five milliseconds. You can think of the switch interval as how often the Python interpreter checks if it should switch to another thread. </p>
+<p>An interval of five milliseconds doesn’t mean that threads switch exactly every five milliseconds, but rather that the interpreter considers switching to another thread at these intervals.</p>
+<p>The switch interval is defined in the Python docs as follows:</p>
+</div><h2><a href="https://realpython.com/python-thread-lock/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-thread-lock/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-23T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Understanding Python's Global Interpreter Lock (GIL)</title>
