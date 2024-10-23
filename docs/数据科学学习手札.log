@@ -7073,3 +7073,9 @@ Fetching from https://feed.cnblogs.com/blog/u/415579/rss/
 Fetch failed from https://feed.cnblogs.com/blog/u/415579/rss/
 append_entries: 0
 error when rendering xml, skip docs/数据科学学习手札
+------------------------------------------------------
+Started: 2024-10-23 10:14:27.294013
+Existing_entries: 24
+Fetching from https://feed.cnblogs.com/blog/u/415579/rss/
+append_entries: 0
+Finish: 2024-10-23 10:14:28.552217
