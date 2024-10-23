@@ -4,6 +4,7 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+
 <item>
 <title>Scalable self-improvement for compiler optimization</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/IL-Compiler-Optimization-img-2.png</link>
@@ -13,12 +14,9 @@
 
 总结:
 本文总结了文章内容，并提取出了5个关键词。首先，在同一行内输出关键词，分别为文章、总结、要点、关键词、中文。文章内容主要是关于如何用中文总结一篇文章的方法。提取出的5个关键词包含了文章内容的要点，方便读者快速了解文章主题。总结起来，文章指导读者用中文总结文章的方法，通过提取关键词和要点，使得总结更加精炼准确。 <div>
-
 ]]></content:encoded>
-<pubDate>2024-10-23T00:00:00+00:00</pubDate>
 <pubDate>2024-10-23T18:18:06.818788+00:00</pubDate>
 </item>
-
 <item>
 <title>Learning DeepVariant's hidden powers</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/DV-4-MOSAICs.png</link>

@@ -10328,3 +10328,9 @@ Summarized using GPT-3.5-turbo
 Append: [Catastrophic sabotage as a major threat model for human-level AI systems](https://www.lesswrong.com/posts/Loxiuqdj6u8muCe54/catastrophic-sabotage-as-a-major-threat-model-for-human)
 append_entries: 1
 Finish: 2024-10-23 18:17:59.790793
+------------------------------------------------------
+Started: 2024-10-23 20:15:16.158639
+Existing_entries: 348
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-10-23 20:15:16.926402
