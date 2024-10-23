@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Python Thread Safety: Using a Lock and Other Techniques</title>
 <link>https://realpython.com/python-thread-lock/</link>
 <guid>https://realpython.com/python-thread-lock/</guid>
 <content:encoded><![CDATA[
 <div> thread safety, race conditions, synchronization primitives, Python threading, ThreadPoolExecutor
-<br><br>总结: 本教程介绍了Python中的线程安全概念，以及如何通过使用锁等同步原语来避免竞争条件。在讨论Python中的线程之前，重点澄清了并发和并行的概念。通过示例代码展示了如何在Python中使用ThreadPoolExecutor创建并运行多个线程，以及讨论了上下文切换的机制。最后介绍了如何检查Python解释器的上下文切换间隔。通过本教程，您将学会识别线程安全问题，并使用同步原语使代码线程安全。 <div>
+<br /><br />总结: 本教程介绍了Python中的线程安全概念，以及如何通过使用锁等同步原语来避免竞争条件。在讨论Python中的线程之前，重点澄清了并发和并行的概念。通过示例代码展示了如何在Python中使用ThreadPoolExecutor创建并运行多个线程，以及讨论了上下文切换的机制。最后介绍了如何检查Python解释器的上下文切换间隔。通过本教程，您将学会识别线程安全问题，并使用同步原语使代码线程安全。 <div>
 <div><p>Python threading allows you to run parts of your code concurrently, making the code more efficient. However, when you introduce threading to your code without knowing about thread safety, you may run into issues such as race conditions. You solve these with tools like locks, semaphores, events, conditions, and barriers.</p>
 <p>By the end of this tutorial, you’ll be able to identify safety issues and prevent them by using the synchronization primitives in Python’s <code>threading</code> module to make your code thread-safe.</p>
 <p><strong>In this tutorial, you’ll learn:</strong></p>
@@ -167,10 +168,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-10-23T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Understanding Python's Global Interpreter Lock (GIL)</title>
 <link>https://realpython.com/courses/understanding-global-interpreter-lock-gil/</link>
