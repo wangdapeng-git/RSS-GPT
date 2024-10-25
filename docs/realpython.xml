@@ -4,6 +4,38 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>The Real Python Podcast – Episode #225: Python Getting Faster and Leaner &amp; Ideas for Django Projects</title>
+<link>https://realpython.com/podcasts/rpp/225/</link>
+<guid>https://realpython.com/podcasts/rpp/225/</guid>
+<content:encoded><![CDATA[
+<div> Python, changes, updates, groundwork, faster
+
+最新版本的Python正在进行一些底层的改变，这些更新为未来几年的更快Python奠定了基础。Christopher Trudeau本周再次出现在节目中，带来另一批PyCoder's Weekly文章和项目。总结: Python正在进行底层改变，为未来的更快Python打下基础。Christopher Trudeau带来了PyCoder's Weekly的最新文章和项目。 <div>
+<p>What changes are happening under the hood in the latest versions of Python? How are these updates laying the groundwork for a faster Python in the coming years? Christopher Trudeau is back on the show this week, bringing another batch of PyCoder's Weekly articles and projects.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-25T12:00:00+00:00</pubDate>
+</item>
+<item>
+<title>Quiz: Python Class Constructors: Control Your Object Instantiation</title>
+<link>https://realpython.com/quizzes/python-class-constructor/</link>
+<guid>https://realpython.com/quizzes/python-class-constructor/</guid>
+<content:encoded><![CDATA[
+<div> 内部实例化、对象初始化、__init__()、__new__()、精细调整对象创建
+<br><br>总结:
+本文介绍了Python中对象实例化的过程，即内部实例化，以及通过__init__()方法进行对象初始化的过程。同时还讨论了如何通过重写__new__()方法来对对象创建进行精细调整。通过工作，我们能够对这些概念有更深入的了解。 <div>
+<p>In this quiz, you&rsquo;ll test your understanding of
+<a href="https://realpython.com/python-class-constructor/">Python Class Constructors</a>.</p>
+<p>By working through this quiz, you&rsquo;ll revisit the internal instantiation process, object initialization using <code>.__init__()</code>, and fine-tuning object creation by overriding <code>.__new__()</code>.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-23T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Quiz: Defining Your Own Python Function</title>
