@@ -25346,3 +25346,13 @@ Filter: [高德地图 小米14pro 定制版：v12.10.61.3021 简洁无广](https
 Filter: [UC浏览器国际版V13.6.01315-清爽无广告-视频无门槛加速看剧神器](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1972210)
 append_entries: 0
 Finish: 2024-10-25 00:58:01.962866
+------------------------------------------------------
+Started: 2024-10-25 02:47:29.750590
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [Office AI 助手 v0.3.08(免费,2024-10-15 增强ExcelAI功能）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1974142)
+Append: [局部录屏小工具V1.0版本](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1974074)
+Filter: [高德地图 小米14pro 定制版：v12.10.61.3021 简洁无广](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1972941)
+Filter: [【2024-10-13】发票闪印 V3.1.13（bug修复）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1971948)
+append_entries: 1
+Finish: 2024-10-25 02:47:32.093588
