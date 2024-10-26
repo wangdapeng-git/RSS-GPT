@@ -4,13 +4,14 @@
 <title>NLP Newsletter</title>
 <link>https://nlp.elvissaravia.com</link>
 
+
 <item>
 <title>🤖AI Agents Weekly: Claude's Computer Use, Agent.exe, Bee Agent Framework, AutoTab,...</title>
 <link>https://nlp.elvissaravia.com/p/ai-agents-weekly-claudes-computer</link>
 <guid>https://nlp.elvissaravia.com/p/ai-agents-weekly-claudes-computer</guid>
 <content:encoded><![CDATA[
 <div> Sonnet, AI interaction, open-source platform, tool-equipped agents, memory types  
-总结:<br><br>
+总结:<br /><br />
 本文介绍了Claude 3.5 sonnet支持AI与计算机交互的新功能，推出了一款新的开源平台用于构建、部署和提供强大的智能化工作流。新的工具能够扩展代理机器人的规模，同时保持高准确性并有效管理代币成本。还推出了轻量级应用，用于在Mac/Windows/Linux上启用Claude 3.5 Sonnet的计算机功能。此外，还介绍了AI代理所需的内存类型和功能。文章详细介绍了这些新功能和工具的优势和特点。 <div>
 <p>In today&#8217;s issue:</p><ul><li><p>Claude 3.5 sonnet supports <a href="https://www.anthropic.com/news/developing-computer-use">computer use</a> that enables AI interaction with computers.</p></li><li><p><a href="https://github.com/i-am-bee/bee-agent-framework">Bee Agent Framework</a>: a new open-source platform designed for building, deploying, and serving powerful agentic workflows at scale.</p></li><li><p>A new <a href="https://arxiv.org/abs/2410.14594">approach</a> that scales tool-equipped agents while maintaining high accuracy and managing token costs effectively.</p></li><li><p><a href="https://github.com/corbt/agent.exe">Agent.exe</a>: lightweight app to enable Claude 3.5 Sonnet&#8217;s computer use functionalities on Mac/Windows/Linux.</p></li><li><p><a href="https://blog.langchain.dev/memory-for-agents/">Discussion</a> of the needed memory types and capabilities for AI agents.</p></li><li><p>&#8230; and much more</p></li></ul>
       <p>
@@ -20,9 +21,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Sat, 26 Oct 2024 17:28:15 GMT</pubDate>
-<pubDate>Sat, 26 Oct 2024 17:28:15 GMT</pubDate>
 </item>
-
 <item>
 <title>🥇Top ML Papers of the Week</title>
 <link>https://nlp.elvissaravia.com/p/top-ml-papers-of-the-week-92b</link>
