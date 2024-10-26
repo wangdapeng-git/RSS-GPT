@@ -4,6 +4,42 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Quiz: How to Reset a pandas DataFrame Index</title>
+<link>https://realpython.com/quizzes/pandas-reset-index/</link>
+<guid>https://realpython.com/quizzes/pandas-reset-index/</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 索引、Python、学习、挑战、知识
+
+学习本文，通过问题测试对Python索引的理解。挑战自己，并扩展教程中所学内容。除了教程以外，还需要做一些研究来回答所有问题。接受挑战，让学习带你进步。总结: 本文通过问题测试Python索引的理解，扩展了教程中的知识，强调在学习过程中要不断挑战自己。 <div>
+<p>In this quiz, you&rsquo;ll test your understanding of
+<a href="https://realpython.com/pandas-reset-index/">how to reset a pandas DataFrame index</a>.</p>
+<p>By working through the questions, you&rsquo;ll review your knowledge of indexing and also expand on what you learned in the tutorial. </p>
+<p>You&rsquo;ll need to do some research outside of the tutorial to answer all the questions. Embrace this challenge and let it take you on a learning journey.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-25T12:00:00+00:00</pubDate>
+</item>
+<item>
+<title>Quiz: The Python Standard REPL: Try Out Code and Ideas Quickly</title>
+<link>https://realpython.com/quizzes/python-repl/</link>
+<guid>https://realpython.com/quizzes/python-repl/</guid>
+<content:encoded><![CDATA[
+<div> Python REPL, interative, testing, libraries, debugging
+<br>
+Python REPL允许用户互动式地运行Python代码，可以用于测试新想法、探索库、重构和调试代码，以及尝试示例。总结: Python REPL是一个交互式工具，可用于快速测试代码并探索Python的各种功能和库，方便用户在开发过程中快速迭代和调试代码。 <div>
+<p>In this quiz, you&rsquo;ll test your understanding of
+<a href="https://realpython.com/python-repl/">The Python Standard REPL: Try Out Code and Ideas Quickly</a>.</p>
+<p>The Python REPL allows you to run Python code interactively,
+which is useful for testing new ideas, exploring libraries, refactoring and debugging code, and trying out examples.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-24T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>The Real Python Podcast – Episode #225: Python Getting Faster and Leaner &amp; Ideas for Django Projects</title>
