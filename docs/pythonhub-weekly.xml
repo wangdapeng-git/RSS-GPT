@@ -4,6 +4,200 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-10-27</title>
+<link>https://pythonhub.dev/digest/2024-10-27/</link>
+<guid>https://pythonhub.dev/digest/2024-10-27/</guid>
+<content:encoded><![CDATA[
+<div> Chunkr, TEN-Agent, Linux系统，Python 3.13, FUSE-based filesystems
+<br>
+总结：本周Python项目中，包括基于视觉模型的PDF分块器Chunkr和集成了OpenAI Realtime API的TEN-Agent等项目备受关注。文章涵盖了使用打火机在Linux系统上获得root权限、Python 3.13发布的更新以及编写基于FUSE的文件系统的教程等内容。同时，还有关于异步编程的9个级别的文章和其他有趣的主题。愿大家度过愉快的一周，尽情编程！<br><br> <div>
+<p class="summary">This week in Python, popular projects included Chunkr, a vision model based PDF chunker, and TEN-Agent, the world's first real-time multimodal agent integrated with OpenAI Realtime API. Interesting articles covered gaining root access on a Linux system using a cigarette lighter and the 9 levels of asynchronous programming in Python. Python 3.13 was released with exciting updates, including the option to disable the Global Interpreter Lock (GIL). Lastly, a tutorial on writing FUSE-based filesystems in Python was highlighted. Have a great week and happy coding!</p>
+
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://github.com/lumina-ai-inc/chunkr">Chunkr</a></strong>
+    
+        <br /><span>Vision model based PDF chunking.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.da.vidbuchanan.co.uk/blog/dram-emfi.html">Can You Get Root With Only a Cigarette Lighter?</a></strong>
+    
+        <br /><span>The article describes how to gain root access on a Linux system using only a cigarette lighter through electromagnetic fault injection (EMFI) attacks on DRAM. The author demonstrates how precisely timed electromagnetic pulses can flip bits in memory, allowing an attacker to modify critical system data and escalate privileges without traditional software vulnerabilities.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/TEN-framework/TEN-Agent">TEN-Agent</a></strong>
+    
+        <br /><span>TEN Agent is the world’s first real-time multimodal agent integrated with the OpenAI Realtime API, RTC, and features weather checks, web search, vision, and RAG capabilities.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://medium.com/techtofreedom/9-levels-of-asynchronous-programming-in-python-3755f80403c9">9 Levels of Asynchronous Programming in Python</a></strong>
+    
+        <br /><span>In this article, I’ll take you step-by-step through 9 levels from the basics to advanced concurrency techniques. Whether you’re new to async or looking to sharpen your skills, this guide will provide</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/capjamesg/jamesql">JameSQL</a></strong>
+    
+        <br /><span>An in-memory NoSQL database implemented in Python.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://leontrolski.github.io/grammar.html">Adding syntax to the CPython interpreter</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonspeed.com/articles/uv-python-production/">Should you use uv’s managed Python in production?</a></strong>
+    
+        <br /><span>The uv package manager can also install Python for you. Should you use this feature in production?</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://jnsgr.uk/2024/09/pytouchlinesl/">Writing a Home Assistant Core Integration: Part 1</a></strong>
+    
+        <br /><span>The article details the development of pytouchlinesl, a Python library for interacting with Roth Touchline SL underfloor heating systems. It covers the design process, API implementation, testing strategies, CI/CD setup, and publishing to PyPI, highlighting the use of modern Python tools like uv, pydantic, and ruff.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://en.lewoniewski.info/2024/python-3-12-vs-python-3-13-performance-testing/">Python 3.12 vs. Python 3.13 – performance testing</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=ESrWYoXZc8s">Build your first Web App with Cursor AI, Python, Virtual Machines, and Neon Postgres</a></strong>
+    
+        <br /><span>Learn how to create a modern web application using Cursor AI, which allows developers to build robust applications by converting English instructions into code. The course covers a wide range of topics, including full-stack web development, integrating with GitHub, building a Python and Django web app, and deploying a production-ready server, all achievable in about 5 hours and at minima...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=eUDGlxu_-ic">The New Python 3.13 Is FINALLY Here!</a></strong>
+    
+        <br /><span>Python 3.13 is here with exciting updates! Dive into the key new features, including the game-changing option to disable the Global Interpreter Lock (GIL).</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://bryananthonio.com/blog/pydantic-custom-dictionary-types/">Custom Dictionary Types in Pydantic</a></strong>
+    
+        <br /><span>A quick primer on leveraging custom root types for this task.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://slack.engineering/were-all-just-looking-for-connection/">We’re All Just Looking for Connection</a></strong>
+    
+        <br /><span>We’ve been working to bring components of Quip’s technology into Slack with the canvas feature, while also maintaining the stand-alone Quip product. Quip’s backend, which powers both Quip and canvas, is written in Python. This is the story of a tricky bug we encountered last July and the lessons we learned along the way about being careful with TCP state.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://signalsandthreads.com/the-uncertain-art-of-accelerating-ml-models/">The Uncertain Art of Accelerating ML Models</a></strong>
+    
+        <br /><span>This podcast episode features Sylvain Gugger, a machine learning engineer at Jane Street, discussing techniques for accelerating ML models. The conversation covers topics like learning rate schedules, performance optimization in PyTorch, GPU utilization, and the unique challenges of applying ML in trading environments.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.coryzue.com/writing/kamal-django/">Deploying (Multiple) Django Apps to a Single Server with Kamal 2</a></strong>
+    
+        <br /><span>Cory Zue describes migrating two Django apps to a shared Hetzner VPS using Kamal 2, detailing the process of setting up a production Dockerfile, creating a Kamal deploy configuration, and addressing challenges with health checks and Django's security settings. The article highlights the ease of deploying multiple apps on a single server with Kamal 2, resulting in cost savings and improve...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=VuKK0bEkSdo">A hand-holding guide to writing FUSE-based filesystems in Python</a></strong>
+    
+        <br /><span>This video tutorial provides a step-by-step guide to writing FUSE-based filesystems in Python. It starts with a simple example and gradually adds more features, making it suitable for beginners.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/P403n1x87/austin">Austin 3.7 – Python frame stack sampler for CPython</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-10-20/">Python Hub Weekly Digest for 2024-10-20</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/yoheinakajima/ditto">ditto</a></strong>
+    
+        <br /><span>The simplest self-building coding agent.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/openai/swarm">Swarm</a></strong>
+    
+        <br /><span>Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/pyloid/pyloid">Pyloid</a></strong>
+    
+        <br /><span>Pyloid is the Python backend version of Electron and Tauri, providing an open-source project that allows you to easily utilize various Python integration features. With Pyloid, developing desktop applications becomes simple, enabling you to effortlessly build apps by integrating Python's powerful capabilities.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/raznem/parsera">Parsera</a></strong>
+    
+        <br /><span>Lightweight library for scraping web-sites with LLMs.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/VikParuchuri/tabled">Tabled</a></strong>
+    
+        <br /><span>Detect and extract tables to markdown and csv.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1g52103/why_do_widely_used_frameworks_in_python_use/">Why do widely used frameworks in python use strings instead of enums for parameters?</a></strong>
+      </p>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1g3gcz9/my_first_python_package_got_844_downloads/">My first python package got 844 downloads 😭😭</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 27 Oct 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 27 Oct 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-10-20</title>
