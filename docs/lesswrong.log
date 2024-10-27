@@ -10643,3 +10643,9 @@ Summarized using GPT-3.5-turbo
 Append: [Electrostatic Airships?](https://www.lesswrong.com/posts/6bX3xwf9dvhvuB6an/electrostatic-airships)
 append_entries: 2
 Finish: 2024-10-27 20:13:40.639335
+------------------------------------------------------
+Started: 2024-10-27 22:13:37.720428
+Existing_entries: 355
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-10-27 22:13:38.501876

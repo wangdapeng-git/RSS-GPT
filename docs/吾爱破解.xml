@@ -4,12 +4,12 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>专业硬件检测工具 AIDA64 Extreme 7.40.7100 至尊版</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1974623</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1974623</guid>
 <content:encoded><![CDATA[
-
 版本：7.40.7100 至尊版（2024 年 10 月 22 日）
 MD5: fb82b00ff39147acf8655e60c1502605
 
@@ -19,21 +19,17 @@ AMD Ryzen 9000 Granite Ridge CPU的AVX-512加速基准
 改进 ...
 ]]></content:encoded>
 <pubDate>Tue, 22 Oct 2024 06:14:47 +0000</pubDate>
-<pubDate>Tue, 22 Oct 2024 06:14:47 +0000</pubDate>
 </item>
 <item>
 <title>花卷有声小说下载器(2024/10/24更新到V1.1.2)</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1972626</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1972626</guid>
 <content:encoded><![CDATA[
-
 2024/10/24 更新到V1.1.2
 https://gitee.com/msmvc/HuaJuanAudioNevolDown/releases/download/%E8%8A%B1%E5%8D%B7%E6%9C%89%E5%A3%B0%E5%B0%8F%E8%AF%B4%E4%B8%8B%E8%BD%BD%E5%99%A8V1.1.2/%E8%8A%B1%E5%8D%B7%E6%9C%89% ...
 ]]></content:encoded>
 <pubDate>Tue, 15 Oct 2024 06:18:34 +0000</pubDate>
-<pubDate>Tue, 15 Oct 2024 06:18:34 +0000</pubDate>
 </item>
-
 <item>
 <title>超准天气预报 1.11 无广告无需注册</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1975961</link>
@@ -14006,31 +14002,6 @@ https://www.lanzoub.com/b0fog8boj
 https://habo.qq.com/file/showdetail?pk=AD ...
 ]]></content:encoded>
 <pubDate>Sat, 11 May 2024 01:58:24 +0000</pubDate>
-</item>
-<item>
-<title>notepad--  国产跨平台、轻量级的开源文本编辑器 v2.16新版本</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1926857</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1926857</guid>
-<content:encoded><![CDATA[
-对于 ndd 相信大家都很熟悉了，由于 npp 的作者那啥所以有大佬搓了一个替代，就是这个了。
-之前论坛也有发过，更新一下最新版本。
-
-
-Notepad-- 是使用C++编写的轻量级文本编辑器, 简称ndd, 可以支持Window/Mac/Linux ...
-]]></content:encoded>
-<pubDate>Wed, 22 May 2024 00:34:51 +0000</pubDate>
-</item>
-<item>
-<title>wxdown-v1.0.0 公众号离线文章保存</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1926784</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1926784</guid>
-<content:encoded><![CDATA[
-[md]
-## 简介
-
-本来一开始用 `nodejs` 写的，考虑大小、易操作、高性能、跨平台以及环境等问题，我就想能不能搞个不需依赖开发语言环境就能运行的。所以我就选择 `go`并且它本身就具备以上优点。作者本身是`java`开发 ...
-]]></content:encoded>
-<pubDate>Tue, 21 May 2024 12:40:22 +0000</pubDate>
 </item>
 </channel>
 </rss>
