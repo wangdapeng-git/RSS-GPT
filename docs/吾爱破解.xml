@@ -4,12 +4,12 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>超准天气预报 1.11 无广告无需注册</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1975961</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1975961</guid>
 <content:encoded><![CDATA[
-
 【应用名称】超准天气预报
 【应用版本】1.11
 【应用大小】11m
@@ -18,9 +18,7 @@
 【应用介绍】超准天气预报信息实时精准，覆盖内容全面，字体大小随意调节，有大字版～浅色（白天）/深色（夜间）两种模式一键切 ...
 ]]></content:encoded>
 <pubDate>Sun, 27 Oct 2024 03:53:22 +0000</pubDate>
-<pubDate>Sun, 27 Oct 2024 03:53:22 +0000</pubDate>
 </item>
-
 <item>
 <title>能量计算器</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1973519</link>
@@ -14004,17 +14002,6 @@ Notepad-- 是使用C++编写的轻量级文本编辑器, 简称ndd, 可以支持
 本来一开始用 `nodejs` 写的，考虑大小、易操作、高性能、跨平台以及环境等问题，我就想能不能搞个不需依赖开发语言环境就能运行的。所以我就选择 `go`并且它本身就具备以上优点。作者本身是`java`开发 ...
 ]]></content:encoded>
 <pubDate>Tue, 21 May 2024 12:40:22 +0000</pubDate>
-</item>
-<item>
-<title>XML格式数电票阅读器</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1926666</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1926666</guid>
-<content:encoded><![CDATA[
-轻松掌握XML格式数电发票查看
-
-随着数字电子发票（数电票）在全国范围内的试点逐步推进，我们的生活和工作环境中越来越可能遇到这类票据。数电票的交付方式主要有三种：PDF、OFD和XML。其中，XML格式的数电票可能会让一 ...
-]]></content:encoded>
-<pubDate>Tue, 21 May 2024 07:37:03 +0000</pubDate>
 </item>
 </channel>
 </rss>
