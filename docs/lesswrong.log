@@ -10631,3 +10631,15 @@ Existing_entries: 353
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-27 18:16:05.689554
+------------------------------------------------------
+Started: 2024-10-27 20:13:29.252391
+Existing_entries: 353
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 28714
+Summarized using GPT-3.5-turbo
+Append: [The hostile telepaths problem](https://www.lesswrong.com/posts/5FAnfAStc7birapMx/the-hostile-telepaths-problem)
+Token length: 5245
+Summarized using GPT-3.5-turbo
+Append: [Electrostatic Airships?](https://www.lesswrong.com/posts/6bX3xwf9dvhvuB6an/electrostatic-airships)
+append_entries: 2
+Finish: 2024-10-27 20:13:40.639335

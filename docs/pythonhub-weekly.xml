@@ -4,14 +4,15 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-10-27</title>
 <link>https://pythonhub.dev/digest/2024-10-27/</link>
 <guid>https://pythonhub.dev/digest/2024-10-27/</guid>
 <content:encoded><![CDATA[
 <div> Chunkr, TEN-Agent, Linux系统，Python 3.13, FUSE-based filesystems
-<br>
-总结：本周Python项目中，包括基于视觉模型的PDF分块器Chunkr和集成了OpenAI Realtime API的TEN-Agent等项目备受关注。文章涵盖了使用打火机在Linux系统上获得root权限、Python 3.13发布的更新以及编写基于FUSE的文件系统的教程等内容。同时，还有关于异步编程的9个级别的文章和其他有趣的主题。愿大家度过愉快的一周，尽情编程！<br><br> <div>
+<br />
+总结：本周Python项目中，包括基于视觉模型的PDF分块器Chunkr和集成了OpenAI Realtime API的TEN-Agent等项目备受关注。文章涵盖了使用打火机在Linux系统上获得root权限、Python 3.13发布的更新以及编写基于FUSE的文件系统的教程等内容。同时，还有关于异步编程的9个级别的文章和其他有趣的主题。愿大家度过愉快的一周，尽情编程！<br /><br /> <div>
 <p class="summary">This week in Python, popular projects included Chunkr, a vision model based PDF chunker, and TEN-Agent, the world's first real-time multimodal agent integrated with OpenAI Realtime API. Interesting articles covered gaining root access on a Linux system using a cigarette lighter and the 9 levels of asynchronous programming in Python. Python 3.13 was released with exciting updates, including the option to disable the Global Interpreter Lock (GIL). Lastly, a tutorial on writing FUSE-based filesystems in Python was highlighted. Have a great week and happy coding!</p>
 
 <div></div>
@@ -196,9 +197,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 27 Oct 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 27 Oct 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-10-20</title>
 <link>https://pythonhub.dev/digest/2024-10-20/</link>
