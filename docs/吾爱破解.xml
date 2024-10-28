@@ -4,12 +4,12 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>Cencrack北京时间同步器</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1974446</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1974446</guid>
 <content:encoded><![CDATA[
-
 最近公司启用一批老电脑，主板电池都已经没电了，每次开机时间都不对，时间不对访问网页各方面都会出问题，公司那些老油条又不会调时间，于是写了个小工具...
 
 
@@ -23,9 +23,7 @@
  ...
 ]]></content:encoded>
 <pubDate>Mon, 21 Oct 2024 13:49:38 +0000</pubDate>
-<pubDate>Mon, 21 Oct 2024 13:49:38 +0000</pubDate>
 </item>
-
 <item>
 <title>【防网盘在线解压】Peazip 豌豆压缩 v10.0.0</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1975971</link>
@@ -14011,16 +14009,6 @@ TM5（TestMem5）是一款在内存超频玩家中较为流行的内存压力测
 相比旧版，新版本界面美化了不少；也能对软件界面、测试方案、测试时长、测试线程数、出错多少停止测试等多项内容进行自定义，比旧版方 ...
 ]]></content:encoded>
 <pubDate>Fri, 17 May 2024 07:38:16 +0000</pubDate>
-</item>
-<item>
-<title>轻量级多功能的图像查看器  ImageGlass   9.0.11.502</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1927154</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1927154</guid>
-<content:encoded><![CDATA[
-ImageGlass 是一款开源、无广告的照片查看器。ImageGlass 是一款功能丰富、易于使用的软件，旨在通过简洁、现代且直观的界面无缝查看图像。
-支持 80 多种常见图像格式，包括 WEBP、GIF、SVG、PNG、JXL、HEIC、RAW 格式……ImageGlass 还提供高级功能，可满足普通用户和 ...
-]]></content:encoded>
-<pubDate>Wed, 22 May 2024 12:46:25 +0000</pubDate>
 </item>
 </channel>
 </rss>
