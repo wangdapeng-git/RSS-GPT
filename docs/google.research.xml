@@ -4,6 +4,21 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+<item>
+<title>A return to hand-written notes by learning to read &amp; write</title>
+<link>https://storage.googleapis.com/gweb-research2023-media/original_images/ReadAndWrite-4-Tokenization.png</link>
+<guid>https://storage.googleapis.com/gweb-research2023-media/original_images/ReadAndWrite-4-Tokenization.png</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 文章 总结 关键词 中文 HTML
+
+文章主要讲述了如何通过提取关键词、用中文总结和使用HTML格式来对文章进行总结。对文章内容进行关键词提取，以便更快地把握文章主题；用中文简洁明了地总结文章内容；使用HTML格式来排版输出，使得总结更加清晰易读。通过这些方法，读者可以更有效地理解和记忆文章的内容。
+
+<br><br>总结: 提取关键词、用中文简明总结和采用HTML格式对文章进行全面总结是一种有效的阅读方法。 <div>
+
+]]></content:encoded>
+<pubDate>2024-10-28T00:00:00+00:00</pubDate>
+<pubDate>2024-10-28T22:13:41.304711+00:00</pubDate>
+</item>
 
 <item>
 <title>What does electrodermal sensing reveal? Insights from the Pixel Watch &amp; Fitbit Sense 2</title>
