@@ -10649,3 +10649,12 @@ Existing_entries: 355
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-27 22:13:38.501876
+------------------------------------------------------
+Started: 2024-10-28 01:01:37.017304
+Existing_entries: 355
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 674
+Summarized using GPT-3.5-turbo
+Append: [Video lectures on the learning-theoretic agenda](https://www.lesswrong.com/posts/NWKk2eQwfuGzRXusJ/video-lectures-on-the-learning-theoretic-agenda)
+append_entries: 1
+Finish: 2024-10-28 01:01:41.147284
