@@ -25857,3 +25857,9 @@ Filter: [醫學維基百科(离线版)2023-12版本 仅医学内容](https://www
 Filter: [人体穴位图解 v3.1.4（可离线）支持Android + iOS](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1974482)
 append_entries: 0
 Finish: 2024-10-28 18:17:09.105519
+------------------------------------------------------
+Started: 2024-10-28 20:13:46.489586
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+append_entries: 0
+Finish: 2024-10-28 20:13:48.903445
