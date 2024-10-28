@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Quiz: Beautiful Soup: Build a Web Scraper With Python</title>
 <link>https://realpython.com/quizzes/beautiful-soup-web-scraper-python/</link>
@@ -11,17 +12,15 @@
 <content:encoded><![CDATA[
 <div> HTML structure, developer tools, URL encoding, Requests, Beautiful Soup
 
-检查目标网站的HTML结构，使用开发者工具；解码URL中的数据；使用Requests和Beautiful Soup来抓取和解析网站数据；了解Web scraping pipeline的工作原理。<br><br>总结: 本文主要介绍了如何通过使用开发者工具来检查目标网站的HTML结构，解码URL中的数据，以及使用Requests和Beautiful Soup来进行网页数据的抓取和解析，最后介绍了Web scraping pipeline的工作流程。通过这些方式，读者可以提高对Python的应用能力，进一步理解Web scraping的原理。 <div>
+检查目标网站的HTML结构，使用开发者工具；解码URL中的数据；使用Requests和Beautiful Soup来抓取和解析网站数据；了解Web scraping pipeline的工作原理。<br /><br />总结: 本文主要介绍了如何通过使用开发者工具来检查目标网站的HTML结构，解码URL中的数据，以及使用Requests和Beautiful Soup来进行网页数据的抓取和解析，最后介绍了Web scraping pipeline的工作流程。通过这些方式，读者可以提高对Python的应用能力，进一步理解Web scraping的原理。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of
 <a href="https://realpython.com/beautiful-soup-web-scraper-python/">web scraping with Python, Requests, and Beautiful Soup</a>.</p>
 <p>By working through this quiz, you&rsquo;ll revisit how to inspect the HTML structure of your target site with your browser&rsquo;s developer tools, decipher data encoded in URLs, use Requests and Beautiful Soup for scraping and parsing data from the Web, and gain an understanding of what a web scraping pipeline looks like.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-10-28T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Quiz: How to Reset a pandas DataFrame Index</title>
 <link>https://realpython.com/quizzes/pandas-reset-index/</link>
