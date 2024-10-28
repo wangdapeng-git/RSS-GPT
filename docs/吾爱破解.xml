@@ -4,15 +4,14 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>WinHex 21.3_x86_x64 绿色单文件版</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1976048</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1976048</guid>
 <content:encoded><![CDATA[
-
 X-Ways WinHex，全球知名的计算机取证及数据恢复软件，十六进制编辑器和磁盘编辑器。这款专业十六进制编辑器，用于取证搜集、数据恢复、文件分析和编辑、底层数据处理和安全领域收集文件报告。使用它可以检查修复各种文 ...
 ]]></content:encoded>
-<pubDate>Sun, 27 Oct 2024 11:38:27 +0000</pubDate>
 <pubDate>Sun, 27 Oct 2024 11:38:27 +0000</pubDate>
 </item>
 <item>
@@ -20,7 +19,6 @@ X-Ways WinHex，全球知名的计算机取证及数据恢复软件，十六进�
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1975972</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1975972</guid>
 <content:encoded><![CDATA[
-
 旧帖无法编辑，(2023/9/20更新) 密码学工具 v1.17.0~~Misc模块功能扩充,文本处理增强~~ - 吾爱破解 - 52pojie.cn
 
 故新开一贴，内容不赘述，其他介绍内容详见旧帖
@@ -34,17 +32,14 @@ GitHub
 插 ...
 ]]></content:encoded>
 <pubDate>Sun, 27 Oct 2024 04:22:15 +0000</pubDate>
-<pubDate>Sun, 27 Oct 2024 04:22:15 +0000</pubDate>
 </item>
 <item>
 <title>查壳工具 Exeinfo PE 0.0.8.6 集成插件单文件汉化版</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1975821</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1975821</guid>
 <content:encoded><![CDATA[
-
 Exeinfo PE是一款查看PE文件信息的工具，可以查看EXE/dll文件的编译器信息、是否加壳、入口点地址、输出表/输入表等等PE信息，帮助开发人员对程序进行分析和逆向。Exeinfo PE还可以提取PE文件中的资源，可以提取图片、EX ...
 ]]></content:encoded>
-<pubDate>Sat, 26 Oct 2024 09:49:54 +0000</pubDate>
 <pubDate>Sat, 26 Oct 2024 09:49:54 +0000</pubDate>
 </item>
 <item>
@@ -52,7 +47,6 @@ Exeinfo PE是一款查看PE文件信息的工具，可以查看EXE/dll文件的�
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1975239</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1975239</guid>
 <content:encoded><![CDATA[
-
 Android逆向学习路线
 
 
@@ -66,14 +60,12 @@ Android逆向学习路线
 了解 Android 系统架构，包括应用层、框架层、系统运行库层和 Linu ...
 ]]></content:encoded>
 <pubDate>Thu, 24 Oct 2024 06:19:32 +0000</pubDate>
-<pubDate>Thu, 24 Oct 2024 06:19:32 +0000</pubDate>
 </item>
 <item>
 <title>跨平台局域网文件传输工具【闪电藤全新界面---官网已更新2.6.2】</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1972932</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1972932</guid>
 <content:encoded><![CDATA[
-
 特别说明：由于Flutter最新引擎不支持win7了，此后最新最低版本支持win8，win7请用2.1.9之前版本
 下载地址：https://wwi.lanzoup.com/b0ny7hw9i密码:1dyz
 本软件是转载的。
@@ -81,9 +73,7 @@ Android逆向学习路线
 [*]新增：支持云文件传输，使用 ...
 ]]></content:encoded>
 <pubDate>Wed, 16 Oct 2024 03:46:06 +0000</pubDate>
-<pubDate>Wed, 16 Oct 2024 03:46:06 +0000</pubDate>
 </item>
-
 <item>
 <title>Cencrack北京时间同步器</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1974446</link>
@@ -14033,61 +14023,6 @@ C001apk是Github上一位名叫@bggRGjQaUbCoE大佬开发的一款第三方版�
 起因是某天要投标，文件必须30M以下，就在论坛上翻找，耗时40分钟下载几个软件仍无果，于是换了个思路，最后找到了两个解决方案：一个论坛里一个小伙伴发的在线版（有文件大小限制），另一个是某捷6.8版本 ...
 ]]></content:encoded>
 <pubDate>Fri, 24 May 2024 03:42:05 +0000</pubDate>
-</item>
-<item>
-<title>启动U盘制作工具Rufus 4.5.2180</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1927524</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1927524</guid>
-<content:encoded><![CDATA[
-Rufus是是一款小巧实用免费开源的帮助格式化和创建可启动USB闪存驱动器的工具，如USB钥匙/软盘、记忆棒等，可快速制作linux系统或者win启动u盘，可快速的将ISO镜像文件制作成可引导启动的USB启动盘，支持ISO镜像、GPT和UE ...
-]]></content:encoded>
-<pubDate>Thu, 23 May 2024 11:58:55 +0000</pubDate>
-</item>
-<item>
-<title>经典修图工具 光影魔术手 4.5.7.247</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1927387</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1927387</guid>
-<content:encoded><![CDATA[
-光影魔术手是一款针对图像画质进行改善提升及效果处理的软件。
-
-它不需要任何专业的图像技术，就可以制作出专业胶片摄影的色彩效果。
-光影魔术手拥有多种丰富的数码暗房特效，如Lomo风格、背景虚化、局部上色、褪色旧 ...
-]]></content:encoded>
-<pubDate>Thu, 23 May 2024 06:28:41 +0000</pubDate>
-</item>
-<item>
-<title>【Web逆向】基于Electron的CrackMe详细教程</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1926574</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1926574</guid>
-<content:encoded><![CDATA[
-在教程开始之前，感谢collinchen1218提供的CrackMe，感谢cattie的指导CrackMe地址
-1、双击打开下载好的文件会弹出一个界面，借助大佬的经验进行操作：electron嘛，肯定会在本地设置一个服务器。直接利用netstat -na看本 ...
-]]></content:encoded>
-<pubDate>Tue, 21 May 2024 05:01:16 +0000</pubDate>
-</item>
-<item>
-<title>mysqlTools 一分钟部署安装mysql多个不同版本 mysql5.7/mysql8.x，解锁繁琐部署过程</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1925032</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1925032</guid>
-<content:encoded><![CDATA[
-[md]## mysqlTools 一键部署安装MySQL 功能演示:
- [mysqlTools 一分钟部署多版本 功能演示教程.mp4
-https://www.alipan.com/s/5KV7b3eQKkT
-点击链接保存，或者复制本段内容，打开「阿里云盘」APP ，无需下载极速在 ...
-]]></content:encoded>
-<pubDate>Thu, 16 May 2024 14:08:25 +0000</pubDate>
-</item>
-<item>
-<title>内存压力测试软件 TM5 （TestMem5）0.13版已发布</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1925297</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1925297</guid>
-<content:encoded><![CDATA[
-TM5（TestMem5）是一款在内存超频玩家中较为流行的内存压力测试软件。
-昨天，该软件最新版本V0.13版已在Github的项目官网放出。
-
-相比旧版，新版本界面美化了不少；也能对软件界面、测试方案、测试时长、测试线程数、出错多少停止测试等多项内容进行自定义，比旧版方 ...
-]]></content:encoded>
-<pubDate>Fri, 17 May 2024 07:38:16 +0000</pubDate>
 </item>
 </channel>
 </rss>

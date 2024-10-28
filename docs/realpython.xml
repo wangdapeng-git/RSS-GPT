@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Beautiful Soup: Build a Web Scraper With Python</title>
 <link>https://realpython.com/beautiful-soup-web-scraper-python/</link>
 <guid>https://realpython.com/beautiful-soup-web-scraper-python/</guid>
 <content:encoded><![CDATA[
-<div> web scraping, Python, Requests, Beautiful Soup, automation <br>
-web scraping是从互联网中提取信息的过程，Python中的Requests和Beautiful Soup是强大的工具。通过学习如何检查目标网站的HTML结构、解析URL中的数据以及使用Requests和Beautiful Soup进行数据爬取和解析，你可以构建一个从开始到完成的网页抓取流程。自动化地抓取网页可以帮助你收集所需的信息，无论是研究、项目还是个人兴趣。虽然Web有很多信息，但每个网站都独一无二，需要个性化处理。网站不断更改，网页抓取可能遇到挑战，但定期运行测试可以确保你的主要脚本不会无法运行。API是Web抓取的替代方法，提供了更稳定的数据访问方式，但也面临着挑战。总结: <br>Web scraping是一个重要的数据收集过程，Python中的Requests和Beautiful Soup工具能够帮助你实现自动化网页抓取。网站的多样性和不稳定性带来挑战，但通过定期维护和API的替代方法，可以更有效地进行数据收集。 <div>
+<div> web scraping, Python, Requests, Beautiful Soup, automation <br />
+web scraping是从互联网中提取信息的过程，Python中的Requests和Beautiful Soup是强大的工具。通过学习如何检查目标网站的HTML结构、解析URL中的数据以及使用Requests和Beautiful Soup进行数据爬取和解析，你可以构建一个从开始到完成的网页抓取流程。自动化地抓取网页可以帮助你收集所需的信息，无论是研究、项目还是个人兴趣。虽然Web有很多信息，但每个网站都独一无二，需要个性化处理。网站不断更改，网页抓取可能遇到挑战，但定期运行测试可以确保你的主要脚本不会无法运行。API是Web抓取的替代方法，提供了更稳定的数据访问方式，但也面临着挑战。总结: <br />Web scraping是一个重要的数据收集过程，Python中的Requests和Beautiful Soup工具能够帮助你实现自动化网页抓取。网站的多样性和不稳定性带来挑战，但通过定期维护和API的替代方法，可以更有效地进行数据收集。 <div>
 <div><p><a href="https://realpython.com/python-web-scraping-practical-introduction/">Web scraping</a> is the automated process of extracting data from the internet. The Python libraries <strong>Requests</strong> and <strong>Beautiful Soup</strong> are powerful tools for the job. To effectively harvest the vast amount of data available online for your research, projects, or personal interests, you’ll need to become skilled at web scraping.</p>
 <p><strong>In this tutorial, you’ll learn how to:</strong></p>
 <ul>
@@ -90,10 +91,8 @@ web scraping是从互联网中提取信息的过程，Python中的Requests和Bea
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-10-28T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Quiz: Beautiful Soup: Build a Web Scraper With Python</title>
 <link>https://realpython.com/quizzes/beautiful-soup-web-scraper-python/</link>
