@@ -8705,3 +8705,9 @@ Summarized using GPT-3.5-turbo
 Append: [1.8 Trillion Events Per Day with Kafka: How Agoda Handles it](https://blog.bytebytego.com/p/18-trillion-events-per-day-with-kafka)
 append_entries: 1
 Finish: 2024-10-29 16:17:22.244844
+------------------------------------------------------
+Started: 2024-10-29 18:18:09.655878
+Existing_entries: 76
+Fetching from https://blog.bytebytego.com/feed
+append_entries: 0
+Finish: 2024-10-29 18:18:09.952727
