@@ -4,6 +4,21 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>MyBatisCodeHelper-Pro-3.3.6的新激活方案</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1972729</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1972729</guid>
+<content:encoded><![CDATA[
+
+感谢大佬@lvbuqing 的帖子，原帖地址：
+https://www.52pojie.cn/thread-1967307-1-1.html
+
+感谢大佬@ljkgpxs  提供的修改反序列化的思路：
+通过修改反序列化，添加 userMac、valid、validTo、paidKey 的属性值，激活 ...
+]]></content:encoded>
+<pubDate>Tue, 15 Oct 2024 09:50:41 +0000</pubDate>
+<pubDate>Tue, 15 Oct 2024 09:50:41 +0000</pubDate>
+</item>
 
 <item>
 <title>WinHex 21.3_x86_x64 绿色单文件版</title>
