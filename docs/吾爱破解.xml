@@ -4,12 +4,12 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>网络传送带 V2.97：嗅探下载工具</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1976502</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1976502</guid>
 <content:encoded><![CDATA[
-
 【软件名称】：网络传送带
 
 【软件功能】：嗅探下载工具
@@ -20,20 +20,17 @@
 内置强大的嗅探器，可 ...
 ]]></content:encoded>
 <pubDate>Tue, 29 Oct 2024 05:06:46 +0000</pubDate>
-<pubDate>Tue, 29 Oct 2024 05:06:46 +0000</pubDate>
 </item>
 <item>
 <title>开源免费文件比较工具WinMerge 2.16.44</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1976338</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1976338</guid>
 <content:encoded><![CDATA[
-
 WinMerge 是一款 Windows 平台下的开源差异比较与合并工具。WinMerge 可比较文件和文件夹，以易于理解和处理的可视文本格式显示差异。
 
 特征
 WinMerge 对于确定项目版本之间的更改，然后合并版本之间的更改非常有用。W ...
 ]]></content:encoded>
-<pubDate>Mon, 28 Oct 2024 12:10:41 +0000</pubDate>
 <pubDate>Mon, 28 Oct 2024 12:10:41 +0000</pubDate>
 </item>
 <item>
@@ -41,14 +38,11 @@ WinMerge 对于确定项目版本之间的更改，然后合并版本之间的�
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1973084</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1973084</guid>
 <content:encoded><![CDATA[
-
 重新发下，Python写了个脚本，可以把pdf降低图片质量，降低颜色数量，二黑白值化和平滑图片，降低分辨率
 10.18更新了下，可以直接转成矢量图了，无限放大也清晰就是体积不是很小，也可以矢量图在转回普通图片保存，可以 ...
 ]]></content:encoded>
 <pubDate>Wed, 16 Oct 2024 11:19:12 +0000</pubDate>
-<pubDate>Wed, 16 Oct 2024 11:19:12 +0000</pubDate>
 </item>
-
 <item>
 <title>YuYuWechat vV2.11.1：微信定时消息发送</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1976379</link>
@@ -14039,46 +14033,6 @@ OpenArk是一款Windows平台上的开源Ark工具. Ark是Anti-Rootkit（对抗�
  ...
 ]]></content:encoded>
 <pubDate>Mon, 20 May 2024 10:31:16 +0000</pubDate>
-</item>
-<item>
-<title>小红书图片视频下载工具XHS-Downloader V1.9</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1928077</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1928077</guid>
-<content:encoded><![CDATA[
-XHS-Downloader是一款小红书图片视频下载工具
-
-它可以提取账号发布、收藏、点赞作品链接；提取搜索结果作品链接、用户链接；
-下载小红书作品信息；提取小红书作品下载地址；下载小红书无水印作品文件！
-
-       程序 ...
-]]></content:encoded>
-<pubDate>Sat, 25 May 2024 07:05:36 +0000</pubDate>
-</item>
-<item>
-<title>pdf工具，转图片，word，拆分，删除，提取</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1924332</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1924332</guid>
-<content:encoded><![CDATA[
-使用gpt自写的pdf工具，包括pdf转word，图片，合并，页面拆分，页面删除，页面提取
-较上次增加转word，图片功能，支持文件拖入，附源码
-
-
-功能介绍：
-合并：添加顺序就是合并顺序，可多次添加
-拆分：将输入页码的范 ...
-]]></content:encoded>
-<pubDate>Wed, 15 May 2024 02:34:37 +0000</pubDate>
-</item>
-<item>
-<title>BleachBit(磁盘清理工具) v4.6.0</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1927776</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1927776</guid>
-<content:encoded><![CDATA[
-BleachBit是一款开源免费的系统清理工具，原来只是一款为Linux设计的系统清理工具，现在已经支持了Windows。该工具除了清理系统外，也能清理很多第三方应用软件产生的垃圾，是一款非常实用的跨平台的系统清理工具。
-
- ...
-]]></content:encoded>
-<pubDate>Fri, 24 May 2024 05:58:06 +0000</pubDate>
 </item>
 </channel>
 </rss>

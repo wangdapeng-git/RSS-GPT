@@ -10772,3 +10772,9 @@ Summarized using GPT-3.5-turbo
 Append: [How Likely Are Various Precursors of Existential Risk?](https://www.lesswrong.com/posts/8PcjymbWGJCgT7bSf/how-likely-are-various-precursors-of-existential-risk)
 append_entries: 1
 Finish: 2024-10-29 12:25:14.055065
+------------------------------------------------------
+Started: 2024-10-29 14:13:37.835862
+Existing_entries: 358
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-10-29 14:13:38.682918
