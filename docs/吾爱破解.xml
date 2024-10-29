@@ -4,12 +4,12 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>MyBatisCodeHelper-Pro-3.3.6的新激活方案</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1972729</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1972729</guid>
 <content:encoded><![CDATA[
-
 感谢大佬@lvbuqing 的帖子，原帖地址：
 https://www.52pojie.cn/thread-1967307-1-1.html
 
@@ -17,9 +17,7 @@ https://www.52pojie.cn/thread-1967307-1-1.html
 通过修改反序列化，添加 userMac、valid、validTo、paidKey 的属性值，激活 ...
 ]]></content:encoded>
 <pubDate>Tue, 15 Oct 2024 09:50:41 +0000</pubDate>
-<pubDate>Tue, 15 Oct 2024 09:50:41 +0000</pubDate>
 </item>
-
 <item>
 <title>WinHex 21.3_x86_x64 绿色单文件版</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1976048</link>
@@ -14027,17 +14025,6 @@ C001apk是Github上一位名叫@bggRGjQaUbCoE大佬开发的一款第三方版�
 3.新增支 ...
 ]]></content:encoded>
 <pubDate>Fri, 24 May 2024 05:25:19 +0000</pubDate>
-</item>
-<item>
-<title>不会编程的我，用GPT写了一个PDF压缩工具（附部分源码&amp;成品）</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1927735</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1927735</guid>
-<content:encoded><![CDATA[
-[md]# 起因
-
-起因是某天要投标，文件必须30M以下，就在论坛上翻找，耗时40分钟下载几个软件仍无果，于是换了个思路，最后找到了两个解决方案：一个论坛里一个小伙伴发的在线版（有文件大小限制），另一个是某捷6.8版本 ...
-]]></content:encoded>
-<pubDate>Fri, 24 May 2024 03:42:05 +0000</pubDate>
 </item>
 </channel>
 </rss>
