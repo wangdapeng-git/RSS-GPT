@@ -4,6 +4,28 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Python's Magic Methods in Classes</title>
+<link>https://realpython.com/courses/magic-methods-classes/</link>
+<guid>https://realpython.com/courses/magic-methods-classes/</guid>
+<content:encoded><![CDATA[
+<div> Python, special methods, magic methods, object-oriented programming, customization
+<br>
+Python开发者需要了解特殊方法的概念，这些方法在Python中具有特殊含义，能够自动响应特定操作，例如实例化、序列索引、属性管理等。掌握特殊方法可以定制自定义类的行为，支持Python中的核心面向对象编程特性。学习Python的特殊方法是Python程序员的基础。总结: 深入理解Python中特殊方法的含义及作用，通过特殊方法可以定制自定义类的行为，支持核心对象导向编程特性。 <div>
+<p>As a Python developer who wants to harness the power of object-oriented programming, you&rsquo;ll love to learn how to customize your classes using <strong>special methods</strong>, also known as <strong>magic methods</strong> or <strong>dunder methods</strong>. A special method is a method whose name starts and ends with a double underscore. These methods have special meanings in Python.</p>
+<p>Python automatically calls magic methods as a response to certain operations, such as instantiation, sequence indexing, attribute managing, and much more. Magic methods support core object-oriented features in Python, so learning about them is fundamental for you as a Python programmer.</p>
+<p><strong>In this video course, you&rsquo;ll:</strong></p>
+<ul>
+<li>Learn what Python&rsquo;s <strong>special</strong> or <strong>magic methods</strong> are</li>
+<li>Understand the <strong>magic</strong> behind magic methods in Python</li>
+<li><strong>Customize</strong> different <strong>behaviors</strong> of your custom classes with special methods</li>
+</ul>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-29T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Beautiful Soup: Build a Web Scraper With Python</title>

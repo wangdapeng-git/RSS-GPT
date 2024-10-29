@@ -10778,3 +10778,12 @@ Existing_entries: 358
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-29 14:13:38.682918
+------------------------------------------------------
+Started: 2024-10-29 16:17:10.753648
+Existing_entries: 358
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 1909
+Summarized using GPT-3.5-turbo
+Append: [Gwern: Why So Few Matt Levines?](https://www.lesswrong.com/posts/qMKvGDCXCBpbtwojc/gwern-why-so-few-matt-levines)
+append_entries: 1
+Finish: 2024-10-29 16:17:17.746633
