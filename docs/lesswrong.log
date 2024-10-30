@@ -10847,3 +10847,12 @@ Existing_entries: 361
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-30 10:15:26.423150
+------------------------------------------------------
+Started: 2024-10-30 12:25:47.384440
+Existing_entries: 361
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 47372
+Summarized using GPT-3.5-turbo
+Append: [How might we solve the alignment problem? (Part 1: Intro, summary, ontology)](https://www.lesswrong.com/posts/iDRxuJyte6xvppCa3/how-might-we-solve-the-alignment-problem-part-1-intro)
+append_entries: 1
+Finish: 2024-10-30 12:25:53.540585
