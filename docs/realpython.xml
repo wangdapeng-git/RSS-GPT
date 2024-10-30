@@ -4,6 +4,151 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Python Closures: Common Use Cases and Examples</title>
+<link>https://realpython.com/python-closure/</link>
+<guid>https://realpython.com/python-closure/</guid>
+<content:encoded><![CDATA[
+<div> closures,function-based decorators,inner functions,retained variables,state information<br>
+闭包是Python中的一种常见特性，可以用于创建基于函数的装饰器。内部函数是定义在另一个函数内部的函数，闭包是一种特殊的内部函数，它可以保留其封闭作用域中的变量。闭包可以用于保留状态信息，是函数式编程中常见的特性。在Python中，通过在外部函数中返回内部函数对象，可以实现闭包。这种特性使内部函数和保留的变量在外部函数返回后仍然可用。总结: <br> <div>
+<div><p>In Python, a closure is typically a function defined inside another function. This inner function grabs the objects defined in its enclosing scope and associates them with the inner function object itself. The resulting combination is called a closure.</p>
+<p>Closures are a common feature in functional programming languages. In Python, closures can be pretty useful because they allow you to create function-based decorators, which are powerful tools.</p>
+<p><strong>In this tutorial, you’ll:</strong></p>
+<ul>
+<li>Learn what <strong>closures</strong> are and how they work in Python</li>
+<li>Get to know common <strong>use cases</strong> of closures</li>
+<li>Explore <strong>alternatives</strong> to closures</li>
+</ul>
+<p>To get the most out of this tutorial, you should be familiar with several Python topics, including <a href="https://realpython.com/defining-your-own-python-function/">functions</a>, <a href="https://realpython.com/inner-functions-what-are-they-good-for/">inner functions</a>, <a href="https://realpython.com/primer-on-python-decorators/">decorators</a>, <a href="https://realpython.com/python-classes/">classes</a>, and <a href="https://realpython.com/python-callable-instances/">callable instances</a>.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-closure-code/">Click here to download the free sample code</a> that shows you how to use closures in Python.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Python Closures: Common Use Cases and Examples” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/python-closure/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="Python Closures: Common Use Cases and Examples" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Python-Closures_Watermarked-2.3a5019ecf907.jpg" style="background: #abe5b2;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/python-closure/"><span class="my-0 h4">Python Closures: Common Use Cases and Examples</span></a> 
+      <p class="text-muted mb-0 small">In this quiz, you'll test your understanding of Python closures. Closures are a common feature in functional programming languages and are particularly popular in Python because they allow you to create function-based decorators.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="getting-to-know-closures-in-python">Getting to Know Closures in Python<a class="headerlink" href="#getting-to-know-closures-in-python" title="Permanent link"></a></h2>
+<p>A <strong>closure</strong> is a function that retains access to its <a href="https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scope">lexical scope</a>, even when the function is executed outside that scope. When the enclosing function returns the inner function, then you get a function object with an extended scope.</p>
+<p>In other words, closures are functions that capture the objects defined in their enclosing scope, allowing you to use them in their body. This feature allows you to use closures when you need to retain state information between consecutive calls.</p>
+<p>Closures are common in programming languages that are focused on <a href="https://realpython.com/python-functional-programming/">functional programming</a>, and Python supports closures as part of its wide variety of features.</p>
+<p>In Python, a closure is a function that you <em>define in</em> and <em>return from</em> another function. This inner function can retain the objects defined in the <a href="https://realpython.com/python-scope-legb-rule/#nested-functions-the-enclosing-scope">non-local scope</a> right before the inner function’s definition.</p>
+<p>To better understand closures in Python, you’ll first look at inner functions because closures are also inner functions.</p>
+<h3 id="inner-functions">Inner Functions<a class="headerlink" href="#inner-functions" title="Permanent link"></a></h3>
+<p>In Python, an <strong>inner function</strong> is a function that you define inside another function. This type of function can access and update <a href="https://realpython.com/python-scope-legb-rule/#names-and-scopes-in-python">names</a> in their enclosing function, which is the non-local scope.</p>
+<p>Here’s a quick example:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="k">def</span> <span class="nf">outer_func</span><span class="p">():</span>
+<span class="gp">... </span>    <span class="n">name</span> <span class="o">=</span> <span class="s2">"Pythonista"</span>
+<span class="gp">... </span>    <span class="k">def</span> <span class="nf">inner_func</span><span class="p">():</span>
+<span class="gp">... </span>        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Hello, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">!"</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="n">inner_func</span><span class="p">()</span>
+<span class="gp">...</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">outer_func</span><span class="p">()</span>
+<span class="go">Hello, Pythonista!</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">greeter</span> <span class="o">=</span> <span class="n">outer_func</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">greeter</span><span class="p">)</span>
+<span class="go">None</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this example, you define <code>outer_func()</code> at the module level or <a href="https://realpython.com/python-scope-legb-rule/#modules-the-global-scope">global scope</a>. Inside this function, you define the <code>name</code> local variable. Then, you define another function called <code>inner_func()</code>. Because this second function lives in the body of <code>outer_func()</code>, it’s an inner or nested function. Finally, you call the inner function, which uses the <code>name</code> variable defined in the enclosing function.</p>
+<p>When you call <code>outer_func()</code>, <code>inner_func()</code> interpolates <code>name</code> into the greeting string and prints the result to your screen.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> To learn more about inner functions, check out the <a href="https://realpython.com/inner-functions-what-are-they-good-for/">Python Inner Functions: What Are They Good For?</a> tutorial.</p>
+</div>
+<p>In the above example, you defined an inner function that can use the names in the enclosing scope. However, when you call the outer function, you don’t get a reference to the inner function. The inner function and the local names won’t be available outside the outer function.</p>
+<p>In the following section, you’ll learn how to turn an inner function into a closure, which makes the inner function and the retained variables available to you.</p>
+<h3 id="function-closures">Function Closures<a class="headerlink" href="#function-closures" title="Permanent link"></a></h3>
+<p>All closures are inner functions, but not all inner functions are closures. To turn an inner function into a closure, you must return the inner function object from the outer function. This may sound like a tongue twister, but here’s how you can make <code>outer_func()</code> return a closure object:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="k">def</span> <span class="nf">outer_func</span><span class="p">():</span>
+<span class="gp">... </span>    <span class="n">name</span> <span class="o">=</span> <span class="s2">"Pythonista"</span>
+<span class="gp">... </span>    <span class="k">def</span> <span class="nf">inner_func</span><span class="p">():</span>
+<span class="gp">... </span>        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Hello, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">!"</span><span class="p">)</span>
+<span class="hll"><span class="gp">... </span>    <span class="k">return</span> <span class="n">inner_func</span>
+</span><span class="gp">...</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">outer_func</span><span class="p">()</span>
+<span class="go">&lt;function outer_func.&lt;locals&gt;.inner_func at 0x1066d16c0&gt;</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">greeter</span> <span class="o">=</span> <span class="n">outer_func</span><span class="p">()</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">greeter</span><span class="p">()</span>
+<span class="go">Hello, Pythonista!</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+</div><h2><a href="https://realpython.com/python-closure/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-closure/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-10-30T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Python's Magic Methods in Classes</title>

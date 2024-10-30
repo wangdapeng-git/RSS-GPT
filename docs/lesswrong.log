@@ -10856,3 +10856,12 @@ Summarized using GPT-3.5-turbo
 Append: [How might we solve the alignment problem? (Part 1: Intro, summary, ontology)](https://www.lesswrong.com/posts/iDRxuJyte6xvppCa3/how-might-we-solve-the-alignment-problem-part-1-intro)
 append_entries: 1
 Finish: 2024-10-30 12:25:53.540585
+------------------------------------------------------
+Started: 2024-10-30 14:14:11.771126
+Existing_entries: 362
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 9810
+Summarized using GPT-3.5-turbo
+Append: [The Alignment Trap: AI Safety as Path to Power](https://www.lesswrong.com/posts/zWJTcaJCkYiJwCmgx/the-alignment-trap-ai-safety-as-path-to-power)
+append_entries: 1
+Finish: 2024-10-30 14:14:18.195674
