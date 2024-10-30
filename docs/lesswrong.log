@@ -10811,3 +10811,9 @@ Summarized using GPT-3.5-turbo
 Append: [D&D.Sci Coliseum: Arena of Data Evaluation and Ruleset](https://www.lesswrong.com/posts/MwYLnBzn4YpyJZ7Z6/d-and-d-sci-coliseum-arena-of-data-evaluation-and-ruleset)
 append_entries: 1
 Finish: 2024-10-29 22:13:03.768492
+------------------------------------------------------
+Started: 2024-10-30 00:59:38.934091
+Existing_entries: 361
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-10-30 00:59:39.357068
