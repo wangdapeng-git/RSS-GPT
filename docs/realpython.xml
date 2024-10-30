@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Python Closures: Common Use Cases and Examples</title>
 <link>https://realpython.com/python-closure/</link>
 <guid>https://realpython.com/python-closure/</guid>
 <content:encoded><![CDATA[
-<div> closures,function-based decorators,inner functions,retained variables,state information<br>
-闭包是Python中的一种常见特性，可以用于创建基于函数的装饰器。内部函数是定义在另一个函数内部的函数，闭包是一种特殊的内部函数，它可以保留其封闭作用域中的变量。闭包可以用于保留状态信息，是函数式编程中常见的特性。在Python中，通过在外部函数中返回内部函数对象，可以实现闭包。这种特性使内部函数和保留的变量在外部函数返回后仍然可用。总结: <br> <div>
+<div> closures,function-based decorators,inner functions,retained variables,state information<br />
+闭包是Python中的一种常见特性，可以用于创建基于函数的装饰器。内部函数是定义在另一个函数内部的函数，闭包是一种特殊的内部函数，它可以保留其封闭作用域中的变量。闭包可以用于保留状态信息，是函数式编程中常见的特性。在Python中，通过在外部函数中返回内部函数对象，可以实现闭包。这种特性使内部函数和保留的变量在外部函数返回后仍然可用。总结: <br /> <div>
 <div><p>In Python, a closure is typically a function defined inside another function. This inner function grabs the objects defined in its enclosing scope and associates them with the inner function object itself. The resulting combination is called a closure.</p>
 <p>Closures are a common feature in functional programming languages. In Python, closures can be pretty useful because they allow you to create function-based decorators, which are powerful tools.</p>
 <p><strong>In this tutorial, you’ll:</strong></p>
@@ -146,10 +147,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-10-30T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Python's Magic Methods in Classes</title>
 <link>https://realpython.com/courses/magic-methods-classes/</link>
