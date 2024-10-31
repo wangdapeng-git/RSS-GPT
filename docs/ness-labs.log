@@ -12331,3 +12331,12 @@ Existing_entries: 46
 Fetching from https://nesslabs.com/feed
 append_entries: 0
 Finish: 2024-10-31 10:13:38.102515
+------------------------------------------------------
+Started: 2024-10-31 12:23:16.795853
+Existing_entries: 46
+Fetching from https://nesslabs.com/feed
+Token length: 5580
+Summarized using GPT-3.5-turbo
+Append: [Overfunctioning: The Drive to Do it All, or When Helping Others Is Hurting You](https://nesslabs.com/overfunctioning?utm_source=rss&utm_medium=rss&utm_campaign=overfunctioning)
+append_entries: 1
+Finish: 2024-10-31 12:23:22.265855
