@@ -10967,3 +10967,9 @@ Summarized using GPT-3.5-turbo
 Append: [The Compendium, A full argument about extinction risk from AGI](https://www.lesswrong.com/posts/prm7jJMZzToZ4QxoK/the-compendium-a-full-argument-about-extinction-risk-from)
 append_entries: 1
 Finish: 2024-10-31 18:18:02.027771
+------------------------------------------------------
+Started: 2024-10-31 20:14:25.011045
+Existing_entries: 369
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-10-31 20:14:25.834415
