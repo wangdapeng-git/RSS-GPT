@@ -4,6 +4,17 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>一木记账解锁vip</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1976444</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1976444</guid>
+<content:encoded><![CDATA[
+
+根据大大的提醒试了一下，给getyimutype返回处赋值了2（看1265行，改了后自动记账就不会掉了），解锁vip和云功能可以看https://www.52pojie.cn/thread-1946342-1-1.html，anke1大大的详细点，我嘴笨，都改掉后就可以用了 ...
+]]></content:encoded>
+<pubDate>Tue, 29 Oct 2024 02:30:15 +0000</pubDate>
+<pubDate>Tue, 29 Oct 2024 02:30:15 +0000</pubDate>
+</item>
 
 <item>
 <title>搜狗输入法企业版1.0.0.1199</title>
