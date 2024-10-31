@@ -4,22 +4,21 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Quiz: Using .__repr__() vs .__str__() in Python</title>
 <link>https://realpython.com/quizzes/python-repr-vs-str/</link>
 <guid>https://realpython.com/quizzes/python-repr-vs-str/</guid>
 <content:encoded><![CDATA[
 <div> 特殊方法, 控制显示, 对象, 可读性, 调试维护
-<br>
-特殊方法让你控制程序如何显示对象，使得你的类更易读、更容易调试和维护。通过使用特殊方法，你可以自定义对象在不同情况下的表现方式，提高代码的可读性和灵活性。这些方法让你可以更好地控制对象的行为，使得代码更加清晰易懂，也更容易排查和解决问题。利用特殊方法，你可以定义对象的比较、算术运算、打印、迭代等行为，为自定义类增加更多功能和灵活性。通过灵活运用特殊方法，你可以提高代码的可维护性和可读性，让Python编程变得更加简洁高效。<br><br>总结: <div>
+<br />
+特殊方法让你控制程序如何显示对象，使得你的类更易读、更容易调试和维护。通过使用特殊方法，你可以自定义对象在不同情况下的表现方式，提高代码的可读性和灵活性。这些方法让你可以更好地控制对象的行为，使得代码更加清晰易懂，也更容易排查和解决问题。利用特殊方法，你可以定义对象的比较、算术运算、打印、迭代等行为，为自定义类增加更多功能和灵活性。通过灵活运用特殊方法，你可以提高代码的可维护性和可读性，让Python编程变得更加简洁高效。<br /><br />总结: <div>
 <p>In this quiz, you&rsquo;ll test your understanding of <a href="https://realpython.com/python-repr-vs-str/">Python&rsquo;s <code>.__repr__()</code> and <code>.__str__()</code></a> special methods. These methods allow you to control how a program displays an object, making your classes more readable and easier to debug and maintain.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-10-29T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Python Closures: Common Use Cases and Examples</title>
 <link>https://realpython.com/python-closure/</link>

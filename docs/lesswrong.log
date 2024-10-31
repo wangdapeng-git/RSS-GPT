@@ -10958,3 +10958,12 @@ Existing_entries: 368
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-31 16:16:54.406264
+------------------------------------------------------
+Started: 2024-10-31 18:17:57.893101
+Existing_entries: 368
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 3849
+Summarized using GPT-3.5-turbo
+Append: [The Compendium, A full argument about extinction risk from AGI](https://www.lesswrong.com/posts/prm7jJMZzToZ4QxoK/the-compendium-a-full-argument-about-extinction-risk-from)
+append_entries: 1
+Finish: 2024-10-31 18:18:02.027771
