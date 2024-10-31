@@ -12762,3 +12762,12 @@ Fetching from https://rsshub.app/deepmind/blog
 Fetch failed from https://rsshub.app/deepmind/blog
 append_entries: 0
 error when rendering xml, skip docs/deepmind
+------------------------------------------------------
+Started: 2024-10-31 08:15:32.084214
+Existing_entries: 124
+Fetching from https://rsshub.app/deepmind/blog
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Pushing the frontiers of audio generation](https://deepmind.google/discover/blog/pushing-the-frontiers-of-audio-generation/)
+append_entries: 1
+Finish: 2024-10-31 08:15:35.533778
