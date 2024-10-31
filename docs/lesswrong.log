@@ -10895,3 +10895,12 @@ Summarized using GPT-3.5-turbo
 Append: [~80 Interesting Questions about Foundation Model Agent Safety](https://www.lesswrong.com/posts/ZJzyDdKsDhFvqQhdQ/80-interesting-questions-about-foundation-model-agent-safety)
 append_entries: 1
 Finish: 2024-10-30 22:13:51.337837
+------------------------------------------------------
+Started: 2024-10-31 01:00:27.905810
+Existing_entries: 365
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 184
+Summarized using GPT-3.5-turbo
+Append: [I turned decision theory problems into memes about trolleys](https://www.lesswrong.com/posts/ayvCEeGBqycEqcZab/i-turned-decision-theory-problems-into-memes-about-trolleys)
+append_entries: 1
+Finish: 2024-10-31 01:00:31.259934
