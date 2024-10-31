@@ -10931,3 +10931,12 @@ Existing_entries: 367
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-10-31 08:16:47.380691
+------------------------------------------------------
+Started: 2024-10-31 10:14:51.431043
+Existing_entries: 367
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 9626
+Summarized using GPT-3.5-turbo
+Append: [What TMS is like](https://www.lesswrong.com/posts/g3iKYS8wDapxS757x/what-tms-is-like)
+append_entries: 1
+Finish: 2024-10-31 10:14:54.396736
