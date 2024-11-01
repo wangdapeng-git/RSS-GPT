@@ -4,12 +4,12 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>WinLicense_v3.1.3.0汉化版（转载）</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1977346</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1977346</guid>
 <content:encoded><![CDATA[
-
 转载的 希望能帮到大家 可以直接用 有图有真相
 
 
@@ -20,9 +20,7 @@
 提取码: gh2g
 ]]></content:encoded>
 <pubDate>Thu, 31 Oct 2024 10:51:17 +0000</pubDate>
-<pubDate>Thu, 31 Oct 2024 10:51:17 +0000</pubDate>
 </item>
-
 <item>
 <title>我爱学英语软件，主打为爱发电。</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1977415</link>
@@ -14015,15 +14013,6 @@ Escrcpy 是一款强大的开源安卓投屏软件，
 这款应用程序由 Electron 作为其底层框架驱动。Escrcpy 无 ...
 ]]></content:encoded>
 <pubDate>Wed, 29 May 2024 07:28:47 +0000</pubDate>
-</item>
-<item>
-<title>警惕GitHub恶意病毒项目，持续活跃释放远控木马</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1929035</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1929035</guid>
-<content:encoded><![CDATA[
-近期，火绒安全实验室在日常威胁巡视中发现一 GitHub 仓库发布的项目存在病毒风险行为，火绒安全工程师第一时间提取样本进行分析。分析中发现样本会通过多种手段对抗杀软，并最终释放 Remcos 商业远控木马控制受害者机器 ...
-]]></content:encoded>
-<pubDate>Tue, 28 May 2024 11:36:50 +0000</pubDate>
 </item>
 </channel>
 </rss>

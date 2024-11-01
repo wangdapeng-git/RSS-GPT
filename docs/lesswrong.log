@@ -11048,3 +11048,12 @@ Existing_entries: 370
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-01 20:14:43.635939
+------------------------------------------------------
+Started: 2024-11-01 22:13:14.147350
+Existing_entries: 370
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 11192
+Summarized using GPT-3.5-turbo
+Append: [JargonBot Beta Test](https://www.lesswrong.com/posts/sZvMLWrWomN28uWA9/jargonbot-beta-test)
+append_entries: 1
+Finish: 2024-11-01 22:13:18.003247
