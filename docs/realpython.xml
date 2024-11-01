@@ -4,21 +4,20 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>The Real Python Podcast – Episode #226: PySheets: Spreadsheets in the Browser Using PyScript</title>
 <link>https://realpython.com/podcasts/rpp/226/</link>
 <guid>https://realpython.com/podcasts/rpp/226/</guid>
 <content:encoded><![CDATA[
 <div> PySheets, Chris Laffra, spreadsheet application, Python, browser
-总结:<br><br>文章介绍了Chris Laffra的项目PySheets，讨论了如何在浏览器中使用Python构建电子表格应用程序。要实现快速启动，可以将数据单元格存储在何处是一个关键问题。通过PySheets项目和他的书《Communication for Engineers》，可以了解到如何通过Python使电子表格应用程序在浏览器中快速启动，并实现数据的有效存储和管理。 <div>
+总结:<br /><br />文章介绍了Chris Laffra的项目PySheets，讨论了如何在浏览器中使用Python构建电子表格应用程序。要实现快速启动，可以将数据单元格存储在何处是一个关键问题。通过PySheets项目和他的书《Communication for Engineers》，可以了解到如何通过Python使电子表格应用程序在浏览器中快速启动，并实现数据的有效存储和管理。 <div>
 <p>What goes into building a spreadsheet application in Python that runs in the browser? How do you make it launch quickly, and where do you store the cells of data? This week on the show, we speak with Chris Laffra about his project, PySheets, and his book "Communication for Engineers."</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-01T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Quiz: Using .__repr__() vs .__str__() in Python</title>
 <link>https://realpython.com/quizzes/python-repr-vs-str/</link>

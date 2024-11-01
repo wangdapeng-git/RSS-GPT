@@ -11673,3 +11673,9 @@ Summarized using GPT-3.5-turbo
 Append: [The Real Python Podcast – Episode #226: PySheets: Spreadsheets in the Browser Using PyScript](https://realpython.com/podcasts/rpp/226/)
 append_entries: 1
 Finish: 2024-11-01 12:23:57.920598
+------------------------------------------------------
+Started: 2024-11-01 14:13:50.467584
+Existing_entries: 195
+Fetching from https://realpython.com/atom.xml
+append_entries: 0
+Finish: 2024-11-01 14:13:50.848839
