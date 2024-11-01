@@ -11015,3 +11015,12 @@ Existing_entries: 369
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-01 10:15:25.992011
+------------------------------------------------------
+Started: 2024-11-01 12:24:06.258316
+Existing_entries: 369
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 5208
+Summarized using GPT-3.5-turbo
+Append: [Toward Safety Cases For AI Scheming](https://www.lesswrong.com/posts/FXoEFdTq5uL8NPDGe/toward-safety-cases-for-ai-scheming-1)
+append_entries: 1
+Finish: 2024-11-01 12:24:10.513874
