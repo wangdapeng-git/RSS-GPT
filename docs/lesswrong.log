@@ -11129,3 +11129,9 @@ Summarized using GPT-3.5-turbo
 Append: [Science advances one funeral at a time](https://www.lesswrong.com/posts/tHncgnNSZN6oPgfZX/science-advances-one-funeral-at-a-time)
 append_entries: 1
 Finish: 2024-11-02 20:14:38.502618
+------------------------------------------------------
+Started: 2024-11-02 22:13:34.307777
+Existing_entries: 373
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-02 22:13:34.607434

@@ -4,6 +4,21 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>解包小米11的boot.img，还原内核符号以及地址</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1975312</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1975312</guid>
+<content:encoded><![CDATA[
+
+0x0 前言
+因为一些教程过于老旧，为了防止自己以后重复踩坑，故记录一下学习过程中遇到的一些坑和现在有效的方法。
+设备：mi 11 venus 内核版本5.4.210
+0x1 解包boot.img
+提取内核什么的就直接跳过，网上有很多资料 ...
+]]></content:encoded>
+<pubDate>Thu, 24 Oct 2024 08:59:46 +0000</pubDate>
+<pubDate>Thu, 24 Oct 2024 08:59:46 +0000</pubDate>
+</item>
 
 <item>
 <title>度加剪辑V4.19.0.30，纯免费剪辑软件支持字幕转语音</title>
