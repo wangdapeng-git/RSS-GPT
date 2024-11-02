@@ -4,6 +4,7 @@
 <title>NLP Newsletter</title>
 <link>https://nlp.elvissaravia.com</link>
 
+
 <item>
 <title>🥇AI Agents Weekly: CodeAct 2.1, Copilot Studio Agents, Memory Types, IBM Agent Builder,...</title>
 <link>https://nlp.elvissaravia.com/p/ai-agents-weekly-codeact-21-copilot</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> OpenHands CodeAct 2.1, SWE-Bench Verified, Perplexity, Superhuman, CrewAI
 
-总结:<br><br>本文介绍了OpenHands CodeAct 2.1在SWE-Bench Verified领域的最新进展，以及Perplexity和Superhuman等公司的发展情况。文章总结了构建有效AI代理所需的关键要素，并介绍了CrewAI加速公司增长的努力。同时还介绍了自动生成代理工作流程、个性化网络代理、基于LLM的代理基准测试等内容。整体而言，本文涵盖了AI代理技术的最新发展和应用前景。 <div>
+总结:<br /><br />本文介绍了OpenHands CodeAct 2.1在SWE-Bench Verified领域的最新进展，以及Perplexity和Superhuman等公司的发展情况。文章总结了构建有效AI代理所需的关键要素，并介绍了CrewAI加速公司增长的努力。同时还介绍了自动生成代理工作流程、个性化网络代理、基于LLM的代理基准测试等内容。整体而言，本文涵盖了AI代理技术的最新发展和应用前景。 <div>
 <p>In today&#8217;s issue:</p><ul><li><p>OpenHands CodeAct 2.1 <a href="https://www.all-hands.dev/blog/openhands-codeact-21-an-open-state-of-the-art-software-development-agent">achieves</a> state-of-the-art on SWE-Bench Verified.</p></li><li><p>How companies like Perplexity and Superhuman are <a href="https://www.langchain.com/breakoutagents">building advanced AI agents</a>. </p></li><li><p>Summary of the <a href="https://www.newsletter.swirlai.com/p/memory-in-agent-systems">memory types</a> needed to build effective AI agents.</p></li><li><p>CrewAI <a href="https://venturebeat.com/ai/crewai-launches-its-first-multi-agent-builder-speeding-the-way-to-agentic-ai/">closes $18M funding</a> to accelerate their growth efforts.</p></li><li><p>Automatic agentic workflow generation, personalized web agents, LLM-based agent benchmarks, and much more.</p></li></ul>
       <p>
           <a href="https://nlp.elvissaravia.com/p/ai-agents-weekly-codeact-21-copilot">
@@ -20,9 +21,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Sat, 02 Nov 2024 13:56:56 GMT</pubDate>
-<pubDate>Sat, 02 Nov 2024 13:56:56 GMT</pubDate>
 </item>
-
 <item>
 <title>🥇Top ML Papers of the Week</title>
 <link>https://nlp.elvissaravia.com/p/top-ml-papers-of-the-week-fc9</link>
