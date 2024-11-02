@@ -4,21 +4,19 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>文件夹加密小工具</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1977702</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1977702</guid>
 <content:encoded><![CDATA[
-
 前言
 [hr]
 最近想要把电脑上的一些文件夹隐藏掉，基本上实现看不见、打不开就行了，看了一下网上现有的软件，实现起来基本上有如下几种：
 1、真正的对文件夹里的所有内容进行加密，时间上花费太大，使用的时候还需要解 ...
 ]]></content:encoded>
 <pubDate>Fri, 01 Nov 2024 11:28:03 +0000</pubDate>
-<pubDate>Fri, 01 Nov 2024 11:28:03 +0000</pubDate>
 </item>
-
 <item>
 <title>WinLicense_v3.1.3.0汉化版（转载）</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1977346</link>
@@ -14012,21 +14010,6 @@ Internet Download Manager，简称 IDM，是国外的一款优秀下载工具。
 某游戏，需要抓包或修改 ...
 ]]></content:encoded>
 <pubDate>Wed, 29 May 2024 11:27:51 +0000</pubDate>
-</item>
-<item>
-<title>开源安卓投屏软件 Escrcpy v1.19.1 便携版</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1929404</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1929404</guid>
-<content:encoded><![CDATA[
-Escrcpy 是一款强大的开源安卓投屏软件，
-
-原帖已无法编辑，故开新帖更新版本
-
-
-它允许用户通过图形化的 Scrcpy 界面来显示和控制他们的 Android 设备。
-这款应用程序由 Electron 作为其底层框架驱动。Escrcpy 无 ...
-]]></content:encoded>
-<pubDate>Wed, 29 May 2024 07:28:47 +0000</pubDate>
 </item>
 </channel>
 </rss>
