@@ -11090,3 +11090,9 @@ Summarized using GPT-3.5-turbo
 Append: [Dentistry, Oral Surgeons, and the Inefficiency of Small Markets](https://www.lesswrong.com/posts/xAYbPv33gvZZJZsgo/dentistry-oral-surgeons-and-the-inefficiency-of-small)
 append_entries: 1
 Finish: 2024-11-02 08:16:37.288156
+------------------------------------------------------
+Started: 2024-11-02 10:13:20.296323
+Existing_entries: 372
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-02 10:13:20.737987
