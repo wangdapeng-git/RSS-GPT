@@ -4,6 +4,96 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>The Python Square Root Function</title>
+<link>https://realpython.com/python-square-root-function/</link>
+<guid>https://realpython.com/python-square-root-function/</guid>
+<content:encoded><![CDATA[
+<div> sqrt(), math module, Python, square root, real-world problems <br>
+<br>
+总结: Python的math.sqrt()函数可以计算给定数字的平方根，适用于解方程和计算几何属性等数学操作。该函数只接受非负整数或浮点数作为参数，可以准确快速地计算平方根。然而，负数输入会导致错误。平方根在代数中是一个数乘以自身等于平方数的关系。Python的幂运算符**可用于计算数的幂。除了一些完全平方数之外，其他平方数的平方根可能需要计算或估算。应用平方根函数可解决现实世界问题，如使用毕达哥拉斯定理计算距离。 <div>
+<div><p>The Python square root function, <code>sqrt()</code>, is part of the <code>math</code> module and is used to calculate the square root of a given number. To use it, you import the <code>math</code> module and call <code>math.sqrt()</code> with a non-negative number as an argument. For example, <code>math.sqrt(9)</code> returns <code>3.0</code>. </p>
+<p>This function works with both integers and floats and is essential for mathematical operations like solving equations and calculating geometric properties. In this tutorial, you’ll learn how to effectively use the square root function in Python.</p>
+<p><strong>By the end of this tutorial, you’ll understand how:</strong></p>
+<ul>
+<li>Python’s <code>sqrt()</code> function calculates square roots using Python’s <code>math.sqrt()</code> for quick and accurate results in your programs.</li>
+<li><code>math.sqrt()</code> calculates the square root of positive numbers and zero but raises an error for negative inputs.</li>
+<li>Python’s square root function can be used to solve real-world problems like calculating distances using the Pythagorean theorem.</li>
+</ul>
+<p>Time to dive in!</p>
+<div class="alert alert-primary">
+<p><strong>Python Pit Stop:</strong> This tutorial is a <strong>quick</strong> and <strong>practical</strong> way to find the info you need, so you’ll be back to your project in no time!</p>
+</div>
+<div class="alert alert-warning"><p><strong>Free Bonus:</strong> <a class="alert-link" href="">Click here to get our free Python Cheat Sheet</a> that shows you the basics of Python 3, like working with data types, dictionaries, lists, and Python functions.</p></div>
+
+<h2 id="square-roots-in-mathematics">Square Roots in Mathematics<a class="headerlink" href="#square-roots-in-mathematics" title="Permanent link"></a></h2>
+<p>In algebra, a <strong>square</strong>, <em>x</em>, is the result of a <a href="https://realpython.com/python-numbers/">number</a>, <em>n</em>, multiplied by itself: <em>x = n²</em></p>
+<p>You can calculate squares using Python:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">n</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span> <span class="o">=</span> <span class="n">n</span><span class="o">**</span><span class="mi">2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span>
+<span class="go">25</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The Python <code>**</code> operator is used for calculating the power of a number. In this case, 5 squared, or 5 to the power of 2, is 25.</p>
+<p>The square root, then, is the number <em>n</em>, which when multiplied by itself yields the square, <em>x</em>.</p>
+<p>In this example, <em>n</em>, the square root of 25, is 5.</p>
+<p>25 is an example of a <strong>perfect square</strong>. Perfect squares are the squares of integer values:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="mi">1</span><span class="o">**</span><span class="mi">2</span>
+<span class="go">1</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="mi">2</span><span class="o">**</span><span class="mi">2</span>
+<span class="go">4</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="mi">3</span><span class="o">**</span><span class="mi">2</span>
+<span class="go">9</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>You might have memorized some of these perfect squares when you learned your multiplication tables in an elementary algebra class.</p>
+<p>If you’re given a small perfect square, it may be straightforward enough to calculate or memorize its square root. But for most other squares, this calculation can get a bit more tedious. Often, an estimation is good enough when you don’t have a calculator.</p>
+</div><h2><a href="https://realpython.com/python-square-root-function/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-square-root-function/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-11-03T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>The Real Python Podcast – Episode #226: PySheets: Spreadsheets in the Browser Using PyScript</title>
