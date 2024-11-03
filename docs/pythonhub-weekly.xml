@@ -4,13 +4,14 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-11-03</title>
 <link>https://pythonhub.dev/digest/2024-11-03/</link>
 <guid>https://pythonhub.dev/digest/2024-11-03/</guid>
 <content:encoded><![CDATA[
-<div> meme_search, BugGPT, compl-ai, htmx, mini-omni2<br>
-总结:<br>本周Python项目涵盖了索引迷因内容的工具、用于测试的易受攻击网页生成器和AI模型的合规评估框架。教程展示了如何使用htmx增强Django应用程序，文章涵盖了为科学计算创建DType和15个强大的Python库。项目包括具有各种功能的开源GPT-4o和处理非均匀采样时间序列数据的工具。祝大家愉快编程！ <div>
+<div> meme_search, BugGPT, compl-ai, htmx, mini-omni2<br />
+总结:<br />本周Python项目涵盖了索引迷因内容的工具、用于测试的易受攻击网页生成器和AI模型的合规评估框架。教程展示了如何使用htmx增强Django应用程序，文章涵盖了为科学计算创建DType和15个强大的Python库。项目包括具有各种功能的开源GPT-4o和处理非均匀采样时间序列数据的工具。祝大家愉快编程！ <div>
 <p class="summary">This week in Python, some of the most popular projects included meme_search, a tool for indexing memes by content, BugGPT, a vulnerable web page generator for testing, and compl-ai, a compliance-centered evaluation framework for AI models. In tutorials, Christopher Trudeau demonstrated how htmx can enhance Django applications. Articles of interest included a discussion on creating a DType for scientific computing and a showcase of 15 powerful Python libraries. Projects of note included mini-omni2, an open-source GPT-4o with various capabilities, and Kalmangrad, a tool for handling non-uniformly sampled time series data. Have a great week and happy coding!</p>
 
 <div></div>
@@ -206,9 +207,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 03 Nov 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 03 Nov 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-10-27</title>
 <link>https://pythonhub.dev/digest/2024-10-27/</link>

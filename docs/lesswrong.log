@@ -11201,3 +11201,9 @@ Summarized using GPT-3.5-turbo
 Append: [electric turbofans](https://www.lesswrong.com/posts/5LwWEcC5FjdLykA3r/electric-turbofans)
 append_entries: 1
 Finish: 2024-11-03 18:17:25.339000
+------------------------------------------------------
+Started: 2024-11-03 20:14:09.596738
+Existing_entries: 375
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-03 20:14:09.920261
