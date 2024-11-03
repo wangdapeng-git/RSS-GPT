@@ -4,6 +4,17 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>样本分析 | 非官方火绒剑存在后门风险，谨慎下载使用</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1977720</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1977720</guid>
+<content:encoded><![CDATA[
+
+近期，火绒安全实验室在某论坛中发现一名用户发帖上传了被篡改过的火绒剑程序，该事件详细经过可参考《情况说明 | 非官方火绒剑存在后门风险，请用户谨慎下载使用》，在此不做赘述，本文为该样本的内容分析。经火绒工程师 ...
+]]></content:encoded>
+<pubDate>Fri, 01 Nov 2024 13:58:20 +0000</pubDate>
+<pubDate>Fri, 01 Nov 2024 13:58:20 +0000</pubDate>
+</item>
 
 <item>
 <title>超级简单的自动生成二维码工具 v1.0.0.1</title>
