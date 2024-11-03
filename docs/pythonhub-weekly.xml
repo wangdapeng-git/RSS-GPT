@@ -4,6 +4,210 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-11-03</title>
+<link>https://pythonhub.dev/digest/2024-11-03/</link>
+<guid>https://pythonhub.dev/digest/2024-11-03/</guid>
+<content:encoded><![CDATA[
+<div> meme_search, BugGPT, compl-ai, htmx, mini-omni2<br>
+总结:<br>本周Python项目涵盖了索引迷因内容的工具、用于测试的易受攻击网页生成器和AI模型的合规评估框架。教程展示了如何使用htmx增强Django应用程序，文章涵盖了为科学计算创建DType和15个强大的Python库。项目包括具有各种功能的开源GPT-4o和处理非均匀采样时间序列数据的工具。祝大家愉快编程！ <div>
+<p class="summary">This week in Python, some of the most popular projects included meme_search, a tool for indexing memes by content, BugGPT, a vulnerable web page generator for testing, and compl-ai, a compliance-centered evaluation framework for AI models. In tutorials, Christopher Trudeau demonstrated how htmx can enhance Django applications. Articles of interest included a discussion on creating a DType for scientific computing and a showcase of 15 powerful Python libraries. Projects of note included mini-omni2, an open-source GPT-4o with various capabilities, and Kalmangrad, a tool for handling non-uniformly sampled time series data. Have a great week and happy coding!</p>
+
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://github.com/neonwatty/meme_search">meme_search</a></strong>
+    
+        <br /><span>Index your memes by their content and text, making them easily retrievable for your meme warfare pleasures. Find funny fast.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Trivulzianus/BugGPT">BugGPT</a></strong>
+    
+        <br /><span>LLM powered vulnerable web page generator for testing and educational purposes.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/compl-ai/compl-ai">compl-ai</a></strong>
+    
+        <br /><span>An open-source compliance-centered evaluation framework for Generative AI models.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/auxten/SQL-On-Everything">ClickHouse User Defined Table Function in Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=i1eMxu_PR5Y">Django and htmx Tutorial: Easier Web Development</a></strong>
+    
+        <br /><span>Christopher Trudeau demonstrates how htmx can add dynamic features like lazy loading and search-as-you-type to Django applications with minimal JavaScript. The tutorial showcases htmx's integration with Django, allowing more server-side logic and potentially better performance compared to traditional single-page applications.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://quansight.com/post/my-numpy-year-creating-a-dtype-for-the-next-generation-of-scientific-computing/">Creating a DType for the Next Generation of Scientific Computing</a></strong>
+    
+        <br /><span>From no CPython C API experience to shipping a new DType in NumPy 2.0.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/konstin/sudoku-in-python-packaging">Solving Sudoku with the Python package resolver</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=OiLgG4CabPo">15 Powerful Python Libraries You Should Be Using</a></strong>
+    
+        <br /><span>In this video, 15 impressive Python libraries are showcased that everyone should know about. Whether for data scientists or backend developers, many of these packages will prove to be very useful.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/playlist?list=PLGVZCDnMOq0reU2lzNZCn9obkyRVaSnpF">PyData Amsterdam 2024</a></strong>
+    
+        <br /><span>Talks from PyData Amsterdam 2024 are now available.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://sethmlarson.dev/python-and-sigstore">Python and Sigstore</a></strong>
+    
+        <br /><span>Seth Larson discusses the implementation of Sigstore in Python, highlighting its benefits for software supply chain security and its integration into CPython's release process. He explains how Sigstore improves upon traditional GPG signatures by providing transparency, ease of use, and better security practices, while also detailing the challenges and future plans for Sigstore adoption i...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Elnaril/credit-rate-limit">Async Rate Limiter</a></strong>
+    
+        <br /><span>Rate limit async requests to API using credits, computation unit per second (CUPS) or request units</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=PkAE6dsqIJw">Replacing Callbacks with Generators: A Case Study in Computer-Assisted Live Music</a></strong>
+    
+        <br /><span>Watch how Matthieu Amiguet transforms a complex callback mess into a readable and efficient system using generators in computer-assisted live music.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/kyleloomis/finstruments">Finstruments - Financial instrument library built with Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/meta-llama/llama-stack-apps">meta-llama / llama-stack-apps</a></strong>
+    
+        <br /><span>Agentic components of the Llama Stack APIs</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.bugsink.com/blog/chained-stacktraces-puzzle/">The Stacktrace Puzzle</a></strong>
+    
+        <br /><span>Explore how Python stacktraces with chained exceptions can become confusing puzzles and solve a few puzzles of your own.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=WNnJRAGM2TQ">Epic Debugging, Hilarious Outcome</a></strong>
+    
+        <br /><span>In this episode, an issue with sign-up was explored. What seemed like a minor fix turned into an intense debugging session, delving deeply into the django-allauth package to uncover the underlying problems.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-10-27/">Python Hub Weekly Digest for 2024-10-27</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/gpt-omni/mini-omni2">mini-omni2</a></strong>
+    
+        <br /><span>Towards Open-source GPT-4o with Vision, Speech and Duplex Capabilities.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/hugohadfield/kalmangrad">Kalmangrad</a></strong>
+    
+        <br /><span>Automated, smooth, N'th order derivatives of non-uniformly sampled time series data.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/microsoft/BitNet">BitNet</a></strong>
+    
+        <br /><span>Official inference framework for 1-bit LLMs.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/katanemo/arch">Arch</a></strong>
+    
+        <br /><span>Arch is an intelligent prompt gateway. Engineered with (fast) LLMs for the secure handling, robust observability, and seamless integration of prompts with APIs - all outside business logic.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/awslabs/git-remote-s3">git-remote-s3</a></strong>
+    
+        <br /><span>This library enables to use Amazon S3 as a git remote and LFS server.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/getomni-ai/zerox">zerox</a></strong>
+    
+        <br /><span>Zero shot pdf OCR with gpt-4o-mini.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/fudan-generative-vision/hallo2">Hallo2</a></strong>
+    
+        <br /><span>Long-Duration and High-Resolution Audio-driven Portrait Image Animation.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1gbu1g0/this_is_now_valid_syntax_in_python_313/">This is now valid syntax in Python 3.13!</a></strong>
+      </p>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1g83rjr/why_people_still_using_flask_after_fastapi_release/">Why people still using flask after fastapi release</a></strong>
+      </p>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1gdavp9/were_thinking_of_rewriting_our_go_java_api_in/">We're thinking of rewriting our go / java API in python, what do we need to think about?</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 03 Nov 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 03 Nov 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-10-27</title>

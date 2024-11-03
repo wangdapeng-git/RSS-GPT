@@ -11192,3 +11192,12 @@ Existing_entries: 374
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-03 16:15:20.712934
+------------------------------------------------------
+Started: 2024-11-03 18:17:20.798111
+Existing_entries: 374
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 9194
+Summarized using GPT-3.5-turbo
+Append: [electric turbofans](https://www.lesswrong.com/posts/5LwWEcC5FjdLykA3r/electric-turbofans)
+append_entries: 1
+Finish: 2024-11-03 18:17:25.339000

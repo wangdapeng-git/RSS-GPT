@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>The Python Square Root Function</title>
 <link>https://realpython.com/python-square-root-function/</link>
 <guid>https://realpython.com/python-square-root-function/</guid>
 <content:encoded><![CDATA[
-<div> sqrt(), math module, Python, square root, real-world problems <br>
-<br>
+<div> sqrt(), math module, Python, square root, real-world problems <br />
+<br />
 总结: Python的math.sqrt()函数可以计算给定数字的平方根，适用于解方程和计算几何属性等数学操作。该函数只接受非负整数或浮点数作为参数，可以准确快速地计算平方根。然而，负数输入会导致错误。平方根在代数中是一个数乘以自身等于平方数的关系。Python的幂运算符**可用于计算数的幂。除了一些完全平方数之外，其他平方数的平方根可能需要计算或估算。应用平方根函数可解决现实世界问题，如使用毕达哥拉斯定理计算距离。 <div>
 <div><p>The Python square root function, <code>sqrt()</code>, is part of the <code>math</code> module and is used to calculate the square root of a given number. To use it, you import the <code>math</code> module and call <code>math.sqrt()</code> with a non-negative number as an argument. For example, <code>math.sqrt(9)</code> returns <code>3.0</code>. </p>
 <p>This function works with both integers and floats and is essential for mathematical operations like solving equations and calculating geometric properties. In this tutorial, you’ll learn how to effectively use the square root function in Python.</p>
@@ -91,10 +92,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-03T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>The Real Python Podcast – Episode #226: PySheets: Spreadsheets in the Browser Using PyScript</title>
 <link>https://realpython.com/podcasts/rpp/226/</link>
