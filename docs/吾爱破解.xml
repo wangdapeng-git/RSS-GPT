@@ -4,17 +4,16 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>计划任务好帮手--zTasker2.0预览版1</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1977790</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1977790</guid>
 <content:encoded><![CDATA[
-
 转载，如有发现BUG，请联系开发者！！！！！！
 注：此为预览版，尝鲜使用，因此仅为绿色版，请勿覆盖原来版本，可以解压到一个目录
 如果想使用原来的数据，可以把原来的安装目录下User目录，拷贝过来放到解压后目录下使 ...
 ]]></content:encoded>
-<pubDate>Sat, 02 Nov 2024 02:24:52 +0000</pubDate>
 <pubDate>Sat, 02 Nov 2024 02:24:52 +0000</pubDate>
 </item>
 <item>
@@ -22,7 +21,6 @@
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1977654</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1977654</guid>
 <content:encoded><![CDATA[
-
 windows版的wps_vba宏启用插件，安装就点下一步，以前想用时百度了一天找不到，这个放上来，让大家方便使用。
 
 
@@ -30,9 +28,7 @@ windows版的wps_vba宏启用插件，安装就点下一步，以前想用时百
 提取码：52pj
 ]]></content:encoded>
 <pubDate>Fri, 01 Nov 2024 08:43:31 +0000</pubDate>
-<pubDate>Fri, 01 Nov 2024 08:43:31 +0000</pubDate>
 </item>
-
 <item>
 <title>解包小米11的boot.img，还原内核符号以及地址</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1975312</link>
@@ -14021,34 +14017,6 @@ WeekToDo 在一个界面中混合了日历和任 ...
 2.优化单文件打包代码，彻底解决误报问题 ...
 ]]></content:encoded>
 <pubDate>Thu, 30 May 2024 23:46:22 +0000</pubDate>
-</item>
-<item>
-<title>极简GIF录屏工具 v3.3 仅808KB</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1929970</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1929970</guid>
-<content:encoded><![CDATA[
-极简 GIF 录屏工具是一款轻量化GIF录屏工具
-
-此工具可以一键快速复制 GIF 图像并直接粘贴到其他程序。
-支持粘贴到本地文件、QQ、微信、Word、浏览器编辑器（支持公众号、头条编辑器）。可避免无法预览、无效图像、变 ...
-]]></content:encoded>
-<pubDate>Thu, 30 May 2024 14:43:17 +0000</pubDate>
-</item>
-<item>
-<title>【输入法鼠标尾巴v1.0.19】指针提示输入法中英文状态工具，更新支持第三方指针文件</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1927190</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1927190</guid>
-<content:encoded><![CDATA[
-输入法鼠标尾巴是一个通过鼠标指针提示输入法中英文状态的工具
-支持自动切换中英文，点右下角的托盘图标设置哈
-如果中英文提示的状态不对，在程序菜单里面勾选切换语言
-
-
-
-
-https://wwe.lanzoui.com/b01hptuud
-]]></content:encoded>
-<pubDate>Wed, 22 May 2024 14:43:27 +0000</pubDate>
 </item>
 </channel>
 </rss>
