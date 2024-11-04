@@ -11261,3 +11261,12 @@ Existing_entries: 375
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-04 14:14:21.219346
+------------------------------------------------------
+Started: 2024-11-04 16:17:14.879418
+Existing_entries: 375
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 6701
+Summarized using GPT-3.5-turbo
+Append: [Why our politicians aren't Median](https://www.lesswrong.com/posts/oxyGrTczrgjGodWAh/why-our-politicians-aren-t-median)
+append_entries: 1
+Finish: 2024-11-04 16:17:18.604268
