@@ -13668,3 +13668,10 @@ Existing_entries: 35
 Fetching from https://rsshub.app/paulgraham/articles
 append_entries: 0
 Finish: 2024-11-04 00:59:20.760558
+------------------------------------------------------
+Started: 2024-11-04 02:50:55.570543
+Existing_entries: 35
+Fetching from https://rsshub.app/paulgraham/articles
+Fetch failed from https://rsshub.app/paulgraham/articles
+append_entries: 0
+error when rendering xml, skip docs/paul-graham
