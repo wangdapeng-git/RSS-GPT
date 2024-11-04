@@ -4,18 +4,16 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>样本分析 | 非官方火绒剑存在后门风险，谨慎下载使用</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1977720</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1977720</guid>
 <content:encoded><![CDATA[
-
 近期，火绒安全实验室在某论坛中发现一名用户发帖上传了被篡改过的火绒剑程序，该事件详细经过可参考《情况说明 | 非官方火绒剑存在后门风险，请用户谨慎下载使用》，在此不做赘述，本文为该样本的内容分析。经火绒工程师 ...
 ]]></content:encoded>
 <pubDate>Fri, 01 Nov 2024 13:58:20 +0000</pubDate>
-<pubDate>Fri, 01 Nov 2024 13:58:20 +0000</pubDate>
 </item>
-
 <item>
 <title>超级简单的自动生成二维码工具 v1.0.0.1</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1977835</link>
@@ -14015,16 +14013,6 @@ WeekToDo 是一个免费的开源极简主义每周计划器。 使用 WeekToDo�
 WeekToDo 在一个界面中混合了日历和任 ...
 ]]></content:encoded>
 <pubDate>Thu, 30 May 2024 01:44:39 +0000</pubDate>
-</item>
-<item>
-<title>文本字符串批量替换</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1928347</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1928347</guid>
-<content:encoded><![CDATA[
-最近校书,发现好多批量替换文本的软件不是太好用,就自己写了一个,希望大家喜欢,功能一目了然,txt多个文本或者文件夹拖动到列表框,然后设置一下需要批量替换的文本直接点击替换.
-易语言写的有任何报毒问题,要么相信加入信 ...
-]]></content:encoded>
-<pubDate>Sun, 26 May 2024 07:24:56 +0000</pubDate>
 </item>
 </channel>
 </rss>
