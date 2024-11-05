@@ -11354,3 +11354,12 @@ Existing_entries: 378
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-05 18:17:20.461169
+------------------------------------------------------
+Started: 2024-11-05 20:15:05.120150
+Existing_entries: 378
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 8378
+Summarized using GPT-3.5-turbo
+Append: [Current safety training techniques do not fully transfer to the agent setting](https://www.lesswrong.com/posts/ZoFxTqWRBkyanonyb/current-safety-training-techniques-do-not-fully-transfer-to)
+append_entries: 1
+Finish: 2024-11-05 20:15:09.324391
