@@ -4,14 +4,15 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Introduction to Web Scraping With Python</title>
 <link>https://realpython.com/courses/introduction-to-web-scraping-with-python/</link>
 <guid>https://realpython.com/courses/introduction-to-web-scraping-with-python/</guid>
 <content:encoded><![CDATA[
 <div> Web scraping, Python, data collection, website data parsing, HTML parser
-<br>
-Python社区提供了一些强大的网络爬虫工具。网站上托管了世界上最丰富的信息源。许多学科，如商业智能和调查报道，都可以从收集和分析网站数据中受益。在这个视频课程中，您将学习如何使用字符串方法和正则表达式解析网站数据，如何使用HTML解析器解析网站数据，以及如何与表单和其他网站组件交互。<br><br>总结: <div>
+<br />
+Python社区提供了一些强大的网络爬虫工具。网站上托管了世界上最丰富的信息源。许多学科，如商业智能和调查报道，都可以从收集和分析网站数据中受益。在这个视频课程中，您将学习如何使用字符串方法和正则表达式解析网站数据，如何使用HTML解析器解析网站数据，以及如何与表单和其他网站组件交互。<br /><br />总结: <div>
 <p><strong>Web scraping</strong> is the process of collecting and parsing raw data from the Web, and the Python community has come up with some pretty powerful web scraping tools.</p>
 <p>The Internet hosts perhaps the greatest source of information on the planet. Many disciplines, such as <a href="https://realpython.com/learning-paths/data-science-python-core-skills/">data science</a>, business intelligence, and investigative reporting, can benefit enormously from collecting and analyzing data from websites. </p>
 <p><strong>In this video course, you&rsquo;ll learn how to:</strong></p>
@@ -23,7 +24,6 @@ Python社区提供了一些强大的网络爬虫工具。网站上托管了世�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-05T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -32,17 +32,15 @@ Python社区提供了一些强大的网络爬虫工具。网站上托管了世�
 <guid>https://realpython.com/quizzes/python-variables/</guid>
 <content:encoded><![CDATA[
 <div> 创建变量、变量赋值、数据类型、表达式、作用域
-<br>
+<br />
 创建变量并给予数值是编程中的基本操作，可以修改变量的数据类型，使用变量创建表达式、计数器、累加器和布尔标志，命名变量时应遵循最佳实践，了解变量的作用域并正确使用。总结: 创建变量并赋值，可以随时更改数据类型，在表达式中使用变量，遵循良好的命名规范，了解作用域并正确使用变量。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of <a href="https://realpython.com/python-variables/">Variables in Python: Usage and Best Practices</a>. </p>
 <p>By working through this quiz, you&rsquo;ll revisit how to create and assign values to variables, change a variable&rsquo;s data type dynamically, use variables to create expressions, counters, accumulators, and Boolean flags, follow best practices for naming variables, and create, access, and use variables in their scopes.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-05T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Variables in Python: Usage and Best Practices</title>
 <link>https://realpython.com/python-variables/</link>
