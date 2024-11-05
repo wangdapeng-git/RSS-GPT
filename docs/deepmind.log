@@ -13111,3 +13111,10 @@ Fetching from https://rsshub.app/deepmind/blog
 Fetch failed from https://rsshub.app/deepmind/blog
 append_entries: 0
 error when rendering xml, skip docs/deepmind
+------------------------------------------------------
+Started: 2024-11-05 00:56:53.645909
+Existing_entries: 125
+Fetching from https://rsshub.app/deepmind/blog
+Fetch failed from https://rsshub.app/deepmind/blog
+append_entries: 0
+error when rendering xml, skip docs/deepmind
