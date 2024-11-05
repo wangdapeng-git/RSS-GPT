@@ -2,20 +2,18 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>博客园 - 费弗里</title>
-<link>uuid:0a75ddf1-c050-403f-937c-cf7790585fb1;id=27662341</link>
+<link>uuid:0a75ddf1-c050-403f-937c-cf7790585fb1;id=27695618</link>
+
 
 <item>
 <title>Dash 2.18.2版本更新：模式匹配回调性能大提升 - 费弗里</title>
 <link>https://www.cnblogs.com/feffery/p/18528293</link>
 <guid>https://www.cnblogs.com/feffery/p/18528293</guid>
 <content:encoded><![CDATA[
-
 【摘要】本文示例代码已上传至我的Github仓库：https://github.com/CNFeffery/dash-master Gitee同步仓库地址：https://gitee.com/cnfeffery/dash-master 大家好我是费老师，今天Dash发布了2.18.2版本更新，虽然只是一次小 <a href="https://www.cnblogs.com/feffery/p/18528293" target="_blank">阅读全文</a>
 ]]></content:encoded>
 <pubDate>2024-11-05T08:36:00Z</pubDate>
-<pubDate>2024-11-05T08:36:00Z</pubDate>
 </item>
-
 <item>
 <title>Python网页应用开发神器Dash 2.18.1稳定版本来啦 - 费弗里</title>
 <link>https://www.cnblogs.com/feffery/p/18412555</link>
