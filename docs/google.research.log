@@ -8288,3 +8288,10 @@ Existing_entries: 52
 Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
 append_entries: 0
 Finish: 2024-11-05 20:15:16.817069
+------------------------------------------------------
+Started: 2024-11-05 22:12:53.477106
+Existing_entries: 52
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+Fetch failed from https://rss.diffbot.com/atom?url=https://research.google/blog/
+append_entries: 0
+error when rendering xml, skip docs/google.research
