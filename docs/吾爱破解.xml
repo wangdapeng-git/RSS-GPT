@@ -4,12 +4,12 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>央视视频下载器v3.0绿色版 高清+超清+4K</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1978782</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1978782</guid>
 <content:encoded><![CDATA[
-
 如有侵权，请版主删帖。
 如果不符发布区规则，麻烦请移动到符合区，敬请告知。
 
@@ -19,14 +19,12 @@
 禁止商用，违者必究！！ ...
 ]]></content:encoded>
 <pubDate>Tue, 05 Nov 2024 23:35:18 +0000</pubDate>
-<pubDate>Tue, 05 Nov 2024 23:35:18 +0000</pubDate>
 </item>
 <item>
 <title>抖音V23.7.2小米15内置提取版</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1977557</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1977557</guid>
 <content:encoded><![CDATA[
-
 此次分享的抖音，非小米手机也可以用。功能和应用商店下载的没太大区别，体积较小
 个人感觉使用较为流畅一些，支持手机一键登录。
 
@@ -35,9 +33,7 @@
 /*f93wCsd5jaGz ...
 ]]></content:encoded>
 <pubDate>Fri, 01 Nov 2024 04:52:51 +0000</pubDate>
-<pubDate>Fri, 01 Nov 2024 04:52:51 +0000</pubDate>
 </item>
-
 <item>
 <title>Github文件下载器v3.0绿色版</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1978512</link>
@@ -13981,41 +13977,6 @@ BEYONG黄家驹的amami，突然想看看巴勒斯坦的加沙地区地图，了
 我也不会排版，我也是第一次在论坛 ...
 ]]></content:encoded>
 <pubDate>Mon, 03 Jun 2024 10:41:58 +0000</pubDate>
-</item>
-<item>
-<title>Python做的车牌识别</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1930737</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1930737</guid>
-<content:encoded><![CDATA[
-[mw_shl_code=python,true]import cv2
-import numpy as np
-import glob
-
-
-def get_plate(image_):
-    global plate
-    rawImage = image_.copy()
-    # 去噪处理
-    image_ = cv2.GaussianBlur(image_, (3, 3), 0)
-    # 色彩空间转换
-    image_ = cv2.c ...
-]]></content:encoded>
-<pubDate>Sun, 02 Jun 2024 08:37:04 +0000</pubDate>
-</item>
-<item>
-<title>万能嗅探1.0.5【可抓视频号】免安装 批量抓取媒体文件</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1930186</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1930186</guid>
-<content:encoded><![CDATA[
-Tips(修改下)：增加 视频号 抓取教学 感觉好多朋友需要下载视频号内容呢，这个嗅探工具可以下载和解密视频号数据的，我贴个图给大家说下咋搞的。
-
-
-
-
-
-发现了一款比较好用资源嗅探软件，界面干净，可以内容预览和 ...
-]]></content:encoded>
-<pubDate>Fri, 31 May 2024 07:21:26 +0000</pubDate>
 </item>
 </channel>
 </rss>
