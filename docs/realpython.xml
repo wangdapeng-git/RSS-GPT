@@ -4,6 +4,162 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>How to Reset a pandas DataFrame Index</title>
+<link>https://realpython.com/pandas-reset-index/</link>
+<guid>https://realpython.com/pandas-reset-index/</guid>
+<content:encoded><![CDATA[
+<div> pandas, DataFrame, 索引, 重置, 数据分析 <br>
+本文介绍了如何重置 pandas DataFrame 的索引，重置索引的原因，以及如果不重置可能出现的问题。首先，通过使用 pandas 库将数据读取到 DataFrame 中，然后对数据进行分析和操作。重置索引是为了更方便地访问和操作数据。此外，介绍了使用 pyarrow 库进行数据类型转换的方法，以及如何在 DataFrame 中添加有意义的索引。最后，重申了 pd.index 在数据分析中的作用，以及新兴的 Polars 库对索引的替代方法。<br><br>总结: <div>
+<div><p>In this tutorial, you’ll learn how to reset a pandas DataFrame index, the reasons why you might want to do this, and the problems that could occur if you don’t.</p>
+<p>Before you start your learning journey, you should familiarize yourself with how to create a <a href="https://realpython.com/pandas-dataframe/">pandas DataFrame</a>. Knowing the difference between a <a href="https://pandas.pydata.org/docs/user_guide/dsintro.html#dataframe">DataFrame</a> and a <a href="https://pandas.pydata.org/docs/user_guide/dsintro.html#series">pandas Series</a> will also prove useful to you.</p>
+<p>In addition, you may want to use the data analysis tool <a href="https://realpython.com/jupyter-notebook-introduction/">Jupyter Notebook</a> as you work through the examples in this tutorial. Alternatively, <a href="https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html">JupyterLab</a> will give you an <a href="https://realpython.com/using-jupyterlab/">enhanced notebook experience</a>, but feel free to use any Python environment you wish.</p>
+<p>As a starting point, you’ll need some data. To begin with, you’ll use the <code>band_members.csv</code> file included in the downloadable materials that you can access by clicking the link below:</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/pandas-reset-index-code/">Click here to download the free sample code</a> you’ll use to learn how to reset a pandas DataFrame index.</p>
+</div>
+<p>The table below describes the data from <code>band_members.csv</code> that you’ll begin with:</p>
+<div class="table-responsive">
+<table class="table table-hover">
+<thead>
+<tr>
+<th>Column Name</th>
+<th>PyArrow Data Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>first_name</code></td>
+<td><code>string</code></td>
+<td>First name of member</td>
+</tr>
+<tr>
+<td><code>last_name</code></td>
+<td><code>string</code></td>
+<td>Last name of member</td>
+</tr>
+<tr>
+<td><code>instrument</code></td>
+<td><code>string</code></td>
+<td>Main instrument played</td>
+</tr>
+<tr>
+<td><code>date_of_birth</code></td>
+<td><code>string</code></td>
+<td>Member’s date of birth</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>As you’ll see, the data has details of the members of the rock band <a href="https://en.wikipedia.org/wiki/The_Beach_Boys">The Beach Boys</a>. Each row contains information about its various members both past and present.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> In case you’ve never heard of The Beach Boys, they’re an American rock band formed in the early 1960s.</p>
+</div>
+<p>Throughout this tutorial, you’ll be using the pandas library to allow you to work with DataFrames, as well as the newer <a href="https://arrow.apache.org/docs/python/index.html">PyArrow</a> library. The <strong>PyArrow</strong> library provides pandas with its own optimized <a href="https://arrow.apache.org/docs/python/api/datatypes.html#data-types-and-schemas">data types</a>, which are faster and less memory-intensive than the traditional <a href="https://numpy.org/doc/stable/user/basics.types.html">NumPy types</a> that pandas uses by default.</p>
+<p>If you’re working at the command line, you can install both <code>pandas</code> and <code>pyarrow</code> using the single command <code>python -m pip install pandas pyarrow</code>. If you’re working in a Jupyter Notebook, you should use <code>!python -m pip install pandas pyarrow</code>. Regardless, you should do this within a <a href="https://realpython.com/python-virtual-environments-a-primer/">virtual environment</a> to avoid clashes with the libraries you use in your global environment.</p>
+<p>Once you have the libraries in place, it’s time to read your data into a DataFrame:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">beach_boys</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
+<span class="gp">... </span>    <span class="s2">"band_members.csv"</span>
+<span class="gp">... </span><span class="p">)</span><span class="o">.</span><span class="n">convert_dtypes</span><span class="p">(</span><span class="n">dtype_backend</span><span class="o">=</span><span class="s2">"pyarrow"</span><span class="p">)</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>First, you used <code>import pandas</code> to make the library available within your code. To construct the DataFrame and read it into the <code>beach_boys</code> variable, you used pandas’ <code>read_csv()</code> function, passing <code>band_members.csv</code> as the file to read. Finally, by passing <code>dtype_backend="pyarrow"</code> to <code>.convert_dtypes()</code> you convert all columns to <code>pyarrow</code> types.</p>
+<p>If you want to verify that <code>pyarrow</code> data types are indeed being used, then <code>beach_boys.dtypes</code> will satisfy your curiosity:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">beach_boys</span><span class="o">.</span><span class="n">dtypes</span>
+<span class="go">first_name            string[pyarrow]</span>
+<span class="go">last_name             string[pyarrow]</span>
+<span class="go">instrument            string[pyarrow]</span>
+<span class="go">date_of_birth         string[pyarrow]</span>
+<span class="go">dtype: object</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>As you can see, each data type contains <code>[pyarrow]</code> in its name.</p>
+<p>If you wanted to analyze the date information thoroughly, then you would parse the <code>date_of_birth</code> column to make sure dates are read as a suitable <code>pyarrow</code> date type. This would allow you to analyze by specific days, months or years, and so on, as commonly found in <a href="https://realpython.com/how-to-pandas-pivot-table/">pivot tables</a>.</p>
+<p>The <code>date_of_birth</code> column is not analyzed in this tutorial, so the <code>string</code> data type it’s being read as will do. Later on, you’ll get the chance to hone your skills with some exercises. The solutions include the date parsing code if you want to see how it’s done.</p>
+<p>Now that the file has been loaded into a DataFrame, you’ll probably want to take a look at it:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">beach_boys</span>
+<span class="go">  first_name last_name instrument date_of_birth</span>
+<span class="go">0      Brian    Wilson       Bass   20-Jun-1942</span>
+<span class="go">1       Mike      Love  Saxophone   15-Mar-1941</span>
+<span class="go">2         Al   Jardine     Guitar   03-Sep-1942</span>
+<span class="go">3      Bruce  Johnston       Bass   27-Jun-1942</span>
+<span class="go">4       Carl    Wilson     Guitar   21-Dec-1946</span>
+<span class="go">5     Dennis    Wilson      Drums   04-Dec-1944</span>
+<span class="go">6      David     Marks     Guitar   22-Aug-1948</span>
+<span class="go">7      Ricky    Fataar      Drums   05-Sep-1952</span>
+<span class="go">8    Blondie   Chaplin     Guitar   07-Jul-1951</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>DataFrames are two-dimensional data structures similar to spreadsheets or database tables. A pandas DataFrame can be considered a set of columns, with each column being a pandas Series. Each column also has a heading, which is the <code>name</code> property of the Series, and each row has a label, which is referred to as an element of its associated <a href="https://pandas.pydata.org/docs/reference/api/pandas.Index.html#pandas-index">index</a> object.</p>
+<p>The DataFrame’s <strong>index</strong> is shown to the left of the DataFrame. It’s not part of the original <code>band_members.csv</code> source file, but is added as part of the DataFrame creation process. It’s this index object you’re learning to reset.</p>
+<p>The index of a DataFrame is an additional column of labels that helps you identify rows. When used in combination with column headings, it allows you to access specific data within your DataFrame. The default index labels are a sequence of integers, but you can use strings to make them more meaningful. You can actually use any <a href="https://docs.python.org/3/glossary.html#term-hashable">hashable type</a> for your index, but integers, strings, and timestamps are the most common.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> Although indexes are certainly useful in pandas, an alternative to pandas is the new high-performance <a href="https://realpython.com/polars-python/">Polars</a> library, which eliminates them in favor of row numbers. This may come as a surprise, but aside from being used for selecting rows or columns, indexes aren’t often used when analyzing DataFrames. Also, row numbers always remain sequential when rows are added or removed in a Polars DataFrame. This isn’t the case with indexes in pandas.</p>
+</div>
+</div><h2><a href="https://realpython.com/pandas-reset-index/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/pandas-reset-index/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-11-06T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Introduction to Web Scraping With Python</title>
