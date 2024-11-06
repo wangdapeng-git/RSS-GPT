@@ -11429,3 +11429,12 @@ Existing_entries: 379
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-06 18:17:33.437469
+------------------------------------------------------
+Started: 2024-11-06 20:14:46.634210
+Existing_entries: 379
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 3188
+Summarized using GPT-3.5-turbo
+Append: [Could orcas be (trained to be) smarter than humans?](https://www.lesswrong.com/posts/gRShuaWgKjizM4xPM/could-orcas-be-trained-to-be-smarter-than-humans)
+append_entries: 1
+Finish: 2024-11-06 20:14:50.823081
