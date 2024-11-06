@@ -27120,3 +27120,12 @@ Filter: [百度地图车机版v20.8.2 内测版 纯净无广告](https://www.52p
 Filter: [高德地图 13.12.0.8888精简版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1976723)
 append_entries: 1
 Finish: 2024-11-06 20:13:36.231011
+------------------------------------------------------
+Started: 2024-11-06 22:13:08.966151
+Existing_entries: 1001
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [Z-Lib 1.11.4](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1978230)
+Filter: [百度地图车机版v20.8.2 内测版 纯净无广告](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1977973)
+Filter: [高德地图 13.12.0.8888精简版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1976723)
+append_entries: 0
+Finish: 2024-11-06 22:13:11.899143
