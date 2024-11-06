@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>How to Reset a pandas DataFrame Index</title>
 <link>https://realpython.com/pandas-reset-index/</link>
 <guid>https://realpython.com/pandas-reset-index/</guid>
 <content:encoded><![CDATA[
-<div> pandas, DataFrame, 索引, 重置, 数据分析 <br>
-本文介绍了如何重置 pandas DataFrame 的索引，重置索引的原因，以及如果不重置可能出现的问题。首先，通过使用 pandas 库将数据读取到 DataFrame 中，然后对数据进行分析和操作。重置索引是为了更方便地访问和操作数据。此外，介绍了使用 pyarrow 库进行数据类型转换的方法，以及如何在 DataFrame 中添加有意义的索引。最后，重申了 pd.index 在数据分析中的作用，以及新兴的 Polars 库对索引的替代方法。<br><br>总结: <div>
+<div> pandas, DataFrame, 索引, 重置, 数据分析 <br />
+本文介绍了如何重置 pandas DataFrame 的索引，重置索引的原因，以及如果不重置可能出现的问题。首先，通过使用 pandas 库将数据读取到 DataFrame 中，然后对数据进行分析和操作。重置索引是为了更方便地访问和操作数据。此外，介绍了使用 pyarrow 库进行数据类型转换的方法，以及如何在 DataFrame 中添加有意义的索引。最后，重申了 pd.index 在数据分析中的作用，以及新兴的 Polars 库对索引的替代方法。<br /><br />总结: <div>
 <div><p>In this tutorial, you’ll learn how to reset a pandas DataFrame index, the reasons why you might want to do this, and the problems that could occur if you don’t.</p>
 <p>Before you start your learning journey, you should familiarize yourself with how to create a <a href="https://realpython.com/pandas-dataframe/">pandas DataFrame</a>. Knowing the difference between a <a href="https://pandas.pydata.org/docs/user_guide/dsintro.html#dataframe">DataFrame</a> and a <a href="https://pandas.pydata.org/docs/user_guide/dsintro.html#series">pandas Series</a> will also prove useful to you.</p>
 <p>In addition, you may want to use the data analysis tool <a href="https://realpython.com/jupyter-notebook-introduction/">Jupyter Notebook</a> as you work through the examples in this tutorial. Alternatively, <a href="https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html">JupyterLab</a> will give you an <a href="https://realpython.com/using-jupyterlab/">enhanced notebook experience</a>, but feel free to use any Python environment you wish.</p>
@@ -157,10 +158,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-06T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Introduction to Web Scraping With Python</title>
 <link>https://realpython.com/courses/introduction-to-web-scraping-with-python/</link>
