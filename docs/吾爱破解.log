@@ -27057,3 +27057,16 @@ Filter: [010 Editor 15.0.1 简体中文汉化单文件绿色版](https://www.52p
 Filter: [高德地图 13.12.0.8888精简版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1976723)
 append_entries: 0
 Finish: 2024-11-06 08:16:42.643372
+------------------------------------------------------
+Started: 2024-11-06 10:13:32.773348
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Append: [我的植物养护指南1.81 专业护理手册](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1978803)
+Append: [股票持仓管理工具，最近股票很热啊，我就手搓了这个工具，需要的兄弟自己拿哈](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1978657)
+Filter: [Z-Lib 1.11.4](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1978230)
+Filter: [百度地图车机版v20.8.2 内测版 纯净无广告](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1977973)
+Filter: [高德地图V12.10.61.3049小米15内置提取版，自带新手驾车模式](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1977434)
+Filter: [高德地图 13.12.0.8888精简版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1976723)
+Append: [Balabolka文本转语音v2.15.0.880绿色版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1976670)
+append_entries: 3
+Finish: 2024-11-06 10:13:35.614493
