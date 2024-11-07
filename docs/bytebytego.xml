@@ -4,14 +4,15 @@
 <title>ByteByteGo Newsletter</title>
 <link>https://blog.bytebytego.com</link>
 
+
 <item>
 <title>A Pattern Every Modern Developer Should Know: CQRS</title>
 <link>https://blog.bytebytego.com/p/a-pattern-every-modern-developer</link>
 <guid>https://blog.bytebytego.com/p/a-pattern-every-modern-developer</guid>
 <content:encoded><![CDATA[
-<div> CQRS, Command Query Responsibility Segregation, Greg Young, 2010, Command-Query Separation<br>
-<br>
-总结:<br>
+<div> CQRS, Command Query Responsibility Segregation, Greg Young, 2010, Command-Query Separation<br />
+<br />
+总结:<br />
 CQRS是一种架构模式，将数据的读写分离成命令和查询两个不同的部分。由Greg Young在2010年首次引入，其核心概念涵盖命令端和查询端的责任分离，继承了CQS原则。CQRS在领域驱动设计和事件驱动架构中得到广泛应用，适用于需要考虑性能、扩展性和复杂性的应用场景。核心概念包括命令、查询、分离和分层，决策矩阵可用于确定什么时候应用CQRS。 <div>
 <p>CQRS, which stands for Command Query Responsibility Segregation, is an architectural pattern that separates the concerns of reading and writing data.&nbsp;</p><p>It divides an application into two distinct parts:&nbsp;</p><ul><li><p><strong>The Command Side:</strong> Responsible for managing create, update, and delete requests.&nbsp;</p></li><li><p><strong>The Query Side:</strong> Responsible for handling read requests.</p></li></ul><p>The CQRS pattern was first introduced by Greg Young, a software developer and architect, in 2010. He described it as a way to separate the responsibility of handling commands (write operations) from handling queries (read operations) in a system.</p><p>The origins of CQRS can be traced back to the Command-Query Separation (CQS) principle, introduced by Bertrand Meyer. CQS states that every method should either be a command that performs an action or a query that returns data, but not both. CQRS takes the CQS principle further by applying it at an architectural level, separating the command and query responsibilities into different models, services, or even databases.</p><p>Since its introduction, CQRS has gained popularity in the software development community, particularly in the context of domain-driven design (DDD) and event-driven architectures.&nbsp;</p><p>It has been successfully applied in various domains, such as e-commerce, financial systems, and collaborative applications, where performance, scalability, and complexity are critical concerns.</p><p>In this post, we&#8217;ll learn about CQRS in comprehensive detail. We will cover the various aspects of the pattern along with a decision matrix on when to use it.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-imag" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffdc0d3d5-8453-4920-ab8a-c31032216a84_1460x1600.png" target="_blank"><div class="image2-inset"><source type="image/webp" /><img alt="" class="sizing-normal" height="1596" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffdc0d3d5-8453-4920-ab8a-c31032216a84_1460x1600.png" width="1456" /><div class="image-link-expand"><svg class="lucide lucide-maximize2" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" x2="14" y1="3" y2="10"></line><line x1="3" x2="10" y1="21" y2="14"></line></svg></div></div></a></figure></div><h2>Core Concepts of CQRS</h2><p>The overall CQRS pattern is made up of a few core concepts:</p>
       <p>
@@ -21,9 +22,7 @@ CQRS是一种架构模式，将数据的读写分离成命令和查询两个不�
       </p>
 ]]></content:encoded>
 <pubDate>Thu, 07 Nov 2024 16:30:27 GMT</pubDate>
-<pubDate>Thu, 07 Nov 2024 16:30:27 GMT</pubDate>
 </item>
-
 <item>
 <title>How McDonald Sells Millions of Burgers Per Day With Event-Driven Architecture</title>
 <link>https://blog.bytebytego.com/p/how-mcdonald-sells-millions-of-burgers</link>
