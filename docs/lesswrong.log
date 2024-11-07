@@ -11447,3 +11447,15 @@ Summarized using GPT-3.5-turbo
 Append: [Anthropic: Three Sketches of ASL-4 Safety Case Components](https://www.lesswrong.com/posts/RveeCTcoApkAtd7oA/anthropic-three-sketches-of-asl-4-safety-case-components)
 append_entries: 1
 Finish: 2024-11-06 22:14:27.834589
+------------------------------------------------------
+Started: 2024-11-07 00:58:01.719901
+Existing_entries: 381
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 5995
+Summarized using GPT-3.5-turbo
+Append: [Graceful Degradation](https://www.lesswrong.com/posts/N65uQ5RP6dYEC6CHW/graceful-degradation)
+Token length: 5533
+Summarized using GPT-3.5-turbo
+Append: [An alternative approach to superbabies](https://www.lesswrong.com/posts/vKM4CTjz5fPB7vznb/an-alternative-approach-to-superbabies)
+append_entries: 2
+Finish: 2024-11-07 00:58:09.552336
