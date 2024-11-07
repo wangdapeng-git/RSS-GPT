@@ -11459,3 +11459,9 @@ Summarized using GPT-3.5-turbo
 Append: [An alternative approach to superbabies](https://www.lesswrong.com/posts/vKM4CTjz5fPB7vznb/an-alternative-approach-to-superbabies)
 append_entries: 2
 Finish: 2024-11-07 00:58:09.552336
+------------------------------------------------------
+Started: 2024-11-07 02:44:25.534922
+Existing_entries: 383
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-07 02:44:26.133993
