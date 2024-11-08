@@ -27345,3 +27345,15 @@ Filter: [高德地图 13.12.0.8888精简版](https://www.52pojie.cn/forum.php?mo
 Filter: [IObit_Uninstaller V14.0.0.17](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1975781)
 append_entries: 0
 Finish: 2024-11-08 16:14:56.025817
+------------------------------------------------------
+Started: 2024-11-08 18:15:55.710699
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Append: [利用老旧路由实现大内网远程唤醒开机](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979506)
+Append: [WiseDiskCleaner磁盘清理v11.1.7.833绿色版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979381)
+Filter: [微软常用运行库合集 2024.11.07](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979213)
+Filter: [腾讯聊天软件 TIM 4.0.95.4002 （新增深色模式）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1978264)
+Append: [使用py开发WX刷步数小工具](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1976297)
+Filter: [IObit_Uninstaller V14.0.0.17](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1975781)
+append_entries: 3
+Finish: 2024-11-08 18:15:57.939454
