@@ -11534,3 +11534,9 @@ Summarized using GPT-3.5-turbo
 Append: [SAEs are highly dataset dependent: a case study on the refusal direction](https://www.lesswrong.com/posts/rtp6n7Z23uJpEH7od/saes-are-highly-dataset-dependent-a-case-study-on-the)
 append_entries: 1
 Finish: 2024-11-08 00:57:46.682963
+------------------------------------------------------
+Started: 2024-11-08 02:44:46.556930
+Existing_entries: 384
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-08 02:44:46.942186
