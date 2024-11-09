@@ -11663,3 +11663,12 @@ Existing_entries: 387
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-09 16:14:18.842803
+------------------------------------------------------
+Started: 2024-11-09 18:15:32.229153
+Existing_entries: 387
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 196
+Summarized using GPT-3.5-turbo
+Append: [The King and the Golem - The Animation](https://www.lesswrong.com/posts/n9ANKEJnW9KAy5QSh/the-king-and-the-golem-the-animation)
+append_entries: 1
+Finish: 2024-11-09 18:15:34.512149

@@ -27458,3 +27458,15 @@ Filter: [腾讯聊天软件 TIM 4.0.95.4002 （新增深色模式）](https://ww
 Filter: [高德地图 13.12.0.8888精简版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1976723)
 append_entries: 0
 Finish: 2024-11-09 16:13:07.984101
+------------------------------------------------------
+Started: 2024-11-09 18:14:17.728261
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Append: [自用挪车二维码，免服务器，可微信通知，可拨打电话](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979717)
+Append: [真实好友5.0内测版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979710)
+Filter: [eMule电驴v0.70b绿色版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979581)
+Filter: [微软常用运行库合集 2024.11.07](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979213)
+Filter: [腾讯聊天软件 TIM 4.0.95.4002 （新增深色模式）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1978264)
+Filter: [高德地图 13.12.0.8888精简版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1976723)
+append_entries: 2
+Finish: 2024-11-09 18:14:24.638137

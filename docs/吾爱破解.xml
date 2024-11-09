@@ -4,6 +4,31 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>自用挪车二维码，免服务器，可微信通知，可拨打电话</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1979717</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1979717</guid>
+<content:encoded><![CDATA[
+
+可以部署到cloudflare的wokers，自定义变量phone和wxpusherAppToken、wxpusherUIDs 或者直接在源码修改就行
+实现推送到微信
+可以绑定一个域名实现cdn加速，把网址转换成二维码，打印即可
+也可以把第二个button注释掉， ...
+]]></content:encoded>
+<pubDate>Sat, 09 Nov 2024 03:14:19 +0000</pubDate>
+<pubDate>Sat, 09 Nov 2024 03:14:19 +0000</pubDate>
+</item>
+<item>
+<title>真实好友5.0内测版</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1979710</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1979710</guid>
+<content:encoded><![CDATA[
+
+众所周知，该作者有两个软件，一个李跳跳，一个真实好友。前者因为某些原因已经停止更新，后者也是更新到4.0就不再更新。今天发现作者更新5.0内测版，必须分享一波。用过的都知道这是干啥的，我都不多做介绍了，主要功能 ...
+]]></content:encoded>
+<pubDate>Sat, 09 Nov 2024 02:20:56 +0000</pubDate>
+<pubDate>Sat, 09 Nov 2024 02:20:56 +0000</pubDate>
+</item>
 
 <item>
 <title>微信Windows版 4.0.0.32 消息防撤回测试版绿色版纯64位（11.8更新）</title>
