@@ -4,6 +4,23 @@
 <title>NLP Newsletter</title>
 <link>https://nlp.elvissaravia.com</link>
 
+<item>
+<title>🐛 AI Agents Weekly: Agentic RAG, NVIDIA AI Blueprint, Microsoft's Magentic-One,...</title>
+<link>https://nlp.elvissaravia.com/p/ai-agents-weekly-agentic-rag-nvidia</link>
+<guid>https://nlp.elvissaravia.com/p/ai-agents-weekly-agentic-rag-nvidia</guid>
+<content:encoded><![CDATA[
+<div> Microsoft、agent系统、Google、漏洞、通信
+总结:<br><br>本文介绍了Microsoft推出的agent系统，可以处理复杂任务，Google团队发现了首个由AI agent发现的真实漏洞。同时强调了通信在AI agent中的重要性，以及对视觉agent的攻击等问题。文章还讨论了agentic knowledge assistants等相关话题。这些内容涵盖了关于新型agent系统和对AI agent的应用的一系列重要信息。 <div>
+<p>In today&#8217;s issue:</p><ul><li><p>What is <a href="https://weaviate.io/blog/what-is-agentic-rag">Agentic RAG</a>?</p></li><li><p>Microsoft introduces <a href="https://www.microsoft.com/en-us/research/articles/magentic-one-a-generalist-multi-agent-system-for-solving-complex-tasks/">Magentic-One</a>, a new generalist multi-agent system designed to handle complex tasks. </p></li><li><p><a href="https://blogs.nvidia.com/blog/video-search-summarization-ai-agents/">NVIDIA AI Blueprint</a> enables developers to build vision-based agents that analyze video and image content.</p></li><li><p>Google's Big Sleep team <a href="https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html">discovers</a> the first real-world vulnerability found by an AI agent.</p></li><li><p><a href="https://composio.dev/blog/tool-design-is-all-you-need-for-sota-swe-agents/">SWE-Kit</a> combines a headless IDE with specialized tools and achieves impressive results on the SWE-bench Verified benchmark</p></li><li><p>The importance of communication in AI agents, agentic knowledge assistants, adversarial attacks on vision agents, and much more.</p></li></ul>
+      <p>
+          <a href="https://nlp.elvissaravia.com/p/ai-agents-weekly-agentic-rag-nvidia">
+              Read more
+          </a>
+      </p>
+]]></content:encoded>
+<pubDate>Sat, 09 Nov 2024 13:27:01 GMT</pubDate>
+<pubDate>Sat, 09 Nov 2024 13:27:01 GMT</pubDate>
+</item>
 
 <item>
 <title>🥇Top ML Papers of the Week</title>

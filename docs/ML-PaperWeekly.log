@@ -9380,3 +9380,12 @@ Existing_entries: 43
 Fetching from https://nlp.elvissaravia.com/feed
 append_entries: 0
 Finish: 2024-11-09 12:21:48.955018
+------------------------------------------------------
+Started: 2024-11-09 14:12:17.665347
+Existing_entries: 43
+Fetching from https://nlp.elvissaravia.com/feed
+Token length: 532
+Summarized using GPT-3.5-turbo
+Append: [🐛 AI Agents Weekly: Agentic RAG, NVIDIA AI Blueprint, Microsoft's Magentic-One,...](https://nlp.elvissaravia.com/p/ai-agents-weekly-agentic-rag-nvidia)
+append_entries: 1
+Finish: 2024-11-09 14:12:21.018610
