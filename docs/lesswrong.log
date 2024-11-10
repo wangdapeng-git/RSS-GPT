@@ -11756,3 +11756,9 @@ Summarized using GPT-3.5-turbo
 Append: [Active Recall and Spaced Repetition are Different Things](https://www.lesswrong.com/posts/rybwNZGGtGXA5uxsS/active-recall-and-spaced-repetition-are-different-things)
 append_entries: 1
 Finish: 2024-11-10 20:13:26.620212
+------------------------------------------------------
+Started: 2024-11-10 22:11:36.388367
+Existing_entries: 390
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-10 22:11:37.017220
