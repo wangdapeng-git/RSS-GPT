@@ -4,6 +4,7 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-11-10</title>
 <link>https://pythonhub.dev/digest/2024-11-10/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> tokenizers, AI applications, zero downtime deployments, PyBay 2024, code duplication removal
 
-总结:<br><br>这周的Python主题涵盖了在AI应用中理解tokenizer的重要性，实现零停机时间的Django部署策略，以及PyBay 2024视频的发布。其他亮点包括谨慎地去除重复代码，利用ClickPy进行PyPI分析，以及Netflix工程师调查Workbench UI延迟问题。介绍了新项目Avaiga/taipy用于将数据和AI算法转化为Web应用，以及Moonshine用于在边缘设备上进行自动语音识别。 Reddit主题涉及2024年Python的现状和高级Python线程教程。祝大家本周愉快，编程愉快！ <div>
+总结:<br /><br />这周的Python主题涵盖了在AI应用中理解tokenizer的重要性，实现零停机时间的Django部署策略，以及PyBay 2024视频的发布。其他亮点包括谨慎地去除重复代码，利用ClickPy进行PyPI分析，以及Netflix工程师调查Workbench UI延迟问题。介绍了新项目Avaiga/taipy用于将数据和AI算法转化为Web应用，以及Moonshine用于在边缘设备上进行自动语音识别。 Reddit主题涉及2024年Python的现状和高级Python线程教程。祝大家本周愉快，编程愉快！ <div>
 <p class="summary">This week in Python, popular topics included the importance of understanding tokenizers in AI applications, strategies for zero downtime Django deployments, and the release of PyBay 2024 videos. Other highlights featured discussions on careful code duplication removal, PyPI analytics with ClickPy, and the investigation of a Workbench UI latency issue by Netflix engineers. New projects introduced include Avaiga/taipy for turning data and AI algorithms into web applications, and Moonshine for automatic speech recognition on edge devices. Lastly, Reddit threads explored the state of Python in 2024 and advanced Python threading tutorials. Wishing you a great week and happy coding!</p>
 
 <div></div>
@@ -169,9 +170,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 10 Nov 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 10 Nov 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-11-03</title>
 <link>https://pythonhub.dev/digest/2024-11-03/</link>
