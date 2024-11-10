@@ -4,6 +4,173 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-11-10</title>
+<link>https://pythonhub.dev/digest/2024-11-10/</link>
+<guid>https://pythonhub.dev/digest/2024-11-10/</guid>
+<content:encoded><![CDATA[
+<div> tokenizers, AI applications, zero downtime deployments, PyBay 2024, code duplication removal
+
+总结:<br><br>这周的Python主题涵盖了在AI应用中理解tokenizer的重要性，实现零停机时间的Django部署策略，以及PyBay 2024视频的发布。其他亮点包括谨慎地去除重复代码，利用ClickPy进行PyPI分析，以及Netflix工程师调查Workbench UI延迟问题。介绍了新项目Avaiga/taipy用于将数据和AI算法转化为Web应用，以及Moonshine用于在边缘设备上进行自动语音识别。 Reddit主题涉及2024年Python的现状和高级Python线程教程。祝大家本周愉快，编程愉快！ <div>
+<p class="summary">This week in Python, popular topics included the importance of understanding tokenizers in AI applications, strategies for zero downtime Django deployments, and the release of PyBay 2024 videos. Other highlights featured discussions on careful code duplication removal, PyPI analytics with ClickPy, and the investigation of a Workbench UI latency issue by Netflix engineers. New projects introduced include Avaiga/taipy for turning data and AI algorithms into web applications, and Moonshine for automatic speech recognition on edge devices. Lastly, Reddit threads explored the state of Python in 2024 and advanced Python threading tutorials. Wishing you a great week and happy coding!</p>
+
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://github.com/zserge/tinylangs">Tinylangs: Programming languages in 50 lines of Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://cybernetist.com/2024/10/21/you-should-probably-pay-attention-to-tokenizers/">You Should Probably Pay Attention to Tokenizers</a></strong>
+    
+        <br /><span>This article emphasizes the importance of understanding tokenizers in AI applications, particularly for Retrieval-augmented generation (RAG) systems. The author demonstrates how different tokenizers handle various types of text input, including emojis and misspelled words, and explains how tokenization affects embedding quality and overall performance in natural language processing tasks.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://johnnymetz.com/posts/multistep-database-changes/">Zero Downtime Django Deployments with Multistep Database Changes</a></strong>
+    
+        <br /><span>Preventing downtime during deployments is crucial for maintaining service availability and ensuring a positive user experience. Blue-green deployments have emerged as a popular strategy to achieve this goal. However, they introduce challenges, especially when dealing with database changes. This article delves into what blue-green deployments are, why database changes can be tricky in thi...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/playlist?list=PL85KuAjbN_gvx5b_BgLVcKfccnlZAVPMk">PyBay 2024 Videos</a></strong>
+    
+        <br /><span>The talks from PyBay 2024 are now available online.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=6AGDnJ_26uw">Be Careful With Removing Code Duplication</a></strong>
+    
+        <br /><span>This video refactors some tricky, hard-to-detect code duplication, provides an example of when it’s best to leave duplicated code as is, and shares a few tips on how to avoid duplication altogether.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://clickpy.clickhouse.com/">ClickPy</a></strong>
+    
+        <br /><span>PyPI analytics powered by ClickHouse.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://lmstudio.ai/blog/venvstacks">Venvstacks: Virtual Environment Stacks for Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Avaiga/taipy">Avaiga / taipy</a></strong>
+    
+        <br /><span>Turns Data and AI algorithms into production-ready web applications in no time.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/atiriko/Music">Algorithmic Music Generation with Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://astral.sh/">Astral: Next-Gen Python Tooling</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://netflixtechblog.com/investigation-of-a-workbench-ui-latency-issue-faa017b4653d">Investigation of a Workbench UI Latency Issue</a></strong>
+    
+        <br /><span>Netflix engineers investigated a JupyterLab UI latency issue in their Workbench product, tracing it to an unexpected interaction between a resource usage extension and memory allocation. The root cause was identified as the extension's performance degrading linearly with increased virtual memory usage, despite available physical memory.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://dilovan.substack.com/p/from-python-to-cpu-instructions-part">From Python to CPU instructions: Part 1</a></strong>
+    
+        <br /><span>In the first part of a two-part series, we’ll compare the same program written in C and Python to reveal what Python hides from us.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://technicalwriting.dev/data/embeddings.html">Embeddings are underrated</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://treyhunner.com/2024/10/adding-keyboard-shortcuts-to-the-python-repl/">Adding keyboard shortcuts to the Python REPL</a></strong>
+    
+        <br /><span>The article discusses how to enhance the Python REPL (Read-Eval-Print Loop) by adding custom keyboard shortcuts to improve efficiency and user experience. It provides step-by-step instructions for implementing these shortcuts, enabling users to navigate and execute commands more effectively.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-11-03/">Python Hub Weekly Digest for 2024-11-03</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/DS4SD/docling">DS4SD / docling</a></strong>
+    
+        <br /><span>Get your docs ready for gen AI</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/simonw/llm-jq">llm-jq</a></strong>
+    
+        <br /><span>Write and execute jq programs with the help of LLM.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/genmoai/models">Mochi 1</a></strong>
+    
+        <br /><span>The best OSS video generation models.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/usefulsensors/moonshine">Moonshine</a></strong>
+    
+        <br /><span>Fast and accurate automatic speech recognition (ASR) for edge devices.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/benrutter/wimsey">Wimsey</a></strong>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1ghiln0/state_of_the_art_python_in_2024/">State of the Art Python in 2024</a></strong>
+      </p>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1gj177a/python_threading_tutorial_basic_to_advanced/">Python Threading Tutorial: Basic to Advanced (Multithreading, Pool Executors, Daemon, Lock, Events)</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 10 Nov 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 10 Nov 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-11-03</title>
