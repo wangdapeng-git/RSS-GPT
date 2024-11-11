@@ -4,6 +4,26 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+<item>
+<title>An improved flood forecasting AI model, trained and evaluated globally</title>
+<link>https://storage.googleapis.com/gweb-research2023-media/original_images/Floods24-2-GaugeLocations.png</link>
+<guid>https://storage.googleapis.com/gweb-research2023-media/original_images/Floods24-2-GaugeLocations.png</guid>
+<content:encoded><![CDATA[
+<div> 关键词：文章、总结、中文、重点、关键字
+
+总结:
+1. 这篇文章需要用中文总结；
+2. 提取出了5个关键词；
+3. 要在200字内写一个包含所有重点的总结；
+4. 输出格式为关键词、总结；
+5. 文章内容需按顺序分要点输出。 <br><br>
+
+这篇文章提供了让读者用中文总结文章内容的任务。从中提取出五个关键词并将其用于总结。总结内容必须包含所有要点，并按照给定的格式输出关键词和总结。在写总结时要按顺序列出要点，确保涵盖文章的主要内容。 <div>
+
+]]></content:encoded>
+<pubDate>2024-11-11T00:00:00+00:00</pubDate>
+<pubDate>2024-11-11T16:15:55.723845+00:00</pubDate>
+</item>
 
 <item>
 <title>Relationships are complicated! An analysis of relationships between datasets on the Web</title>

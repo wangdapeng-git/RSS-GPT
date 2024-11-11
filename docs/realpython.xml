@@ -4,6 +4,32 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Python News Roundup: November 2024</title>
+<link>https://realpython.com/python-news-november-2024/</link>
+<guid>https://realpython.com/python-news-november-2024/</guid>
+<content:encoded><![CDATA[
+<div> GitHub Octoverse 2024, Python, Python 3.13, Python Developers Survey 2024, PyCon US conference<br>
+Python在GitHub Octoverse 2024报告中排名第一，Python 3.13发布为未来改进奠定基础，Python Developers Survey 2024能够塑造未来版本方向，PyCon US conference将于明年举行，展示Python的持续受欢迎程度。总结: Python在GitHub Octoverse 2024报告中名列前茅，发布Python 3.13并展望未来，加入Python Developers Survey 2024塑造未来发展方向，注意未来PyCon US conference和Python 3.14发布日期。 <div>
+<div><p>The latest Python developments all point to the same thing—Python is currently thriving. The recent <strong>GitHub Octoverse 2024 report</strong> has revealed that Python is now the most used language on GitHub. Also, last month saw the release of <strong>Python 3.13</strong>, which is already laying the groundwork for some exciting future improvements. </p>
+<p>While Python core developers have been busy exploring the language’s features as they tinker with upcoming enhancements, it’s good to know that working on Python’s source code isn’t the only way you can contribute to Python’s future. Another way to shape the focus of upcoming releases is to join the <strong>Python Developers Survey 2024</strong>.</p>
+<p>And with the end of the year in sight, you may want to venture a look at next year’s calendar and mark some dates, such as the <strong>PyCon US</strong> conference in May or the <strong>Python 3.14</strong> release in October 2025.</p>
+<p>Now that you know the highlights, it’s time to dive into the most important Python news for November. </p>
+<div class="alert alert-warning"><p><strong>Join Now:</strong> <a class="alert-link" href="">Click here to join the Real Python Newsletter</a> and you'll never miss another Python tutorial, course update, or post.</p></div>
+
+<h2 id="pythons-popularity-shines-in-githubs-octoverse-2024">Python’s Popularity Shines in GitHub’s Octoverse 2024<a class="headerlink" href="#pythons-popularity-shines-in-githubs-octoverse-2024" title="Permanent link"></a></h2>
+<p>The latest <a href="https://github.blog/news-insights/octoverse/octoverse-2024/">Octoverse report for 2024</a> shows that Python remains one of the most widely used languages on GitHub, securing its place as a core language in open-source and professional development. Python ranked among the top three most-used languages, demonstrating its continued appeal across industries and experience levels:</p>
+<figure class="js-lightbox"><a href="https://files.realpython.com/media/python-news-octoverse-2024.d69266b82995.png" target="_blank"><img alt="Octoverse 2024 Results for Programming languages" class="img-fluid mx-auto d-block " height="1902" src="https://files.realpython.com/media/python-news-octoverse-2024.d69266b82995.png" width="1920" /></a></figure>
+
+<p>As GitHub’s annual report illustrates, Python’s popularity is fueled by its solid role in developing machine learning and artificial intelligence frameworks.</p>
+<p>Another takeaway from the Octoverse survey is Python’s strong community engagement. Python developers are not only active in contributing code but also in participating in discussions, filing issues, and reviewing pull requests.</p>
+</div><h2><a href="https://realpython.com/python-news-november-2024/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-news-november-2024/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-11-11T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>The Real Python Podcast – Episode #227: New PEPs: Template Strings &amp; External Wheel Hosting</title>
