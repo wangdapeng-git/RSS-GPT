@@ -11831,3 +11831,12 @@ Existing_entries: 391
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-11 20:13:31.995220
+------------------------------------------------------
+Started: 2024-11-11 22:12:30.138824
+Existing_entries: 391
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 19155
+Summarized using GPT-3.5-turbo
+Append: [The Online Sports Gambling Experiment Has Failed](https://www.lesswrong.com/posts/tHiB8jLocbPLagYDZ/the-online-sports-gambling-experiment-has-failed)
+append_entries: 1
+Finish: 2024-11-11 22:12:35.003534

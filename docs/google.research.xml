@@ -5,6 +5,27 @@
 <link>https://research.google/blog/</link>
 
 <item>
+<title>Generating zero-shot personalized portraits</title>
+<link>https://storage.googleapis.com/gweb-research2023-media/original_images/GenSelfie2-OverviewHero.png</link>
+<guid>https://storage.googleapis.com/gweb-research2023-media/original_images/GenSelfie2-OverviewHero.png</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 文章, 总结, 中文, 提取, 要点
+
+总结:  
+提取关键词  
+总结文章内容  
+用中文总结文章  
+包含所有要点的总结  
+输出要点并按顺序输出
+
+总结:<br><br>这篇文章介绍了如何用中文总结一篇文章的方法。首先要提取关键词，然后总结文章内容并用中文表达出来。最后，按照顺序输出所有要点，确保总结完整准确。 <div>
+
+]]></content:encoded>
+<pubDate>2024-11-11T00:00:00+00:00</pubDate>
+<pubDate>2024-11-11T22:12:41.219644+00:00</pubDate>
+</item>
+
+<item>
 <title>An improved flood forecasting AI model, trained and evaluated globally</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/Floods24-2-GaugeLocations.png</link>
 <guid>https://storage.googleapis.com/gweb-research2023-media/original_images/Floods24-2-GaugeLocations.png</guid>
@@ -16,15 +37,12 @@
 2. 提取出了5个关键词；
 3. 要在200字内写一个包含所有重点的总结；
 4. 输出格式为关键词、总结；
-5. 文章内容需按顺序分要点输出。 <br><br>
+5. 文章内容需按顺序分要点输出。 <br /><br />
 
 这篇文章提供了让读者用中文总结文章内容的任务。从中提取出五个关键词并将其用于总结。总结内容必须包含所有要点，并按照给定的格式输出关键词和总结。在写总结时要按顺序列出要点，确保涵盖文章的主要内容。 <div>
-
 ]]></content:encoded>
-<pubDate>2024-11-11T00:00:00+00:00</pubDate>
 <pubDate>2024-11-11T16:15:55.723845+00:00</pubDate>
 </item>
-
 <item>
 <title>Relationships are complicated! An analysis of relationships between datasets on the Web</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/WebDataRelations1-Hero.png</link>
