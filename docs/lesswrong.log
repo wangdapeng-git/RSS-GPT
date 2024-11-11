@@ -11801,3 +11801,9 @@ Summarized using GPT-3.5-turbo
 Append: [Personal AI Planning](https://www.lesswrong.com/posts/CNA8ksMwcuXHPjXRt/personal-ai-planning)
 append_entries: 1
 Finish: 2024-11-11 10:14:28.051446
+------------------------------------------------------
+Started: 2024-11-11 12:24:12.163296
+Existing_entries: 391
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-11 12:24:12.522714
