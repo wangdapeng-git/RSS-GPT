@@ -8725,3 +8725,10 @@ Summarized using GPT-3.5-turbo
 Append: [An improved flood forecasting AI model, trained and evaluated globally](https://storage.googleapis.com/gweb-research2023-media/original_images/Floods24-2-GaugeLocations.png)
 append_entries: 1
 Finish: 2024-11-11 16:15:59.175605
+------------------------------------------------------
+Started: 2024-11-11 18:16:19.328029
+Existing_entries: 54
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+Fetch failed from https://rss.diffbot.com/atom?url=https://research.google/blog/
+append_entries: 0
+error when rendering xml, skip docs/google.research

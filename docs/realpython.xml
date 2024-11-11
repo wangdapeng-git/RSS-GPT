@@ -4,12 +4,13 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Python News Roundup: November 2024</title>
 <link>https://realpython.com/python-news-november-2024/</link>
 <guid>https://realpython.com/python-news-november-2024/</guid>
 <content:encoded><![CDATA[
-<div> GitHub Octoverse 2024, Python, Python 3.13, Python Developers Survey 2024, PyCon US conference<br>
+<div> GitHub Octoverse 2024, Python, Python 3.13, Python Developers Survey 2024, PyCon US conference<br />
 Python在GitHub Octoverse 2024报告中排名第一，Python 3.13发布为未来改进奠定基础，Python Developers Survey 2024能够塑造未来版本方向，PyCon US conference将于明年举行，展示Python的持续受欢迎程度。总结: Python在GitHub Octoverse 2024报告中名列前茅，发布Python 3.13并展望未来，加入Python Developers Survey 2024塑造未来发展方向，注意未来PyCon US conference和Python 3.14发布日期。 <div>
 <div><p>The latest Python developments all point to the same thing—Python is currently thriving. The recent <strong>GitHub Octoverse 2024 report</strong> has revealed that Python is now the most used language on GitHub. Also, last month saw the release of <strong>Python 3.13</strong>, which is already laying the groundwork for some exciting future improvements. </p>
 <p>While Python core developers have been busy exploring the language’s features as they tinker with upcoming enhancements, it’s good to know that working on Python’s source code isn’t the only way you can contribute to Python’s future. Another way to shape the focus of upcoming releases is to join the <strong>Python Developers Survey 2024</strong>.</p>
@@ -27,10 +28,8 @@ Python在GitHub Octoverse 2024报告中排名第一，Python 3.13发布为未来
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-11T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>The Real Python Podcast – Episode #227: New PEPs: Template Strings &amp; External Wheel Hosting</title>
 <link>https://realpython.com/podcasts/rpp/227/</link>
