@@ -4,6 +4,88 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>开放注册期间论坛暂停签到、QQ登录绑定、下载附件和默认搜索等多项功能</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980061</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980061</guid>
+<content:encoded><![CDATA[
+
+预计开放注册期间暂停签到任务、下载论坛附件功能、默认搜索功能、QQ登录绑定等功能（忘记账号密码可以邮箱重置后登陆） 请各位知晓。
+
+主要把下载附件的带宽和服务器负载节省下来供用户注册访问使用，等注册结束就恢复了（默认搜索功能根据论坛负载压力预计一周左右 ...
+]]></content:encoded>
+<pubDate>Sun, 10 Nov 2024 14:34:10 +0000</pubDate>
+<pubDate>Sun, 10 Nov 2024 14:34:10 +0000</pubDate>
+</item>
+<item>
+<title>喜玛拉雅官方绿色最新PC版v4.0.5</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980047</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980047</guid>
+<content:encoded><![CDATA[
+
+出处：
+提取自官方APP
+
+使用：
+下载解压后直接运行即可，已经去除自升级文件。
+
+
+
+
+下载：
+]]></content:encoded>
+<pubDate>Sun, 10 Nov 2024 13:35:59 +0000</pubDate>
+<pubDate>Sun, 10 Nov 2024 13:35:59 +0000</pubDate>
+</item>
+<item>
+<title>某游戏免广告获得奖励</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1979894</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1979894</guid>
+<content:encoded><![CDATA[
+
+游戏名是史小坑的花前月下，每天奖励有30*30+50钻石，10分钟的祈雨。
+分析过程非常简单，就不写了，直接写修改的位置。
+
+需要修改的位置在zygame.core.KengSDK中的showVideoAd方法中，java代码
+
+把红框中的注释掉就o ...
+]]></content:encoded>
+<pubDate>Sun, 10 Nov 2024 02:00:52 +0000</pubDate>
+<pubDate>Sun, 10 Nov 2024 02:00:52 +0000</pubDate>
+</item>
+<item>
+<title>唐诗宋词 5.2.0 学习的好帮手有助于提高学习能力</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1979840</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1979840</guid>
+<content:encoded><![CDATA[
+
+如有侵权，请版主删帖。如果不符发布区规则，麻烦请移动到符合区，敬请告知。
+【应用名称】：唐诗宋词
+【应用版本】：5.2.0
+【应用大小】：46.69MB
+【适用平台】：Android
+【软件介绍】：唐诗与宋词，拥有非常完整 ...
+]]></content:encoded>
+<pubDate>Sat, 09 Nov 2024 11:57:31 +0000</pubDate>
+<pubDate>Sat, 09 Nov 2024 11:57:31 +0000</pubDate>
+</item>
+<item>
+<title>某云无感滑块逆向之“大爷，饶了我吧！”（上）</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1978737</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1978737</guid>
+<content:encoded><![CDATA[
+
+访问的网站突然加了一个无感滑块验证，在论坛上羡慕各种大神，拿让我这个在B站学了三节课的新手试一下某云的无感滑块逆向。
+
+有时候会遇到一个无限debugger，可以使用一个简单的hook绕开。
+
+
+然后出现了滑块验证。
+ ...
+]]></content:encoded>
+<pubDate>Tue, 05 Nov 2024 12:34:35 +0000</pubDate>
+<pubDate>Tue, 05 Nov 2024 12:34:35 +0000</pubDate>
+</item>
 
 <item>
 <title>iw3 V1.0 AI裸眼3D转换， 任意2D图片或视频，一键转换为3D，支持VR观看</title>

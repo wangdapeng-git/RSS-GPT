@@ -27652,3 +27652,17 @@ Filter: [腾讯聊天软件 TIM 4.0.95.4002 （新增深色模式）](https://ww
 Filter: [高德地图V12.10.61.3049小米15内置提取版，自带新手驾车模式](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1977434)
 append_entries: 0
 Finish: 2024-11-11 04:15:23.291967
+------------------------------------------------------
+Started: 2024-11-11 06:17:50.757619
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Append: [开放注册期间论坛暂停签到、QQ登录绑定、下载附件和默认搜索等多项功能](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980061)
+Append: [喜玛拉雅官方绿色最新PC版v4.0.5](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980047)
+Append: [某游戏免广告获得奖励](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979894)
+Append: [唐诗宋词 5.2.0 学习的好帮手有助于提高学习能力](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979840)
+Filter: [比谷歌浏览器更纯净的浏览器supermium 126.0.6478.254](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979790)
+Filter: [微软常用运行库合集 2024.11.07](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979213)
+Append: [某云无感滑块逆向之“大爷，饶了我吧！”（上）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1978737)
+Filter: [高德地图V12.10.61.3049小米15内置提取版，自带新手驾车模式](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1977434)
+append_entries: 5
+Finish: 2024-11-11 06:17:53.600205
