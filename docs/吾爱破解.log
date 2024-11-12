@@ -27814,3 +27814,11 @@ Filter: [腾讯聊天软件 TIM 4.0.95.4002 （新增深色模式）](https://ww
 Filter: [百度地图车机版v20.8.2 内测版 纯净无广告](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1977973)
 append_entries: 0
 Finish: 2024-11-12 08:16:10.885906
+------------------------------------------------------
+Started: 2024-11-12 10:13:12.921701
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [腾讯聊天软件 TIM 4.0.95.4002 （新增深色模式）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1978264)
+Filter: [百度地图车机版v20.8.2 内测版 纯净无广告](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1977973)
+append_entries: 0
+Finish: 2024-11-12 10:13:15.217602
