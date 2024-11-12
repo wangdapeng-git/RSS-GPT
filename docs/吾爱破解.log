@@ -27758,3 +27758,17 @@ Filter: [高德地图V12.10.61.3049小米15内置提取版，自带新手驾车�
 Filter: [高德地图 13.12.0.8888精简版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1976723)
 append_entries: 0
 Finish: 2024-11-11 22:11:26.061493
+------------------------------------------------------
+Started: 2024-11-12 00:56:08.924845
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Append: [图片转文字（PDF转word，图片转word等）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980207)
+Filter: [易采集EasySpider：无代码可视化爬虫 0.6.2 开源](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980141)
+Filter: [【Flightradar24】10.2.0 原创汉化版 全球飞机飞行数据查询](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979972)
+Append: [希沃白板 2.1.49 学习中的课件工具](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979834)
+Filter: [微软常用运行库合集 2024.11.07](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979213)
+Filter: [腾讯聊天软件 TIM 4.0.95.4002 （新增深色模式）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1978264)
+Filter: [高德地图V12.10.61.3049小米15内置提取版，自带新手驾车模式](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1977434)
+Filter: [高德地图 13.12.0.8888精简版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1976723)
+append_entries: 2
+Finish: 2024-11-12 00:56:11.126344
