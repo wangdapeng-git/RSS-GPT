@@ -11867,3 +11867,13 @@ Existing_entries: 393
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-12 06:17:57.995450
+------------------------------------------------------
+Started: 2024-11-12 08:16:51.529737
+Existing_entries: 393
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 20493
+Summarized using GPT-3.5-turbo
+Append: [Targeted Manipulation and Deception Emerge when 
+Optimizing LLMs for User Feedback](https://www.lesswrong.com/posts/hTFhdrS5TKjxn9Cng/targeted-manipulation-and-deception-emerge-when-optimizing)
+append_entries: 1
+Finish: 2024-11-12 08:16:58.804834
