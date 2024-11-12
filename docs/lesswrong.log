@@ -11910,3 +11910,12 @@ Existing_entries: 395
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-12 18:16:55.607070
+------------------------------------------------------
+Started: 2024-11-12 20:14:02.351994
+Existing_entries: 395
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 13317
+Summarized using GPT-3.5-turbo
+Append: [The Evals Gap](https://www.lesswrong.com/posts/gJJEjJpKiddoYGZKk/the-evals-gap)
+append_entries: 1
+Finish: 2024-11-12 20:14:07.800113
