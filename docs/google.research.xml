@@ -4,6 +4,7 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+
 <item>
 <title>Generating zero-shot personalized portraits</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/GenSelfie2-OverviewHero.png</link>
@@ -18,13 +19,10 @@
 包含所有要点的总结  
 输出要点并按顺序输出
 
-总结:<br><br>这篇文章介绍了如何用中文总结一篇文章的方法。首先要提取关键词，然后总结文章内容并用中文表达出来。最后，按照顺序输出所有要点，确保总结完整准确。 <div>
-
+总结:<br /><br />这篇文章介绍了如何用中文总结一篇文章的方法。首先要提取关键词，然后总结文章内容并用中文表达出来。最后，按照顺序输出所有要点，确保总结完整准确。 <div>
 ]]></content:encoded>
-<pubDate>2024-11-11T00:00:00+00:00</pubDate>
 <pubDate>2024-11-11T22:12:41.219644+00:00</pubDate>
 </item>
-
 <item>
 <title>An improved flood forecasting AI model, trained and evaluated globally</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/Floods24-2-GaugeLocations.png</link>
