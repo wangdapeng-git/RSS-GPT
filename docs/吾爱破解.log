@@ -27879,3 +27879,18 @@ Filter: [百度地图车机版v20.8.2 内测版 纯净无广告](https://www.52p
 Filter: [高德地图 13.12.0.8888精简版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1976723)
 append_entries: 0
 Finish: 2024-11-12 20:13:18.143984
+------------------------------------------------------
+Started: 2024-11-12 22:11:46.845230
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [长安 OTA 解包工具](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980301)
+Append: [文件与文件夹批量更名工具-支持撤销改名FileReNameTool V2.1.1](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980273)
+Filter: [一键AI证件照制作工具 HivisionIDPhotos v1.2.9，支持自定义部署（新增功能改进）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980263)
+Filter: [易采集EasySpider：无代码可视化爬虫 0.6.2 开源](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980141)
+Append: [每日壁纸小工具](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980133)
+Filter: [eMule电驴v0.70b绿色版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979581)
+Filter: [微软常用运行库合集 2024.11.07](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979213)
+Filter: [百度地图车机版v20.8.2 内测版 纯净无广告](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1977973)
+Filter: [高德地图 13.12.0.8888精简版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1976723)
+append_entries: 2
+Finish: 2024-11-12 22:11:49.540632

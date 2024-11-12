@@ -11919,3 +11919,12 @@ Summarized using GPT-3.5-turbo
 Append: [The Evals Gap](https://www.lesswrong.com/posts/gJJEjJpKiddoYGZKk/the-evals-gap)
 append_entries: 1
 Finish: 2024-11-12 20:14:07.800113
+------------------------------------------------------
+Started: 2024-11-12 22:12:30.339282
+Existing_entries: 396
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 8450
+Summarized using GPT-3.5-turbo
+Append: [The Packaging and the Payload](https://www.lesswrong.com/posts/wbmfGYrAKW7qyDWHT/the-packaging-and-the-payload)
+append_entries: 1
+Finish: 2024-11-12 22:12:34.772673
