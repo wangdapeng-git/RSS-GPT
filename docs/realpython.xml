@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Formatting Floats Inside Python F-Strings</title>
 <link>https://realpython.com/courses/format-floats-f-strings/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> f-string, formatted string literal, Python 3.6, round, calculations
 
-总结:<br><br>
+总结:<br /><br />
 Python 3.6引入了f-string，即格式化字符串字面值，可以更方便地在字符串中格式化和舍入计算结果。使用f-string可以直接在字符串中插入表达式、函数调用或变量，简化了之前需要先舍入再进行字符串拼接的繁琐操作。通过在字符串前加上小写或大写字母f并使用一对花括号来指定替换字段，可以更直观地定制字符串内容。这种方式让Python代码更易于阅读和维护，提高了代码的可读性和可用性。 <div>
 <p>You&rsquo;ll often need to format and round a Python <a href="https://docs.python.org/3/library/functions.html#float"><code>float</code></a> to display the results of your calculations neatly within strings. In earlier versions of Python, this was a messy thing to do because you needed to round your numbers <em>first</em> and then use either string concatenation or the <a href="https://realpython.com/python-string-formatting/#1-old-style-string-formatting-operator">old string formatting</a> technique to do this for you. </p>
 <p>Since Python 3.6, the <a href="https://peps.python.org/pep-0498/">literal string interpolation</a>, more commonly known as a <strong>formatted string literal</strong> or <strong><a href="https://realpython.com/python-f-strings/">f-string</a></strong>, allows you to customize the content of your strings in a more readable way.</p>
@@ -19,10 +20,8 @@ Python 3.6引入了f-string，即格式化字符串字面值，可以更方便�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-12T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Python News Roundup: November 2024</title>
 <link>https://realpython.com/python-news-november-2024/</link>
