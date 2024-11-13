@@ -4,15 +4,14 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>QQ音乐车机版2.9.0.11</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1978497</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1978497</guid>
 <content:encoded><![CDATA[
-
 该版本为QQ音乐车载版，支持横竖屏切换。- 本次更新包含了以下主要功能：- 【全新界面】：整体界面升级，好看更好用。- 【个性化推荐】：首页新增更多推荐内容。- 【音乐馆】：更多音乐种类，收听更丰富。- 【有声专区】 ...
 ]]></content:encoded>
-<pubDate>Tue, 05 Nov 2024 01:13:18 +0000</pubDate>
 <pubDate>Tue, 05 Nov 2024 01:13:18 +0000</pubDate>
 </item>
 <item>
@@ -20,7 +19,6 @@
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1977051</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1977051</guid>
 <content:encoded><![CDATA[
-
 FMatPix是一款免费的数学公式识别(OCR)软件，其使用了开源的检测、识别模型。
 已有数学公式识别软件的不足：
 1、登录、付费才能使用。
@@ -28,9 +26,7 @@ FMatPix是一款免费的数学公式识别(OCR)软件，其使用了开源的�
 3、开源模型基本没有很 ...
 ]]></content:encoded>
 <pubDate>Wed, 30 Oct 2024 14:55:29 +0000</pubDate>
-<pubDate>Wed, 30 Oct 2024 14:55:29 +0000</pubDate>
 </item>
-
 <item>
 <title>文件与文件夹批量更名工具-支持撤销改名FileReNameTool V2.1.1</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980273</link>
@@ -13942,47 +13938,6 @@ GKD官方教程：https://gkd.li/guide/
 这个软件的制作公司是Sofeh Sunrise，位于伊朗（古 ...
 ]]></content:encoded>
 <pubDate>Mon, 03 Jun 2024 15:11:32 +0000</pubDate>
-</item>
-<item>
-<title>Windows 网卡MAC地址修改软件</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1932597</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1932597</guid>
-<content:encoded><![CDATA[
-Windows 网卡MAC地址修改软件
-
-
-本工具功能为修改特定网卡的MAC地址。
-
-开发语言：C# 
-
-.Net 4.5 Win8以上即开即用
-
-运行时需管理员权限。
-未加壳，源码可自行反编译。
-
-下载地址：https://wwi.lanzoup.com/i ...
-]]></content:encoded>
-<pubDate>Fri, 07 Jun 2024 09:03:29 +0000</pubDate>
-</item>
-<item>
-<title>植物大战僵尸杂交版-阳光，叠加种植，无CD分析</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1933134</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1933134</guid>
-<content:encoded><![CDATA[
-分析思路跟普通版一样。阳光、cd、重叠种植代码跟普通版差不多。
-用法：
-补丁使用大白补丁工具，补丁生成后放到与PlantsVsZombies.exe一个目录，运行释放。
-
-如果觉得有用，请随手支持一下。
-
-
-
-
-特征码：
-无CD
-83 47 ?? 01 8B 47 ?? 3B 47 ?? 7E 14 C7 47 ? ...
-]]></content:encoded>
-<pubDate>Sun, 09 Jun 2024 13:11:08 +0000</pubDate>
 </item>
 </channel>
 </rss>
