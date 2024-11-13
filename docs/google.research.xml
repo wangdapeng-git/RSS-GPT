@@ -4,6 +4,7 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+
 <item>
 <title>Mapping the ionosphere with the power of Android</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/Ionosphere3-MapHero.png</link>
@@ -12,16 +13,13 @@
 <div> 关键词: 文章 总结 关键词 中文 HTML
 
 总结:
-<br><br>本文介绍了如何用中文总结一篇文章，并提取关键词，以及如何在HTML中使用换行符。<br>
-文章内容详细介绍了提取关键词的重要性，以及如何将关键词放在同一行内输出。<br>
-同时，文章还说明了在写总结时要按照顺序分要点输出，保持清晰的逻辑结构。<br>
-最后，提到了在输出总结时要保留HTML中的换行符格式，以确保良好的阅读体验。<br> <div>
-
+<br /><br />本文介绍了如何用中文总结一篇文章，并提取关键词，以及如何在HTML中使用换行符。<br />
+文章内容详细介绍了提取关键词的重要性，以及如何将关键词放在同一行内输出。<br />
+同时，文章还说明了在写总结时要按照顺序分要点输出，保持清晰的逻辑结构。<br />
+最后，提到了在输出总结时要保留HTML中的换行符格式，以确保良好的阅读体验。<br /> <div>
 ]]></content:encoded>
-<pubDate>2024-11-13T00:00:00+00:00</pubDate>
 <pubDate>2024-11-13T16:17:02.204709+00:00</pubDate>
 </item>
-
 <item>
 <title>Towards a unified model for predicting human responses to diverse visual content</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/UniAR-0-Hero.png</link>
