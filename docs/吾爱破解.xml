@@ -4,16 +4,15 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>[2024/11/13]Windows Defender Remover v12.8.1 汉化版</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1981047</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1981047</guid>
 <content:encoded><![CDATA[
-
 该应用程序有什么作用？
 此应用程序删除 Windows Defender，包括 Windows 安全应用程序、Windows 基于虚拟化的安全性 (VBS)、Windows SmartScreen、Windows 安全服务、Windows Web 威胁服务、Windows 文件虚拟化 ( ...
 ]]></content:encoded>
-<pubDate>Wed, 13 Nov 2024 01:02:18 +0000</pubDate>
 <pubDate>Wed, 13 Nov 2024 01:02:18 +0000</pubDate>
 </item>
 <item>
@@ -21,12 +20,10 @@
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980917</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980917</guid>
 <content:encoded><![CDATA[
-
 由于原帖连接已经失效，我来补充一下：
 （原帖：【软件已更新，请移步新帖下载】数字盲水印&amp;隐形水印制作工具 - 吾爱破解 - 52pojie.cn）
 由于做ctf比赛的misc题目中，遇到了一个盲水印的题目，在网上找了一天没找到， ...
 ]]></content:encoded>
-<pubDate>Tue, 12 Nov 2024 13:52:12 +0000</pubDate>
 <pubDate>Tue, 12 Nov 2024 13:52:12 +0000</pubDate>
 </item>
 <item>
@@ -34,7 +31,6 @@
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980873</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980873</guid>
 <content:encoded><![CDATA[
-
 OFGB是一款开源删除 Win11 各处广告的 GUI 工具
 
 原帖已关闭，故开新帖更新版本
@@ -51,14 +47,12 @@ OFGB是一款开源删除 Win11 各处广告的 GUI 工具
 软件 ...
 ]]></content:encoded>
 <pubDate>Tue, 12 Nov 2024 12:46:54 +0000</pubDate>
-<pubDate>Tue, 12 Nov 2024 12:46:54 +0000</pubDate>
 </item>
 <item>
 <title>利用Cloudflare Workers部署挪车页面</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980798</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980798</guid>
 <content:encoded><![CDATA[
-
 [md]# 前言
 
 论坛中刷到有人利用Cloudflare Workers部署挪车页面，看到有人不会部署，遂写此文，分享一下如何部署到Cloudflare Workers并绑定域名。
@@ -72,19 +66,16 @@ OFGB是一款开源删除 Win11 各处广告的 GUI 工具
 若未注册Cl ...
 ]]></content:encoded>
 <pubDate>Tue, 12 Nov 2024 09:57:25 +0000</pubDate>
-<pubDate>Tue, 12 Nov 2024 09:57:25 +0000</pubDate>
 </item>
 <item>
 <title>国密SM4文件加解密工具</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980763</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980763</guid>
 <content:encoded><![CDATA[
-
 注意：免费软件，未在其他电脑上做测试，也没有测试的条件，自行决定是否使用，对文件进行批量二进制读写可能会报病毒。
 在使用前还是建议大家找几个无用的文件试试是否可正常加密解密，然后再用来加解密有用的文件
  ...
 ]]></content:encoded>
-<pubDate>Tue, 12 Nov 2024 08:58:00 +0000</pubDate>
 <pubDate>Tue, 12 Nov 2024 08:58:00 +0000</pubDate>
 </item>
 <item>
@@ -92,7 +83,6 @@ OFGB是一款开源删除 Win11 各处广告的 GUI 工具
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980743</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980743</guid>
 <content:encoded><![CDATA[
-
 [md]### 安装完启动桌面图标
 
 !()
@@ -126,14 +116,12 @@ OFGB是一款开源删除 Win11 各处广告的 GUI 工具
 链接：https://pan.baidu.com/s/14XNSbdO3KrSvigB6vi ...
 ]]></content:encoded>
 <pubDate>Tue, 12 Nov 2024 08:25:43 +0000</pubDate>
-<pubDate>Tue, 12 Nov 2024 08:25:43 +0000</pubDate>
 </item>
 <item>
 <title>商业级别的挪车二维码，微信通知折叠了，用短信通知，可拨打电话</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980501</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980501</guid>
 <content:encoded><![CDATA[
-
 看了很多大佬最近都有发那个挪车二维码，我追随老大们的脚步，凑个热闹，
 这个是之前为某某公司开发的商用级别的挪车二维码，其实原理也简单，就不献丑了。
 
@@ -141,14 +129,12 @@ OFGB是一款开源删除 Win11 各处广告的 GUI 工具
 最近微信的服务号都折叠了嘛，不容易看到消息通知，所以 ...
 ]]></content:encoded>
 <pubDate>Tue, 12 Nov 2024 03:34:58 +0000</pubDate>
-<pubDate>Tue, 12 Nov 2024 03:34:58 +0000</pubDate>
 </item>
 <item>
 <title>清单自习室-3.7.6</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980339</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980339</guid>
 <content:encoded><![CDATA[
-
 如有侵权，请版主删帖。如果不符发布区规则，麻烦请移动到符合区，敬请告知。
 【应用名称】：清单自习室
 【应用版本】：3.7.6
@@ -157,19 +143,16 @@ OFGB是一款开源删除 Win11 各处广告的 GUI 工具
 【软件介绍】：无广告的备考计划习惯打卡 ...
 ]]></content:encoded>
 <pubDate>Mon, 11 Nov 2024 22:49:53 +0000</pubDate>
-<pubDate>Mon, 11 Nov 2024 22:49:53 +0000</pubDate>
 </item>
 <item>
 <title>windows电脑桌面二维码扫描工具</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980282</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980282</guid>
 <content:encoded><![CDATA[
-
 工作原因需要经常下载发票报账，很多供货商的发票开过来都是二维码的形式，需要用手机扫描电脑上的二维码访问税务局官网再下载到手机上，然后再通过微信发到电脑上，极其不方便。
 
 所以就写了这个小软件，运行后无任何 ...
 ]]></content:encoded>
-<pubDate>Mon, 11 Nov 2024 11:59:41 +0000</pubDate>
 <pubDate>Mon, 11 Nov 2024 11:59:41 +0000</pubDate>
 </item>
 <item>
@@ -177,7 +160,6 @@ OFGB是一款开源删除 Win11 各处广告的 GUI 工具
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980055</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980055</guid>
 <content:encoded><![CDATA[
-
 在52破解一个帖子里，有位朋友发了个时间同步器，
 
 
@@ -192,9 +174,7 @@ OFGB是一款开源删除 Win11 各处广告的 GUI 工具
  ...
 ]]></content:encoded>
 <pubDate>Sun, 10 Nov 2024 14:07:00 +0000</pubDate>
-<pubDate>Sun, 10 Nov 2024 14:07:00 +0000</pubDate>
 </item>
-
 <item>
 <title>QQ音乐车机版2.9.0.11</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1978497</link>
@@ -13972,162 +13952,6 @@ GKD官方教程：https://gkd.li/guide/
 [*]暂停与继续处理：随时暂停和继续处理 ...
 ]]></content:encoded>
 <pubDate>Wed, 12 Jun 2024 12:10:42 +0000</pubDate>
-</item>
-<item>
-<title>IOS Aemulo 2.0 模拟门禁</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1933977</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1933977</guid>
-<content:encoded><![CDATA[
-一款NFC模拟门禁软件，此款软件只能通过巨魔商店或者越狱越狱安装。Aemulo 使用方法也很简单，巨魔商店安装后打开软件直接添加卡片就行了，不过目前不支持加密卡片;兼容性
-[*]iPhone：iOS 14.0+
-[*]iPad：iPadOS 14.0+
- ...
-]]></content:encoded>
-<pubDate>Wed, 12 Jun 2024 08:03:05 +0000</pubDate>
-</item>
-<item>
-<title>[正式版]美蛋工具 提供了视频 音频 图片 文档 PDF等多种格式的转换和编辑功能</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1933663</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1933663</guid>
-<content:encoded><![CDATA[
-前言[hr]
-软件使用易语言编写 报毒正常 如不放心欢迎到病毒检测或沙箱网站检测！
-目前软件插件中心还没做完 以后不属于软件分类的就以插件的形式跟大家见面
-
-
-[hr]
-图片工具
-
-[*]图片格式转换
-[*]图片转ICO
-[*]图片压缩
-[*]图片批量转换
-[*]图片编辑
- ...
-]]></content:encoded>
-<pubDate>Tue, 11 Jun 2024 09:41:46 +0000</pubDate>
-</item>
-<item>
-<title>智商测试 3.3.1 国际标准智商测试</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1932607</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1932607</guid>
-<content:encoded><![CDATA[
-测试智商的应用，测试题为国际标准智商测试试题，限时测试。测试完成自动根据年龄计算相应智商。并支持上传成绩，查看用户排名。
-
-软件大小:  20.4m
-
-移动不限速链接:https://caiyun.139.com/m/i?125CdydwskVwF
-/*0 ...
-]]></content:encoded>
-<pubDate>Fri, 07 Jun 2024 09:21:21 +0000</pubDate>
-</item>
-<item>
-<title>Hypic（醒图国际版）3.9.0无广告滤镜特效都可用</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1932221</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1932221</guid>
-<content:encoded><![CDATA[
-自己一直使用和珍藏的国际版醒图
-滤镜，模板，特效都亲测可以使用，暂时没发现广告
-上传图片显示太大了，只能截图发
-
-免费直接下载：
-链接：https://pan.baidu.com/s/1PQHk4yf0G4U_x8yPBPaQDg?pwd=7rtz 
-提取码：7 ...
-]]></content:encoded>
-<pubDate>Thu, 06 Jun 2024 09:05:57 +0000</pubDate>
-</item>
-<item>
-<title>图片加水印V1.0（支持批量）</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1933601</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1933601</guid>
-<content:encoded><![CDATA[
-使用说明：
-1、拖放照片到列表框
-2、选择文字水印或图片水印
-3、合成的水印图片在软件同目录【水印合成】
-4、支持批量添加
-5、目前版本自定义设置尚未加入，下个版本添加
-
-
-蓝奏云访问被地区屏蔽了，无奈 ...
-]]></content:encoded>
-<pubDate>Tue, 11 Jun 2024 07:47:31 +0000</pubDate>
-</item>
-<item>
-<title>中国智谋 7.6.0版本 智谋类古籍原文及现代文翻译</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1933573</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1933573</guid>
-<content:encoded><![CDATA[
-【应用名称】中国智谋
-【应用版本】7.6.0
-【软件大小】69m
-【适用平台】安卓
-【应用简介】鬼谷子韩非子 易经等古籍原文及译文
-【下载地址】
-链接：https://pan.quark.cn/s/f2d1bf8a6d99
-链接:https://pan.baidu.c ...
-]]></content:encoded>
-<pubDate>Tue, 11 Jun 2024 06:47:44 +0000</pubDate>
-</item>
-<item>
-<title>取名字典 1.0.1 取名解名的简洁小软件</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1933569</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1933569</guid>
-<content:encoded><![CDATA[
-【应用名称】取名字典
-【应用版本】1.0.1
-【软件大小】12m
-【适用平台】安卓
-【应用简介】取名，解名的软件，仅限参考就好
-【下载地址】
-链接：https://pan.quark.cn/s/723a04512273
-链接:https://pan.baidu.com/ ...
-]]></content:encoded>
-<pubDate>Tue, 11 Jun 2024 06:41:42 +0000</pubDate>
-</item>
-<item>
-<title>[Windows] 【PDF内容搜索】支持跨文件夹、多文件；结果可拆分，全部合并、分文件合并</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1932079</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1932079</guid>
-<content:encoded><![CDATA[
-运行环境：Windows
-
-适用于：
-各种文字版PDF，图片版PDF暂不支持。
-
-原需求来源：
-公司财务批量下载的银行回单是多页面的单个PDF文件，但需要从这些回单中找到要找的关键词并给单独拆分出来。
-
-
-后续需求：
-论 ...
-]]></content:encoded>
-<pubDate>Thu, 06 Jun 2024 03:24:35 +0000</pubDate>
-</item>
-<item>
-<title>分享一款PC版远程控制 远程协助软件（秒点1.8.0.4），todesk开始收割，这个免注册</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1933498</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1933498</guid>
-<content:encoded><![CDATA[
-最近朋友需要远程协助，todesk通道关闭！---终于开始对我这颗老韭菜下刀了，要么割掉，要么拔掉！
-穷人离不了穷想法，那就换呀.......在52pj这么多年...你说呢！
-----------进入正题------------
-1.先在论坛搜“远程控 ...
-]]></content:encoded>
-<pubDate>Tue, 11 Jun 2024 03:00:14 +0000</pubDate>
-</item>
-<item>
-<title>音乐之声 - 民乐工作室 Sofeh Music Studio 9.4.0 汉化便携版</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1931184</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1931184</guid>
-<content:encoded><![CDATA[
-民乐工作室 Music Studio
-一般叫Studio的意思就是音乐工作站，如我们比较熟悉的水果FL Studio，主要的功能就是制作音乐。我们通常也称之为编曲软件，宿主软件。
-
-
-这个软件的制作公司是Sofeh Sunrise，位于伊朗（古 ...
-]]></content:encoded>
-<pubDate>Mon, 03 Jun 2024 15:11:32 +0000</pubDate>
 </item>
 </channel>
 </rss>
