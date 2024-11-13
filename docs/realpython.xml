@@ -4,6 +4,146 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Python Dictionary Comprehensions: How and When to Use Them</title>
+<link>https://realpython.com/python-dictionary-comprehension/</link>
+<guid>https://realpython.com/python-dictionary-comprehension/</guid>
+<content:encoded><![CDATA[
+<div> 创建、转换、筛选、字典推导、Python<br>
+字典推导是Python中一种快速创建、转换和筛选字典的简洁方法。它可以显著提高代码的简洁性和可读性，比起使用普通的for循环处理字典更为高效。文章介绍了使用字典推导来创建字典、转换现有字典以及通过条件筛选键值对等技巧。字典推导是Python开发中重要的工具，可以有效地操控字典，是编程工具箱中有价值的补充。文章从创建字典、使用for循环、字典构造函数dict()、字典推导、总结了使用字典推导的重要性和灵活性。总结: 字典推导是Python编程中强大的工具，可以简化字典操作，提高代码的简洁性和可读性。 <div>
+<div><p>Dictionary comprehensions are a concise and quick way to create, transform, and filter dictionaries in Python. They can significantly enhance your code’s conciseness and readability compared to using regular <code>for</code> loops to process your dictionaries.</p>
+<p>Understanding dictionary comprehensions is crucial for you as a Python developer because they’re a Pythonic tool for dictionary manipulation and can be a valuable addition to your programming toolkit.</p>
+<p><strong>In this tutorial, you’ll learn how to:</strong></p>
+<ul>
+<li><strong>Create</strong> dictionaries using dictionary comprehensions</li>
+<li><strong>Transform</strong> existing dictionaries with comprehensions</li>
+<li><strong>Filter</strong> key-value pairs from dictionaries using conditionals</li>
+<li><strong>Decide</strong> when to use dictionary comprehensions</li>
+</ul>
+<p>To get the most out of this tutorial, you should be familiar with basic Python concepts, such as <a href="https://realpython.com/python-for-loop/"><code>for</code></a> loops, <a href="https://realpython.com/python-iterators-iterables/">iterables</a>, and <a href="https://realpython.com/python-dicts/">dictionaries</a>, as well as <a href="https://realpython.com/list-comprehension-python/">list comprehensions</a>.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-dictionary-comprehension-code/">Click here to download the free sample code</a> that you’ll use to learn about dictionary comprehensions in Python.</p>
+</div>
+<h2 id="creating-and-transforming-dictionaries-in-python">Creating and Transforming Dictionaries in Python<a class="headerlink" href="#creating-and-transforming-dictionaries-in-python" title="Permanent link"></a></h2>
+<p>In Python programming, you’ll often need to create, populate, and transform dictionaries. To do this, you can use dictionary literals, the <code>dict()</code> <a href="https://realpython.com/python-multiple-constructors/">constructor</a>, and <code>for</code> loops. In the following sections, you’ll take a quick look at how to use these tools. You’ll also learn about dictionary comprehensions, which are a powerful way to manipulate dictionaries in Python.</p>
+<h3 id="creating-dictionaries-with-literals-and-dict">Creating Dictionaries With Literals and <code>dict()</code><a class="headerlink" href="#creating-dictionaries-with-literals-and-dict" title="Permanent link"></a></h3>
+<p>To create new dictionaries, you can use literals. A dictionary literal is a series of key-value pairs enclosed in curly braces. The syntax of a dictionary literal is shown below:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python Syntax</span>
+    
+    <div class="noselect">
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="p">{</span><span class="n">key_1</span><span class="p">:</span> <span class="n">value_1</span><span class="p">,</span> <span class="n">key_2</span><span class="p">:</span> <span class="n">value_2</span><span class="p">,</span><span class="o">...</span><span class="p">,</span> <span class="n">key_N</span><span class="p">:</span> <span class="n">value_N</span><span class="p">}</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The keys must be <a href="https://realpython.com/python-hash-table/#use-hashable-keys">hashable</a> objects and are commonly strings. The values can be any Python object, including other dictionaries. Here’s a quick example of a dictionary:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">likes</span> <span class="o">=</span> <span class="p">{</span><span class="s2">"color"</span><span class="p">:</span> <span class="s2">"blue"</span><span class="p">,</span> <span class="s2">"fruit"</span><span class="p">:</span> <span class="s2">"apple"</span><span class="p">,</span> <span class="s2">"pet"</span><span class="p">:</span> <span class="s2">"dog"</span><span class="p">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">likes</span>
+<span class="go">{'color': 'blue', 'fruit': 'apple', 'pet': 'dog'}</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">likes</span><span class="p">[</span><span class="s2">"hobby"</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"guitar"</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">likes</span>
+<span class="go">{'color': 'blue', 'fruit': 'apple', 'pet': 'dog', 'hobby': 'guitar'}</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this example, you create dictionary key-value pairs that describe things people often like. The keys and values of your dictionary are string objects. You can add new pairs to the dictionary using the <code>dict[key] = value</code> syntax.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> To learn more about dictionaries, check out the <a href="https://realpython.com/python-dicts/">Dictionaries in Python</a> tutorial.</p>
+</div>
+<p>You can also create new dictionaries using the <code>dict()</code> constructor:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="nb">dict</span><span class="p">(</span><span class="n">apple</span><span class="o">=</span><span class="mf">0.40</span><span class="p">,</span> <span class="n">orange</span><span class="o">=</span><span class="mf">0.35</span><span class="p">,</span> <span class="n">banana</span><span class="o">=</span><span class="mf">0.25</span><span class="p">)</span>
+<span class="go">{'apple': 0.4, 'orange': 0.35, 'banana': 0.25}</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this example, you create a new dictionary using <code>dict()</code> with keyword arguments. In this case, the keys are strings and the values are floating-point numbers. It’s important to note that the <code>dict()</code> constructor is only suitable for those cases where the dictionary keys can be strings that are valid Python <a href="https://docs.python.org/3/reference/lexical_analysis.html#identifiers">identifiers</a>.</p>
+<h3 id="using-for-loops-to-populate-dictionaries">Using <code>for</code> Loops to Populate Dictionaries<a class="headerlink" href="#using-for-loops-to-populate-dictionaries" title="Permanent link"></a></h3>
+<p>Sometimes, you need to start with an empty dictionary and populate it with key-value pairs dynamically. To do this, you can use a <code>for</code> loop. For example, say that you want to create a dictionary in which keys are integer numbers and values are powers of <code>2</code>.</p>
+<p>Here’s how you can do this with a <code>for</code> loop:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">powers_of_two</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">integer</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">):</span>
+<span class="gp">... </span>    <span class="n">powers_of_two</span><span class="p">[</span><span class="n">integer</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span><span class="o">**</span><span class="n">integer</span>
+<span class="gp">...</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">powers_of_two</span>
+<span class="go">{1: 2, 2: 4, 3: 8, 4: 16, 5: 32, 6: 64, 7: 128, 8: 256, 9: 512}</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this example, you create an empty dictionary using an empty pair of curly braces. Then, you run a loop over a <a href="https://realpython.com/python-range/">range</a> of integer numbers from <code>1</code> to <code>9</code>. Inside the loop, you populate the dictionary with the integer numbers as keys and powers of two as values.</p>
+<p>The loop in this example is readable and clear. However, you can also use dictionary comprehension to create and populate a dictionary like the one shown above.</p>
+<h3 id="introducing-dictionary-comprehensions">Introducing Dictionary Comprehensions<a class="headerlink" href="#introducing-dictionary-comprehensions" title="Permanent link"></a></h3>
+</div><h2><a href="https://realpython.com/python-dictionary-comprehension/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-dictionary-comprehension/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-11-13T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Formatting Floats Inside Python F-Strings</title>
