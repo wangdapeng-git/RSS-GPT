@@ -4,6 +4,196 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>[2024/11/13]Windows Defender Remover v12.8.1 汉化版</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1981047</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1981047</guid>
+<content:encoded><![CDATA[
+
+该应用程序有什么作用？
+此应用程序删除 Windows Defender，包括 Windows 安全应用程序、Windows 基于虚拟化的安全性 (VBS)、Windows SmartScreen、Windows 安全服务、Windows Web 威胁服务、Windows 文件虚拟化 ( ...
+]]></content:encoded>
+<pubDate>Wed, 13 Nov 2024 01:02:18 +0000</pubDate>
+<pubDate>Wed, 13 Nov 2024 01:02:18 +0000</pubDate>
+</item>
+<item>
+<title>盲水印工具WaterMark.exe</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980917</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980917</guid>
+<content:encoded><![CDATA[
+
+由于原帖连接已经失效，我来补充一下：
+（原帖：【软件已更新，请移步新帖下载】数字盲水印&amp;隐形水印制作工具 - 吾爱破解 - 52pojie.cn）
+由于做ctf比赛的misc题目中，遇到了一个盲水印的题目，在网上找了一天没找到， ...
+]]></content:encoded>
+<pubDate>Tue, 12 Nov 2024 13:52:12 +0000</pubDate>
+<pubDate>Tue, 12 Nov 2024 13:52:12 +0000</pubDate>
+</item>
+<item>
+<title>一键关闭 Win11烦人广告 OFGB V0.4汉化版</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980873</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980873</guid>
+<content:encoded><![CDATA[
+
+OFGB是一款开源删除 Win11 各处广告的 GUI 工具
+
+原帖已关闭，故开新帖更新版本
+
+
+它是通过修改 Windows 注册表 来关闭 Windows 11 分散各处的广告设置。
+软件是用 C# 编写的，界面用 WPF 制作。
+
+
+
+
+
+
+软件 ...
+]]></content:encoded>
+<pubDate>Tue, 12 Nov 2024 12:46:54 +0000</pubDate>
+<pubDate>Tue, 12 Nov 2024 12:46:54 +0000</pubDate>
+</item>
+<item>
+<title>利用Cloudflare Workers部署挪车页面</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980798</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980798</guid>
+<content:encoded><![CDATA[
+
+[md]# 前言
+
+论坛中刷到有人利用Cloudflare Workers部署挪车页面，看到有人不会部署，遂写此文，分享一下如何部署到Cloudflare Workers并绑定域名。
+
+# 前期准备
+
+- 已经托管到Cloudflare的域名一个
+- 挪车源代码
+- WXPusher的`AppToken`、`UIDs`
+
+若未注册Cl ...
+]]></content:encoded>
+<pubDate>Tue, 12 Nov 2024 09:57:25 +0000</pubDate>
+<pubDate>Tue, 12 Nov 2024 09:57:25 +0000</pubDate>
+</item>
+<item>
+<title>国密SM4文件加解密工具</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980763</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980763</guid>
+<content:encoded><![CDATA[
+
+注意：免费软件，未在其他电脑上做测试，也没有测试的条件，自行决定是否使用，对文件进行批量二进制读写可能会报病毒。
+在使用前还是建议大家找几个无用的文件试试是否可正常加密解密，然后再用来加解密有用的文件
+ ...
+]]></content:encoded>
+<pubDate>Tue, 12 Nov 2024 08:58:00 +0000</pubDate>
+<pubDate>Tue, 12 Nov 2024 08:58:00 +0000</pubDate>
+</item>
+<item>
+<title>千牛自动发货，催付，催拍工具v9.5</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980743</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980743</guid>
+<content:encoded><![CDATA[
+
+[md]### 安装完启动桌面图标
+
+!()
+
+
+
+### 托盘图标启动千牛
+
+!()
+
+### 检测到登录账号，选择聊天辅助
+
+!()
+
+
+
+
+
+!()
+
+!()
+
+!()
+
+!()[/md]
+
+
+
+
+通过百度网盘分享的文件：bot_setup.exe
+链接：https://pan.baidu.com/s/14XNSbdO3KrSvigB6vi ...
+]]></content:encoded>
+<pubDate>Tue, 12 Nov 2024 08:25:43 +0000</pubDate>
+<pubDate>Tue, 12 Nov 2024 08:25:43 +0000</pubDate>
+</item>
+<item>
+<title>商业级别的挪车二维码，微信通知折叠了，用短信通知，可拨打电话</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980501</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980501</guid>
+<content:encoded><![CDATA[
+
+看了很多大佬最近都有发那个挪车二维码，我追随老大们的脚步，凑个热闹，
+这个是之前为某某公司开发的商用级别的挪车二维码，其实原理也简单，就不献丑了。
+
+
+最近微信的服务号都折叠了嘛，不容易看到消息通知，所以 ...
+]]></content:encoded>
+<pubDate>Tue, 12 Nov 2024 03:34:58 +0000</pubDate>
+<pubDate>Tue, 12 Nov 2024 03:34:58 +0000</pubDate>
+</item>
+<item>
+<title>清单自习室-3.7.6</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980339</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980339</guid>
+<content:encoded><![CDATA[
+
+如有侵权，请版主删帖。如果不符发布区规则，麻烦请移动到符合区，敬请告知。
+【应用名称】：清单自习室
+【应用版本】：3.7.6
+【应用大小】：18MB
+【适用平台】：Android
+【软件介绍】：无广告的备考计划习惯打卡 ...
+]]></content:encoded>
+<pubDate>Mon, 11 Nov 2024 22:49:53 +0000</pubDate>
+<pubDate>Mon, 11 Nov 2024 22:49:53 +0000</pubDate>
+</item>
+<item>
+<title>windows电脑桌面二维码扫描工具</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980282</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980282</guid>
+<content:encoded><![CDATA[
+
+工作原因需要经常下载发票报账，很多供货商的发票开过来都是二维码的形式，需要用手机扫描电脑上的二维码访问税务局官网再下载到手机上，然后再通过微信发到电脑上，极其不方便。
+
+所以就写了这个小软件，运行后无任何 ...
+]]></content:encoded>
+<pubDate>Mon, 11 Nov 2024 11:59:41 +0000</pubDate>
+<pubDate>Mon, 11 Nov 2024 11:59:41 +0000</pubDate>
+</item>
+<item>
+<title>NetTime时间同步器原创汉化</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980055</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980055</guid>
+<content:encoded><![CDATA[
+
+在52破解一个帖子里，有位朋友发了个时间同步器，
+
+
+然后楼下有位网友发了 NetTime 但没有汉化版
+
+我去官网下载了，英文版
+
+网上找汉化教程，酬和着折腾了一下。
+
+除了关于，其它页面都（尽量）汉化了。
+
+ ...
+]]></content:encoded>
+<pubDate>Sun, 10 Nov 2024 14:07:00 +0000</pubDate>
+<pubDate>Sun, 10 Nov 2024 14:07:00 +0000</pubDate>
+</item>
 
 <item>
 <title>QQ音乐车机版2.9.0.11</title>
