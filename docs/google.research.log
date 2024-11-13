@@ -8901,3 +8901,9 @@ Summarized using GPT-3.5-turbo
 Append: [Can algorithms make tournament cheating obsolete?](https://storage.googleapis.com/gweb-research2023-media/original_images/SportsTournament1-GraphHero.png)
 append_entries: 1
 Finish: 2024-11-13 20:14:25.491831
+------------------------------------------------------
+Started: 2024-11-13 22:13:13.281594
+Existing_entries: 58
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+append_entries: 0
+Finish: 2024-11-13 22:13:17.794095
