@@ -4,18 +4,17 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>数学运算出题器</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1981184</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1981184</guid>
 <content:encoded><![CDATA[
-
 昨天老师群里发题发错了，让家长自己出题。。嗯大概就是这个意思吧，
 然后上网也找了找，吾爱里也有，但是总感觉哪里不合适，就自己写了个，发上来，有需要的自己来吧
 一贯的风格，绿色，不需要联网
 傻瓜式使用，不用 ...
 ]]></content:encoded>
-<pubDate>Wed, 13 Nov 2024 03:53:45 +0000</pubDate>
 <pubDate>Wed, 13 Nov 2024 03:53:45 +0000</pubDate>
 </item>
 <item>
@@ -23,7 +22,6 @@
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980303</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1980303</guid>
 <content:encoded><![CDATA[
-
 如有侵权，请版主删帖。
 如果不符发布区规则，请移动到符合区或删帖，敬请告知。
 
@@ -33,19 +31,16 @@
 禁止商用，违者必究！ ...
 ]]></content:encoded>
 <pubDate>Mon, 11 Nov 2024 13:46:48 +0000</pubDate>
-<pubDate>Mon, 11 Nov 2024 13:46:48 +0000</pubDate>
 </item>
 <item>
 <title>[开源，免费]网易云单曲下载工具</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1979934</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1979934</guid>
 <content:encoded><![CDATA[
-
 [md]##### 本工具是一个基于 PyQt5 的桌面应用程序，专门用于下载网易云音乐的单曲。你只需输入网易云音乐的歌曲 ID，选择所需音质，并提供 MUSIC_U cookie，即可轻松下载心仪的歌曲。  
   
 ##### 本工具参考并改编自 [Suxiaoqinx 的项目](https://github.com/Suxiaoq ...
 ]]></content:encoded>
-<pubDate>Sun, 10 Nov 2024 03:33:15 +0000</pubDate>
 <pubDate>Sun, 10 Nov 2024 03:33:15 +0000</pubDate>
 </item>
 <item>
@@ -53,14 +48,11 @@
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1977897</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1977897</guid>
 <content:encoded><![CDATA[
-
 现在大家对食品的安全越来越重视了，但是有时候让我们自己看配料表，也分辨不出好坏。推荐一款宝藏app-成分喵，有无风险一扫便知。
 软件完全免费，纯净无广告，不用登录就能使用，提供三种查询方式，分别是拍照查成分、 ...
 ]]></content:encoded>
 <pubDate>Sat, 02 Nov 2024 09:23:27 +0000</pubDate>
-<pubDate>Sat, 02 Nov 2024 09:23:27 +0000</pubDate>
 </item>
-
 <item>
 <title>[2024/11/13]Windows Defender Remover v12.8.1 汉化版</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1981047</link>
@@ -13953,61 +13945,6 @@ Hasleo Backup Suite 是一款免费的 Windows 备份和恢复软件，支持备
 [*]全面备份：允许用户对整个系统、特定磁 ...
 ]]></content:encoded>
 <pubDate>Fri, 14 Jun 2024 06:07:17 +0000</pubDate>
-</item>
-<item>
-<title>自用EXCEL拆分工具</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1934330</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1934330</guid>
-<content:encoded><![CDATA[
-公司有个对比数据的文档，要拆分很多单位，背对背发送，每次要浪费很多时间。
-闲来无事，开发代码不太会，用AI训练了很久才训练好。
-只是一个简单的excel拆分软件，是一次性把excel中所有的sheet都拆分，并且按照列分组 ...
-]]></content:encoded>
-<pubDate>Thu, 13 Jun 2024 08:11:53 +0000</pubDate>
-</item>
-<item>
-<title>win7电脑wifi热点</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1934318</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1934318</guid>
-<content:encoded><![CDATA[
-win7电脑wifi热点
-
-
-很多人知道手机可以开热点，却不知道电脑也可以开热点。
-win10系统自带了该功能，而win7没有，但是可以通过运行CMD命令开启。
-开启热点需要两个条件：
-1、无线网卡，而且是具有发射功能的。
-   ...
-]]></content:encoded>
-<pubDate>Thu, 13 Jun 2024 07:48:55 +0000</pubDate>
-</item>
-<item>
-<title>广告跳过 GKD 1.8.0 beta 1</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1934089</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1934089</guid>
-<content:encoded><![CDATA[
-GKD是一个基于 无障碍 + 高级选择器 + 订阅规则 的自定义屏幕点击 APP；
-项目地址：https://github.com/gkd-kit/gkd
-
-
-GKD官方教程：https://gkd.li/guide/
-
-
-订阅规则可使用： https://github.com/AIsouler/GKD_ ...
-]]></content:encoded>
-<pubDate>Wed, 12 Jun 2024 14:28:41 +0000</pubDate>
-</item>
-<item>
-<title>视频批量横转竖</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1934049</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1934049</guid>
-<content:encoded><![CDATA[
-简介
-视频处理器 v1.3 是一款由是貔貅呀开发的视频编辑和处理工具，提供高效便捷的视频批量横转竖，主要功能：
-[*]导入与删除文件：轻松导入多个视频文件，删除不必要的文件。
-[*]暂停与继续处理：随时暂停和继续处理 ...
-]]></content:encoded>
-<pubDate>Wed, 12 Jun 2024 12:10:42 +0000</pubDate>
 </item>
 </channel>
 </rss>
