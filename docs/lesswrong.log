@@ -11928,3 +11928,9 @@ Summarized using GPT-3.5-turbo
 Append: [The Packaging and the Payload](https://www.lesswrong.com/posts/wbmfGYrAKW7qyDWHT/the-packaging-and-the-payload)
 append_entries: 1
 Finish: 2024-11-12 22:12:34.772673
+------------------------------------------------------
+Started: 2024-11-13 00:58:11.658134
+Existing_entries: 397
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-13 00:58:12.291839

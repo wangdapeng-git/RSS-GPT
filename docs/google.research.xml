@@ -4,6 +4,20 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+<item>
+<title>Towards a unified model for predicting human responses to diverse visual content</title>
+<link>https://storage.googleapis.com/gweb-research2023-media/original_images/UniAR-0-Hero.png</link>
+<guid>https://storage.googleapis.com/gweb-research2023-media/original_images/UniAR-0-Hero.png</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 文章, 中文, 总结, 要点, 输出
+
+总结:
+文章提出了要用中文总结一篇文章的方法，首先提取关键词，然后用中文写出一个包含所有要点的总结。这种方法可以帮助读者快速了解文章的主要内容，提高阅读效率。输出格式要按照指定格式进行，确保清晰可读。通过这种方法，读者可以更快地掌握文章的要点，节省时间和精力。<br><br>总结:文章总结技巧包括提取关键词、写清要点，以及按指定格式输出，有助于提高阅读效率。 <div>
+
+]]></content:encoded>
+<pubDate>2024-11-12T00:00:00+00:00</pubDate>
+<pubDate>2024-11-13T00:58:18.470812+00:00</pubDate>
+</item>
 
 <item>
 <title>Generating zero-shot personalized portraits</title>
