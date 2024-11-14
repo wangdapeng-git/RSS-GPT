@@ -4,6 +4,7 @@
 <title>ByteByteGo Newsletter</title>
 <link>https://blog.bytebytego.com</link>
 
+
 <item>
 <title>Speedrunning Guide: Junior to Staff Engineer in 3 years</title>
 <link>https://blog.bytebytego.com/p/speedrunning-guide-junior-to-staff</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> 软件工程级别, 晋升, 算法, 快速晋升, 关键要点
 
-软件工程师在职业发展中要时刻考虑如何获得晋升，不能只是单纯写代码而不加思考。作者分享了自己在Meta上升到Staff Engineer的经验，强调要有正确的思维方式和采取关键举措。在职业晋升的道路上，不仅要提升编码能力，还需战略思考并发展新行为。这篇文章详细介绍了如何快速晋升，从Junior到Mid-level再到Senior，以及最终达到Staff级别。作者强调运气也是一部分因素，最后总结指出要坚持努力，自信地迈向职业成功。<br><br>总结:软件工程师需要战略思考和行动，不仅提升编码能力，还要追求快速晋升，坚持努力并相信自己，才能实现职业成功。 <div>
+软件工程师在职业发展中要时刻考虑如何获得晋升，不能只是单纯写代码而不加思考。作者分享了自己在Meta上升到Staff Engineer的经验，强调要有正确的思维方式和采取关键举措。在职业晋升的道路上，不仅要提升编码能力，还需战略思考并发展新行为。这篇文章详细介绍了如何快速晋升，从Junior到Mid-level再到Senior，以及最终达到Staff级别。作者强调运气也是一部分因素，最后总结指出要坚持努力，自信地迈向职业成功。<br /><br />总结:软件工程师需要战略思考和行动，不仅提升编码能力，还要追求快速晋升，坚持努力并相信自己，才能实现职业成功。 <div>
 <p>This is a guest newsletter by <a href="https://www.linkedin.com/in/ryanlpeterman/">Ryan Peterman</a>, who was promoted from Junior to Staff Engineer in 3 years at Meta.</p><div><hr /></div><p>Once you land that first software engineering job, the next big question becomes: how do you get promoted? Many engineers fall into the day-to-day routine of writing code without a clear idea of how to grow their careers.</p><p>This happened to me. At my first job at Amazon, I landed code without knowing what I could do to grow my skills. I left that job within eight months because I felt I wasn&#8217;t growing as an engineer. Three years later, I made it to Staff Software Engineer at Instagram after tons of mentorship. Early on, I learned that being good at coding wasn&#8217;t enough to get promoted; you have to think strategically about your career and often need to develop new behaviors to move up.</p><p>In this article, I&#8217;ll share everything that helped me fast-track my way up the ladder, from developing the right mindset to making key moves that many overlook. Even if rapid growth isn&#8217;t your goal, this guide has learnings for all tech career paths.</p><p>In this guide:</p><ul><li><p>Software Engineering Levels</p></li><li><p>An Algorithm for Promotion</p></li><li><p>Junior (IC3) &#8594; Mid-level (IC4)</p></li><li><p>Mid-level (IC4) &#8594; Senior (IC5)</p></li><li><p>Senior (IC5) &#8594; Staff (IC6)</p></li><li><p>Luck &amp; Parting Words</p></li></ul><h3>Software Engineering Levels</h3><p><em>Note: &#8220;IC&#8221; = &#8220;Individual Contributor&#8221;</em></p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-imag" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7204dce7-1f70-467b-a9a6-213705486568_2586x668.png" target="_blank"><div class="image2-inset"><source type="image/webp" /><img alt="" class="sizing-normal" height="376" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7204dce7-1f70-467b-a9a6-213705486568_2586x668.png" width="1456" /><div class="image-link-expand"><svg class="lucide lucide-maximize2" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" x2="14" y1="3" y2="10"></line><line x1="3" x2="10" y1="21" y2="14"></line></svg></div></div></a></figure></div>
       <p>
           <a href="https://blog.bytebytego.com/p/speedrunning-guide-junior-to-staff">
@@ -20,9 +21,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Thu, 14 Nov 2024 16:30:09 GMT</pubDate>
-<pubDate>Thu, 14 Nov 2024 16:30:09 GMT</pubDate>
 </item>
-
 <item>
 <title>Storing 200 Billion Entities: Notion’s Data Lake Project</title>
 <link>https://blog.bytebytego.com/p/storing-200-billion-entities-notions</link>
