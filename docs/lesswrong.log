@@ -12015,3 +12015,9 @@ Summarized using GPT-3.5-turbo
 Append: [Neutrality](https://www.lesswrong.com/posts/WxnuLJEtRzqvpbQ7g/neutrality)
 append_entries: 1
 Finish: 2024-11-14 02:45:44.073801
+------------------------------------------------------
+Started: 2024-11-14 04:16:53.410761
+Existing_entries: 398
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-14 04:16:53.995766
