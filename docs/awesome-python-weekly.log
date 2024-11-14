@@ -11629,3 +11629,12 @@ Existing_entries: 35
 Fetching from https://python.libhunt.com/newsletter/feed
 append_entries: 0
 Finish: 2024-11-14 20:14:39.643539
+------------------------------------------------------
+Started: 2024-11-14 22:13:28.626564
+Existing_entries: 35
+Fetching from https://python.libhunt.com/newsletter/feed
+Token length: 74
+Summarized using GPT-3.5-turbo
+Append: [🐍 Issue 442 - Using Ghidra and Python to reverse engineer Ecco the Dolphin](https://python.libhunt.com/newsletter/442)
+append_entries: 1
+Finish: 2024-11-14 22:13:31.689823

@@ -4,6 +4,20 @@
 <title>Awesome Python Weekly</title>
 <link>https://python.libhunt.com/newsletter</link>
 
+<item>
+<title>🐍 Issue 442 - Using Ghidra and Python to reverse engineer Ecco the Dolphin</title>
+<link>https://python.libhunt.com/newsletter/442</link>
+<guid>https://python.libhunt.com/newsletter/442</guid>
+<content:encoded><![CDATA[
+<div> Ghidra, Python, reverse engineering, Ecco the Dolphin, techniques <br>
+<br>
+总结:<br>
+本文介绍了如何使用Ghidra和Python工具对游戏Ecco the Dolphin进行逆向工程。作者分享了一些技巧和方法，包括使用Ghidra进行分析和反汇编，以及如何使用Python脚本自动化某些任务。通过这些工具和技术，读者可以深入理解游戏的内部结构和功能，从而进行更深入的研究和分析。文章指导读者如何利用这些工具和技术来解密游戏的代码，揭示其中的奥秘并改进游戏体验。如果您对游戏逆向工程和代码分析感兴趣，本文提供了一些有用的技巧和方法供您参考。 <div>
+🐍 Issue 442 - Using Ghidra and Python to reverse engineer Ecco the Dolphin
+]]></content:encoded>
+<pubDate>Thu, 14 Nov 2024 13:42:00 -0800</pubDate>
+<pubDate>Thu, 14 Nov 2024 13:42:00 -0800</pubDate>
+</item>
 
 <item>
 <title>🐍 Issue 441 - 9 open-source AI coding tools that every developer should know 🎯</title>
