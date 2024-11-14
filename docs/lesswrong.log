@@ -12030,3 +12030,9 @@ Summarized using GPT-3.5-turbo
 Append: [What Ketamine Therapy Is Like](https://www.lesswrong.com/posts/zgAws2AoFE3adigvy/what-ketamine-therapy-is-like)
 append_entries: 1
 Finish: 2024-11-14 06:18:21.985541
+------------------------------------------------------
+Started: 2024-11-14 08:17:36.014095
+Existing_entries: 399
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-14 08:17:36.525773
