@@ -12141,3 +12141,15 @@ Existing_entries: 400
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-15 18:17:14.552980
+------------------------------------------------------
+Started: 2024-11-15 20:14:57.857827
+Existing_entries: 400
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 14846
+Summarized using GPT-3.5-turbo
+Append: [Making a conservative case for alignment](https://www.lesswrong.com/posts/rfCEWuid7fXxz4Hpa/making-a-conservative-case-for-alignment)
+Token length: 543
+Summarized using GPT-3.5-turbo
+Append: [Gwern Branwen interview on Dwarkesh Patel’s podcast: “How an Anonymous Researcher Predicted AI's Trajectory”](https://www.lesswrong.com/posts/6Nzk7gB8RgMAfgTev/gwern-branwen-interview-on-dwarkesh-patel-s-podcast-how-an)
+append_entries: 2
+Finish: 2024-11-15 20:15:05.355738
