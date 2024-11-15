@@ -4,6 +4,35 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>The Real Python Podcast – Episode #228: Maintaining the Foundations of Python &amp; Cautionary Tales</title>
+<link>https://realpython.com/podcasts/rpp/228/</link>
+<guid>https://realpython.com/podcasts/rpp/228/</guid>
+<content:encoded><![CDATA[
+<div> Python, open-source, community, funding, lessons
+
+Python语言作为一个开源项目，其持续发展和社区建设是其成功的重要因素。通过与JetBrains的Paul Everitt讨论，我们了解到了如何在开源项目和社区中实现可持续发展。从Python的历史和WordPress社区目前面临的困境中，我们可以学到很多经验教训。重点在于如何有效管理开源项目的资金和资源，建立积极的社区氛围。Python Software Foundation的成立标志着Python社区不断壮大和成熟。通过学习这些经验，我们可以更好地规划和管理开源项目和社区，确保其长期发展和成功。<br><br>总结: 通过Python及WordPress社区的例子，探讨了开源项目与社区的可持续发展之道，重点在于有效管理资源和建立积极社区氛围，Python Software Foundation的成立是一个成功的案例。 <div>
+<p>How do you build a sustainable open-source project and community? What lessons can be learned from Python's history and the current mess that the WordPress community is going through? This week on the show, we speak with Paul Everitt from JetBrains about navigating open-source funding and the start of the Python Software Foundation.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-11-15T12:00:00+00:00</pubDate>
+</item>
+<item>
+<title>Quiz: Basic Input and Output in Python</title>
+<link>https://realpython.com/quizzes/python-input-output/</link>
+<guid>https://realpython.com/quizzes/python-input-output/</guid>
+<content:encoded><![CDATA[
+<div> input() print() readline 输出格式化 使用<br><br>总结: 本文介绍了如何使用Python内置函数input()和print()进行操作，以及如何使用readline来改善用户体验。同时还讨论了如何使用print()函数的sep和end关键字参数来格式化输出。学习这些技巧可以帮助提高Python编程的效率和用户交互体验。 <div>
+<p>In this quiz, you&rsquo;ll test your understanding of how to use Python&rsquo;s built-in functions <code>input()</code> and <code>print()</code> for <a href="https://realpython.com/python-input-output/">basic input and output</a> operations.</p>
+<p>You&rsquo;ll also revisit how to use <code>readline</code> to improve the user experience when collecting input, and how to format output using the <code>sep</code> and <code>end</code> keyword arguments of <code>print()</code>.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-11-13T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Python Dictionary Comprehensions: How and When to Use Them</title>
