@@ -28228,3 +28228,17 @@ Filter: [易采集EasySpider：无代码可视化爬虫 0.6.2 开源](https://ww
 Filter: [腾讯聊天软件 TIM 4.0.95.4002 （新增深色模式）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1978264)
 append_entries: 0
 Finish: 2024-11-15 02:53:47.410238
+------------------------------------------------------
+Started: 2024-11-15 04:15:51.475670
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Append: [朋友圈文案控4.0 每日文案 不再为发圈发愁](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1981963)
+Append: [名字抽签器------年会-点名-抽奖应该都能用得上！！](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1981777)
+Filter: [恢复QQ空间内容小工具 Ver:1.0.2](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1981760)
+Append: [录屏和直播软件OBS Studio 30.2.3下载及使用教程](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1981225)
+Append: [HD Video Converter Factory PRO_v27.8.0【日常更新】](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980667)
+Filter: [记一次二房东智能电表的白嫖之路](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980475)
+Filter: [一键AI证件照制作工具 HivisionIDPhotos v1.2.9，支持自定义部署（新增功能改进）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980263)
+Filter: [eMule电驴v0.70b绿色版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979581)
+append_entries: 4
+Finish: 2024-11-15 04:15:54.187880
