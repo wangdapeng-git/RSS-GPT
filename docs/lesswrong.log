@@ -12153,3 +12153,9 @@ Summarized using GPT-3.5-turbo
 Append: [Gwern Branwen interview on Dwarkesh Patel’s podcast: “How an Anonymous Researcher Predicted AI's Trajectory”](https://www.lesswrong.com/posts/6Nzk7gB8RgMAfgTev/gwern-branwen-interview-on-dwarkesh-patel-s-podcast-how-an)
 append_entries: 2
 Finish: 2024-11-15 20:15:05.355738
+------------------------------------------------------
+Started: 2024-11-15 22:13:27.656924
+Existing_entries: 402
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-15 22:13:27.963606
