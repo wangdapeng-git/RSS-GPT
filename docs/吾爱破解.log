@@ -28219,3 +28219,12 @@ Filter: [易采集EasySpider：无代码可视化爬虫 0.6.2 开源](https://ww
 Filter: [腾讯聊天软件 TIM 4.0.95.4002 （新增深色模式）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1978264)
 append_entries: 0
 Finish: 2024-11-15 01:01:11.507379
+------------------------------------------------------
+Started: 2024-11-15 02:53:45.244713
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [发票闪印 3.2.11 作者官网的最新版本](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1981235)
+Filter: [易采集EasySpider：无代码可视化爬虫 0.6.2 开源](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980141)
+Filter: [腾讯聊天软件 TIM 4.0.95.4002 （新增深色模式）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1978264)
+append_entries: 0
+Finish: 2024-11-15 02:53:47.410238
