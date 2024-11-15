@@ -8983,3 +8983,9 @@ Summarized using GPT-3.5-turbo
 Append: [Insights into population dynamics: A foundation model for geospatial inference](https://storage.googleapis.com/gweb-research2023-media/original_images/GeoFM-0-Hero.png)
 append_entries: 1
 Finish: 2024-11-14 22:13:50.182058
+------------------------------------------------------
+Started: 2024-11-15 01:02:02.842519
+Existing_entries: 59
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+append_entries: 0
+Finish: 2024-11-15 01:02:07.188359
