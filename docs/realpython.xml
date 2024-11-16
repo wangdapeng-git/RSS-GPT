@@ -4,6 +4,152 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Using the len() Function in Python</title>
+<link>https://realpython.com/len-python-function/</link>
+<guid>https://realpython.com/len-python-function/</guid>
+<content:encoded><![CDATA[
+<div> len()、Python、数据类型、序列、容器
+len()函数是Python中的一个内置函数，用于返回对象的长度。它可以用于不同的数据类型，如字符串、列表或字典。可以使用len()获取字符串、列表、元组和range对象等序列数据类型的长度。在使用len()时，对于大多数数据类型，函数的时间复杂度是常数时间O(1)，因为它访问对象的长度属性。总结: len()函数是Python中的内置函数，用于获取对象的长度，可用于各种数据类型，包括字符串、列表、元组和range对象等序列数据类型。它的时间复杂度通常是常数时间O(1)。通过实践，掌握len()可以让你更好地理解Python的数据结构，编写更强大、更灵活的程序。 <div>
+<div><p>The <code>len()</code> function in Python is a powerful and efficient tool used to determine the number of items in objects, such as sequences or collections. You can use <code>len()</code> with various data types, including strings, lists, dictionaries, and third-party types like NumPy arrays and pandas DataFrames. Understanding how <code>len()</code> works with different data types helps you write more efficient and concise Python code.</p>
+<p>Using <code>len()</code> in Python is straightforward for built-in types, but you can extend it to your custom classes by implementing the <code>.__len__()</code> method. This allows you to customize what <em>length</em> means for your objects. For example, with pandas DataFrames, <code>len()</code> returns the number of rows. Mastering <code>len()</code> not only enhances your grasp of Python’s data structures but also empowers you to craft more robust and adaptable programs.</p>
+<p><strong>By the end of this tutorial, you’ll understand that:</strong></p>
+<ul>
+<li>The <code>len()</code> function in Python returns the number of items in an object, such as strings, lists, or dictionaries.</li>
+<li>To get the length of a string in Python, you use <code>len()</code> with the string as an argument, like <code>len("example")</code>.</li>
+<li>To find the length of a list in Python, you pass the list to <code>len()</code>, like <code>len([1, 2, 3])</code>.</li>
+<li>The <code>len()</code> function operates in constant time, <em>O(1)</em>, as it accesses a length attribute in most cases.</li>
+</ul>
+<p>In this tutorial, you’ll learn when to use the <code>len()</code> Python function and how to use it effectively. You’ll discover which built-in data types are valid arguments for <code>len()</code> and which ones you can’t use. You’ll also learn how to use <code>len()</code> with third-party types like <code>ndarray</code> in <a href="https://realpython.com/numpy-tutorial/">NumPy</a> and <code>DataFrame</code> in <a href="https://realpython.com/pandas-python-explore-dataset/">pandas</a>, and with your own classes.</p>
+<div class="alert alert-warning"><p><strong>Free Bonus:</strong> <a class="alert-link" href="">Click here to get a Python Cheat Sheet</a> and learn the basics of Python 3, like working with data types, dictionaries, lists, and Python functions.</p></div>
+
+<h2 id="getting-started-with-pythons-len">Getting Started With Python’s <code>len()</code><a class="headerlink" href="#getting-started-with-pythons-len" title="Permanent link"></a></h2>
+<p>The function <a href="https://docs.python.org/3.9/library/functions.html?highlight=len#len"><code>len()</code></a> is one of Python’s built-in functions. It returns the length of an object. For example, it can return the number of items in a list. You can use the function with many different data types. However, not all data types are valid arguments for <code>len()</code>.</p>
+<p>You can start by looking at the help for this function:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">help</span><span class="p">(</span><span class="nb">len</span><span class="p">)</span>
+<span class="go">Help on built-in function len in module builtins:</span>
+<span class="go">len(obj, /)</span>
+<span class="go">    Return the number of items in a container.</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The function takes an object as an argument and returns the length of that object. The <a href="https://docs.python.org/3/library/functions.html?highlight=len#len">documentation</a> for <code>len()</code> goes a bit further:</p>
+<blockquote>
+<p>Return the length (the number of items) of an object. The argument may be a sequence (such as a string, bytes, tuple, list, or range) or a collection (such as a dictionary, set, or frozen set). (<a href="https://docs.python.org/3/library/functions.html?highlight=len#len">Source</a>)</p>
+</blockquote>
+<p>When you use built-in data types and many third-party types with <code>len()</code>, the function doesn’t need to iterate through the data structure. The length of a container object is stored as an attribute of the object. The value of this attribute is modified each time items are added to or removed from the data structure, and <code>len()</code> returns the value of the length attribute. This ensures that <code>len()</code> works efficiently.</p>
+<p>In the following sections, you’ll learn about how to use <code>len()</code> with sequences and collections. You’ll also learn about some data types that you cannot use as arguments for the <code>len()</code> Python function.</p>
+<h3 id="using-len-with-built-in-sequences">Using <code>len()</code> With Built-in Sequences<a class="headerlink" href="#using-len-with-built-in-sequences" title="Permanent link"></a></h3>
+<p>A <strong>sequence</strong> is a container with ordered items. <a href="https://realpython.com/python-lists-tuples/">Lists, tuples</a>, and <a href="https://realpython.com/python-strings/">strings</a> are three of the basic built-in sequences in Python. You can find the length of a sequence by calling <code>len()</code>:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">greeting</span> <span class="o">=</span> <span class="s2">"Good Day!"</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="n">greeting</span><span class="p">)</span>
+<span class="go">9</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">office_days</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Tuesday"</span><span class="p">,</span> <span class="s2">"Thursday"</span><span class="p">,</span> <span class="s2">"Friday"</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="n">office_days</span><span class="p">)</span>
+<span class="go">3</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">london_coordinates</span> <span class="o">=</span> <span class="p">(</span><span class="mf">51.50722</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.1275</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="n">london_coordinates</span><span class="p">)</span>
+<span class="go">2</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>When finding the length of the string <code>greeting</code>, the list <code>office_days</code>, and the tuple <code>london_coordinates</code>, you use <code>len()</code> in the same manner. All three data types are valid arguments for <code>len()</code>.</p>
+<p>The function <code>len()</code> always returns an integer as it’s counting the number of items in the object that you pass to it. The function returns <code>0</code> if the argument is an empty sequence:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="s2">""</span><span class="p">)</span>
+<span class="go">0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">([])</span>
+<span class="go">0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(())</span>
+<span class="go">0</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In the examples above, you find the length of an empty string, an empty list, and an empty tuple. The function returns <code>0</code> in each case.</p>
+<p>A <code>range</code> object is also a sequence that you can create using <a href="https://realpython.com/python-range/"><code>range()</code></a>. A <code>range</code> object doesn’t store all the values but generates them when they’re needed. However, you can still find the length of a <code>range</code> object using <code>len()</code>:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span>
+<span class="go">10</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>This range of numbers includes the integers from <code>1</code> to <code>19</code> with increments of <code>2</code>. The length of a <code>range</code> object can be determined from the start, stop, and step values.</p>
+<p>In this section, you’ve used the <code>len()</code> Python function with strings, lists, tuples, and <code>range</code> objects. However, you can also use the function with any other built-in sequence.</p>
+</div><h2><a href="https://realpython.com/len-python-function/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/len-python-function/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-11-16T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Quiz: Namespaces and Scope in Python</title>

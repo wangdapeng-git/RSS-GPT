@@ -12213,3 +12213,9 @@ Summarized using GPT-3.5-turbo
 Append: [Ayn Rand’s model of “living money”; and an upside of burnout](https://www.lesswrong.com/posts/xtuk9wkuSP6H7CcE2/ayn-rand-s-model-of-living-money-and-an-upside-of-burnout)
 append_entries: 1
 Finish: 2024-11-16 14:11:37.119245
+------------------------------------------------------
+Started: 2024-11-16 16:15:46.420347
+Existing_entries: 404
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-16 16:15:46.841312
