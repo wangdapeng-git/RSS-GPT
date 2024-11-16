@@ -28361,3 +28361,17 @@ Filter: [腾讯聊天软件 TIM 4.0.95.4002 （新增深色模式）](https://ww
 Filter: [百度地图车机版v20.8.2 内测版 纯净无广告](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1977973)
 append_entries: 0
 Finish: 2024-11-16 00:59:30.240510
+------------------------------------------------------
+Started: 2024-11-16 02:50:56.358139
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [微信数据库解密 - wechat-dump-rsv v1.0.16 （支持微信4.x、3.x两种版本）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1982130)
+Filter: [恢复QQ空间内容小工具 Ver:1.0.2](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1981760)
+Filter: [开源免费翻译工具STranslate v1.2.7.1110绿色版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980827)
+Filter: [记一次二房东智能电表的白嫖之路](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980475)
+Filter: [一键AI证件照制作工具 HivisionIDPhotos v1.2.9，支持自定义部署（新增功能改进）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980263)
+Filter: [微软常用运行库合集 2024.11.07](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979213)
+Filter: [腾讯聊天软件 TIM 4.0.95.4002 （新增深色模式）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1978264)
+Filter: [百度地图车机版v20.8.2 内测版 纯净无广告](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1977973)
+append_entries: 0
+Finish: 2024-11-16 02:50:59.194041
