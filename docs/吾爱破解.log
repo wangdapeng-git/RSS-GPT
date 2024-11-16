@@ -28480,3 +28480,18 @@ Filter: [【Flightradar24】10.2.0 原创汉化版 全球飞机飞行数据查�
 Filter: [百度地图车机版v20.8.2 内测版 纯净无广告](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1977973)
 append_entries: 0
 Finish: 2024-11-16 18:15:22.748767
+------------------------------------------------------
+Started: 2024-11-16 20:12:56.853450
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Append: [威尔克姆中文 Wilcom ES e4.2H 刺绣设计和生产软件](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1982272)
+Filter: [微信数据库解密 - wechat-dump-rsv v1.0.16 （支持微信4.x、3.x两种版本）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1982130)
+Append: [【卡卡字幕助手】LLM 智能视频字幕助手，支持生成、断句、优化、翻译、视频合成全流程](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1981477)
+Filter: [开源免费翻译工具STranslate v1.2.7.1110绿色版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980827)
+Filter: [记一次二房东智能电表的白嫖之路](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980475)
+Filter: [一键AI证件照制作工具 HivisionIDPhotos v1.2.9，支持自定义部署（新增功能改进）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980263)
+Filter: [【Flightradar24】10.2.0 原创汉化版 全球飞机飞行数据查询](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979972)
+Filter: [微软常用运行库合集 2024.11.07](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979213)
+Filter: [腾讯聊天软件 TIM 4.0.95.4002 （新增深色模式）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1978264)
+append_entries: 2
+Finish: 2024-11-16 20:12:59.747679
