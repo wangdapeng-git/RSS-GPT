@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Using the len() Function in Python</title>
 <link>https://realpython.com/len-python-function/</link>
@@ -147,10 +148,8 @@ len()函数是Python中的一个内置函数，用于返回对象的长度。它
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-16T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Quiz: Namespaces and Scope in Python</title>
 <link>https://realpython.com/quizzes/python-namespaces-scope/</link>
