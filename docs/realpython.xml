@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Quiz: Namespaces and Scope in Python</title>
 <link>https://realpython.com/quizzes/python-namespaces-scope/</link>
 <guid>https://realpython.com/quizzes/python-namespaces-scope/</guid>
 <content:encoded><![CDATA[
 <div> Python, namespaces, symbolic names, objects, variable scope
-<br>
+<br />
 命名空间是Python中组织符号名称和对象的方式，Python在创建新命名空间时会如何操作，命名空间是如何实现的，变量作用域决定了符号名称的可见性。总结: Python中的命名空间是一种组织符号名称和对象的机制，Python会在特定情况下创建新的命名空间，命名空间的实现方式包括作用域链和字典等，变量的作用域决定了符号名称在代码中的可见性。通过理解Python的命名空间机制，我们可以更好地管理符号名称和对象，提高代码的可读性和维护性。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of
 <a href="https://realpython.com/python-namespaces-scope/">Python Namespaces and Scope</a>.</p>
@@ -18,10 +19,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-14T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>The Real Python Podcast – Episode #228: Maintaining the Foundations of Python &amp; Cautionary Tales</title>
 <link>https://realpython.com/podcasts/rpp/228/</link>
