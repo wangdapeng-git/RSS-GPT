@@ -4,12 +4,12 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>威尔克姆中文 Wilcom ES e4.2H 刺绣设计和生产软件</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1982272</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1982272</guid>
 <content:encoded><![CDATA[
-
 威尔克姆中文 Wilcom ES e4.2H
 一款专业的刺绣设计和生产软件,用于创建和编辑刺绣图案。
 
@@ -18,14 +18,12 @@
 链接：https://pan.baidu.com/s/1DPXkq6fHfah0OK39W8hCoA?pwd=123 ...
 ]]></content:encoded>
 <pubDate>Fri, 15 Nov 2024 12:39:58 +0000</pubDate>
-<pubDate>Fri, 15 Nov 2024 12:39:58 +0000</pubDate>
 </item>
 <item>
 <title>【卡卡字幕助手】LLM 智能视频字幕助手，支持生成、断句、优化、翻译、视频合成全流程</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1981477</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1981477</guid>
 <content:encoded><![CDATA[
-
 [md]## &amp;#128214; 介绍
 
 卡卡字幕助手（VideoCaptioner）是一款功能强大的视频字幕配制软件。操作简单且无需高配置，利用大语言模型进行字幕智能断句、校正、优化、翻译，一键为视频配上效果惊艳的字幕。
@@ -33,9 +31,7 @@
 - &amp;#127919; 可使用强大的语音识别引擎，核显也可以使用， ...
 ]]></content:encoded>
 <pubDate>Wed, 13 Nov 2024 14:44:31 +0000</pubDate>
-<pubDate>Wed, 13 Nov 2024 14:44:31 +0000</pubDate>
 </item>
-
 <item>
 <title>Yolo人脸检测裁剪工具，适用各平台人脸设备</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1982230</link>
@@ -13960,40 +13956,6 @@ TidGi-Desktop ...
 Process Monitor 是一款由 Sysinternals 公司开发的包含强大的监视和过滤功能的高级 Windows 监视工具，可实时显示文件系统、注册表、进程/线程的活动。它结合了两个 Sysinternals 的旧版工具 Filemon 和 Regmon 的功能 ...
 ]]></content:encoded>
 <pubDate>Wed, 19 Jun 2024 13:20:39 +0000</pubDate>
-</item>
-<item>
-<title>自制双路黑苹果EFI及各类配置EFI整合</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1932555</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1932555</guid>
-<content:encoded><![CDATA[
-最近闲来无事，想做个黑苹果玩玩，之前都是白苹果加vm虚拟机，第一次在主机上装黑苹果，找资料发现市面上很多定制EFI居然要钱！！实在不能理解，于是自己找了些资料自制了一个efi
-本机配置如下：
-
-需要说明一下，网卡选用的是博通94360cs2，转接板接入m.2 nv接口（左 ...
-]]></content:encoded>
-<pubDate>Fri, 07 Jun 2024 07:29:05 +0000</pubDate>
-</item>
-<item>
-<title>最新发布One 6.6.1 一键安装版 混音编曲软件 WIN</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1933301</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1933301</guid>
-<content:encoded><![CDATA[
-详细介绍
-新功能和改进：
-
-
-支持新的PreSonus Quantum ES和HD系列
-基于网络的MyPreSonus登录
-改进了从控制台到排列的效果移动的修改器行为
-[杜比全景声] 支持读取、写入和渲染5.1.4修剪
-
-
-已修复的问题：
-
-
- ...
-]]></content:encoded>
-<pubDate>Mon, 10 Jun 2024 08:23:40 +0000</pubDate>
 </item>
 </channel>
 </rss>
