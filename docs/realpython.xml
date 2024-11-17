@@ -4,15 +4,16 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Using the Python zip() Function for Parallel Iteration</title>
 <link>https://realpython.com/python-zip-function/</link>
 <guid>https://realpython.com/python-zip-function/</guid>
 <content:encoded><![CDATA[
 <div> zip()、iterables、tuples、dictionaries、lazy
-<br>
+<br />
 zip()函数在Python中将来自多个可迭代对象的元素合并成元组，在处理多个序列时非常有效。dict(zip())可以通过将键和值从两个序列配对来创建字典。zip()在Python中是惰性的，意味着它返回一个迭代器而不是一个列表。虽然Python中没有unzip()函数，但可以使用解包操作符*来反转这个过程。zip_longest()是处理长度不等的可迭代对象的替代方法。zip()函数的标志是zip(*iterables, strict=False)。调用zip()时，返回一个生成由每个迭代器的元素组成的元组的迭代器。没传入参数时返回一个空的迭代器。通过本教程，你将了解如何使用zip()进行并行迭代以及处理长度不等的可迭代对象，并发现在与字典一起使用zip()时的便利性。对列表、元组或其他数据结构进行操作时，理解zip()函数会提高编码技能和简化Python项目。 
-<br><br>总结:zip()函数可以将多个可迭代对象合并成元组，用于并行迭代和字典创建。通过dict(zip())创建字典，zip()是惰性的，返回迭代器而不是列表。没有unzip()函数，但可以使用解包操作符*进行反转。zip_longest()处理长度不等的可迭代对象。 <div>
+<br /><br />总结:zip()函数可以将多个可迭代对象合并成元组，用于并行迭代和字典创建。通过dict(zip())创建字典，zip()是惰性的，返回迭代器而不是列表。没有unzip()函数，但可以使用解包操作符*进行反转。zip_longest()处理长度不等的可迭代对象。 <div>
 <div><p>Python’s <code>zip()</code> function combines elements from multiple iterables. Calling <code>zip()</code> generates an iterator that yields tuples, each containing elements from the input iterables. This function is essential for tasks like parallel iteration and dictionary creation, offering an efficient way to handle multiple sequences in Python programming.</p>
 <p><strong>By the end of this tutorial, you’ll understand that:</strong></p>
 <ul>
@@ -151,10 +152,8 @@ zip()函数在Python中将来自多个可迭代对象的元素合并成元组，
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-17T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Using the len() Function in Python</title>
 <link>https://realpython.com/len-python-function/</link>

@@ -4,6 +4,204 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-11-17</title>
+<link>https://pythonhub.dev/digest/2024-11-17/</link>
+<guid>https://pythonhub.dev/digest/2024-11-17/</guid>
+<content:encoded><![CDATA[
+<div> Basilisp, ToolGit, PiML, named tuples, Python package deployment
+总结:
+Basilisp 是一个实现了 Clojure 功能的 Python 库，可让用户体验到 Clojure 的乐趣。ToolGit 是一个脚本集合，扩展了 Git 功能。PiML 是 Python 可解释机器学习工具箱。在新的 API 中，应避免使用命名元组，而应选择使用 data classes 或 typed dictionaries。本文分享了使用 GitHub Actions 在 Python 包部署方面的逐步指南。 <div>
+<p class="summary">This week in Python news, Basilisp, a Clojure implementation for Python, and ToolGit, a script collection to extend Git, caught attention. PiML, a Python Interpretable Machine Learning Toolbox, was introduced, and a discussion on avoiding named tuples in new APIs for clearer, more structured code was highlighted. A step-by-step guide on Python package deployment with GitHub Actions was shared. In projects, tinylangs, terminal-tree, and browser-use were notable, while Mesa 3.0 marked a major update to Python's Agent-Based Modeling library. Have a great week and happy coding!</p>
+
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=ruGRHYpq448">Basilisp: Clojure on the Python VM</a></strong>
+    
+        <br /><span>Everyone knows Clojure runs on the JVM and CLR, in Node, and in the browser, but what about Python? Basilisp is a mostly-compatible implementation of Clojure for Python, enabling users who may not be familiar with Java or JavaScript to experience the joy of Clojure.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/ahmetsait/toolgit">ToolGit</a></strong>
+    
+        <br /><span>ToolGit is a collection of scripts that extend Git with various sub-commands to make life easier.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/SelfExplainML/PiML-Toolbox">PiML: Python Interpretable Machine Learning Toolbox</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://snarky.ca/dont-use-named-tuples-in-new-apis/">Don't return named tuples in new APIs</a></strong>
+    
+        <br /><span>Named tuples should generally be avoided in new APIs, as they add unnecessary complexity by supporting both index-based and attribute-based data access, leading to potential misuse and added maintenance. Instead, using options like data classes or typed dictionaries can offer clearer, more structured code with similar benefits.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=NMQwzI9hprg">Step-by-Step Python Package Deployment with GitHub Actions</a></strong>
+    
+        <br /><span>Publishing a Python package doesn't have to be overwhelming! This video walks you through the entire deployment process step-by-step. You'll learn how to automate releases with GitHub Actions and how to successfully publish your package on PyPi.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://www.djangoproject.com/weblog/2024/nov/05/bugfix-release/">Django bugfix release issued: 5.1.3</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/kmarker1101/jeopardy">Jeopardy game using LLM and Python</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.stephendiehl.com/posts/graphrag1/">Tiny GraphRAG (Part 1)</a></strong>
+    
+        <br /><span>A tiny 1000 line implementation of GraphRAG in Python.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://codspeed.io/blog/state-of-python-3-13-performance-free-threading">State of Python 3.13 Performance: Free-Threading</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://reinforcedknowledge.com/a-comprehensive-guide-to-python-project-management-and-packaging-concepts-illustrated-with-uv-part-i/">A Comprehensive Guide to Python Project Management and Packaging: Concepts Illustrated with uv – Part I</a></strong>
+    
+        <br /><span>The goal of this guide is to provide a comprehensive guide to Python project management and packaging. We’ll explore concepts in the standard, like the different tables in pyproject.toml by revisiting the PEPs that led to what we have today. We’ll explain what was used before, why it needed to change, and how the changes provided by the PEPs solved the issues. This walkthrough of the his...</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.dbos.dev/blog/what-is-lightweight-durable-execution">Why Durable Execution Should Be Lightweight</a></strong>
+    
+        <br /><span>How to make your programs crashproof without changing the way they're built.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/crewAIInc/crewAI">crewAIInc / crewAI</a></strong>
+    
+        <br /><span>Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/cjdrake/seqlogic">Python Logic Simulation Library</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-11-10/">Python Hub Weekly Digest for 2024-11-10</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/All-Hands-AI/OpenHands">All-Hands-AI / OpenHands</a></strong>
+    
+        <br /><span>🙌 OpenHands: Code Less, Make More</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/microsoft/TinyTroupe">TinyTroupe, a new LLM-powered multiagent persona simulation Python library</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/zserge/tinylangs/">tinylangs</a></strong>
+    
+        <br /><span>Real programming languages in 50 lines of code.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/willmcgugan/terminal-tree">terminal-tree</a></strong>
+    
+        <br /><span>An experimental filesystem navigator for the terminal, built with Textual.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/gregpr07/browser-use">browser-use</a></strong>
+    
+        <br /><span>Open-Source Web Automation library with any LLM.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/kvankova/code-embedder">code-embedder</a></strong>
+    
+        <br /><span>Keep your code snippets in README up-to-date!</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Standard-Intelligence/hertz-dev">hertz-dev</a></strong>
+    
+        <br /><span>First base model for full-duplex conversational audio.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Integuru-AI/Integuru">Integuru</a></strong>
+    
+        <br /><span>The first AI agent that builds third-party integrations through reverse engineering platforms' internal APIs.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/facebookresearch/digit360">digit360</a></strong>
+    
+        <br /><span>Digit 360 is a modular platform that unlocks new capabilities, and enables future research on the nature of touch.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/deedy/mac_computer_use">mac_computer_use</a></strong>
+    
+        <br /><span>A fork of Anthropic Computer Use that you can run on Mac computers to give Claude and other AI models autonomous access to your computer.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/lmstudio-ai/venvstacks">venvstacks</a></strong>
+    
+        <br /><span>Virtual environment stacks for Python.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1gn5q8z/mesa_30_a_major_update_to_pythons_agentbased/">Mesa 3.0: A major update to Python's Agent-Based Modeling library 🎉</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 17 Nov 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 17 Nov 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-11-10</title>
