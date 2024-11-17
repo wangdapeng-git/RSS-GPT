@@ -14046,3 +14046,10 @@ Existing_entries: 125
 Fetching from https://rsshub.app/deepmind/blog
 append_entries: 0
 Finish: 2024-11-17 12:22:07.806783
+------------------------------------------------------
+Started: 2024-11-17 14:11:08.214169
+Existing_entries: 125
+Fetching from https://rsshub.app/deepmind/blog
+Fetch failed from https://rsshub.app/deepmind/blog
+append_entries: 0
+error when rendering xml, skip docs/deepmind
