@@ -4,6 +4,156 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Using the Python zip() Function for Parallel Iteration</title>
+<link>https://realpython.com/python-zip-function/</link>
+<guid>https://realpython.com/python-zip-function/</guid>
+<content:encoded><![CDATA[
+<div> zip()、iterables、tuples、dictionaries、lazy
+<br>
+zip()函数在Python中将来自多个可迭代对象的元素合并成元组，在处理多个序列时非常有效。dict(zip())可以通过将键和值从两个序列配对来创建字典。zip()在Python中是惰性的，意味着它返回一个迭代器而不是一个列表。虽然Python中没有unzip()函数，但可以使用解包操作符*来反转这个过程。zip_longest()是处理长度不等的可迭代对象的替代方法。zip()函数的标志是zip(*iterables, strict=False)。调用zip()时，返回一个生成由每个迭代器的元素组成的元组的迭代器。没传入参数时返回一个空的迭代器。通过本教程，你将了解如何使用zip()进行并行迭代以及处理长度不等的可迭代对象，并发现在与字典一起使用zip()时的便利性。对列表、元组或其他数据结构进行操作时，理解zip()函数会提高编码技能和简化Python项目。 
+<br><br>总结:zip()函数可以将多个可迭代对象合并成元组，用于并行迭代和字典创建。通过dict(zip())创建字典，zip()是惰性的，返回迭代器而不是列表。没有unzip()函数，但可以使用解包操作符*进行反转。zip_longest()处理长度不等的可迭代对象。 <div>
+<div><p>Python’s <code>zip()</code> function combines elements from multiple iterables. Calling <code>zip()</code> generates an iterator that yields tuples, each containing elements from the input iterables. This function is essential for tasks like parallel iteration and dictionary creation, offering an efficient way to handle multiple sequences in Python programming.</p>
+<p><strong>By the end of this tutorial, you’ll understand that:</strong></p>
+<ul>
+<li><code>zip()</code> in Python aggregates elements from multiple iterables into tuples, facilitating <strong>parallel iteration</strong>.</li>
+<li><code>dict(zip())</code> <strong>creates dictionaries</strong> by pairing keys and values from two sequences.</li>
+<li><code>zip()</code> is <strong>lazy</strong> in Python, meaning it returns an iterator instead of a list.</li>
+<li>There’s no <code>unzip()</code> function in Python, but the same <code>zip()</code> function can <strong>reverse the process</strong> using the unpacking operator <code>*</code>.</li>
+<li>Alternatives to <code>zip()</code> include <code>itertools.zip_longest()</code> for handling iterables of <strong>unequal lengths</strong>.</li>
+</ul>
+<p>In this tutorial, you’ll explore how to use <code>zip()</code> for parallel iteration. You’ll also learn how to handle iterables of unequal lengths and discover the convenience of using <code>zip()</code> with dictionaries. Whether you’re working with lists, tuples, or other data structures, understanding <code>zip()</code> will enhance your coding skills and streamline your Python projects.</p>
+<div class="alert alert-warning">
+<p><strong>Free Bonus:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-mastery-course/">5 Thoughts On Python Mastery</a>, a free course for Python developers that shows you the roadmap and the mindset you’ll need to take your Python skills to the next level.</p>
+</div>
+<h2 id="understanding-the-python-zip-function">Understanding the Python <code>zip()</code> Function<a class="headerlink" href="#understanding-the-python-zip-function" title="Permanent link"></a></h2>
+<p><code>zip()</code> is available in the <a href="https://docs.python.org/3/library/builtins.html">built-in namespace</a>. If you use <code>dir()</code> to inspect  <code>__builtins__</code>, then you’ll see <code>zip()</code> at the end of the list:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="nb">dir</span><span class="p">(</span><span class="n">__builtins__</span><span class="p">)</span>
+<span class="go">['ArithmeticError', 'AssertionError', 'AttributeError', ..., 'zip']</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>You can see that <code>'zip'</code> is the last entry in the list of available objects.</p>
+<p>According to the <a href="https://docs.python.org/3/library/functions.html#zip">official documentation</a>, Python’s <code>zip()</code> function behaves as follows:</p>
+<blockquote>
+<p>Returns an iterator of tuples, where the <em>i</em>-th tuple contains the <em>i</em>-th element from each of the argument sequences or iterables. The iterator stops when the shortest input iterable is exhausted. With a single iterable argument, it returns an iterator of 1-tuples. With no arguments, it returns an empty iterator. (<a href="https://docs.python.org/3/library/functions.html#zip">Source</a>)</p>
+</blockquote>
+<p>You’ll unpack this definition throughout the rest of the tutorial. As you work through the code examples, you’ll see that Python zip operations work just like the physical zipper on a bag or pair of jeans. Interlocking pairs of teeth on both sides of the zipper are pulled together to close an opening. In fact, this visual analogy is perfect for understanding <code>zip()</code>, since the function was named after physical zippers!</p>
+<h2 id="using-zip-in-python">Using <code>zip()</code> in Python<a class="headerlink" href="#using-zip-in-python" title="Permanent link"></a></h2>
+<p>The signature of Python’s <code>zip()</code> function is <code>zip(*iterables, strict=False)</code>. You’ll learn more about <code>strict</code> later. The function takes in <a href="https://docs.python.org/3/glossary.html#term-iterable">iterables</a> as arguments and returns an <strong>iterator</strong>. This iterator generates a series of tuples containing elements from each iterable. <code>zip()</code> can accept any type of iterable, such as <a href="https://realpython.com/read-write-files-python/">files</a>, <a href="https://realpython.com/python-lists-tuples/">lists, tuples</a>, <a href="https://realpython.com/python-dicts/">dictionaries</a>, <a href="https://realpython.com/python-sets/">sets</a>, and so on.</p>
+<h3 id="passing-n-arguments">Passing <code>n</code> Arguments<a class="headerlink" href="#passing-n-arguments" title="Permanent link"></a></h3>
+<p>If you use <code>zip()</code> with <code>n</code> arguments, then the function will return an iterator that generates tuples of length <code>n</code>. To see this in action, take a look at the following code block:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">letters</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"a"</span><span class="p">,</span> <span class="s2">"b"</span><span class="p">,</span> <span class="s2">"c"</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">zipped</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">(</span><span class="n">numbers</span><span class="p">,</span> <span class="n">letters</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">zipped</span>  <span class="c1"># Holds an iterator object</span>
+<span class="go">&lt;zip object at 0x7fa4831153c8&gt;</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">type</span><span class="p">(</span><span class="n">zipped</span><span class="p">)</span>
+<span class="go">&lt;class 'zip'&gt;</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">list</span><span class="p">(</span><span class="n">zipped</span><span class="p">)</span>
+<span class="go">[(1, 'a'), (2, 'b'), (3, 'c')]</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Here, you use <code>zip(numbers, letters)</code> to create an iterator that produces tuples of the form <code>(x, y)</code>. In this case, the <code>x</code> values are taken from <code>numbers</code> and the <code>y</code> values are taken from <code>letters</code>. Notice how the Python <code>zip()</code> function returns an iterator. To retrieve the final list object, you need to use <code>list()</code> to consume the iterator.</p>
+<p>If you’re working with sequences like lists, tuples, or <a href="https://realpython.com/python-strings/">strings</a>, then your iterables are guaranteed to be evaluated from left to right. This means that the resulting list of tuples will take the form <code>[(numbers[0], letters[0]), (numbers[1], letters[1]),..., (numbers[n], letters[n])]</code>. However, for other types of iterables (like <a href="https://realpython.com/python-sets/">sets</a>), you might see some weird results:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">s1</span> <span class="o">=</span> <span class="p">{</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s2</span> <span class="o">=</span> <span class="p">{</span><span class="s2">"b"</span><span class="p">,</span> <span class="s2">"a"</span><span class="p">,</span> <span class="s2">"c"</span><span class="p">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">list</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">s1</span><span class="p">,</span> <span class="n">s2</span><span class="p">))</span>
+<span class="go">[(1, 'a'), (2, 'c'), (3, 'b')]</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this example, <code>s1</code> and <code>s2</code> are <code>set</code> objects, which don’t keep their elements in any particular order. This means that the tuples returned by <code>zip()</code> will have elements that are paired up randomly. If you’re going to use the Python <code>zip()</code> function with unordered iterables like sets, then this is something to keep in mind.</p>
+<h3 id="passing-no-arguments">Passing No Arguments<a class="headerlink" href="#passing-no-arguments" title="Permanent link"></a></h3>
+<p>You can call <code>zip()</code> with no arguments as well. In this case, you’ll simply get an empty iterator:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">zipped</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">zipped</span>
+<span class="go">&lt;zip object at 0x7f196294a488&gt;</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">list</span><span class="p">(</span><span class="n">zipped</span><span class="p">)</span>
+<span class="go">[]</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Here, you call <code>zip()</code> with no arguments, so your <code>zipped</code> <a href="https://realpython.com/python-variables/">variable</a> holds an empty iterator. If you consume the iterator with <code>list()</code>, then you’ll see an empty list as well.</p>
+</div><h2><a href="https://realpython.com/python-zip-function/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-zip-function/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-11-17T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Using the len() Function in Python</title>
