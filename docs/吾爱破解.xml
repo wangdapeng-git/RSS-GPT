@@ -4,12 +4,12 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>图片查看器Honeyview</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1982939</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1982939</guid>
 <content:encoded><![CDATA[
-
 【图片查看器】Honeyview 5.5
 优点介绍：体积小，仅7.75M，完全免费，支持几乎所有的图片格式预览，打开图片的速度极快，完全可以替代Windows系统自带的图片预览工具
 支持的格式：
@@ -17,20 +17,16 @@
 [*]图像格式: BMP, JPG, GIF, PNG, PSD, DDS, JXR, WebP, J2K, JP2, TGA, TIFF, PC ...
 ]]></content:encoded>
 <pubDate>Mon, 18 Nov 2024 01:18:18 +0000</pubDate>
-<pubDate>Mon, 18 Nov 2024 01:18:18 +0000</pubDate>
 </item>
 <item>
 <title>窗口快捷收纳托盘工具 Traymond v1.0.4 单文件增强版，亦支持一键还原窗口</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1982911</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1982911</guid>
 <content:encoded><![CDATA[
-
 Traymond（详情请戳 作者项目地址）是一款免费开源的窗口最小化收纳至系统托盘的小工具，基于已经停更许久的 旧项目 复刻编译，灵活性比原版较好。其主要是将空闲程序收纳至托盘以降低任务栏窗口的占用，解决程序窗口无 ...
 ]]></content:encoded>
 <pubDate>Sun, 17 Nov 2024 17:36:35 +0000</pubDate>
-<pubDate>Sun, 17 Nov 2024 17:36:35 +0000</pubDate>
 </item>
-
 <item>
 <title>百度输入法8.2（提取自荣耀magic7最新版）</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1982391</link>
@@ -13991,29 +13987,6 @@ https://www.alipan.com/s/hmirgutaApk
  ...
 ]]></content:encoded>
 <pubDate>Sat, 22 Jun 2024 23:35:46 +0000</pubDate>
-</item>
-<item>
-<title>本地文件查重管理工具EasyFileCount v3.0.2.8，支持查看重复及大文件+自定义筛选</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1937281</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1937281</guid>
-<content:encoded><![CDATA[
-EasyFileCount（详情请戳 官网）是一款免费方便、快捷的文件管理软件，采用Java开发，主打一个清爽简洁、安全无害的使用体验，支持多盘高性能扫描。遍历扫描文件夹的速度还算比较快的，当然所谓的快慢取决于CPU、系统、 ...
-]]></content:encoded>
-<pubDate>Sat, 22 Jun 2024 18:00:33 +0000</pubDate>
-</item>
-<item>
-<title>【鼠大师】支持鼠标连点、鼠标键盘录制回放</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1937166</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1937166</guid>
-<content:encoded><![CDATA[
-[md]# 1.软件介绍
-本工具基于易语言编写的一款鼠标连点、鼠标键盘录制器
-# 2.支持系统
-目前只测试了windows10专业版，理论上支持windows所有系统，不兼容Linux、MacOS、Android
-# 3.使用方式
-下载压缩包后将里面所有 ...
-]]></content:encoded>
-<pubDate>Sat, 22 Jun 2024 07:11:58 +0000</pubDate>
 </item>
 </channel>
 </rss>
