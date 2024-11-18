@@ -4,6 +4,38 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>百度输入法8.2（提取自荣耀magic7最新版）</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1982391</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1982391</guid>
+<content:encoded><![CDATA[
+
+百度输入法8.2，无广告，好用！
+提取自刚发布的荣耀magic7，magicO9.0
+
+特色：直接切换数字输入，符号输入，中英切换；带选择功能，可复制、粘贴、剪切、全选
+ 
+
+
+下载：
+https://fub8.lanzouj.com/irFrk2f7favg ...
+]]></content:encoded>
+<pubDate>Sat, 16 Nov 2024 02:37:29 +0000</pubDate>
+<pubDate>Sat, 16 Nov 2024 02:37:29 +0000</pubDate>
+</item>
+<item>
+<title>某算命app过付费以及抓取结果数据</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1981919</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1981919</guid>
+<content:encoded><![CDATA[
+
+[md]感谢肉丝大佬带小弟入门。
+整个过程使用到了frida、objection、wallbreaker、jadx、jeb。
+当前实现结果：在首页输入相关信息后，直接运行frida脚本 ，直接调用计算方法，并自动跳转到结果界面，在frida脚本中也输 ...
+]]></content:encoded>
+<pubDate>Thu, 14 Nov 2024 15:20:55 +0000</pubDate>
+<pubDate>Thu, 14 Nov 2024 15:20:55 +0000</pubDate>
+</item>
 
 <item>
 <title>将APK转换为Android Studio项目-APK二次开发</title>
