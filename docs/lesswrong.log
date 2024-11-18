@@ -12327,3 +12327,12 @@ Existing_entries: 404
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-18 04:16:53.340897
+------------------------------------------------------
+Started: 2024-11-18 06:20:15.253538
+Existing_entries: 404
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 27234
+Summarized using GPT-3.5-turbo
+Append: ["The Solomonoff Prior is Malign" is a special case of a simpler argument](https://www.lesswrong.com/posts/KSdqxrrEootGSpKKE/the-solomonoff-prior-is-malign-is-a-special-case-of-a)
+append_entries: 1
+Finish: 2024-11-18 06:20:19.341909
