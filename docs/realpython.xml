@@ -4,6 +4,200 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Interacting With Python</title>
+<link>https://realpython.com/interacting-with-python/</link>
+<guid>https://realpython.com/interacting-with-python/</guid>
+<content:encoded><![CDATA[
+<div> interactive, script file, IDE, Jupyter Notebook, online interpreters
+<br>
+Python有多种交互方式，包括交互式模式、脚本文件执行、集成开发环境（IDE）、Jupyter Notebook和在线解释器。在交互式模式中，可以直接在解释器中键入代码并执行。你可以用命令行执行脚本文件中的代码。通过IDE，你可以更好地组织和编辑代码。Jupyter Notebook提供交互性强的编程体验。在线解释器可以用于快速测试代码。最经典的初学者练习是打印"Hello, World!"到控制台。在Python交互式模式中，可以直接输入简短代码片段并获得输出。 <div>
+<div><p>There are multiple ways of interacting with Python, and each can be useful for different scenarios. You can quickly explore functionality in Python’s interactive mode using the <a href="https://realpython.com/python-repl/">built-in Read-Eval-Print Loop (REPL)</a>, or you can write larger applications to a script file using an <a href="https://realpython.com/python-ides-code-editors-guide/">editor or Integrated Development Environment (IDE)</a>.</p>
+<p><strong>In this tutorial, you’ll learn how to:</strong></p>
+<ul>
+<li>Use Python <strong>interactively</strong> by typing code directly into the interpreter</li>
+<li>Execute code contained in a <strong>script file</strong> from the <strong>command line</strong></li>
+<li>Work within a Python <strong>Integrated Development Environment (IDE)</strong></li>
+<li>Assess additional options, such as the <strong>Jupyter Notebook</strong> and <strong>online interpreters</strong></li>
+</ul>
+<p>Before working through this tutorial, make sure that you have a functioning <a href="https://realpython.com/installing-python/">Python installation</a> at hand. Once you’re set up with that, it’s time to write some Python code!</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/interacting-with-python-code/">Click here to get the free sample code</a> that you’ll use to learn about interacting with Python.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Interacting With Python” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/interacting-with-python/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="Interacting With Python" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Interacting-with-Python_Watermarked.0007ad8964b8.jpg" style="background: #abe0e6;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/interacting-with-python/"><span class="my-0 h4">Interacting With Python</span></a> 
+      <p class="text-muted mb-0 small">In this quiz, you'll test your understanding of the different ways of interacting with Python. By working through this quiz, you'll revisit key concepts related to Python interaction in interactive mode using the REPL, through Python script files, and within IDEs and code editors.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="hello-world">Hello, World!<a class="headerlink" href="#hello-world" title="Permanent link"></a></h2>
+<p>There’s a long-standing custom in computer programming that the first code written in a newly installed language is a short program that displays the text <code>Hello, World!</code> to the console.</p>
+<p>In Python, running a <a href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program">“Hello, World!” program</a> only takes a single line of code:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="s2">"Hello, World!"</span><span class="p">)</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Here, <code>print()</code> will display the text <em>Hello, World!</em> in quotes to your screen. In this tutorial, you’ll explore several ways to execute this code.</p>
+<h2 id="running-python-in-interactive-mode">Running Python in Interactive Mode<a class="headerlink" href="#running-python-in-interactive-mode" title="Permanent link"></a></h2>
+<p>The quickest way to start interacting with Python is in a <a href="https://realpython.com/python-repl/">Read-Eval-Print Loop (REPL)</a> environment. This means starting up the interpreter and typing commands to it directly.</p>
+<p>When you interact with Python in this way, the interpreter will:</p>
+<ul>
+<li><strong>R</strong>ead the command you enter</li>
+<li><strong>E</strong>valuate and execute the command</li>
+<li><strong>P</strong>rint the output (if any) to the console</li>
+<li><strong>L</strong>oop back and repeat the process</li>
+</ul>
+<p>The interactive session continues like this until you instruct the interpreter to stop. Using Python in this interactive mode is a great way to test short snippets of Python code and get more familiar with the language.</p>
+<ul class="nav nav-tabs justify-content-end js-platform-widget-tabs">
+
+  <li class="nav-item mb-0 js-platform-widget-tab-windows">
+    <a class="nav-link link-unstyled text-body active small" href="#windows-1" id="windows-tab-1"><span class="icon baseline text-muted mr-1"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Windows</a>
+  </li>
+
+
+
+
+  <li class="nav-item mb-0 js-platform-widget-tab-linuxmacos">
+    <a class="nav-link link-unstyled text-body small" href="#linux-macos-1" id="macos-tab-1"><span class="icon baseline text-muted"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span><span class="icon baseline text-muted mr-1"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Linux + macOS</a>
+  </li>
+
+</ul>
+<div class="tab-content mt-2 mb-0 js-platform-widget-content">
+<div class="tab-pane fade show active" id="windows-1">
+<p>When you install Python using an installer, the <em>Start</em> menu shows a program group labeled <em>Python 3.x</em>. The label may vary depending on the particular installation you chose. Click on that item to start the Python interpreter.</p>
+<p>Alternatively, you can open your <em>Command Prompt</em> or <em>PowerShell</em> application and type the <code>py</code> command to launch it:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Windows PowerShell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">PS&gt; </span><span class="n">py</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+</div>
+<div class="tab-pane fade " id="linux-macos-1">
+<p>To start the Python interpreter, open your <em>Terminal</em> application and type <code>python3</code> to launch it from the command line:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Shell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">$ </span>python3
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+</div>
+</div>
+<p>If you’re unfamiliar with this application, then you can use your operating system’s search function to find it.</p>
+<p>After pressing <span class="keys"><kbd class="key-enter">Enter</kbd></span>, you should see a response from the Python interpreter similar to the one below:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="go">Python 3.13.0 (main, Oct 14 2024, 10:34:31) [Clang 15.0.0 (clang-1500.3.9.4)] on darwin</span>
+<span class="go">Type "help", "copyright", "credits" or "license" for more information.</span>
+<span class="hll"><span class="gp">&gt;&gt;&gt;</span>
+</span></code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>If you’re <em>not</em> seeing the <code>&gt;&gt;&gt;</code> prompt, then you’re not talking to the Python interpreter. This could be because Python is either not installed or not in the path of your terminal window session.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> If you need additional help to get to this point, then you can check out the <a href="https://realpython.com/installing-python/">How to Install Python on Your System: A Guide</a> tutorial.</p>
+</div>
+<p>If you’re seeing the prompt, then you’re off and running! With these next steps, you’ll execute the statement that displays <code>"Hello, World!"</code> to the console:</p>
+<ol>
+<li>Ensure that Python displays the <code>&gt;&gt;&gt;</code> prompt, and that you position your cursor after it.</li>
+<li>Type the command <code>print("Hello, World!")</code> exactly as shown.</li>
+<li>Press the <span class="keys"><kbd class="key-enter">Enter</kbd></span> key.</li>
+</ol>
+</div><h2><a href="https://realpython.com/interacting-with-python/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/interacting-with-python/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-11-18T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Using the Python zip() Function for Parallel Iteration</title>
