@@ -4,16 +4,15 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>将APK转换为Android Studio项目-APK二次开发</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1981911</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1981911</guid>
 <content:encoded><![CDATA[
-
 本文教大家将APK转换为Android Studio项目，后续可用Java、C++高级语言进行二次开发，从此告别低效的改smali、改so字节码。适用于需要对同一个APK进行长期、大量修改的同学。
 需求：未加壳、无签名校验的APK，一台有And ...
 ]]></content:encoded>
-<pubDate>Thu, 14 Nov 2024 14:59:33 +0000</pubDate>
 <pubDate>Thu, 14 Nov 2024 14:59:33 +0000</pubDate>
 </item>
 <item>
@@ -21,13 +20,10 @@
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1981140</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1981140</guid>
 <content:encoded><![CDATA[
-
 纯外部网页模拟提取，只要能电脑能打开股票网页就可以提取，可自行设置股票网页，自行设置网页上股价的位置，鼠标放到股价前面按Ctrl+O设置提取起始点，鼠标放到股价后按Ctrl+P设置提取结束点，设置好后软件打开即可自动 ...
 ]]></content:encoded>
 <pubDate>Wed, 13 Nov 2024 02:42:20 +0000</pubDate>
-<pubDate>Wed, 13 Nov 2024 02:42:20 +0000</pubDate>
 </item>
-
 <item>
 <title>KK浏览器V3.2.7&amp;#128293;功能强大的宝藏浏览器&amp;#128293;搜索全网资源</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1982771</link>
@@ -13993,28 +13989,6 @@ EasyFileCount（详情请戳 官网）是一款免费方便、快捷的文件管
 可通过配置 ...
 ]]></content:encoded>
 <pubDate>Sat, 15 Jun 2024 07:43:41 +0000</pubDate>
-</item>
-<item>
-<title>理论任意车型实现小米Carwith（搭配亿联驾驶助手）</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1936874</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1936874</guid>
-<content:encoded><![CDATA[
-CarWith安装最新版本V2.3.0，支持亿连通道投屏CarWith支持有线和无线两种方式互联投屏，后装亿连车机版V6.0以及以上版本都可支持。
-
-手机打开设置-更多连接-CarWith-选择亿连连接根据车机上亿连支持的连接方式，选择CarWith连接方式支持有线和无线两种互联方式；
-亿 ...
-]]></content:encoded>
-<pubDate>Fri, 21 Jun 2024 06:45:53 +0000</pubDate>
-</item>
-<item>
-<title>3D PDF Reader Version 3.9(纯本地3D图纸查看器，无联网机制）</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1936475</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1936475</guid>
-<content:encoded><![CDATA[
-最近想找一款这类软件，全网没找到一个，全是些强制注册、收费的，不然还不给试用，还不知道能不能用…
-软件我已安装测试功能正常(抓包测试无任何联网机制），就隐藏零件时选中时颜色不显示，有点小BUG，但是能使用；反 ...
-]]></content:encoded>
-<pubDate>Thu, 20 Jun 2024 04:34:18 +0000</pubDate>
 </item>
 </channel>
 </rss>
