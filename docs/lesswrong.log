@@ -12336,3 +12336,9 @@ Summarized using GPT-3.5-turbo
 Append: ["The Solomonoff Prior is Malign" is a special case of a simpler argument](https://www.lesswrong.com/posts/KSdqxrrEootGSpKKE/the-solomonoff-prior-is-malign-is-a-special-case-of-a)
 append_entries: 1
 Finish: 2024-11-18 06:20:19.341909
+------------------------------------------------------
+Started: 2024-11-18 08:18:50.311026
+Existing_entries: 405
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-18 08:18:50.698925
