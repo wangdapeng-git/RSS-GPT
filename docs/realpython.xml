@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Interacting With Python</title>
 <link>https://realpython.com/interacting-with-python/</link>
 <guid>https://realpython.com/interacting-with-python/</guid>
 <content:encoded><![CDATA[
 <div> interactive, script file, IDE, Jupyter Notebook, online interpreters
-<br>
+<br />
 Python有多种交互方式，包括交互式模式、脚本文件执行、集成开发环境（IDE）、Jupyter Notebook和在线解释器。在交互式模式中，可以直接在解释器中键入代码并执行。你可以用命令行执行脚本文件中的代码。通过IDE，你可以更好地组织和编辑代码。Jupyter Notebook提供交互性强的编程体验。在线解释器可以用于快速测试代码。最经典的初学者练习是打印"Hello, World!"到控制台。在Python交互式模式中，可以直接输入简短代码片段并获得输出。 <div>
 <div><p>There are multiple ways of interacting with Python, and each can be useful for different scenarios. You can quickly explore functionality in Python’s interactive mode using the <a href="https://realpython.com/python-repl/">built-in Read-Eval-Print Loop (REPL)</a>, or you can write larger applications to a script file using an <a href="https://realpython.com/python-ides-code-editors-guide/">editor or Integrated Development Environment (IDE)</a>.</p>
 <p><strong>In this tutorial, you’ll learn how to:</strong></p>
@@ -195,10 +196,8 @@ Python有多种交互方式，包括交互式模式、脚本文件执行、集�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-18T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Using the Python zip() Function for Parallel Iteration</title>
 <link>https://realpython.com/python-zip-function/</link>

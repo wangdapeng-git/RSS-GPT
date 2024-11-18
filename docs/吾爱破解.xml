@@ -4,6 +4,21 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>某游戏新手破解方式</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1982865</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1982865</guid>
+<content:encoded><![CDATA[
+
+这个游戏原帖在：https://www.52pojie.cn/thread-1027327-1-1.html
+之所以发是因为由于更新内购，原方法不适用了。
+
+
+第一步：拖入jadx中，查看代码，搜索9000、支付相关关键词。修改smail文件使返回值满足9000的逻辑 ...
+]]></content:encoded>
+<pubDate>Sun, 17 Nov 2024 13:26:41 +0000</pubDate>
+<pubDate>Sun, 17 Nov 2024 13:26:41 +0000</pubDate>
+</item>
 
 <item>
 <title>《安卓逆向这档事》第二十二课、抓包学得好，牢饭吃得饱(下)</title>
