@@ -12462,3 +12462,12 @@ Existing_entries: 409
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-19 20:14:35.282739
+------------------------------------------------------
+Started: 2024-11-19 22:12:31.868096
+Existing_entries: 409
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 8271
+Summarized using GPT-3.5-turbo
+Append: [Which evals resources would be good?](https://www.lesswrong.com/posts/uoAAGzn4hPAHLeG2Y/which-evals-resources-would-be-good)
+append_entries: 1
+Finish: 2024-11-19 22:12:37.740448

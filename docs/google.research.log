@@ -9352,3 +9352,10 @@ Summarized using GPT-3.5-turbo
 Append: [Scalable learning of segment-level traffic congestion functions](https://storage.googleapis.com/gweb-research2023-media/original_images/TrafficCongestion2-Overview.png)
 append_entries: 1
 Finish: 2024-11-19 20:14:45.095730
+------------------------------------------------------
+Started: 2024-11-19 22:12:40.510967
+Existing_entries: 61
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+Fetch failed from https://rss.diffbot.com/atom?url=https://research.google/blog/
+append_entries: 0
+error when rendering xml, skip docs/google.research
