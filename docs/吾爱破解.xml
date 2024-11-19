@@ -4,6 +4,48 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>记一次游戏图片资源提取</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983148</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983148</guid>
+<content:encoded><![CDATA[
+
+本次拿到的是一款棋牌游戏的apk包，大概五十多兆。要审核图片资源是否违规，首先想到的就是直接改apk后缀为zip，然后在资源目录assets下用everything搜索图片类型文件进行审核。然而用everything一搜索就发现不对劲， ...
+]]></content:encoded>
+<pubDate>Mon, 18 Nov 2024 08:57:58 +0000</pubDate>
+<pubDate>Mon, 18 Nov 2024 08:57:58 +0000</pubDate>
+</item>
+<item>
+<title>[Windows] 小六壬掌，掐指一算。自动起卦软件</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1982106</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1982106</guid>
+<content:encoded><![CDATA[
+
+闲来无事，最近看了一些小六壬解读，就写了一个小软件。方便随时测算凶吉。
+今天是摸鱼否被BOSS骂，有没有和同事顶嘴可能，同事会不会请我喝奶茶
+一切皆为娱乐，破除迷信 娱乐至上
+
+
+希望该软件能帮助大家开心
+http ...
+]]></content:encoded>
+<pubDate>Fri, 15 Nov 2024 04:49:44 +0000</pubDate>
+<pubDate>Fri, 15 Nov 2024 04:49:44 +0000</pubDate>
+</item>
+<item>
+<title>【网工专用】Win平台网络测试小工具【PingBox】</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1981017</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1981017</guid>
+<content:encoded><![CDATA[
+
+因为平时经常测试网络，有些操作经常重复，不太方便，所以写了一个方便自己用的网络测试小工具-PingBox。
+使用aardio开发，经测试，Win7-Win10均可使用。
+使用说明：
+- 可以调用系统命令(弹出CMD窗口)进行长PING、TRA ...
+]]></content:encoded>
+<pubDate>Tue, 12 Nov 2024 23:57:45 +0000</pubDate>
+<pubDate>Tue, 12 Nov 2024 23:57:45 +0000</pubDate>
+</item>
 
 <item>
 <title>某游戏新手破解方式</title>

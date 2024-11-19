@@ -28835,3 +28835,16 @@ Existing_entries: 1000
 Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
 append_entries: 0
 error when rendering xml, skip docs/吾爱破解
+------------------------------------------------------
+Started: 2024-11-19 08:17:31.234669
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Append: [记一次游戏图片资源提取](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1983148)
+Filter: [微信数据库解密 - wechat-dump-rsv v1.0.16 （支持微信4.x、3.x两种版本）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1982130)
+Append: [[Windows] 小六壬掌，掐指一算。自动起卦软件](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1982106)
+Append: [【网工专用】Win平台网络测试小工具【PingBox】](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1981017)
+Filter: [记一次二房东智能电表的白嫖之路](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980475)
+Filter: [一键AI证件照制作工具 HivisionIDPhotos v1.3.0，支持自定义部署（新增功能改进）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980263)
+Filter: [eMule电驴v0.70b绿色版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979581)
+append_entries: 3
+Finish: 2024-11-19 08:17:34.218075
