@@ -4,6 +4,30 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Working With TOML and Python</title>
+<link>https://realpython.com/courses/working-with-toml-python/</link>
+<guid>https://realpython.com/courses/working-with-toml-python/</guid>
+<content:encoded><![CDATA[
+<div> TOML, Python community, configuration file format, pyproject.toml, tomli, tomllib, tomli_w, tomlkit
+
+要点：TOML是Python社区广泛使用的配置文件格式，在构建和分发软件时会用到pyproject.toml。学习理解TOML语法，使用tomli和tomllib解析TOML文档，使用tomli_w将数据结构写入TOML，使用tomlkit控制TOML文件。
+
+<br><br>总结：TOML是Python社区喜爩的配置文件格式，学习掌握TOML语法，使用不同工具处理TOML文件，适用于构建和分发软件。 <div>
+<p>TOML&mdash;Tom&rsquo;s Obvious Minimal Language&mdash;is a reasonably new configuration file format that the Python community has embraced over the last couple of years. TOML plays an essential part in the Python ecosystem. Many of your favorite tools rely on TOML for configuration, and you&rsquo;ll use <code>pyproject.toml</code> when you build and distribute your own packages.</p>
+<p><strong>In this video course, you&rsquo;ll learn more about TOML and how you can use it. In particular, you&rsquo;ll:</strong></p>
+<ul>
+<li>Learn and understand the <strong>syntax</strong> of TOML</li>
+<li>Use <code>tomli</code> and <code>tomllib</code> to <strong>parse</strong> TOML documents</li>
+<li>Use <code>tomli_w</code> to <strong>write</strong> data structures as TOML</li>
+<li>Use <code>tomlkit</code> when you need <strong>more control</strong> over your TOML files</li>
+</ul>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-11-19T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Interacting With Python</title>
