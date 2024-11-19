@@ -12393,3 +12393,9 @@ Summarized using GPT-3.5-turbo
 Append: [Why imperfect adversarial robustness doesn't doom AI control](https://www.lesswrong.com/posts/ewfGpHMXHhiwCA7se/why-imperfect-adversarial-robustness-doesn-t-doom-ai-control)
 append_entries: 1
 Finish: 2024-11-18 22:12:28.547603
+------------------------------------------------------
+Started: 2024-11-19 01:01:20.617498
+Existing_entries: 408
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-19 01:01:21.044615
