@@ -4,6 +4,17 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>文件属性时间修改工具V1.1</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983815</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983815</guid>
+<content:encoded><![CDATA[
+
+之前有遇到想把文件时间修改的情况，但手动改时间太固定，而且又没批量，当时就丢下了，今看到落叶醉大佬的这篇修改器，才想起来这事，就用python根据自己用途写了个小工具，也是修改这三个属性时间，有点区别的是，由 ...
+]]></content:encoded>
+<pubDate>Wed, 20 Nov 2024 07:28:49 +0000</pubDate>
+<pubDate>Wed, 20 Nov 2024 07:28:49 +0000</pubDate>
+</item>
 
 <item>
 <title>【JS逆向】某Q音乐VMP纯算</title>
