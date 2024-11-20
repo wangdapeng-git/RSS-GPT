@@ -4,14 +4,15 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>NumPy Practical Examples: Useful Techniques</title>
 <link>https://realpython.com/numpy-example/</link>
 <guid>https://realpython.com/numpy-example/</guid>
 <content:encoded><![CDATA[
-<div> NumPy, scientific computing, multidimensional arrays, structured arrays, Jupyter Notebook<br>
-<br>
-总结:<br>
+<div> NumPy, scientific computing, multidimensional arrays, structured arrays, Jupyter Notebook<br />
+<br />
+总结:<br />
 本文介绍了NumPy库在科学计算中的应用，并重点展示了一些其他教程中未经常强调的功能。读者将学习如何从文件中创建多维数组，识别和删除数组中的重复数据，使用结构化数组和分析图表等。在设置工作环境后，介绍了如何通过文件数据填充三维NumPy数组的方式。文章还提供了交互式测验和设置工作环境的指导。这篇教程对于想要加深对NumPy的了解和提高编程技能的读者来说会很有帮助。 <div>
 <div><p>The <a href="https://numpy.org/doc/stable/reference/index.html#python-api">NumPy library</a> is a Python library used for scientific computing. It provides you with a multidimensional array object for storing and analyzing data in a wide variety of ways. In this tutorial, you’ll see examples of some features NumPy provides that aren’t always highlighted in other tutorials. You’ll also get the chance to practice your new skills with various exercises.  </p>
 <p><strong>In this tutorial, you’ll learn how to:</strong></p>
@@ -183,7 +184,6 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-20T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -193,17 +193,15 @@
 <content:encoded><![CDATA[
 <div> Python、dictionary comprehensions、Python developer、Pythonic、tool
 
-<br>
+<br />
 Python中的字典推导式是Python开发者的重要工具，它提供了一种Pythonic的方式来操作字典，可以成为你编程工具包中有价值的补充。字典推导式可以帮助你简化字典的创建和生成过程，让代码更具可读性和简洁性。作为一名Python开发者，掌握并理解字典推导式的用法对于提高编程效率和质量至关重要。通过掌握这一工具，你可以更加灵活地处理字典数据，提升自己的Python编程技能。总结:  Python开发者应该学会如何利用字典推导式来操作字典，以提高代码的可读性和简洁性。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of <a href="https://realpython.com/python-dictionary-comprehension/">Python Dictionary Comprehensions: How and When to Use Them</a>.</p>
 <p>Understanding dictionary comprehensions is crucial for you as a Python developer because they provide a Pythonic tool for dictionary manipulation and can be a valuable addition to your programming toolkit.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-13T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Working With TOML and Python</title>
 <link>https://realpython.com/courses/working-with-toml-python/</link>
