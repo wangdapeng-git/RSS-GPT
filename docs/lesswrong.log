@@ -12540,3 +12540,15 @@ Existing_entries: 411
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-20 20:14:18.961595
+------------------------------------------------------
+Started: 2024-11-20 22:12:52.904397
+Existing_entries: 411
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 895
+Summarized using GPT-3.5-turbo
+Append: [What are the good rationality films?](https://www.lesswrong.com/posts/tiCbLNkrvmrDnhgNt/what-are-the-good-rationality-films)
+Token length: 17494
+Summarized using GPT-3.5-turbo
+Append: [Zvi’s Thoughts on His 2nd Round of SFF](https://www.lesswrong.com/posts/2JCdzhJeo2gsTjv8D/zvi-s-thoughts-on-his-2nd-round-of-sff)
+append_entries: 2
+Finish: 2024-11-20 22:12:59.428931
