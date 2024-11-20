@@ -12492,3 +12492,9 @@ Summarized using GPT-3.5-turbo
 Append: [Why Don't We Just... Shoggoth+Face+Paraphraser?](https://www.lesswrong.com/posts/Tzdwetw55JNqFTkzK/why-don-t-we-just-shoggoth-face-paraphraser)
 append_entries: 1
 Finish: 2024-11-20 04:16:41.585797
+------------------------------------------------------
+Started: 2024-11-20 06:19:07.931594
+Existing_entries: 411
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-20 06:19:08.291927
