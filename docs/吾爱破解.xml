@@ -4,12 +4,12 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>webp转png工具，集成右键，操作方便</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983678</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983678</guid>
 <content:encoded><![CDATA[
-
 因为最近工作中经常下载到webp图片，所以写了这么个小工具
 
 功能很简单
@@ -20,22 +20,18 @@
 2、软件上可以直接添加右键，在webp文件上可以直接右键选择将webp转为png，可以单个文件选 ...
 ]]></content:encoded>
 <pubDate>Wed, 20 Nov 2024 01:45:38 +0000</pubDate>
-<pubDate>Wed, 20 Nov 2024 01:45:38 +0000</pubDate>
 </item>
 <item>
 <title>PDF工具箱 PDF24 Creator 11.21.0</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983615</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983615</guid>
 <content:encoded><![CDATA[
-
 PDF24 Creator是一款免费且流行的 PDF 解决方案，具有许多适用于 Windows 的功能。
 该软件将所有 PDF24 工具作为离线版本提供，因此所有文件都保留在您的 PC 上。
 MAC 版本不可用。 MAC用户可以使用PDF24在线工具，该 ...
 ]]></content:encoded>
 <pubDate>Tue, 19 Nov 2024 14:43:33 +0000</pubDate>
-<pubDate>Tue, 19 Nov 2024 14:43:33 +0000</pubDate>
 </item>
-
 <item>
 <title>文件时间属性修改器v2.3吾爱版</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983080</link>
@@ -13988,33 +13984,6 @@ import psutil ...
 2、文件只是删除了一 ...
 ]]></content:encoded>
 <pubDate>Mon, 24 Jun 2024 07:03:00 +0000</pubDate>
-</item>
-<item>
-<title>xposed去掉七猫小说广告和使用vip背景</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1936184</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1936184</guid>
-<content:encoded><![CDATA[
-前言
-刷某音的时候，突然的刷到一本小说的广告，勾起了我继续看小说的兴趣， 下载了七猫小说， 结果竟然还给我看广告的福报， 这肯定不能惯着了
-
-下载最新的七猫小说app，用jadx打开apk，找到资源目录，搜索字符串 “ ...
-]]></content:encoded>
-<pubDate>Wed, 19 Jun 2024 08:19:30 +0000</pubDate>
-</item>
-<item>
-<title>OFD批量转PDF工具吾爱破解版专用版</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1937703</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1937703</guid>
-<content:encoded><![CDATA[
-最近需要转换一个OFD文件为PDF，搜索了下竟然没有批量的工具，就写了个，界面非常简单，
-就是选择文件==&gt;转换。用着还可以，就分享出来：
-
-转换后的PDF在OFD文件所在的结果文件目录中：
-
-转出的PDF无水印。
-欢迎使 ...
-]]></content:encoded>
-<pubDate>Mon, 24 Jun 2024 07:37:28 +0000</pubDate>
 </item>
 </channel>
 </rss>
