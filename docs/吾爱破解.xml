@@ -4,12 +4,12 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>破解Typora复现 上——初识AES-256加密算法</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983982</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983982</guid>
 <content:encoded><![CDATA[
-
 [md]## 目的
 
 发表这篇帖子的目的主要是分享一些在破解Typora的AES加密过程中可能需要的背景知识和经验，希望能帮助一些和我一样的新手。
@@ -23,9 +23,7 @@
 - 调试它 ...
 ]]></content:encoded>
 <pubDate>Wed, 20 Nov 2024 16:46:36 +0000</pubDate>
-<pubDate>Wed, 20 Nov 2024 16:46:36 +0000</pubDate>
 </item>
-
 <item>
 <title>Wireshark 4.4.2最新中文安装版+便携版Win&amp;Mac支持x86x64</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1984121</link>
@@ -14000,15 +13998,6 @@ Navicat Premium Lite 是 Navicat 的精简版，拥有基本数据库操作所�
 3、支持同时下载多个 ...
 ]]></content:encoded>
 <pubDate>Wed, 26 Jun 2024 11:32:23 +0000</pubDate>
-</item>
-<item>
-<title>听写小助手2.0（小学六年级学生作品）</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1937896</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1937896</guid>
-<content:encoded><![CDATA[
-学校的家庭听写作业需要家长配合朗读，但是经常会出现他们不在家或者是没有空的情况，无法及时完成作业，非常的不方便。刚好我正在学习Python语言，于是就一直思考如何使用Python来编写一个辅助听写的小程序。经过一段时 ...
-]]></content:encoded>
-<pubDate>Tue, 25 Jun 2024 01:49:43 +0000</pubDate>
 </item>
 </channel>
 </rss>

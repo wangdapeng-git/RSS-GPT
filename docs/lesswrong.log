@@ -12624,3 +12624,9 @@ Summarized using GPT-3.5-turbo
 Append: [OpenAI's CBRN tests seem unclear](https://www.lesswrong.com/posts/bCsDufkMBaJNgeahq/openai-s-cbrn-tests-seem-unclear)
 append_entries: 1
 Finish: 2024-11-21 20:14:24.881560
+------------------------------------------------------
+Started: 2024-11-21 22:12:28.211462
+Existing_entries: 415
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-21 22:12:28.647188
