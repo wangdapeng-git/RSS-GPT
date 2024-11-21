@@ -4,13 +4,14 @@
 <title>ByteByteGo Newsletter</title>
 <link>https://blog.bytebytego.com</link>
 
+
 <item>
 <title>Distributed Caching: The Secret to High-Performance Applications</title>
 <link>https://blog.bytebytego.com/p/distributed-caching-the-secret-to</link>
 <guid>https://blog.bytebytego.com/p/distributed-caching-the-secret-to</guid>
 <content:encoded><![CDATA[
-<div> 高速数据检索，性能应用需求，缓存技术，单节点限制，分布式缓存<br>
-总结:<br>
+<div> 高速数据检索，性能应用需求，缓存技术，单节点限制，分布式缓存<br />
+总结:<br />
 近年来，高速高性能应用的需求激增，用户期望实时响应，特别是在电子商务、金融、游戏和社交媒体等领域，哪怕延迟几毫秒都可能导致差劲的用户体验，进而影响客户满意度和收入。缓存技术能够加快数据检索并改善应用响应速度。单节点缓存适用于规模较小系统或用户基数有限的应用，但随着系统规模增大，这种设置会面临一些限制。分布式缓存通过将缓存数据分布在多个服务器或节点上，实现缩放，以处理大规模应用。分布式缓存能够提高系统的容错性和弹性，确保服务的连续性。 <div>
 <p>The demand for high-speed, high-performance applications has skyrocketed in recent years.&nbsp;</p><p>With users expecting real-time responses, especially in sectors like e-commerce, finance, gaming, and social media, even a few milliseconds of delay can lead to a poor user experience, potentially impacting customer satisfaction and revenue.&nbsp;</p><p>One core technique to accelerate data retrieval and improve application responsiveness is caching.&nbsp;</p><p>Caching works by temporarily storing frequently accessed data in a high-speed storage layer, often in memory. This allows applications to retrieve information faster than if they had to pull it from the primary database each time. A single cache node is often sufficient for smaller systems or applications with a limited user base to store and serve frequently requested data.&nbsp;</p><p>However, as systems grow, this setup faces limitations. Relying on a single-node cache to serve large-scale, high-traffic applications can lead to multiple problems.</p><p>This is where distributed caching comes into play.&nbsp;</p><p>Distributed caching involves spreading the cached data across multiple servers or nodes, allowing the cache to scale horizontally to handle large-scale applications. With a distributed cache, data is stored across multiple locations, meaning a single-node failure doesn&#8217;t compromise the entire cache, and the system can continue to serve requests seamlessly.&nbsp;</p><p>In this article, we&#8217;ll explore the concept of distributed caching in depth. We&#8217;ll look at how it works, discuss its key components, and examine common challenges and best practices for implementation.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-imag" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2088a5f-3a3f-483e-9afb-74b4e4c0d47e_1526x1600.png" target="_blank"><div class="image2-inset"><source type="image/webp" /><img alt="" class="sizing-normal" height="1527" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2088a5f-3a3f-483e-9afb-74b4e4c0d47e_1526x1600.png" width="1456" /><div class="image-link-expand"><svg class="lucide lucide-maximize2" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" x2="14" y1="3" y2="10"></line><line x1="3" x2="10" y1="21" y2="14"></line></svg></div></div></a></figure></div><h2>Why Distributed Caching?</h2>
       <p>
@@ -20,9 +21,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Thu, 21 Nov 2024 16:30:32 GMT</pubDate>
-<pubDate>Thu, 21 Nov 2024 16:30:32 GMT</pubDate>
 </item>
-
 <item>
 <title>Uber’s Billion Trips Migration Setup with Zero Downtime</title>
 <link>https://blog.bytebytego.com/p/ubers-billion-trips-migration-setup</link>

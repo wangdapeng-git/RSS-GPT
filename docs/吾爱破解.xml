@@ -4,6 +4,27 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>破解Typora复现 上——初识AES-256加密算法</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983982</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983982</guid>
+<content:encoded><![CDATA[
+
+[md]## 目的
+
+发表这篇帖子的目的主要是分享一些在破解Typora的AES加密过程中可能需要的背景知识和经验，希望能帮助一些和我一样的新手。
+
+## 过程
+
+### 背景知识
+
+- Typora采用的框架是Electron。
+
+- 调试它 ...
+]]></content:encoded>
+<pubDate>Wed, 20 Nov 2024 16:46:36 +0000</pubDate>
+<pubDate>Wed, 20 Nov 2024 16:46:36 +0000</pubDate>
+</item>
 
 <item>
 <title>Wireshark 4.4.2最新中文安装版+便携版Win&amp;Mac支持x86x64</title>
