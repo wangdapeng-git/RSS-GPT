@@ -4,6 +4,43 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Quiz: Interacting With Python</title>
+<link>https://realpython.com/quizzes/interacting-with-python/</link>
+<guid>https://realpython.com/quizzes/interacting-with-python/</guid>
+<content:encoded><![CDATA[
+<div> Python, interaction, REPL, script files, IDEs
+
+<br><br>总结:
+本文介绍了Python交互模式下的交互方式，包括使用REPL、Python脚本文件以及集成开发环境（IDEs）和代码编辑器。同时还探讨了其他一些可能有用的选项，如Jupyter Notebooks。阅读本文将帮助您重新审视与Python交互相关的关键概念。 <div>
+<p>In this quiz, you&rsquo;ll test your understanding of the different ways you can <a href="https://realpython.com/interacting-with-python/">interact with Python</a>.</p>
+<p>By working through this quiz, you&rsquo;ll revisit key concepts related to Python interaction in interactive mode using the Read-Eval-Print Loop (REPL), through Python script files, and within Integrated Development Environments (IDEs) and code editors.</p>
+<p>You&rsquo;ll also test your knowledge of some other options that may be useful, such as Jupyter Notebooks.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-11-21T12:00:00+00:00</pubDate>
+</item>
+<item>
+<title>Quiz: NumPy Practical Examples: Useful Techniques</title>
+<link>https://realpython.com/quizzes/numpy-example/</link>
+<guid>https://realpython.com/quizzes/numpy-example/</guid>
+<content:encoded><![CDATA[
+<div> NumPy, Arrays, Techniques, Tutorial, Research
+<br>
+NumPy是Python中用于处理数组的强大库，本文介绍了NumPy数组的一些技巧和技术。通过此教程，你可以复习NumPy数组的理解，并扩展知识。除了教程内容，你可能还需要在外部进行一些研究以回答所有问题。挑战自我，让学习之旅带领你前行。
+<br><br>总结: NumPy是一个强大的Python库，用于处理数组。本文介绍了NumPy数组的技巧和技术，包括教程内容和扩展性研究。挑战自我，让学习带领你前行。 <div>
+<p>In this quiz, you&rsquo;ll test your understanding of the techniques covered in the tutorial
+<a href="https://realpython.com/numpy-example/">NumPy Practical Examples: Useful Techniques</a>.</p>
+<p>By working through the questions, you&rsquo;ll review your understanding of NumPy arrays and also expand on what you learned in the tutorial. </p>
+<p>You&rsquo;ll need to do some research outside of the tutorial to answer all the questions. Embrace this challenge and let it take you on a learning journey.</p>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-11-20T12:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>NumPy Practical Examples: Useful Techniques</title>
