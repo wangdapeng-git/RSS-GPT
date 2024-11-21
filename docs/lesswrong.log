@@ -12609,3 +12609,9 @@ Summarized using GPT-3.5-turbo
 Append: [Cost, Not Sacrifice](https://www.lesswrong.com/posts/dRTj2q4n8nmv46Xok/cost-not-sacrifice)
 append_entries: 1
 Finish: 2024-11-21 16:16:39.088030
+------------------------------------------------------
+Started: 2024-11-21 18:17:30.001455
+Existing_entries: 414
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-21 18:17:31.174325
