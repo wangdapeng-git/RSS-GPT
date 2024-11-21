@@ -4,23 +4,22 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Quiz: Expression vs Statement in Python: What's the Difference?</title>
 <link>https://realpython.com/quizzes/python-expression-vs-statement/</link>
 <guid>https://realpython.com/quizzes/python-expression-vs-statement/</guid>
 <content:encoded><![CDATA[
 <div> 关键词: expressions, statements, Python, differences, code
-总结:<br><br>本文讨论了Python中表达式和语句的区别。表达式是一段代码，会产生一个值，而语句通常用于执行某些操作。文章强调了在代码中有效使用表达式和语句的重要性，以及它们在Python中的用法。通过这篇文章，读者能够重新审视Python中表达式和语句的关键差异，并学会如何在代码中有效地运用它们。 <div>
+总结:<br /><br />本文讨论了Python中表达式和语句的区别。表达式是一段代码，会产生一个值，而语句通常用于执行某些操作。文章强调了在代码中有效使用表达式和语句的重要性，以及它们在Python中的用法。通过这篇文章，读者能够重新审视Python中表达式和语句的关键差异，并学会如何在代码中有效地运用它们。 <div>
 <p>In this quiz, you&rsquo;ll test your understanding of
 <a href="https://realpython.com/python-expression-vs-statement/">Expression vs Statement in Python: What&rsquo;s the Difference?</a></p>
 <p>By working through this quiz, you&rsquo;ll revisit the key differences between expressions and statements in Python, and how to use them effectively in your code.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-21T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Quiz: Interacting With Python</title>
 <link>https://realpython.com/quizzes/interacting-with-python/</link>
