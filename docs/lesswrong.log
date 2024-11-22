@@ -12669,3 +12669,12 @@ Existing_entries: 416
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-22 10:14:25.832835
+------------------------------------------------------
+Started: 2024-11-22 12:24:14.001307
+Existing_entries: 416
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 4429
+Summarized using GPT-3.5-turbo
+Append: [A Conflicted Linkspost](https://www.lesswrong.com/posts/yrnxha2e7KEtCQmzv/a-conflicted-linkspost)
+append_entries: 1
+Finish: 2024-11-22 12:24:20.547401
