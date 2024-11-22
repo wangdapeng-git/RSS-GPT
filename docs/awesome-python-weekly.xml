@@ -4,15 +4,16 @@
 <title>Awesome Python Weekly</title>
 <link>https://python.libhunt.com/newsletter</link>
 
+
 <item>
 <title>🐍 Issue 443 - 7 AI Open Source Libraries To Build RAG, Agents &amp; AI Search</title>
 <link>https://python.libhunt.com/newsletter/443</link>
 <guid>https://python.libhunt.com/newsletter/443</guid>
 <content:encoded><![CDATA[
 <div> AI, Open Source Libraries, RAG, Agents, AI Search
-<br>
+<br />
 作者介绍了7个用于构建RAG、代理和AI搜索的AI开源库。这些库提供了丰富的功能，可以帮助开发人员构建各种AI应用程序。其中一些库包括Hugging Face Transformers、OpenAI GPT、Microsoft Bot Framework等。这些库都具有开源的特点，便于开发人员自由地使用和修改。通过利用这些库，开发人员可以更容易地构建出强大的人工智能系统，提升应用程序的智能化程度和用户体验。
-<br><br>总结: 
+<br /><br />总结: 
 1. 文章介绍了7个AI开源库，可以用来构建RAG、代理和AI搜索。
 2. 这些库包括Hugging Face Transformers、OpenAI GPT、Microsoft Bot Framework等。
 3. 这些库具有开源的特点，便于开发人员自由使用和修改。
@@ -21,9 +22,7 @@
 🐍 Issue 443 - 7 AI Open Source Libraries To Build RAG, Agents & AI Search
 ]]></content:encoded>
 <pubDate>Thu, 21 Nov 2024 13:42:00 -0800</pubDate>
-<pubDate>Thu, 21 Nov 2024 13:42:00 -0800</pubDate>
 </item>
-
 <item>
 <title>🐍 Issue 442 - Using Ghidra and Python to reverse engineer Ecco the Dolphin</title>
 <link>https://python.libhunt.com/newsletter/442</link>
