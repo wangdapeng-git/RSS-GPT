@@ -13251,3 +13251,9 @@ Summarized using GPT-3.5-turbo
 Append: [The Real Python Podcast – Episode #229: The Joy of Tinkering & Python Free-Threading Performance](https://realpython.com/podcasts/rpp/229/)
 append_entries: 1
 Finish: 2024-11-22 12:24:05.429322
+------------------------------------------------------
+Started: 2024-11-22 14:12:55.192756
+Existing_entries: 217
+Fetching from https://realpython.com/atom.xml
+append_entries: 0
+Finish: 2024-11-22 14:12:55.434975

@@ -4,22 +4,21 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>The Real Python Podcast – Episode #229: The Joy of Tinkering &amp; Python Free-Threading Performance</title>
 <link>https://realpython.com/podcasts/rpp/229/</link>
 <guid>https://realpython.com/podcasts/rpp/229/</guid>
 <content:encoded><![CDATA[
 <div> Python, software development, learning, frameworks, collaboration
-<br>
+<br />
 Python编程与软件开发的激情源泉，包括尝试新框架、建立小型项目、与其他开发者合作。Christopher Trudeau本周回顾了PyCoder's Weekly的文章和项目，分享了关于保持Python编程热情的建议与经验。 <div>
 <p>What keeps your spark alive for developing software and learning Python? Do you like to try new frameworks, build toy projects, or collaborate with other developers? Christopher Trudeau is back on the show this week, bringing another batch of PyCoder's Weekly articles and projects.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-22T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Quiz: Expression vs Statement in Python: What's the Difference?</title>
 <link>https://realpython.com/quizzes/python-expression-vs-statement/</link>
