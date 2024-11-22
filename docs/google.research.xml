@@ -4,6 +4,7 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+
 <item>
 <title>Re-Invoke: Tool invocation rewriting for zero-shot tool retrieval</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/ReInvoke-1-Overview.jpg</link>
@@ -11,13 +12,10 @@
 <content:encoded><![CDATA[
 <div> 关键词：文章、总结、中文、要点、关键词
 
-总结：<br><br>文章中使用了中文撰写内容，通过提取关键词并总结要点，得出了文章的主旨。总结内容清晰明了，指出了文章的重点和核心信息，有助于读者快速理解文章内容。文章逻辑清晰，层次分明，为读者提供了有效的阅读指引和信息整合方式。<br> <div>
-
+总结：<br /><br />文章中使用了中文撰写内容，通过提取关键词并总结要点，得出了文章的主旨。总结内容清晰明了，指出了文章的重点和核心信息，有助于读者快速理解文章内容。文章逻辑清晰，层次分明，为读者提供了有效的阅读指引和信息整合方式。<br /> <div>
 ]]></content:encoded>
-<pubDate>2024-11-21T00:00:00+00:00</pubDate>
 <pubDate>2024-11-22T18:18:16.174481+00:00</pubDate>
 </item>
-
 <item>
 <title>Scaling wearable foundation models</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/ScalingWearables1-HeroFinal.jpg</link>

@@ -12696,3 +12696,12 @@ Existing_entries: 417
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-22 18:18:09.207509
+------------------------------------------------------
+Started: 2024-11-22 20:14:12.403613
+Existing_entries: 417
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 15614
+Summarized using GPT-3.5-turbo
+Append: [LLM chatbots have ~half of the kinds of "consciousness" that humans believe in. Humans should avoid going crazy about that.](https://www.lesswrong.com/posts/LaWmoy4s2DLe9u2zq/llm-chatbots-have-half-of-the-kinds-of-consciousness-that)
+append_entries: 1
+Finish: 2024-11-22 20:14:16.058580
