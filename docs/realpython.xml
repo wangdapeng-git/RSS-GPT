@@ -4,12 +4,13 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>How to Iterate Through a Dictionary in Python</title>
 <link>https://realpython.com/iterate-through-dictionary-python/</link>
 <guid>https://realpython.com/iterate-through-dictionary-python/</guid>
 <content:encoded><![CDATA[
-<div> 迭代、字典、Python、键值对、方法<br>
+<div> 迭代、字典、Python、键值对、方法<br />
 迭代字典可以直接用for循环键或使用.items()来获取键值对，使用.keys()、.values()、.items()方法可以不同方式迭代字典，.items()适合获取键值对，最快的方法是使用.items()和元组解压缩来同时获取键和值。字典是Python中非常重要和有用的数据结构，可以用来解决各种编程问题。字典将键映射到值并存储在集合中，键必须是可哈希类型，而值可以是任何Python类型，可灵活添加、删除和更新字典内容。重新使用Python 3.6版本后，字典项的顺序与插入时一致，而在3.6之前则是无序的，了解如何迭代字典可以更高效地访问和操作数据。总结: 迭代字典时，使用.items()方法能最快捷地获取键值对，字典提供了高效地存储和访问数据的方式，也是Python中重要的数据结构。 <div>
 <div><p>Python offers several ways to iterate through a dictionary, such as using <code>.items()</code> to access key-value pairs directly and <code>.values()</code> to retrieve values only.</p>
 <p>By understanding these techniques, you’ll be able to efficiently access and manipulate dictionary data. Whether you’re updating the contents of a dictionary or filtering data, this guide will equip you with the tools you need.</p>
@@ -135,10 +136,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-23T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>The Real Python Podcast – Episode #229: The Joy of Tinkering &amp; Python Free-Threading Performance</title>
 <link>https://realpython.com/podcasts/rpp/229/</link>

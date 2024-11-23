@@ -10538,3 +10538,12 @@ Existing_entries: 87
 Fetching from https://blog.bytebytego.com/feed
 append_entries: 0
 Finish: 2024-11-23 16:15:07.086098
+------------------------------------------------------
+Started: 2024-11-23 18:16:13.378749
+Existing_entries: 87
+Fetching from https://blog.bytebytego.com/feed
+Token length: 5768
+Summarized using GPT-3.5-turbo
+Append: [EP139: Design a Live Streaming System](https://blog.bytebytego.com/p/ep139-design-a-live-streaming-system)
+append_entries: 1
+Finish: 2024-11-23 18:16:18.277394
