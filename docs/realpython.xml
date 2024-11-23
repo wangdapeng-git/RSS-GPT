@@ -4,6 +4,140 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>How to Iterate Through a Dictionary in Python</title>
+<link>https://realpython.com/iterate-through-dictionary-python/</link>
+<guid>https://realpython.com/iterate-through-dictionary-python/</guid>
+<content:encoded><![CDATA[
+<div> 迭代、字典、Python、键值对、方法<br>
+迭代字典可以直接用for循环键或使用.items()来获取键值对，使用.keys()、.values()、.items()方法可以不同方式迭代字典，.items()适合获取键值对，最快的方法是使用.items()和元组解压缩来同时获取键和值。字典是Python中非常重要和有用的数据结构，可以用来解决各种编程问题。字典将键映射到值并存储在集合中，键必须是可哈希类型，而值可以是任何Python类型，可灵活添加、删除和更新字典内容。重新使用Python 3.6版本后，字典项的顺序与插入时一致，而在3.6之前则是无序的，了解如何迭代字典可以更高效地访问和操作数据。总结: 迭代字典时，使用.items()方法能最快捷地获取键值对，字典提供了高效地存储和访问数据的方式，也是Python中重要的数据结构。 <div>
+<div><p>Python offers several ways to iterate through a dictionary, such as using <code>.items()</code> to access key-value pairs directly and <code>.values()</code> to retrieve values only.</p>
+<p>By understanding these techniques, you’ll be able to efficiently access and manipulate dictionary data. Whether you’re updating the contents of a dictionary or filtering data, this guide will equip you with the tools you need.</p>
+<p><strong>By the end of this tutorial, you’ll understand that:</strong></p>
+<ul>
+<li>You can <strong>directly iterate</strong> over the <strong>keys</strong> of a Python dictionary using a <code>for</code> loop and access values with <code>dict_object[key]</code>.</li>
+<li>You can iterate through a Python dictionary in different ways using the <strong>dictionary methods</strong> <code>.keys()</code>, <code>.values()</code>, and <code>.items()</code>.</li>
+<li>You should <strong>use <code>.items()</code></strong> to access <strong>key-value pairs</strong> when iterating through a Python dictionary.</li>
+<li>The <strong>fastest way</strong> to access both keys and values when you iterate over a dictionary in Python is to <strong>use <code>.items()</code></strong> with <strong>tuple unpacking</strong>.</li>
+</ul>
+<p>To get the most out of this tutorial, you should have a basic understanding of Python <a href="https://realpython.com/python-dicts/">dictionaries</a>, know how to use Python <a href="https://realpython.com/python-for-loop/"><code>for</code></a> loops, and be familiar with <a href="https://realpython.com/list-comprehension-python/">comprehensions</a>. Knowing other tools like the built-in <a href="https://realpython.com/python-map-function/"><code>map()</code></a> and <a href="https://realpython.com/python-filter-function/"><code>filter()</code></a> functions, as well as the <a href="https://realpython.com/python-itertools/"><code>itertools</code></a> and <a href="https://realpython.com/python-collections-module/"><code>collections</code></a> modules, is also a plus.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/iterate-through-dictionary-python-code/">Click here to download the sample code</a> that shows you how to iterate through a dictionary with Python.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Python Dictionary Iteration” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/python-dictionary-iteration/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="How to Iterate Through a Dictionary in Python" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/How-to-Iterate-Through-A-Dictionary-in-Python_Watermarked.06d6547f531b.jpg" style="background: #e5c5ac;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/python-dictionary-iteration/"><span class="my-0 h4">Python Dictionary Iteration</span></a> 
+      <p class="text-muted mb-0 small">Dictionaries are one of the most important and useful data structures in Python. Learning how to iterate through a Dictionary can help you solve a wide variety of programming problems in an efficient way. Test your understanding on how you can use them better!</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="getting-started-with-python-dictionaries">Getting Started With Python Dictionaries<a class="headerlink" href="#getting-started-with-python-dictionaries" title="Permanent link"></a></h2>
+<p>Dictionaries are a cornerstone of Python. Many aspects of the language are built around dictionaries. <a href="https://realpython.com/python-modules-packages/">Modules</a>, <a href="https://realpython.com/python-classes/">classes</a>, objects, <a href="https://realpython.com/python-scope-legb-rule/#globals"><code>globals()</code></a>, and <a href="https://realpython.com/python-scope-legb-rule/#locals"><code>locals()</code></a> are all examples of how dictionaries are deeply wired into Python’s implementation.</p>
+<p>Here’s how the Python <a href="https://docs.python.org/3/index.html">official documentation</a> defines a dictionary:</p>
+<blockquote>
+<p>An associative array, where arbitrary keys are mapped to values. The keys can be any object with <code>__hash__()</code> and <code>__eq__()</code> methods. (<a href="https://docs.python.org/3/glossary.html#term-dictionary">Source</a>)</p>
+</blockquote>
+<p>There are a couple of points to notice in this definition:</p>
+<ol>
+<li>Dictionaries map <strong>keys</strong> to <strong>values</strong> and store them in an array or <strong>collection</strong>. The key-value pairs are commonly known as <strong>items</strong>.</li>
+<li>Dictionary keys must be of a <a href="https://docs.python.org/3/glossary.html#term-hashable">hashable</a> type, which means that they must have a hash value that never changes during the key’s lifetime.</li>
+</ol>
+<p>Unlike <a href="https://docs.python.org/3/glossary.html#term-sequence">sequences</a>, which are <a href="https://realpython.com/python-iterators-iterables/#getting-to-know-python-iterables">iterables</a> that support element access using integer indices, dictionaries are indexed by keys. This means that you can access the values stored in a dictionary using the associated key rather than an integer index.</p>
+<p>The keys in a dictionary are much like a <a href="https://realpython.com/python-sets/"><code>set</code></a>, which is a collection of hashable and unique objects. Because the keys need to be hashable, you can’t use <a href="https://docs.python.org/3/glossary.html#term-mutable">mutable</a> objects as dictionary keys.</p>
+<p>On the other hand, dictionary values can be of any Python type, whether they’re hashable or not. There are literally no restrictions for values. You can use anything as a value in a Python dictionary.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> The concepts and topics that you’ll learn about in this section and throughout this tutorial refer to the <a href="https://realpython.com/cpython-source-code-guide/">CPython</a> implementation of Python. Other implementations, such as <a href="https://realpython.com/pypy-faster-python/">PyPy</a>, <a href="http://ironpython.net/">IronPython</a>, and <a href="http://www.jython.org/index.html">Jython</a>, could exhibit different dictionary behaviors and features that are beyond the scope of this tutorial.</p>
+</div>
+<p>Before Python 3.6, dictionaries were <em>unordered</em> data structures. This means that the order of items typically wouldn’t match the insertion order:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="c1"># Python 3.5</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">likes</span> <span class="o">=</span> <span class="p">{</span><span class="s2">"color"</span><span class="p">:</span> <span class="s2">"blue"</span><span class="p">,</span> <span class="s2">"fruit"</span><span class="p">:</span> <span class="s2">"apple"</span><span class="p">,</span> <span class="s2">"pet"</span><span class="p">:</span> <span class="s2">"dog"</span><span class="p">}</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">likes</span>
+<span class="go">{'color': 'blue', 'pet': 'dog', 'fruit': 'apple'}</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Note how the order of items in the resulting dictionary doesn’t match the order in which you originally inserted the items.</p>
+<p>In Python 3.6 and greater, the keys and values of a dictionary retain the same order in which you insert them into the underlying dictionary. From 3.6 onward, dictionaries are compact <em>ordered</em> data structures:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="c1"># Python 3.6</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">likes</span> <span class="o">=</span> <span class="p">{</span><span class="s2">"color"</span><span class="p">:</span> <span class="s2">"blue"</span><span class="p">,</span> <span class="s2">"fruit"</span><span class="p">:</span> <span class="s2">"apple"</span><span class="p">,</span> <span class="s2">"pet"</span><span class="p">:</span> <span class="s2">"dog"</span><span class="p">}</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">likes</span>
+<span class="go">{'color': 'blue', 'fruit': 'apple', 'pet': 'dog'}</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Keeping the items in order is a pretty useful feature. However, if you work with code that supports older Python versions, then you must not rely on this feature, because it can generate buggy behaviors. With newer versions, it’s completely safe to rely on the feature.</p>
+<p>Another important feature of dictionaries is that they’re <a href="https://realpython.com/python-mutable-vs-immutable-types/#dictionaries">mutable</a> data types. This means that you can add, delete, and update their items <a href="https://en.wikipedia.org/wiki/In-place_algorithm">in place</a> as needed. It’s worth noting that this mutability also means that you can’t use a dictionary as a key in another dictionary.</p>
+<h2 id="understanding-how-to-iterate-through-a-dictionary-in-python">Understanding How to Iterate Through a Dictionary in Python<a class="headerlink" href="#understanding-how-to-iterate-through-a-dictionary-in-python" title="Permanent link"></a></h2>
+</div><h2><a href="https://realpython.com/iterate-through-dictionary-python/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/iterate-through-dictionary-python/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-11-23T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>The Real Python Podcast – Episode #229: The Joy of Tinkering &amp; Python Free-Threading Performance</title>
