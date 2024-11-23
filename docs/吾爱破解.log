@@ -29539,3 +29539,19 @@ Filter: [易采集EasySpider：无代码可视化爬虫 0.6.2 开源](https://ww
 Filter: [【Flightradar24】10.2.0 原创汉化版 全球飞机飞行数据查询](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979972)
 append_entries: 0
 Finish: 2024-11-23 20:13:30.079801
+------------------------------------------------------
+Started: 2024-11-23 22:11:15.765311
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [光影魔术手v0.2.5安卓版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1984626)
+Append: [MuMu模拟器4.1.6新版去广告](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1984291)
+Filter: [多彩种开奖号码聚合工具 ver 0.0.1 吾爱首发](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1983831)
+Filter: [小白提词器 v1.3.9 —— AI 提词转录助手，支持悬浮及音视频转文字（可离线）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1983644)
+Filter: [高德车机版8.1悬浮共存版，高清红绿灯读秒](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1983409)
+Filter: [转载一个没有广告的V20百度地图](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1983050)
+Append: [DeskGo v3.3.1486.127 –腾讯桌面整理独立版，免费又好用的桌面文件分类整理工具。](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1981101)
+Filter: [记一次二房东智能*表的白嫖之路](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980475)
+Filter: [一键AI证件照制作工具 HivisionIDPhotos v1.3.0，支持自定义部署（新增功能改进）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1980263)
+Filter: [【Flightradar24】10.2.0 原创汉化版 全球飞机飞行数据查询](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1979972)
+append_entries: 2
+Finish: 2024-11-23 22:11:18.321216
