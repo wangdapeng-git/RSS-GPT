@@ -12750,3 +12750,9 @@ Summarized using GPT-3.5-turbo
 Append: [A very strange probability paradox](https://www.lesswrong.com/posts/7TYdQ34KxTBmA734v/a-very-strange-probability-paradox)
 append_entries: 1
 Finish: 2024-11-23 10:13:13.842064
+------------------------------------------------------
+Started: 2024-11-23 12:21:38.336732
+Existing_entries: 419
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-23 12:21:39.280145

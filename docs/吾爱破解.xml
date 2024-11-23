@@ -4,6 +4,50 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>免费开源-“HTML网页代码预览器-离线版”</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1984274</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1984274</guid>
+<content:encoded><![CDATA[
+
+[md]&amp;#128640; **欢迎来到“HTML网页代码预览器-离线版”的奇妙世界！** &amp;#127760;
+
+&amp;#127881; **简介：**
+在这个数字化的时代，每个人都可能是下一个网页设计大师！但等等，你是不是还在为如何快速预览你的HTML代码而 ...
+]]></content:encoded>
+<pubDate>Thu, 21 Nov 2024 13:15:39 +0000</pubDate>
+<pubDate>Thu, 21 Nov 2024 13:15:39 +0000</pubDate>
+</item>
+<item>
+<title>DJ串烧自动合成 MixMeister.Fusion.7.3.5.1简体中文汉化版</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983915</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983915</guid>
+<content:encoded><![CDATA[
+
+第一次发帖，这个软件，是我十几年前汉化的，也是首批汉化，相对比较稳定，也很多人找我要，我都没给，网上那些，都是我这个版本改出来的.
+
+
+MixMeister是一款十分不错的DJ音序混音器，它可以将视频和音频进行融合， ...
+]]></content:encoded>
+<pubDate>Wed, 20 Nov 2024 12:11:11 +0000</pubDate>
+<pubDate>Wed, 20 Nov 2024 12:11:11 +0000</pubDate>
+</item>
+<item>
+<title>python一键批量插入图片到Excel</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983298</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1983298</guid>
+<content:encoded><![CDATA[
+
+[mw_shl_code=python,true]from openpyxl import load_workbook
+from openpyxl.drawing.image import Image as OpenpyxlImage
+from openpyxl.utils import get_column_letter
+import os
+
+def insert_images_into_excel(worksheet, image_dir, target_column, start ...
+]]></content:encoded>
+<pubDate>Mon, 18 Nov 2024 16:43:29 +0000</pubDate>
+<pubDate>Mon, 18 Nov 2024 16:43:29 +0000</pubDate>
+</item>
 
 <item>
 <title>某萌新APP破解永久激活</title>

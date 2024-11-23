@@ -4,6 +4,24 @@
 <title>NLP Newsletter</title>
 <link>https://nlp.elvissaravia.com</link>
 
+<item>
+<title>🤖AI Agents Weekly: Multi-Agent Orchestrator, Multi-Agent ML Engineering, Automated Bug Fixing, Browser Agent,...</title>
+<link>https://nlp.elvissaravia.com/p/ai-agents-weekly-multi-agent-orchestrator</link>
+<guid>https://nlp.elvissaravia.com/p/ai-agents-weekly-multi-agent-orchestrator</guid>
+<content:encoded><![CDATA[
+<div> AWS, machine learning, engineering tasks, bug fixing, AI agent development
+
+总结:<br><br>本文介绍了AWS发布了一个新的用于自动化机器学习工程任务的工具，以及基于LLM的代理自动修复Bug的应用。文章还探讨了企业中LLM代理的互操作性，代理合成数据生成器等话题。同时，还分享了构建研究代理的开发技巧，包括处理异构数据和提示工程技巧。整体内容涵盖了机器学习工程、人工智能代理开发等领域的最新动态和实用技巧。 <div>
+<p>In today&#8217;s issue:</p><ul><li><p>AWS releases a new <a href="https://github.com/awslabs/multi-agent-orchestrator">multi-agent orchestrator</a>.</p></li><li><p>A <a href="https://heyneo.so/blog">multi-agent system</a> for automating machine learning engineering tasks.</p></li><li><p>A <a href="https://arxiv.org/abs/2411.10213">comprehensive analysis</a> of LLM-based agents for automated bug fixing.</p></li><li><p><a href="https://menlovc.com/2024-the-state-of-generative-ai-in-the-enterprise/">2024 State of Generative AI</a> in enterprise and future of AI agent development.</p></li><li><p>Interoperability for LLM agents, agentic synthetic-data generator, and much more.</p></li><li><p>Dev tips for building research agents, including working with heterogeneous data and prompt engineering tips.</p></li></ul>
+      <p>
+          <a href="https://nlp.elvissaravia.com/p/ai-agents-weekly-multi-agent-orchestrator">
+              Read more
+          </a>
+      </p>
+]]></content:encoded>
+<pubDate>Sat, 23 Nov 2024 11:19:56 GMT</pubDate>
+<pubDate>Sat, 23 Nov 2024 11:19:56 GMT</pubDate>
+</item>
 
 <item>
 <title>🥇Top ML Papers of the Week</title>
