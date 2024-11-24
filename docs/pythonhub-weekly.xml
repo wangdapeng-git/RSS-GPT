@@ -4,6 +4,7 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-11-24</title>
 <link>https://pythonhub.dev/digest/2024-11-24/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> Polars pandas Pex Django项目模板 LLMs Django扩展 Fire safety Python依赖管理
 
-<meta charset="utf-8"><br><br>总结:本周Python主题涵盖了Polars和pandas之间的差异，用于生成Python可执行文件的Pex工具，以及Django项目模板的建议。文章涵盖了运行本地LLMs、扩展Django、Python垃圾收集器、限制Python异步API请求速率以及Python依赖管理。有趣的项目包括RAG分块库'chonkie'，AlphaFold 3推理管道，以及用于在NVIDIA GPU上加速Transformer模型的TransformerEngine库。祝您度过愉快的一周，编码愉快！ <div>
+<br /><br />总结:本周Python主题涵盖了Polars和pandas之间的差异，用于生成Python可执行文件的Pex工具，以及Django项目模板的建议。文章涵盖了运行本地LLMs、扩展Django、Python垃圾收集器、限制Python异步API请求速率以及Python依赖管理。有趣的项目包括RAG分块库'chonkie'，AlphaFold 3推理管道，以及用于在NVIDIA GPU上加速Transformer模型的TransformerEngine库。祝您度过愉快的一周，编码愉快！ <div>
 <p class="summary">This week in Python, the popular topics included the differences between Polars and pandas, the Pex tool for generating Python executable files, and a proposal for a Django project template. Articles covered running local LLMs, scaling Django, Python's garbage collector, rate limiting Python async API requests, and Python dependency management. Interesting projects included the RAG chunking library 'chonkie', AlphaFold 3 inference pipeline, and the TransformerEngine library for accelerating Transformer models on NVIDIA GPUs. Have a great week and happy coding!</p>
 
 <div></div>
@@ -200,9 +201,7 @@
 <hr />
 ]]></content:encoded>
 <pubDate>Sun, 24 Nov 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 24 Nov 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-11-17</title>
 <link>https://pythonhub.dev/digest/2024-11-17/</link>

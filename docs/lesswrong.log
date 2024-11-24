@@ -12852,3 +12852,9 @@ Summarized using GPT-3.5-turbo
 Append: [Neuroscience of human social instincts: a sketch](https://www.lesswrong.com/posts/kYvbHCDeMTCTE9TAj/neuroscience-of-human-social-instincts-a-sketch)
 append_entries: 1
 Finish: 2024-11-24 18:15:58.377743
+------------------------------------------------------
+Started: 2024-11-24 20:13:31.809394
+Existing_entries: 421
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-24 20:13:33.064457
