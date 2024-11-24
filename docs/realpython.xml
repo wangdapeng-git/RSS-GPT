@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Python range(): Represent Numerical Ranges</title>
 <link>https://realpython.com/python-range/</link>
 <guid>https://realpython.com/python-range/</guid>
 <content:encoded><![CDATA[
-<div> range, loop, interval, sequence, efficient<br>
-<br>
+<div> range, loop, interval, sequence, efficient<br />
+<br />
 range()函数在Python中生成一个整数范围，常用于循环迭代。它可以生成从0开始到指定停止值之前的数字序列，也可以通过reversed()实现反向序列。使用负步数如range(start, stop, -1)可以实现从起始值向停止值倒数。range()不仅仅用于迭代，还可在其他编程场景中使用，使代码更高效和可读。掌握range()可以简化代码，同时也要考虑其他替代方案的适用性。通过本教程，你将了解range是Python中表示整数区间的对象，掌握range()的用法用于产生可转换为列表的数字序列，以及如何利用range参数start、stop和step来定义序列的起始、终止和间隔。可通过负步长值实现逆向范围，也可以用reversed()实现反转。 <div>
 <div><p>In Python, the <code>range()</code> function generates a sequence of numbers, often used in loops for iteration. By default, it creates numbers starting from 0 up to but not including a specified stop value. You can also reverse the sequence with <code>reversed()</code>. If you need to count backwards, then you can use a negative step, like <code>range(start, stop, -1)</code>, which counts down from <code>start</code> to <code>stop</code>.</p>
 <p>The <code>range()</code> function is not just about iterating over numbers. It can also be used in various programming scenarios beyond simple loops. By mastering <code>range()</code>, you can write more efficient and readable Python code. Explore how <code>range()</code> can simplify your code and when alternatives might be more appropriate.</p>
@@ -164,7 +165,6 @@ range()函数在Python中生成一个整数范围，常用于循环迭代。它�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-24T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -173,7 +173,7 @@ range()函数在Python中生成一个整数范围，常用于循环迭代。它�
 <guid>https://realpython.com/python-string-concatenation/</guid>
 <content:encoded><![CDATA[
 <div> 字符串、拼接、Python、操作、方法
-<br>
+<br />
 拼接字符串是Python中的基本操作，可使用+运算符或+=运算符来将多个字符串组合成一个字符串。.join()方法通常用于有效地连接字符串列表。还可以使用StringIO来处理大型数据集或使用print()函数进行快速屏幕输出。+=可以将字符串附加到现有字符串上，.join()方法用于在Python中连接列表中的字符串。通过str()函数将其他数据类型转换为字符串以避免在使用连接操作时出现类型错误。总之，Python中的字符串拼接可以通过+运算符和+=运算符进行，同时要注意类型转换问题，以实现字符串的有效连接。总结: <div>
 <div><p>Python <strong>string concatenation</strong> is a fundamental operation that combines multiple strings into a single string. In Python, you can concatenate strings using the <code>+</code> operator or the <code>+=</code> operator for appending. For more efficient concatenation of multiple strings, the <code>.join()</code> method is recommended, especially when working with strings in a list. Other techniques include using <code>StringIO</code> for large datasets or the <code>print()</code> function for quick screen outputs.</p>
 <p><strong>By the end of this tutorial, you’ll understand that:</strong></p>
@@ -394,10 +394,8 @@ range()函数在Python中生成一个整数范围，常用于循环迭代。它�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-24T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>How to Iterate Through a Dictionary in Python</title>
 <link>https://realpython.com/iterate-through-dictionary-python/</link>

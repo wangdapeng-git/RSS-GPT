@@ -4,6 +4,204 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-11-24</title>
+<link>https://pythonhub.dev/digest/2024-11-24/</link>
+<guid>https://pythonhub.dev/digest/2024-11-24/</guid>
+<content:encoded><![CDATA[
+<div> Polars pandas Pex Django项目模板 LLMs Django扩展 Fire safety Python依赖管理
+
+<meta charset="utf-8"><br><br>总结:本周Python主题涵盖了Polars和pandas之间的差异，用于生成Python可执行文件的Pex工具，以及Django项目模板的建议。文章涵盖了运行本地LLMs、扩展Django、Python垃圾收集器、限制Python异步API请求速率以及Python依赖管理。有趣的项目包括RAG分块库'chonkie'，AlphaFold 3推理管道，以及用于在NVIDIA GPU上加速Transformer模型的TransformerEngine库。祝您度过愉快的一周，编码愉快！ <div>
+<p class="summary">This week in Python, the popular topics included the differences between Polars and pandas, the Pex tool for generating Python executable files, and a proposal for a Django project template. Articles covered running local LLMs, scaling Django, Python's garbage collector, rate limiting Python async API requests, and Python dependency management. Interesting projects included the RAG chunking library 'chonkie', AlphaFold 3 inference pipeline, and the TransformerEngine library for accelerating Transformer models on NVIDIA GPUs. Have a great week and happy coding!</p>
+
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://labs.quansight.org/blog/dataframe-group-by">The Polars vs pandas difference nobody is talking about</a></strong>
+    
+        <br /><span>A closer look at non-elementary group-by aggregations.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/dpunj/weft">weft</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/pex-tool/pex">Pex: A tool for generating .pex (Python EXecutable) files, lock files and venvs</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://david.guillot.me/en/posts/tech/proposal-for-a-django-project-template/">Proposal for a Django project template</a></strong>
+    
+        <br /><span>The author's take on what could be a project template for Django advanced usage, with modern tooling (for Python and UI dependencies, as well as configuration/environment management), but not too opinionated.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/microsoft/autogen">microsoft / autogen</a></strong>
+    
+        <br /><span>A programming framework for agentic AI 🤖</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://nullprogram.com/blog/2024/11/10">Everything I've learned so far about running local LLMs</a></strong>
+    
+        <br /><span>A post about running large language models (LLMs) locally on a computer. It discusses what LLMs are and how to set them up to run on your own machine. The article also covers some of the limitations of LLMs, but highlights their potential for tasks like proofreading and creative writing.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://slimsaas.com/blog/django-scaling-performance">The Practical Guide to Scaling Django</a></strong>
+    
+        <br /><span>Most Django scaling guides focus on theoretical maximums. But real scaling isn’t about handling hypothetical millions of users - it’s about systematically eliminating bottlenecks as you grow. Here’s how to do it right, based on patterns that work in production.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.codingconfessions.com/p/connecting-cpythons-gc-internals">CPython's Garbage Collector and Its Impact on Application Performance</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://elnaril.hashnode.dev/how-to-rate-limit-python-async-requests-to-etherscan-and-other-apis">Tutorial: How to rate limit Python async API requests</a></strong>
+    
+        <br /><span>With an example that performs 100 simultaneous requests to the Etherscan API</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/AnilBK/C-Preprocessor-Language">Python, C++ inspired language that transpiles to C and can be embedded within C</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://nielscautaerts.xyz/python-dependency-management-is-a-dumpster-fire.html">Python dependency management is a dumpster fire</a></strong>
+    
+        <br /><span>This article is all about fire safety techniques and tools. It's about how you should think about dependency management, which tools you should consider for different scenarios, and what trade offs you'll have to make. Finally, it exposes the complexity and lingering problems in the ecosystem.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/mkalioby/leopards">Query Your Python Lists</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=0-iuJgfQMOw">NanoDjango - single-file Django apps | uv integration</a></strong>
+    
+        <br /><span>NanoDjango is a cool package that lets you build small scripts using all the power of Django, and also supports django-ninja for APIs. We'll dive into NanoDjango in this video, and will use uv and inline script metadata for dependency management.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://buttondown.com/carlton/archive/thoughts-on-djangos-core">Thoughts on Django’s Core</a></strong>
+    
+        <br /><span>Django's longevity is attributed to its stable core, time-based releases, and API stability policy. While there's enthusiasm for expanding Django's features, the author argues that the core should remain focused and prioritize stability. Instead, the community should embrace third-party packages as a way to innovate and extend Django's capabilities without compromising its core.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://substack.com/@rasbt/p-151078631">Understanding Multimodal LLMs</a></strong>
+    
+        <br /><span>An introduction to the main techniques and latest models.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=zy8ChVd_oTM">Flash Attention derived and coded from first principles with Triton (Python)</a></strong>
+    
+        <br /><span>This video provides an in-depth, step-by-step explanation of Flash Attention, covering its derivation, implementation, and underlying concepts. The presenter explains CUDA, Triton, and autograd from scratch, then derives and codes both the forward and backward passes of Flash Attention.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://eli.thegreenplace.net/2024/ml-in-go-with-a-python-sidecar/">ML in Go with a Python Sidecar</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-11-17/">Python Hub Weekly Digest for 2024-11-17</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/bhavnicksm/chonkie">chonkie</a></strong>
+    
+        <br /><span>The no-nonsense RAG chunking library that's lightweight, lightning-fast, and ready to CHONK your texts.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/google-deepmind/alphafold3">alphafold3</a></strong>
+    
+        <br /><span>AlphaFold 3 inference pipeline.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/Jordan-Kowal/pipe-operator">pipe-operator</a></strong>
+    
+        <br /><span>Elixir's pipe operator in Python.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/KellerJordan/Muon">Muon</a></strong>
+    
+        <br /><span>Muon optimizer for neural networks: &gt;30% extra sample efficiency, &lt;3% wallclock overhead.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/bytedance/Protenix">Protenix</a></strong>
+    
+        <br /><span>A trainable PyTorch reproduction of AlphaFold 3.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/NVIDIA/Cosmos-Tokenizer">Cosmos-Tokenizer</a></strong>
+    
+        <br /><span>A suite of image and video neural tokenizers.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/NVIDIA/TransformerEngine">TransformerEngine</a></strong>
+    
+        <br /><span>A library for accelerating Transformer models on NVIDIA GPUs, including using 8-bit floating point (FP8) precision on Hopper and Ada GPUs, to provide better performance with lower memory utilization in both training and inference.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/acroper/BeamerQt">BeamerQt</a></strong>
+    
+        <br /><span>PyQt-based application to create Beamer-LaTeX Presentations.</span>
+    
+    </p>
+
+
+<hr />
+]]></content:encoded>
+<pubDate>Sun, 24 Nov 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 24 Nov 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-11-17</title>
