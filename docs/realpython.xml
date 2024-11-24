@@ -4,6 +4,399 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Python range(): Represent Numerical Ranges</title>
+<link>https://realpython.com/python-range/</link>
+<guid>https://realpython.com/python-range/</guid>
+<content:encoded><![CDATA[
+<div> range, loop, interval, sequence, efficient<br>
+<br>
+range()函数在Python中生成一个整数范围，常用于循环迭代。它可以生成从0开始到指定停止值之前的数字序列，也可以通过reversed()实现反向序列。使用负步数如range(start, stop, -1)可以实现从起始值向停止值倒数。range()不仅仅用于迭代，还可在其他编程场景中使用，使代码更高效和可读。掌握range()可以简化代码，同时也要考虑其他替代方案的适用性。通过本教程，你将了解range是Python中表示整数区间的对象，掌握range()的用法用于产生可转换为列表的数字序列，以及如何利用range参数start、stop和step来定义序列的起始、终止和间隔。可通过负步长值实现逆向范围，也可以用reversed()实现反转。 <div>
+<div><p>In Python, the <code>range()</code> function generates a sequence of numbers, often used in loops for iteration. By default, it creates numbers starting from 0 up to but not including a specified stop value. You can also reverse the sequence with <code>reversed()</code>. If you need to count backwards, then you can use a negative step, like <code>range(start, stop, -1)</code>, which counts down from <code>start</code> to <code>stop</code>.</p>
+<p>The <code>range()</code> function is not just about iterating over numbers. It can also be used in various programming scenarios beyond simple loops. By mastering <code>range()</code>, you can write more efficient and readable Python code. Explore how <code>range()</code> can simplify your code and when alternatives might be more appropriate.</p>
+<p><strong>By the end of this tutorial, you’ll understand that:</strong></p>
+<ul>
+<li>A range in Python is an object representing an <strong>interval of integers</strong>, often used for looping.</li>
+<li>The <code>range()</code> function can be used to <strong>generate sequences</strong> of numbers that can be <strong>converted to lists</strong>.</li>
+<li><code>for i in range(5)</code> is a loop that <strong>iterates</strong> over the numbers from 0 to 4, inclusive.</li>
+<li>The <strong>range parameters</strong> <code>start</code>, <code>stop</code>, and <code>step</code> define where the sequence begins, ends, and the interval between numbers.</li>
+<li>Ranges can go <strong>backward</strong> in Python by using a negative step value and <strong>reversed</strong> by using <code>reversed()</code>.</li>
+</ul>
+<p>A range is a Python object that represents an interval of integers. Usually, the numbers are consecutive, but you can also specify that you want to space them out. You can create ranges by calling <code>range()</code> with one, two, or three arguments, as the following examples show:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
+<span class="go">[0, 1, 2, 3, 4]</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">7</span><span class="p">))</span>
+<span class="go">[1, 2, 3, 4, 5, 6]</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span>
+<span class="go">[1, 3, 5, 7, 9, 11, 13, 15, 17, 19]</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In each example, you use <a href="https://realpython.com/python-list/#using-the-list-constructor"><code>list()</code></a> to explicitly list the individual elements of each range. You’ll study these examples in more detail later on.</p>
+<p>A range can be an effective tool. However, throughout this tutorial, you’ll also explore alternatives that may work better in some situations. You can click the link below to download the code that you’ll see in this tutorial:</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-range-code/">Click here to download the free sample code</a> that shows you how to represent numerical ranges in Python.</p>
+</div>
+<h2 id="construct-numerical-ranges">Construct Numerical Ranges<a class="headerlink" href="#construct-numerical-ranges" title="Permanent link"></a></h2>
+<p>In Python, <code>range()</code> is <strong>built in</strong>. This means that you can always call <code>range()</code> without doing any preparations first. Calling <code>range()</code> constructs a <strong>range object</strong> that you can put to use. Later, you’ll see practical examples of how to use range objects.</p>
+<p>You can provide <code>range()</code> with one, two, or three <strong>integer</strong> arguments. This corresponds to three different use cases:</p>
+<ol>
+<li>Ranges counting from zero</li>
+<li>Ranges of consecutive numbers</li>
+<li>Ranges stepping over numbers</li>
+</ol>
+<p>You’ll learn how to use each of these next.</p>
+<h3 id="count-from-zero">Count From Zero<a class="headerlink" href="#count-from-zero" title="Permanent link"></a></h3>
+<p>When you call <code>range()</code> with one argument, you create a range that counts from zero and up to, but not including, the number you provided:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+<span class="go">range(0, 5)</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Here, you’ve created a range from zero to five. To see the individual elements in the range, you can use <code>list()</code> to convert the range to a <a href="https://realpython.com/python-list/">list</a>:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
+<span class="go">[0, 1, 2, 3, 4]</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Inspecting <code>range(5)</code> shows that it contains the numbers zero, one, two, three, and four. Five itself is not a part of the range. One nice property of these ranges is that the argument, <code>5</code> in this case, is the same as the number of elements in the range.</p>
+<h3 id="count-from-start-to-stop">Count From Start to Stop<a class="headerlink" href="#count-from-start-to-stop" title="Permanent link"></a></h3>
+<p>You can call <code>range()</code> with two arguments. The first value will be the start of the range. As before, the range will count up to, but not include, the second value:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span>
+<span class="go">range(1, 7)</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The representation of a range object just shows you the arguments that you provided, so it’s not super helpful in this case. You can use <code>list()</code> to inspect the individual elements:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">7</span><span class="p">))</span>
+<span class="go">[1, 2, 3, 4, 5, 6]</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+</div><h2><a href="https://realpython.com/python-range/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-range/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-11-24T14:00:00+00:00</pubDate>
+</item>
+<item>
+<title>Efficient String Concatenation in Python</title>
+<link>https://realpython.com/python-string-concatenation/</link>
+<guid>https://realpython.com/python-string-concatenation/</guid>
+<content:encoded><![CDATA[
+<div> 字符串、拼接、Python、操作、方法
+<br>
+拼接字符串是Python中的基本操作，可使用+运算符或+=运算符来将多个字符串组合成一个字符串。.join()方法通常用于有效地连接字符串列表。还可以使用StringIO来处理大型数据集或使用print()函数进行快速屏幕输出。+=可以将字符串附加到现有字符串上，.join()方法用于在Python中连接列表中的字符串。通过str()函数将其他数据类型转换为字符串以避免在使用连接操作时出现类型错误。总之，Python中的字符串拼接可以通过+运算符和+=运算符进行，同时要注意类型转换问题，以实现字符串的有效连接。总结: <div>
+<div><p>Python <strong>string concatenation</strong> is a fundamental operation that combines multiple strings into a single string. In Python, you can concatenate strings using the <code>+</code> operator or the <code>+=</code> operator for appending. For more efficient concatenation of multiple strings, the <code>.join()</code> method is recommended, especially when working with strings in a list. Other techniques include using <code>StringIO</code> for large datasets or the <code>print()</code> function for quick screen outputs.</p>
+<p><strong>By the end of this tutorial, you’ll understand that:</strong></p>
+<ul>
+<li>You can <strong>concatenate strings</strong> in Python using the <code>+</code> operator and the <code>+=</code> operator.</li>
+<li>You can use <code>+=</code> to <strong>append a string</strong> to an existing string.</li>
+<li>The <code>.join()</code> method is used to <strong>combine strings in a list</strong> in Python.</li>
+<li>You can handle a <strong>stream of strings</strong> efficiently by using <code>StringIO</code> as a container with a file-like interface.</li>
+</ul>
+<p>To get the most out of this tutorial, you should have a basic understanding of Python, especially its built-in <a href="https://realpython.com/python-strings/">string</a> data type.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-string-concatenation-code/">Click here to download the free sample code</a> that shows you how to efficiently concatenate strings in Python.</p>
+</div>
+<h2 id="doing-string-concatenation-with-pythons-plus-operator">Doing String Concatenation With Python’s Plus Operator (<code>+</code>)<a class="headerlink" href="#doing-string-concatenation-with-pythons-plus-operator" title="Permanent link"></a></h2>
+<p><strong>String concatenation</strong> is a pretty common operation consisting of joining two or more strings together end to end to build a final string. Perhaps the quickest way to achieve concatenation is to take two separate strings and combine them with the plus operator (<code>+</code>), which is known as the <strong>concatenation operator</strong> in this context:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="s2">"Hello, "</span> <span class="o">+</span> <span class="s2">"Pythonista!"</span>
+<span class="go">'Hello, Pythonista!'</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">head</span> <span class="o">=</span> <span class="s2">"String Concatenation "</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">tail</span> <span class="o">=</span> <span class="s2">"is Fun in Python!"</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">head</span> <span class="o">+</span> <span class="n">tail</span>
+<span class="go">'String Concatenation is Fun in Python!'</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Using the concatenation operator to join two strings provides a quick solution for concatenating only a few strings. </p>
+<p>For a more realistic example, say you have an output line that will <a href="https://realpython.com/python-print/">print</a> an informative message based on specific criteria. The beginning of the message might always be the same. However, the end of the message will vary depending on different criteria. In this situation, you can take advantage of the concatenation operator:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="k">def</span> <span class="nf">age_group</span><span class="p">(</span><span class="n">age</span><span class="p">):</span>
+<span class="gp">... </span>    <span class="k">if</span> <span class="mi">0</span> <span class="o">&lt;=</span> <span class="n">age</span> <span class="o">&lt;=</span> <span class="mi">9</span><span class="p">:</span>
+<span class="gp">... </span>        <span class="n">result</span> <span class="o">=</span> <span class="s2">"a Child!"</span>
+<span class="gp">... </span>    <span class="k">elif</span> <span class="mi">9</span> <span class="o">&lt;</span> <span class="n">age</span> <span class="o">&lt;=</span> <span class="mi">18</span><span class="p">:</span>
+<span class="gp">... </span>        <span class="n">result</span> <span class="o">=</span> <span class="s2">"an Adolescent!"</span>
+<span class="gp">... </span>    <span class="k">elif</span> <span class="mi">19</span> <span class="o">&lt;</span> <span class="n">age</span> <span class="o">&lt;=</span> <span class="mi">65</span><span class="p">:</span>
+<span class="gp">... </span>        <span class="n">result</span> <span class="o">=</span> <span class="s2">"an Adult!"</span>
+<span class="gp">... </span>    <span class="k">else</span><span class="p">:</span>
+<span class="gp">... </span>        <span class="n">result</span> <span class="o">=</span> <span class="s2">"in your Golden Years!"</span>
+<span class="hll"><span class="gp">... </span>    <span class="nb">print</span><span class="p">(</span><span class="s2">"You are "</span> <span class="o">+</span> <span class="n">result</span><span class="p">)</span>
+</span><span class="gp">...</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">age_group</span><span class="p">(</span><span class="mi">29</span><span class="p">)</span>
+<span class="go">You are an Adult!</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">age_group</span><span class="p">(</span><span class="mi">14</span><span class="p">)</span>
+<span class="go">You are an Adolescent!</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">age_group</span><span class="p">(</span><span class="mi">68</span><span class="p">)</span>
+<span class="go">You are in your Golden Years!</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In the above example, <code>age_group()</code> prints a final message constructed with a common prefix and the string resulting from the <a href="https://realpython.com/python-conditional-statements/">conditional statement</a>. In this type of use case, the plus operator is your best option for quick string concatenation in Python.</p>
+<p>The concatenation operator has an augmented version that provides a shortcut for concatenating two strings together. The <strong>augmented concatenation operator</strong> (<code>+=</code>) has the following syntax:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="n">string</span> <span class="o">+=</span> <span class="n">other_string</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>This expression will concatenate the content of <code>string</code> with the content of <code>other_string</code>. It’s equivalent to saying <code>string = string + other_string</code>.</p>
+<p>Here’s a short example of how the augmented concatenation operator works in practice:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">word</span> <span class="o">=</span> <span class="s2">"Py"</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">word</span> <span class="o">+=</span> <span class="s2">"tho"</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">word</span> <span class="o">+=</span> <span class="s2">"nis"</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">word</span> <span class="o">+=</span> <span class="s2">"ta"</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">word</span>
+<span class="go">'Pythonista'</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this example, every <a href="https://realpython.com/python-assignment-operator/#augmented-assignments-for-concatenation-and-repetition">augmented assignment</a> adds a new syllable to the final word using the <code>+=</code> operator. This concatenation technique can be useful when you have several strings in a <a href="https://realpython.com/python-lists-tuples/">list</a> or any other <a href="https://realpython.com/python-iterators-iterables/#getting-to-know-python-iterables">iterable</a> and want to concatenate them in a <a href="https://realpython.com/python-for-loop/"><code>for</code> loop</a>:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="k">def</span> <span class="nf">concatenate</span><span class="p">(</span><span class="n">iterable</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">" "</span><span class="p">):</span>
+<span class="gp">... </span>    <span class="n">sentence</span> <span class="o">=</span> <span class="n">iterable</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="gp">... </span>    <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">iterable</span><span class="p">[</span><span class="mi">1</span><span class="p">:]:</span>
+<span class="gp">... </span>        <span class="n">sentence</span> <span class="o">+=</span> <span class="p">(</span><span class="n">sep</span> <span class="o">+</span> <span class="n">word</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="k">return</span> <span class="n">sentence</span>
+<span class="gp">...</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">concatenate</span><span class="p">([</span><span class="s2">"Hello,"</span><span class="p">,</span> <span class="s2">"World!"</span><span class="p">,</span> <span class="s2">"I"</span><span class="p">,</span> <span class="s2">"am"</span><span class="p">,</span> <span class="s2">"a"</span><span class="p">,</span> <span class="s2">"Pythonista!"</span><span class="p">])</span>
+<span class="go">'Hello, World! I am a Pythonista!'</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Inside the loop, you use the augmented concatenation operator to quickly concatenate several strings in a loop. <a href="#efficiently-concatenating-many-strings-with-join-in-python">Later</a> you’ll learn about <code>.join()</code>, which is an even better way to concatenate a list of strings.</p>
+<p>Python’s concatenation operators can only concatenate string objects. If you use them with a different data type, then you get a <a href="https://realpython.com/python-traceback/#typeerror"><code>TypeError</code></a>:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="s2">"The result is: "</span> <span class="o">+</span> <span class="mi">42</span>
+<span class="gt">Traceback (most recent call last):</span>
+<span class="w">    </span><span class="o">...</span>
+<span class="gr">TypeError</span>: <span class="n">can only concatenate str (not "int") to str</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">"Your favorite fruits are: "</span> <span class="o">+</span> <span class="p">[</span><span class="s2">"apple"</span><span class="p">,</span> <span class="s2">"grape"</span><span class="p">]</span>
+<span class="gt">Traceback (most recent call last):</span>
+<span class="w">    </span><span class="o">...</span>
+<span class="gr">TypeError</span>: <span class="n">can only concatenate str (not "list") to str</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The concatenation operators don’t accept operands of different types. They only concatenate strings. A work-around to this issue is to explicitly use the built-in <code>str()</code> function to convert the target object into its <a href="https://realpython.com/python-repr-vs-str/#how-can-you-access-an-objects-string-representations">string representation</a> before running the actual concatenation:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="s2">"The result is: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span>
+<span class="go">'The result is: 42'</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>By calling <code>str()</code> with your integer number as an argument, you’re retrieving the string representation of <code>42</code>, which you can then concatenate to the initial string because both are now string objects.</p>
+</div><h2><a href="https://realpython.com/python-string-concatenation/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-string-concatenation/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-11-24T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>How to Iterate Through a Dictionary in Python</title>
