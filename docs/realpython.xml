@@ -4,14 +4,15 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Speed Up Your Python Program With Concurrency</title>
 <link>https://realpython.com/python-concurrency/</link>
 <guid>https://realpython.com/python-concurrency/</guid>
 <content:encoded><![CDATA[
-<div> 并发，多任务，Python，线程，异步<br>
-<br>
-总结:<br>
+<div> 并发，多任务，Python，线程，异步<br />
+<br />
+总结:<br />
 本教程介绍了Python中的并发概念及不同形式（线程、异步任务、多进程）的实现方式。并发可提高程序性能和响应速度，对优化I/O绑定或CPU绑定的程序至关重要。多线程和异步任务可在单个处理器上实现并发，而多进程可以利用多个CPU核心实现真正的并行。合理选择并发模型可根据程序需求提升性能。 <div>
 <div><p>Concurrency refers to the ability of a program to manage multiple tasks at once, improving performance and responsiveness. It encompasses different models like threading, asynchronous tasks, and multiprocessing, each offering unique benefits and trade-offs. In Python, threads and asynchronous tasks facilitate concurrency on a single processor, while multiprocessing allows for true parallelism by utilizing multiple CPU cores.</p>
 <p>Understanding concurrency is crucial for optimizing programs, especially those that are I/O-bound or CPU-bound. Efficient concurrency management can significantly enhance a program’s performance by reducing wait times and better utilizing system resources.</p>
@@ -89,10 +90,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-25T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Python range(): Represent Numerical Ranges</title>
 <link>https://realpython.com/python-range/</link>
