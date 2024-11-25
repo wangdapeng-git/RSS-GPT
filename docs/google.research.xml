@@ -4,6 +4,7 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+
 <item>
 <title>Bridging the gap in differentially private model training</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/DPPrivacy1-LowerBound.png</link>
@@ -13,12 +14,9 @@
 
 总结:
 文章中提取了五个关键词，然后用中文写了一个包含所有要点的总结。首先提取了文章的关键词，然后用中文写下了一个总结。整个过程很简单，只需要对文章进行简要概括，提炼出关键信息，然后用适当的语言进行总结。这种方法能够帮助读者快速理解文章的内容和要点。通过这种方式，读者可以更好地掌握文章的核心内容，提高阅读效率。 <div>
-
 ]]></content:encoded>
-<pubDate>2024-11-25T00:00:00+00:00</pubDate>
 <pubDate>2024-11-25T20:15:38.768028+00:00</pubDate>
 </item>
-
 <item>
 <title>Re-Invoke: Tool invocation rewriting for zero-shot tool retrieval</title>
 <link>https://storage.googleapis.com/gweb-research2023-media/original_images/ReInvoke-1-Overview.jpg</link>
