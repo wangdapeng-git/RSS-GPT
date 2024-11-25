@@ -4,12 +4,12 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>打印机共享报错修复 V1.5</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1985205</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1985205</guid>
 <content:encoded><![CDATA[
-
 首先叨叨几句：
 这个是用批处理写的，因为我只会一点点批处理。。凑合看吧
 之前发过类似的帖子，因为自己对版规理解不深刻，在一些代码里包含了违规信息，导致那个帖子挂掉了，只能重开一个帖子继续分享给大家了。
@@ -17,9 +17,7 @@
 [mw_shl_code=asm,true] ...
 ]]></content:encoded>
 <pubDate>Mon, 25 Nov 2024 02:12:36 +0000</pubDate>
-<pubDate>Mon, 25 Nov 2024 02:12:36 +0000</pubDate>
 </item>
-
 <item>
 <title>MagicMouseTrails鼠标轨迹美化v4.16绿色版</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1985114</link>
@@ -13963,21 +13961,6 @@ https://github.com/srwi/EverythingToolbar
 2、新增文本检测，同级目录存在sma ...
 ]]></content:encoded>
 <pubDate>Tue, 02 Jul 2024 13:24:28 +0000</pubDate>
-</item>
-<item>
-<title>Github开源远程控制软件 RustDesk 1.2.6 发布</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1940207</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1940207</guid>
-<content:encoded><![CDATA[
-可以使用官网的中继服务器实现远控，也可能自定义中继，绕过官网服务器实现ip地址远控
-此次更新作者提供了MSI格式文件方便部署安装
-
-
-
-
-下载地址：https://www.123pan.com/s/HxBKVv-QwrAH.html  （链接内包含历史版 ...
-]]></content:encoded>
-<pubDate>Tue, 02 Jul 2024 08:25:52 +0000</pubDate>
 </item>
 </channel>
 </rss>
