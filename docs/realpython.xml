@@ -4,6 +4,94 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Speed Up Your Python Program With Concurrency</title>
+<link>https://realpython.com/python-concurrency/</link>
+<guid>https://realpython.com/python-concurrency/</guid>
+<content:encoded><![CDATA[
+<div> 并发，多任务，Python，线程，异步<br>
+<br>
+总结:<br>
+本教程介绍了Python中的并发概念及不同形式（线程、异步任务、多进程）的实现方式。并发可提高程序性能和响应速度，对优化I/O绑定或CPU绑定的程序至关重要。多线程和异步任务可在单个处理器上实现并发，而多进程可以利用多个CPU核心实现真正的并行。合理选择并发模型可根据程序需求提升性能。 <div>
+<div><p>Concurrency refers to the ability of a program to manage multiple tasks at once, improving performance and responsiveness. It encompasses different models like threading, asynchronous tasks, and multiprocessing, each offering unique benefits and trade-offs. In Python, threads and asynchronous tasks facilitate concurrency on a single processor, while multiprocessing allows for true parallelism by utilizing multiple CPU cores.</p>
+<p>Understanding concurrency is crucial for optimizing programs, especially those that are I/O-bound or CPU-bound. Efficient concurrency management can significantly enhance a program’s performance by reducing wait times and better utilizing system resources.</p>
+<p><strong>In this tutorial, you’ll learn how to:</strong></p>
+<ul>
+<li><strong>Understand</strong> the different forms of <strong>concurrency</strong> in Python</li>
+<li><strong>Implement</strong> multi-threaded and asynchronous solutions for <strong>I/O-bound</strong> tasks</li>
+<li><strong>Leverage</strong> multiprocessing for <strong>CPU-bound</strong> tasks to achieve true parallelism</li>
+<li><strong>Choose</strong> the appropriate concurrency model based on your program’s needs</li>
+</ul>
+<p>To get the most out of this tutorial, you should be familiar with <a href="https://realpython.com/learning-paths/python-basics/">Python basics</a>, including <a href="https://realpython.com/defining-your-own-python-function/">functions</a> and <a href="https://realpython.com/python-for-loop/">loops</a>. A rudimentary understanding of system processes and CPU operations will also be helpful. You can download the sample code for this tutorial by clicking the link below:</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-concurrency-code/">Click here to download the free sample code</a> that you’ll use to learn about speeding up your Python program with concurrency.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Python Concurrency” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/python-concurrency/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="Speed Up Your Python Program With Concurrency" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/An-Overview-of-Concurrency-in-Python_Watermarked.c54c399ccb32.jpg" style="background: #abe5b2;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/python-concurrency/"><span class="my-0 h4">Python Concurrency</span></a> 
+      <p class="text-muted mb-0 small">In this quiz, you'll test your understanding of Python concurrency. You'll revisit the different forms of concurrency in Python, how to implement multi-threaded and asynchronous solutions for I/O-bound tasks, and how to achieve true parallelism for CPU-bound tasks.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="exploring-concurrency-in-python">Exploring Concurrency in Python<a class="headerlink" href="#exploring-concurrency-in-python" title="Permanent link"></a></h2>
+<p>In this section, you’ll get familiar with the terminology surrounding concurrency. You’ll also learn that concurrency can take different forms depending on the problem it aims to solve. Finally, you’ll discover how the different concurrency models translate to Python.</p>
+<h3 id="what-is-concurrency">What Is Concurrency?<a class="headerlink" href="#what-is-concurrency" title="Permanent link"></a></h3>
+<p>The dictionary definition of concurrency is <strong>simultaneous occurrence</strong>. In Python, the things that are occurring simultaneously are called by different names, including these:</p>
+<ul>
+<li><strong>Thread</strong></li>
+<li><strong>Task</strong></li>
+<li><strong>Process</strong></li>
+</ul>
+<p>At a high level, they all refer to a sequence of instructions that run in order. You can think of them as different <strong>trains of thought</strong>. Each one can be stopped at certain points, and the CPU or brain that’s processing them can switch to a different one. The state of each train of thought is saved so it can be restored right where it was interrupted.</p>
+<p>You might wonder why Python uses different words for the same concept. It turns out that threads, tasks, and processes are only the same if you view them from a high-level perspective. Once you start digging into the details, you’ll find that they all represent slightly different things. You’ll see more of how they’re different as you progress through the examples.</p>
+<p>Now, you’ll consider the <em>simultaneous</em> part of that definition. You have to be a little careful because, when you get down to the details, you’ll discover that only multiple <a href="https://en.wikipedia.org/wiki/Process_(computing)">system processes</a> can enable Python to run these trains of thought at literally the same time.</p>
+<p>In contrast, <a href="https://en.wikipedia.org/wiki/Thread_(computing)">threads</a> and <a href="https://en.wikipedia.org/wiki/Asynchrony_(computer_programming)">asynchronous tasks</a> always run on a single processor, which means they can only run one at a time. They just cleverly find ways to take turns to speed up the overall process. Even though they don’t run different trains of thought simultaneously, they still fall under the concept of <strong>concurrency</strong>.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> Threads in most other programming languages often run in parallel. To learn why Python threads can’t, check out <a href="https://realpython.com/python-gil/">What Is the Python Global Interpreter Lock (GIL)?</a></p>
+<p>If you’re curious about even more details, then you can also read about <a href="https://realpython.com/python-parallel-processing/">Bypassing the GIL for Parallel Processing in Python</a> or check out the experimental <a href="https://realpython.com/python313-free-threading-jit/">free threading</a> introduced in <a href="https://realpython.com/python313-new-features/">Python 3.13</a>.</p>
+</div>
+<p>The way the threads, tasks, or processes take turns differs. In a multi-threaded approach, the operating system actually knows about each thread and can interrupt it at any time to start running a different thread. This mechanism is also true for processes. It’s called <a href="https://en.wikipedia.org/wiki/Preemption_%28computing%29#Preemptive_multitasking">preemptive multitasking</a> since the operating system can preempt your thread or process to make the switch.</p>
+<p>Preemptive multitasking is handy in that the code in the thread doesn’t need to do anything special to make the switch. It can also be difficult because of that <em>at any time</em> phrase. The <a href="https://en.wikipedia.org/wiki/Context_switch">context switch</a> can happen in the middle of a single Python statement, even a trivial one like <code>x = x + 1</code>. This is because Python statements typically consist of several low-level <a href="https://en.wikipedia.org/wiki/Bytecode">bytecode</a> instructions.</p>
+<p>On the other hand, asynchronous tasks use <a href="https://en.wikipedia.org/wiki/Cooperative_multitasking">cooperative multitasking</a>. The tasks must cooperate with each other by announcing when they’re ready to be switched out without the operating system’s involvement. This means that the code in the task has to change slightly to make it happen.</p>
+<p>The benefit of doing this extra work upfront is that you always know where your task will be swapped out, making it easier to reason about the flow of execution. A task won’t be swapped out in the middle of a Python statement unless that statement is appropriately marked. You’ll see later how this can simplify parts of your design.</p>
+<h3 id="what-is-parallelism">What Is Parallelism?<a class="headerlink" href="#what-is-parallelism" title="Permanent link"></a></h3>
+<p>So far, you’ve looked at concurrency that happens on a single <a href="https://en.wikipedia.org/wiki/Processor_(computing)">processor</a>. What about all of those <a href="https://en.wikipedia.org/wiki/Multi-core_processor">CPU cores</a> your cool, new laptop has? How can you make use of them in Python? The answer is to execute separate processes!</p>
+<p>A <strong>process</strong> can be thought of as almost a completely different program, though technically, it’s usually defined as a collection of resources including memory, <a href="https://en.wikipedia.org/wiki/File_descriptor">file handles</a>, and things like that. One way to think about it is that each process runs in its own Python interpreter.</p>
+<p>Because they’re different processes, each of your trains of thought in a program leveraging <strong>multiprocessing</strong> can run on a different CPU core. Running on a different core means that they can actually run at the same time, which is fabulous. There are some complications that arise from doing this, but Python does a pretty good job of smoothing them over most of the time.</p>
+</div><h2><a href="https://realpython.com/python-concurrency/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-concurrency/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-11-25T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Python range(): Represent Numerical Ranges</title>

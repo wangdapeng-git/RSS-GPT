@@ -4,18 +4,17 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>截图软件Pixpin_1.9.5.0正式版</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1985302</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1985302</guid>
 <content:encoded><![CDATA[
-
 经常截图，贴图，并且需要截动态图片的或者需要长截图的，或者需要复制图片文字的。试试Pixpin这个截图软件，当真是神器。关键是还支持自定义截图快捷键，无缝衔接原先的截图软件。
 
 官网:https://pixpinapp.com/
 使用 ...
 ]]></content:encoded>
-<pubDate>Mon, 25 Nov 2024 06:20:30 +0000</pubDate>
 <pubDate>Mon, 25 Nov 2024 06:20:30 +0000</pubDate>
 </item>
 <item>
@@ -23,7 +22,6 @@
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1985269</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1985269</guid>
 <content:encoded><![CDATA[
-
 介绍
 
 [*]NetMount基于Rclone和Alist开发。因此支持统一管理和挂载云存储。
@@ -35,14 +33,12 @@ https://www.netmount.cn/
 添加存储，会有相应的帮助。我这里挂了个123 ...
 ]]></content:encoded>
 <pubDate>Mon, 25 Nov 2024 04:34:08 +0000</pubDate>
-<pubDate>Mon, 25 Nov 2024 04:34:08 +0000</pubDate>
 </item>
 <item>
 <title>网页工具箱 v1.0.0 (Word插件)</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1985249</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1985249</guid>
 <content:encoded><![CDATA[
-
 本工具是一款适用于Word、WPS的AI 辅助插件，使用WebView2（Microsoft Edge浏览器）加载AI网站，通过Jquery选择网页页面元素内容。
 （1）主面板上仅有任务窗格的开关
 
@@ -51,21 +47,17 @@ https://www.netmount.cn/
 默认在右侧打开任务窗格， ...
 ]]></content:encoded>
 <pubDate>Mon, 25 Nov 2024 03:34:36 +0000</pubDate>
-<pubDate>Mon, 25 Nov 2024 03:34:36 +0000</pubDate>
 </item>
 <item>
 <title>数据查找文件夹里Excel、Word文件，告诉你的数据在哪个文件[2024-11-25更新]</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1984543</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1984543</guid>
 <content:encoded><![CDATA[
-
 自己工作要面对一大堆Excel文件，经常为了找数据发愁，工具可以查找文件夹下所有Excel文件，输入你需要查找的字符串，它会告诉你在哪个Excel文件哪个表格。Python初学者自己写的，UI简陋大家不要介意。
 本人Win11下自测 ...
 ]]></content:encoded>
 <pubDate>Fri, 22 Nov 2024 09:02:26 +0000</pubDate>
-<pubDate>Fri, 22 Nov 2024 09:02:26 +0000</pubDate>
 </item>
-
 <item>
 <title>打印机共享报错修复 V1.5</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1985205</link>
@@ -13943,85 +13935,6 @@ KEY需要自行搜索......
  ...
 ]]></content:encoded>
 <pubDate>Thu, 04 Jul 2024 05:25:08 +0000</pubDate>
-</item>
-<item>
-<title>EverythingToolbar v1.3.4-Everything工具栏（代替win10、11自带的搜索）</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1940561</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1940561</guid>
-<content:encoded><![CDATA[
-Everything工具栏
-由Everything提供支持的 Windows 任务栏即时文件搜索集成。
-
-
-注意
-确保您运行的是 Windows 10 或 11，并且Everything ≥ 1.4.1 已安装并正在运行（不支持精简版）
-
-
-项目地址：
-https://github.com/srwi/EverythingToolbar
-运行安装程 ...
-]]></content:encoded>
-<pubDate>Wed, 03 Jul 2024 09:11:11 +0000</pubDate>
-</item>
-<item>
-<title>手写模拟器_V1.7.2 解锁永久会员</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1940522</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1940522</guid>
-<content:encoded><![CDATA[
-[md]下载的话，我是Iqoo手机应用商店叫：易手写生成器，安装包又叫手写生成器
-
-## 开发工具
-
-- Mt管理器/Np管理器
-- DITOR
-
-## 开发环境
-
-- root虚拟机（真机root主要是脱壳）
-
-## 教程开始
-
-
-
-提取安装 ...
-]]></content:encoded>
-<pubDate>Wed, 03 Jul 2024 07:47:06 +0000</pubDate>
-</item>
-<item>
-<title>【7.3更新】微信PC端3.9.11.19 多开防撤回补丁（带撤回提示）</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1940344</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1940344</guid>
-<content:encoded><![CDATA[
-微信PC端更新了3.9.11.19   看到论坛没人更新  特此更新一下补丁
-
-
-
-
-功能：多开   防撤回  带撤回提示
-替换方法：将下载的文件 放入微信安装目录   替换进去即可 
-
-
-下载地址：https://hegui6.lanzn.com/b04wu ...
-]]></content:encoded>
-<pubDate>Tue, 02 Jul 2024 23:55:40 +0000</pubDate>
-</item>
-<item>
-<title>国家中小学智慧教育平台（视频、课件、教材）下载</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1940298</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1940298</guid>
-<content:encoded><![CDATA[
-联合开发者：@star0angel 
-
-
-无需登录，复制链接到软件中即可。支持ppt、word格式课件下载
-
-
-[hr]
-2024-7-4 更新
-1、去除部分花里胡哨的写法，去除高亮颜色功能，以支持win7。
-2、新增文本检测，同级目录存在sma ...
-]]></content:encoded>
-<pubDate>Tue, 02 Jul 2024 13:24:28 +0000</pubDate>
 </item>
 </channel>
 </rss>
