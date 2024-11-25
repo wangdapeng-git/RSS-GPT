@@ -12924,3 +12924,12 @@ Existing_entries: 421
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-25 18:17:58.441510
+------------------------------------------------------
+Started: 2024-11-25 20:15:25.273089
+Existing_entries: 421
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 51040
+Summarized using GPT-3.5-turbo
+Append: [Passages I Highlighted in The Letters of J.R.R.Tolkien](https://www.lesswrong.com/posts/jJ2p3E2qkXGRBbvnp/passages-i-highlighted-in-the-letters-of-j-r-r-tolkien)
+append_entries: 1
+Finish: 2024-11-25 20:15:32.051806
