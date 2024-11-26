@@ -9848,3 +9848,9 @@ Summarized using GPT-3.5-turbo
 Append: [Helping everyone build AI for healthcare applications with open foundation models](https://storage.googleapis.com/gweb-research2023-media/original_images/HAI-DEF-1-Overview.png)
 append_entries: 1
 Finish: 2024-11-26 06:18:28.058817
+------------------------------------------------------
+Started: 2024-11-26 08:18:33.929924
+Existing_entries: 65
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+append_entries: 0
+Finish: 2024-11-26 08:18:38.626508
