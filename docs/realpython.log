@@ -13551,3 +13551,12 @@ Existing_entries: 221
 Fetching from https://realpython.com/atom.xml
 append_entries: 0
 Finish: 2024-11-26 12:25:55.221348
+------------------------------------------------------
+Started: 2024-11-26 14:12:50.640165
+Existing_entries: 221
+Fetching from https://realpython.com/atom.xml
+Token length: 820
+Summarized using GPT-3.5-turbo
+Append: [Managing Dependencies With Python Poetry](https://realpython.com/courses/managing-dependencies-with-poetry/)
+append_entries: 1
+Finish: 2024-11-26 14:12:54.367463
