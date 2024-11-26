@@ -13560,3 +13560,9 @@ Summarized using GPT-3.5-turbo
 Append: [Managing Dependencies With Python Poetry](https://realpython.com/courses/managing-dependencies-with-poetry/)
 append_entries: 1
 Finish: 2024-11-26 14:12:54.367463
+------------------------------------------------------
+Started: 2024-11-26 16:16:47.256400
+Existing_entries: 222
+Fetching from https://realpython.com/atom.xml
+append_entries: 0
+Finish: 2024-11-26 16:16:47.500778
