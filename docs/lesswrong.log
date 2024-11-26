@@ -12942,3 +12942,9 @@ Summarized using GPT-3.5-turbo
 Append: [Perils of Generalizing from One's Social Group](https://www.lesswrong.com/posts/cP9XEZBDjs3amP8pe/perils-of-generalizing-from-one-s-social-group)
 append_entries: 1
 Finish: 2024-11-25 22:13:20.708168
+------------------------------------------------------
+Started: 2024-11-26 01:01:48.522778
+Existing_entries: 423
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-26 01:01:49.344195
