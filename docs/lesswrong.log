@@ -13008,3 +13008,9 @@ Summarized using GPT-3.5-turbo
 Append: [You are not too "irrational" to know your preferences.](https://www.lesswrong.com/posts/LifRBXdenQDiX4cu8/you-are-not-too-irrational-to-know-your-preferences-1)
 append_entries: 1
 Finish: 2024-11-26 18:19:04.229918
+------------------------------------------------------
+Started: 2024-11-26 20:14:35.950788
+Existing_entries: 425
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-26 20:14:36.509845
