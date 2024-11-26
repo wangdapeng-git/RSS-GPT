@@ -9839,3 +9839,12 @@ Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
 Fetch failed from https://rss.diffbot.com/atom?url=https://research.google/blog/
 append_entries: 0
 error when rendering xml, skip docs/google.research
+------------------------------------------------------
+Started: 2024-11-26 06:18:20.219654
+Existing_entries: 64
+Fetching from https://rss.diffbot.com/atom?url=https://research.google/blog/
+Token length: 0
+Summarized using GPT-3.5-turbo
+Append: [Helping everyone build AI for healthcare applications with open foundation models](https://storage.googleapis.com/gweb-research2023-media/original_images/HAI-DEF-1-Overview.png)
+append_entries: 1
+Finish: 2024-11-26 06:18:28.058817
