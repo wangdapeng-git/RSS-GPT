@@ -4,6 +4,19 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+<item>
+<title>Unlocking the power of time-series data with multimodal models</title>
+<link>https://storage.googleapis.com/gweb-research2023-media/original_images/VisualTrends-1-Summary.png</link>
+<guid>https://storage.googleapis.com/gweb-research2023-media/original_images/VisualTrends-1-Summary.png</guid>
+<content:encoded><![CDATA[
+<div> 关键词：文章、中文、总结、要点、格式
+
+总结：<br><br>这篇文章是关于如何用中文总结一篇文章的方法。首先提取出关键词，然后用200字内的内容对文章进行总结，按要点顺序分别输出。最后以格式为重点，确保输出的内容符合要求。 <div>
+
+]]></content:encoded>
+<pubDate>2024-11-25T00:00:00+00:00</pubDate>
+<pubDate>2024-11-27T02:57:48.430464+00:00</pubDate>
+</item>
 
 <item>
 <title>Helping everyone build AI for healthcare applications with open foundation models</title>
