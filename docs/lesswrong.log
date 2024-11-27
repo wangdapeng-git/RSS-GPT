@@ -13059,3 +13059,12 @@ Existing_entries: 426
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-27 10:14:46.309526
+------------------------------------------------------
+Started: 2024-11-27 12:25:55.857062
+Existing_entries: 426
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 25485
+Summarized using GPT-3.5-turbo
+Append: [You are not too "irrational" to know your preferences.](https://www.lesswrong.com/posts/LifRBXdenQDiX4cu8/you-are-not-too-irrational-to-know-your-preferences)
+append_entries: 1
+Finish: 2024-11-27 12:26:05.567431
