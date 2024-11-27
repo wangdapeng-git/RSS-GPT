@@ -4,14 +4,15 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Continuous Integration and Deployment for Python With GitHub Actions</title>
 <link>https://realpython.com/github-actions-python/</link>
 <guid>https://realpython.com/github-actions-python/</guid>
 <content:encoded><![CDATA[
 <div> GitHub Actions, Python, CI/CD, automation, workflows
-<br>
-CI/CD是现代软件开发中必不可少的实践。GitHub Actions为Python开发者提供了自动化工作流的功能，使团队能够在不断变化的环境中保持软件质量。通过GitHub Workflows，开发者可以实现CI/CD流程的自动化，并能够定制化工作流程。使用GitHub Actions，开发团队可以有效执行软件开发过程，提高生产力和代码可靠性。Workflow文件由触发器、作业和步骤组成，必须遵循预定的结构才能成功运行。GitHub Actions具有庞大的生态系统、灵活性和低或零成本，因此成为GitHub上开源项目首选的CI/CD解决方案。总的来说，GitHub Actions为Python开发者提供了管理代码库的自动化工作流的强大工具。<br><br>总结: <div>
+<br />
+CI/CD是现代软件开发中必不可少的实践。GitHub Actions为Python开发者提供了自动化工作流的功能，使团队能够在不断变化的环境中保持软件质量。通过GitHub Workflows，开发者可以实现CI/CD流程的自动化，并能够定制化工作流程。使用GitHub Actions，开发团队可以有效执行软件开发过程，提高生产力和代码可靠性。Workflow文件由触发器、作业和步骤组成，必须遵循预定的结构才能成功运行。GitHub Actions具有庞大的生态系统、灵活性和低或零成本，因此成为GitHub上开源项目首选的CI/CD解决方案。总的来说，GitHub Actions为Python开发者提供了管理代码库的自动化工作流的强大工具。<br /><br />总结: <div>
 <div><p>Creating software is an achievement worth celebrating. But software is never static. Bugs need to be fixed, features need to be added, and security demands regular updates. In today’s landscape, with agile methodologies dominating, robust <a href="https://realpython.com/learning-paths/python-devops/">DevOps</a> systems are crucial for managing an evolving codebase. That’s where GitHub Actions shine, empowering Python developers to automate workflows and ensure their projects adapt seamlessly to change.</p>
 <p><strong>GitHub Actions</strong> for Python empowers developers to automate workflows efficiently. This enables teams to maintain software quality while adapting to constant change.</p>
 <p><strong>Continuous Integration and Continuous Deployment (CI/CD)</strong> systems help produce well-tested, high-quality software and streamline deployment. GitHub Actions makes CI/CD accessible to all, allowing automation and customization of workflows directly in your repository. This free service enables developers to execute their software development processes efficiently, improving productivity and code reliability.</p>
@@ -83,10 +84,8 @@ CI/CD是现代软件开发中必不可少的实践。GitHub Actions为Python开�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-27T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Managing Dependencies With Python Poetry</title>
 <link>https://realpython.com/courses/managing-dependencies-with-poetry/</link>

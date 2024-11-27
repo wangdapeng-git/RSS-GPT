@@ -13080,3 +13080,15 @@ Existing_entries: 427
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-27 16:17:18.544316
+------------------------------------------------------
+Started: 2024-11-27 18:18:27.288531
+Existing_entries: 427
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 19730
+Summarized using GPT-3.5-turbo
+Append: [Hierarchical Agency: A Missing Piece in AI Alignment](https://www.lesswrong.com/posts/xud7Mti9jS4tbWqQE/hierarchical-agency-a-missing-piece-in-ai-alignment)
+Token length: 64323
+Summarized using GPT-3.5-turbo
+Append: [Live Machinery: An Interface Design Philosophy for Wholesome AI Futures](https://www.lesswrong.com/posts/9KamjXbTaQpPnNsxp/live-machinery-an-interface-design-philosophy-for-wholesome)
+append_entries: 2
+Finish: 2024-11-27 18:18:45.356125
