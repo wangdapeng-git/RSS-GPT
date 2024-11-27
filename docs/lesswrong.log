@@ -13092,3 +13092,9 @@ Summarized using GPT-3.5-turbo
 Append: [Live Machinery: An Interface Design Philosophy for Wholesome AI Futures](https://www.lesswrong.com/posts/9KamjXbTaQpPnNsxp/live-machinery-an-interface-design-philosophy-for-wholesome)
 append_entries: 2
 Finish: 2024-11-27 18:18:45.356125
+------------------------------------------------------
+Started: 2024-11-27 20:15:17.439469
+Existing_entries: 429
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-27 20:15:18.635367
