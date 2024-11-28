@@ -4,6 +4,18 @@
 <title>Awesome Python Weekly</title>
 <link>https://python.libhunt.com/newsletter</link>
 
+<item>
+<title>🐍 Issue 444 - Python type hints may not be not for me in practice</title>
+<link>https://python.libhunt.com/newsletter/444</link>
+<guid>https://python.libhunt.com/newsletter/444</guid>
+<content:encoded><![CDATA[
+<div> Python、type hints、practice、benefits、drawbacks
+Python的类型提示在理论上有很多好处，比如增强代码的可读性和可维护性，但在实践中却可能并不适合所有人。使用类型提示需要花费额外的时间和精力来定义类型，对于一些小型项目或者快速原型开发来说可能并不划算。另外，Python是一门动态语言，强制类型提示会破坏其灵活性，有时候也会带来一些难以解决的问题。因此，使用Python的类型提示需要根据具体情况权衡利弊，找到适合自己的方法。总结：<br><br>在实践中，Python的类型提示可能并不适合所有人。使用类型提示需要投入额外的时间和精力，破坏了Python的灵活性，有时会带来难以解决的问题。因此，在使用类型提示时需要权衡利弊，找到最适合自己的方法。 <div>
+🐍 Issue 444 - Python type hints may not be not for me in practice
+]]></content:encoded>
+<pubDate>Thu, 28 Nov 2024 13:42:00 -0800</pubDate>
+<pubDate>Thu, 28 Nov 2024 13:42:00 -0800</pubDate>
+</item>
 
 <item>
 <title>🐍 Issue 443 - 7 AI Open Source Libraries To Build RAG, Agents &amp; AI Search</title>
