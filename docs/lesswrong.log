@@ -13146,3 +13146,12 @@ Existing_entries: 429
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-28 12:26:02.862463
+------------------------------------------------------
+Started: 2024-11-28 14:13:30.954060
+Existing_entries: 429
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 3894
+Summarized using GPT-3.5-turbo
+Append: ["Map of AI Futures" - An interactive flowchart](https://www.lesswrong.com/posts/5iyvopk74zkqBuqzk/map-of-ai-futures-an-interactive-flowchart-1)
+append_entries: 1
+Finish: 2024-11-28 14:13:35.784394
