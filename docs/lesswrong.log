@@ -13164,3 +13164,9 @@ error: __init__() got an unexpected keyword argument 'proxies'
 Append: [Dave Kasten's AGI-by-2027 vignette](https://www.lesswrong.com/posts/t7zd5EupH4JjcxRH4/dave-kasten-s-agi-by-2027-vignette)
 append_entries: 1
 Finish: 2024-11-28 16:16:19.493731
+------------------------------------------------------
+Started: 2024-11-28 18:18:19.977914
+Existing_entries: 431
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-11-28 18:18:20.645891

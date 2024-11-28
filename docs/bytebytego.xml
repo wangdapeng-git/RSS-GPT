@@ -4,6 +4,24 @@
 <title>ByteByteGo Newsletter</title>
 <link>https://blog.bytebytego.com</link>
 
+<item>
+<title>Stateless Architecture: The Key to Building Scalable and Resilient Systems</title>
+<link>https://blog.bytebytego.com/p/stateless-architecture-the-key-to</link>
+<guid>https://blog.bytebytego.com/p/stateless-architecture-the-key-to</guid>
+<content:encoded><![CDATA[
+<div> Stateless Architecture, Stateful Applications, Cloud Computing, Microservices Architectures, Scalability
+<br>
+Stateless architecture是现代系统设计中的重要转变之一，通过将应用程序的状态外部化，使任何服务器都能处理任何请求，从而简化了扩展并提高了可靠性。云计算的兴起使水平扩展变得更加经济实惠，REST和GraphQL API的普及也促使了无状态架构的发展，微服务架构的普及也要求服务必须是无状态的，以维护独立性和可扩展性。总结: 无状态架构是现代系统设计中的重要转变之一，通过将状态外部化，简化了扩展并提高了可靠性。 <div>
+<p>In today's rapidly evolving digital landscape, developers face the constant challenge of building applications that are not only robust and secure but also infinitely scalable.&nbsp;</p><p>At the heart of this challenge lies a fundamental architectural decision: how to handle the application state. The state is your application's memory&#8212;every user session, shopping cart, and authentication token that makes personalized digital experiences possible.</p><p>The journey from stateful to stateless architectures represents one of the most important shifts in modern system design.&nbsp;</p><p>Traditional stateful applications dominated the early 2000s and directly maintained user sessions and data on application servers. While this approach of keeping everything in one place seemed logical initially, it created significant challenges as applications scaled to serve millions of users worldwide.</p><p>Consider an e-commerce platform handling Black Friday sales. In a stateful architecture, each server will need to maintain session information for thousands of users, leading to complex load-balancing requirements and potential session loss if a server fails. Modern stateless architectures, however, externalize this state, allowing any server to handle any request, dramatically simplifying scaling and improving reliability.</p><p>Several converging factors have led to the industry&#8217;s embrace of stateless architecture:</p><ul><li><p>The rise of cloud computing has made horizontal scaling not just possible but economically advantageous.&nbsp;</p></li><li><p>The shift from SOAP-based services to REST and GraphQL APIs, which are inherently stateless.</p></li><li><p>Microservices architectures, which break down monolithic applications into smaller, independent services, have become the norm rather than the exception. These services must be stateless to maintain independence and scalability.</p></li></ul><p>In this article, we&#8217;ll explore the principles, implementation strategies, and best practices of stateless architecture.</p><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-imag" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57b4cc91-8699-4d1e-b292-990de32ea4e9_1460x1600.png" target="_blank"><div class="image2-inset"><source type="image/webp" /><img alt="" class="sizing-normal" height="1596" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57b4cc91-8699-4d1e-b292-990de32ea4e9_1460x1600.png" width="1456" /><div class="image-link-expand"><svg class="lucide lucide-maximize2" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" x2="14" y1="3" y2="10"></line><line x1="3" x2="10" y1="21" y2="14"></line></svg></div></div></a></figure></div><h2>What is Stateless Architecture</h2>
+      <p>
+          <a href="https://blog.bytebytego.com/p/stateless-architecture-the-key-to">
+              Read more
+          </a>
+      </p>
+]]></content:encoded>
+<pubDate>Thu, 28 Nov 2024 16:31:11 GMT</pubDate>
+<pubDate>Thu, 28 Nov 2024 16:31:11 GMT</pubDate>
+</item>
 
 <item>
 <title>A Crash Course on Using AI to Save Time and Focus on What Matters</title>
