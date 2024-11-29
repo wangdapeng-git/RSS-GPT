@@ -30356,3 +30356,14 @@ Filter: [多彩种开奖号码聚合工具 ver 0.0.1 吾爱首发](https://www.5
 Filter: [微信数据库解密 - wechat-dump-rsv v1.0.16 （支持微信4.x、3.x两种版本）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1982130)
 append_entries: 0
 Finish: 2024-11-29 02:56:40.027045
+------------------------------------------------------
+Started: 2024-11-29 04:16:41.672154
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Append: [看完这篇你也可以用charles对某奇异视频抓包啦！](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1986407)
+Filter: [光影魔术手v0.2.5安卓版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1984626)
+Filter: [多彩种开奖号码聚合工具 ver 0.0.1 吾爱首发](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1983831)
+Filter: [小白提词器 v1.4.1.0 —— AI 提词转录助手，支持悬浮及音视频转文字（可离线）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1983644)
+Append: [WeChatHooks_1.2.4](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1983428)
+append_entries: 2
+Finish: 2024-11-29 04:16:44.253009
