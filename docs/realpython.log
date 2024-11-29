@@ -13767,3 +13767,12 @@ Existing_entries: 223
 Fetching from https://realpython.com/atom.xml
 append_entries: 0
 Finish: 2024-11-29 10:14:29.964623
+------------------------------------------------------
+Started: 2024-11-29 12:25:16.268927
+Existing_entries: 223
+Fetching from https://realpython.com/atom.xml
+Token length: 407
+Summarized using GPT-3.5-turbo
+Append: [The Real Python Podcast – Episode #230: marimo: Reactive Notebooks and Deployable Web Apps in Python](https://realpython.com/podcasts/rpp/230/)
+append_entries: 1
+Finish: 2024-11-29 12:25:18.643806
