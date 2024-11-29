@@ -4,22 +4,21 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>The Real Python Podcast – Episode #230: marimo: Reactive Notebooks and Deployable Web Apps in Python</title>
 <link>https://realpython.com/podcasts/rpp/230/</link>
 <guid>https://realpython.com/podcasts/rpp/230/</guid>
 <content:encoded><![CDATA[
 <div> notebooks, Python development, common issues, reactive marimo notebook, Akshay Agrawal
-<br>
+<br />
 notebooks在Python开发中存在常见问题，Akshay Agrawal介绍了用于Python的开源响应式marimo笔记本。使用marimo笔记本可以了解当前状态、共享可复制的结果以及创建交互式应用程序。 <div>
 <p>What are common issues with using notebooks for Python development? How do you know the current state, share reproducible results, or create interactive applications? This week on the show, we speak with Akshay Agrawal about the open-source reactive marimo notebook for Python.</p>
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-29T12:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Continuous Integration and Deployment for Python With GitHub Actions</title>
 <link>https://realpython.com/github-actions-python/</link>
