@@ -4,12 +4,12 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>水准仪 3.0版本 – 开源安卓小工具</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1986413</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1986413</guid>
 <content:encoded><![CDATA[
-
 没标注版本号被删了，重新发布。。
 
 水准仪.3.0版（Bubble）是一款开源的安卓小工具，只有 1.4MB 大小，
@@ -17,14 +17,12 @@
 应用简单小巧，无广告，无 ...
 ]]></content:encoded>
 <pubDate>Thu, 28 Nov 2024 07:56:46 +0000</pubDate>
-<pubDate>Thu, 28 Nov 2024 07:56:46 +0000</pubDate>
 </item>
 <item>
 <title>python获取酷wo音乐歌单过程及实现</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1986103</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1986103</guid>
 <content:encoded><![CDATA[
-
 [md]# python获取酷wo音乐歌单过程及实现
 
 
@@ -34,21 +32,17 @@
 想搞自动化，但还没有思路。音源有了，但没有 ...
 ]]></content:encoded>
 <pubDate>Wed, 27 Nov 2024 09:03:55 +0000</pubDate>
-<pubDate>Wed, 27 Nov 2024 09:03:55 +0000</pubDate>
 </item>
 <item>
 <title>破解2024年新款诺基亚贝尔万兆光猫AES加密的su密码</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1985963</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1985963</guid>
 <content:encoded><![CDATA[
-
 家里的电信宽带是500M的，实测下行速度能达到625Mbps。这个月套餐到期了，去营业厅问了问，换新版套餐宽带是1000M，于是就升级了1000M。
 营业厅没提设备的事，当时也没在意，回到家把光猫重启了一下，实测下行速度只有80 ...
 ]]></content:encoded>
 <pubDate>Wed, 27 Nov 2024 02:49:46 +0000</pubDate>
-<pubDate>Wed, 27 Nov 2024 02:49:46 +0000</pubDate>
 </item>
-
 <item>
 <title>资料文件夹转移工具v5.2.3</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1986306</link>
@@ -13922,42 +13916,6 @@ https://www.123pan.com/s/SIs ...
 链接：https://pan.quark. ...
 ]]></content:encoded>
 <pubDate>Sun, 14 Jul 2024 10:12:20 +0000</pubDate>
-</item>
-<item>
-<title>批量合并word工具 V1.0</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1943842</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1943842</guid>
-<content:encoded><![CDATA[
-开发初衷：合并大量 Word 文档为一个文档，手动合并耗时且易错排版错乱，本工具可以快速准确完成合并。
-
-使用说明：
-1、把需要合并的文件放在软件运行目录【word】中
-
-2、双击软件，等待提示窗出现
-
-3、完成后会在 ...
-]]></content:encoded>
-<pubDate>Sun, 14 Jul 2024 03:58:55 +0000</pubDate>
-</item>
-<item>
-<title>一键定时自动化任务神器 zTasker v1.95，支持语音报时+多项定时计划执行</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1943771</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1943771</guid>
-<content:encoded><![CDATA[
-zTasker（详情请戳  官网）是一款完全免费支持定时、热键或条件触发的方式执行多种自动化任务的小工具，支持win7-11。其支持超过100种任务类型，50+种定时/条件执行方法，而且任务列表可以随意编辑、排列、移动、更改类 ...
-]]></content:encoded>
-<pubDate>Sat, 13 Jul 2024 18:01:03 +0000</pubDate>
-</item>
-<item>
-<title>【新升级】去除扫描全能王和夸克扫描生成PDF中的logo和超链接。也可以删某些水印</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1943717</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1943717</guid>
-<content:encoded><![CDATA[
-用扫描王、夸克之类的app搞出来的pdf都带着logo，所以写了这个软件，拖拽pdf到软件，自动删除文档中宽+高尺寸最小的那个图。
-本软件也可以用来去除某些水印图片。原理自然是水印图片要求每页都有，且宽+高的尺寸最小。
- ...
-]]></content:encoded>
-<pubDate>Sat, 13 Jul 2024 12:02:41 +0000</pubDate>
 </item>
 </channel>
 </rss>
