@@ -13260,3 +13260,12 @@ Existing_entries: 431
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-30 01:00:58.616508
+------------------------------------------------------
+Started: 2024-11-30 02:51:46.377681
+Existing_entries: 431
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 9367
+Summarized using GPT-3.5-turbo
+Append: [You should consider applying to PhDs (soon!)](https://www.lesswrong.com/posts/PdtkXcgbRpdHWRNt6/you-should-consider-applying-to-phds-soon)
+append_entries: 1
+Finish: 2024-11-30 02:51:49.653223
