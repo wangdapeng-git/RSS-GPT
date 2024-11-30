@@ -4,16 +4,15 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+
 <item>
 <title>一键备份还原 B站账号数据工具 bilibili-backup v1.0.6 ，支持数据迁移</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1986898</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1986898</guid>
 <content:encoded><![CDATA[
-
 bilibili-backup（详情请戳 作者项目地址）是一款免费开源可一键对B站账号进行数据备份和还原的工具，采用Java开发，旨在方便账号（含已注销）数据迁移、快速转生等用途。
 相信各位或多或少都会遇到时而账号功能受限、 ...
 ]]></content:encoded>
-<pubDate>Fri, 29 Nov 2024 17:11:05 +0000</pubDate>
 <pubDate>Fri, 29 Nov 2024 17:11:05 +0000</pubDate>
 </item>
 <item>
@@ -21,10 +20,8 @@ bilibili-backup（详情请戳 作者项目地址）是一款免费开源可一�
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1986810</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1986810</guid>
 <content:encoded><![CDATA[
-
 Media Player Classic Home Cinema 简称 MPC-HC，是一款简洁的媒体播放器，Media Player Classic 的后续版本，有 32 位和 64 位版本。Media Player Classic 是由名为 \&quot;Gabest\&quot; 的程序员建立，现在他仍然有维护这个程序。  ...
 ]]></content:encoded>
-<pubDate>Fri, 29 Nov 2024 09:29:16 +0000</pubDate>
 <pubDate>Fri, 29 Nov 2024 09:29:16 +0000</pubDate>
 </item>
 <item>
@@ -32,7 +29,6 @@ Media Player Classic Home Cinema 简称 MPC-HC，是一款简洁的媒体播放�
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1986764</link>
 <guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1986764</guid>
 <content:encoded><![CDATA[
-
 最近冬季了，家里的人打算换个电动车，所以做了个电动车电池相关的软件，
 主要用来计算电池的功率，耗电，续航等等
 个人用途，结果仅供参考，嗯，图一乐吧。
@@ -40,9 +36,7 @@ Media Player Classic Home Cinema 简称 MPC-HC，是一款简洁的媒体播放�
 https://wwor.lanzouw.com/iYqQ92gmbq4h
 ]]></content:encoded>
 <pubDate>Fri, 29 Nov 2024 07:49:51 +0000</pubDate>
-<pubDate>Fri, 29 Nov 2024 07:49:51 +0000</pubDate>
 </item>
-
 <item>
 <title>JPEGView-1.3.46-看图软件</title>
 <link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1984725</link>
@@ -13930,42 +13924,6 @@ ht ...
 链接：http ...
 ]]></content:encoded>
 <pubDate>Sat, 06 Jul 2024 02:49:51 +0000</pubDate>
-</item>
-<item>
-<title>搜狗拼音一键净化</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1941203</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1941203</guid>
-<content:encoded><![CDATA[
-搜狗拼音一键净化，一键后仅保留基本输入功能
-
-下载地址
-https://www.123pan.com/s/eCNDVv-SmRPA.html  提取码:52pj
-]]></content:encoded>
-<pubDate>Fri, 05 Jul 2024 07:03:22 +0000</pubDate>
-</item>
-<item>
-<title>易魔音EmotiVoice-Plus多角色文本AI语音生成工具V1.0.0</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1944751</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1944751</guid>
-<content:encoded><![CDATA[
-之前有接触过数字人的朋友，都知道合成语音是制作数字人的关键一步。有不少A工具可以合成语音，但要不就是收费的，要不就是在网页端使用，有隐私泄露风险
-今天我给大家分享网易有道开源的一款Al语音合成工具EmotiVoice，能合成不同情感的语音。Al技术不断进步 ...
-]]></content:encoded>
-<pubDate>Tue, 16 Jul 2024 21:23:32 +0000</pubDate>
-</item>
-<item>
-<title>国家图书馆下载器1.0</title>
-<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1944600</link>
-<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1944600</guid>
-<content:encoded><![CDATA[
-之前网络流传的脚本改良，支持电子图书，老照片，年画，文本。音频不支持，同一网页多张单独图片会无法识别（如民国报纸）
-请勿滥用，欢迎提出宝贵意见。
-
-【下载链接】
-国图下载器1.0
-https://www.123pan.com/s/SIs ...
-]]></content:encoded>
-<pubDate>Tue, 16 Jul 2024 07:34:51 +0000</pubDate>
 </item>
 </channel>
 </rss>

@@ -13296,3 +13296,12 @@ Existing_entries: 433
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-11-30 10:12:48.963878
+------------------------------------------------------
+Started: 2024-11-30 12:23:12.878802
+Existing_entries: 433
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 18301
+Summarized using GPT-3.5-turbo
+Append: [Estimates of GPU or equivalent resources of large AI players for 2024/5](https://www.lesswrong.com/posts/bdQhzQsHjNrQp7cNS/estimates-of-gpu-or-equivalent-resources-of-large-ai-players)
+append_entries: 1
+Finish: 2024-11-30 12:23:16.640518
