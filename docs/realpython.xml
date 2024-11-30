@@ -4,15 +4,16 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Python's F-String for String Interpolation and Formatting</title>
 <link>https://realpython.com/python-f-strings/</link>
 <guid>https://realpython.com/python-f-strings/</guid>
 <content:encoded><![CDATA[
 <div> f-strings, interpolation, formatting, Python, expressions
-<br>
+<br />
 Python的f-strings提供了一种简洁高效的方式将变量、对象和表达式直接插入字符串中。通过在字符串前加上f或F，您可以在大括号{}中嵌入表达式，这些表达式在运行时进行评估。相比之下，f-strings比旧方法（如%操作符或字符串方法）更快、更易读。此外，f-strings支持使用Python的字符串格式进行高级字符串格式化。总之，学完本教程后，您将了解到Python中的f-strings的特点和优势，包括插值和格式化。通过熟悉这些特点，您将能够在Python项目中有效地使用f-strings。
-<br><br>
+<br /><br />
 总结: f-strings是一种在Python中插值和格式化字符串的有效和简洁的方法。通过使用f-strings，您可以在字符串中插入动态内容，并进行高级的字符串格式化。Python的f-strings使得代码更易读、更高效。 <div>
 <div><p>Python <strong>f-strings</strong> offer a concise and efficient way to interpolate variables, objects, and expressions directly into strings. By prefixing a string with <code>f</code> or <code>F</code>, you can embed expressions within curly braces (<code>{}</code>), which are evaluated at runtime. </p>
 <p>This makes f-strings faster and more readable compared to older approaches like the <a href="https://realpython.com/python-modulo-string-formatting/">modulo (<code>%</code>)</a> operator or the string <a href="https://realpython.com/python-formatted-output/#using-the-format-method-for-string-interpolation"><code>.format()</code></a> method. Additionally, f-strings support advanced string formatting using Python’s string <a href="https://realpython.com/python-format-mini-language/">format mini-language</a>.</p>
@@ -183,7 +184,6 @@ Python的f-strings提供了一种简洁高效的方式将变量、对象和表�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-30T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -193,7 +193,7 @@ Python的f-strings提供了一种简洁高效的方式将变量、对象和表�
 <content:encoded><![CDATA[
 <div> Python, if __name__, "__main__", idiom, script，
   
-总结:<br><br>Python的if __name__ == "__main__"习惯用法允许代码仅在脚本执行时运行，而不在导入模块时运行。通过将代码封装在if __name__ == "__main__"内，可以确保仅在预期上下文中运行。此习惯用法有助于防止在模块导入期间意外执行代码。将脚本特定逻辑放在此习惯用法下有助于不影响模块导入。最佳实践建议尽量少使用此习惯用法，并将其放在脚本底部以提高清晰度。 <div>
+总结:<br /><br />Python的if __name__ == "__main__"习惯用法允许代码仅在脚本执行时运行，而不在导入模块时运行。通过将代码封装在if __name__ == "__main__"内，可以确保仅在预期上下文中运行。此习惯用法有助于防止在模块导入期间意外执行代码。将脚本特定逻辑放在此习惯用法下有助于不影响模块导入。最佳实践建议尽量少使用此习惯用法，并将其放在脚本底部以提高清晰度。 <div>
 <div><p>The <code>if __name__ == "__main__"</code> idiom is a Python construct that helps control code execution in scripts. It’s a conditional statement that allows you to define code that runs only when the file is executed as a script, not when it’s imported as a module.</p>
 <p>When you run a Python script, the interpreter assigns the value <code>"__main__"</code> to the <code>__name__</code> variable. If Python imports the code as a module, then it sets <code>__name__</code> to the module’s name instead. By encapsulating code within <code>if __name__ == "__main__"</code>, you can ensure that it only runs in the intended context.</p>
 <p><strong>By the end of this tutorial, you’ll understand that:</strong></p>
@@ -344,10 +344,8 @@ Python的f-strings提供了一种简洁高效的方式将变量、对象和表�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-11-30T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>The Real Python Podcast – Episode #230: marimo: Reactive Notebooks and Deployable Web Apps in Python</title>
 <link>https://realpython.com/podcasts/rpp/230/</link>
