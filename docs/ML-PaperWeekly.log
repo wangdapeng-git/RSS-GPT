@@ -10925,3 +10925,12 @@ Existing_entries: 50
 Fetching from https://nlp.elvissaravia.com/feed
 append_entries: 0
 Finish: 2024-11-30 16:15:05.612695
+------------------------------------------------------
+Started: 2024-11-30 18:16:32.470567
+Existing_entries: 50
+Fetching from https://nlp.elvissaravia.com/feed
+Token length: 361
+Summarized using GPT-3.5-turbo
+Append: [🧠AI Agents Weekly: LLM-brained GUI Agents, Runner H, AgentAuth, Azure AI Agent Services](https://nlp.elvissaravia.com/p/ai-agents-weekly-llm-brained-gui)
+append_entries: 1
+Finish: 2024-11-30 18:16:34.368950
