@@ -4,6 +4,349 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>Python's F-String for String Interpolation and Formatting</title>
+<link>https://realpython.com/python-f-strings/</link>
+<guid>https://realpython.com/python-f-strings/</guid>
+<content:encoded><![CDATA[
+<div> f-strings, interpolation, formatting, Python, expressions
+<br>
+Python的f-strings提供了一种简洁高效的方式将变量、对象和表达式直接插入字符串中。通过在字符串前加上f或F，您可以在大括号{}中嵌入表达式，这些表达式在运行时进行评估。相比之下，f-strings比旧方法（如%操作符或字符串方法）更快、更易读。此外，f-strings支持使用Python的字符串格式进行高级字符串格式化。总之，学完本教程后，您将了解到Python中的f-strings的特点和优势，包括插值和格式化。通过熟悉这些特点，您将能够在Python项目中有效地使用f-strings。
+<br><br>
+总结: f-strings是一种在Python中插值和格式化字符串的有效和简洁的方法。通过使用f-strings，您可以在字符串中插入动态内容，并进行高级的字符串格式化。Python的f-strings使得代码更易读、更高效。 <div>
+<div><p>Python <strong>f-strings</strong> offer a concise and efficient way to interpolate variables, objects, and expressions directly into strings. By prefixing a string with <code>f</code> or <code>F</code>, you can embed expressions within curly braces (<code>{}</code>), which are evaluated at runtime. </p>
+<p>This makes f-strings faster and more readable compared to older approaches like the <a href="https://realpython.com/python-modulo-string-formatting/">modulo (<code>%</code>)</a> operator or the string <a href="https://realpython.com/python-formatted-output/#using-the-format-method-for-string-interpolation"><code>.format()</code></a> method. Additionally, f-strings support advanced string formatting using Python’s string <a href="https://realpython.com/python-format-mini-language/">format mini-language</a>.</p>
+<p><strong>By the end of this tutorial, you’ll understand that:</strong></p>
+<ul>
+<li>An f-string in Python is a string literal <strong>prefixed with <code>f</code> or <code>F</code></strong>, allowing for the <strong>embedding of expressions</strong> within <strong>curly braces <code>{}</code></strong>.</li>
+<li>To include dynamic content in an f-string, place your expression or variable inside the braces to <strong>interpolate</strong> its value into the string.</li>
+<li>An <strong>f-string error</strong> in Python often occurs due to syntax issues, such as <strong>unmatched braces</strong> or <strong>invalid expressions</strong> within the string.</li>
+<li><strong>F-string calculation</strong> in Python involves <strong>writing expressions</strong> within the curly braces of an f-string, which Python evaluates at runtime.</li>
+<li><strong>Python 3.12</strong> improved f-strings by allowing <strong>nested expressions</strong> and the use of <strong>backslashes</strong>.</li>
+</ul>
+<p>This tutorial will guide you through the features and advantages of f-strings, including interpolation and formatting. By familiarizing yourself with these features, you’ll be able to effectively use f-strings in your Python projects.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-f-string-code/">Click here to download the free sample code</a> that shows you how to do string interpolation and formatting with Python’s f-strings.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Python F-Strings” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/f-strings/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="F-Strings in Python 3.6" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Python-f-Strings-Guide_Watermark.2c8be8b1d392.jpg" style="background: #e5c5ac;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/f-strings/"><span class="my-0 h4">Python F-Strings</span></a> 
+      <p class="text-muted mb-0 small">In this quiz, you'll test your knowledge of Python f-strings. With this knowledge, you'll be able to include all sorts of Python expressions inside your strings.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="interpolating-and-formatting-strings-before-python-36">Interpolating and Formatting Strings Before Python 3.6<a class="headerlink" href="#interpolating-and-formatting-strings-before-python-36" title="Permanent link"></a></h2>
+<p>Before Python 3.6, you had two main tools for interpolating values, variables, and expressions inside string literals:</p>
+<ol>
+<li>The <a href="https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting">string interpolation operator</a> (<code>%</code>), or modulo operator</li>
+<li>The <a href="https://docs.python.org/3/library/stdtypes.html#str.format"><code>str.format()</code></a> method</li>
+</ol>
+<p>You’ll get a refresher on these two string interpolation tools in the following sections. You’ll also learn about the string formatting capabilities that these tools offer in Python.</p>
+<h3 id="the-modulo-operator">The Modulo Operator (<code>%</code>)<a class="headerlink" href="#the-modulo-operator" title="Permanent link"></a></h3>
+<p>The modulo operator (<code>%</code>) was the first tool for string interpolation and formatting in Python and has been in the language since the beginning. Here’s what using this operator looks like in practice:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">name</span> <span class="o">=</span> <span class="s2">"Jane"</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">"Hello, </span><span class="si">%s</span><span class="s2">!"</span> <span class="o">%</span> <span class="n">name</span>
+<span class="go">'Hello, Jane!'</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this quick example, you use the <code>%</code> operator to interpolate the value of your <code>name</code> variable into a string literal. The interpolation operator takes two operands:</p>
+<ul>
+<li>A string literal containing one or more conversion specifiers</li>
+<li>The object or objects that you’re interpolating into the string literal</li>
+</ul>
+<p>The <strong>conversion specifiers</strong> work as replacement fields. In the above example, you use the <code>%s</code> combination of characters as a conversion specifier. The <code>%</code> symbol marks the start of the specifier, while the <code>s</code> letter is the <strong>conversion type</strong> and tells the operator that you want to convert the input object into a string.</p>
+<p>If you want to insert more than one object into your target string, then you can use a <a href="https://realpython.com/python-tuple/">tuple</a>. Note that the number of objects in the tuple must match the number of format specifiers in the string:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">name</span> <span class="o">=</span> <span class="s2">"Jane"</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">age</span> <span class="o">=</span> <span class="mi">25</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">"Hello, </span><span class="si">%s</span><span class="s2">! You're </span><span class="si">%s</span><span class="s2"> years old."</span> <span class="o">%</span> <span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">)</span>
+<span class="go">'Hello, Jane! You're 25 years old.'</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this example, you use a tuple of values as the right-hand operand to <code>%</code>. Note that you’ve used a string and an integer. Because you use the <code>%s</code> specifier, Python converts both objects to strings.</p>
+<p>You can also use dictionaries as the right-hand operand in your interpolation expressions. To do this, you need to create conversion specifiers that enclose key names in parentheses:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="s2">"Hello, </span><span class="si">%(name)s</span><span class="s2">! You're </span><span class="si">%(age)s</span><span class="s2"> years old."</span> <span class="o">%</span> <span class="p">{</span><span class="s2">"name"</span><span class="p">:</span> <span class="s2">"Jane"</span><span class="p">,</span> <span class="s2">"age"</span><span class="p">:</span> <span class="mi">25</span><span class="p">}</span>
+<span class="go">"Hello, Jane! You're 25 years old."</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>This syntax provides a readable approach to string interpolation with the <code>%</code> operator. You can use descriptive key names instead of relying on the positional order of values.</p>
+<p>When you use the <code>%</code> operator for string interpolation, you can use conversion specifiers. They provide some string formatting capabilities that take advantage of <strong>conversion types</strong>, <strong>conversion flags</strong>, and some characters like the period (<code>.</code>) and the asterisk (<code>*</code>). Consider the following example:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="s2">"Balance: $</span><span class="si">%.2f</span><span class="s2">"</span> <span class="o">%</span> <span class="mf">5425.9292</span>
+<span class="go">'Balance: $5425.93'</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">"Name: </span><span class="si">%s</span><span class="se">\n</span><span class="s2">Age: </span><span class="si">%5s</span><span class="s2">"</span> <span class="o">%</span> <span class="p">(</span><span class="s2">"John"</span><span class="p">,</span> <span class="mi">35</span><span class="p">))</span>
+<span class="go">Name: John</span>
+<span class="go">Age:    35</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+</div><h2><a href="https://realpython.com/python-f-strings/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-f-strings/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-11-30T14:00:00+00:00</pubDate>
+</item>
+<item>
+<title>What Does if __name__ == "__main__" Do in Python?</title>
+<link>https://realpython.com/if-name-main-python/</link>
+<guid>https://realpython.com/if-name-main-python/</guid>
+<content:encoded><![CDATA[
+<div> Python, if __name__, "__main__", idiom, script，
+  
+总结:<br><br>Python的if __name__ == "__main__"习惯用法允许代码仅在脚本执行时运行，而不在导入模块时运行。通过将代码封装在if __name__ == "__main__"内，可以确保仅在预期上下文中运行。此习惯用法有助于防止在模块导入期间意外执行代码。将脚本特定逻辑放在此习惯用法下有助于不影响模块导入。最佳实践建议尽量少使用此习惯用法，并将其放在脚本底部以提高清晰度。 <div>
+<div><p>The <code>if __name__ == "__main__"</code> idiom is a Python construct that helps control code execution in scripts. It’s a conditional statement that allows you to define code that runs only when the file is executed as a script, not when it’s imported as a module.</p>
+<p>When you run a Python script, the interpreter assigns the value <code>"__main__"</code> to the <code>__name__</code> variable. If Python imports the code as a module, then it sets <code>__name__</code> to the module’s name instead. By encapsulating code within <code>if __name__ == "__main__"</code>, you can ensure that it only runs in the intended context.</p>
+<p><strong>By the end of this tutorial, you’ll understand that:</strong></p>
+<ul>
+<li>Python’s <code>if __name__ == "__main__"</code> idiom allows code to run <strong>only when the script is executed</strong>, not when it’s imported.</li>
+<li>The idiom checks if <strong>the <code>__name__</code> variable equals <code>"__main__"</code></strong>, confirming that the script is the <strong>top-level module</strong>.</li>
+<li>Using this idiom helps <strong>prevent unintended code execution</strong> during module imports.</li>
+<li>It’s useful for adding <strong>script-specific logic</strong>, such as user input or test cases, without affecting module imports.</li>
+<li>Best practices suggest <strong>using this idiom minimally</strong> and placing it at the bottom of the script for clarity.</li>
+</ul>
+<p>You’ve likely encountered Python’s <code>if __name__ == "__main__"</code> idiom when reading other people’s code. No wonder—<a href="https://github.com/search?q=__name__+%3D%3D+%22__main__%22&amp;type=code">it’s widespread</a>! Understanding Python’s <code>if __name__ == "__main__"</code> idiom will help you to manage script execution and module imports effectively. In this tutorial you’ll explore its mechanics, appropriate usage, and best practices.</p>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Python Name-Main Idiom” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/python-name-main-idiom/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="What Does if __name__ == &quot;__main__&quot; Do in Python?" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/The-Name-Main-Idiom_Watermarked.9d5e12c539b3.jpg" style="background: #ffc774;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/python-name-main-idiom/"><span class="my-0 h4">Python Name-Main Idiom</span></a> 
+      <p class="text-muted mb-0 small">Test your knowledge of Python's if __name__ == "__main__" idiom by answering a series of questions! You've probably encountered the name-main idiom and might have even used it in your own scripts. But did you use it correctly?</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/if-name-main-python-code/">Click here to download the free sample code</a> that you’ll use to learn about the name-main idiom.</p>
+</div>
+<h2 id="in-short-it-allows-you-to-execute-code-when-the-file-runs-as-a-script-but-not-when-its-imported-as-a-module">In Short: It Allows You to Execute Code When the File Runs as a Script, but Not When It’s Imported as a Module<a class="headerlink" href="#in-short-it-allows-you-to-execute-code-when-the-file-runs-as-a-script-but-not-when-its-imported-as-a-module" title="Permanent link"></a></h2>
+<p>For most practical purposes, you can think of the conditional block that you open with <code>if __name__ == "__main__"</code> as a way to store code that should only run when your file is executed as a script.</p>
+<p>You’ll see what that means in a moment. For now, say you have the following file:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    <span class="mr-2"><code style="color: inherit;">echo.py</code></span>
+    <div class="noselect">
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="linenos"> 1</span><span class="k">def</span> <span class="nf">echo</span><span class="p">(</span><span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">repetitions</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">3</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<span class="linenos"> 2</span><span class="w">    </span><span class="sd">"""Imitate a real-world echo."""</span>
+<span class="linenos"> 3</span>    <span class="n">echoes</span> <span class="o">=</span> <span class="p">[</span><span class="n">text</span><span class="p">[</span><span class="o">-</span><span class="n">i</span><span class="p">:]</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">repetitions</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)]</span>
+<span class="linenos"> 4</span>    <span class="k">return</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">echoes</span> <span class="o">+</span> <span class="p">[</span><span class="s2">"."</span><span class="p">])</span>
+<span class="linenos"> 5</span>
+<span class="linenos"> 6</span><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">"__main__"</span><span class="p">:</span>
+<span class="linenos"> 7</span>    <span class="n">text</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Yell something at a mountain: "</span><span class="p">)</span>
+<span class="linenos"> 8</span>    <span class="nb">print</span><span class="p">(</span><span class="n">echo</span><span class="p">(</span><span class="n">text</span><span class="p">))</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this example, you define a function, <code>echo()</code>, that mimics a real-world echo by gradually printing fewer and fewer of the final letters of the input text.</p>
+<p>Below that, in lines 6 to 8, you use the <code>if __name__ == "__main__"</code> idiom. This code starts with the conditional statement <code>if __name__ == "__main__"</code> in line 6. In the indented lines, 7 and 8, you then collect user input and call <code>echo()</code> with that input. These two lines will execute when you run <code>echo.py</code> as a script from your command line:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--yellow">
+    <span class="mr-2 noselect">Shell</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">$ </span>python<span class="w"> </span>echo.py
+<span class="go">Yell something at a mountain: HELLOOOO ECHOOOOOOOOOO</span>
+<span class="go">ooo</span>
+<span class="go">oo</span>
+<span class="go">o</span>
+<span class="go">.</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>When you run the file as a script by passing the file object to your Python interpreter, the expression <code>__name__ == "__main__"</code> returns <code>True</code>. The code block under <code>if</code> then runs, so Python collects user input and calls <code>echo()</code>.</p>
+<p>Try it out yourself! You can download all the code files that you’ll use in this tutorial from the link below:</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/if-name-main-python-code/">Click here to download the free sample code</a> that you’ll use to learn about the name-main idiom.</p>
+</div>
+<p>At the same time, if you import <code>echo()</code> in another module or a console session, then the nested code won’t run:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">echo</span> <span class="kn">import</span> <span class="n">echo</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">echo</span><span class="p">(</span><span class="s2">"Please help me I'm stuck on a mountain"</span><span class="p">))</span>
+<span class="go">ain</span>
+<span class="go">in</span>
+<span class="go">n</span>
+<span class="go">.</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this case, you want to use <code>echo()</code> in the context of another script or interpreter session, so you won’t need to collect user input. Running <code>input()</code> would mess with your code by producing a side effect when importing <code>echo</code>.</p>
+<p>When you nest the code that’s specific to the script usage of your file under the <code>if __name__ == "__main__"</code> idiom, then you avoid running code that’s irrelevant for imported modules.</p>
+<p>Nesting code under <code>if __name__ == "__main__"</code> allows you to cater to different use cases:</p>
+<ul>
+<li><strong>Script:</strong> When run as a script, your code prompts the user for input, calls <code>echo()</code>, and prints the result.</li>
+<li><strong>Module:</strong> When you import <code>echo</code> as a module, then <code>echo()</code> gets defined, but no code executes. You provide <code>echo()</code> to the main code session without any side effects.</li>
+</ul>
+<p>By implementing the <code>if __name__ == "__main__"</code> idiom in your code, you set up an additional entry point that allows you to use <code>echo()</code> right from the command line.</p>
+<p>There you go! You’ve now covered the most important information about this topic. Still, there’s more to find out, and there are some subtleties that can help you build a deeper understanding of this code specifically and Python more generally.</p>
+</div><h2><a href="https://realpython.com/if-name-main-python/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/if-name-main-python/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-11-30T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>The Real Python Podcast – Episode #230: marimo: Reactive Notebooks and Deployable Web Apps in Python</title>
