@@ -4,13 +4,14 @@
 <title>NLP Newsletter</title>
 <link>https://nlp.elvissaravia.com</link>
 
+
 <item>
 <title>🧠AI Agents Weekly: LLM-brained GUI Agents, Runner H, AgentAuth, Azure AI Agent Services</title>
 <link>https://nlp.elvissaravia.com/p/ai-agents-weekly-llm-brained-gui</link>
 <guid>https://nlp.elvissaravia.com/p/ai-agents-weekly-llm-brained-gui</guid>
 <content:encoded><![CDATA[
 <div> Microsoft、enterprise AI agents、web automations、authentication platform、multi-step AI agent performance
-<br><br>总结:
+<br /><br />总结:
 Microsoft宣布推出了针对构建企业AI代理的新工具。该工具还包括用于创建生产级web自动化的AI代理，以及针对AI代理设计的专门认证平台。此外，还推出了一种新方法，显著提高了多步骤AI代理的性能。文章还介绍了AI驱动的全栈工程师、新的推理LLM、LLM大脑UI代理等进展。 <div>
 <p>In today&#8217;s issue:</p><ul><li><p>Microsoft announces <a href="https://techcommunity.microsoft.com/blog/azure-ai-services-blog/introducing-azure-ai-agent-service/4298357">Azure AI Agent Service</a> for building enterprise AI agents. </p></li><li><p><a href="https://www.hcompany.ai/blog/introducing-h">Runner H:</a> a new AI agent for creating production-ready web automations.</p></li><li><p><a href="https://composio.dev/blog/agentauth-seamless-authentication-for-ai-agents-with-250-tools/">AgentAuth: </a>a specialized authentication platform designed for AI agents.</p></li><li><p><a href="https://xpander.ai/2024/11/20/announcing-agent-graph-system/">Agent Graph System: </a>a new approach that significantly improves multi-step AI agent performance.</p></li><li><p>An AI-powered full-stack engineer, new reasoning LLM, LLM-brained GUI Agents, and more.</p></li></ul>
       <p>
@@ -20,9 +21,7 @@ Microsoft宣布推出了针对构建企业AI代理的新工具。该工具还包
       </p>
 ]]></content:encoded>
 <pubDate>Sat, 30 Nov 2024 16:16:34 GMT</pubDate>
-<pubDate>Sat, 30 Nov 2024 16:16:34 GMT</pubDate>
 </item>
-
 <item>
 <title>🐙Top AI Dev News: Cursor Agent, aisuite, LLM Structured Generation, AgentAuth</title>
 <link>https://nlp.elvissaravia.com/p/top-ai-dev-news-cursor-agent-aisuite</link>
