@@ -4,6 +4,351 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+<item>
+<title>How to Check if a Python String Contains a Substring</title>
+<link>https://realpython.com/python-string-contains-substring/</link>
+<guid>https://realpython.com/python-string-contains-substring/</guid>
+<content:encoded><![CDATA[
+<div> Python, substring, in operator, case sensitivity, regular expressions  
+总结:<br><br>本文介绍了如何使用Python中的in操作符来检查一个字符串是否包含另一个子字符串。通过转换输入文本为小写，可以消除大小写敏感性。还介绍了.count()方法用于计算子字符串出现的次数，.index()方法找到第一个出现的位置。此外，还介绍了re模块中的正则表达式以及pandas中的.str.contains()方法用于更复杂的子字符串搜索。这些方法和工具可以有效地在Python字符串中检查子字符串，满足不同需求，从简单检查到复杂数据分析。 <div>
+<div><p>To check if a string contains another string in Python, use the <code>in</code> <a href="https://realpython.com/python-in-operator/">membership operator</a>. This is the recommended method for confirming the presence of a <a href="https://en.wikipedia.org/wiki/Substring">substring</a> within a string. The <code>in</code> operator is intuitive and readable, making it a straightforward way to evaluate substring existence.</p>
+<p>Additionally, you can use string methods like <code>.count()</code> and <code>.index()</code> to gather more detailed information about substrings, such as their frequency and position. For more complex substring searches, use regular expressions with the <code>re</code> module. When you’re dealing with tabular data, then <a href="https://realpython.com/learning-paths/pandas-data-science/">pandas</a> provides efficient tools for searching for substrings within DataFrame columns.</p>
+<p><strong>By the end of this tutorial, you’ll understand that:</strong></p>
+<ul>
+<li>The <strong><code>in</code> membership operator</strong> is the recommended way to check if a Python string contains a substring.</li>
+<li><strong>Converting input text</strong> to lowercase generalizes substring checks by <strong>removing case sensitivity</strong>.</li>
+<li>The <code>.count()</code> method <strong>counts occurrences</strong> of a substring, while <code>.index()</code> finds the first occurrence’s <strong>position</strong>.</li>
+<li><strong>Regular expressions</strong> in the <code>re</code> module allow for advanced substring searches based on <strong>complex conditions</strong>.</li>
+<li>The <code>.str.contains()</code> method in <strong>pandas</strong> identifies which DataFrame entries contain a specific substring.</li>
+</ul>
+<p>Understanding these methods and tools enables you to effectively check for substrings in Python strings, catering to various needs from simple checks to complex data analysis.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-string-contains-substring-code/">Click here to download the free sample code</a> that you’ll use to check if a string contains a substring.</p>
+</div>
+<h2 id="how-to-confirm-that-a-python-string-contains-another-string">How to Confirm That a Python String Contains Another String<a class="headerlink" href="#how-to-confirm-that-a-python-string-contains-another-string" title="Permanent link"></a></h2>
+<p>If you need to check whether a string contains a substring, use Python’s <a href="https://realpython.com/python-in-operator/">membership operator <code>in</code></a>. In Python, this is the recommended way to confirm the existence of a substring in a string:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">raw_file_content</span> <span class="o">=</span> <span class="s2">"""Hi there and welcome.</span>
+<span class="gp">... </span><span class="s2">This is a special hidden file with a SECRET secret.</span>
+<span class="gp">... </span><span class="s2">I don't want to tell you The Secret,</span>
+<span class="gp">... </span><span class="s2">but I do want to secretly tell you that I have one."""</span>
+
+<span class="hll"><span class="gp">&gt;&gt;&gt; </span><span class="s2">"secret"</span> <span class="ow">in</span> <span class="n">raw_file_content</span>
+</span><span class="go">True</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The <code>in</code> membership operator gives you a quick and readable way to check whether a substring is present in a string. You may notice that the line of code almost reads like English.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> If you want to check whether the substring is <em>not</em> in the string, then you can use <a href="https://realpython.com/python-in-operator/#pythons-not-in-operator"><code>not in</code></a>:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="s2">"secret"</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">raw_file_content</span>
+<span class="go">False</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Because the substring <code>"secret"</code> is present in <code>raw_file_content</code>, the <code>not in</code> operator returns <code>False</code>.</p>
+</div>
+<p>When you use <code>in</code>, the expression returns a <a href="https://realpython.com/python-boolean/">Boolean value</a>:</p>
+<ul>
+<li><code>True</code> if Python found the substring</li>
+<li><code>False</code> if Python didn’t find the substring</li>
+</ul>
+<p>You can use this intuitive syntax in <a href="https://realpython.com/python-conditional-statements/">conditional statements</a> to make decisions in your code:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="k">if</span> <span class="s2">"secret"</span> <span class="ow">in</span> <span class="n">raw_file_content</span><span class="p">:</span>
+<span class="gp">... </span>   <span class="nb">print</span><span class="p">(</span><span class="s2">"Found!"</span><span class="p">)</span>
+<span class="gp">...</span>
+<span class="go">Found!</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this code snippet, you use the membership operator to check whether <code>"secret"</code> is a substring of <code>raw_file_content</code>. If it is, then you’ll print a message to the <a href="https://realpython.com/terminal-commands/">terminal</a>. Any indented code will only execute if the Python string that you’re checking contains the substring that you provide.</p>
+<div class="alert alert-primary">
+<p><strong>Note:</strong> Python considers <a href="https://docs.python.org/3.12/reference/expressions.html#membership-test-operations">empty strings always as a substring</a> of any other string, so checking for the empty string in a string returns <code>True</code>:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="s2">""</span> <span class="ow">in</span> <span class="s2">"secret"</span>
+<span class="go">True</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>This may be surprising because Python considers <a href="https://docs.python.org/3/library/stdtypes.html#truth-value-testing">emtpy strings as false</a>, but it’s an edge case that is helpful to keep in mind.</p>
+</div>
+<p>The membership operator <code>in</code> is your best friend if you just need to check whether a Python string contains a substring.</p>
+<p>However, what if you want to know more about the substring? If you read through the text stored in <code>raw_file_content</code>, then you’ll notice that the substring occurs more than once, and even in different variations!</p>
+<p>Which of these occurrences did Python find? Does capitalization make a difference? How often does the substring show up in the text? And what’s the location of these substrings? If you need the answer to any of these questions, then keep on reading.</p>
+<h2 id="generalize-your-check-by-removing-case-sensitivity">Generalize Your Check by Removing Case Sensitivity<a class="headerlink" href="#generalize-your-check-by-removing-case-sensitivity" title="Permanent link"></a></h2>
+<p>Python strings are case sensitive. If the substring that you provide uses different capitalization than the same word in your text, then Python won’t find it. For example, if you check for the lowercase word <code>"secret"</code> on a <a href="https://realpython.com/python-strings/#case-conversion">title-case version</a> of the original text, the membership operator check returns <code>False</code>:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">title_cased_file_content</span> <span class="o">=</span> <span class="s2">"""Hi There And Welcome.</span>
+<span class="gp">... </span><span class="s2">This Is A Special Hidden File With A Secret Secret.</span>
+<span class="gp">... </span><span class="s2">I Don't Want To Tell You The Secret,</span>
+<span class="gp">... </span><span class="s2">But I Do Want To Secretly Tell You That I Have One."""</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">"secret"</span> <span class="ow">in</span> <span class="n">title_cased_file_content</span>
+<span class="go">False</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>Despite the fact that the word <em>secret</em> appears multiple times in the title-case text <code>title_cased_file_content</code>, it <em>never</em> shows up in all lowercase. That’s why the check that you perform with the membership operator returns <code>False</code>. Python can’t find the all-lowercase string <code>"secret"</code> in the provided text.</p>
+<p>Humans have a different approach to language than computers do. This is why you’ll often want to disregard capitalization when you check whether a string contains a substring in Python.</p>
+</div><h2><a href="https://realpython.com/python-string-contains-substring/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-string-contains-substring/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-12-01T14:00:00+00:00</pubDate>
+</item>
+<item>
+<title>Python Exceptions: An Introduction</title>
+<link>https://realpython.com/python-exceptions/</link>
+<guid>https://realpython.com/python-exceptions/</guid>
+<content:encoded><![CDATA[
+<div> exceptions try except else finally Python
+Python中，异常是指在语法正确的代码执行过程中发生错误时引发的错误。你可以使用try、except、else和finally关键字来处理异常。通过try...except块，你能够执行代码并处理可能出现的异常。Python 3相对于Python 2引入了更多内置的异常，使得错误处理更加精细。捕获所有异常的坏习惯是使用except Exception或裸except子句。结合try、except和pass让程序可以在不处理异常的情况下继续静默运行。使用try...except本身并不是坏事，但应该谨慎使用，只处理已知问题。总结：Python中异常处理是保证程序在遇到错误时正常运行的重要机制，通过try...except块、else和finally关键字，可以有效处理异常，避免程序崩溃。 <div>
+<div><p>Python exceptions provide a mechanism for handling errors that occur during the execution of a program. Unlike syntax errors, which are detected by the parser, Python raises exceptions when an error occurs in syntactically correct code. Knowing how to raise, catch, and handle exceptions effectively helps to ensure your program behaves as expected, even when encountering errors.</p>
+<p>In Python, you handle exceptions using a <code>try</code> … <code>except</code> block. This structure allows you to execute code normally while responding to any exceptions that may arise. You can also use <code>else</code> to run code if no exceptions occur, and the <code>finally</code> clause to execute code regardless of whether an exception was raised.</p>
+<p><strong>By the end of this tutorial, you’ll understand that:</strong></p>
+<ul>
+<li>Exceptions in Python occur when <strong>syntactically correct code</strong> results in an <strong>error</strong>.</li>
+<li>You can <strong>handle exceptions</strong> using the <code>try</code>, <code>except</code>, <code>else</code>, and <code>finally</code> <strong>keywords</strong>.</li>
+<li><strong>The <code>try</code> … <code>except</code> block</strong> lets you execute code and handle exceptions that arise.</li>
+<li><strong>Python 3</strong> introduced more built-in exceptions compared to <strong>Python 2</strong>, making error handling more granular.</li>
+<li>It’s <strong>bad practice</strong> to <strong>catch all exceptions</strong> at once using <code>except Exception</code> or the bare <code>except</code> clause.</li>
+<li>Combining <code>try</code>, <code>except</code>, and <code>pass</code> allows your program to <strong>continue silently</strong> without handling the exception.</li>
+<li>Using <code>try</code> … <code>except</code> is not inherently bad, but you should <strong>use it judiciously</strong> to handle only <strong>known issues</strong> appropriately.</li>
+</ul>
+<p>In this tutorial, you’ll get to know Python exceptions and all relevant keywords for exception handling by walking through a practical example of handling a platform-related exception. Finally, you’ll also learn how to create your own custom Python exceptions.</p>
+<div class="alert alert-warning">
+<p><strong>Get Your Code:</strong> <a class="alert-link" href="https://realpython.com/bonus/python-exceptions-code/">Click here to download the free sample code</a> that shows you how exceptions work in Python.</p>
+</div>
+<div class="container border rounded text-wrap-pretty my-3">
+
+  <p class="my-3"><strong><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span> Take the Quiz:</strong> Test your knowledge with our interactive “Python Exceptions: An Introduction” quiz. You’ll receive a score upon completion to help you track your learning progress:</p>
+
+  <hr />
+
+  <div class="row my-3">
+    <div class="col-xs-12 col-sm-4 col-md-3 align-self-center">
+
+      <a href="/quizzes/python-exceptions/" tabindex="-1">
+        <div class="embed-responsive embed-responsive-16by9">
+
+            <img alt="An Introduction to Python Exceptions" class="card-img-top m-0 p-0 embed-responsive-item rounded" height="1080" src="https://files.realpython.com/media/Python_Exceptions_Watermark.47f814fbeced.jpg" style="background: #ffc873;" width="1920" />
+
+
+          <div class="card-img-overlay d-flex align-items-center">
+            <div class="mx-auto">
+              <span class="text-light"><span class="icon baseline scale2x"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="col">
+      <div class="mt-3 d-md-none"></div> 
+      <p class="small text-muted mb-0"><strong>Interactive Quiz</strong></p>
+      <a class="stretched-link" href="/quizzes/python-exceptions/"><span class="my-0 h4">Python Exceptions: An Introduction</span></a> 
+      <p class="text-muted mb-0 small">In this quiz, you'll test your understanding of Python exceptions. You'll cover the difference between syntax errors and exceptions and learn how to raise exceptions, make assertions, and use the try and except block.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2 id="understanding-exceptions-and-syntax-errors">Understanding Exceptions and Syntax Errors<a class="headerlink" href="#understanding-exceptions-and-syntax-errors" title="Permanent link"></a></h2>
+<p><a href="https://realpython.com/invalid-syntax-python/">Syntax errors</a> occur when the parser detects an incorrect statement. Observe the following example:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python Traceback</span>
+    
+    <div class="noselect">
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="x">&gt;&gt;&gt; print(0 / 0))</span>
+  File <span class="nb">"&lt;stdin&gt;"</span>, line <span class="m">1</span>
+<span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="mi">0</span> <span class="o">/</span> <span class="mi">0</span><span class="p">))</span>
+<span class="w">                </span><span class="pm">^</span>
+<span class="gr">SyntaxError</span>: <span class="n">unmatched ')'</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The arrow indicates where the parser ran into the <strong>syntax error</strong>. Additionally, the error message gives you a hint about what went wrong. In this example, there was one bracket too many. Remove it and run your code again:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    
+    <div class="noselect">
+      
+        <span class="codeblock__output-toggle" title="Toggle prompts and output"><span class="icon baseline js-codeblock-output-on codeblock__header--icon-lower"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></span>
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="mi">0</span> <span class="o">/</span> <span class="mi">0</span><span class="p">)</span>
+<span class="gt">Traceback (most recent call last):</span>
+  File <span class="nb">"&lt;stdin&gt;"</span>, line <span class="m">1</span>, in <span class="n">&lt;module&gt;</span>
+<span class="gr">ZeroDivisionError</span>: <span class="n">division by zero</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>This time, you ran into an <strong>exception error</strong>. This type of error occurs whenever syntactically correct Python code results in an error. The last line of the message indicates what type of exception error you ran into.</p>
+<p>Instead of just writing <em>exception error</em>, Python details what <em>type</em> of exception error it encountered. In this case, it was a <code>ZeroDivisionError</code>. Python comes with <a href="https://docs.python.org/3/library/exceptions.html">various built-in exceptions</a> as well as the possibility to create user-defined exceptions.</p>
+<h2 id="raising-an-exception-in-python">Raising an Exception in Python<a class="headerlink" href="#raising-an-exception-in-python" title="Permanent link"></a></h2>
+<p>There are scenarios where you might want to stop your program by raising an exception if a condition occurs. You can do this with the <a href="https://realpython.com/python-raise-exception/"><code>raise</code></a> keyword:</p>
+<figure class="js-lightbox"><a href="https://files.realpython.com/media/raise.3931e8819e08.png" target="_blank"><img alt="Illustration of  raise statement usage" class="img-fluid mx-auto d-block " height="311" src="https://files.realpython.com/media/raise.3931e8819e08.png" width="1394" /></a></figure>
+
+<p>You can even complement the statement with a custom message. Assume that you’re writing a tiny toy program that expects only numbers up to <code>5</code>. You can raise an error when an unwanted condition occurs:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python</span>
+    <span class="mr-2"><code style="color: inherit;">low.py</code></span>
+    <div class="noselect">
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="n">number</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="k">if</span> <span class="n">number</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">:</span>
+    <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa">f</span><span class="s2">"The number should not exceed 5. (</span><span class="si">{</span><span class="n">number</span><span class="si">=}</span><span class="s2">)"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>In this example, you raised an <code>Exception</code> object and passed it an informative custom message. You built the message using an <a href="https://realpython.com/python-f-strings/">f-string</a> and a <a href="https://realpython.com/python-f-strings/#self-documenting-expressions-for-debugging">self-documenting expression</a>.</p>
+<p>When you run <code>low.py</code>, you’ll get the following output:</p>
+<div class="codeblock mb-3 w-100">
+  <div class="codeblock__header d-flex justify-content-between codeblock--blue">
+    <span class="mr-2 noselect">Python Traceback</span>
+    
+    <div class="noselect">
+      
+    </div>
+  </div>
+  <div>
+    <div class="highlight highlight--with-header"><pre><span></span><code><span class="gt">Traceback (most recent call last):</span>
+  File <span class="nb">"./low.py"</span>, line <span class="m">3</span>, in <span class="n">&lt;module&gt;</span>
+<span class="w">    </span><span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa">f</span><span class="s2">"The number should not exceed 5. (</span><span class="si">{</span><span class="n">number</span><span class="si">=}</span><span class="s2">)"</span><span class="p">)</span>
+<span class="gr">Exception</span>: <span class="n">The number should not exceed 5. (number=10)</span>
+</code></pre></div>
+    
+    <button class="codeblock__copy btn btn-outline-secondary border m-1 px-1 d-hover-only" title="Copy to clipboard"><span class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span></button>
+    
+      <span class="small"><span class="icon baseline mr-1 text-success"><svg xmlns="http://www.w3.org/2000/svg"><use></use></svg></span>Copied!</span>
+    
+    
+  </div>
+</div>
+<p>The program comes to a halt and displays the exception to your <a href="https://realpython.com/terminal-commands/">terminal</a> or <a href="https://realpython.com/python-repl/">REPL</a>, offering you helpful clues about what went wrong. Note that the final call to <a href="https://realpython.com/python-print/"><code>print()</code></a> never executed, because Python raised the exception before it got to that line of code.</p>
+<p>With the <code>raise</code> keyword, you can raise any exception object in Python and stop your program when an unwanted condition occurs.</p>
+<h2 id="debugging-during-development-with-assert">Debugging During Development With <code>assert</code><a class="headerlink" href="#debugging-during-development-with-assert" title="Permanent link"></a></h2>
+</div><h2><a href="https://realpython.com/python-exceptions/?utm_source=realpython&amp;utm_medium=rss">Read the full article at https://realpython.com/python-exceptions/ »</a></h2>
+        <hr />
+        <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
+]]></content:encoded>
+
+<pubDate>2024-12-01T14:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>Python's F-String for String Interpolation and Formatting</title>
