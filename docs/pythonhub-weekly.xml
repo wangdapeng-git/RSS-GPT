@@ -4,6 +4,7 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+
 <item>
 <title>Python Hub Weekly Digest for 2024-12-01</title>
 <link>https://pythonhub.dev/digest/2024-12-01/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> garak, Ultravox, open-notebook, Python speed, DjangoVer
 
-总结:<br><br>本周Python中的热门项目包括检测LLM中的弱点的工具garak，用于实时语音的快速多模态LLM Ultravox，以及具有更多灵活性和功能的开源Notebook LM open-notebook。文章中探讨了Python的速度问题，介绍了DjangoVer版本系统，分享了构建股票交易机器人的教程。其他值得关注的项目有用于清洁Python架构的Deply、用于AI驱动电子邮件自动化的LAMBDA，以及用于视频生成的EasyAnimate。祝你下周愉快，编程快乐！ <div>
+总结:<br /><br />本周Python中的热门项目包括检测LLM中的弱点的工具garak，用于实时语音的快速多模态LLM Ultravox，以及具有更多灵活性和功能的开源Notebook LM open-notebook。文章中探讨了Python的速度问题，介绍了DjangoVer版本系统，分享了构建股票交易机器人的教程。其他值得关注的项目有用于清洁Python架构的Deply、用于AI驱动电子邮件自动化的LAMBDA，以及用于视频生成的EasyAnimate。祝你下周愉快，编程快乐！ <div>
 <p class="summary">This week in Python, popular projects included garak, a tool for probing weaknesses in LLMs, Ultravox, a fast multimodal LLM for voice, and open-notebook, an open-source Notebook LM. In articles, the speed of Python was explored, DjangoVer was introduced, and a tutorial on building a stock trading bot was shared. Other notable projects were Deply for clean Python architecture, LAMBDA for AI-powered email automation, and EasyAnimate for video generation. Wishing you a great week ahead and happy coding!</p>
 
 <div></div>
@@ -177,9 +178,7 @@
       </p>
 ]]></content:encoded>
 <pubDate>Sun, 01 Dec 2024 18:00:00 +0000</pubDate>
-<pubDate>Sun, 01 Dec 2024 18:00:00 +0000</pubDate>
 </item>
-
 <item>
 <title>Python Hub Weekly Digest for 2024-11-24</title>
 <link>https://pythonhub.dev/digest/2024-11-24/</link>
