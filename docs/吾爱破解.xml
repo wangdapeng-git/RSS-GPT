@@ -4,6 +4,19 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>Dwall——让Windows也可以享受macOS高逼格的动态壁纸切换</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1986831</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1986831</guid>
+<content:encoded><![CDATA[
+
+[md]因为macOS的壁纸切换算法并非开源，因此我也只能模拟实现。通过电脑的定位传感器获取地理坐标，然后根据坐标定时计算**太阳的高度角和方位角**以切换到最匹配的壁纸，同时会根据太阳升起和落下切换UI的暗色和亮色模式。
+
+天文（太阳的高度角和方位角）算法是集合 ...
+]]></content:encoded>
+<pubDate>Fri, 29 Nov 2024 11:14:28 +0000</pubDate>
+<pubDate>Fri, 29 Nov 2024 11:14:28 +0000</pubDate>
+</item>
 
 <item>
 <title>Excel 300+实用插件 实用增强工具 ASAP Utilities Free 8.7.2</title>
