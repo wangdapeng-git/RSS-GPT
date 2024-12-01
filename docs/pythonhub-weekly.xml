@@ -4,6 +4,181 @@
 <title>Python Hub Weekly Digests</title>
 <link>https://pythonhub.dev/</link>
 
+<item>
+<title>Python Hub Weekly Digest for 2024-12-01</title>
+<link>https://pythonhub.dev/digest/2024-12-01/</link>
+<guid>https://pythonhub.dev/digest/2024-12-01/</guid>
+<content:encoded><![CDATA[
+<div> garak, Ultravox, open-notebook, Python speed, DjangoVer
+
+总结:<br><br>本周Python中的热门项目包括检测LLM中的弱点的工具garak，用于实时语音的快速多模态LLM Ultravox，以及具有更多灵活性和功能的开源Notebook LM open-notebook。文章中探讨了Python的速度问题，介绍了DjangoVer版本系统，分享了构建股票交易机器人的教程。其他值得关注的项目有用于清洁Python架构的Deply、用于AI驱动电子邮件自动化的LAMBDA，以及用于视频生成的EasyAnimate。祝你下周愉快，编程快乐！ <div>
+<p class="summary">This week in Python, popular projects included garak, a tool for probing weaknesses in LLMs, Ultravox, a fast multimodal LLM for voice, and open-notebook, an open-source Notebook LM. In articles, the speed of Python was explored, DjangoVer was introduced, and a tutorial on building a stock trading bot was shared. Other notable projects were Deply for clean Python architecture, LAMBDA for AI-powered email automation, and EasyAnimate for video generation. Wishing you a great week ahead and happy coding!</p>
+
+<div></div>
+
+<h2>💖 Most Popular</h2>
+
+    <p>
+    <strong><a href="https://github.com/NVIDIA/garak">garak</a></strong>
+    
+        <br /><span>garak checks if an LLM can be made to fail in a way we don't want. garak probes for hallucination, data leakage, prompt injection, misinformation, toxicity generation, jailbreaks, and many other weaknesses.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/fixie-ai/ultravox">Ultravox</a></strong>
+    
+        <br /><span>A fast multimodal LLM for real-time voice.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/lfnovo/open-notebook">open-notebook</a></strong>
+    
+        <br /><span>An Open Source implementation of Notebook LM with more flexibility and features.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://blog.miguelgrinberg.com/post/is-python-really-that-slow">Is Python Really That Slow?</a></strong>
+    
+        <br /><span>The post explores Python's perceived slowness, highlighting that it stems from its interpreted nature and focus on developer productivity rather than raw performance. By leveraging tools like C extensions, async programming, or just-in-time compilers, developers can often overcome performance concerns effectively.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.b-list.org/weblog/2024/nov/18/djangover/">Introducing DjangoVer</a></strong>
+    
+        <br /><span>The article introduces DjangoVer, a versioning system for Django-related packages that aligns the package version with the latest supported Django feature release. It provides clarity on compatibility, signaling maintenance and compatibility status through the version number while addressing limitations of traditional versioning systems like Semantic Versioning.</span>
+    
+    </p>
+
+
+<hr />
+
+<h2>📖 Articles</h2>
+
+    <p>
+    <strong><a href="https://flask.palletsprojects.com/en/stable/changes/#version-3-1-0">Flask 3.1.0 Released</a></strong>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://www.youtube.com/watch?v=O3O1z5hTdUM">Python Tutorial: Stock Trading Bot</a></strong>
+    
+        <br /><span>This tutorial teaches how to build a stock trading bot using Django and TimescaleDB, covering data extraction from APIs, analysis, and automated recommendations. It integrates Celery for background processing and demonstrates advanced database queries in Django, showcasing the power of time series data handling for various applications beyond stock market analysis.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/PacktPublishing/LLM-Engineers-Handbook">PacktPublishing / LLM-Engineers-Handbook</a></strong>
+    
+        <br /><span>The LLM's practical guide: From the fundamentals to deploying advanced LLM and RAG apps to AWS using LLMOps best practices</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pypy.org/posts/2024/11/guest-post-final-encoding-in-rpython.html">Final Encoding in RPython Interpreters</a></strong>
+    
+        <br /><span>The article discusses implementing a final encoding approach in RPython for interpreter design, focusing on a Brainf**k interpreter as an example. It explores the benefits of using final encoding over initial encoding, including potential performance improvements and a different architectural approach to building interpreters in RPython.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://jonathanadly.com/is-async-django-ready-for-prime-time">Is async django ready for prime time?</a></strong>
+    
+        <br /><span>Explore async Django's readiness for production use, its benefits, challenges, and how AI workloads can leverage its capabilities effectively.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/letta-ai/letta">letta-ai / letta</a></strong>
+    
+        <br /><span>Letta (formerly MemGPT) is a framework for creating LLM services with memory.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://pythonhub.dev/digest/2024-11-24/">Python Hub Weekly Digest for 2024-11-24</a></strong>
+    
+    </p>
+
+
+<hr />
+
+<h2>⚙️ Projects</h2>
+
+    <p>
+    <strong><a href="https://github.com/Vashkatsi/deply">Deply</a></strong>
+    
+        <br /><span>Keep your Python architecture clean.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/zycyc/LAMBDA">LAMBDA</a></strong>
+    
+        <br /><span>A local AI-powered email automation system that learns from your email style and creates draft responses for every unread email in your (Gmail) inbox.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/aigc-apps/EasyAnimate">EasyAnimate</a></strong>
+    
+        <br /><span>An End-to-End Solution for High-Resolution and Long Video Generation Based on Transformer Diffusion.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/magic-quill/MagicQuill">MagicQuill</a></strong>
+    
+        <br /><span>An Intelligent Interactive Image Editing System.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://fireducks-dev.github.io/">FireDucks</a></strong>
+    
+        <br /><span>Compiler Accelerated DataFrame Library for Python with fully-compatible pandas API.</span>
+    
+    </p>
+
+    <p>
+    <strong><a href="https://github.com/jwohlwend/boltz">boltz</a></strong>
+    
+        <br /><span>Democratizing Biomolecular Interaction Modeling.</span>
+    
+    </p>
+
+
+<hr />
+
+
+  <h2>👾 Reddits</h2>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/learnpython/comments/1gyrjjf/am_i_the_only_one_who_forgets_everyday_how_to/">Am I the only one who forgets everyday how to plot on matplotlib?</a></strong>
+      </p>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1gs05hm/pypi_now_has_attestation_thanks_i_hate_it/">PyPI now has attestation. Thanks I hate it.</a></strong>
+      </p>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1gthdpy/deply_keep_your_python_architecture_clean/">Deply: keep your python architecture clean</a></strong>
+      </p>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1gy0r1v/bagels_expense_tracker_that_lives_in_your/">Bagels - Expense tracker that lives in your terminal (TUI)</a></strong>
+      </p>
+  
+      <p>
+      <strong><a href="https://www.reddit.com/r/Python/comments/1gyoi7n/benchmark_duckdb_polars_pandas_arrow_sqlite/">Benchmark: DuckDB, Polars, Pandas, Arrow, SQLite, NanoCube on filtering / point queryies</a></strong>
+      </p>
+]]></content:encoded>
+<pubDate>Sun, 01 Dec 2024 18:00:00 +0000</pubDate>
+<pubDate>Sun, 01 Dec 2024 18:00:00 +0000</pubDate>
+</item>
 
 <item>
 <title>Python Hub Weekly Digest for 2024-11-24</title>

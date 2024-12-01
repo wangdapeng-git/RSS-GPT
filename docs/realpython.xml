@@ -4,13 +4,14 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>How to Check if a Python String Contains a Substring</title>
 <link>https://realpython.com/python-string-contains-substring/</link>
 <guid>https://realpython.com/python-string-contains-substring/</guid>
 <content:encoded><![CDATA[
 <div> Python, substring, in operator, case sensitivity, regular expressions  
-总结:<br><br>本文介绍了如何使用Python中的in操作符来检查一个字符串是否包含另一个子字符串。通过转换输入文本为小写，可以消除大小写敏感性。还介绍了.count()方法用于计算子字符串出现的次数，.index()方法找到第一个出现的位置。此外，还介绍了re模块中的正则表达式以及pandas中的.str.contains()方法用于更复杂的子字符串搜索。这些方法和工具可以有效地在Python字符串中检查子字符串，满足不同需求，从简单检查到复杂数据分析。 <div>
+总结:<br /><br />本文介绍了如何使用Python中的in操作符来检查一个字符串是否包含另一个子字符串。通过转换输入文本为小写，可以消除大小写敏感性。还介绍了.count()方法用于计算子字符串出现的次数，.index()方法找到第一个出现的位置。此外，还介绍了re模块中的正则表达式以及pandas中的.str.contains()方法用于更复杂的子字符串搜索。这些方法和工具可以有效地在Python字符串中检查子字符串，满足不同需求，从简单检查到复杂数据分析。 <div>
 <div><p>To check if a string contains another string in Python, use the <code>in</code> <a href="https://realpython.com/python-in-operator/">membership operator</a>. This is the recommended method for confirming the presence of a <a href="https://en.wikipedia.org/wiki/Substring">substring</a> within a string. The <code>in</code> operator is intuitive and readable, making it a straightforward way to evaluate substring existence.</p>
 <p>Additionally, you can use string methods like <code>.count()</code> and <code>.index()</code> to gather more detailed information about substrings, such as their frequency and position. For more complex substring searches, use regular expressions with the <code>re</code> module. When you’re dealing with tabular data, then <a href="https://realpython.com/learning-paths/pandas-data-science/">pandas</a> provides efficient tools for searching for substrings within DataFrame columns.</p>
 <p><strong>By the end of this tutorial, you’ll understand that:</strong></p>
@@ -176,7 +177,6 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-12-01T14:00:00+00:00</pubDate>
 </item>
 <item>
@@ -346,10 +346,8 @@ Python中，异常是指在语法正确的代码执行过程中发生错误时�
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-12-01T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Python's F-String for String Interpolation and Formatting</title>
 <link>https://realpython.com/python-f-strings/</link>
