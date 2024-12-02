@@ -30864,3 +30864,15 @@ Filter: [蓝屏伪装者--bsod1.3（不切换输入法）](https://www.52pojie.c
 Filter: [高德车机版8.1悬浮共存版，高清红绿灯读秒](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1983409)
 append_entries: 4
 Finish: 2024-12-02 12:26:37.122536
+------------------------------------------------------
+Started: 2024-12-02 14:13:06.296406
+Existing_entries: 1004
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Filter: [彩票查询1.1](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1987474)
+Filter: [网络检测工具InternetTest v8.7.0.2411 单文件版，支持查询IP/DNS、WIFI密码恢复](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1987350)
+Filter: [文件搜索利器 Everything v1.5.0.1385a 绿色汉化版（整合插件）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1986619)
+Filter: [谷歌相机 8.4版本](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1986473)
+Filter: [蓝屏伪装者--bsod1.3（不切换输入法）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1985391)
+Filter: [高德车机版8.1悬浮共存版，高清红绿灯读秒](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1983409)
+append_entries: 0
+Finish: 2024-12-02 14:13:13.383809
