@@ -4,6 +4,87 @@
 <title>吾爱破解 - 52pojie.cn - 导读 - 最新热门</title>
 <link>https://www.52pojie.cn/forum.php?mod=guide&amp;view=hot</link>
 
+<item>
+<title>超星网页字体解密</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1987108</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1987108</guid>
+<content:encoded><![CDATA[
+
+[md]右键网页检查
+
+![右键网页检查](https://blog.ittoolman.com/usr/uploads/2024/11/4010382065.png)
+
+搜索页面和这个相关的从而定位到引入文件
+
+![定位到引入文件](https://blog.ittoolman.com/usr/uploads/2024/11/4042939915.png)
+
+查找，一眼Base64编码的 ...
+]]></content:encoded>
+<pubDate>Sat, 30 Nov 2024 14:11:05 +0000</pubDate>
+<pubDate>Sat, 30 Nov 2024 14:11:05 +0000</pubDate>
+</item>
+<item>
+<title>【JS逆向】某茄小说逆向分析</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1986969</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1986969</guid>
+<content:encoded><![CDATA[
+
+[md]**逆向目标**
+
+- 网址：`aHR0cHM6Ly9mYW5xaWVub3ZlbC5jb20vcmVhZGVyLzczOTIxNjQxOTgzNzA3ODc4NjU=`
+- 目标：成功拿到文章内容
+
+**抓包分析**
+
+首先点击下一章，发起一个请求，本篇文章主要讲字体反爬，查询参 ...
+]]></content:encoded>
+<pubDate>Sat, 30 Nov 2024 04:38:22 +0000</pubDate>
+<pubDate>Sat, 30 Nov 2024 04:38:22 +0000</pubDate>
+</item>
+<item>
+<title>小学数学出题器专治小学生 已更新1.2版本</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1984837</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1984837</guid>
+<content:encoded><![CDATA[
+
+2024/11/28已更新
+苍小虎小学数学出题器1.2
+
+
+蓝奏自取
+https://wwjb.lanzouv.com/ilurK2ghu3dc
+
+本程序是用Python编写，pyinstaller打包。
+如果运行有报毒，那是误杀，用virscan在线扫描也有一个误杀的。
+放心的就用，不放心的那就不用吧。
+
+52pojie. ...
+]]></content:encoded>
+<pubDate>Sat, 23 Nov 2024 09:57:49 +0000</pubDate>
+<pubDate>Sat, 23 Nov 2024 09:57:49 +0000</pubDate>
+</item>
+<item>
+<title>打造全自动的 Windows 文件管理 DropIt v8.5.1</title>
+<link>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1984522</link>
+<guid>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1984522</guid>
+<content:encoded><![CDATA[
+
+软件信息
+
+
+[*]DropIt v8.5.1
+[*]http://www.dropitproject.com/index.php
+[*]官网提供安装版、便携版、源码，自带简中
+
+
+
+功能介绍
+
+通过过滤文件（按名称、目录、大小、日期、属性、内容、正则表达式）定 ...
+]]></content:encoded>
+<pubDate>Fri, 22 Nov 2024 08:04:14 +0000</pubDate>
+<pubDate>Fri, 22 Nov 2024 08:04:14 +0000</pubDate>
+</item>
 
 <item>
 <title>DriverEasy_v6.1.1.29776丨一款比较轻便的驱动更新程序</title>

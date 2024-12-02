@@ -15742,3 +15742,10 @@ Fetching from https://rsshub.app/deeplearning/thebatch
 Fetch failed from https://rsshub.app/deeplearning/thebatch
 append_entries: 0
 error when rendering xml, skip docs/deeplearning.ai
+------------------------------------------------------
+Started: 2024-12-02 08:19:13.413694
+Existing_entries: 36
+Fetching from https://rsshub.app/deeplearning/thebatch
+Fetch failed from https://rsshub.app/deeplearning/thebatch
+append_entries: 0
+error when rendering xml, skip docs/deeplearning.ai

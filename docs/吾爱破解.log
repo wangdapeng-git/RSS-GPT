@@ -30824,3 +30824,17 @@ Filter: [蓝屏伪装者--bsod1.0](https://www.52pojie.cn/forum.php?mod=viewthre
 Filter: [【更新】梦绘界 漫画软件去除签名校验+解锁](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1985122)
 append_entries: 0
 Finish: 2024-12-02 06:19:43.928760
+------------------------------------------------------
+Started: 2024-12-02 08:18:39.291146
+Existing_entries: 1000
+Fetching from https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+Append: [超星网页字体解密](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1987108)
+Append: [【JS逆向】某茄小说逆向分析](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1986969)
+Filter: [蓝屏伪装者--bsod1.3（不切换输入法）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1985391)
+Filter: [某款大*无人机ID和飞行状态无线基带信号破解提取和伪造方法初步研究](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1985235)
+Append: [小学数学出题器专治小学生 已更新1.2版本](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1984837)
+Filter: [光影魔术手v0.2.5安卓版](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1984626)
+Append: [打造全自动的 Windows 文件管理 DropIt v8.5.1](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1984522)
+Filter: [小白提词器 v1.4.1.0 —— AI 提词转录助手，支持悬浮及音视频转文字（可离线）](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1983644)
+append_entries: 4
+Finish: 2024-12-02 08:18:42.693009
