@@ -13510,3 +13510,9 @@ Summarized using GPT-3.5-turbo
 Append: [A case for donating to AI risk reduction (including if you work in AI)](https://www.lesswrong.com/posts/HT6H3h5Htq93aZFCk/a-case-for-donating-to-ai-risk-reduction-including-if-you)
 append_entries: 1
 Finish: 2024-12-03 04:17:45.262701
+------------------------------------------------------
+Started: 2024-12-03 06:20:31.777733
+Existing_entries: 438
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-12-03 06:20:32.652969
