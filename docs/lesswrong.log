@@ -13480,3 +13480,18 @@ Existing_entries: 434
 Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
 append_entries: 0
 Finish: 2024-12-02 22:13:25.453415
+------------------------------------------------------
+Started: 2024-12-03 01:04:02.943948
+Existing_entries: 434
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 1557
+Summarized using GPT-3.5-turbo
+Append: [2024 Unofficial LessWrong Census/Survey](https://www.lesswrong.com/posts/XmbmHRYPMWHTYdaHW/2024-unofficial-lesswrong-census-survey)
+Token length: 6642
+Summarized using GPT-3.5-turbo
+Append: [Drexler's Nanotech Software](https://www.lesswrong.com/posts/cKucz3rQvrbxoeq4o/drexler-s-nanotech-software)
+Token length: 74188
+Summarized using GPT-3.5-turbo
+Append: [(The) Lightcone is nothing without its people: LW + Lighthaven's big fundraiser](https://www.lesswrong.com/posts/5n2ZQcbc7r4R8mvqc/the-lightcone-is-nothing-without-its-people)
+append_entries: 3
+Finish: 2024-12-03 01:04:11.713418
