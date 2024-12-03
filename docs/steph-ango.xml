@@ -4,6 +4,34 @@
 <title>Steph Ango</title>
 <link>https://stephango.com/</link>
 
+<item>
+<title>Self-guaranteeing promises</title>
+<link>https://stephango.com/self-guarantee</link>
+<guid>https://stephango.com/self-guarantee</guid>
+<content:encoded><![CDATA[
+<div> 文件，不可撤销，隐私，未来，开源 <br>
+<br>总结: 本文指出了公司常常不兑现承诺，但自我保证的承诺不需要信任他人，可以自行验证。例如，文件在您控制下且为开放格式，可在任何应用中使用相同文件。隐私的自我保证承诺可为您提供数据无法访问的证据。尽管工具的未来充满不确定性，选择那些做出自我保证承诺的工具可以帮助您接受这种不确定性。 <div>
+<p>Companies break promises all the time. A self-guaranteeing promise does not require you to trust anyone. You can verify a self-guaranteeing promise yourself.</p>
+
+<p><a class="internal-link" href="/file-over-app">File over app</a> is a self-guaranteeing promise. If files are in your control, in an open format, you can use those files in another app at any time. Not an export. The exact same files. It’s good practice to test this with any self-proclaimed file-over-app app you use.</p>
+
+<p>“Stainless steel” is a self-guaranteeing promise. You can test it yourself on any tool that makes this promise, and the stainlessness of the steel cannot be withdrawn.</p>
+
+<p>Terms and policies are not self-guaranteeing. A company may promise the privacy of your data, but those policies can change at any time. Changes can retroactively affect data you have spent years putting into the tool. Examples: <a href="https://x.com/kepano/status/1682829662370557952">Google</a>, <a href="https://x.com/kepano/status/1688606865058574339">Zoom</a>, <a href="https://x.com/kepano/status/1735032935336829230">Dropbox</a>, <a href="https://x.com/kepano/status/1762864738499952756">Tumblr</a>, <a href="https://x.com/kepano/status/1791266503456907554">Slack</a>, <a href="https://x.com/kepano/status/1798459810981220621">Adobe</a>, <a href="https://x.com/kepano/status/1808167319694368999">Figma</a>.</p>
+
+<p>A self-guaranteeing promise about privacy gives you proof that the tool cannot access your data in the first place.</p>
+
+<p>Encoding values into a governance structure is not self-guaranteeing. Given enough motivation, the corporate structure can be reversed. The structure is not in your hands. Example: <a href="https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI">OpenAI</a>.</p>
+
+<p>Open source <em>alone</em> is not self-guaranteeing. Even open source apps can rely on data that is stuck in databases or in proprietary formats that are difficult to switch away from. Open source is not a reliable safeguard against the biases of <a class="internal-link" href="/vcware">venture capital</a>. Examples: <a href="https://x.com/kepano/status/1851555417165598790">Omnivore</a>, <a href="https://news.ycombinator.com/item?id=39396130">Skiff</a>.</p>
+
+<p>When you choose a tool, the future of that tool is always ambiguous. On a long enough timeline the substrate changes. Your needs change, the underlying operating system changes, the company goes out of business or gets acquired, better options come along.</p>
+
+<p>It is possible to accept the ambiguousness of a tool’s future if you choose tools that make self-guaranteeing promises.</p>
+]]></content:encoded>
+
+<pubDate>2024-12-03T00:00:00+00:00</pubDate>
+</item>
 
 <item>
 <title>What can we remove?</title>
