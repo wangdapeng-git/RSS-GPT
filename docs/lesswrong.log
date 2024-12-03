@@ -13495,3 +13495,9 @@ Summarized using GPT-3.5-turbo
 Append: [(The) Lightcone is nothing without its people: LW + Lighthaven's big fundraiser](https://www.lesswrong.com/posts/5n2ZQcbc7r4R8mvqc/the-lightcone-is-nothing-without-its-people)
 append_entries: 3
 Finish: 2024-12-03 01:04:11.713418
+------------------------------------------------------
+Started: 2024-12-03 03:01:16.436701
+Existing_entries: 437
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+append_entries: 0
+Finish: 2024-12-03 03:01:17.472070
