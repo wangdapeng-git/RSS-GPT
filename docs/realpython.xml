@@ -4,6 +4,7 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Handling or Preventing Errors in Python: LBYL vs EAFP</title>
 <link>https://realpython.com/courses/handling-preventing-errors-lbyl-eafp/</link>
@@ -11,7 +12,7 @@
 <content:encoded><![CDATA[
 <div> Python, LBYL, EAFP, coding styles, errors
 
-防患于未然（LBYL）和宁可请求宽恕（EAFP）是处理错误和异常情况的两种常见策略。学习Python的LBYL和EAFP编码风格，能帮助你在代码中决定何时使用哪种策略和编码风格。本视频课程将教你如何在Python代码中使用LBYL和EAFP风格，理解LBYL和EAFP的优缺点，并决定何时使用LBYL或EAFP。<br><br>总结: 本视频课程将教你如何在Python代码中使用LBYL和EAFP风格，理解LBYL和EAFP的优缺点，并决定何时使用LBYL或EAFP。 <div>
+防患于未然（LBYL）和宁可请求宽恕（EAFP）是处理错误和异常情况的两种常见策略。学习Python的LBYL和EAFP编码风格，能帮助你在代码中决定何时使用哪种策略和编码风格。本视频课程将教你如何在Python代码中使用LBYL和EAFP风格，理解LBYL和EAFP的优缺点，并决定何时使用LBYL或EAFP。<br /><br />总结: 本视频课程将教你如何在Python代码中使用LBYL和EAFP风格，理解LBYL和EAFP的优缺点，并决定何时使用LBYL或EAFP。 <div>
 <p>Dealing with errors and exceptional situations is a common requirement in programming. You can either <em>prevent errors</em> before they happen or <em>handle errors</em> after they&rsquo;ve happened. In general, you&rsquo;ll have two coding styles matching these strategies: <strong>look before you leap</strong> (LBYL), and <strong>easier to ask forgiveness than permission</strong> (EAFP), respectively. In this video course, you&rsquo;ll dive into the questions and considerations surrounding LBYL vs EAFP in Python.</p>
 <p>By learning about Python&rsquo;s LBYL and EAFP coding styles, you&rsquo;ll be able to decide which strategy and coding style to use when you&rsquo;re dealing with errors in your code.</p>
 <p><strong>In this video course, you&rsquo;ll learn how to:</strong></p>
@@ -23,10 +24,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-12-03T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Basic Input and Output in Python</title>
 <link>https://realpython.com/python-input-output/</link>
