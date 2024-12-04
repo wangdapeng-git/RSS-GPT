@@ -13573,3 +13573,12 @@ Summarized using GPT-3.5-turbo
 Append: [Should there be just one western AGI project?](https://www.lesswrong.com/posts/wBTNkfukMsmjtgcnW/should-there-be-just-one-western-agi-project)
 append_entries: 1
 Finish: 2024-12-04 01:04:06.810740
+------------------------------------------------------
+Started: 2024-12-04 02:59:51.747864
+Existing_entries: 439
+Fetching from https://www.lesswrong.com/feed.xml?view=frontpage-rss&karmaThreshold=50
+Token length: 83468
+Summarized using gpt-3.5-turbo-16k
+Append: [Deep Causal Transcoding: A Framework for Mechanistically Eliciting Latent Behaviors in Language Models](https://www.lesswrong.com/posts/fSRg5qs9TPbNy3sm5/deep-causal-transcoding-a-framework-for-mechanistically)
+append_entries: 1
+Finish: 2024-12-04 03:00:01.926061
