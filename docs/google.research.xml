@@ -4,6 +4,20 @@
 <title>Blog  – Google Research</title>
 <link>https://research.google/blog/</link>
 
+<item>
+<title>Extending video masked autoencoders to 128 frames</title>
+<link>https://storage.googleapis.com/gweb-research2023-media/original_images/LongVidMAE-1-PreTraining.png</link>
+<guid>https://storage.googleapis.com/gweb-research2023-media/original_images/LongVidMAE-1-PreTraining.png</guid>
+<content:encoded><![CDATA[
+<div> 关键词: 文章 总结 关键词 中文 换行  
+
+总结:  
+文章中介绍了如何用关键词总结一篇文章，提取5个关键词后，利用换行符分行，用中文写出一个包含所有要点的简短总结。这种方法可以帮助读者更快速地了解文章的主要内容，提高阅读效率。通过提取关键词、分行排列和简洁总结，读者可以快速了解文章的主要内容，从而更好地把握文章的要点。 <div>
+
+]]></content:encoded>
+<pubDate>2024-11-27T00:00:00+00:00</pubDate>
+<pubDate>2024-12-04T18:18:47.004523+00:00</pubDate>
+</item>
 
 <item>
 <title>Unlocking the power of time-series data with multimodal models</title>
