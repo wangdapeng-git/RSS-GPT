@@ -4,6 +4,7 @@
 <title>Google DeepMind Blog</title>
 <link>https://deepmind.google/discover/blog//blog</link>
 
+
 <item>
 <title>Genie 2: A large-scale foundation world model</title>
 <link>https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/</link>
@@ -12,12 +13,9 @@
 <div> 关键词: 文章、总结、要点、输出、换行
 总结:
 文章内容涉及关键词提取，要点总结和输出格式规范。首先通过提取关键词，快速把握文章主题；其次，将关键要点按顺序整理归纳，确保信息完整全面；最后，采用换行符输出内容，保持格式清晰易读。总结应简明扼要，准确概括文章核心意义。 <div>
-
 ]]></content:encoded>
 <pubDate>Wed, 04 Dec 2024 14:23:00 GMT</pubDate>
-<pubDate>Wed, 04 Dec 2024 14:23:00 GMT</pubDate>
 </item>
-
 <item>
 <title>AlphaQubit tackles one of quantum computing’s biggest challenges</title>
 <link>https://deepmind.google/discover/blog/alphaqubit-tackles-one-of-quantum-computings-biggest-challenges/</link>

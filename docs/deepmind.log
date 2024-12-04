@@ -15300,3 +15300,9 @@ Summarized using GPT-3.5-turbo
 Append: [Genie 2: A large-scale foundation world model](https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/)
 append_entries: 1
 Finish: 2024-12-04 18:18:18.899547
+------------------------------------------------------
+Started: 2024-12-04 20:14:52.285088
+Existing_entries: 128
+Fetching from https://rsshub.app/deepmind/blog
+append_entries: 0
+Finish: 2024-12-04 20:14:52.399139

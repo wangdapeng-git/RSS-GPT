@@ -4,23 +4,22 @@
 <title>ByteByteGo Newsletter</title>
 <link>https://blog.bytebytego.com</link>
 
+
 <item>
 <title>My NEW book, Coding Interview Patterns, is now available on Amazon</title>
 <link>https://blog.bytebytego.com/p/my-new-book-coding-interview-patterns</link>
 <guid>https://blog.bytebytego.com/p/my-new-book-coding-interview-patterns</guid>
 <content:encoded><![CDATA[
-<div> 编程面试模式，书籍，解决方案，问题，图表，目标 <br>
-<br>
-解决方案，精炼，解释逻辑，图表，快速理解 <br>
-问题，101个编程面试问题，详细解决方案，实时面试感受 <br>
-问题类型，包括指针，哈希表，链表，窗口，二分，栈，堆，区间，前缀和，树，字典树，图，回溯，动态规划，贪心，排序，位运算，数学，几何学 <br>
+<div> 编程面试模式，书籍，解决方案，问题，图表，目标 <br />
+<br />
+解决方案，精炼，解释逻辑，图表，快速理解 <br />
+问题，101个编程面试问题，详细解决方案，实时面试感受 <br />
+问题类型，包括指针，哈希表，链表，窗口，二分，栈，堆，区间，前缀和，树，字典树，图，回溯，动态规划，贪心，排序，位运算，数学，几何学 <br />
 总结: 编程面试模式是一本帮助理解编程问题背后模式的书籍，提供101个问题和详细解决方案，并用1000多张图表辅助理解。每种问题类型都有对应章节，使读者能够系统学习。书中还包含面试官内部视角，帮助读者了解面试官的需求。真正做到深入浅出，帮助读者节省时间，快速掌握解决问题的逻辑。 <div>
 <p>My new book, Coding Interview Patterns, is now <a href="https://geni.us/q7svoz">available on Amazon</a>!</p><p>I&#8217;ve been working on this book for 1.5 years with my co-author, Shaun Gunawardane. </p><p>We&#8217;ve spent countless days for each problem to develop the most intuitive ways to explain the reasoning behind each solution to save you time.</p><p>Our goal is to help you understand the underlying patterns of each coding problem, so you don&#8217;t have to grind through 100s/1000s of them. </p><p>We&#8217;ve also included 1,000+ diagrams to help you quickly grasp the reasoning and logic behind a solution within 5&#8211;10 minutes. </p><p>I hope this book achieves its goal. </p><div class="captioned-image-container"><figure><a class="image-link image2" href="https://geni.us/q7svoz" target="_blank"><div class="image2-inset"><source type="image/webp" /><img alt="" class="sizing-normal" height="1941" src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8143c7ee-0295-4ff9-90d0-d30d4c8340f4_4284x5712.jpeg" width="1456" /><div></div></div></a></figure></div><h2>&#119830;&#119841;&#119834;&#119853;&#8217;&#119852; &#119842;&#119847;&#119852;&#119842;&#119837;&#119838;?</h2><p>- An insider&#8217;s perspective on what interviewers are truly looking for and why.</p><p>- 101 real coding interview problems with detailed solutions.</p><p>- Intuitive explanations that guide you through each problem as if you were solving it in a live interview.</p><p>- 1,000+ diagrams to illustrate key concepts and patterns.</p><h2>&#119827;&#119834;&#119835;&#119845;&#119838; &#119848;&#119839; &#119810;&#119848;&#119847;&#119853;&#119838;&#119847;&#119853;&#119852;</h2><p>Chapter 1: Two Pointers</p><p>Chapter 2: Hash Maps and Sets</p><p>Chapter 3: Linked Lists</p><p>Chapter 4: Fast and Slow Pointers</p><p>Chapter 5: Sliding Windows</p><p>Chapter 6: Binary Search</p><p>Chapter 7: Stacks</p><p>Chapter 8: Heaps</p><p>Chapter 9: Intervals</p><p>Chapter 10: Prefix Sums</p><p>Chapter 11: Trees</p><p>Chapter 12: Tries</p><p>Chapter 13: Graphs</p><p>Chapter 14: Backtracking</p><p>Chapter 15: Dynamic Programming</p><p>Chapter 16: Greedy</p><p>Chapter 17: Sort and Search</p><p>Chapter 18: Bit Manipulation</p><p>Chapter 19: Math and Geometry</p><p class="button-wrapper"><a class="button primary" href="https://geni.us/q7svoz"><span>Check it Out Now!</span></a></p>
 ]]></content:encoded>
 <pubDate>Wed, 04 Dec 2024 16:46:02 GMT</pubDate>
-<pubDate>Wed, 04 Dec 2024 16:46:02 GMT</pubDate>
 </item>
-
 <item>
 <title>How LinkedIn Customizes Its 7 Trillion Message Kafka Ecosystem</title>
 <link>https://blog.bytebytego.com/p/how-linkedin-customizes-its-7-trillion</link>
