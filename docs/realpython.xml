@@ -4,20 +4,21 @@
 <title>Real Python</title>
 <link>https://realpython.com/</link>
 
+
 <item>
 <title>Expression vs Statement in Python: What's the Difference?</title>
 <link>https://realpython.com/python-expression-vs-statement/</link>
 <guid>https://realpython.com/python-expression-vs-statement/</guid>
 <content:encoded><![CDATA[
-<div> expression, statement, value, side effects, Python<br>
-<br>
-1. 表达式是可以计算出一个值的语法片段，语句是代码块的一部分，可以是表达式或带有关键字构造的多种结构。<br>
-2. Python中的所有指令都属于语句，表达式也是语句的一种特殊形式，有时称为纯表达式。<br>
-3. 表达式可以被替换为其计算出的值，而语句通常会引起副作用，改变程序状态或影响外部资源。<br>
-4. 在Python中，算术、逻辑和条件表达式等都是表达式，这些表达式都有一个计算出的值。<br>
-5. 语句包括导致副作用的纯语句，如变量赋值或打印操作。大多数人在非正式情况下使用语句一词时，通常指纯语句或没有值的指令。  <br>
+<div> expression, statement, value, side effects, Python<br />
+<br />
+1. 表达式是可以计算出一个值的语法片段，语句是代码块的一部分，可以是表达式或带有关键字构造的多种结构。<br />
+2. Python中的所有指令都属于语句，表达式也是语句的一种特殊形式，有时称为纯表达式。<br />
+3. 表达式可以被替换为其计算出的值，而语句通常会引起副作用，改变程序状态或影响外部资源。<br />
+4. 在Python中，算术、逻辑和条件表达式等都是表达式，这些表达式都有一个计算出的值。<br />
+5. 语句包括导致副作用的纯语句，如变量赋值或打印操作。大多数人在非正式情况下使用语句一词时，通常指纯语句或没有值的指令。  <br />
 
-总结: <br>表达式可以计算出一个值，而语句通常引起副作用。在Python中，所有表达式都是语句的一种，但不是所有语句都是表达式。算术表达式等都是表达式，有计算出的值。语句包括具有副作用的纯语句，如变量赋值或打印操作。语句用来改变程序状态或影响外部资源。 <div>
+总结: <br />表达式可以计算出一个值，而语句通常引起副作用。在Python中，所有表达式都是语句的一种，但不是所有语句都是表达式。算术表达式等都是表达式，有计算出的值。语句包括具有副作用的纯语句，如变量赋值或打印操作。语句用来改变程序状态或影响外部资源。 <div>
 <div><p>After working with Python for a while, you’ll eventually come across two seemingly similar terms: <strong>expression</strong> and <strong>statement</strong>. When you browse the official documentation or dig through a Python-related thread on an online forum, you may get the impression that people use these terms interchangeably. That’s often true, but confusingly enough, there are cases when the expression vs statement distinction becomes important.</p>
 <p>So, what’s the difference between expressions and statements in Python?</p>
 <div class="alert alert-warning">
@@ -137,10 +138,8 @@
         <hr />
         <p><em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]</em></p>
 ]]></content:encoded>
-
 <pubDate>2024-12-04T14:00:00+00:00</pubDate>
 </item>
-
 <item>
 <title>Handling or Preventing Errors in Python: LBYL vs EAFP</title>
 <link>https://realpython.com/courses/handling-preventing-errors-lbyl-eafp/</link>
